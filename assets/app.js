@@ -289,15 +289,17 @@ function balance() {
 }
 
 /* ---------- Einkauf ---------- */
+function shopDays() { const w = week(); const sel = Array.isArray(w.shopDays) ? w.shopDays.filter(i => i >= 0 && i < 7) : null; return sel && sel.length ? sel : null; }
+function shopDaysText() { const sel = shopDays(); return sel ? sel.slice().sort().map(i => WDS[i]).join(', ') : 'ganze Woche'; }
 function shoppingItems() {
-  const w = week(); const st = S.settings; const P = portions(); const map = new Map();
+  const w = week(); const st = S.settings; const P = portions(); const map = new Map(); const sel = shopDays();
   const add = (ing, q, dayIdx, own) => {
     const key = ing.n + '|' + ing.u; let it = map.get(key);
     if (!it) { it = { key, n: ing.n, u: ing.u, c: ing.c || 'vorrat', p: !!ing.p, q: 0, days: new Set(), hint: ing.hint, own: false }; map.set(key, it); }
     it.q += q; if (dayIdx != null) it.days.add(dayIdx); if (own) it.own = true;
   };
   w.days.forEach((d, i) => {
-    const r = R(d.id); if (!r) return;
+    const r = R(d.id); if (!r || (sel && !sel.includes(i))) return;
     r.ing.forEach(ing => add(ing, ing.q * P, i));
     (d.extras || []).forEach(e => { const x = EXTRAS[e]; if (x) add(x, x.q * (st.adults / 2), i); });
     if (st.kidMode !== 'familie') { const k = kidFor(i); const nk = eatingKids().length; if (k && nk) k.ing.forEach(ing => add(ing, ing.q * nk, i)); }
@@ -306,7 +308,7 @@ function shoppingItems() {
   return Array.from(map.values());
 }
 function shoppingText() {
-  const items = shoppingItems(); const w = week(); const lines = ['Einkaufsliste · KW ' + isoWeek(curMon) + ' (' + fmtRange(curMon) + ')', ''];
+  const items = shoppingItems(); const w = week(); const lines = ['Einkaufsliste · KW ' + isoWeek(curMon) + ' (' + fmtRange(curMon) + ') · ' + shopDaysText(), ''];
   CATEGORY_ORDER.forEach(c => {
     const list = items.filter(i => i.c === c && (!i.p || S.settings.showPantry)); if (!list.length) return;
     lines.push(CATEGORY_LABEL[c].toUpperCase());
@@ -762,8 +764,12 @@ function renderEinkauf() {
   const w = week(); const st = S.settings; const items = shoppingItems();
   const main = items.filter(i => !i.p); const done = main.filter(i => w.checked.includes(i.key)).length;
   $('#einkauf-head').innerHTML =
-    '<div class="row between"><div><h2>Einkaufsliste</h2><p class="muted small">' + esc(portionsText()) + (st.kidMode !== 'familie' && eatingKids().length ? ' · Kindergerichte für ' + eatingKids().length + (eatingKids().length === 1 ? ' Kind' : ' Kinder') + ' enthalten' : '') + '</p></div>' +
+    '<div class="row between"><div><h2>Einkaufsliste</h2><p class="muted small">Einkauf für: <b>' + esc(shopDaysText()) + '</b> · ' + esc(portionsText()) + (st.kidMode !== 'familie' && eatingKids().length ? ' · Kindergerichte für ' + eatingKids().length + (eatingKids().length === 1 ? ' Kind' : ' Kinder') + ' enthalten' : '') + '</p></div>' +
     '<div class="row"><span class="chip ' + (done === main.length && main.length ? 'brand' : '') + ' num">' + done + ' / ' + main.length + ' erledigt</span></div></div>' +
+    (function () { const sel = shopDays(); return '<div class="panel soft" style="margin-top:12px;padding:12px"><div class="eyebrow">Für welche Tage einkaufen?</div><div class="chips" style="margin-top:8px">' +
+      '<button type="button" class="chip pick" data-act="shopall" aria-pressed="' + !sel + '">Ganze Woche</button>' +
+      WD.map((n, i) => { const r = R(w.days[i].id); const on = sel ? sel.includes(i) : false; return '<button type="button" class="chip pick" data-act="shopday" data-i="' + i + '" aria-pressed="' + on + '" title="' + (r ? esc(r.name) : '') + '">' + WDS[i] + (r ? ' · ' + esc(r.name.split(' · ')[0].slice(0, 18)) : '') + '</button>'; }).join('') +
+      '</div><p class="tiny" style="margin-top:6px">Tage antippen, dann stehen nur deren Zutaten auf der Liste. Eigene Einträge bleiben immer.</p></div>'; })() +
     '<div class="row" style="margin-top:12px">' +
     '<button type="button" class="btn sm" data-act="copyshop">' + ICON.copy + ' Als Text kopieren</button>' +
     (IS_ARTIFACT ? '' : '<button type="button" class="btn sm" data-act="print">' + ICON.print + ' Drucken</button>') +
@@ -943,6 +949,8 @@ document.addEventListener('click', e => {
     case 'copyshop': copyText(shoppingText(), 'Einkaufsliste kopiert'); break;
     case 'print': try { window.print(); } catch (err) {} break;
     case 'hidedone': st.hideDone = !st.hideDone; save(); renderEinkauf(); break;
+    case 'shopall': w.shopDays = null; save(); renderEinkauf(); renderHeader(); break;
+    case 'shopday': { const sel = shopDays(); let next; if (!sel) next = [i]; else next = sel.includes(i) ? sel.filter(x => x !== i) : sel.concat(i); w.shopDays = next.length ? next : null; save(); renderEinkauf(); renderHeader(); break; }
     case 'showpantry': st.showPantry = !st.showPantry; save(); renderEinkauf(); break;
     case 'uncheck': w.checked = []; save(); render(); break;
     case 'rmown': w.own = (w.own || []).filter(o => (o.n + '|' + o.u) !== el.dataset.key); save(); render(); break;
