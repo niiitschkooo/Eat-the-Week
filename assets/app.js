@@ -900,7 +900,7 @@ function renderFeinplanung() {
     '<div class="panel"><div class="eyebrow">Daten</div><h3 style="margin-top:4px">Sichern und zurücksetzen</h3><p class="help">Alles bleibt in diesem Browser. Mit „Kopieren“ bekommt ihr einen Text, den ihr auf einem anderen Gerät einlesen könnt.</p>' +
     '<div class="row" style="margin-top:10px"><button type="button" class="btn sm" data-act="export">' + ICON.copy + ' Daten kopieren</button><button type="button" class="btn sm" data-act="importshow">Daten einlesen</button><button type="button" class="btn sm danger" data-act="reset">' + (renderFeinplanung.confirm ? 'Wirklich alles löschen?' : 'Alles zurücksetzen') + '</button></div>' +
     '<div id="import-box" ' + (renderFeinplanung.showImport ? '' : 'hidden') + ' style="margin-top:10px"><textarea id="import-text" placeholder="Hier den kopierten Text einfügen"></textarea><button type="button" class="btn sm primary" style="margin-top:6px" data-act="import">Einlesen</button></div>' +
-    '<p class="tiny" style="margin-top:10px">' + RECIPES.length + ' Familiengerichte · ' + KIDS.length + ' Kindergerichte · Woche KW ' + isoWeek(curMon) + '</p></div>';
+    '<p class="tiny" style="margin-top:10px">' + RECIPES.length + ' Familiengerichte · ' + KIDS.length + ' Kindergerichte · Woche KW ' + isoWeek(curMon) + ' · Version ' + esc((document.querySelector('meta[name="app-version"]') || {}).content || '') + ' <button type="button" class="btn sm ghost" data-act="reload">Auf Aktualisierung prüfen</button></p><p class="tiny">Die App lädt bei jedem Öffnen die neueste Version vom Server und startet dank Offline-Speicher auch ohne Netz.</p></div>';
 }
 
 function renderWissen() {
@@ -1007,6 +1007,7 @@ document.addEventListener('click', e => {
     case 'import': { try { const obj = JSON.parse($('#import-text').value); if (!obj || !obj.settings) throw new Error('x'); S = deepMerge(JSON.parse(JSON.stringify(DEFAULTS)), obj); save(); applyTheme(); renderFeinplanung.showImport = false; toast('Daten eingelesen'); render(); } catch (err) { toast('Das war kein gültiger Datentext'); } break; }
     case 'reset': { if (!renderFeinplanung.confirm) { renderFeinplanung.confirm = true; renderFeinplanung(); setTimeout(() => { renderFeinplanung.confirm = false; if (S.view === 'feinplanung') renderFeinplanung(); }, 4000); } else { renderFeinplanung.confirm = false; try { localStorage.removeItem(LS); } catch (err) {} S = JSON.parse(JSON.stringify(DEFAULTS)); S.view = 'feinplanung'; applyTheme(); render(); toast('Alles zurückgesetzt'); } break; }
     case 'closepicker': $('#picker').close(); break;
+    case 'reload': { toast('Lade neu …'); try { if (navigator.serviceWorker && navigator.serviceWorker.getRegistration) navigator.serviceWorker.getRegistration().then(r => r && r.update()).catch(() => {}); } catch (err) {} setTimeout(() => location.reload(), 300); break; }
     case 'pickermore': fillPicker(true); break;
     case 'cook': openCook(i); break;
     case 'cookclose': closeCook(); break;
@@ -1072,6 +1073,8 @@ window.addEventListener('hashchange', () => { const v = location.hash.slice(1); 
 
 /* ---------- Start ---------- */
 document.documentElement.lang = 'de';
+(function () { const m = document.querySelector('meta[name="app-version"]'); const el = $('#app-version'); if (m && el) el.textContent = 'Stand ' + m.content; })();
+if (!IS_ARTIFACT && 'serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost' || location.hostname === '127.0.0.1')) { window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js').catch(() => {}); }); }
 applyTheme();
 { const v = location.hash.slice(1); if (VIEWS.includes(v)) S.view = v; else if (!VIEWS.includes(S.view)) S.view = 'woche'; }
 render();

@@ -441,6 +441,7 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: s
 }
 
 /* Kochmodus */
+footer .btn.sm.ghost { min-height: 26px; padding: 2px 8px; font-size: .78rem; }
 .cook { position: fixed; inset: 0; z-index: 60; background: var(--bg); color: var(--ink); display: grid; grid-template-rows: auto 1fr auto; grid-template-columns: minmax(0, 1fr); overflow: hidden; padding-top: env(safe-area-inset-top, 0px); }
 .cook > * { min-width: 0; }
 .cook-head { display: flex; align-items: center; gap: 10px; padding: 8px var(--gutter-r) 8px var(--gutter-l); border-bottom: 1px solid var(--line); background: var(--surface); }
