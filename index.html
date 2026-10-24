@@ -176,17 +176,23 @@
 
 <dialog class="picker" id="picker" aria-label="Gericht wählen">
   <div class="picker-head">
-    <input type="search" id="picker-q" placeholder="Gericht, Land oder Zutat suchen" aria-label="Suchen">
+    <input type="search" id="picker-q" placeholder="Suchen: Gericht, Land, Zutat, auch mehrere Wörter" aria-label="Suchen">
     <select id="picker-land" data-act="pickerland" aria-label="Land"></select>
     <span class="tiny num" id="picker-count"></span>
     <button type="button" class="btn icon sm ghost" data-act="closepicker" aria-label="Schließen">✕</button>
   </div>
-  <div class="gutter" style="padding-top:10px"><div class="seg" id="picker-prot">
+  <div class="picker-filters"><div class="seg" id="picker-prot">
     <button type="button" data-act="pickerprot" data-v="alle" aria-pressed="true">Alle</button>
     <button type="button" data-act="pickerprot" data-v="pflanzlich" aria-pressed="false">Pflanzlich</button>
     <button type="button" data-act="pickerprot" data-v="fisch" aria-pressed="false">Fisch</button>
     <button type="button" data-act="pickerprot" data-v="fleisch" aria-pressed="false">Fleisch</button>
-    <button type="button" data-act="pickerprot" data-v="schnell" aria-pressed="false">≤ 20 Min.</button>
+  </div>
+  <div class="seg" id="picker-time" style="margin-left:8px" aria-label="Höchstens Minuten">
+    <button type="button" data-act="pickertime" data-v="0" aria-pressed="true">Jede Dauer</button>
+    <button type="button" data-act="pickertime" data-v="15" aria-pressed="false">≤ 15</button>
+    <button type="button" data-act="pickertime" data-v="20" aria-pressed="false">≤ 20</button>
+    <button type="button" data-act="pickertime" data-v="30" aria-pressed="false">≤ 30</button>
+    <button type="button" data-act="pickertime" data-v="45" aria-pressed="false">≤ 45 Min.</button>
   </div></div>
   <div class="picker-list" id="picker-list"></div>
 </dialog>

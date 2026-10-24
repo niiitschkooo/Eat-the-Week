@@ -890,15 +890,17 @@ function openPicker(i) {
 }
 function fillPicker(more) {
   const dlg = $('#picker'); const i = Number(dlg.dataset.i); const st = S.settings; const q = $('#picker-q').value.trim().toLowerCase(); const w = week(); const used = new Set(w.days.map(d => d.id));
-  const f = fillPicker.state || (fillPicker.state = { land: '', prot: 'alle', limit: 60 }); if (!more) f.limit = 60; else f.limit += 60;
+  const f = fillPicker.state || (fillPicker.state = { land: '', prot: 'alle', time: 0, limit: 60 }); if (!more) f.limit = 60; else f.limit += 60;
   const landSel = $('#picker-land'); if (landSel && !landSel.options.length) landSel.innerHTML = '<option value="">Alle Länder</option>' + countries().map(c => '<option value="' + esc(c.name) + '">' + c.flag + ' ' + esc(c.name) + '</option>').join('');
   let list = RECIPES.filter(r => !hardIssues(r, st).length);
   if (f.land) list = list.filter(r => r.cuisine === f.land);
-  if (f.prot === 'pflanzlich') list = list.filter(plantBased); else if (f.prot === 'fisch') list = list.filter(r => r.protein === 'fisch'); else if (f.prot === 'fleisch') list = list.filter(isMeat); else if (f.prot === 'schnell') list = list.filter(r => r.time.a + r.time.c <= 20);
-  if (q) list = list.filter(r => (r.name + ' ' + r.cuisine + ' ' + r.veg.join(' ') + ' ' + PROTEIN_LABEL[r.protein] + ' ' + (r.kidName || '')).toLowerCase().includes(q));
-  list.sort((a, b) => softIssues(a, st, i).length - softIssues(b, st, i).length || a.name.localeCompare(b.name, 'de'));
+  if (f.prot === 'pflanzlich') list = list.filter(plantBased); else if (f.prot === 'fisch') list = list.filter(r => r.protein === 'fisch'); else if (f.prot === 'fleisch') list = list.filter(isMeat);
+  if (f.time) list = list.filter(r => r.time.a + r.time.c <= f.time);
+  if (q) { const terms = q.split(/\s+/).filter(Boolean); list = list.filter(r => { const hay = (r.name + ' ' + r.cuisine + ' ' + r.veg.join(' ') + ' ' + r.ing.map(x => x.n).join(' ') + ' ' + PROTEIN_LABEL[r.protein] + ' ' + (r.kidName || '') + ' ' + r.method).toLowerCase(); return terms.every(t => hay.includes(t)); }); }
+  list.sort((a, b) => softIssues(a, st, i).length - softIssues(b, st, i).length || (f.time ? (a.time.a + a.time.c) - (b.time.a + b.time.c) : 0) || a.name.localeCompare(b.name, 'de'));
   $$('#picker-prot button').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === f.prot));
-  $('#picker-list').innerHTML = (list.slice(0, f.limit).map(r => { const si = softIssues(r, st, i); return '<button type="button" class="alt" data-act="take" data-i="' + i + '" data-id="' + r.id + '">' + plateSVG(r) + '<span><b>' + esc(r.name) + '</b><small>' + r.flag + ' ' + esc(r.cuisine) + ' · ' + (r.time.a + r.time.c) + ' Min. · ' + PROTEIN_LABEL[r.protein] + (used.has(r.id) ? ' · schon in dieser Woche' : '') + '</small></span><span class="chips">' + (si.length ? chip('~ ' + esc(si[0]), 'warn') : '') + (S.favorites.includes(r.id) ? chip(ICON.heart, 'brand') : '') + '</span></button>'; }).join('') || '<p class="muted">Nichts gefunden.</p>') +
+  $$('#picker-time button').forEach(b => b.setAttribute('aria-pressed', Number(b.dataset.v) === f.time));
+  $('#picker-list').innerHTML = (list.slice(0, f.limit).map(r => { const si = softIssues(r, st, i); return '<button type="button" class="alt" data-act="take" data-i="' + i + '" data-id="' + r.id + '">' + plateSVG(r) + '<span><b>' + esc(r.name) + '</b><small>' + r.flag + ' ' + esc(r.cuisine) + ' · ' + (r.time.a + r.time.c) + ' Min. · ' + PROTEIN_LABEL[r.protein] + (used.has(r.id) ? ' · schon in dieser Woche' : '') + '</small></span><span class="chips">' + (si.length ? chip('~ ' + esc(si[0]), 'warn') : '') + (S.favorites.includes(r.id) ? chip(ICON.heart, 'brand') : '') + '</span></button>'; }).join('') || '<p class="muted">Nichts gefunden. ' + (f.time && f.time <= 15 ? 'Unter 15 Minuten gibt es fast nichts (Vorbereitung plus Garzeit). Probiere „≤ 20“ oder „≤ 30“.' : 'Zeitgrenze lockern, anderes Wort oder nur einen Begriff probieren.') + '</p>') +
     (list.length > f.limit ? '<button type="button" class="btn sm" data-act="pickermore">Mehr anzeigen (' + (list.length - f.limit) + ' weitere)</button>' : '');
   $('#picker-count').textContent = list.length + ' Gerichte';
   setTimeout(hydratePhotos, 0);
@@ -969,6 +971,7 @@ document.addEventListener('click', e => {
     case 'copylines': { const sc = el.dataset.scope; const items = sc === 'week' ? openItems() : missingItems(dayItems(Number(sc.split(':')[1]))); copyText(linesFor(items).join('\n'), 'Liste kopiert: in Erinnerungen einfügen, je Zeile eine Erinnerung'); break; }
     case 'remind': { setTimeout(() => toast('Kurzbefehl „' + SHORTCUT_NAME + '“ wird gestartet. Nichts passiert? Dann Weg 1: kopieren und einfügen.'), 300); break; }
     case 'pickerprot': fillPicker.state.prot = el.dataset.v; fillPicker(); break;
+    case 'pickertime': fillPicker.state.time = Number(el.dataset.v); fillPicker(); break;
     case 'landreg': renderLaender.state.region = el.dataset.r; renderLaender.state.country = null; renderLaender(); break;
     case 'landpick': renderLaender.state.country = el.dataset.c; renderLaender(); { const c = $('#laender-country'); if (c && window.innerWidth < 900) c.scrollIntoView({ behavior: 'smooth', block: 'start' }); } break;
     case 'landkid': renderLaender.state.showKid = !renderLaender.state.showKid; renderLaender(); break;

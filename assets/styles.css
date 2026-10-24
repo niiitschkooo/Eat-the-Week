@@ -381,6 +381,8 @@ dialog.picker::backdrop { background: rgba(10,16,12,.45); }
 .picker-head { display: flex; gap: 10px; align-items: center; padding: 14px 16px; border-bottom: 1px solid var(--line); position: sticky; top: 0; background: var(--surface); }
 .picker-head input { flex: 1; }
 .picker-list { display: grid; gap: 8px; padding: 14px 16px; }
+.picker-filters { display: flex; flex-wrap: wrap; gap: 8px; padding: 10px 16px 0; }
+.picker-filters .seg { margin: 0 !important; }
 .picker-list .alt { grid-template-columns: 56px 1fr auto; }
 .picker-list .alt .chips { justify-content: flex-end; }
 
