@@ -481,6 +481,7 @@ function renderCook() {
 /* ---------- Rendern ---------- */
 function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove('show'), 2200); }
 function chip(txt, cls) { return '<span class="chip ' + (cls || '') + '">' + txt + '</span>'; }
+function protChip(r) { const c = PROTEIN_COLORS[r.protein] || '#999'; return '<span class="chip prot" style="--pc:' + c + '"><span class="dot"></span>' + PROTEIN_LABEL[r.protein] + '</span>'; }
 function ratingHtml(id) { const n = (S.notes[id] && S.notes[id].stars) || 0; let h = '<span class="stars" role="group" aria-label="Bewertung">'; for (let i = 1; i <= 5; i++) h += '<button type="button" class="' + (i <= n ? 'on' : '') + '" data-act="rate" data-id="' + id + '" data-n="' + i + '" aria-label="' + i + ' von 5">★</button>'; return h + '</span>'; }
 
 function renderHeader() {
@@ -565,12 +566,12 @@ function renderDetail() {
     '<div class="detail-head">' + photoBox(r, 'big', true) +
     '<div class="titles"><div class="dayline"><span class="eyebrow">' + WD[i] + ' · ' + fmtDay(date) + '</span>' + (d.locked ? chip(ICON.lock + ' fest', 'outline') : '') + (d.cooked ? chip(ICON.check + ' gekocht', 'brand') : '') + (d.chainFrom != null ? chip(ICON.link + ' nutzt die Basis von ' + WD[d.chainFrom], 'brand') : '') + '</div>' +
     '<h2>' + esc(r.name) + '</h2>' +
-    '<div class="chips">' + chip(r.flag + ' ' + esc(r.cuisine)) + chip('<span class="dot" style="display:inline-block;width:8px;height:8px;border-radius:50%;background:' + PROTEIN_COLORS[r.protein] + '"></span> ' + PROTEIN_LABEL[r.protein]) + chip('<span class="num">' + (r.time.a + r.time.c) + '</span> Min.') + (r.wholegrain ? chip('Vollkorn', 'brand') : '') + (isVegan(r) ? chip('vegan', 'brand') : plantBased(r) ? chip('vegetarisch', 'brand') : '') + (inSeason ? chip('Saison', 'brand') : '') +
+    '<div class="chips">' + chip(r.flag + ' ' + esc(r.cuisine)) + protChip(r) + chip('<span class="num">' + (r.time.a + r.time.c) + '</span> Min.') + (r.wholegrain ? chip('Vollkorn', 'brand') : '') + (isVegan(r) ? chip('vegan', 'brand') : plantBased(r) ? chip('vegetarisch', 'brand') : '') + (inSeason ? chip('Saison', 'brand') : '') +
     hi.map(x => chip('! ' + esc(x), 'crit')).join('') + si.map(x => chip('~ ' + esc(x), 'warn')).join('') + '</div>' +
     '<div class="detail-actions">' +
     '<button type="button" class="btn primary" data-act="cook" data-i="' + i + '">▶ Schritt für Schritt kochen</button>' +
-    '<button type="button" class="btn sm" data-act="swap" data-i="' + i + '">' + ICON.swap + ' Tauschen</button>' +
-    '<button type="button" class="btn sm" data-act="pick" data-i="' + i + '">' + ICON.list + ' Alle Gerichte</button>' +
+    '<button type="button" class="btn sm" data-act="swap" data-i="' + i + '" title="Setzt automatisch die nächstbeste Alternative">' + ICON.swap + ' Automatisch tauschen</button>' +
+    '<button type="button" class="btn sm" data-act="pick" data-i="' + i + '">' + ICON.list + ' Anderes Gericht wählen</button>' +
     '<button type="button" class="btn sm" data-act="lock" data-i="' + i + '" aria-pressed="' + !!d.locked + '">' + ICON.lock + ' ' + (d.locked ? 'Fest' : 'Festhalten') + '</button>' +
     '<button type="button" class="btn sm" data-act="cooked" data-i="' + i + '" aria-pressed="' + !!d.cooked + '">' + ICON.check + ' ' + (d.cooked ? 'Gekocht' : 'Gekocht?') + '</button>' +
     '<button type="button" class="btn sm" data-act="fav" data-id="' + r.id + '" aria-pressed="' + fav + '">' + (fav ? ICON.heart : ICON.heartO) + ' Favorit</button>' +
@@ -886,7 +887,7 @@ function goto(view) { if (!VIEWS.includes(view)) view = 'woche'; S.view = view; 
 
 /* ---------- Auswahl-Dialog ---------- */
 function openPicker(i) {
-  const dlg = $('#picker'); dlg.dataset.i = i; $('#picker-q').value = ''; fillPicker(); if (typeof dlg.showModal === 'function') dlg.showModal(); else dlg.setAttribute('open', '');
+  const dlg = $('#picker'); dlg.dataset.i = i; $('#picker-q').value = ''; $('#picker-day').textContent = WD[i] + ' · ' + fmtDay(addDays(curMon, i)); fillPicker(); setTimeout(() => { const q = $('#picker-q'); if (q && window.innerWidth > 680) q.focus(); }, 50); if (typeof dlg.showModal === 'function') dlg.showModal(); else dlg.setAttribute('open', '');
 }
 function fillPicker(more) {
   const dlg = $('#picker'); const i = Number(dlg.dataset.i); const st = S.settings; const q = $('#picker-q').value.trim().toLowerCase(); const w = week(); const used = new Set(w.days.map(d => d.id));
@@ -900,9 +901,9 @@ function fillPicker(more) {
   list.sort((a, b) => softIssues(a, st, i).length - softIssues(b, st, i).length || (f.time ? (a.time.a + a.time.c) - (b.time.a + b.time.c) : 0) || a.name.localeCompare(b.name, 'de'));
   $$('#picker-prot button').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === f.prot));
   $$('#picker-time button').forEach(b => b.setAttribute('aria-pressed', Number(b.dataset.v) === f.time));
-  $('#picker-list').innerHTML = (list.slice(0, f.limit).map(r => { const si = softIssues(r, st, i); return '<button type="button" class="alt" data-act="take" data-i="' + i + '" data-id="' + r.id + '">' + plateSVG(r) + '<span><b>' + esc(r.name) + '</b><small>' + r.flag + ' ' + esc(r.cuisine) + ' · ' + (r.time.a + r.time.c) + ' Min. · ' + PROTEIN_LABEL[r.protein] + (used.has(r.id) ? ' · schon in dieser Woche' : '') + '</small></span><span class="chips">' + (si.length ? chip('~ ' + esc(si[0]), 'warn') : '') + (S.favorites.includes(r.id) ? chip(ICON.heart, 'brand') : '') + '</span></button>'; }).join('') || '<p class="muted">Nichts gefunden. ' + (f.time && f.time <= 15 ? 'Unter 15 Minuten gibt es fast nichts (Vorbereitung plus Garzeit). Probiere „≤ 20“ oder „≤ 30“.' : 'Zeitgrenze lockern, anderes Wort oder nur einen Begriff probieren.') + '</p>') +
+  $('#picker-list').innerHTML = (list.slice(0, f.limit).map(r => { const si = softIssues(r, st, i); return '<button type="button" class="alt pick-item" data-act="take" data-i="' + i + '" data-id="' + r.id + '">' + photoBox(r, 'thumb') + '<span class="pi-body"><b>' + esc(r.name) + '</b><span class="chips">' + chip(r.flag + ' ' + esc(r.cuisine)) + chip('<span class="num">' + (r.time.a + r.time.c) + '</span> Min.') + protChip(r) + (used.has(r.id) ? chip('diese Woche', 'outline') : '') + (si.length ? chip('~ ' + esc(si[0]), 'warn') : '') + (S.favorites.includes(r.id) ? chip(ICON.heart + ' Favorit', 'brand') : '') + '</span></span><span class="pi-go" aria-hidden="true">›</span></button>'; }).join('') || '<p class="muted">Nichts gefunden. ' + (f.time && f.time <= 15 ? 'Unter 15 Minuten gibt es fast nichts (Vorbereitung plus Garzeit). Probiere „≤ 20“ oder „≤ 30“.' : 'Zeitgrenze lockern, anderes Wort oder nur einen Begriff probieren.') + '</p>') +
     (list.length > f.limit ? '<button type="button" class="btn sm" data-act="pickermore">Mehr anzeigen (' + (list.length - f.limit) + ' weitere)</button>' : '');
-  $('#picker-count').textContent = list.length + ' Gerichte';
+  $('#picker-count').textContent = list.length + ' Gerichte' + (q || f.land || f.prot !== 'alle' || f.time ? ' passen' : '') + ' · antippen setzt es auf ' + WD[i];
   setTimeout(hydratePhotos, 0);
 }
 
@@ -1002,10 +1003,10 @@ document.addEventListener('change', e => {
   }
 });
 document.addEventListener('input', e => {
+  if (e.target.id === 'picker-q') { clearTimeout(fillPicker._t); fillPicker._t = setTimeout(() => fillPicker(), 120); return; }
   const el = e.target.closest('[data-act]'); if (!el) return;
   if (el.dataset.act === 'note') { const id = el.dataset.id; S.notes[id] = Object.assign({}, S.notes[id], { text: el.value }); clearTimeout(renderDetail._t); renderDetail._t = setTimeout(save, 300); }
   if (el.dataset.act === 'kq') { renderKinder.filter.q = el.value; const pos = el.selectionStart; renderKinder(); const n = $('#kid-q'); if (n) { n.focus(); try { n.setSelectionRange(pos, pos); } catch (err) {} } }
-  if (el.id === 'picker-q') fillPicker();
   if (el.dataset.act === 'landq') { renderLaender.state.q = el.value; renderLaender.state.limit = 60; const pos = el.selectionStart; renderLaender(); const n = $('#land-q'); if (n) { n.focus(); try { n.setSelectionRange(pos, pos); } catch (err) {} } }
 });
 document.addEventListener('submit', e => {

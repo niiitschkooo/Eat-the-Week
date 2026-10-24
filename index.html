@@ -174,26 +174,33 @@
   </footer>
 </div>
 
-<dialog class="picker" id="picker" aria-label="Gericht wählen">
+<dialog class="picker" id="picker" aria-label="Anderes Gericht wählen">
   <div class="picker-head">
-    <input type="search" id="picker-q" placeholder="Suchen: Gericht, Land, Zutat, auch mehrere Wörter" aria-label="Suchen">
-    <select id="picker-land" data-act="pickerland" aria-label="Land"></select>
-    <span class="tiny num" id="picker-count"></span>
-    <button type="button" class="btn icon sm ghost" data-act="closepicker" aria-label="Schließen">✕</button>
+    <div class="row between" style="align-items:center">
+      <div><div class="eyebrow">Anderes Gericht wählen</div><div class="picker-day" id="picker-day">Montag</div></div>
+      <button type="button" class="btn icon ghost" data-act="closepicker" aria-label="Schließen">✕</button>
+    </div>
+    <label class="search">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5L14 14"/></svg>
+      <input type="search" id="picker-q" placeholder="Zutat, Gericht oder Land, z. B. Feta" aria-label="Suchen" autocomplete="off">
+    </label>
+    <div class="picker-filters">
+      <div class="seg" id="picker-prot" aria-label="Eiweißquelle">
+        <button type="button" data-act="pickerprot" data-v="alle" aria-pressed="true">Alle</button>
+        <button type="button" data-act="pickerprot" data-v="pflanzlich" aria-pressed="false">Pflanzlich</button>
+        <button type="button" data-act="pickerprot" data-v="fisch" aria-pressed="false">Fisch</button>
+        <button type="button" data-act="pickerprot" data-v="fleisch" aria-pressed="false">Fleisch</button>
+      </div>
+      <div class="seg" id="picker-time" aria-label="Höchstens Minuten">
+        <button type="button" data-act="pickertime" data-v="0" aria-pressed="true">Alle</button>
+        <button type="button" data-act="pickertime" data-v="20" aria-pressed="false">≤ 20</button>
+        <button type="button" data-act="pickertime" data-v="30" aria-pressed="false">≤ 30</button>
+        <button type="button" data-act="pickertime" data-v="45" aria-pressed="false">≤ 45 Min.</button>
+      </div>
+      <select id="picker-land" data-act="pickerland" aria-label="Land"></select>
+    </div>
+    <div class="tiny num" id="picker-count"></div>
   </div>
-  <div class="picker-filters"><div class="seg" id="picker-prot">
-    <button type="button" data-act="pickerprot" data-v="alle" aria-pressed="true">Alle</button>
-    <button type="button" data-act="pickerprot" data-v="pflanzlich" aria-pressed="false">Pflanzlich</button>
-    <button type="button" data-act="pickerprot" data-v="fisch" aria-pressed="false">Fisch</button>
-    <button type="button" data-act="pickerprot" data-v="fleisch" aria-pressed="false">Fleisch</button>
-  </div>
-  <div class="seg" id="picker-time" style="margin-left:8px" aria-label="Höchstens Minuten">
-    <button type="button" data-act="pickertime" data-v="0" aria-pressed="true">Jede Dauer</button>
-    <button type="button" data-act="pickertime" data-v="15" aria-pressed="false">≤ 15</button>
-    <button type="button" data-act="pickertime" data-v="20" aria-pressed="false">≤ 20</button>
-    <button type="button" data-act="pickertime" data-v="30" aria-pressed="false">≤ 30</button>
-    <button type="button" data-act="pickertime" data-v="45" aria-pressed="false">≤ 45 Min.</button>
-  </div></div>
   <div class="picker-list" id="picker-list"></div>
 </dialog>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
