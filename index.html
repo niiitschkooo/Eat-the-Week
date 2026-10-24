@@ -6,18 +6,18 @@
 <title>Grün geplant</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <meta name="description" content="Gesunder Familien-Wochenplan: sieben gemüsereiche Abendessen, Weltküche mit Top 15 pro Land, Kinderversion für jeden Tag, Einkaufsliste und Vorbereitung.">
-<meta name="app-version" content="2026-10-24.1158">
+<meta name="app-version" content="2026-10-24.1213">
 <meta name="theme-color" content="#2C6B3E">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Grün geplant">
-<link rel="manifest" href="manifest.webmanifest?v=2026-10-24.1158">
-<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png?v=2026-10-24.1158">
-<link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192.png?v=2026-10-24.1158">
+<link rel="manifest" href="manifest.webmanifest?v=2026-10-24.1213">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png?v=2026-10-24.1213">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192.png?v=2026-10-24.1213">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Hanken+Grotesk:wght@400..700&display=swap">
-<link rel="stylesheet" href="assets/styles.css?v=2026-10-24.1158">
+<link rel="stylesheet" href="assets/styles.css?v=2026-10-24.1213">
 </head>
 <body>
 <header class="topbar">
@@ -63,12 +63,15 @@
           <button type="button" class="btn ghost" data-act="unlockall">Alle Tage lösen</button>
         </div>
       </div>
-      <div class="summary" id="woche-summary"></div>
+      <section class="focus-day" id="focus" aria-label="Gewählter Tag">
+        <div class="focus-head" id="focus-head"></div>
+        <div id="detail"></div>
+      </section>
       <div>
-        <div class="panel-head"><h2>Was kommt auf den Tisch?</h2><span class="tiny">Tag antippen für Zutaten, Zubereitung und Kinderoption</span></div>
-        <div class="days" id="days"></div>
+        <div class="panel-head"><h2 id="days-title">Die weiteren Tage</h2><span class="tiny">Tag antippen, dann rückt er nach oben</span></div>
+        <div class="days six" id="days"></div>
       </div>
-      <div id="detail"></div>
+      <div class="summary" id="woche-summary"></div>
       <div>
         <div class="panel-head"><h2>Meine Küche</h2><span class="tiny">bleibt in diesem Browser gespeichert</span></div>
         <div id="my-kitchen"></div>
@@ -215,10 +218,10 @@
 </dialog>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="assets/data.js?v=2026-10-24.1158"></script>
-<script src="assets/kids.js?v=2026-10-24.1158"></script>
-<script src="assets/data-more.js?v=2026-10-24.1158"></script>
-<script src="assets/world.js?v=2026-10-24.1158"></script>
-<script src="assets/app.js?v=2026-10-24.1158"></script>
+<script src="assets/data.js?v=2026-10-24.1213"></script>
+<script src="assets/kids.js?v=2026-10-24.1213"></script>
+<script src="assets/data-more.js?v=2026-10-24.1213"></script>
+<script src="assets/world.js?v=2026-10-24.1213"></script>
+<script src="assets/app.js?v=2026-10-24.1213"></script>
 </body>
 </html>

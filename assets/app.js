@@ -176,6 +176,7 @@ function fmtDay(d) { return d.getDate() + '.' + (d.getMonth() + 1) + '.'; }
 function daysAgo(isoStr) { const d = new Date(isoStr + 'T12:00:00'); return Math.floor((Date.now() - d.getTime()) / 864e5); }
 let curMon = mondayOf(new Date());
 const todayIso = iso(new Date());
+function todayIndex() { for (let i = 0; i < 7; i++) if (iso(addDays(curMon, i)) === todayIso) return i; return -1; }
 
 /* ---------- Zufall (deterministisch) ---------- */
 function hashStr(s) { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; }
@@ -287,8 +288,9 @@ function allIngredientNames() { const set = new Set(); RECIPES.forEach(r => r.in
 function settingsSig(st) { return JSON.stringify([st.diet, st.fish, st.legumes, st.plant, st.meatMax, st.allergens, st.dislikes, st.timeWeek, st.timeWeekend, st.lowChop, st.oneVessel, st.base3, st.seasonal, st.devices, st.devPref, st.protTarget, st.protNoDairy]); }
 function week() {
   const k = iso(curMon);
-  if (!S.weeks[k]) S.weeks[k] = { days: Array.from({ length: 7 }, () => ({})), shuffle: 0, checked: [], own: [], sel: 0, sig: '' };
+  if (!S.weeks[k]) S.weeks[k] = { days: Array.from({ length: 7 }, () => ({})), shuffle: 0, checked: [], own: [], sel: Math.max(0, todayIndex()), sig: '', focusInit: true };
   const w = S.weeks[k];
+  if (!w.focusInit) { w.focusInit = true; if (todayIndex() >= 0) w.sel = todayIndex(); }
   if (!Array.isArray(w.days) || w.days.length !== 7) w.days = Array.from({ length: 7 }, () => ({}));
   return w;
 }
@@ -639,7 +641,15 @@ function renderWoche() {
     '<div><b>' + bal.cooked + ' von 7 Gerichten</b><br><span class="small muted">diese Woche gekocht</span><br>' +
     '<span class="tiny">' + (tier ? 'Kind: ' + tier.label.split(' · ')[0] : 'Ohne Kinderoption') + '</span></div></div>';
 
+  const selIdx = Math.min(6, Math.max(0, w.sel || 0)); const tIdx = todayIndex();
+  { const d = w.days[selIdx]; const r = R(d.id); const date = addDays(curMon, selIdx); const isToday = selIdx === tIdx; const diff = tIdx >= 0 ? selIdx - tIdx : null;
+    const rel = isToday ? 'Heute' : diff === 1 ? 'Morgen' : diff === -1 ? 'Gestern' : diff != null && diff > 1 ? 'in ' + diff + ' Tagen' : diff != null && diff < -1 ? 'vor ' + (-diff) + ' Tagen' : WD[selIdx];
+    $('#focus').classList.toggle('not-today', !isToday);
+    $('#focus-head').innerHTML = '<div class="focus-title"><span class="big">' + esc(rel) + '</span><span class="sub">' + WD[selIdx] + ' · ' + fmtDay(date) + (r ? ' · ' + esc(r.name.split(' · ')[0]) : '') + '</span></div>' +
+      '<div class="row">' + (d.cooked ? chip(ICON.check + ' gekocht', 'brand') : '') + (!isToday && tIdx >= 0 ? '<button type="button" class="btn sm" data-act="sel" data-i="' + tIdx + '">Zurück zu heute</button>' : '') + '</div>';
+    $('#days-title').textContent = isToday ? 'Die weiteren Tage dieser Woche' : 'Die anderen Tage dieser Woche'; }
   $('#days').innerHTML = w.days.map((d, i) => {
+    if (i === selIdx) return '';
     const r = R(d.id); const date = addDays(curMon, i); const isToday = iso(date) === todayIso;
     const hi = r ? hardIssues(r, st) : []; const si = r ? softIssues(r, st, i) : [];
     const kid = st.kidMode !== 'familie' ? kidFor(i) : null;
@@ -1044,7 +1054,7 @@ document.addEventListener('click', e => {
   const act = el.dataset.act; const w = week(); const st = S.settings; const i = el.dataset.i != null ? Number(el.dataset.i) : null;
   switch (act) {
     case 'goto': goto(el.dataset.view); break;
-    case 'sel': w.sel = i; save(); renderWoche(); { const det = $('#detail'); if (window.innerWidth < 900 && det) det.scrollIntoView({ behavior: 'smooth', block: 'start' }); } break;
+    case 'sel': w.sel = i; save(); renderWoche(); { const f = $('#focus'); if (f) { const y = f.getBoundingClientRect().top + window.scrollY - 70; window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' }); } } break;
     case 'swap': { const alts = alternatives(i, 1); if (!alts.length) { toast('Keine Alternative frei'); break; } setDay(i, alts[0].id); break; }
     case 'take': { const dlg = $('#picker'); if (dlg.open) dlg.close(); w.sel = i; setDay(i, el.dataset.id); break; }
     case 'pickfav': setDay(w.sel || 0, el.dataset.id); toast('Auf ' + WD[w.sel || 0] + ' gesetzt'); break;

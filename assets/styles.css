@@ -230,9 +230,25 @@ input::placeholder, textarea::placeholder { color: var(--ink-3); }
 .day .kidline span { min-width: 0; flex: 1 1 auto; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 @media (max-width: 1000px) { .days { grid-template-columns: repeat(4, minmax(0,1fr)); } }
 @media (max-width: 680px) {
-  .days { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 10px; padding-bottom: 6px; margin-inline: calc(-1 * var(--gutter-l)) calc(-1 * var(--gutter-r)); padding-inline: var(--gutter-l) var(--gutter-r); scrollbar-width: thin; }
+  .days, .days.six { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 10px; padding-bottom: 6px; margin-inline: calc(-1 * var(--gutter-l)) calc(-1 * var(--gutter-r)); padding-inline: var(--gutter-l) var(--gutter-r); scrollbar-width: thin; }
   .day { flex: 0 0 150px; scroll-snap-align: start; }
 }
+
+/* Heute im Fokus */
+.focus-day { border: 2px solid var(--brand); border-radius: 20px; overflow: hidden; background: var(--surface); box-shadow: var(--shadow); }
+.focus-day.not-today { border-color: var(--line-strong); }
+.focus-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 12px 20px; background: var(--brand); color: var(--brand-ink); }
+.focus-day.not-today .focus-head { background: var(--surface-2); color: var(--ink); }
+.focus-title { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; min-width: 0; }
+.focus-title .big { font-family: var(--font-display); font-weight: 800; font-size: 1.5rem; letter-spacing: -0.01em; line-height: 1; }
+.focus-title .sub { opacity: .9; font-size: .95rem; font-weight: 600; }
+.focus-head .btn { border-color: rgba(255,255,255,.55); color: inherit; background: rgba(255,255,255,.14); }
+.focus-day.not-today .focus-head .btn { border-color: var(--line-strong); background: var(--surface); }
+.focus-head .chip.brand { background: rgba(255,255,255,.2); color: inherit; }
+.focus-day.not-today .focus-head .chip.brand { background: var(--brand-soft); color: var(--brand-soft-ink); }
+.focus-day .panel.detail { border: 0; border-radius: 0; box-shadow: none; }
+.days.six { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+@media (max-width: 1000px) { .days.six { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 
 /* Detail */
 .detail { display: grid; gap: 18px; }
