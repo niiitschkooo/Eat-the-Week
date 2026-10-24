@@ -335,14 +335,17 @@ function missingItems(items) { const have = S.have || []; return items.filter(x 
 function shortcutUrl(lines) { return 'shortcuts://run-shortcut?name=' + encodeURIComponent(SHORTCUT_NAME) + '&input=text&text=' + encodeURIComponent(lines.join('\n')); }
 function remindButtons(lines, scope) {
   if (!lines.length) return '';
+  const canShare = !IS_ARTIFACT && typeof navigator.share === 'function';
   return '<button type="button" class="btn sm" data-act="copylines" data-scope="' + scope + '">' + ICON.copy + ' Für Erinnerungen kopieren</button>' +
+    (canShare ? '<button type="button" class="btn sm" data-act="sharelines" data-scope="' + scope + '">' + ICON.link + ' Teilen</button>' : '') +
     '<a class="btn sm primary" href="' + shortcutUrl(lines) + '" data-act="remind" data-scope="' + scope + '">' + ICON.check + ' An Erinnerungen senden</a>';
 }
 function remindHelp() {
-  return '<details class="panel soft" style="padding:12px"><summary style="cursor:pointer;font-weight:600">Apple Erinnerungen: so klappt die Übergabe</summary>' +
+  return '<details class="panel soft" style="padding:12px"><summary style="cursor:pointer;font-weight:600">Apple Erinnerungen: so klappt die Übergabe in eure feste Liste</summary>' +
     '<div class="stack small" style="margin-top:10px">' +
-    '<div><b>Weg 1, ohne Einrichtung:</b> „Für Erinnerungen kopieren“ antippen, dann in Erinnerungen eine Liste öffnen, eine neue Erinnerung anlegen und einfügen. Erinnerungen legt aus jeder Zeile eine eigene Erinnerung an.</div>' +
-    '<div><b>Weg 2, ein Tipp:</b> „An Erinnerungen senden“ startet den Kurzbefehl „' + SHORTCUT_NAME + '“ mit der Liste als Text. Den Kurzbefehl einmal anlegen: Kurzbefehle-App öffnen, neuen Kurzbefehl erstellen, Aktion „Text aufteilen“ (Kurzbefehleingabe, bei neuen Zeilen), dann „Für jedes Element wiederholen“ und darin „Neue Erinnerung hinzufügen“ mit Titel „Wiederholungselement“ und eurer Einkaufsliste als Liste. Kurzbefehl genau „' + SHORTCUT_NAME + '“ nennen. Funktioniert auf iPhone, iPad und Mac.</div>' +
+    '<div><b>Ohne Einrichtung (3 Tipps):</b> „Für Erinnerungen kopieren“, dann in Erinnerungen eure Einkaufsliste öffnen, „Neue Erinnerung“ antippen und einfügen. Erinnerungen macht aus jeder Zeile eine eigene Erinnerung.</div>' +
+    '<div><b>Mit einem Tipp, nach einmaliger Einrichtung (etwa 2 Minuten):</b> Kurzbefehle-App öffnen, „+“ für einen neuen Kurzbefehl, dann drei Aktionen suchen und untereinander setzen: 1. „Text aufteilen“ (Eingabe: Kurzbefehleingabe, Trennung: Neue Zeilen). 2. „Für jedes Element wiederholen“. 3. darin „Neue Erinnerung hinzufügen“, Titel: „Wiederholungselement“, Liste: eure feste Einkaufsliste. Oben auf den Namen tippen und genau „' + SHORTCUT_NAME + '“ eingeben. In den Kurzbefehl-Details „Im Teilen-Menü anzeigen“ einschalten. Fertig: „An Erinnerungen senden“ oder „Teilen“ und den Kurzbefehl wählen, die Liste landet in eurer Liste.</div>' +
+    '<div><b>Hinweis:</b> Im Teilen-Menü nicht „Erinnerungen“ direkt wählen, das ergibt nur eine einzige Erinnerung mit dem ganzen Text. Immer den Kurzbefehl nehmen.</div>' +
     (IS_ARTIFACT ? '<div class="tiny">In dieser Vorschau kann der Kurzbefehl-Link blockiert sein; Weg 1 geht immer. In der installierten Version (GitHub Pages oder lokal geöffnet) funktionieren beide Wege.</div>' : '') +
     '</div></details>';
 }
@@ -977,6 +980,7 @@ document.addEventListener('click', e => {
     case 'timer': startTimer(Number(el.dataset.min), el.dataset.label); break;
     case 'timerstop': stopTimer(); break;
     case 'cookdone': { const d = w.days[i]; if (!d.cooked) { d.cooked = true; const date = iso(addDays(curMon, i)); S.diary = S.diary.filter(x => !(x.date === date && x.id === d.id)); S.diary.push({ date, id: d.id }); S.notes[d.id] = Object.assign({}, S.notes[d.id], { last: date.split('-').reverse().join('.') }); save(); } closeCook(); toast('Als gekocht markiert'); break; }
+    case 'sharelines': { const sc = el.dataset.scope; const items = sc === 'week' ? openItems() : missingItems(dayItems(Number(sc.split(':')[1]))); const txt = linesFor(items).join('\n'); try { navigator.share({ title: 'Einkaufsliste', text: txt }).catch(() => {}); } catch (err) { copyText(txt, 'Teilen nicht möglich, Liste kopiert'); } break; }
     case 'copylines': { const sc = el.dataset.scope; const items = sc === 'week' ? openItems() : missingItems(dayItems(Number(sc.split(':')[1]))); copyText(linesFor(items).join('\n'), 'Liste kopiert: in Erinnerungen einfügen, je Zeile eine Erinnerung'); break; }
     case 'remind': { setTimeout(() => toast('Kurzbefehl „' + SHORTCUT_NAME + '“ wird gestartet. Nichts passiert? Dann Weg 1: kopieren und einfügen.'), 300); break; }
     case 'pickerprot': fillPicker.state.prot = el.dataset.v; fillPicker(); break;
