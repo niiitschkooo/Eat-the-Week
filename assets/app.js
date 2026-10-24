@@ -58,6 +58,74 @@ const DEVICE_ORDER = ['topf', 'pfanne', 'ofen', 'airfryer', 'slowcooker', 'masch
     r.devices.sort((a, b) => DEVICE_ORDER.indexOf(a[0]) - DEVICE_ORDER.indexOf(b[0]));
   });
 })();
+/* ---------- Gerichtsart (Kategorie) aus Name und Zubereitung ---------- */
+const CATS = [
+  { id: 'suppe', l: 'Suppe und Eintopf', ic: '🥣', re: /suppe|eintopf|\bsoup|chowder|\bpho\b|ramen|potage|caldo|\bsopa|zuppa|minestrone|soupe|borsch|shorba|chorba|harira|ertesuppe|hernekeitto|ärtsoppa|laksa|tom kha|tom yam|sancocho|ajiaco|cazuela|\bstew|gumbo|brühe/i },
+  { id: 'curry', l: 'Curry und Dal', ic: '🍛', re: /curry|masala|korma|\bdal\b|dhal|khichdi|rendang|sambar|vindaloo|saag|paneer|makhani|kari\b|gulai|opor|massaman|panang/i },
+  { id: 'teigtaschen', l: 'Teigtaschen', ic: '🥟', re: /pierogi|pelmeni|varenyky|dumpling|teigtasche|gyoza|mandu|jiaozi|maultasche|ravioli|empanada|samosa|börek|pastel|momo|wan-?tan|bao\b|manti|khinkali|tortellini|knödel|kloß|klöße|kopytka|gnocchi/i },
+  { id: 'puffer', l: 'Puffer, Bällchen und Bratlinge', ic: '🫓', re: /puffer|bratling|frikadell|köfte|kofta|kofte|falafel|taler|bällchen|bulette|kibbeh|polpette|fishcake|fischküchlein|croquet|kroket|meatball|köttbullar|akara|rösti|latkes|fritter|klopse|tsukune|nuggets|cevapcici|ćevap|mititei|cutlet|kotlet/i },
+  { id: 'ei', l: 'Eiergericht', ic: '🍳', re: /omelett|rührei|shakshuka|frittata|tortilla española|gemüse-tortilla|spanische.*tortilla|eierkuchen|strapatsada|menemen|spiegelei|huevos|oeufs|tamagoyaki|okonomiyaki|æggekage|eggs?\b|ei\b.*(pfanne|brot)/i },
+  { id: 'salat', l: 'Salat und Bowl', ic: '🥗', re: /salat|bowl|tabbouleh|tabouleh|taboulé|fattoush|poke|buddha|meze|antipasti|vorspeisenplatte|gado|larb|laab|som tam/i },
+  { id: 'brot', l: 'Brot, Wrap und Fladen', ic: '🌮', re: /taco|wrap|burrito|quesadilla|fladen|burger|sandwich|pita|dürüm|shawarma|toast|bruschetta|smørrebrød|arepa|\broti|chapati|naan|crêpe|pfannkuchen|pancake|galette|dosa|injera|tortilla|sabich|lahmacun|pide|pizza|flammkuchen|focaccia|bánh mì|banh mi|gözleme|piadina|pupusa|brot\b/i },
+  { id: 'nudeln', l: 'Nudeln und Pasta', ic: '🍝', re: /nudel|pasta|spaghetti|penne|lasagne|spätzle|\bmie\b|udon|soba|lo mein|pad thai|pad see|bami|makkaroni|orzo|kritharaki|tagliatelle|fettuccine|cannelloni|rigatoni|fusilli|linguine|farfalle|hörnli|älplermagronen|käsespätzle|yakisoba|japchae|mì xào|lagman|erişte|couscous|ptitim|fregola/i },
+  { id: 'ofen', l: 'Ofengericht und Auflauf', ic: '🔥', re: /auflauf|gratin|blech|ofen|überbacken|moussaka|pastitsio|\bpie\b|casserole|quiche|tarte|\bbake|tray|gebacken|tian|parmigiana|bobotie|lahana|güveç|tepsi|sheet|röst|geröstet|gefüllte/i },
+  { id: 'schmor', l: 'Schmorgericht und Ragout', ic: '🍲', re: /gulasch|ragout|ragù|schmor|tagine|tajine|chili\b|feijoada|cassoulet|bigos|lecsó|stifado|stoofvlees|kalops|lapskaus|daube|bourguignon|estofado|guiso|locro|sarma|roulade|kohlroulade|adobo|afritada|kaldereta|mechado|mafé|maafe|domoda|egusi|efo|stewed|geschmort|paprikasch|pörkölt|tokány|pot-au-feu|hachée|hutspot|carbonnade|waterzooi|fricassée|frikassee|blanquette|navarin|hønsefrikassé|kjøttkaker|yassa|thieboudienne|ndolé|zigni|wat\b|doro|misir|shiro|nihari|haleem|karahi|qorma|ghormeh|fesenjan|khoresh|bamia|molokhia|fasolakia|gigantes|fasole|ciorbă|tocăniță|tokana|bograč|ajvar|gyuvech|đuveč|satsivi|chakhokhbili|ostri|kharcho|plov|lobio|fabada|pisto|caponata|ratatouille|tafelspitz|siedfleisch|pot roast|\bful\b|medames|lentilles|csirke|paprikás|pörkölt|bohnentopf|linsentopf/i },
+  { id: 'reis', l: 'Reisgericht', ic: '🍚', re: /\breis|risotto|paella|pilaw|pilav|pilau|plov|biryani|pulao|donburi|bibimbap|congee|jollof|arroz|kedgeree|nasi|jambalaya|kabsa|mandi|maqluba|mujaddara|koshari|moros|gallo pinto|zereshk|tahdig|bokkeumbap|chahan|omurice|khao|com\b|juk\b|okayu|quinoa|bulgur|polenta|ugali|grieß|hirse|buchweizen|kasha|freekeh/i },
+  { id: 'kartoffel', l: 'Kartoffelgericht', ic: '🥔', re: /stampf|püree|bratkartoffel|kartoffel|aloo|patatas|batata|colcannon|boxty|stamppot|pommes|potato|papa\b|papas|süßkartoffel|yams|maniok|kochbanane|fufu|gari|matoke/i },
+  { id: 'grill', l: 'Spieße und Grillgerichte', ic: '🍢', re: /kabab|kebab|kebap|spieß|şiş|yakitori|souvlaki|satay|saté|\bsate\b|brochette|tandoori|tikka|grill|churrasco|asado|anticucho|suya|shish|pinchos|espetada/i },
+  { id: 'pfanne', l: 'Pfannengericht', ic: '🍳', re: /pfanne|wok|stir|gebraten|sauté|fajita|chop suey|bulgogi|teriyaki|gà xào|xào|goreng|tumis|sisig|ginisang|gai pad|pad\b|pfannen/i }
+];
+const CAT_FALLBACK = { id: 'weitere', l: 'Weitere Gerichte', ic: '🍽️' };
+function catOf(r) {
+  if (r._cat) return r._cat;
+  let c = null;
+  if (r.cat) c = CATS.find(x => x.id === r.cat) || null;
+  if (!c) { const head = r.name.split(/ mit | dazu | auf | zu | und /)[0]; c = CATS.find(x => x.re.test(head)) || null; }
+  if (!c) { const n = r.name; c = CATS.find(x => x.re.test(n)) || null; }
+  if (!c) { const t = r.method + ' ' + r.steps.join(' '); if (/auflauf|gratin|blech|überback/i.test(t) || onlyDevice(r, 'ofen')) c = CATS.find(x => x.id === 'ofen'); else if (/pfanne/i.test(t) && onlyDevice(r, 'pfanne')) c = CATS.find(x => x.id === 'pfanne'); else if (/suppe|eintopf/i.test(t)) c = CATS.find(x => x.id === 'suppe'); else if (r.base === 'reis' || r.base === 'quinoa' || r.base === 'bulgur' || r.base === 'polenta') c = CATS.find(x => x.id === 'reis'); else if (r.base === 'nudeln' || r.base === 'couscous') c = CATS.find(x => x.id === 'nudeln'); else if (r.base === 'kartoffeln') c = CATS.find(x => x.id === 'kartoffel'); }
+  r._cat = c || CAT_FALLBACK; return r._cat;
+}
+/* ---------- Eiweiß je Portion: Schätzung aus Zutatentabellen (g Eiweiß je 100 g bzw. je Stück) ---------- */
+const PROTEIN_TABLE = [
+  [/sojaschnetzel|sojagranulat/i, 50], [/tempeh/i, 19], [/tofu/i, 13], [/edamame/i, 11], [/hummus/i, 7],
+  [/linsen.*(trocken|getrocknet)|linsen, trocken|belugalinsen|berglinsen|tellerlinsen|rote linsen|gelbe linsen|braune linsen|schälerbsen|mungbohnen|moong|urad|chana dal|kichererbsen, trocken|bohnen, trocken/i, 24],
+  [/kichererbsenmehl|besan|linsenmehl|sojamehl/i, 22], [/kichererbsen|bohnen|linsen|ful|augenbohnen|saubohnen|lupinen/i, 7.5], [/erbsen/i, 5.5],
+  [/quinoa/i, 14], [/haferflocken|hafer/i, 13], [/nudeln|pasta|spaghetti|penne|lasagne|spätzle|makkaroni|orzo|kritharaki|couscous|bulgur|freekeh|mie-nudeln|udon|soba|\bmehl\b|vollkornmehl|weizenmehl|dinkelmehl|buchweizenmehl|roggenmehl|dinkel\b|paniermehl|semmelbrösel|grieß/i, 12],
+  [/reisnudeln|reismehl|polenta|maisgrieß|maismehl|reis\b|basmati|jasmin|rundkorn|risotto|wildreis|hirse|buchweizen|kasha|teff|gerstengraupen|graupen|gari/i, 7], [/maniok|kochbanane|süßkartoffel|kartoffel|yams|pastinake|rote bete|kürbis/i, 1.8],
+  [/thunfisch/i, 25], [/muscheln/i, 4], [/garnelen|shrimps|scampi/i, 20], [/lachs|forelle|makrele|hering|sardine|barramundi|zander|dorade|wolfsbarsch|tilapia|kabeljau|seelachs|fisch|saibling|egli|barsch|scholle|seezunge|heilbutt|karpfen|wels\b|hecht|sprotte|dorsch|schellfisch|pangasius|steinbeißer|seeteufel|rødspætte|flunder|muscheln|tintenfisch|calamari|krabben|garnele/i, 19],
+  [/hähnchen|huhn|pute|truthahn|geflügel|chicken/i, 22], [/\brind|beef|\bhack|hack\b|\blamm|schwein|kalb|\bwild|\bente|gulasch|hüftsteak|\bfilet|schulter|keule|brust|fleisch|kebab|köfte|wurst/i, 20],
+  [/\beier?\b/i, 7, 'stk'], [/\bei\b/i, 7, 'stk'],
+  [/parmesan|hartkäse|pecorino|bergkäse|gruyère|emmentaler/i, 32, 'dairy'], [/cheddar|gouda|mozzarella|feta|halloumi|paneer|schafskäse|ziegenkäse|käse/i, 20, 'dairy'],
+  [/magerquark|quark|skyr|hüttenkäse|ricotta|labneh/i, 12, 'dairy'], [/griechischer joghurt/i, 9, 'dairy'], [/joghurt|kefir|ayran|buttermilch/i, 4, 'dairy'], [/kokosmilch|kokos/i, 2], [/hafermilch|sojamilch|mandelmilch|pflanzendrink/i, 2], [/\bmilch\b/i, 3.4, 'dairy'], [/sahne|crème|schmand|butter|mascarpone/i, 2.5, 'dairy'],
+  [/erdnussmus|erdnüsse|erdnuss/i, 25], [/cashew|mandel|walnuss|haselnuss|nüsse|pistazien|kerne|sesam|tahini|tahin/i, 20],
+  [/sojasauce|kecap|miso/i, 8], [/hefeflocken/i, 45],
+  [/brot|brötchen|toast|baguette|fladen|pita|naan|chapati|roti|tortilla|wrap|teigblätter|filoteig/i, 9],
+  [/pilze|champignons|shiitake|spinat|brokkoli|grünkohl|rosenkohl|mangold|pak choi|blumenkohl|mais|artischocke|spargel/i, 3]
+];
+const PIECE_G = { 'Eier': 60, 'Ei': 60, 'Tomaten': 120, 'Kirschtomaten': 15, 'Karotten': 80, 'Rote Paprika': 150, 'Gelbe Paprika': 150, 'Paprika': 150, 'Zucchini': 200, 'Avocado': 150, 'Zwiebel': 80, 'Rote Zwiebel': 80, 'Aubergine': 250, 'Kartoffeln': 100, 'Süßkartoffel': 200, 'Limette': 50, 'Zitrone': 60, 'Apfel': 150, 'Birne': 150, 'Banane': 120, 'Kochbanane': 200, 'Mango': 250, 'Orange': 180, 'Lauch': 150, 'Fenchel': 250, 'Kohlrabi': 250, 'Maiskolben': 150, 'Gurke': 300, 'Frühlingszwiebel': 15, 'Radieschen': 10, 'Maistortillas, klein': 30, 'Wan-Tan-Teigblätter': 8, 'Teigblätter': 8, 'Frühlingsrollenblätter': 10, 'Reispapier': 8, 'Filoteig': 20, 'Lasagneplatten': 20, 'Chili': 5, 'Chilischote': 5, 'Vollkorn-Tortillas': 45, 'Vollkorn-Weizentortillas': 45, 'Vollkorn-Fladenbrot': 90, 'Vollkornbrot': 45, 'Vollkornbrötchen': 60, 'Pita': 70, 'Naan': 90 };
+const SPOON_G = { EL: 12, TL: 4 };
+function isDairyIng(n) { return /feta|halloumi|paneer|ricotta|hüttenkäse|joghurt|quark|skyr|käse|parmesan|cheddar|mozzarella|gouda|sahne|butter|crème|schmand|labneh|ayran|kefir|mascarpone|buttermilch/i.test(n) || (/\bmilch\b/i.test(n) && !/kokos|hafer|soja|mandel|pflanz/i.test(n)); }
+function proteinOf(r, noDairy) {
+  let g = 0;
+  r.ing.forEach(x => {
+    if (x.p && !/sojasauce|miso|hefeflocken|erdnuss|tahin|sesam/i.test(x.n)) return;
+    const row = PROTEIN_TABLE.find(t => t[0].test(x.n)); let per100 = row ? row[1] : (x.c === 'gemuese' ? 1.5 : 0); const dairy = isDairyIng(x.n);
+    if (noDairy && dairy) return;
+    let grams;
+    if (x.u === 'g' || x.u === 'ml') grams = x.q;
+    else if (x.u === 'Stk.' || x.u === 'Scheiben' || x.u === 'Stange' || x.u === 'Zehe') { if (row && row[2] === 'stk') { g += x.q * row[1]; return; } const key = Object.keys(PIECE_G).find(k => x.n.startsWith(k)); grams = x.q * (key ? PIECE_G[key] : (x.u === 'Scheiben' ? 45 : x.u === 'Zehe' ? 3 : 100)); }
+    else if (x.u === 'EL' || x.u === 'TL') grams = x.q * SPOON_G[x.u];
+    else if (x.u === 'Bund') grams = x.q * 30; else if (x.u === 'Pack.' || x.u === 'Dose') grams = x.q * 200; else grams = x.q;
+    g += grams * per100 / 100;
+  });
+  return Math.round(g);
+}
+function proteinInfo(r) { if (!r._prot) r._prot = { all: proteinOf(r, false), noDairy: proteinOf(r, true) }; return r._prot; }
+function proteinFor(r) { const st = S.settings; const pi = proteinInfo(r); return st.protNoDairy ? pi.noDairy : pi.all; }
+function proteinLabel(g) { return g >= 30 ? 'reichlich' : g >= 22 ? 'gut' : g >= 15 ? 'mittel' : 'knapp'; }
+function proteinChip(r) { const pi = proteinInfo(r); const st = S.settings; const g = proteinFor(r); const target = st.protTarget || 0; const cls = target ? (g >= target ? 'brand' : 'warn') : (g >= 22 ? 'brand' : g >= 15 ? '' : 'warn'); return chip('≈ <span class="num">' + g + '</span> g Eiweiß' + (st.protNoDairy && pi.all !== pi.noDairy ? ' <span class="tiny">ohne Milch</span>' : ''), cls); }
+function catChip(r) { const c = catOf(r); return chip(c.ic + ' ' + esc(c.l), 'outline'); }
+function catSelect(id, cur) { const counts = {}; RECIPES.forEach(r => { const c = catOf(r).id; counts[c] = (counts[c] || 0) + 1; }); return '<select id="' + id + '" data-act="' + id + '" aria-label="Gerichtsart"><option value="">Alle Gerichtsarten</option>' + CATS.concat([CAT_FALLBACK]).filter(c => counts[c.id]).map(c => '<option value="' + c.id + '"' + (cur === c.id ? ' selected' : '') + '>' + c.ic + ' ' + esc(c.l) + ' (' + counts[c.id] + ')</option>').join('') + '</select>'; }
 function deviceSummary(r) { const g = r.devices.map(gr => gr.map(d => DEVICE_SHORT[d]).join(' oder ')); if (!g.length) return 'ohne Gerät'; if (g.length === 1) return 'nur ' + g[0]; return g.join(' + '); }
 function onlyDevice(r, d) { return r.devices.length === 1 && r.devices[0].includes(d); }
 const DEVICE_ICON = {
@@ -79,7 +147,7 @@ const DEFAULTS = {
     adults: 2, kids: [{ age: 19 }], extraPortions: 1,
     diet: 'alles', fish: 1, legumes: 2, plant: 3, meatMax: 2,
     allergens: [], dislikes: '', timeWeek: 30, timeWeekend: 45,
-    lowChop: false, oneVessel: false, base3: false, seasonal: true, devPref: 'alle',
+    lowChop: false, oneVessel: false, base3: false, seasonal: true, devPref: 'alle', protTarget: 0, protNoDairy: false,
     devices: { ofen: true, airfryer: false, mikrowelle: true, maschine: false, slowcooker: false },
     kidMode: 'welt', hideDone: false, showPantry: false, preferHave: false, photos: true
   },
@@ -169,6 +237,7 @@ function softIssues(r, st, i) {
   if (st.oneVessel && !r.oneVessel) out.push('Mehr als ein Gefäß');
   if (st.base3 && r.baseCount > 3) out.push('Mehr als 3 Grundzutaten');
   if (st.devPref && st.devPref !== 'alle' && !onlyDevice(r, st.devPref)) out.push('Braucht mehr als ' + DEVICE_SHORT[st.devPref]);
+  if (st.protTarget) { const g = proteinFor(r); if (g < st.protTarget) out.push('Nur ≈ ' + g + ' g Eiweiß' + (st.protNoDairy ? ' ohne Milchprodukte' : '')); }
   return out;
 }
 function simplicity(r) { return [r.time.a <= 20, r.baseCount <= 3, r.lowChop, r.oneVessel, r.steps.length <= 5].filter(Boolean).length; }
@@ -215,7 +284,7 @@ function haveMatch(r) {
 function allIngredientNames() { const set = new Set(); RECIPES.forEach(r => r.ing.forEach(i => { if (!i.p) set.add(short(i.n)); })); return Array.from(set).sort((a, b) => a.localeCompare(b, 'de')); }
 
 /* ---------- Woche und Plan ---------- */
-function settingsSig(st) { return JSON.stringify([st.diet, st.fish, st.legumes, st.plant, st.meatMax, st.allergens, st.dislikes, st.timeWeek, st.timeWeekend, st.lowChop, st.oneVessel, st.base3, st.seasonal, st.devices, st.devPref]); }
+function settingsSig(st) { return JSON.stringify([st.diet, st.fish, st.legumes, st.plant, st.meatMax, st.allergens, st.dislikes, st.timeWeek, st.timeWeekend, st.lowChop, st.oneVessel, st.base3, st.seasonal, st.devices, st.devPref, st.protTarget, st.protNoDairy]); }
 function week() {
   const k = iso(curMon);
   if (!S.weeks[k]) S.weeks[k] = { days: Array.from({ length: 7 }, () => ({})), shuffle: 0, checked: [], own: [], sel: 0, sig: '' };
@@ -262,6 +331,7 @@ function buildPlan(w, st) {
       if (S.favorites.includes(r.id)) s += 15;
       if (recent.has(r.id)) s -= 40;
       if (r.wholegrain) s += 5;
+      { const g = proteinFor(r); s += Math.min(20, Math.max(-20, (g - 20) * 1.5)); }
       if (st.preferHave && S.have.length) s += 60 * haveMatch(r).pct;
       s += rnd() * 50;
       if (s > bs) { bs = s; best = r; }
@@ -491,7 +561,8 @@ function renderCook() {
     '<div class="m"><span class="eyebrow">Garzeit</span><b class="num">' + r.time.c + ' Min.</b></div>' +
     (temp ? '<div class="m"><span class="eyebrow">Ofen</span><b class="num">' + temp + ' °C</b></div>' : '') +
     '<div class="m"><span class="eyebrow">Geräte</span><b>' + deviceLine(r) + '</b><span class="tiny">' + esc(r.method) + '</span></div>' +
-    '<div class="m"><span class="eyebrow">Portionen</span><b class="num">' + fmtNum(P) + '</b></div></div>' +
+    '<div class="m"><span class="eyebrow">Portionen</span><b class="num">' + fmtNum(P) + '</b></div>' +
+    '<div class="m"><span class="eyebrow">Eiweiß je Portion</span><b class="num">≈ ' + proteinFor(r) + ' g</b></div></div>' +
     (temp ? '<div class="panel soft" style="padding:12px"><b>Zuerst:</b> Backofen auf ' + temp + ' °C vorheizen.</div>' : '') +
     '<div><div class="panel-head"><h3>Zutaten bereitlegen</h3><span class="tiny">antippen zum Abhaken</span></div>' +
     r.ing.map((x, k) => '<label class="cook-check"><input type="checkbox" data-act="cookcheck" data-k="' + k + '"><span style="flex:1">' + esc(x.n) + (x.p ? ' <span class="tiny">(Vorrat)</span>' : '') + '</span><b class="num">' + fmtQ(x.q * P, x.u) + '</b></label>').join('') + '</div>' +
@@ -556,6 +627,7 @@ function renderWoche() {
   meters += meter('Hülsenfrüchte', bal.c.legumes, tg.legumes);
   meters += meter('Pflanzlich', bal.c.plant, tg.plant);
   if (st.diet === 'alles') meters += meter('Fleisch höchstens', bal.c.meat, tg.meatMax, 'max');
+  { const gs = w.days.map(d => R(d.id)).filter(Boolean).map(proteinFor); const avg = gs.length ? Math.round(gs.reduce((a, b) => a + b, 0) / gs.length) : 0; const t = st.protTarget || 0; if (t) meters += meter('Eiweiß ≥ ' + t + ' g', gs.filter(g => g >= t).length, 7); else meters += '<div class="meter ' + (avg >= 22 ? 'ok' : '') + '"><div class="lbl"><span>Eiweiß je Portion, Schnitt</span><b>≈ ' + avg + ' g</b></div><div class="bar"><i style="width:' + Math.min(100, avg * 2.5) + '%"></i></div></div>'; }
   meters += meter('Vollkorn', bal.whole, 7, 'count');
   meters += '<div class="meter ok"><div class="lbl"><span>Gemüsesorten</span><b>' + bal.veg + '</b></div><div class="bar"><i style="width:' + Math.min(100, bal.veg * 6) + '%"></i></div></div>';
   meters += '<div class="meter ok"><div class="lbl"><span>Länderküchen</span><b>' + bal.cui + '</b></div><div class="bar"><i style="width:' + Math.min(100, bal.cui * 14) + '%"></i></div></div>';
@@ -575,7 +647,7 @@ function renderWoche() {
       '<div class="dh"><span class="wd">' + WD[i] + (isToday ? ' <span class="chip brand" style="font-size:.65rem;padding:1px 6px">heute</span>' : '') + '</span><span class="dr"><span class="dt num">' + fmtDay(date) + '</span><span class="marks">' + (d.cooked ? '<span class="mark ok" title="gekocht">' + ICON.check + '</span>' : '') + (d.locked ? '<span class="mark lock" title="fest">' + ICON.lock + '</span>' : '') + (hi.length ? '<span class="mark warn" title="' + esc(hi.join(', ')) + '">!</span>' : si.length ? '<span class="mark warn" title="' + esc(si.join(', ')) + '">~</span>' : '') + '</span></span></div>' +
       photoBox(r, 'day-photo') +
       '<div class="nm">' + (r ? esc(r.name) : 'Kein passendes Gericht') + '</div>' +
-      (r ? '<div class="mt"><span class="dot" style="background:' + PROTEIN_COLORS[r.protein] + '"></span>' + PROTEIN_LABEL[r.protein] + ' · <span class="num">' + (r.time.a + r.time.c) + ' Min.</span>' + (d.chain ? ' · ' + ICON.link : '') + '</div>' + deviceLine(r) : '') +
+      (r ? '<div class="mt"><span class="dot" style="background:' + PROTEIN_COLORS[r.protein] + '"></span>' + PROTEIN_LABEL[r.protein] + ' · <span class="num">' + (r.time.a + r.time.c) + ' Min.</span> · <span class="num" title="Eiweiß je Portion, geschätzt">≈ ' + proteinFor(r) + ' g</span>' + (d.chain ? ' · ' + ICON.link : '') + '</div>' + deviceLine(r) : '') +
       (kid ? '<div class="kidline">' + kid.flag + ' <span>' + esc(kid.name) + '</span></div>' : '') +
       '</button>';
   }).join('');
@@ -593,7 +665,7 @@ function renderDetail() {
   const ym = youngest(); const tier = tierFor(ym); const kid = st.kidMode !== 'familie' ? kidFor(i) : null;
   const month = curMon.getMonth() + 1; const inSeason = r.season.length && r.season.includes(month);
   const nu = nutriFor(r);
-  const extrasOk = Object.keys(EXTRAS).filter(k => extrasFor(r).includes(k)).filter(k => { const x = EXTRAS[k]; if (x.allergens.some(a => st.allergens.includes(a))) return false; if (st.diet === 'vegan') return x.diet === 'vegan'; if (st.diet === 'vegetarisch') return x.diet !== 'alles'; if (st.diet === 'pescetarisch') return x.diet !== 'alles'; return true; });
+  const extrasOk = Object.keys(EXTRAS).filter(k => extrasFor(r).includes(k)).filter(k => { const x = EXTRAS[k]; if (x.allergens.some(a => st.allergens.includes(a))) return false; if (st.protNoDairy && x.allergens.includes('milch')) return false; if (st.diet === 'vegan') return x.diet === 'vegan'; if (st.diet === 'vegetarisch') return x.diet !== 'alles'; if (st.diet === 'pescetarisch') return x.diet !== 'alles'; return true; });
   const bi = baseIng(r); const nextR = d.chain ? R(w.days[i + 1].id) : null; const nextBi = nextR ? baseIng(nextR) : null;
   const note = S.notes[r.id] || {};
   const kidSelect = st.kidMode !== 'familie' ? '<select data-act="kidsel" data-i="' + i + '" aria-label="Kindergericht wählen">' + KIDS.filter(k => kidOk(k, st)).sort((a, b) => a.land.localeCompare(b.land, 'de')).map(k => '<option value="' + k.id + '"' + (kid && kid.id === k.id ? ' selected' : '') + '>' + k.flag + ' ' + esc(k.land) + ' · ' + esc(k.name) + '</option>').join('') + '</select>' : '';
@@ -603,7 +675,7 @@ function renderDetail() {
     '<div class="detail-head">' + photoBox(r, 'big', true) +
     '<div class="titles"><div class="dayline"><span class="eyebrow">' + WD[i] + ' · ' + fmtDay(date) + '</span>' + (d.locked ? chip(ICON.lock + ' fest', 'outline') : '') + (d.cooked ? chip(ICON.check + ' gekocht', 'brand') : '') + (d.chainFrom != null ? chip(ICON.link + ' nutzt die Basis von ' + WD[d.chainFrom], 'brand') : '') + '</div>' +
     '<h2>' + esc(r.name) + '</h2>' +
-    '<div class="chips">' + chip(r.flag + ' ' + esc(r.cuisine)) + protChip(r) + chip('<span class="num">' + (r.time.a + r.time.c) + '</span> Min.') + deviceChips(r) + (r.wholegrain ? chip('Vollkorn', 'brand') : '') + (isVegan(r) ? chip('vegan', 'brand') : plantBased(r) ? chip('vegetarisch', 'brand') : '') + (inSeason ? chip('Saison', 'brand') : '') +
+    '<div class="chips">' + chip(r.flag + ' ' + esc(r.cuisine)) + protChip(r) + chip('<span class="num">' + (r.time.a + r.time.c) + '</span> Min.') + proteinChip(r) + catChip(r) + deviceChips(r) + (r.wholegrain ? chip('Vollkorn', 'brand') : '') + (isVegan(r) ? chip('vegan', 'brand') : plantBased(r) ? chip('vegetarisch', 'brand') : '') + (inSeason ? chip('Saison', 'brand') : '') +
     hi.map(x => chip('! ' + esc(x), 'crit')).join('') + si.map(x => chip('~ ' + esc(x), 'warn')).join('') + '</div>' +
     '<div class="detail-actions">' +
     '<button type="button" class="btn primary" data-act="cook" data-i="' + i + '">▶ Schritt für Schritt kochen</button>' +
@@ -623,6 +695,7 @@ function renderDetail() {
     '<div class="m"><span class="eyebrow">Allergene</span><b>' + (r.allergens.length ? r.allergens.map(a => ALLERGEN_LABEL[a]).join(', ') : 'keine typischen') + '</b></div>' +
     '<div class="m"><span class="eyebrow">Einfachheit</span><b><span class="simplicity" aria-label="' + simp + ' von 5">' + [1, 2, 3, 4, 5].map(n => '<i class="' + (n <= simp ? 'on' : '') + '"></i>').join('') + '</span> ' + simp + '/5 · ' + simplicityLabel(simp) + '</b></div>' +
     '<div class="m"><span class="eyebrow">Portionen</span><b class="num">' + fmtNum(P) + '</b></div>' +
+    (function () { const pi = proteinInfo(r); const g = proteinFor(r); const t = st.protTarget || 0; return '<div class="m' + (t && g < t ? ' warnbox' : '') + '"><span class="eyebrow">Eiweiß je Portion</span><b class="num">≈ ' + g + ' g · ' + proteinLabel(g) + '</b><span class="tiny">' + (pi.all !== pi.noDairy ? 'davon ohne Milchprodukte ≈ ' + pi.noDairy + ' g' : 'ohne Milchprodukte') + (t ? ' · Ziel ' + t + ' g' + (g < t ? ', fehlen ' + (t - g) + ' g' : ' erreicht') : '') + '</span></div>'; })() +
     '</div>' +
 
     '<div class="cols">' +
@@ -655,7 +728,7 @@ function renderDetail() {
     '<div class="n"><span class="eyebrow">Eiweiß</span><b>' + esc(nu.p.join(' · ') || '–') + '</b></div><div class="n"><span class="eyebrow">Ballaststoffe</span><b>' + esc(nu.f.join(' · ') || '–') + '</b></div>' +
     '<div class="n"><span class="eyebrow">Eisen</span><b>' + esc(nu.i.join(' · ') || '–') + '</b></div><div class="n"><span class="eyebrow">Fett</span><b>' + esc(nu.fat.join(' · ') || '–') + '</b></div></div>' +
     '<p class="tiny" style="margin-top:10px">Orientierung anhand der Zutaten, keine berechnete Nährwertanalyse und keine Aussage zur vollständigen Versorgung.</p></div>' +
-    (extrasOk.length ? '<div><div class="panel-head"><h3>Optionales Extra-Eiweiß</h3><span class="tiny">für ' + st.adults + ' Erw.</span></div><div class="extras-list">' +
+    (extrasOk.length ? '<div><div class="panel-head"><h3>Optionales Extra-Eiweiß</h3><span class="tiny">für ' + st.adults + ' Erw.</span></div>' + (function () { const g = proteinFor(r); const t = st.protTarget || 0; return t && g < t ? '<p class="small" style="margin-bottom:8px;color:var(--warn)"><b>Es fehlen etwa ' + (t - g) + ' g je Portion.</b> Eine Ergänzung unten bringt das Gericht auf das Ziel.</p>' : ''; })() + '<div class="extras-list">' +
       extrasOk.map(k => { const x = EXTRAS[k]; const on = (d.extras || []).includes(k); return '<label class="extra"><input type="checkbox" data-act="extra" data-i="' + i + '" data-k="' + k + '"' + (on ? ' checked' : '') + '><span class="t">' + esc(x.n) + ' · ' + fmtQ(x.q * st.adults / 2, x.u) + '<span>' + esc(x.note) + '</span></span><span class="p num">≈ ' + Math.round(x.prot * st.adults / 2) + ' g Eiweiß</span></label>'; }).join('') +
       '<p class="tiny">Erst durch Auswahl kommt die Ergänzung auf die Einkaufsliste. Eiweißwerte sind grobe Orientierungen.</p></div></div>' : '') +
     '<div><div class="panel-head"><h3>Notiz und Bewertung</h3>' + ratingHtml(r.id) + '</div><textarea data-act="note" data-id="' + r.id + '" placeholder="Was hat geklappt, was ändert ihr nächstes Mal?">' + esc(note.text || '') + '</textarea>' +
@@ -744,16 +817,17 @@ function renderKidCountries() {
 }
 
 function renderLaender() {
-  const st = S.settings; const state = renderLaender.state || (renderLaender.state = { region: 'alle', country: null, q: '', showKid: false, limit: 60 });
+  const st = S.settings; const state = renderLaender.state || (renderLaender.state = { region: 'alle', country: null, q: '', showKid: false, limit: 60, cat: '' });
   const cs = countries(); const regions = REGIONS.filter(r => cs.some(c => c.region === r));
   let head = '<div class="view-head"><div><div class="eyebrow">Weltküche</div><h2>Pro Land die 15 bekanntesten Gerichte, gesund und familientauglich.</h2><p class="lead">' + RECIPES.length + ' Gerichte aus ' + cs.length + ' Küchen, jedes mit Kinderversion. Antippen zeigt die Liste eines Landes, „Einplanen“ setzt ein Gericht auf einen Wochentag.</p></div></div>' +
     '<div class="row"><input type="search" id="land-q" data-act="landq" value="' + esc(state.q) + '" placeholder="Gericht suchen, zum Beispiel Curry, Lachs, Linsen" aria-label="Gericht suchen" style="flex:1;min-width:200px">' +
+    catSelect('land-cat', state.cat) +
     '<div class="chips">' + ['alle'].concat(regions).map(r => '<button type="button" class="chip pick" data-act="landreg" data-r="' + r + '" aria-pressed="' + (state.region === r) + '">' + (r === 'alle' ? 'Alle Regionen' : r) + '</button>').join('') + '</div></div>';
   $('#laender-head').innerHTML = head;
-  const card = (r, extraLine) => '<article class="alt" style="grid-template-columns:64px 1fr;cursor:default">' + photoBox(r, 'thumb') + '<span style="min-width:0"><b>' + esc(r.name) + '</b><small>' + r.flag + ' ' + esc(r.cuisine) + ' · ' + (r.time.a + r.time.c) + ' Min. · ' + PROTEIN_LABEL[r.protein] + (r.allergens.length ? ' · ' + r.allergens.map(a => ALLERGEN_LABEL[a]).join(', ') : '') + '</small>' + deviceLine(r) + (extraLine || '') + '<span class="row" style="margin-top:8px">' + daySelect('planday', 'data-id="' + r.id + '"') + '<button type="button" class="btn icon sm ghost" data-act="fav" data-id="' + r.id + '" aria-pressed="' + S.favorites.includes(r.id) + '" aria-label="Favorit">' + (S.favorites.includes(r.id) ? ICON.heart : ICON.heartO) + '</button></span></span></article>';
-  if (state.q.trim()) {
+  const card = (r, extraLine) => '<article class="alt" style="grid-template-columns:64px 1fr;cursor:default">' + photoBox(r, 'thumb') + '<span style="min-width:0"><b>' + esc(r.name) + '</b><small>' + r.flag + ' ' + esc(r.cuisine) + ' · ' + (r.time.a + r.time.c) + ' Min. · ' + PROTEIN_LABEL[r.protein] + ' · ' + catOf(r).ic + ' ' + esc(catOf(r).l) + (r.allergens.length ? ' · ' + r.allergens.map(a => ALLERGEN_LABEL[a]).join(', ') : '') + '</small>' + deviceLine(r) + (extraLine || '') + '<span class="row" style="margin-top:8px">' + daySelect('planday', 'data-id="' + r.id + '"') + '<button type="button" class="btn icon sm ghost" data-act="fav" data-id="' + r.id + '" aria-pressed="' + S.favorites.includes(r.id) + '" aria-label="Favorit">' + (S.favorites.includes(r.id) ? ICON.heart : ICON.heartO) + '</button></span></span></article>';
+  if (state.q.trim() || state.cat) {
     const q = state.q.trim().toLowerCase();
-    const hits = RECIPES.filter(r => (r.name + ' ' + r.cuisine + ' ' + r.veg.join(' ') + ' ' + (r.kidName || '')).toLowerCase().includes(q) && !hardIssues(r, st).length);
+    const hits = RECIPES.filter(r => (!q || (r.name + ' ' + r.cuisine + ' ' + r.veg.join(' ') + ' ' + (r.kidName || '') + ' ' + catOf(r).l).toLowerCase().includes(q)) && (!state.cat || catOf(r).id === state.cat) && (state.region === 'alle' || regionOf(r.cuisine) === state.region) && !hardIssues(r, st).length);
     $('#laender-grid').innerHTML = '<p class="muted small">' + hits.length + ' Treffer' + (hits.length > state.limit ? ', die ersten ' + state.limit : '') + '</p><div class="alts" style="grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))">' + hits.slice(0, state.limit).map(r => card(r, r.kidName ? '<small class="small" style="color:var(--accent)">Kind: ' + esc(r.kidName) + '</small>' : '')).join('') + '</div>' + (hits.length > state.limit ? '<p style="margin-top:10px"><button type="button" class="btn sm" data-act="landmore">Mehr anzeigen</button></p>' : '');
     $('#laender-country').innerHTML = ''; return;
   }
@@ -874,6 +948,8 @@ function renderFeinplanung() {
     '<div class="field"><span class="lab">Hülsenfrüchte als Hauptprotein</span>' + stepper('legumes', st.legumes, 0, 7) + '<span class="help">Bohnen, Linsen oder Kichererbsen.</span></div>' +
     '<div class="field"><span class="lab">Mindestens pflanzliche Tage</span>' + stepper('plant', st.plant, 0, 7) + '<span class="help">Tage ohne Fleisch und Fisch.</span></div>' +
     (st.diet === 'alles' ? '<div class="field"><span class="lab">Fleisch höchstens</span>' + stepper('meatMax', st.meatMax, 0, 7) + '</div>' : '') +
+    '<div class="field"><span class="lab">Eiweiß pro Portion mindestens</span>' + seg('prottarget', [{ v: 0, l: 'Egal' }, { v: 15, l: '15 g' }, { v: 20, l: '20 g' }, { v: 25, l: '25 g' }, { v: 30, l: '30 g' }], st.protTarget || 0) + '<span class="help">Schätzung aus den Zutaten je Erwachsenenportion. Gerichte darunter werden seltener geplant und mit ~ markiert; das Extra-Eiweiß im Gericht gleicht gezielt auf.</span></div>' +
+    sw('protNoDairy', 'Milchprodukte nicht als Eiweißquelle zählen', 'Käse, Joghurt, Quark und Milch werden beim Eiweiß ignoriert. Dann zählen nur Hülsenfrüchte, Tofu, Ei, Fisch, Fleisch, Getreide und Nüsse.') +
     sw('seasonal', 'Saisonal bevorzugen', 'Gerichte mit Gemüse der Saison werden bevorzugt (' + MONTHS[curMon.getMonth()] + ').') +
     sw('photos', 'Fotos aus Wikipedia laden', 'Zeigt beim Anzeigen ein passendes Foto aus Wikipedia (frei lizenziert, Quelle verlinkt). Ohne Foto bleibt die Teller-Illustration.' + (IS_ARTIFACT ? ' In dieser Vorschau sind externe Bilder gesperrt; in der installierten Version funktioniert es.' : '')) +
     '</div>' +
@@ -933,21 +1009,23 @@ function openPicker(i) {
 }
 function fillPicker(more) {
   const dlg = $('#picker'); const i = Number(dlg.dataset.i); const st = S.settings; const q = $('#picker-q').value.trim().toLowerCase(); const w = week(); const used = new Set(w.days.map(d => d.id));
-  const f = fillPicker.state || (fillPicker.state = { land: '', prot: 'alle', time: 0, dev: 'alle', limit: 60 }); if (!more) f.limit = 60; else f.limit += 60;
+  const f = fillPicker.state || (fillPicker.state = { land: '', prot: 'alle', time: 0, dev: 'alle', cat: '', limit: 60 }); if (!more) f.limit = 60; else f.limit += 60;
+  const catSel = $('#picker-cat'); if (catSel && !catSel.options.length) catSel.outerHTML = catSelect('picker-cat', f.cat);
   const landSel = $('#picker-land'); if (landSel && !landSel.options.length) landSel.innerHTML = '<option value="">Alle Länder</option>' + countries().map(c => '<option value="' + esc(c.name) + '">' + c.flag + ' ' + esc(c.name) + '</option>').join('');
   let list = RECIPES.filter(r => !hardIssues(r, st).length);
   if (f.land) list = list.filter(r => r.cuisine === f.land);
-  if (f.prot === 'pflanzlich') list = list.filter(plantBased); else if (f.prot === 'fisch') list = list.filter(r => r.protein === 'fisch'); else if (f.prot === 'fleisch') list = list.filter(isMeat);
+  if (f.prot === 'pflanzlich') list = list.filter(plantBased); else if (f.prot === 'fisch') list = list.filter(r => r.protein === 'fisch'); else if (f.prot === 'fleisch') list = list.filter(isMeat); else if (f.prot === 'eiweiss') list = list.filter(r => proteinFor(r) >= (st.protTarget || 25));
   if (f.time) list = list.filter(r => r.time.a + r.time.c <= f.time);
   if (f.dev === 'pfanne' || f.dev === 'topf' || f.dev === 'ofen') list = list.filter(r => onlyDevice(r, f.dev)); else if (f.dev === 'eins') list = list.filter(r => r.oneVessel);
-  if (q) { const terms = q.split(/\s+/).filter(Boolean); list = list.filter(r => { const hay = (r.name + ' ' + r.cuisine + ' ' + r.veg.join(' ') + ' ' + r.ing.map(x => x.n).join(' ') + ' ' + PROTEIN_LABEL[r.protein] + ' ' + (r.kidName || '') + ' ' + r.method).toLowerCase(); return terms.every(t => hay.includes(t)); }); }
+  if (f.cat) list = list.filter(r => catOf(r).id === f.cat);
+  if (q) { const terms = q.split(/\s+/).filter(Boolean); list = list.filter(r => { const hay = (r.name + ' ' + r.cuisine + ' ' + r.veg.join(' ') + ' ' + r.ing.map(x => x.n).join(' ') + ' ' + PROTEIN_LABEL[r.protein] + ' ' + (r.kidName || '') + ' ' + r.method + ' ' + catOf(r).l).toLowerCase(); return terms.every(t => hay.includes(t)); }); }
   list.sort((a, b) => softIssues(a, st, i).length - softIssues(b, st, i).length || (f.time ? (a.time.a + a.time.c) - (b.time.a + b.time.c) : 0) || a.name.localeCompare(b.name, 'de'));
   $$('#picker-prot button').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === f.prot));
   $$('#picker-time button').forEach(b => b.setAttribute('aria-pressed', Number(b.dataset.v) === f.time));
   $$('#picker-dev button').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === (f.dev || 'alle')));
-  $('#picker-list').innerHTML = (list.slice(0, f.limit).map(r => { const si = softIssues(r, st, i); return '<button type="button" class="alt pick-item" data-act="take" data-i="' + i + '" data-id="' + r.id + '">' + photoBox(r, 'thumb') + '<span class="pi-body"><b>' + esc(r.name) + '</b><span class="chips">' + chip(r.flag + ' ' + esc(r.cuisine)) + chip('<span class="num">' + (r.time.a + r.time.c) + '</span> Min.') + protChip(r) + deviceChips(r) + (used.has(r.id) ? chip('diese Woche', 'outline') : '') + (si.length ? chip('~ ' + esc(si[0]), 'warn') : '') + (S.favorites.includes(r.id) ? chip(ICON.heart + ' Favorit', 'brand') : '') + '</span></span><span class="pi-go" aria-hidden="true">›</span></button>'; }).join('') || '<p class="muted">Nichts gefunden. ' + (f.time && f.time <= 15 ? 'Unter 15 Minuten gibt es fast nichts (Vorbereitung plus Garzeit). Probiere „≤ 20“ oder „≤ 30“.' : 'Zeitgrenze lockern, anderes Wort oder nur einen Begriff probieren.') + '</p>') +
+  $('#picker-list').innerHTML = (list.slice(0, f.limit).map(r => { const si = softIssues(r, st, i); return '<button type="button" class="alt pick-item" data-act="take" data-i="' + i + '" data-id="' + r.id + '">' + photoBox(r, 'thumb') + '<span class="pi-body"><b>' + esc(r.name) + '</b><span class="chips">' + chip(r.flag + ' ' + esc(r.cuisine)) + chip('<span class="num">' + (r.time.a + r.time.c) + '</span> Min.') + protChip(r) + proteinChip(r) + catChip(r) + deviceChips(r) + (used.has(r.id) ? chip('diese Woche', 'outline') : '') + (si.length ? chip('~ ' + esc(si[0]), 'warn') : '') + (S.favorites.includes(r.id) ? chip(ICON.heart + ' Favorit', 'brand') : '') + '</span></span><span class="pi-go" aria-hidden="true">›</span></button>'; }).join('') || '<p class="muted">Nichts gefunden. ' + (f.time && f.time <= 15 ? 'Unter 15 Minuten gibt es fast nichts (Vorbereitung plus Garzeit). Probiere „≤ 20“ oder „≤ 30“.' : 'Zeitgrenze lockern, anderes Wort oder nur einen Begriff probieren.') + '</p>') +
     (list.length > f.limit ? '<button type="button" class="btn sm" data-act="pickermore">Mehr anzeigen (' + (list.length - f.limit) + ' weitere)</button>' : '');
-  $('#picker-count').textContent = list.length + ' Gerichte' + (q || f.land || f.prot !== 'alle' || f.time || (f.dev && f.dev !== 'alle') ? ' passen' : '') + ' · antippen setzt es auf ' + WD[i];
+  $('#picker-count').textContent = list.length + ' Gerichte' + (q || f.land || f.prot !== 'alle' || f.time || (f.dev && f.dev !== 'alle') || f.cat ? ' passen' : '') + ' · antippen setzt es auf ' + WD[i];
   setTimeout(hydratePhotos, 0);
 }
 
@@ -999,6 +1077,7 @@ document.addEventListener('click', e => {
     case 'kidmode': st.kidMode = el.dataset.v; save(); renderFeinplanung(); break;
     case 'diet': st.diet = el.dataset.v; save(); renderFeinplanung(); break;
     case 'devpref': st.devPref = el.dataset.v; save(); renderFeinplanung(); break;
+    case 'prottarget': st.protTarget = Number(el.dataset.v); save(); renderFeinplanung(); break;
     case 'timeweek': st.timeWeek = Number(el.dataset.v); save(); renderFeinplanung(); break;
     case 'timeweekend': st.timeWeekend = Number(el.dataset.v); save(); renderFeinplanung(); break;
     case 'allergen': { const a = el.dataset.a; st.allergens = st.allergens.includes(a) ? st.allergens.filter(x => x !== a) : st.allergens.concat(a); save(); renderFeinplanung(); break; }
@@ -1050,6 +1129,8 @@ document.addEventListener('change', e => {
     case 'kidcountry': renderKidCountries.state.c = el.value; renderKidCountries(); break;
     case 'toggle-have': st.preferHave = el.checked; save(); break;
     case 'pickerland': fillPicker.state.land = el.value; fillPicker(); break;
+    case 'picker-cat': fillPicker.state.cat = el.value; fillPicker(); break;
+    case 'land-cat': renderLaender.state.cat = el.value; renderLaender.state.limit = 60; renderLaender(); break;
   }
 });
 document.addEventListener('input', e => {

@@ -244,6 +244,8 @@ input::placeholder, textarea::placeholder { color: var(--ink-3); }
 .meta { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; }
 .meta .m { background: var(--surface-2); border-radius: var(--radius-sm); padding: 10px 12px; display: grid; gap: 2px; }
 .meta .m .eyebrow { font-size: .66rem; }
+.meta .m.warnbox { background: var(--warn-soft); }
+.meta .m .tiny { margin-top: 2px; }
 .meta .m b { font-weight: 700; }
 .simplicity { display: inline-flex; gap: 3px; vertical-align: middle; }
 .simplicity i { width: 9px; height: 9px; border-radius: 50%; background: var(--surface-3); border: 1px solid var(--line-strong); }
