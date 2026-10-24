@@ -124,7 +124,7 @@ function proteinInfo(r) { if (!r._prot) r._prot = { all: proteinOf(r, false), no
 function proteinFor(r) { const st = S.settings; const pi = proteinInfo(r); return st.protNoDairy ? pi.noDairy : pi.all; }
 function proteinLabel(g) { return g >= 30 ? 'reichlich' : g >= 22 ? 'gut' : g >= 15 ? 'mittel' : 'knapp'; }
 function proteinChip(r) { const pi = proteinInfo(r); const st = S.settings; const g = proteinFor(r); const target = st.protTarget || 0; const cls = target ? (g >= target ? 'brand' : 'warn') : (g >= 22 ? 'brand' : g >= 15 ? '' : 'warn'); return chip('≈ <span class="num">' + g + '</span> g Eiweiß' + (st.protNoDairy && pi.all !== pi.noDairy ? ' <span class="tiny">ohne Milch</span>' : ''), cls); }
-function catChip(r) { const c = catOf(r); return chip(c.ic + ' ' + esc(c.l), 'outline'); }
+function catChip(r) { const c = catOf(r); return chip(c.ic + ' ' + esc(c.l), 'cat'); }
 function catSelect(id, cur) { const counts = {}; RECIPES.forEach(r => { const c = catOf(r).id; counts[c] = (counts[c] || 0) + 1; }); return '<select id="' + id + '" data-act="' + id + '" aria-label="Gerichtsart"><option value="">Alle Gerichtsarten</option>' + CATS.concat([CAT_FALLBACK]).filter(c => counts[c.id]).map(c => '<option value="' + c.id + '"' + (cur === c.id ? ' selected' : '') + '>' + c.ic + ' ' + esc(c.l) + ' (' + counts[c.id] + ')</option>').join('') + '</select>'; }
 function deviceSummary(r) { const g = r.devices.map(gr => gr.map(d => DEVICE_SHORT[d]).join(' oder ')); if (!g.length) return 'ohne Gerät'; if (g.length === 1) return 'nur ' + g[0]; return g.join(' + '); }
 function onlyDevice(r, d) { return r.devices.length === 1 && r.devices[0].includes(d); }
@@ -645,7 +645,7 @@ function renderWoche() {
   { const d = w.days[selIdx]; const r = R(d.id); const date = addDays(curMon, selIdx); const isToday = selIdx === tIdx; const diff = tIdx >= 0 ? selIdx - tIdx : null;
     const rel = isToday ? 'Heute' : diff === 1 ? 'Morgen' : diff === -1 ? 'Gestern' : diff != null && diff > 1 ? 'in ' + diff + ' Tagen' : diff != null && diff < -1 ? 'vor ' + (-diff) + ' Tagen' : WD[selIdx];
     $('#focus').classList.toggle('not-today', !isToday);
-    $('#focus-head').innerHTML = '<div class="focus-title"><span class="big">' + esc(rel) + '</span><span class="subcard">' + WD[selIdx] + ' · ' + fmtDay(date) + (r ? ' · ' + esc(r.name.split(' · ')[0]) : '') + '</span></div>' +
+    $('#focus-head').innerHTML = '<div class="focus-title"><span class="big">' + esc(rel) + '</span><span class="sub">' + WD[selIdx] + ' · ' + fmtDay(date) + (r ? ' · ' + esc(r.name.split(' · ')[0]) : '') + '</span></div>' +
       '<div class="row">' + (d.cooked ? chip(ICON.check + ' gekocht', 'brand') : '') + (!isToday && tIdx >= 0 ? '<button type="button" class="btn sm" data-act="sel" data-i="' + tIdx + '">Zurück zu heute</button>' : '') + '</div>';
     $('#days-title').textContent = isToday ? 'Die weiteren Tage dieser Woche' : 'Die anderen Tage dieser Woche'; }
   $('#days').innerHTML = w.days.map((d, i) => {
@@ -653,7 +653,7 @@ function renderWoche() {
     const r = R(d.id); const date = addDays(curMon, i); const isToday = iso(date) === todayIso;
     const hi = r ? hardIssues(r, st) : []; const si = r ? softIssues(r, st, i) : [];
     const kid = st.kidMode !== 'familie' ? kidFor(i) : null;
-    return '<button type="button" class="day ' + (d.cooked ? 'cooked' : '') + '" data-act="sel" data-i="' + i + '" aria-pressed="' + (w.sel === i) + '">' +
+    return '<button type="button" class="day ' + (d.cooked ? 'cooked' : '') + (isToday ? ' is-today' : '') + '" data-act="sel" data-i="' + i + '" aria-pressed="' + (w.sel === i) + '">' +
       '<div class="dh"><span class="wd">' + WD[i] + (isToday ? ' <span class="chip brand" style="font-size:.65rem;padding:1px 6px">heute</span>' : '') + '</span><span class="dr"><span class="dt num">' + fmtDay(date) + '</span><span class="marks">' + (d.cooked ? '<span class="mark ok" title="gekocht">' + ICON.check + '</span>' : '') + (d.locked ? '<span class="mark lock" title="fest">' + ICON.lock + '</span>' : '') + (hi.length ? '<span class="mark warn" title="' + esc(hi.join(', ')) + '">!</span>' : si.length ? '<span class="mark warn" title="' + esc(si.join(', ')) + '">~</span>' : '') + '</span></span></div>' +
       photoBox(r, 'day-photo') +
       '<div class="nm">' + (r ? esc(r.name) : 'Kein passendes Gericht') + '</div>' +
@@ -684,7 +684,7 @@ function renderDetail() {
   const head = '<div class="detail-head">' + photoBox(r, 'big', true) +
     '<div class="titles"><div class="dayline"><span class="eyebrow">' + WD[i] + ' · ' + fmtDay(date) + '</span>' + (d.locked ? chip(ICON.lock + ' fest', 'outline') : '') + (d.cooked ? chip(ICON.check + ' gekocht', 'brand') : '') + (d.chainFrom != null ? chip(ICON.link + ' nutzt die Basis von ' + WD[d.chainFrom], 'brand') : '') + '</div>' +
     '<h2>' + esc(r.name) + '</h2>' +
-    '<div class="chips">' + chip(r.flag + ' ' + esc(r.cuisine)) + protChip(r) + chip('<span class="num">' + (r.time.a + r.time.c) + '</span> Min.') + proteinChip(r) + catChip(r) + deviceChips(r) + (r.wholegrain ? chip('Vollkorn', 'brand') : '') + (isVegan(r) ? chip('vegan', 'brand') : plantBased(r) ? chip('vegetarisch', 'brand') : '') + (inSeason ? chip('Saison', 'brand') : '') +
+    '<div class="chips">' + chip(r.flag + ' ' + esc(r.cuisine), 'outline') + protChip(r) + chip('<span class="num">' + (r.time.a + r.time.c) + '</span> Min.', 'info') + proteinChip(r) + catChip(r) + deviceChips(r) + (r.wholegrain ? chip('Vollkorn', 'brand') : '') + (isVegan(r) ? chip('vegan', 'brand') : plantBased(r) ? chip('vegetarisch', 'brand') : '') + (inSeason ? chip('Saison', 'brand') : '') +
     hi.map(x => chip('! ' + esc(x), 'crit')).join('') + si.map(x => chip('~ ' + esc(x), 'warn')).join('') + '</div>' +
     '<div class="detail-actions"><div class="act-main"><button type="button" class="btn primary" data-act="cook" data-i="' + i + '">▶ Schritt für Schritt kochen</button></div>' +
     '<div class="act-group">' +
@@ -1031,7 +1031,7 @@ function fillPicker(more) {
   $$('#picker-prot button').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === f.prot));
   $$('#picker-time button').forEach(b => b.setAttribute('aria-pressed', Number(b.dataset.v) === f.time));
   $$('#picker-dev button').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === (f.dev || 'alle')));
-  $('#picker-list').innerHTML = (list.slice(0, f.limit).map(r => { const si = softIssues(r, st, i); return '<button type="button" class="alt pick-item" data-act="take" data-i="' + i + '" data-id="' + r.id + '">' + photoBox(r, 'thumb') + '<span class="pi-body"><b>' + esc(r.name) + '</b><span class="chips">' + chip(r.flag + ' ' + esc(r.cuisine)) + chip('<span class="num">' + (r.time.a + r.time.c) + '</span> Min.') + protChip(r) + proteinChip(r) + catChip(r) + deviceChips(r) + (used.has(r.id) ? chip('diese Woche', 'outline') : '') + (si.length ? chip('~ ' + esc(si[0]), 'warn') : '') + (S.favorites.includes(r.id) ? chip(ICON.heart + ' Favorit', 'brand') : '') + '</span></span><span class="pi-go" aria-hidden="true">›</span></button>'; }).join('') || '<p class="muted">Nichts gefunden. ' + (f.time && f.time <= 15 ? 'Unter 15 Minuten gibt es fast nichts (Vorbereitung plus Garzeit). Probiere „≤ 20“ oder „≤ 30“.' : 'Zeitgrenze lockern, anderes Wort oder nur einen Begriff probieren.') + '</p>') +
+  $('#picker-list').innerHTML = (list.slice(0, f.limit).map(r => { const si = softIssues(r, st, i); return '<button type="button" class="alt pick-item" data-act="take" data-i="' + i + '" data-id="' + r.id + '">' + photoBox(r, 'thumb') + '<span class="pi-body"><b>' + esc(r.name) + '</b><span class="chips">' + chip(r.flag + ' ' + esc(r.cuisine), 'outline') + chip('<span class="num">' + (r.time.a + r.time.c) + '</span> Min.', 'info') + protChip(r) + proteinChip(r) + catChip(r) + deviceChips(r) + (used.has(r.id) ? chip('diese Woche', 'outline') : '') + (si.length ? chip('~ ' + esc(si[0]), 'warn') : '') + (S.favorites.includes(r.id) ? chip(ICON.heart + ' Favorit', 'brand') : '') + '</span></span><span class="pi-go" aria-hidden="true">›</span></button>'; }).join('') || '<p class="muted">Nichts gefunden. ' + (f.time && f.time <= 15 ? 'Unter 15 Minuten gibt es fast nichts (Vorbereitung plus Garzeit). Probiere „≤ 20“ oder „≤ 30“.' : 'Zeitgrenze lockern, anderes Wort oder nur einen Begriff probieren.') + '</p>') +
     (list.length > f.limit ? '<button type="button" class="btn sm" data-act="pickermore">Mehr anzeigen (' + (list.length - f.limit) + ' weitere)</button>' : '');
   $('#picker-count').textContent = list.length + ' Gerichte' + (q || f.land || f.prot !== 'alle' || f.time || (f.dev && f.dev !== 'alle') || f.cat ? ' passen' : '') + ' · antippen setzt es auf ' + WD[i];
   setTimeout(hydratePhotos, 0);
