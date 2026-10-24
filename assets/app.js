@@ -41,6 +41,37 @@ const ING_SYNONYMS = {
 };
 (function () { const fix = list => list.forEach(x => x.ing.forEach(i => { if (ING_SYNONYMS[i.n]) i.n = ING_SYNONYMS[i.n]; })); fix(RECIPES); fix(KIDS); })();
 
+/* ---------- Geräte je Gericht: aus den Schritten ergänzen, damit „nur Pfanne“ oder „nur Ofen“ stimmt ---------- */
+const DEVICE_SHORT = { topf: 'Topf', pfanne: 'Pfanne', ofen: 'Backofen', airfryer: 'Airfryer', mikrowelle: 'Mikrowelle', maschine: 'Küchenmaschine', slowcooker: 'Slow Cooker' };
+const DEVICE_ORDER = ['topf', 'pfanne', 'ofen', 'airfryer', 'slowcooker', 'maschine', 'mikrowelle'];
+(function () {
+  RECIPES.forEach(r => {
+    if (!Array.isArray(r.devices)) r.devices = [];
+    const text = r.steps.join(' ') + ' ' + (r.method || '');
+    const has = d => r.devices.some(g => g.includes(d));
+    const airf = /airfryer|heißluftfritteuse/i.test(text);
+    if (/backofen|\bofen\b|°\s?c|\bblech|überbacken|gratin|backen/i.test(text) && !has('ofen') && !has('airfryer')) r.devices.push(airf ? ['airfryer', 'ofen'] : ['ofen']);
+    else if (airf && !has('airfryer')) { const gi = r.devices.findIndex(g => g.includes('ofen')); if (gi >= 0) r.devices[gi] = ['airfryer', 'ofen']; else r.devices.push(['airfryer', 'ofen']); }
+    if (/pfanne|anbraten|\bbraten\b|anrösten|\bwok\b|rösten/i.test(text) && !has('pfanne')) r.devices.push(['pfanne']);
+    if (/\btopf\b|köcheln|\bkochen\b|dämpfen|sieden|aufkochen|kochendem|garen in wasser|brühe/i.test(text) && !has('topf') && !has('slowcooker')) r.devices.push(['topf']);
+    r.devices.forEach(g => g.sort((a, b) => DEVICE_ORDER.indexOf(a) - DEVICE_ORDER.indexOf(b)));
+    r.devices.sort((a, b) => DEVICE_ORDER.indexOf(a[0]) - DEVICE_ORDER.indexOf(b[0]));
+  });
+})();
+function deviceSummary(r) { const g = r.devices.map(gr => gr.map(d => DEVICE_SHORT[d]).join(' oder ')); if (!g.length) return 'ohne Gerät'; if (g.length === 1) return 'nur ' + g[0]; return g.join(' + '); }
+function onlyDevice(r, d) { return r.devices.length === 1 && r.devices[0].includes(d); }
+const DEVICE_ICON = {
+  topf: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 6h10v5.5a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 3 11.5z"/><path d="M1 7h2M13 7h2M5 4h6"/></svg>',
+  pfanne: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="6.5" cy="9" r="4.5"/><path d="M11 8.5l4-2"/></svg>',
+  ofen: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2.5" width="12" height="11" rx="1.5"/><rect x="4.5" y="7" width="7" height="4"/><path d="M4.5 4.8h1M7.5 4.8h1M10.5 4.8h1"/></svg>',
+  airfryer: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="3" y="2" width="10" height="12" rx="2.5"/><path d="M5.5 6h5M6 10.5h4"/></svg>',
+  slowcooker: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 7h10v4.5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M4 7a4 4 0 0 1 8 0M8 2.5V3"/></svg>',
+  maschine: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 5h10l-1.5 8h-7z"/><path d="M8 7v4M6 9h4"/></svg>',
+  mikrowelle: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1.5" y="3.5" width="13" height="9" rx="1.5"/><rect x="3.5" y="5.5" width="6" height="5"/><path d="M11.5 6v1M11.5 9v1"/></svg>'
+};
+function deviceChips(r, cls) { return r.devices.map(gr => '<span class="chip dev ' + (cls || '') + '" title="' + esc(gr.map(d => DEVICE_SHORT[d]).join(' oder ')) + '">' + gr.map(d => DEVICE_ICON[d]).join('<i class="or">/</i>') + ' ' + esc(gr.map(d => DEVICE_SHORT[d]).join(' oder ')) + '</span>').join(''); }
+function deviceLine(r) { return '<span class="devline" title="' + esc(deviceSummary(r)) + '">' + r.devices.map(gr => gr.map(d => DEVICE_ICON[d]).join('<i class="or">/</i>')).join('<i class="plus">+</i>') + ' <span>' + esc(deviceSummary(r)) + '</span></span>'; }
+
 /* ---------- Zustand ---------- */
 const LS = 'gruen-geplant:v1';
 const DEFAULTS = {
@@ -48,7 +79,7 @@ const DEFAULTS = {
     adults: 2, kids: [{ age: 19 }], extraPortions: 1,
     diet: 'alles', fish: 1, legumes: 2, plant: 3, meatMax: 2,
     allergens: [], dislikes: '', timeWeek: 30, timeWeekend: 45,
-    lowChop: false, oneVessel: false, base3: false, seasonal: true,
+    lowChop: false, oneVessel: false, base3: false, seasonal: true, devPref: 'alle',
     devices: { ofen: true, airfryer: false, mikrowelle: true, maschine: false, slowcooker: false },
     kidMode: 'welt', hideDone: false, showPantry: false, preferHave: false, photos: true
   },
@@ -137,6 +168,7 @@ function softIssues(r, st, i) {
   if (st.lowChop && !r.lowChop) out.push('Mehr Schneidearbeit');
   if (st.oneVessel && !r.oneVessel) out.push('Mehr als ein Gefäß');
   if (st.base3 && r.baseCount > 3) out.push('Mehr als 3 Grundzutaten');
+  if (st.devPref && st.devPref !== 'alle' && !onlyDevice(r, st.devPref)) out.push('Braucht mehr als ' + DEVICE_SHORT[st.devPref]);
   return out;
 }
 function simplicity(r) { return [r.time.a <= 20, r.baseCount <= 3, r.lowChop, r.oneVessel, r.steps.length <= 5].filter(Boolean).length; }
@@ -183,7 +215,7 @@ function haveMatch(r) {
 function allIngredientNames() { const set = new Set(); RECIPES.forEach(r => r.ing.forEach(i => { if (!i.p) set.add(short(i.n)); })); return Array.from(set).sort((a, b) => a.localeCompare(b, 'de')); }
 
 /* ---------- Woche und Plan ---------- */
-function settingsSig(st) { return JSON.stringify([st.diet, st.fish, st.legumes, st.plant, st.meatMax, st.allergens, st.dislikes, st.timeWeek, st.timeWeekend, st.lowChop, st.oneVessel, st.base3, st.seasonal, st.devices]); }
+function settingsSig(st) { return JSON.stringify([st.diet, st.fish, st.legumes, st.plant, st.meatMax, st.allergens, st.dislikes, st.timeWeek, st.timeWeekend, st.lowChop, st.oneVessel, st.base3, st.seasonal, st.devices, st.devPref]); }
 function week() {
   const k = iso(curMon);
   if (!S.weeks[k]) S.weeks[k] = { days: Array.from({ length: 7 }, () => ({})), shuffle: 0, checked: [], own: [], sel: 0, sig: '' };
@@ -458,7 +490,7 @@ function renderCook() {
     '<div class="m"><span class="eyebrow">Aktiv</span><b class="num">' + r.time.a + ' Min.</b></div>' +
     '<div class="m"><span class="eyebrow">Garzeit</span><b class="num">' + r.time.c + ' Min.</b></div>' +
     (temp ? '<div class="m"><span class="eyebrow">Ofen</span><b class="num">' + temp + ' °C</b></div>' : '') +
-    '<div class="m"><span class="eyebrow">Geräte</span><b>' + esc(r.method) + '</b></div>' +
+    '<div class="m"><span class="eyebrow">Geräte</span><b>' + deviceLine(r) + '</b><span class="tiny">' + esc(r.method) + '</span></div>' +
     '<div class="m"><span class="eyebrow">Portionen</span><b class="num">' + fmtNum(P) + '</b></div></div>' +
     (temp ? '<div class="panel soft" style="padding:12px"><b>Zuerst:</b> Backofen auf ' + temp + ' °C vorheizen.</div>' : '') +
     '<div><div class="panel-head"><h3>Zutaten bereitlegen</h3><span class="tiny">antippen zum Abhaken</span></div>' +
@@ -543,7 +575,7 @@ function renderWoche() {
       '<div class="dh"><span class="wd">' + WD[i] + (isToday ? ' <span class="chip brand" style="font-size:.65rem;padding:1px 6px">heute</span>' : '') + '</span><span class="dr"><span class="dt num">' + fmtDay(date) + '</span><span class="marks">' + (d.cooked ? '<span class="mark ok" title="gekocht">' + ICON.check + '</span>' : '') + (d.locked ? '<span class="mark lock" title="fest">' + ICON.lock + '</span>' : '') + (hi.length ? '<span class="mark warn" title="' + esc(hi.join(', ')) + '">!</span>' : si.length ? '<span class="mark warn" title="' + esc(si.join(', ')) + '">~</span>' : '') + '</span></span></div>' +
       photoBox(r, 'day-photo') +
       '<div class="nm">' + (r ? esc(r.name) : 'Kein passendes Gericht') + '</div>' +
-      (r ? '<div class="mt"><span class="dot" style="background:' + PROTEIN_COLORS[r.protein] + '"></span>' + PROTEIN_LABEL[r.protein] + ' · <span class="num">' + (r.time.a + r.time.c) + ' Min.</span>' + (d.chain ? ' · ' + ICON.link : '') + '</div>' : '') +
+      (r ? '<div class="mt"><span class="dot" style="background:' + PROTEIN_COLORS[r.protein] + '"></span>' + PROTEIN_LABEL[r.protein] + ' · <span class="num">' + (r.time.a + r.time.c) + ' Min.</span>' + (d.chain ? ' · ' + ICON.link : '') + '</div>' + deviceLine(r) : '') +
       (kid ? '<div class="kidline">' + kid.flag + ' <span>' + esc(kid.name) + '</span></div>' : '') +
       '</button>';
   }).join('');
@@ -571,7 +603,7 @@ function renderDetail() {
     '<div class="detail-head">' + photoBox(r, 'big', true) +
     '<div class="titles"><div class="dayline"><span class="eyebrow">' + WD[i] + ' · ' + fmtDay(date) + '</span>' + (d.locked ? chip(ICON.lock + ' fest', 'outline') : '') + (d.cooked ? chip(ICON.check + ' gekocht', 'brand') : '') + (d.chainFrom != null ? chip(ICON.link + ' nutzt die Basis von ' + WD[d.chainFrom], 'brand') : '') + '</div>' +
     '<h2>' + esc(r.name) + '</h2>' +
-    '<div class="chips">' + chip(r.flag + ' ' + esc(r.cuisine)) + protChip(r) + chip('<span class="num">' + (r.time.a + r.time.c) + '</span> Min.') + (r.wholegrain ? chip('Vollkorn', 'brand') : '') + (isVegan(r) ? chip('vegan', 'brand') : plantBased(r) ? chip('vegetarisch', 'brand') : '') + (inSeason ? chip('Saison', 'brand') : '') +
+    '<div class="chips">' + chip(r.flag + ' ' + esc(r.cuisine)) + protChip(r) + chip('<span class="num">' + (r.time.a + r.time.c) + '</span> Min.') + deviceChips(r) + (r.wholegrain ? chip('Vollkorn', 'brand') : '') + (isVegan(r) ? chip('vegan', 'brand') : plantBased(r) ? chip('vegetarisch', 'brand') : '') + (inSeason ? chip('Saison', 'brand') : '') +
     hi.map(x => chip('! ' + esc(x), 'crit')).join('') + si.map(x => chip('~ ' + esc(x), 'warn')).join('') + '</div>' +
     '<div class="detail-actions">' +
     '<button type="button" class="btn primary" data-act="cook" data-i="' + i + '">▶ Schritt für Schritt kochen</button>' +
@@ -586,7 +618,7 @@ function renderDetail() {
     '<div class="meta">' +
     '<div class="m"><span class="eyebrow">Aktive Zeit</span><b class="num">' + r.time.a + ' Min.</b></div>' +
     '<div class="m"><span class="eyebrow">Garzeit</span><b class="num">' + r.time.c + ' Min.</b></div>' +
-    '<div class="m"><span class="eyebrow">Methode</span><b>' + esc(r.method) + '</b></div>' +
+    '<div class="m"><span class="eyebrow">Geräte</span><b>' + deviceLine(r) + '</b><span class="tiny">' + esc(r.method) + '</span></div>' +
     (recipeTemp(r) ? '<div class="m"><span class="eyebrow">Ofen</span><b class="num">' + recipeTemp(r) + ' °C</b></div>' : '') +
     '<div class="m"><span class="eyebrow">Allergene</span><b>' + (r.allergens.length ? r.allergens.map(a => ALLERGEN_LABEL[a]).join(', ') : 'keine typischen') + '</b></div>' +
     '<div class="m"><span class="eyebrow">Einfachheit</span><b><span class="simplicity" aria-label="' + simp + ' von 5">' + [1, 2, 3, 4, 5].map(n => '<i class="' + (n <= simp ? 'on' : '') + '"></i>').join('') + '</span> ' + simp + '/5 · ' + simplicityLabel(simp) + '</b></div>' +
@@ -631,7 +663,7 @@ function renderDetail() {
     '</div>' +
 
     '<div><div class="panel-head"><h3>Alternativen für ' + WD[i] + '</h3><span class="tiny">passen zu euren Filtern</span></div><div class="alts">' +
-    alternatives(i, 3).map(a => '<button type="button" class="alt" data-act="take" data-i="' + i + '" data-id="' + a.id + '">' + photoBox(a, 'thumb') + '<span><b>' + esc(a.name) + '</b><small>' + a.flag + ' ' + esc(a.cuisine) + ' · ' + (a.time.a + a.time.c) + ' Min. · ' + PROTEIN_LABEL[a.protein] + '</small></span></button>').join('') +
+    alternatives(i, 3).map(a => '<button type="button" class="alt" data-act="take" data-i="' + i + '" data-id="' + a.id + '">' + photoBox(a, 'thumb') + '<span><b>' + esc(a.name) + '</b><small>' + a.flag + ' ' + esc(a.cuisine) + ' · ' + (a.time.a + a.time.c) + ' Min. · ' + PROTEIN_LABEL[a.protein] + ' · ' + esc(deviceSummary(a)) + '</small></span></button>').join('') +
     '</div></div>' +
     '</div>';
 }
@@ -718,7 +750,7 @@ function renderLaender() {
     '<div class="row"><input type="search" id="land-q" data-act="landq" value="' + esc(state.q) + '" placeholder="Gericht suchen, zum Beispiel Curry, Lachs, Linsen" aria-label="Gericht suchen" style="flex:1;min-width:200px">' +
     '<div class="chips">' + ['alle'].concat(regions).map(r => '<button type="button" class="chip pick" data-act="landreg" data-r="' + r + '" aria-pressed="' + (state.region === r) + '">' + (r === 'alle' ? 'Alle Regionen' : r) + '</button>').join('') + '</div></div>';
   $('#laender-head').innerHTML = head;
-  const card = (r, extraLine) => '<article class="alt" style="grid-template-columns:64px 1fr;cursor:default">' + photoBox(r, 'thumb') + '<span style="min-width:0"><b>' + esc(r.name) + '</b><small>' + r.flag + ' ' + esc(r.cuisine) + ' · ' + (r.time.a + r.time.c) + ' Min. · ' + PROTEIN_LABEL[r.protein] + (r.allergens.length ? ' · ' + r.allergens.map(a => ALLERGEN_LABEL[a]).join(', ') : '') + '</small>' + (extraLine || '') + '<span class="row" style="margin-top:8px">' + daySelect('planday', 'data-id="' + r.id + '"') + '<button type="button" class="btn icon sm ghost" data-act="fav" data-id="' + r.id + '" aria-pressed="' + S.favorites.includes(r.id) + '" aria-label="Favorit">' + (S.favorites.includes(r.id) ? ICON.heart : ICON.heartO) + '</button></span></span></article>';
+  const card = (r, extraLine) => '<article class="alt" style="grid-template-columns:64px 1fr;cursor:default">' + photoBox(r, 'thumb') + '<span style="min-width:0"><b>' + esc(r.name) + '</b><small>' + r.flag + ' ' + esc(r.cuisine) + ' · ' + (r.time.a + r.time.c) + ' Min. · ' + PROTEIN_LABEL[r.protein] + (r.allergens.length ? ' · ' + r.allergens.map(a => ALLERGEN_LABEL[a]).join(', ') : '') + '</small>' + deviceLine(r) + (extraLine || '') + '<span class="row" style="margin-top:8px">' + daySelect('planday', 'data-id="' + r.id + '"') + '<button type="button" class="btn icon sm ghost" data-act="fav" data-id="' + r.id + '" aria-pressed="' + S.favorites.includes(r.id) + '" aria-label="Favorit">' + (S.favorites.includes(r.id) ? ICON.heart : ICON.heartO) + '</button></span></span></article>';
   if (state.q.trim()) {
     const q = state.q.trim().toLowerCase();
     const hits = RECIPES.filter(r => (r.name + ' ' + r.cuisine + ' ' + r.veg.join(' ') + ' ' + (r.kidName || '')).toLowerCase().includes(q) && !hardIssues(r, st).length);
@@ -755,7 +787,7 @@ function renderVorrat() {
     .sort((a, b) => b.m.pct - a.m.pct || a.m.missing.length - b.m.missing.length || (a.r.time.a + a.r.time.c) - (b.r.time.a + b.r.time.c));
   $('#vorrat-list').innerHTML = '<p class="muted small">' + scored.length + ' Gerichte nutzen mindestens eine eurer Zutaten' + (scored.length > state.limit ? ', die besten ' + state.limit + ' zuerst' : '') + '.</p>' +
     '<div class="alts" style="grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr))">' + scored.slice(0, state.limit).map(x => { const r = x.r, m = x.m; const pct = Math.round(m.pct * 100);
-      return '<article class="alt" style="grid-template-columns:64px 1fr;cursor:default;align-items:start">' + photoBox(r, 'thumb') + '<span style="min-width:0"><b>' + esc(r.name) + '</b><small>' + r.flag + ' ' + esc(r.cuisine) + ' · ' + (r.time.a + r.time.c) + ' Min. · ' + PROTEIN_LABEL[r.protein] + '</small>' +
+      return '<article class="alt" style="grid-template-columns:64px 1fr;cursor:default;align-items:start">' + photoBox(r, 'thumb') + '<span style="min-width:0"><b>' + esc(r.name) + '</b><small>' + r.flag + ' ' + esc(r.cuisine) + ' · ' + (r.time.a + r.time.c) + ' Min. · ' + PROTEIN_LABEL[r.protein] + '</small>' + deviceLine(r) +
         '<div class="meter ' + (pct === 100 ? 'ok' : '') + '" style="margin-top:6px"><div class="lbl"><span>' + m.ok.length + ' von ' + m.total + ' Zutaten da</span><b class="num">' + pct + ' %</b></div><div class="bar"><i style="width:' + pct + '%"></i></div></div>' +
         (m.missing.length ? '<small class="small" style="display:block;margin-top:6px"><span class="eyebrow">Fehlt</span> ' + m.missing.map(i => esc(short(i.n))).join(', ') + '</small>' : '<small class="small" style="display:block;margin-top:6px;color:var(--brand)">Alles da.</small>') +
         '<span class="row" style="margin-top:8px">' + daySelect('planday', 'data-id="' + r.id + '"') + '</span></span></article>'; }).join('') + '</div>' +
@@ -854,6 +886,7 @@ function renderFeinplanung() {
     '<div class="panel"><div class="eyebrow">Zeit und Aufwand</div><h3 style="margin-top:4px">Wie viel Zeit ist da?</h3>' +
     '<div class="field"><span class="lab">Höchstens Minuten werktags</span>' + seg('timeweek', times, st.timeWeek) + '</div>' +
     '<div class="field"><span class="lab">Höchstens Minuten am Wochenende</span>' + seg('timeweekend', times, st.timeWeekend) + '</div>' +
+    '<div class="field"><span class="lab">Am liebsten mit</span>' + seg('devpref', [{ v: 'alle', l: 'Egal' }, { v: 'pfanne', l: 'Nur Pfanne' }, { v: 'topf', l: 'Nur Topf' }, { v: 'ofen', l: 'Nur Ofen' }], st.devPref || 'alle') + '<span class="help">Gerichte, die nur dieses Gerät brauchen, werden bevorzugt geplant. Andere bleiben wählbar und sind mit ~ markiert.</span></div>' +
     sw('lowChop', 'Wenig Schneiden', 'Bevorzugt Gerichte mit wenig Schneidearbeit.') +
     sw('oneVessel', 'Nur ein Gefäß', 'Ein Topf, eine Pfanne oder ein Blech.') +
     sw('base3', 'Höchstens 3 Grundzutaten', 'Einfache Gerichte mit wenigen Hauptkomponenten.') +
@@ -900,19 +933,21 @@ function openPicker(i) {
 }
 function fillPicker(more) {
   const dlg = $('#picker'); const i = Number(dlg.dataset.i); const st = S.settings; const q = $('#picker-q').value.trim().toLowerCase(); const w = week(); const used = new Set(w.days.map(d => d.id));
-  const f = fillPicker.state || (fillPicker.state = { land: '', prot: 'alle', time: 0, limit: 60 }); if (!more) f.limit = 60; else f.limit += 60;
+  const f = fillPicker.state || (fillPicker.state = { land: '', prot: 'alle', time: 0, dev: 'alle', limit: 60 }); if (!more) f.limit = 60; else f.limit += 60;
   const landSel = $('#picker-land'); if (landSel && !landSel.options.length) landSel.innerHTML = '<option value="">Alle Länder</option>' + countries().map(c => '<option value="' + esc(c.name) + '">' + c.flag + ' ' + esc(c.name) + '</option>').join('');
   let list = RECIPES.filter(r => !hardIssues(r, st).length);
   if (f.land) list = list.filter(r => r.cuisine === f.land);
   if (f.prot === 'pflanzlich') list = list.filter(plantBased); else if (f.prot === 'fisch') list = list.filter(r => r.protein === 'fisch'); else if (f.prot === 'fleisch') list = list.filter(isMeat);
   if (f.time) list = list.filter(r => r.time.a + r.time.c <= f.time);
+  if (f.dev === 'pfanne' || f.dev === 'topf' || f.dev === 'ofen') list = list.filter(r => onlyDevice(r, f.dev)); else if (f.dev === 'eins') list = list.filter(r => r.oneVessel);
   if (q) { const terms = q.split(/\s+/).filter(Boolean); list = list.filter(r => { const hay = (r.name + ' ' + r.cuisine + ' ' + r.veg.join(' ') + ' ' + r.ing.map(x => x.n).join(' ') + ' ' + PROTEIN_LABEL[r.protein] + ' ' + (r.kidName || '') + ' ' + r.method).toLowerCase(); return terms.every(t => hay.includes(t)); }); }
   list.sort((a, b) => softIssues(a, st, i).length - softIssues(b, st, i).length || (f.time ? (a.time.a + a.time.c) - (b.time.a + b.time.c) : 0) || a.name.localeCompare(b.name, 'de'));
   $$('#picker-prot button').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === f.prot));
   $$('#picker-time button').forEach(b => b.setAttribute('aria-pressed', Number(b.dataset.v) === f.time));
-  $('#picker-list').innerHTML = (list.slice(0, f.limit).map(r => { const si = softIssues(r, st, i); return '<button type="button" class="alt pick-item" data-act="take" data-i="' + i + '" data-id="' + r.id + '">' + photoBox(r, 'thumb') + '<span class="pi-body"><b>' + esc(r.name) + '</b><span class="chips">' + chip(r.flag + ' ' + esc(r.cuisine)) + chip('<span class="num">' + (r.time.a + r.time.c) + '</span> Min.') + protChip(r) + (used.has(r.id) ? chip('diese Woche', 'outline') : '') + (si.length ? chip('~ ' + esc(si[0]), 'warn') : '') + (S.favorites.includes(r.id) ? chip(ICON.heart + ' Favorit', 'brand') : '') + '</span></span><span class="pi-go" aria-hidden="true">›</span></button>'; }).join('') || '<p class="muted">Nichts gefunden. ' + (f.time && f.time <= 15 ? 'Unter 15 Minuten gibt es fast nichts (Vorbereitung plus Garzeit). Probiere „≤ 20“ oder „≤ 30“.' : 'Zeitgrenze lockern, anderes Wort oder nur einen Begriff probieren.') + '</p>') +
+  $$('#picker-dev button').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === (f.dev || 'alle')));
+  $('#picker-list').innerHTML = (list.slice(0, f.limit).map(r => { const si = softIssues(r, st, i); return '<button type="button" class="alt pick-item" data-act="take" data-i="' + i + '" data-id="' + r.id + '">' + photoBox(r, 'thumb') + '<span class="pi-body"><b>' + esc(r.name) + '</b><span class="chips">' + chip(r.flag + ' ' + esc(r.cuisine)) + chip('<span class="num">' + (r.time.a + r.time.c) + '</span> Min.') + protChip(r) + deviceChips(r) + (used.has(r.id) ? chip('diese Woche', 'outline') : '') + (si.length ? chip('~ ' + esc(si[0]), 'warn') : '') + (S.favorites.includes(r.id) ? chip(ICON.heart + ' Favorit', 'brand') : '') + '</span></span><span class="pi-go" aria-hidden="true">›</span></button>'; }).join('') || '<p class="muted">Nichts gefunden. ' + (f.time && f.time <= 15 ? 'Unter 15 Minuten gibt es fast nichts (Vorbereitung plus Garzeit). Probiere „≤ 20“ oder „≤ 30“.' : 'Zeitgrenze lockern, anderes Wort oder nur einen Begriff probieren.') + '</p>') +
     (list.length > f.limit ? '<button type="button" class="btn sm" data-act="pickermore">Mehr anzeigen (' + (list.length - f.limit) + ' weitere)</button>' : '');
-  $('#picker-count').textContent = list.length + ' Gerichte' + (q || f.land || f.prot !== 'alle' || f.time ? ' passen' : '') + ' · antippen setzt es auf ' + WD[i];
+  $('#picker-count').textContent = list.length + ' Gerichte' + (q || f.land || f.prot !== 'alle' || f.time || (f.dev && f.dev !== 'alle') ? ' passen' : '') + ' · antippen setzt es auf ' + WD[i];
   setTimeout(hydratePhotos, 0);
 }
 
@@ -963,6 +998,7 @@ document.addEventListener('click', e => {
     case 'kidrm': st.kids.splice(i, 1); save(); renderFeinplanung(); break;
     case 'kidmode': st.kidMode = el.dataset.v; save(); renderFeinplanung(); break;
     case 'diet': st.diet = el.dataset.v; save(); renderFeinplanung(); break;
+    case 'devpref': st.devPref = el.dataset.v; save(); renderFeinplanung(); break;
     case 'timeweek': st.timeWeek = Number(el.dataset.v); save(); renderFeinplanung(); break;
     case 'timeweekend': st.timeWeekend = Number(el.dataset.v); save(); renderFeinplanung(); break;
     case 'allergen': { const a = el.dataset.a; st.allergens = st.allergens.includes(a) ? st.allergens.filter(x => x !== a) : st.allergens.concat(a); save(); renderFeinplanung(); break; }
@@ -985,6 +1021,7 @@ document.addEventListener('click', e => {
     case 'remind': { setTimeout(() => toast('Kurzbefehl „' + SHORTCUT_NAME + '“ wird gestartet. Nichts passiert? Dann Weg 1: kopieren und einfügen.'), 300); break; }
     case 'pickerprot': fillPicker.state.prot = el.dataset.v; fillPicker(); break;
     case 'pickertime': fillPicker.state.time = Number(el.dataset.v); fillPicker(); break;
+    case 'pickerdev': fillPicker.state.dev = el.dataset.v; fillPicker(); break;
     case 'landreg': renderLaender.state.region = el.dataset.r; renderLaender.state.country = null; renderLaender(); break;
     case 'landpick': renderLaender.state.country = el.dataset.c; renderLaender(); { const c = $('#laender-country'); if (c && window.innerWidth < 900) c.scrollIntoView({ behavior: 'smooth', block: 'start' }); } break;
     case 'landkid': renderLaender.state.showKid = !renderLaender.state.showKid; renderLaender(); break;
