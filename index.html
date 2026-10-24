@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Grün geplant</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Gesunder Familien-Wochenplan: sieben gemüsereiche Abendessen, Weltküche mit Top 15 pro Land, Kinderversion für jeden Tag, Einkaufsliste und Vorbereitung.">
+<meta name="theme-color" content="#2C6B3E">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Grün geplant">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Hanken+Grotesk:wght@400..700&display=swap">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap gutter">
+    <div class="topbar-inner">
+      <a class="logo" href="#woche" data-act="goto" data-view="woche" aria-label="Grün geplant, zur Woche">
+        <svg class="logo-mark" viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="17" fill="var(--brand)"/><path d="M18 27c-6-4-8-9-6-15 6 1 9 5 8 12 3-5 6-7 10-7-1 6-5 10-12 10z" fill="var(--brand-ink)" opacity=".95"/><path d="M18 27V16" stroke="var(--brand)" stroke-width="1.4" stroke-linecap="round"/></svg>
+        <span><span class="logo-name">Grün geplant</span><span class="logo-sub">gesunder Familien-Wochenplan</span></span>
+      </a>
+      <nav class="weeknav" aria-label="Woche wechseln">
+        <button type="button" class="btn icon ghost sm" data-act="prevweek" aria-label="Vorherige Woche">‹</button>
+        <span class="label num" id="week-label">KW</span>
+        <button type="button" class="btn icon ghost sm" data-act="nextweek" aria-label="Nächste Woche">›</button>
+        <button type="button" class="btn sm ghost" id="today-btn" data-act="today" hidden>Heute</button>
+      </nav>
+      <button type="button" class="btn icon" id="theme-btn" data-act="theme" aria-label="Thema wechseln"></button>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Bereiche">
+      <button type="button" role="tab" class="tab" data-act="goto" data-view="woche" aria-selected="true">Woche</button>
+      <button type="button" role="tab" class="tab" data-act="goto" data-view="laender" aria-selected="false">Weltküche <span class="count num" id="tab-count-rezepte">0</span></button>
+      <button type="button" role="tab" class="tab" data-act="goto" data-view="vorrat" aria-selected="false">Was ist da? <span class="count num" id="tab-count-vorrat" hidden>0</span></button>
+      <button type="button" role="tab" class="tab kid" data-act="goto" data-view="kinder" aria-selected="false">Kinderküche <span class="count num" id="tab-count-kinder">0</span></button>
+      <button type="button" role="tab" class="tab" data-act="goto" data-view="einkauf" aria-selected="false">Einkauf <span class="count num" id="tab-count-einkauf">0</span></button>
+      <button type="button" role="tab" class="tab" data-act="goto" data-view="vorbereitung" aria-selected="false">Vorbereitung</button>
+      <button type="button" role="tab" class="tab" data-act="goto" data-view="feinplanung" aria-selected="false">Feinplanung</button>
+      <button type="button" role="tab" class="tab" data-act="goto" data-view="wissen" aria-selected="false">Wissen</button>
+    </div>
+  </div>
+</header>
+
+<main class="gutter">
+  <div class="wrap">
+
+    <section id="view-woche" class="view" aria-labelledby="h-woche">
+      <div class="view-head">
+        <div>
+          <div class="eyebrow">Dein Familien-Wochenplan</div>
+          <h1 id="h-woche">Sieben gemüsereiche Abendessen, flexibel nach Zeit, Protein und Küche.</h1>
+          <p class="lead">Mit einer passenden Kinderoption für jeden Tag. Änderungen in der Feinplanung passen Gerichte, Mengen und Einkaufsliste sofort an.</p>
+        </div>
+        <div class="actions">
+          <button type="button" class="btn" data-act="shuffle"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="2" width="12" height="12" rx="2.5"/><circle cx="5.5" cy="5.5" r="1" fill="currentColor"/><circle cx="10.5" cy="10.5" r="1" fill="currentColor"/><circle cx="10.5" cy="5.5" r="1" fill="currentColor"/><circle cx="5.5" cy="10.5" r="1" fill="currentColor"/></svg> Woche neu mischen</button>
+          <button type="button" class="btn ghost" data-act="unlockall">Alle Tage lösen</button>
+        </div>
+      </div>
+      <div class="summary" id="woche-summary"></div>
+      <div>
+        <div class="panel-head"><h2>Was kommt auf den Tisch?</h2><span class="tiny">Tag antippen für Zutaten, Zubereitung und Kinderoption</span></div>
+        <div class="days" id="days"></div>
+      </div>
+      <div id="detail"></div>
+      <div>
+        <div class="panel-head"><h2>Meine Küche</h2><span class="tiny">bleibt in diesem Browser gespeichert</span></div>
+        <div id="my-kitchen"></div>
+      </div>
+    </section>
+
+    <section id="view-laender" class="view" hidden aria-label="Weltküche">
+      <div id="laender-head"></div>
+      <div id="laender-grid"></div>
+      <div id="laender-country"></div>
+    </section>
+
+    <section id="view-vorrat" class="view" hidden aria-label="Was ist da?">
+      <div id="vorrat-head"></div>
+      <div id="vorrat-list"></div>
+    </section>
+
+    <section id="view-kinder" class="view" hidden aria-label="Kinderküche">
+      <div class="view-head">
+        <div>
+          <div class="eyebrow accent">Kinder-Weltküche</div>
+          <h1>Weich, mild, aus aller Welt: so lernt euer Kind neue Geschmäcker kennen.</h1>
+          <p class="lead">Eigenständige Kleinkind-Gerichte aus vielen Ländern und eine Kinderversion zu jedem Länder-Gericht. Textur und Sicherheitsregeln richten sich nach dem Alter in der Feinplanung.</p>
+        </div>
+      </div>
+      <div class="kid-hero" id="kinder-intro"></div>
+      <div>
+        <div class="panel-head"><h2>Eigene Kinder-Gerichte</h2></div>
+        <div id="kinder-filter" style="margin-bottom:12px"></div>
+        <div class="kids-grid" id="kinder-grid"></div>
+      </div>
+      <div id="kinder-laender"></div>
+      <div>
+        <div class="panel-head"><h2>Gewürz-Entdecker</h2><span class="tiny">milde Brücken zu neuen Küchen</span></div>
+        <div class="spices" id="kinder-spices"></div>
+      </div>
+      <div class="safety" id="kinder-safety"></div>
+    </section>
+
+    <section id="view-einkauf" class="view" hidden aria-label="Einkauf">
+      <div id="einkauf-head"></div>
+      <div class="shop" id="shop"></div>
+      <div id="shop-add"></div>
+    </section>
+
+    <section id="view-vorbereitung" class="view" hidden aria-label="Vorbereitung">
+      <div id="prep-start"></div>
+      <div class="grid cols-2" id="prep-reuse"></div>
+      <div class="grid cols-2" id="prep-rest"></div>
+    </section>
+
+    <section id="view-feinplanung" class="view" hidden aria-label="Feinplanung">
+      <div class="view-head">
+        <div>
+          <div class="eyebrow">Feinplanung</div>
+          <h1>So soll diese Woche kochen.</h1>
+          <p class="lead">Jede Änderung passt Gerichte, Zeiten, Mengen und Einkaufsliste sofort an. Festgehaltene Tage bleiben, wie sie sind.</p>
+        </div>
+      </div>
+      <div class="settings" id="settings"></div>
+    </section>
+
+    <section id="view-wissen" class="view" hidden aria-label="Wissen">
+      <div class="view-head">
+        <div>
+          <div class="eyebrow">Was ein guter Plan noch braucht</div>
+          <h1>Gesund planen, ohne daraus ein Projekt zu machen.</h1>
+          <p class="lead">Der Planer berücksichtigt Gemüsevielfalt, pflanzliche Tage, Fisch, Hülsenfrüchte, Vollkorn, Kochaufwand, Reste und eine altersgerechte Kinderoption. Orientierung: <a href="https://www.dge.de/gesunde-ernaehrung/gut-essen-und-trinken/dge-empfehlungen/" target="_blank" rel="noopener">DGE-Empfehlungen</a> und <a href="https://www.dge.de/gesunde-ernaehrung/gut-essen-und-trinken/dge-ernaehrungskreis/" target="_blank" rel="noopener">DGE-Ernährungskreis</a>.</p>
+        </div>
+      </div>
+      <div class="know" id="wissen-know"></div>
+      <div>
+        <div class="panel-head"><h2>Saisonkalender</h2><span class="tiny">Freiland und Lagerware, Deutschland</span></div>
+        <div class="season" id="wissen-season"></div>
+      </div>
+      <div>
+        <div class="panel-head"><h2>Sicher anbieten nach Alter</h2></div>
+        <div class="safety" id="wissen-safety"></div>
+      </div>
+      <div class="panel soft"><div class="eyebrow">Wichtig</div><h3 style="margin-top:4px">Orientierung, keine medizinische Einzelberatung.</h3><p class="small muted" style="margin-top:6px">Nährstoffangaben sind Orientierungen anhand der Zutaten, keine berechnete Nährwertanalyse. Bei Allergien, Schluckproblemen oder Unsicherheit bitte Kinderarztpraxis, Hebamme oder Ernährungsfachkraft einbeziehen.</p></div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="gutter">
+  <div class="wrap">
+    <span>Grün geplant · Alle Daten bleiben in diesem Browser.</span>
+    <span>Rezepte sind Vorschläge mit Richtmengen. Allergene bitte immer am Produkt prüfen.</span>
+  </div>
+</footer>
+
+<div class="cook" id="cook" hidden role="dialog" aria-modal="true" aria-label="Kochmodus">
+  <header class="cook-head">
+    <button type="button" class="btn icon ghost" data-act="cookclose" aria-label="Kochmodus schließen">✕</button>
+    <div class="t"><span id="cook-title">Kochen</span><span class="tiny" id="cook-pos" style="display:block">Überblick</span></div>
+    <div class="cook-timer empty" id="cook-timer" aria-live="polite"></div>
+  </header>
+  <div class="cook-track" id="cook-track"></div>
+  <footer class="cook-foot">
+    <button type="button" class="btn" id="cook-prev" data-act="cookprev">Zurück</button>
+    <div class="dots" id="cook-dots"></div>
+    <button type="button" class="btn primary" id="cook-next" data-act="cooknext">Weiter</button>
+  </footer>
+</div>
+
+<dialog class="picker" id="picker" aria-label="Gericht wählen">
+  <div class="picker-head">
+    <input type="search" id="picker-q" placeholder="Gericht, Land oder Zutat suchen" aria-label="Suchen">
+    <select id="picker-land" data-act="pickerland" aria-label="Land"></select>
+    <span class="tiny num" id="picker-count"></span>
+    <button type="button" class="btn icon sm ghost" data-act="closepicker" aria-label="Schließen">✕</button>
+  </div>
+  <div class="gutter" style="padding-top:10px"><div class="seg" id="picker-prot">
+    <button type="button" data-act="pickerprot" data-v="alle" aria-pressed="true">Alle</button>
+    <button type="button" data-act="pickerprot" data-v="pflanzlich" aria-pressed="false">Pflanzlich</button>
+    <button type="button" data-act="pickerprot" data-v="fisch" aria-pressed="false">Fisch</button>
+    <button type="button" data-act="pickerprot" data-v="fleisch" aria-pressed="false">Fleisch</button>
+    <button type="button" data-act="pickerprot" data-v="schnell" aria-pressed="false">≤ 20 Min.</button>
+  </div></div>
+  <div class="picker-list" id="picker-list"></div>
+</dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/data.js"></script>
+<script src="assets/kids.js"></script>
+<script src="assets/data-more.js"></script>
+<script src="assets/world.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
