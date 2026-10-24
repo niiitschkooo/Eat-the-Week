@@ -116,6 +116,7 @@ main { padding-block: 20px 56px; }
 
 /* Knöpfe und Steuerelemente */
 .btn { appearance: none; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 8px 14px; font-weight: 600; font-size: .9rem; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; line-height: 1.2; min-height: 36px; }
+a.btn { text-decoration: none; }
 .btn:hover { border-color: var(--ink-3); background: var(--surface-2); }
 .btn:disabled { opacity: .5; cursor: not-allowed; }
 .btn.primary { background: var(--brand); border-color: var(--brand); color: var(--brand-ink); }
