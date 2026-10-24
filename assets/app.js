@@ -645,7 +645,7 @@ function renderWoche() {
   { const d = w.days[selIdx]; const r = R(d.id); const date = addDays(curMon, selIdx); const isToday = selIdx === tIdx; const diff = tIdx >= 0 ? selIdx - tIdx : null;
     const rel = isToday ? 'Heute' : diff === 1 ? 'Morgen' : diff === -1 ? 'Gestern' : diff != null && diff > 1 ? 'in ' + diff + ' Tagen' : diff != null && diff < -1 ? 'vor ' + (-diff) + ' Tagen' : WD[selIdx];
     $('#focus').classList.toggle('not-today', !isToday);
-    $('#focus-head').innerHTML = '<div class="focus-title"><span class="big">' + esc(rel) + '</span><span class="sub">' + WD[selIdx] + ' · ' + fmtDay(date) + (r ? ' · ' + esc(r.name.split(' · ')[0]) : '') + '</span></div>' +
+    $('#focus-head').innerHTML = '<div class="focus-title"><span class="big">' + esc(rel) + '</span><span class="subcard">' + WD[selIdx] + ' · ' + fmtDay(date) + (r ? ' · ' + esc(r.name.split(' · ')[0]) : '') + '</span></div>' +
       '<div class="row">' + (d.cooked ? chip(ICON.check + ' gekocht', 'brand') : '') + (!isToday && tIdx >= 0 ? '<button type="button" class="btn sm" data-act="sel" data-i="' + tIdx + '">Zurück zu heute</button>' : '') + '</div>';
     $('#days-title').textContent = isToday ? 'Die weiteren Tage dieser Woche' : 'Die anderen Tage dieser Woche'; }
   $('#days').innerHTML = w.days.map((d, i) => {
@@ -669,85 +669,83 @@ function renderWoche() {
 function renderDetail() {
   const w = week(); const st = S.settings; const i = Math.min(6, Math.max(0, w.sel || 0)); const d = w.days[i]; const r = R(d.id);
   const el = $('#detail');
-  if (!r) { el.innerHTML = '<div class="panel"><h2>Kein passendes Gericht</h2><p class="muted">Die Filter in der Feinplanung lassen für diesen Tag kein Gericht übrig. Lockere Zeit, Geräte oder Allergene.</p></div>'; return; }
+  if (!r) { el.innerHTML = '<div class="panel detail"><section class="dsec"><h2>Kein passendes Gericht</h2><p class="muted">Die Filter in der Feinplanung lassen für diesen Tag kein Gericht übrig. Lockere Zeit, Geräte oder Allergene.</p></section></div>'; return; }
   const date = addDays(curMon, i); const hi = hardIssues(r, st); const si = softIssues(r, st, i); const P = portions();
   const simp = simplicity(r); const fav = S.favorites.includes(r.id);
   const ym = youngest(); const tier = tierFor(ym); const kid = st.kidMode !== 'familie' ? kidFor(i) : null;
   const month = curMon.getMonth() + 1; const inSeason = r.season.length && r.season.includes(month);
-  const nu = nutriFor(r);
   const extrasOk = Object.keys(EXTRAS).filter(k => extrasFor(r).includes(k)).filter(k => { const x = EXTRAS[k]; if (x.allergens.some(a => st.allergens.includes(a))) return false; if (st.protNoDairy && x.allergens.includes('milch')) return false; if (st.diet === 'vegan') return x.diet === 'vegan'; if (st.diet === 'vegetarisch') return x.diet !== 'alles'; if (st.diet === 'pescetarisch') return x.diet !== 'alles'; return true; });
   const bi = baseIng(r); const nextR = d.chain ? R(w.days[i + 1].id) : null; const nextBi = nextR ? baseIng(nextR) : null;
-  const note = S.notes[r.id] || {};
+  const note = S.notes[r.id] || {}; const nu = nutriFor(r); const pi = proteinInfo(r); const g = proteinFor(r); const t = st.protTarget || 0; const temp = recipeTemp(r);
   const kidSelect = st.kidMode !== 'familie' ? '<select data-act="kidsel" data-i="' + i + '" aria-label="Kindergericht wählen">' + KIDS.filter(k => kidOk(k, st)).sort((a, b) => a.land.localeCompare(b.land, 'de')).map(k => '<option value="' + k.id + '"' + (kid && kid.id === k.id ? ' selected' : '') + '>' + k.flag + ' ' + esc(k.land) + ' · ' + esc(k.name) + '</option>').join('') + '</select>' : '';
+  const sec = (title, body, extra, cls) => '<section class="dsec ' + (cls || '') + '">' + (title ? '<div class="dsec-title"><span class="eyebrow">' + title + '</span>' + (extra ? '<span class="tiny">' + extra + '</span>' : '') + '</div>' : '') + body + '</section>';
+  const all = dayItems(i); const miss = missingItems(all); const hv = (S.have || []).length;
 
-  el.innerHTML =
-    '<div class="panel detail">' +
-    '<div class="detail-head">' + photoBox(r, 'big', true) +
+  const head = '<div class="detail-head">' + photoBox(r, 'big', true) +
     '<div class="titles"><div class="dayline"><span class="eyebrow">' + WD[i] + ' · ' + fmtDay(date) + '</span>' + (d.locked ? chip(ICON.lock + ' fest', 'outline') : '') + (d.cooked ? chip(ICON.check + ' gekocht', 'brand') : '') + (d.chainFrom != null ? chip(ICON.link + ' nutzt die Basis von ' + WD[d.chainFrom], 'brand') : '') + '</div>' +
     '<h2>' + esc(r.name) + '</h2>' +
     '<div class="chips">' + chip(r.flag + ' ' + esc(r.cuisine)) + protChip(r) + chip('<span class="num">' + (r.time.a + r.time.c) + '</span> Min.') + proteinChip(r) + catChip(r) + deviceChips(r) + (r.wholegrain ? chip('Vollkorn', 'brand') : '') + (isVegan(r) ? chip('vegan', 'brand') : plantBased(r) ? chip('vegetarisch', 'brand') : '') + (inSeason ? chip('Saison', 'brand') : '') +
     hi.map(x => chip('! ' + esc(x), 'crit')).join('') + si.map(x => chip('~ ' + esc(x), 'warn')).join('') + '</div>' +
-    '<div class="detail-actions">' +
-    '<button type="button" class="btn primary" data-act="cook" data-i="' + i + '">▶ Schritt für Schritt kochen</button>' +
+    '<div class="detail-actions"><div class="act-main"><button type="button" class="btn primary" data-act="cook" data-i="' + i + '">▶ Schritt für Schritt kochen</button></div>' +
+    '<div class="act-group">' +
     '<button type="button" class="btn sm" data-act="swap" data-i="' + i + '" title="Setzt automatisch die nächstbeste Alternative">' + ICON.swap + ' Automatisch tauschen</button>' +
     '<button type="button" class="btn sm" data-act="pick" data-i="' + i + '">' + ICON.list + ' Anderes Gericht wählen</button>' +
     '<button type="button" class="btn sm" data-act="lock" data-i="' + i + '" aria-pressed="' + !!d.locked + '">' + ICON.lock + ' ' + (d.locked ? 'Fest' : 'Festhalten') + '</button>' +
     '<button type="button" class="btn sm" data-act="cooked" data-i="' + i + '" aria-pressed="' + !!d.cooked + '">' + ICON.check + ' ' + (d.cooked ? 'Gekocht' : 'Gekocht?') + '</button>' +
     '<button type="button" class="btn sm" data-act="fav" data-id="' + r.id + '" aria-pressed="' + fav + '">' + (fav ? ICON.heart : ICON.heartO) + ' Favorit</button>' +
     '<a class="btn sm ghost" href="https://www.google.com/search?tbm=isch&q=' + encodeURIComponent(photoKey(r) + ' Gericht') + '" target="_blank" rel="noopener">Bilder im Netz</a>' +
-    '</div></div></div>' +
+    '</div></div></div></div>';
 
-    '<div class="meta">' +
-    '<div class="m"><span class="eyebrow">Aktive Zeit</span><b class="num">' + r.time.a + ' Min.</b></div>' +
-    '<div class="m"><span class="eyebrow">Garzeit</span><b class="num">' + r.time.c + ' Min.</b></div>' +
+  const meta = '<div class="meta">' +
+    '<div class="m"><span class="eyebrow">Gesamt</span><b class="num">' + (r.time.a + r.time.c) + ' Min.</b><span class="tiny">' + r.time.a + ' aktiv · ' + r.time.c + ' garen</span></div>' +
     '<div class="m"><span class="eyebrow">Geräte</span><b>' + deviceLine(r) + '</b><span class="tiny">' + esc(r.method) + '</span></div>' +
-    (recipeTemp(r) ? '<div class="m"><span class="eyebrow">Ofen</span><b class="num">' + recipeTemp(r) + ' °C</b></div>' : '') +
+    (temp ? '<div class="m"><span class="eyebrow">Ofen</span><b class="num">' + temp + ' °C</b></div>' : '') +
+    '<div class="m' + (t && g < t ? ' warnbox' : '') + '"><span class="eyebrow">Eiweiß je Portion</span><b class="num">≈ ' + g + ' g · ' + proteinLabel(g) + '</b><span class="tiny">' + (pi.all !== pi.noDairy ? 'ohne Milchprodukte ≈ ' + pi.noDairy + ' g' : 'ohne Milchprodukte') + (t ? ' · Ziel ' + t + ' g' + (g < t ? ', fehlen ' + (t - g) + ' g' : ' erreicht') : '') + '</span></div>' +
     '<div class="m"><span class="eyebrow">Allergene</span><b>' + (r.allergens.length ? r.allergens.map(a => ALLERGEN_LABEL[a]).join(', ') : 'keine typischen') + '</b></div>' +
     '<div class="m"><span class="eyebrow">Einfachheit</span><b><span class="simplicity" aria-label="' + simp + ' von 5">' + [1, 2, 3, 4, 5].map(n => '<i class="' + (n <= simp ? 'on' : '') + '"></i>').join('') + '</span> ' + simp + '/5 · ' + simplicityLabel(simp) + '</b></div>' +
-    '<div class="m"><span class="eyebrow">Portionen</span><b class="num">' + fmtNum(P) + '</b></div>' +
-    (function () { const pi = proteinInfo(r); const g = proteinFor(r); const t = st.protTarget || 0; return '<div class="m' + (t && g < t ? ' warnbox' : '') + '"><span class="eyebrow">Eiweiß je Portion</span><b class="num">≈ ' + g + ' g · ' + proteinLabel(g) + '</b><span class="tiny">' + (pi.all !== pi.noDairy ? 'davon ohne Milchprodukte ≈ ' + pi.noDairy + ' g' : 'ohne Milchprodukte') + (t ? ' · Ziel ' + t + ' g' + (g < t ? ', fehlen ' + (t - g) + ' g' : ' erreicht') : '') + '</span></div>'; })() +
-    '</div>' +
+    '<div class="m"><span class="eyebrow">Portionen</span><b class="num">' + fmtNum(P) + '</b><span class="tiny">' + esc(portionsText().replace('Mengen für ', '')) + '</span></div>' +
+    '</div>';
 
-    '<div class="cols">' +
-    '<div><div class="panel-head"><h3>Zutaten</h3><span class="tiny">' + esc(portionsText()) + '</span></div><ul class="ing-list">' +
+  const zutaten = '<div class="subcard"><div class="panel-head"><h3>Zutaten</h3><span class="tiny num">' + fmtNum(P) + ' Portionen</span></div><ul class="ing-list">' +
     r.ing.map(x => '<li class="' + (x.p ? 'pantry' : '') + '"><span>' + esc(x.n) + (x.hint ? '<span class="hint">' + esc(x.hint) + '</span>' : '') + (x.p ? '<span class="hint">Vorrat</span>' : '') + '</span><span class="q">' + fmtQ(x.q * P, x.u) + '</span></li>').join('') + '</ul>' +
-    (function () { const all = dayItems(i); const miss = missingItems(all); const hv = (S.have || []).length; return '<div class="panel soft" style="margin-top:12px;padding:12px"><div class="row between"><div><b>Noch einkaufen für ' + WD[i] + '</b><br><span class="small muted">' + (hv ? miss.length + ' von ' + all.length + ' Zutaten fehlen laut „Was ist da?“' : all.length + ' Zutaten; trage unter „Was ist da?“ ein, was ihr habt, dann bleibt nur der Rest') + '</span></div></div>' + (miss.length ? '<div class="chips" style="margin:8px 0">' + miss.map(x => chip(esc(fmtQ(x.q, x.u) + ' ' + short(x.n)), 'outline')).join('') + '</div>' : '<p class="small" style="margin:8px 0;color:var(--brand)">Alles da.</p>') + '<div class="row">' + remindButtons(linesFor(miss), 'day:' + i) + '</div></div>'; })() +
-    (bi ? '<div class="panel soft" style="margin-top:12px;padding:12px"><div class="row between"><div><b>Basis für 2 Tage</b><br><span class="small muted">' + esc(BASE_LABEL[r.base]) + ' einmal kochen, ' + (i < 6 ? WD[i + 1] : 'morgen') + ' neu kombinieren.</span></div>' + (i < 6 ? '<button type="button" class="btn sm" data-act="chain" data-i="' + i + '" aria-pressed="' + !!d.chain + '">' + ICON.link + ' ' + (d.chain ? 'Verkettet' : 'Verketten') + '</button>' : '') + '</div>' +
+    '<div class="subbox"><div class="row between"><div><b>Noch einkaufen für ' + WD[i] + '</b><br><span class="small muted">' + (hv ? miss.length + ' von ' + all.length + ' Zutaten fehlen laut „Was ist da?“' : all.length + ' Zutaten; unter „Was ist da?“ eintragen, was ihr habt') + '</span></div></div>' + (!hv ? '<div style="height:8px"></div>' : miss.length ? '<div class="chips" style="margin:8px 0">' + miss.map(x => chip(esc(fmtQ(x.q, x.u) + ' ' + short(x.n)), 'outline')).join('') + '</div>' : '<p class="small" style="margin:8px 0;color:var(--brand)">Alles da.</p>') + '<div class="row">' + remindButtons(linesFor(miss), 'day:' + i) + '</div></div>' +
+    (bi ? '<div class="subbox"><div class="row between"><div><b>Basis für 2 Tage</b><br><span class="small muted">' + esc(BASE_LABEL[r.base]) + ' einmal kochen, ' + (i < 6 ? WD[i + 1] : 'morgen') + ' neu kombinieren.</span></div>' + (i < 6 ? '<button type="button" class="btn sm" data-act="chain" data-i="' + i + '" aria-pressed="' + !!d.chain + '">' + ICON.link + ' ' + (d.chain ? 'Verkettet' : 'Verketten') + '</button>' : '') + '</div>' +
       (d.chain && nextBi ? '<div class="row" style="margin-top:8px;gap:16px"><span class="small"><span class="eyebrow">Heute gesamt</span><br><b class="num">' + fmtQ(bi.q * P + nextBi.q * P, bi.u) + '</b></span><span class="small"><span class="eyebrow">Davon für ' + WD[i + 1] + '</span><br><b class="num">' + fmtQ(nextBi.q * P, nextBi.u) + '</b></span><span class="small muted">' + WD[i + 1] + ': ' + esc(nextR.name) + '</span></div>' : '') + '</div>' : '') +
-    '</div>' +
-    '<div><div class="panel-head"><h3>Zubereitung</h3><span class="tiny">' + r.steps.length + ' Schritte</span></div><ol class="steps">' + r.steps.map(s => '<li><span>' + esc(s) + '</span></li>').join('') + '</ol>' +
+    '</div>';
+
+  const zubereitung = '<div class="subcard"><div class="panel-head"><h3>Zubereitung</h3><span class="tiny">' + r.steps.length + ' Schritte' + (temp ? ' · Ofen ' + temp + ' °C' : '') + '</span></div><ol class="steps">' + r.steps.map(s => '<li><span>' + esc(s) + '</span></li>').join('') + '</ol>' +
     (r.tipp ? '<p class="small muted" style="margin-top:12px"><b>Tipp:</b> ' + esc(r.tipp) + '</p>' : '') +
-    '<p class="small muted" style="margin-top:8px"><b>Tag-2-Idee:</b> ' + esc(leftoverFor(r)) + '</p></div>' +
-    '<div class="panel kid"><div class="panel-head"><h3>Fürs Kind</h3>' + (tier ? '<span class="chip kid">' + esc(tier.label.split(' · ')[0]) + '</span>' : '') + '</div>' +
-    '<div class="rules">' +
+    '<p class="small muted" style="margin-top:8px"><b>Tag-2-Idee:</b> ' + esc(leftoverFor(r)) + '</p></div>';
+
+  const kidBand = '<div class="kid-grid"><div><div class="rules">' +
     '<div class="rule"><span class="ic">1</span><div><b>Mild fürs Kind.</b> Kräftige Gewürze und scharfe Toppings erst nach der Kinderportion ergänzen.</div></div>' +
     '<div class="rule"><span class="ic">2</span><div><b>Salz später.</b> Kinderportion vor dem Nachsalzen abnehmen.</div></div>' +
     '<div class="rule"><span class="ic">3</span><div><b>' + (r.kidName ? 'Kinderversion „' + esc(r.kidName) + '“.' : 'Bei diesem Gericht.') + '</b> ' + esc(r.kid) + '</div></div>' +
-    (tier ? '<div class="rule"><span class="ic">4</span><div><b>Textur ' + esc(tier.label.split(' · ')[0]) + '.</b> ' + esc(tier.texture) + '</div></div>' : '') +
-    '</div>' +
-    (kid ? '<div style="margin-top:14px"><div class="eyebrow accent">' + (st.kidMode === 'beides' ? 'Zusätzlich aus der Kinder-Weltküche' : 'Kinderoption aus der Weltküche') + '</div>' +
+    (tier ? '<div class="rule"><span class="ic">4</span><div><b>Textur ' + esc(tier.label.split(' · ')[0]) + '.</b> ' + esc(tier.texture) + '</div></div>' : '') + '</div></div>' +
+    (kid ? '<div class="subcard kidsub"><div class="eyebrow accent">' + (st.kidMode === 'beides' ? 'Zusätzlich aus der Kinder-Weltküche' : 'Kinderoption aus der Weltküche') + '</div>' +
       '<div class="row between" style="margin-top:6px"><b>' + kid.flag + ' ' + esc(kid.name) + '</b><span class="chip kid num">' + kid.min + ' Min.</span></div>' +
       '<p class="small muted">' + esc(kid.text) + '</p><div class="chips" style="margin:8px 0">' + kid.parts.map(p => chip(esc(p), 'kid')).join('') + '</div>' +
       '<ol class="steps kid small">' + kid.steps.map(s => '<li><span>' + esc(s) + '</span></li>').join('') + '</ol>' +
-      '<div class="row" style="margin-top:10px">' + kidSelect + '<button type="button" class="btn sm ghost" data-act="goto" data-view="kinder">Alle Kindergerichte</button></div></div>' : '') +
-    '</div>' +
-    '</div>' +
+      '<div class="row" style="margin-top:10px">' + kidSelect + '<button type="button" class="btn sm ghost" data-act="goto" data-view="kinder">Alle Kindergerichte</button></div></div>' : '') + '</div>';
 
-    '<div class="cols">' +
-    '<div><div class="panel-head"><h3>Nährstoff-Orientierung</h3></div><div class="nutri">' +
+  const nutri = '<div class="subcard"><div class="panel-head"><h3>Nährstoff-Orientierung</h3></div><div class="nutri">' +
     '<div class="n"><span class="eyebrow">Eiweiß</span><b>' + esc(nu.p.join(' · ') || '–') + '</b></div><div class="n"><span class="eyebrow">Ballaststoffe</span><b>' + esc(nu.f.join(' · ') || '–') + '</b></div>' +
     '<div class="n"><span class="eyebrow">Eisen</span><b>' + esc(nu.i.join(' · ') || '–') + '</b></div><div class="n"><span class="eyebrow">Fett</span><b>' + esc(nu.fat.join(' · ') || '–') + '</b></div></div>' +
-    '<p class="tiny" style="margin-top:10px">Orientierung anhand der Zutaten, keine berechnete Nährwertanalyse und keine Aussage zur vollständigen Versorgung.</p></div>' +
-    (extrasOk.length ? '<div><div class="panel-head"><h3>Optionales Extra-Eiweiß</h3><span class="tiny">für ' + st.adults + ' Erw.</span></div>' + (function () { const g = proteinFor(r); const t = st.protTarget || 0; return t && g < t ? '<p class="small" style="margin-bottom:8px;color:var(--warn)"><b>Es fehlen etwa ' + (t - g) + ' g je Portion.</b> Eine Ergänzung unten bringt das Gericht auf das Ziel.</p>' : ''; })() + '<div class="extras-list">' +
-      extrasOk.map(k => { const x = EXTRAS[k]; const on = (d.extras || []).includes(k); return '<label class="extra"><input type="checkbox" data-act="extra" data-i="' + i + '" data-k="' + k + '"' + (on ? ' checked' : '') + '><span class="t">' + esc(x.n) + ' · ' + fmtQ(x.q * st.adults / 2, x.u) + '<span>' + esc(x.note) + '</span></span><span class="p num">≈ ' + Math.round(x.prot * st.adults / 2) + ' g Eiweiß</span></label>'; }).join('') +
-      '<p class="tiny">Erst durch Auswahl kommt die Ergänzung auf die Einkaufsliste. Eiweißwerte sind grobe Orientierungen.</p></div></div>' : '') +
-    '<div><div class="panel-head"><h3>Notiz und Bewertung</h3>' + ratingHtml(r.id) + '</div><textarea data-act="note" data-id="' + r.id + '" placeholder="Was hat geklappt, was ändert ihr nächstes Mal?">' + esc(note.text || '') + '</textarea>' +
-    (note.last ? '<p class="tiny" style="margin-top:6px">Zuletzt gekocht: ' + esc(note.last) + '</p>' : '') + '</div>' +
-    '</div>' +
+    '<p class="tiny" style="margin-top:10px">Orientierung anhand der Zutaten, keine berechnete Nährwertanalyse.</p></div>';
+  const extras = extrasOk.length ? '<div class="subcard"><div class="panel-head"><h3>Extra-Eiweiß</h3><span class="tiny">optional, für ' + st.adults + ' Erw.</span></div>' + (t && g < t ? '<p class="small" style="margin-bottom:8px;color:var(--warn)"><b>Es fehlen etwa ' + (t - g) + ' g je Portion.</b> Eine Ergänzung bringt das Gericht auf das Ziel.</p>' : '') + '<div class="extras-list">' +
+    extrasOk.map(k => { const x = EXTRAS[k]; const on = (d.extras || []).includes(k); return '<label class="extra"><input type="checkbox" data-act="extra" data-i="' + i + '" data-k="' + k + '"' + (on ? ' checked' : '') + '><span class="t">' + esc(x.n) + ' · ' + fmtQ(x.q * st.adults / 2, x.u) + '<span>' + esc(x.note) + '</span></span><span class="p num">≈ ' + Math.round(x.prot * st.adults / 2) + ' g Eiweiß</span></label>'; }).join('') +
+    '</div><p class="tiny" style="margin-top:8px">Erst durch Auswahl kommt die Ergänzung auf die Einkaufsliste.</p></div>' : '';
+  const notiz = '<div class="subcard"><div class="panel-head"><h3>Notiz und Bewertung</h3>' + ratingHtml(r.id) + '</div><textarea data-act="note" data-id="' + r.id + '" placeholder="Was hat geklappt, was ändert ihr nächstes Mal?">' + esc(note.text || '') + '</textarea>' + (note.last ? '<p class="tiny" style="margin-top:6px">Zuletzt gekocht: ' + esc(note.last) + '</p>' : '') + '</div>';
 
-    '<div><div class="panel-head"><h3>Alternativen für ' + WD[i] + '</h3><span class="tiny">passen zu euren Filtern</span></div><div class="alts">' +
-    alternatives(i, 3).map(a => '<button type="button" class="alt" data-act="take" data-i="' + i + '" data-id="' + a.id + '">' + photoBox(a, 'thumb') + '<span><b>' + esc(a.name) + '</b><small>' + a.flag + ' ' + esc(a.cuisine) + ' · ' + (a.time.a + a.time.c) + ' Min. · ' + PROTEIN_LABEL[a.protein] + ' · ' + esc(deviceSummary(a)) + '</small></span></button>').join('') +
-    '</div></div>' +
+  const alts = '<div class="alts">' + alternatives(i, 3).map(a => '<button type="button" class="alt" data-act="take" data-i="' + i + '" data-id="' + a.id + '">' + photoBox(a, 'thumb') + '<span><b>' + esc(a.name) + '</b><small>' + a.flag + ' ' + esc(a.cuisine) + ' · ' + (a.time.a + a.time.c) + ' Min. · ' + PROTEIN_LABEL[a.protein] + ' · ' + esc(deviceSummary(a)) + '</small></span></button>').join('') + '</div>';
+
+  el.innerHTML = '<div class="panel detail">' +
+    sec('', head, '', 'dsec-head') +
+    sec('Auf einen Blick', meta) +
+    sec('Kochen', '<div class="cols cols-2">' + zutaten + zubereitung + '</div>', 'Mengen je ' + fmtNum(P) + ' Portionen') +
+    sec('Fürs Kind' + (tier ? ' · ' + esc(tier.label.split(' · ')[0]) : ''), kidBand, '', 'kid-band') +
+    sec('Nährstoffe und Notizen', '<div class="cols cols-3">' + nutri + extras + notiz + '</div>') +
+    sec('Alternativen für ' + WD[i], alts, 'passen zu euren Filtern') +
     '</div>';
 }
 
