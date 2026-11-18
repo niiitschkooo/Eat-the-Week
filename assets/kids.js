@@ -136,7 +136,7 @@ const KIDS = [
   text:'Quinoa mit Kürbis und Mais weich gekocht, von Quinoa atamalada inspiriert.',
   parts:['Quinoa','Weicher Kürbis','Maiscreme'], texture:'weich · körnig-cremig',
   serve:'Mais nur zerdrückt oder püriert, nie ganze Körner. Quinoa mit etwas Milch oder Wasser cremig halten.',
-  steps:['Quinoa gründlich spülen und in reichlich Wasser 15 Minuten weich kochen.','Kürbis weich dämpfen. Mais erhitzen und mit der Gabel zerdrücken oder pürieren. Den Kürbis in Stücken lassen.','Alles lauwarm und ohne Salz mischen oder getrennt anbieten.'],
+  steps:['Quinoa gründlich spülen und in reichlich Wasser 15 Minuten weich kochen.','Kürbis weich dämpfen. Mais erhitzen und mit der Gabel zerdrücken oder pürieren. Den Kürbis in Stücken lassen.','Quinoa, Kürbisstücke und Maiscreme lauwarm und ohne Salz anbieten, getrennt oder vermischt.'],
   allergens:[], spice:'Eine Prise Kreuzkümmel oder frischer Koriander.',
   ing:[{n:'Quinoa',q:25,u:'g',c:'vorrat'},{n:'Hokkaido-Kürbis',q:50,u:'g',c:'gemuese'},{n:'Mais (Dose oder TK)',q:30,u:'g',c:'vorrat'}],
   match:['Weltküche','Alltag'], base:['quinoa'] },
