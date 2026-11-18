@@ -23,12 +23,12 @@ RECIPES.push(
   steps:[
     'Zwiebel fein würfeln und in der Hälfte des Öls goldbraun braten. Lamm zugeben, rundum anbraten, mit Wasser bedecken und zugedeckt 35 Minuten schmoren.',
     'Gewaschenen Reis, Kreuzkümmel und Kardamom zum Fleisch geben, Wasser auffüllen, bis der Reis 1 cm bedeckt ist, und zugedeckt bei kleiner Hitze 30 Minuten garen.',
-    'Karotten in feine Stifte schneiden und mit den Rosinen im restlichen Öl in der Pfanne 5 Minuten weich dünsten, dann auf dem Reis verteilen und 5 Minuten ziehen lassen.',
+    'Karotten in feine Stifte schneiden und mit den Rosinen im restlichen Öl in der Pfanne 5 Minuten weich dünsten. Karotten und Rosinen auf dem Reis verteilen und den Palaw 5 Minuten ziehen lassen.',
     'Gurke und Tomaten würfeln und als Salat anrichten.',
     'Kinderportion ohne Salz abnehmen. Erwachsene den Palaw mit Salz abschmecken und mit dem Salat servieren.'
   ],
   kidName:'Mini-Palaw',
-  kid:'Lamm sehr fein zerzupfen, Rosinen halbieren oder für Kinder unter drei Jahren weglassen. Karotten weich garen und ohne Salz servieren.',
+  kid:'Lamm sehr fein zerzupfen. Rosinen halbieren oder für Kinder unter drei Jahren weglassen. Karotten weich garen. Die Kinderportion ohne Salz servieren.',
   leftover:'Palaw-Pfanne · 10 Min. – Reste mit etwas Wasser zugedeckt in der Pfanne vollständig erhitzen.',
   tipp:'Traditionell kommen geröstete Mandeln und Pistazien obenauf, bei Nussallergie einfach weglassen.'
 },
@@ -81,8 +81,8 @@ RECIPES.push(
   steps:[
     'Ein Drittel der Tomaten sehr fein würfeln, Frühlingszwiebel und Koriandergrün hacken.',
     'Hack mit Tomatenwürfeln, Frühlingszwiebel, der Hälfte des Koriandergrüns und den Gewürzen verkneten und zu flachen, handtellergroßen Patties formen.',
-    'In wenig Öl bei mittlerer Hitze je Seite 4 bis 5 Minuten braten, bis sie innen nicht mehr rosa sind.',
-    'Kinderportion ohne Salz abnehmen. Restliche Tomaten und Gurke in Scheiben schneiden, für die Erwachsenen salzen und mit Joghurt, Koriandergrün, Chili und Fladenbrot servieren.'
+    'Patties in wenig Öl bei mittlerer Hitze je Seite 4 bis 5 Minuten braten, bis sie innen nicht mehr rosa sind.',
+    'Kinderportion ohne Salz abnehmen. Restliche Tomaten und Gurke in Scheiben schneiden. Für die Erwachsenen Patties, Tomaten und Gurke salzen und mit Joghurt, Koriandergrün, Chili und Fladenbrot servieren.'
   ],
   kidName:'Mini-Chapli',
   kid:'Patties klein und dünn formen, damit sie sicher durchgaren, und in Streifen schneiden. Ohne Chili und Salz, mit Joghurt zum Dippen.',
@@ -164,12 +164,12 @@ RECIPES.push(
   ],
   steps:[
     'Hähnchen in kleine Würfel schneiden und in heißem Öl 4 Minuten rundum anbraten.',
-    'Zwiebel, Ingwer und Knoblauch fein hacken, Paprika in Streifen schneiden und 3 Minuten mitbraten.',
+    'Zwiebel, Ingwer und Knoblauch fein hacken, Paprika in Streifen schneiden. Alle vier zum Hähnchen geben und 3 Minuten mitbraten.',
     'Tomaten würfeln, mit Kreuzkümmel zugeben und offen 6 bis 7 Minuten einkochen, bis eine dicke Sauce entsteht und das Hähnchen durchgegart ist.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und frischer Chili würzen, mit Koriandergrün bestreuen und mit Fladenbrot servieren.'
   ],
   kidName:'Tomaten-Hähnchen mild',
-  kid:'Hähnchen sehr klein schneiden, Paprika und Tomaten weich schmoren und die Haut entfernen. Ohne Chili und Salz, mit weichem Fladenbrot zum Tunken.',
+  kid:'Hähnchen sehr klein schneiden. Paprika und Tomaten weich schmoren und bei beiden die Haut entfernen. Ohne Chili und Salz, mit weichem Fladenbrot zum Tunken.',
   leftover:'Karahi-Reis · 8 Min. – Reste mit gekochtem Reis in der Pfanne vollständig erhitzen.',
   tipp:'Im Original wird im gusseisernen Karahi gekocht, eine weite Pfanne mit hohem Rand funktioniert genauso.'
 },
@@ -193,11 +193,11 @@ RECIPES.push(
   steps:[
     'Ofen auf 220 °C vorheizen. Fisch trocken tupfen, in breite Stücke schneiden, mit Öl und Kurkuma einreiben und auf Backpapier legen.',
     'Fisch 10 bis 12 Minuten backen, bis er innen weiß ist und sich leicht zerteilen lässt.',
-    'Inzwischen Koriandergrün sehr fein hacken und mit Joghurt und einem Spritzer Zitronensaft verrühren. Tomaten, Gurke und Zwiebel in Scheiben schneiden.',
+    'Inzwischen Koriandergrün sehr fein hacken und mit Joghurt und einem Spritzer Zitronensaft zu Chatni verrühren. Tomaten, Gurke und Zwiebel in Scheiben schneiden.',
     'Kinderportion ohne Salz abnehmen. Erwachsene den Fisch mit Salz und Chili würzen und mit Chatni, Salat und Fladenbrot servieren.'
   ],
   kidName:'Goldene Fischstücke',
-  kid:'Fisch vollständig durchgaren, sorgfältig entgräten und zerpflücken. Chatni ohne Salz als milden Dip, Gurke in Stiften, rohe Zwiebel weglassen.',
+  kid:'Fisch vollständig durchgaren, sorgfältig entgräten und zerpflücken. Chatni ohne Salz als milden Dip und Gurke in Stiften dazugeben. Rohe Zwiebel weglassen.',
   leftover:'Fisch-Fladen · 5 Min. – übrigen Fisch vollständig erhitzen und mit Salat und Chatni in Fladenbrot rollen.',
   tipp:'In Kabul isst man Mahi vor allem im Winter, der Ofen ersetzt hier das Frittieren vom Straßenstand.'
 },
@@ -226,7 +226,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen und den Fisch auf Gräten prüfen. Erwachsene mit Salz und Chili abschmecken und mit Koriandergrün bestreut zum Reis servieren.'
   ],
   kidName:'Fisch in Tomatensauce',
-  kid:'Fisch vollständig garen, sorgfältig entgräten und in der Sauce zerpflücken, Zucchini weich schmoren. Ohne Chili und Salz mit Reis mischen.',
+  kid:'Fisch vollständig garen, sorgfältig entgräten und in der Sauce zerpflücken, Zucchini weich schmoren. Fisch, Zucchini und Sauce ohne Chili und Salz mit dem Reis mischen.',
   leftover:'Fisch-Reis-Topf · 8 Min. – Reis und Sauce zusammen zugedeckt vollständig erhitzen.',
   tipp:'Fester Kabeljau zerfällt in der Sauce weniger als Seelachs, die Stücke nur einmal vorsichtig wenden.'
 },
@@ -307,7 +307,7 @@ RECIPES.push(
     'Kartoffeln schälen, in Stücke schneiden und 15 Minuten weich kochen, abgießen und mit fein geschnittener Frühlingszwiebel und Koriandergrün zerstampfen.',
     'Teig in Portionen teilen und dünn ausrollen, eine Hälfte mit Füllung bestreichen, zuklappen und die Ränder fest andrücken.',
     'Bolani in einer dünn geölten Pfanne bei mittlerer Hitze je Seite 3 bis 4 Minuten goldbraun backen.',
-    'Kinderportion ohne Salz abnehmen. Joghurt mit geriebener Gurke und Minze verrühren, für die Erwachsenen salzen und zu den Bolani reichen.'
+    'Joghurt mit geriebener Gurke und Minze verrühren. Kinderportion ohne Salz abnehmen. Den Gurken-Joghurt für die Erwachsenen salzen und zu den Bolani reichen.'
   ],
   kidName:'Mini-Bolani',
   kid:'Bolani in schmale Streifen schneiden und gut abkühlen lassen, die Füllung ist innen sehr heiß. Mit ungesalzenem Gurken-Joghurt zum Dippen.',
@@ -389,7 +389,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel und Karotte fein würfeln und in Öl 4 Minuten andünsten, dann mit passierten Tomaten und der dreifachen Menge Wasser aufkochen.',
+    'Zwiebel und Karotte fein würfeln und in Öl 4 Minuten andünsten. Passierte Tomaten und dreimal so viel Wasser zugeben und alles aufkochen.',
     'Nudeln in kurze Stücke brechen, mit den abgespülten Kichererbsen zugeben und 10 bis 12 Minuten weich köcheln.',
     'Spinat und Dill unterrühren und 2 Minuten ziehen lassen.',
     'Kinderportion ohne Salz abnehmen, etwas abkühlen lassen und Joghurt unterrühren. Erwachsene mit Salz, Pfeffer und Minze würzen und mit einem großen Klecks Joghurt servieren.'
@@ -447,7 +447,7 @@ RECIPES.push(
     {n:'Olivenöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 220 °C vorheizen. Kartoffeln in Spalten, Paprika und Zwiebel in Streifen schneiden, mit der Hälfte des Öls mischen und auf dem Blech 30 Minuten rösten.',
+    'Ofen auf 220 °C vorheizen. Kartoffeln in Spalten, Paprika und Zwiebel in Streifen schneiden. Alle drei mit der Hälfte des Öls mischen und auf dem Blech 30 Minuten rösten.',
     'Für das Chimichurri Petersilie und Knoblauch sehr fein hacken und mit Oregano, Essig, dem restlichen Öl und 1 EL Wasser verrühren.',
     'Steak trocken tupfen und in der sehr heißen Pfanne ohne weiteres Fett je Seite 3 bis 4 Minuten braten, 3 Minuten ruhen lassen und in Streifen schneiden.',
     'Kinderportion ungesalzen abnehmen. Erwachsene Fleisch mit grobem Salz bestreuen und mit Chimichurri servieren.'
@@ -476,9 +476,9 @@ RECIPES.push(
   ],
   steps:[
     'Mehl mit der Hälfte des Öls und etwa 40 ml lauwarmem Wasser zu einem glatten Teig kneten und 10 Minuten ruhen lassen. Ei 10 Minuten hart kochen und fein hacken.',
-    'Zwiebel und Paprika fein würfeln und im restlichen Öl 4 Minuten dünsten. Hack zugeben und 6 Minuten krümelig braten, mit Kreuzkümmel und Paprikapulver würzen, Frühlingszwiebel und Ei unterheben und abkühlen lassen.',
+    'Zwiebel und Paprika fein würfeln und im restlichen Öl 4 Minuten dünsten. Hack zugeben und 6 Minuten krümelig braten, mit Kreuzkümmel und Paprikapulver würzen, Frühlingszwiebel und Ei unterheben und die Füllung abkühlen lassen.',
     'Ofen auf 200 °C vorheizen. Teig dünn ausrollen und Kreise von 12 cm ausstechen.',
-    'Kinderportion: zwei Teigkreise mit ungesalzener Füllung belegen und mit einer Gabel markieren, die übrige Füllung für Erwachsene mit Salz und etwas Chili würzen. Alle Kreise füllen, Ränder fest andrücken, 18 bis 20 Minuten goldbraun backen und mit Tomatenscheiben servieren.'
+    'Kinderportion: zwei Teigkreise mit ungesalzener Füllung belegen und mit einer Gabel markieren. Die übrige Füllung für Erwachsene mit Salz und etwas Chili würzen und auf die restlichen Kreise geben. Bei allen Empanadas die Ränder fest andrücken, 18 bis 20 Minuten goldbraun backen und mit Tomatenscheiben servieren.'
   ],
   kidName:'Mini-Empanadas',
   kid:'Empanadas etwas abkühlen lassen und in kleine Stücke schneiden. Die Füllung ist ungesalzen und das Ei hart gekocht.',
@@ -505,7 +505,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 220 °C vorheizen. Kartoffeln und Kürbis würfeln und in Wasser 15 Minuten weich kochen.',
     'Hähnchenbrust waagerecht halbieren und flach klopfen. Erst im verquirlten Ei, dann in den Semmelbröseln mit Oregano wenden, auf ein Blech mit Backpapier legen und mit Öl beträufeln.',
-    'Im Ofen 15 bis 18 Minuten backen und nach der Hälfte wenden, bis die Panade knusprig und das Fleisch innen nicht mehr rosa ist.',
+    'Schnitzel im Ofen 15 bis 18 Minuten backen und nach der Hälfte der Zeit wenden, bis die Panade knusprig und das Fleisch innen nicht mehr rosa ist.',
     'Kartoffeln und Kürbis abgießen und mit warmer Milch zu Püree stampfen. Tomate in Scheiben schneiden.',
     'Kinderportion ungesalzen abnehmen. Erwachsene Püree mit Salz und Pfeffer abschmecken und die Milanesa mit Zitronenspalten servieren.'
   ],
@@ -534,11 +534,11 @@ RECIPES.push(
   steps:[
     'Fleisch in kleine Würfel schneiden und im Topf in Öl rundum kräftig anbraten. Gewürfelte Zwiebel zugeben und 3 Minuten mitbraten.',
     'Tomaten und Brühe zugeben und zugedeckt 35 Minuten leise schmoren.',
-    'Kartoffeln, Süßkartoffel und Kürbis würfeln, den Maiskolben in Scheiben schneiden und mit den klein geschnittenen Aprikosen zugeben. Weitere 25 Minuten garen, bis alles weich ist.',
+    'Kartoffeln, Süßkartoffel und Kürbis würfeln, den Maiskolben in Scheiben schneiden. Alle vier zusammen mit den klein geschnittenen Aprikosen zugeben und weitere 25 Minuten garen, bis alles weich ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und etwas Chili abschmecken.'
   ],
   kidName:'Mini-Carbonada',
-  kid:'Fleisch fein zerzupfen, Gemüse zerdrücken und die Maiskörner vom Kolben schneiden. Die Aprikosen sind weich gegart und dürfen klein geschnitten mit.',
+  kid:'Fleisch fein zerzupfen. Die Maiskörner vom Kolben schneiden und mit Kartoffeln, Süßkartoffel und Kürbis zerdrücken. Die Aprikosen sind weich gegart und dürfen klein geschnitten mit.',
   leftover:'Carbonada-Auflauf · 20 Min. – Reste in eine Form geben, mit Kartoffelpüree bedecken und im Ofen überbacken.',
   tipp:'Zum Fest wird die Carbonada in Argentinien im ausgehöhlten Kürbis serviert, im Slow Cooker gart sie 6 Stunden auf niedriger Stufe.'
 },
@@ -567,7 +567,7 @@ RECIPES.push(
     'Kinderportion aus der Ecke ohne Oliven abnehmen und abkühlen lassen. Erwachsene am Tisch mit Salz und Pfeffer würzen.'
   ],
   kidName:'Mini-Pastel',
-  kid:'Aus der Ecke ohne Oliven nehmen, sie sind salzig. Püree und Hack zusammen zerdrücken und lauwarm servieren.',
+  kid:'Die Kinderportion aus der Ecke ohne Oliven nehmen, denn Oliven sind salzig. Püree und Hack zusammen zerdrücken und lauwarm servieren.',
   leftover:'Kartoffel-Hack-Taler · 12 Min. – Reste zu Talern formen und in der Pfanne von beiden Seiten braten.',
   tipp:'Mit etwas Kürbis im Püree wird die Haube orange und milder.'
 },
@@ -614,7 +614,7 @@ RECIPES.push(
   steps:[
     'Kartoffeln in kleine Würfel schneiden und in Wasser 12 bis 14 Minuten weich kochen.',
     'Forellenfilet trocken tupfen und in der Hälfte des Öls auf der Hautseite 4 Minuten braten, wenden und 2 Minuten fertig garen, bis das Fleisch innen nicht mehr glasig ist.',
-    'Salat zupfen, Tomaten halbieren und mit dem restlichen Öl und etwas Zitronensaft mischen. Kartoffeln abgießen und mit Petersilie schwenken.',
+    'Salat zupfen, Tomaten halbieren. Beides mit dem restlichen Öl und etwas Zitronensaft mischen. Kartoffeln abgießen und mit Petersilie schwenken.',
     'Kinderportion ungesalzen abnehmen. Erwachsene Fisch und Kartoffeln mit Salz, Pfeffer und Zitrone würzen.'
   ],
   kidName:'Mini-Forelle',
@@ -750,13 +750,13 @@ RECIPES.push(
   ],
   steps:[
     'Mehl mit der Hälfte des Öls und etwa 30 ml Wasser zu einem glatten Teig kneten, dünn ausrollen und eine kleine geölte Form damit auslegen. Ofen auf 190 °C vorheizen.',
-    'Zwiebel fein würfeln und im restlichen Öl glasig dünsten. Mangoldblätter in Streifen schneiden, Stiele fein würfeln, zugeben und 5 Minuten dünsten, bis die Flüssigkeit verdampft ist.',
+    'Zwiebel fein würfeln und im restlichen Öl glasig dünsten. Mangoldblätter in Streifen schneiden und Stiele fein würfeln. Blätter und Stiele zugeben und 5 Minuten dünsten, bis die Flüssigkeit verdampft ist.',
     'Eier mit Ricotta, Käse und Muskat verquirlen, den etwas abgekühlten Mangold unterheben und auf den Teig füllen.',
     'Im Ofen 30 bis 35 Minuten backen, bis die Füllung fest ist und in der Mitte nicht mehr wackelt. Tomate in Scheiben dazu reichen.',
     'Kinderportion abnehmen und lauwarm abkühlen lassen, die Tarte ist ungesalzen. Erwachsene am Tisch mit Salz und Pfeffer würzen.'
   ],
   kidName:'Mini-Tarta',
-  kid:'Die Füllung muss ganz durchgestockt sein, dann in fingerdicke Streifen schneiden. Tomate ohne Haut klein würfeln.',
+  kid:'Die Füllung muss ganz durchgestockt sein. Dann die Tarte in fingerdicke Streifen schneiden. Tomate ohne Haut klein würfeln.',
   leftover:'Tarta-Brotzeit · 3 Min. – Kalte Reste in Stücke schneiden und als Pausenbrot mitnehmen.',
   tipp:'Mit Spinat statt Mangold heißt sie Tarta de Espinaca und gelingt genauso.'
 },
@@ -863,13 +863,13 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Kartoffeln in der Schale 20 Minuten gar kochen, pellen, in dünne Scheiben schneiden und mit heißer Brühe, Essig und fein gewürfelter Zwiebel marinieren. Für das Kind einige Scheiben ohne Marinade beiseitelegen.',
+    'Kartoffeln in der Schale 20 Minuten gar kochen, pellen und in dünne Scheiben schneiden. Für das Kind einige Scheiben ohne Marinade beiseitelegen. Die übrigen Scheiben mit heißer Brühe, Essig und fein gewürfelter Zwiebel marinieren.',
     'Ofen auf 220 °C Umluft vorheizen. Schnitzel dünn klopfen und nacheinander in Mehl, verquirltem Ei und Bröseln wenden.',
     'Schnitzel auf ein Blech mit Backpapier legen, mit dem Öl beträufeln und 12 bis 14 Minuten backen, nach der Hälfte wenden, bis die Panade goldbraun und das Fleisch durchgegart ist. Gurke in dünne Scheiben hobeln und unter den Salat heben.',
     'Kinderportion ungesalzen abnehmen. Erwachsene Schnitzel und Salat mit Pfeffer und wenig Salz würzen.'
   ],
   kidName:'Mini-Schnitzel',
-  kid:'Schnitzel in schmale Streifen zum Greifen schneiden. Kartoffeln ohne Marinade und Gurke geschält in Stiften anbieten.',
+  kid:'Schnitzel in schmale Streifen zum Greifen schneiden. Kartoffelscheiben ohne Marinade anbieten, Gurke geschält in Stiften dazulegen.',
   leftover:'Schnitzel-Wrap · 8 Min. – Schnitzelreste vollständig erhitzen, in Streifen schneiden und mit Salat in eine Vollkorn-Tortilla rollen.',
   tipp:'In der Heißluftfritteuse gelingt das Schnitzel bei 200 °C in 10 Minuten mit nur einem Teelöffel Öl.'
 },
@@ -894,7 +894,7 @@ RECIPES.push(
     'Fleisch kalt abspülen, in einem großen Topf mit Wasser bedecken, aufkochen und den Schaum abschöpfen. Halbierte Zwiebel zugeben und 2 Stunden leise sieden lassen.',
     'Karotten, Sellerie und Lauch in grobe Stücke schneiden und für die letzten 30 Minuten zum Fleisch geben. Kartoffeln separat 20 Minuten gar kochen.',
     'Apfel fein reiben, die Hälfte für das Kind beiseitestellen und den Rest mit Kren mischen. Joghurt mit fein geschnittenem Schnittlauch verrühren.',
-    'Fleisch gegen die Faser in dünne Scheiben schneiden. Kinderportion ungesalzen und ohne Kren abnehmen, dann die Erwachsenen mit Salz, Pfeffer, Apfelkren und Schnittlauchsoße servieren.'
+    'Fleisch gegen die Faser in dünne Scheiben schneiden. Kinderportion ungesalzen und ohne Kren abnehmen, dann die Portionen für die Erwachsenen mit Salz und Pfeffer würzen und mit Apfelkren und Schnittlauchsoße servieren.'
   ],
   kidName:'Mini-Tafelspitz',
   kid:'Fleisch hauchdünn gegen die Faser schneiden und mit etwas Brühe saftig halten. Gemüse weich zerdrücken, geriebenen Apfel ohne Kren dazugeben.',
@@ -976,7 +976,7 @@ RECIPES.push(
   ],
   steps:[
     'Nockerl nach Packungsangabe etwa 12 Minuten garen und abgießen.',
-    'Hähnchen in Streifen schneiden, in Öl 4 Minuten rundum anbraten, bis es durchgegart ist, und herausnehmen. Zwiebel würfeln, Paprika in Streifen schneiden und 5 Minuten im Bratfett dünsten.',
+    'Hähnchen in Streifen schneiden, in Öl 4 Minuten rundum anbraten, bis es durchgegart ist, und herausnehmen. Zwiebel würfeln, Paprika in Streifen schneiden. Beides 5 Minuten im Bratfett dünsten.',
     'Tomatenmark und Paprikapulver kurz unterrühren, mit Brühe ablöschen und 3 Minuten köcheln. Saure Sahne mit Stärke verrühren, unterziehen, Fleisch zurückgeben und kurz erhitzen, ohne zu kochen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Pfeffer, wenig Salz und nach Wunsch scharfem Paprika abschmecken.'
   ],
@@ -1032,7 +1032,7 @@ RECIPES.push(
   ],
   steps:[
     'Kleine Kartoffeln waschen, halbieren und in Wasser 15 Minuten gar kochen, abgießen und in Butter mit gehackter Petersilie schwenken.',
-    'Feldsalat waschen und Karotte fein raspeln. Essig mit Kürbiskernöl verrühren, aber erst beim Servieren unterheben.',
+    'Feldsalat waschen und Karotte fein raspeln. Essig mit Kürbiskernöl zu einem Dressing verrühren. Das Dressing erst beim Servieren unter Feldsalat und Karotte heben.',
     'Saiblingsfilets trocken tupfen und in Öl auf der Hautseite 4 Minuten knusprig braten, wenden und 1 bis 2 Minuten fertig garen, bis das Fleisch nicht mehr glasig ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene den Fisch mit Zitronensaft, Pfeffer und wenig Salz würzen und den Salat mit dem Dressing anmachen.'
   ],
@@ -1171,7 +1171,7 @@ RECIPES.push(
   steps:[
     'Eier 10 Minuten hart kochen, kalt abschrecken und schälen.',
     'Bohnen abspülen und abtropfen lassen. Rote Zwiebel sehr fein würfeln, Kirschtomaten vierteln und Feldsalat waschen.',
-    'Bohnen mit Zwiebel, Essig und Kürbiskernöl mischen und 5 Minuten ziehen lassen, dann Salat und Tomaten unterheben und mit Eivierteln belegen.',
+    'Für das Kind einige Bohnen ohne Zwiebel beiseitestellen. Die übrigen Bohnen mit Zwiebel, Essig und Kürbiskernöl mischen und 5 Minuten ziehen lassen. Dann Feldsalat und Tomaten unterheben und den Bohnensalat mit Eivierteln belegen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Pfeffer und wenig Salz würzen und mit Vollkornbrot servieren.'
   ],
   kidName:'Mini-Käferbohnen',
@@ -1315,7 +1315,7 @@ RECIPES.push(
     'Ofen auf 220 °C vorheizen. Kartoffeln in Spalten schneiden, mit der Hälfte des Öls mischen und auf dem Blech 10 Minuten vorbacken.',
     'Hähnchenbrust waagerecht halbieren und flach drücken, erst durch verquirltes Ei, dann durch Paniermehl ziehen und mit dem restlichen Öl beträufeln.',
     'Schnitzel auf das Blech legen und 12 Minuten backen, dann mit passierten Tomaten, Oregano und Mozzarella belegen und weitere 6 bis 8 Minuten backen, bis der Käse schmilzt und das Fleisch vollständig durchgegart ist.',
-    'Kinderportion ungesalzen abnehmen und in Streifen schneiden. Erwachsene mit Salz und Pfeffer würzen und mit Salat servieren.'
+    'Kinderportion ungesalzen abnehmen und das Schnitzel dafür in Streifen schneiden. Erwachsene mit Salz und Pfeffer würzen und mit Salat servieren.'
   ],
   nutri:{p:['Hähnchen','Käse'],f:['Kartoffeln','Tomaten','Salat'],i:['Hähnchen'],fat:['Olivenöl','Käse']},
   kidName:'Mini-Parmi',
@@ -1341,7 +1341,7 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln schälen, würfeln und in 15 Minuten weich kochen, in den letzten 4 Minuten die Erbsen zugeben.',
-    'Karotte fein raspeln, Zwiebel fein würfeln und mit Hack, Haferflocken und Ei verkneten. Zu kleinen flachen Frikadellen formen.',
+    'Karotte fein raspeln, Zwiebel fein würfeln. Beides mit Hack, Haferflocken und Ei verkneten. Zu kleinen flachen Frikadellen formen.',
     'Frikadellen in Öl bei mittlerer Hitze pro Seite 5 Minuten braten, bis sie innen vollständig durchgegart sind.',
     'Kartoffeln und Erbsen abgießen und mit warmer Milch stampfen. Kinderportion ungesalzen abnehmen, dann Erwachsene mit Salz und Pfeffer würzen.'
   ],
@@ -1398,7 +1398,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 200 °C vorheizen. Lamm mit gehacktem Knoblauch, Rosmarin und etwas Öl einreiben.',
-    'Kartoffeln, Süßkartoffel und Karotten in große Stücke, Zwiebel in Spalten schneiden, mit dem restlichen Öl auf dem Blech mischen und das Lamm in die Mitte legen.',
+    'Kartoffeln, Süßkartoffel und Karotten in große Stücke, Zwiebel in Spalten schneiden. Das ganze Gemüse mit dem restlichen Öl auf dem Blech mischen und das Lamm in die Mitte legen.',
     'Etwa 45 Minuten rösten, bis das Lamm eine Kerntemperatur von mindestens 70 °C hat und das Gemüse weich ist, Erbsen in den letzten 8 Minuten mit aufs Blech geben. Lamm 10 Minuten ruhen lassen und die Erbsen mit gehackter Minze mischen.',
     'Kinderportion ungesalzen abnehmen und das Lamm dafür in sehr dünne Scheiben schneiden. Erwachsene mit Salz und Pfeffer würzen.'
   ],
@@ -1539,12 +1539,12 @@ RECIPES.push(
   steps:[
     'Ofen auf 180 °C vorheizen. Zucchini und Karotte grob raspeln, Zwiebel fein würfeln.',
     'Eier mit Mehl, Öl und der Hälfte des Käses verquirlen und das Gemüse unterheben.',
-    'In eine mit Backpapier ausgelegte Form füllen, mit restlichem Käse bestreuen und 30 Minuten backen, bis die Masse fest und goldbraun und das Ei vollständig gestockt ist.',
+    'Die Masse in eine mit Backpapier ausgelegte Form füllen, mit restlichem Käse bestreuen und 30 Minuten backen, bis die Masse fest und goldbraun und das Ei vollständig gestockt ist.',
     'Kinderportion abnehmen, etwas abkühlen lassen und in Fingerstreifen schneiden. Erwachsene mit Pfeffer würzen und mit Salat servieren, Salz ist dank Käse kaum nötig.'
   ],
   nutri:{p:['Eier','Käse'],f:['Zucchini','Karotten','Vollkornmehl'],i:['Eier'],fat:['Rapsöl','Käse']},
   kidName:'Zucchini-Fingerschnitten',
-  kid:'In fingerlange Streifen schneiden, die das Kind selbst greifen kann; das Ei ist vollständig durchgebacken. Nicht nachsalzen.',
+  kid:'Den Slice in fingerlange Streifen schneiden, die das Kind selbst greifen kann; das Ei ist vollständig durchgebacken. Nicht nachsalzen.',
   leftover:'Slice-Brotdose · 2 Min. – Kalte Stücke mit Gurke und Tomaten als Brotzeit einpacken.',
   extras:[], tipp:'Zucchini Slice gehört in Australien in jede Brotdose und lässt sich gut einfrieren.'
 },
@@ -1595,9 +1595,9 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 220 °C vorheizen. Mehl, Backpulver und Joghurt zu einem weichen Teig verkneten, zu einem flachen Laib formen, kreuzweise einschneiden und 20 bis 25 Minuten backen.',
+    'Ofen auf 220 °C vorheizen. Mehl, Backpulver und Joghurt zu einem weichen Teig verkneten, zu einem flachen Laib formen, kreuzweise einschneiden und das Brot (Damper) 20 bis 25 Minuten backen.',
     'Zwiebel, Kürbis und Karotte würfeln und in Öl 3 Minuten andünsten.',
-    'Linsen abspülen, mit Brühe und Muskat zugeben und 18 Minuten köcheln, bis alles weich ist, dann fein pürieren.',
+    'Linsen abspülen, mit Brühe und Muskat zugeben und 18 Minuten köcheln, bis alles weich ist. Dann die ganze Suppe fein pürieren.',
     'Kinderportion ungesalzen abnehmen und etwas abkühlen lassen. Erwachsene mit Salz und Pfeffer würzen und mit warmem Damper servieren.'
   ],
   nutri:{p:['Rote Linsen','Vollkornmehl'],f:['Kürbis','Linsen','Vollkornmehl'],i:['Linsen'],fat:['Rapsöl']},
@@ -1624,7 +1624,7 @@ RECIPES.push(
     {n:'Olivenöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 200 °C vorheizen. Kürbis mit Schale in Würfel und Zwiebel in Spalten schneiden, mit Kichererbsen, Kreuzkümmel und Öl mischen und 25 Minuten rösten, Kürbiskerne in den letzten 3 Minuten mit aufs Blech geben.',
+    'Ofen auf 200 °C vorheizen. Kürbis mit Schale in Würfel und Zwiebel in Spalten schneiden. Beides mit Kichererbsen, Kreuzkümmel und Öl mischen und 25 Minuten rösten, Kürbiskerne in den letzten 3 Minuten mit aufs Blech geben.',
     'Quinoa gründlich spülen und in der doppelten Menge Wasser etwa 15 Minuten garen.',
     'Quinoa mit Spinat und dem warmen Ofengemüse mischen, damit der Spinat leicht zusammenfällt.',
     'Kinderportion abnehmen, Kichererbsen zerdrücken und den Kürbis weich lassen. Erwachsene mit Feta, Kürbiskernen, Zitronensaft, Salz und Pfeffer würzen.'
@@ -1721,7 +1721,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chili würzen und mit dem Gurkenjoghurt servieren.'
   ],
   kidName:'Mildes Hähnchen-Biryani',
-  kid:'Hähnchen fein zerzupfen und Kartoffeln mit der Gabel zerdrücken. Mit etwas Gurkenjoghurt mischen, damit der Reis saftig ist.',
+  kid:'Hähnchen fein zerzupfen und Kartoffeln mit der Gabel zerdrücken. Reis, Hähnchen und Kartoffeln mit etwas Gurkenjoghurt mischen, damit der Reis saftig ist.',
   leftover:'Biryani-Pfanne · 10 Min. – Reste mit einem Schuss Wasser in der Pfanne vollständig erhitzen.',
   tipp:'In Dhaka gehört ein Stück Kartoffel in jede Biryani-Portion, es saugt das Aroma auf.'
 },
@@ -1749,7 +1749,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch einer grünen Chili würzen.'
   ],
   kidName:'Joghurt-Hähnchen mild',
-  kid:'Hähnchen fein zerzupfen, Blumenkohl und Erbsen zerdrücken und mit der milden Soße mischen. Fladenbrot in weiche Streifen zum Dippen reißen.',
+  kid:'Hähnchen fein zerzupfen, Blumenkohl und Erbsen zerdrücken. Alle drei mit der milden Soße mischen. Fladenbrot in weiche Streifen zum Dippen reißen.',
   leftover:'Rezala-Reis · 15 Min. – Reste vollständig erhitzen und mit frisch gekochtem Basmatireis essen.',
   tipp:'Den Joghurt nur bei kleiner Hitze unterrühren, dann flockt er nicht aus.'
 },
@@ -1777,7 +1777,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chili würzen.'
   ],
   kidName:'Hähnchen-Kartoffel-Topf',
-  kid:'Kartoffeln mit etwas Soße zerdrücken, Hähnchen fein zerzupfen und mit dem Reis mischen. Eher dick als suppig servieren.',
+  kid:'Kartoffeln mit etwas Soße zerdrücken, Hähnchen fein zerzupfen. Beides mit dem Reis mischen. Eher dick als suppig servieren.',
   leftover:'Jhol-Reistopf · 8 Min. – Reste mit Reis in einem Topf vollständig erhitzen und dick einkochen lassen.',
   tipp:'Jhol wird mit viel Soße über Reis gegessen, für Kleinkinder etwas Flüssigkeit abgießen.'
 },
@@ -1887,7 +1887,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch grüner Chili würzen.'
   ],
   kidName:'Senf-Lachs mild',
-  kid:'Lachs sorgfältig auf Gräten prüfen und zerpflücken, Brokkoli weich dämpfen. Mit der milden Joghurtsoße unter den Reis mischen, ohne Chili.',
+  kid:'Lachs sorgfältig auf Gräten prüfen und zerpflücken, Brokkoli weich dämpfen. Lachs und Brokkoli mit der milden Joghurtsoße unter den Reis mischen, ohne Chili.',
   leftover:'Lachs-Reis-Pfanne · 8 Min. – Reis- und Fischreste mit Gemüse in der Pfanne vollständig erhitzen.',
   tipp:'Original wird der grätenreiche Ilish verwendet, Lachs ist ähnlich fettreich und leichter zu entgräten.'
 },
@@ -1915,7 +1915,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Koriandergrün und nach Wunsch grüner Chili würzen.'
   ],
   kidName:'Fisch-Kartoffel-Topf',
-  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, Kartoffeln und Aubergine sehr weich garen und zerdrücken. Mit wenig Soße über den Reis geben.',
+  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, Kartoffeln und Aubergine sehr weich garen und zerdrücken. Fisch und Gemüse mit wenig Soße über den Reis geben.',
   leftover:'Fisch-Kartoffel-Taler · 15 Min. – Fisch- und Kartoffelreste zerdrücken, zu Talern formen und in der Pfanne beidseitig vollständig durchbraten.',
   tipp:'Jhol ist eine dünne, leichte Soße, die mit viel Reis gegessen wird.'
 },
@@ -1943,7 +1943,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch grüner Chili würzen.'
   ],
   kidName:'Kokos-Fisch mild',
-  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, Erbsen leicht zerdrücken. Mit der milden Kokossoße unter den Reis mischen.',
+  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, Erbsen leicht zerdrücken. Fisch und Erbsen mit der milden Kokossoße unter den Reis mischen.',
   leftover:'Kokos-Fisch-Reis · 8 Min. – Reis- und Soßenreste zusammen in einem Topf vollständig erhitzen.',
   tipp:'Das Original wird mit Garnelen gekocht, mit Fisch ist es milder und günstiger.'
 },
@@ -1995,7 +1995,7 @@ RECIPES.push(
   steps:[
     'Vollkornreis in der doppelten Menge Wasser 30 Minuten garen. Kartoffeln schälen, würfeln und in Wasser 15 Minuten weich kochen.',
     'Linsen spülen und mit Kurkuma, Tomatenwürfeln und 350 ml Wasser 15 Minuten weich köcheln. Knoblauch in Scheiben in Öl goldgelb braten, zum Dal geben und den Spinat unterrühren.',
-    'Kartoffeln abgießen und mit einem Schuss Öl grob zerstampfen.',
+    'Kartoffeln abgießen und mit einem Schuss Öl grob zu Bhorta zerstampfen.',
     'Kinderportion ungesalzen abnehmen. Für Erwachsene fein gewürfelte Zwiebel, Koriandergrün, Salz und nach Wunsch Chili unter den Bhorta mischen und den Dal salzen.'
   ],
   kidName:'Dal mit Kartoffelstampf',
@@ -2026,7 +2026,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Gemüsewürfeln, Ei, Tamarindensoße, Koriandergrün, Salz und nach Wunsch Chili anrichten.'
   ],
   kidName:'Kichererbsen-Kartoffel-Mus',
-  kid:'Kichererbsen gründlich zerdrücken, Kartoffeln weich und das hart gekochte Ei in kleine Stücke schneiden. Gurke in dünne Stifte, ohne Tamarinde und Chili.',
+  kid:'Kichererbsen gründlich zerdrücken. Kartoffeln weich lassen und das hart gekochte Ei in kleine Stücke schneiden. Gurke in dünne Stifte, ohne Tamarinde und Chili.',
   leftover:'Chotpoti-Wrap · 5 Min. – Reste vollständig erwärmen und mit Gurke in ein Vollkorn-Fladenbrot rollen.',
   tipp:'In Dhaka wird Chotpoti mit getrockneten gelben Erbsen gekocht, Kichererbsen aus der Dose sparen viel Zeit.'
 },
@@ -2054,7 +2054,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chili würzen.'
   ],
   kidName:'Mildes Eier-Curry',
-  kid:'Hart gekochte Eier klein schneiden, Kartoffeln mit der Soße zerdrücken und Erbsen leicht quetschen. Ohne Salz und Chili mit Reis mischen.',
+  kid:'Hart gekochte Eier klein schneiden, Kartoffeln mit der Soße zerdrücken und Erbsen leicht quetschen. Eier, Kartoffeln und Erbsen ohne Salz und Chili mit dem Reis mischen.',
   leftover:'Eier-Curry-Brot · 5 Min. – Reste vollständig erhitzen und mit warmem Vollkorn-Fladenbrot essen.',
   tipp:'Die Eier leicht einritzen, dann nehmen sie die Soße besser auf.'
 },
@@ -2103,7 +2103,7 @@ RECIPES.push(
   ],
   steps:[
     'Fladenbrot in der trockenen Pfanne 1 Minute je Seite erwärmen und in ein Tuch wickeln.',
-    'Zwiebel würfeln, Karotten in feine Stifte und Kohl in feine Streifen schneiden. In der Hälfte des Öls mit Kurkuma und Kreuzkümmel 7 Minuten weich braten, Erbsen 2 Minuten mitgaren.',
+    'Zwiebel würfeln, Karotten in feine Stifte und Kohl in feine Streifen schneiden. Zwiebel, Karotten und Kohl in der Hälfte des Öls mit Kurkuma und Kreuzkümmel 7 Minuten weich braten, Erbsen 2 Minuten mitgaren.',
     'Gemüse an den Rand schieben, restliches Öl zugeben und die verquirlten Eier unter Rühren vollständig stocken lassen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chili würzen und alles mit dem Fladenbrot essen.'
   ],
@@ -2137,7 +2137,7 @@ RECIPES.push(
     'Ofen auf 220 °C vorheizen. Kartoffeln in Stifte schneiden, mit der Hälfte des Öls mischen und 25 bis 30 Minuten goldbraun backen, einmal wenden.',
     'Muscheln unter kaltem Wasser abbürsten und die Bärte entfernen. Offene Muscheln, die sich beim Klopfen nicht schließen, aussortieren.',
     'Zwiebel, Sellerie und Lauch fein schneiden und im großen Topf im restlichen Öl 4 Minuten dünsten. Brühe und Muscheln zugeben und zugedeckt 6 bis 8 Minuten garen, bis sich alle Muscheln geöffnet haben, dabei einmal schütteln. Geschlossene Muscheln wegwerfen.',
-    'Petersilie unterheben und Joghurt als Dip zu den Pommes reichen.',
+    'Petersilie unter die Muscheln heben und Joghurt als Dip zu den Pommes reichen.',
     'Kinderportion ungesalzen abnehmen und die Muscheln dafür auslösen. Erwachsene mit Pfeffer und Zitrone würzen, der Sud ist von Natur aus salzig.'
   ],
   kidName:'Mini-Moules-frites',
@@ -2245,11 +2245,11 @@ RECIPES.push(
   steps:[
     'Karotten, Lauch und Sellerie in feine Streifen schneiden. Brühe mit Lorbeer aufkochen, Gemüse zugeben und 8 Minuten köcheln.',
     'Hähnchen in mundgerechte Stücke schneiden, in die Brühe legen und bei kleiner Hitze 10 bis 12 Minuten gar ziehen lassen, bis es innen nicht mehr rosa ist.',
-    'Milch mit Stärke verrühren, einrühren und 2 Minuten sanft köcheln, bis die Brühe leicht cremig ist. Lorbeer entfernen, Petersilie unterrühren und mit Vollkornbrot servieren.',
+    'Milch mit Stärke verrühren, einrühren und 2 Minuten sanft köcheln, bis die Brühe leicht cremig ist. Lorbeer entfernen, Petersilie unterrühren und den Waterzooi mit Vollkornbrot servieren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Mini-Waterzooi',
-  kid:'Hähnchen und Gemüse mit wenig Brühe herausnehmen und klein schneiden oder zerdrücken, damit es löffelbar ist. Brot ohne Kruste zum Eintunken, kein Salz.',
+  kid:'Hähnchen und Gemüse mit wenig Brühe herausnehmen. Beides klein schneiden oder zerdrücken, damit die Kinderportion löffelbar ist. Brot ohne Kruste zum Eintunken, kein Salz.',
   leftover:'Waterzooi-Reis · 10 Min. – Reste mit gekochtem Reis dick einkochen und als Ragout essen.',
   tipp:'Ursprünglich wurde Waterzooi in Gent mit Flussfisch gekocht, mit Seelachs gelingt die Fischvariante genauso.'
 },
@@ -2301,7 +2301,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 220 °C vorheizen. Kartoffeln in Spalten schneiden, mit der Hälfte des Öls mischen und 25 bis 30 Minuten backen.',
     'Hack mit Haferflocken, 2 EL Wasser und der Hälfte des Thymians verkneten und zu 4 bis 5 Bällchen formen. In der Pfanne im restlichen Öl rundum 6 Minuten anbraten.',
-    'Zwiebel in Streifen schneiden, Apfel würfeln und neben den Bällchen 5 Minuten anschwitzen. Brühe, Apfelkraut und restlichen Thymian zugeben und zugedeckt 12 Minuten schmoren, bis die Bällchen durch sind. Erbsen in den letzten 4 Minuten mitgaren.',
+    'Zwiebel in Streifen schneiden, Apfel würfeln. Beides neben den Bällchen 5 Minuten anschwitzen. Brühe, Apfelkraut und restlichen Thymian zugeben und zugedeckt 12 Minuten schmoren, bis die Bällchen durch sind. Erbsen in den letzten 4 Minuten mitgaren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und einem Spritzer Essig abschmecken.'
   ],
   kidName:'Mini-Boulets',
@@ -2486,7 +2486,7 @@ RECIPES.push(
   steps:[
     'Zwiebel, Knoblauch und Karotte sehr fein würfeln und in Öl 4 Minuten dünsten.',
     'Gehackte Tomaten, Thymian und Lorbeer zugeben und 6 Minuten köcheln. Abgespülte Bohnen zugeben und weitere 5 Minuten sämig einkochen.',
-    'Lorbeer entfernen und mit Vollkornbrot servieren.',
+    'Lorbeer entfernen. Die Bohnen mit Vollkornbrot servieren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und etwas Senf würzen.'
   ],
   kidName:'Mini-Bohnentopf',
@@ -2549,7 +2549,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen und Lorbeer entfernen. Erwachsene mit Salz und Pfeffer abschmecken und mit Reis, Grünkohl und Orangenstücken servieren.'
   ],
   kidName:'Mini-Feijoada',
-  kid:'Fleisch fein zerzupfen, Bohnen grob zerdrücken und mit Reis mischen. Orange in kleine, kernlose Stücke schneiden.',
+  kid:'Fleisch fein zerzupfen, Bohnen grob zerdrücken. Beides mit Reis mischen. Orange in kleine, kernlose Stücke schneiden.',
   leftover:'Bohnen-Reis-Pfanne · 10 Min. – Reste mit einem Ei in der Pfanne vollständig durchbraten.',
   tipp:'Mit magerem Rindfleisch statt Wurst und Speck bleibt die Feijoada leicht und trotzdem herzhaft.'
 },
@@ -2655,7 +2655,7 @@ RECIPES.push(
   steps:[
     'Kartoffeln und Süßkartoffel schälen, würfeln und in Wasser 15 Minuten weich kochen. Ofen auf 200 °C vorheizen.',
     'Zwiebel und Karotte fein würfeln und mit dem Hack in Öl 6 Minuten krümelig braten. Passierte Tomaten und Kreuzkümmel zugeben und 5 Minuten einköcheln.',
-    'Kartoffeln abgießen und mit warmer Milch zu Püree stampfen. Hack in eine Auflaufform geben, Püree darauf verstreichen und mit Käse bestreuen.',
+    'Kartoffeln und Süßkartoffel abgießen und zusammen mit warmer Milch zu Püree stampfen. Hack in eine Auflaufform geben, Püree darauf verstreichen und mit Käse bestreuen.',
     'Im Ofen 15 Minuten backen, bis die Oberfläche goldbraun ist.',
     'Kinderportion abnehmen und etwas abkühlen lassen, sie bleibt ungesalzen. Erwachsene am Tisch mit Salz und Pfeffer würzen.'
   ],
@@ -2873,7 +2873,7 @@ RECIPES.push(
   steps:[
     'Kürbis würfeln und in wenig Wasser 10 Minuten weich kochen. Bulgur mit 140 ml kochendem Wasser übergießen und 10 Minuten quellen lassen. Ofen auf 200 °C vorheizen.',
     'Kürbis abgießen, fein zerdrücken und mit Bulgur, sehr fein gewürfelter Zwiebel, Kräutern und Zimt zu einer formbaren Masse verkneten.',
-    'Spinat hacken und mit Ricotta mischen. Die Hälfte der Kürbismasse in eine geölte Form drücken, Ricotta darauf verteilen, mit der restlichen Masse bedecken, rautenförmig einschneiden und mit Öl bestreichen.',
+    'Spinat hacken und mit Ricotta mischen. Die Hälfte der Kürbismasse in eine geölte Form drücken, die Spinat-Ricotta-Mischung darauf verteilen, mit der restlichen Masse bedecken, rautenförmig einschneiden und mit Öl bestreichen.',
     'Im Ofen 25 Minuten backen, bis die Oberfläche fest und goldbraun ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene am Tisch mit Salz und Pfeffer würzen.'
   ],
@@ -2901,7 +2901,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 180 °C vorheizen. Eier, Milch, Mehl, Backpulver, Öl und die Hälfte des Käses mit dem Mixer oder Schneebesen 1 Minute glatt rühren.',
-    'Zucchini und Karotte grob raspeln, mit dem Mais unter den Teig heben und in eine geölte Form gießen. Halbierte Kirschtomaten darauflegen und mit dem restlichen Käse bestreuen.',
+    'Zucchini und Karotte grob raspeln und mit dem Mais unter den Teig heben. Den Teig in eine geölte Form gießen. Halbierte Kirschtomaten darauflegen und mit dem restlichen Käse bestreuen.',
     'Im Ofen 30 bis 35 Minuten backen, bis ein Holzstäbchen in der Mitte trocken herauskommt.',
     'Kinderportion abnehmen und lauwarm abkühlen lassen, der Teig ist ungesalzen. Erwachsene am Tisch mit Salz und Pfeffer würzen.'
   ],
@@ -2929,7 +2929,7 @@ RECIPES.push(
   ],
   steps:[
     'Mehl, Milch und Ei glatt verrühren und in einer leicht geölten Pfanne nacheinander dünne Pfannkuchen backen, je Seite etwa 1 Minute. Ofen auf 200 °C vorheizen.',
-    'Zwiebel fein würfeln und im restlichen Öl glasig dünsten, Spinat zugeben und zusammenfallen lassen. Etwas abkühlen lassen und mit Ricotta mischen.',
+    'Zwiebel fein würfeln und im restlichen Öl glasig dünsten, Spinat zugeben und zusammenfallen lassen. Die Spinatmischung etwas abkühlen lassen und mit Ricotta mischen.',
     'Pfannkuchen mit der Füllung bestreichen, aufrollen und in eine Form legen. Passierte Tomaten mit Oregano darübergießen und mit Käse bestreuen.',
     'Im Ofen 15 Minuten backen, bis die Soße blubbert.',
     'Kinderportion ungesalzen abnehmen. Erwachsene am Tisch mit Salz und Pfeffer würzen.'
@@ -2996,7 +2996,7 @@ RECIPES.push(
     'Kinderportion ohne Sojasauce abnehmen. Erwachsene mit Sojasauce, einem Spritzer Reisessig und Chili abschmecken.'
   ],
   kidName:'Mildes Ingwer-Rind',
-  kid:'Fleisch sehr fein schneiden, Brokkoli und Karotten etwas länger weich dünsten. Ohne Sojasauce und Chili mit Reis vermischt servieren.',
+  kid:'Fleisch sehr fein schneiden, Brokkoli und Karotten etwas länger weich dünsten. Fleisch und Gemüse ohne Sojasauce und Chili mit Reis vermischt servieren.',
   leftover:'Gebratener Reis · 10 Min. – Reis und Fleischreste mit einem Ei und Erbsen in der Pfanne durchbraten.',
   tipp:'Im Restaurant wird das Fleisch frittiert, mit Stärke bestäubt wird es in der heißen Pfanne ebenfalls knusprig.'
 },
@@ -3044,7 +3044,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 200 °C vorheizen. Süßkartoffel in 2 cm große Würfel schneiden, Rosenkohl halbieren und Zwiebel in Spalten schneiden. Mit Öl und Thymian mischen und 15 Minuten backen.',
+    'Ofen auf 200 °C vorheizen. Süßkartoffel in 2 cm große Würfel schneiden, Rosenkohl halbieren und Zwiebel in Spalten schneiden. Das Gemüse mit Öl und Thymian mischen und 15 Minuten backen.',
     'Hähnchen in 3 cm große Stücke schneiden und zum Gemüse aufs Blech legen.',
     'Senf mit Ahornsirup verrühren und nur die Erwachsenenstücke damit bestreichen. Alles weitere 18 bis 20 Minuten backen, bis das Hähnchen innen nicht mehr rosa ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
@@ -3316,7 +3316,7 @@ RECIPES.push(
     'Kinderportion abnehmen. Erwachsene mit Salz und Pfeffer abschmecken.'
   ],
   kidName:'Sommergemüse in Milchsauce',
-  kid:'Kartoffeln und Gemüse weich zerdrücken, grüne Bohnen in kurze Stücke schneiden und weiße Bohnen zerquetschen. Ohne Salz.',
+  kid:'Kartoffeln, Karotten und Erbsen weich zerdrücken, grüne Bohnen in kurze Stücke schneiden und weiße Bohnen zerquetschen. Ohne Salz.',
   leftover:'Gemüse-Bratkartoffeln · 10 Min. – Reste abtropfen lassen und in der Pfanne mit etwas Öl knusprig braten.',
   tipp:'In Nova Scotia kommt Hodge Podge auf den Tisch, sobald die ersten neuen Kartoffeln und Bohnen geerntet sind.'
 },
@@ -3423,7 +3423,7 @@ RECIPES.push(
   ],
   steps:[
     'Kleine Kartoffeln waschen und in der Schale 18 Minuten gar kochen. Ofen auf 220 °C mit Grillfunktion vorheizen.',
-    'Paprika in Streifen und Champignons in Scheiben schneiden, Brokkoli in kleine Röschen teilen, mit Öl mischen und auf dem Blech 10 Minuten rösten.',
+    'Paprika in Streifen und Champignons in Scheiben schneiden, Brokkoli in kleine Röschen teilen. Das ganze Gemüse mit Öl mischen und auf dem Blech 10 Minuten rösten.',
     'Kartoffeln halbieren, zum Gemüse legen, mit Käsescheiben belegen und 3 bis 4 Minuten überbacken, bis der Käse geschmolzen ist.',
     'Kinderportion ungewürzt abnehmen. Erwachsene mit Paprikapulver und Pfeffer würzen und mit Gewürzgurken servieren, Salz ist durch den Käse nicht nötig.'
   ],
@@ -3506,12 +3506,12 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 200 °C Ober- und Unterhitze vorheizen. Mehl mit Quark, Öl und 1 EL Wasser zu einem glatten Teig kneten, dünn ausrollen und eine mit Backpapier ausgelegte Form damit auslegen.',
-    'Lauch in feine Ringe schneiden, Karotten grob raspeln und auf dem Teig verteilen.',
+    'Lauch in feine Ringe schneiden, Karotten grob raspeln. Beides auf dem Teig verteilen.',
     'Eier mit Milch und Käse verquirlen, über das Gemüse gießen und die Wähe 30 bis 35 Minuten backen, bis der Guss vollständig gestockt ist.',
     'Kinderportion ungewürzt abschneiden. Erwachsene mit Muskat, Pfeffer und wenig Salz würzen.'
   ],
   kidName:'Mini-Wähe',
-  kid:'In schmale Streifen schneiden und den harten Rand entfernen. Darauf achten, dass der Guss vollständig gestockt ist.',
+  kid:'Wähe in schmale Streifen schneiden und den harten Rand entfernen. Darauf achten, dass der Guss vollständig gestockt ist.',
   leftover:'Wähe für die Brotdose · 5 Min. – Kalte Wähestücke mit Gurkensticks einpacken oder bei 180 °C vollständig erwärmen.',
   tipp:'Im Sommer passen Zucchini und Tomaten, im Winter Lauch, Kürbis oder Spinat auf die Wähe.'
 },
@@ -3643,7 +3643,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 220 °C vorheizen. Kartoffeln in Schnitze schneiden, mit der Hälfte des Öls mischen und auf dem Blech 15 Minuten backen.',
     'Fisch in fingerdicke Streifen schneiden und nacheinander in Mehl, verquirltem Ei und Bröseln wenden. Zu den Kartoffeln legen, mit dem restlichen Öl beträufeln und 10 bis 12 Minuten backen, bis die Panade goldbraun und der Fisch durchgegart ist.',
-    'Karotten fein raspeln und mit Zitronensaft mischen. Joghurt mit fein gehackter Gewürzgurke verrühren, vorher etwas Joghurt für das Kind beiseitestellen.',
+    'Karotten fein raspeln und mit Zitronensaft zu Rüeblisalat mischen. Etwas Joghurt für das Kind beiseitestellen, den restlichen Joghurt mit fein gehackter Gewürzgurke verrühren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Pfeffer und wenig Salz würzen und mit Rüeblisalat und Joghurtsoße servieren.'
   ],
   kidName:'Mini-Chnusperli',
@@ -3671,7 +3671,7 @@ RECIPES.push(
   steps:[
     'Nudeln nach Packungsangabe etwa 10 Minuten garen, Brokkoliröschen in den letzten 4 Minuten mitkochen.',
     'Hähnchen in feine Streifen schneiden und in Öl portionsweise 3 bis 4 Minuten scharf anbraten, bis es durchgegart ist, dann herausnehmen.',
-    'Zwiebel fein würfeln, Champignons in Scheiben schneiden und 4 Minuten im Bratfett braten. Brühe und die mit Stärke verrührte Milch angießen, 2 Minuten köcheln, bis die Soße bindet, und das Fleisch zurückgeben.',
+    'Zwiebel fein würfeln, Champignons in Scheiben schneiden. Beides 4 Minuten im Bratfett braten. Brühe und die mit Stärke verrührte Milch angießen, 2 Minuten köcheln, bis die Soße bindet, und das Fleisch zurückgeben.',
     'Kinderportion ungewürzt abnehmen. Erwachsene mit Pfeffer, wenig Salz und Petersilie würzen.'
   ],
   kidName:'Mini-Geschnetzeltes',
@@ -3789,11 +3789,11 @@ RECIPES.push(
     'Ofen auf 200 °C vorheizen. Ei 10 Minuten hart kochen. Den größten Teil der Zwiebel fein würfeln und mit dem Hack 8 Minuten krümelig braten, bis es durchgegart ist, dann mit Kreuzkümmel, Paprikapulver und 3 EL Wasser 2 Minuten schmoren.',
     'Mais mit Milch und Basilikum fein pürieren und im Topf unter Rühren 5 Minuten zu einem dicken Brei einkochen.',
     'Hack in eine Auflaufform geben, Eischeiben und Oliven darauf verteilen, mit dem Maisbrei bedecken und 20 Minuten backen, bis die Oberfläche goldbraun ist.',
-    'Kinderportion ohne Oliven abnehmen und etwas abkühlen lassen. Für die Erwachsenen Tomaten in Scheiben mit der restlichen Zwiebel als Ensalada chilena anrichten und alles mit Salz würzen.'
+    'Kinderportion ohne Oliven abnehmen und etwas abkühlen lassen. Für die Erwachsenen Tomaten in Scheiben mit der restlichen Zwiebel als Ensalada chilena anrichten. Auflauf und Salat der Erwachsenen mit Salz würzen.'
   ],
   nutri:{p:['Rindfleisch','Eier'],f:['Mais','Tomaten'],i:['Rindfleisch','Eier'],fat:['Oliven']},
   kidName:'Mini-Maisauflauf',
-  kid:'Ohne Oliven abnehmen, Ei klein schneiden und den Auflauf lauwarm mit der Gabel etwas zerdrücken. Kein Salz, die Maiskruste ist von Natur aus mild-süß.',
+  kid:'Die Kinderportion ohne Oliven abnehmen, Ei klein schneiden und den Auflauf lauwarm mit der Gabel etwas zerdrücken. Kein Salz, die Maiskruste ist von Natur aus mild-süß.',
   leftover:'Mais-Hack-Pfanne · 8 Min. – Auflaufreste mit etwas Wasser in der Pfanne vollständig durcherhitzen.',
   extras:[], tipp:'In Chile wird die Maiskruste oft mit Zucker bestreut; hier bleibt sie ohne, das Basilikum gibt genug Aroma.'
 },
@@ -3851,7 +3851,7 @@ RECIPES.push(
   ],
   nutri:{p:['Hähnchen','Erbsen'],f:['Erbsen','Karotten'],i:['Hähnchen','Erbsen'],fat:['Olivenöl']},
   kidName:'Hähnchen-Erbsen-Reis',
-  kid:'Hähnchen fein schneiden, Erbsen leicht zerdrücken und mit Soße unter den Reis mischen. Ohne Salz.',
+  kid:'Hähnchen fein schneiden, Erbsen leicht zerdrücken. Beides mit Soße unter den Reis mischen. Ohne Salz.',
   leftover:'Erbsen-Reis-Pfanne · 8 Min. – Reste mit einem Ei in der Pfanne vollständig durchbraten.',
   extras:[], tipp:'Mit Kartoffelpüree statt Reis schmeckt es wie bei chilenischen Großmüttern.'
 },
@@ -3936,7 +3936,7 @@ RECIPES.push(
   ],
   nutri:{p:['Rindfleisch'],f:['Kürbis','Kartoffeln','Erbsen'],i:['Rindfleisch','Erbsen'],fat:['Olivenöl']},
   kidName:'Kürbis-Hack-Stampf',
-  kid:'Fein stampfen, damit Mais und Erbsen zerdrückt sind, und lauwarm servieren. Ohne Salz und Chili.',
+  kid:'Die Kinderportion fein stampfen, damit Mais und Erbsen zerdrückt sind, und lauwarm servieren. Ohne Salz und Chili.',
   leftover:'Charquicán-Taler · 15 Min. – Reste mit einem Ei verkneten, zu Talern formen und in der Pfanne durchbraten.',
   extras:['ei'], tipp:'Original wird Charqui verwendet, getrocknetes Rindfleisch; mageres Hack ist salzärmer und schneller gar.'
 },
@@ -3988,7 +3988,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 200 °C vorheizen. Brot würfeln und in der Milch einweichen. Zwiebel würfeln, in Öl 5 Minuten weich dünsten und den Spinat kurz zusammenfallen lassen.',
     'Fisch in Würfel schneiden. Eingeweichtes Brot mit der Gabel zu einem Brei zerdrücken und mit Zwiebel, Spinat und Fisch mischen.',
-    'In eine kleine Auflaufform füllen, mit Käse und Paprikapulver bestreuen und 18 bis 20 Minuten backen, bis der Fisch durchgegart und die Oberfläche goldbraun ist.',
+    'Die Fischmasse in eine kleine Auflaufform füllen, mit Käse und Paprikapulver bestreuen und 18 bis 20 Minuten backen, bis der Fisch durchgegart und die Oberfläche goldbraun ist.',
     'Kinderportion abnehmen, nochmals auf Gräten prüfen und etwas abkühlen lassen. Erwachsene mit Pfeffer würzen und mit Tomatenscheiben servieren, Salz ist dank Käse kaum nötig.'
   ],
   nutri:{p:['Fisch','Milch','Käse'],f:['Vollkornbrot','Spinat'],i:['Spinat'],fat:['Käse','Olivenöl']},
@@ -4129,7 +4129,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 190 °C vorheizen. Zwiebel fein würfeln. Mais mit Ei, Basilikum und Paprikapulver grob pürieren.',
     'Hüttenkäse, Polenta und Zwiebel unterrühren und den Teig 5 Minuten quellen lassen.',
-    'In geölte Muffinmulden füllen und 22 bis 25 Minuten backen, bis die Küchlein fest und goldbraun sind und das Ei vollständig gestockt ist.',
+    'Den Teig in geölte Muffinmulden füllen und 22 bis 25 Minuten backen, bis die Küchlein fest und goldbraun sind und das Ei vollständig gestockt ist.',
     'Kinderportion abnehmen, etwas abkühlen lassen und halbieren. Tomaten in Spalten schneiden und für die Erwachsenen mit Salz, Pfeffer und dem restlichen Öl anmachen.'
   ],
   nutri:{p:['Hüttenkäse','Ei'],f:['Mais','Tomaten'],i:['Ei'],fat:['Olivenöl']},
@@ -4362,7 +4362,7 @@ RECIPES.push(
     'Jasminreis mit der 1,5-fachen Menge Wasser aufkochen und zugedeckt 12 Minuten bei kleiner Hitze quellen lassen.',
     'Ingwer in feine Streifen schneiden, Frühlingszwiebel in feine Ringe. Pak Choi längs vierteln.',
     'Fisch auf die Hälfte des Ingwers in eine Pfanne legen, Pak Choi daneben, 100 ml Wasser angießen und zugedeckt bei mittlerer Hitze 8 bis 10 Minuten dämpfen, bis sich der Fisch leicht zerpflücken lässt.',
-    'Kinderportion ungewürzt abnehmen und auf Gräten prüfen. Für die Erwachsenen restlichen Ingwer und Frühlingszwiebel auf den Fisch geben, Raps- und Sesamöl kurz erhitzen, darübergießen und mit Sojasauce beträufeln.'
+    'Kinderportion ungewürzt abnehmen und auf Gräten prüfen. Für die Erwachsenen restlichen Ingwer und Frühlingszwiebel auf den Fisch geben. Raps- und Sesamöl kurz erhitzen und über den Fisch gießen. Den Fisch mit Sojasauce beträufeln.'
   ],
   kidName:'Zarter Dampffisch',
   kid:'Fisch vollständig durchgaren, sorgfältig entgräten und zerpflücken. Pak Choi weich gedämpft fein schneiden und mit Reis mischen.',
@@ -4393,7 +4393,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und nach Wunsch etwas Chili abschmecken.'
   ],
   kidName:'Tomatenfisch mit Nudeln',
-  kid:'Fisch auf Gräten prüfen und zerpflücken, Nudeln kurz schneiden und mit wenig Sud anbieten. Harte Tomatenschalen herausnehmen.',
+  kid:'Fisch auf Gräten prüfen und zerpflücken. Nudeln kurz schneiden. Fisch und Nudeln mit wenig Sud anbieten, harte Tomatenschalen herausnehmen.',
   leftover:'Tomaten-Fisch-Reis · 8 Min. – Reste mit gekochtem Reis erhitzen, bis alles vollständig heiß ist.',
   tipp:'Reisnudeln erst kurz vor dem Servieren in den Sud geben, sonst saugen sie zu viel Flüssigkeit auf.'
 },
@@ -4418,7 +4418,7 @@ RECIPES.push(
     'Chinakohl in Streifen, Pilze in Scheiben, Ingwer in feine Scheiben und Frühlingszwiebel in Stücke schneiden.',
     'Lachs in Öl auf der Hautseite 3 Minuten anbraten und herausnehmen. Ingwer, Pilze und Chinakohl in der Pfanne 4 Minuten anbraten.',
     'Sternanis und 120 ml Wasser zugeben, Lachs obenauf legen und zugedeckt 8 Minuten schmoren, bis er gerade durch ist.',
-    'Kinderportion ungewürzt abnehmen. Sternanis entfernen, Sojasauce in den Sud rühren und die Erwachsenen mit Frühlingszwiebel servieren.'
+    'Sternanis entfernen und die Kinderportion ungewürzt abnehmen. Für die Erwachsenen Sojasauce in den Sud rühren und mit Frühlingszwiebel servieren.'
   ],
   kidName:'Weicher Schmorlachs',
   kid:'Lachs ohne Haut sorgfältig entgräten und zerpflücken, Chinakohl weich geschmort klein schneiden. Sternanis vorher herausnehmen.',
@@ -4475,7 +4475,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit einer Prise Salz und Zucker abschmecken und mit Frühlingszwiebel bestreuen.'
   ],
   kidName:'Tomaten-Ei mit Reis',
-  kid:'Ei vollständig durchgaren und klein zerteilen, Tomaten weich schmoren und harte Schalen entfernen. Mit Reis zu einem saftigen Teller mischen.',
+  kid:'Ei vollständig durchgaren und klein zerteilen, Tomaten weich schmoren und harte Schalen entfernen. Ei und Tomaten mit Reis zu einem saftigen Teller mischen.',
   leftover:'Tomaten-Ei-Nudeln · 8 Min. – Reste mit gekochten Nudeln und etwas Wasser erhitzen.',
   tipp:'Für mehr Gemüse eine Handvoll TK-Erbsen mit den Tomaten schmoren.'
 },
@@ -4586,7 +4586,7 @@ RECIPES.push(
     'Karotte fein raspeln, Gurke in Stifte, Salat in Streifen und Frühlingszwiebel in Ringe schneiden.',
     'Pfanne mit wenig Öl erhitzen, die Hälfte des Teigs dünn verteilen und 1 Minute backen. Ein verquirltes Ei darauf verstreichen, bei den Erwachsenen Frühlingszwiebel und Sesam aufstreuen.',
     'Fladen wenden und 2 Minuten weiterbacken, bis das Ei vollständig gestockt ist. Mit dem restlichen Teig genauso verfahren.',
-    'Kinderportion ohne Soße mit weichem Gemüse belegen. Erwachsene dünn mit Hoisinsauce bestreichen, mit Gemüse und Koriander füllen und falten.'
+    'Den Kinderfladen ohne Soße mit weichem Gemüse belegen. Die Fladen der Erwachsenen dünn mit Hoisinsauce bestreichen, mit Gemüse und Koriander füllen und falten.'
   ],
   kidName:'Mini-Ei-Crêpe',
   kid:'Ei im Fladen vollständig durchgaren und den Fladen in weiche Streifen schneiden. Karotte kurz mitdünsten, ohne Hoisinsauce und ganzen Sesam.',
@@ -4646,7 +4646,7 @@ RECIPES.push(
   ],
   steps:[
     'Vollkornreis nach Packung etwa 30 Minuten garen. Ofen auf 200 °C vorheizen, reife Kochbanane schälen, schräg in Scheiben schneiden, mit wenig Öl bestreichen und 20 Minuten weich backen.',
-    'Für das Hogao Zwiebel und Tomate fein würfeln und in der Hälfte des Öls in der Pfanne 5 Minuten weich schmoren. Die Hälfte davon mit den Bohnen und 50 ml Wasser in einem kleinen Topf 10 Minuten köcheln und einen Teil zerdrücken.',
+    'Für das Hogao Zwiebel und Tomate fein würfeln und in der Hälfte des Öls in der Pfanne 5 Minuten weich schmoren. Die Hälfte des Hogao mit den Bohnen und 50 ml Wasser in einem kleinen Topf 10 Minuten köcheln. Einen Teil der Bohnen zerdrücken.',
     'Hack mit Kreuzkümmel zum restlichen Hogao in die Pfanne geben und 6 Minuten krümelig braten. Danach im restlichen Öl ein Spiegelei braten, bis Eiweiß und Eigelb fest sind.',
     'Avocado in Scheiben schneiden und alles getrennt auf einem großen Teller anrichten.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und Ají würzen.'
@@ -4674,7 +4674,7 @@ RECIPES.push(
     {n:'Oregano, getrocknet',q:0.5,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Hähnchen mit Brühe, Frühlingszwiebel und Oregano aufkochen und 15 Minuten leise köcheln, herausnehmen und in Fasern zupfen.',
+    'Hähnchen mit Brühe, Frühlingszwiebel und Oregano aufkochen und 15 Minuten leise köcheln. Das Hähnchen herausnehmen und in Fasern zupfen.',
     'Mehlige Kartoffeln in dünne Scheiben und festkochende in Würfel schneiden, mit dem Maiskolben in Stücken in die Brühe geben und 25 Minuten köcheln, bis die mehligen Kartoffeln zerfallen und der Eintopf sämig ist.',
     'Hähnchenfasern zurück in den Topf geben und 2 Minuten erwärmen. Avocado in Würfel schneiden.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz würzen und mit Koriander, Joghurt und Avocado servieren.'
@@ -4759,7 +4759,7 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln in kleine Würfel schneiden und 10 Minuten weich kochen. Maismehl mit Kurkuma und etwa 90 ml warmem Wasser zu einem weichen Teig kneten und 5 Minuten ruhen lassen.',
-    'Frühlingszwiebel und Tomate fein würfeln und in der Hälfte des Öls 4 Minuten schmoren. Hack und Kreuzkümmel zugeben und 6 Minuten krümelig braten, Kartoffeln untermischen und leicht zerdrücken.',
+    'Frühlingszwiebel und Tomate fein würfeln und in der Hälfte des Öls 4 Minuten schmoren. Hack und Kreuzkümmel zugeben und 6 Minuten krümelig braten. Die Kartoffeln untermischen und leicht zerdrücken.',
     'Ofen auf 210 °C vorheizen. Teig portionsweise zwischen zwei Lagen Frischhaltefolie zu Kreisen von 10 cm drücken, mit Füllung belegen, zuklappen und die Ränder mit einer Gabel festdrücken.',
     'Empanadas mit dem restlichen Öl bestreichen und auf Backpapier 20 bis 25 Minuten goldbraun backen. Salat mit Limettensaft anmachen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und einer Ají-Soße aus Frühlingszwiebel, Koriander und Limette servieren.'
@@ -4791,7 +4791,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene Steak mit Salz und Pfeffer würzen, mit Hogao und Ei belegen und mit Kartoffeln servieren.'
   ],
   kidName:'Mini-Caballo',
-  kid:'Steak für das Kind gut durchbraten und sehr fein schneiden, mit Hogao und Kartoffeln zerdrücken. Das Ei ist ganz fest gebraten.',
+  kid:'Steak für das Kind gut durchbraten und sehr fein schneiden. Kartoffeln mit dem Hogao zerdrücken. Das Ei ist ganz fest gebraten.',
   leftover:'Hogao-Kartoffel-Pfanne · 10 Min. – Reste in Würfel schneiden und mit etwas Hogao in der Pfanne vollständig durcherhitzen.',
   tipp:'Hogao ist die Grundsoße Kolumbiens und hält sich im Kühlschrank drei Tage.'
 },
@@ -4871,7 +4871,7 @@ RECIPES.push(
   steps:[
     'Reis in der doppelten Menge Wasser 12 bis 14 Minuten garen.',
     'Für das Hogao Zwiebel, Frühlingszwiebel und Tomate fein würfeln und in Öl 4 Minuten schmoren, Kreuzkümmel kurz mitrösten.',
-    'Karotte und grüne Kochbanane in kleine Würfel schneiden, mit den Bohnen und 200 ml Wasser zugeben und 12 Minuten köcheln, bis alles weich ist. Ein Viertel der Bohnen zerdrücken, damit es sämig wird.',
+    'Karotte und grüne Kochbanane in kleine Würfel schneiden, mit den Bohnen und 200 ml Wasser zugeben und 12 Minuten köcheln, bis alles weich ist. Ein Viertel der Bohnen zerdrücken, damit das Gericht sämig wird.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und Ají würzen und mit Reis servieren.'
   ],
   kidName:'Mini-Frijoles',
@@ -4899,7 +4899,7 @@ RECIPES.push(
   steps:[
     'Vollkornreis nach Packung etwa 30 Minuten garen.',
     'Linsen abspülen und mit 400 ml Wasser 10 Minuten köcheln. Kartoffeln und Karotte würfeln, zugeben und weitere 15 bis 20 Minuten garen, bis alles weich ist.',
-    'Für das Hogao Zwiebel, Frühlingszwiebel, Knoblauch und Tomaten würfeln und in der Pfanne in Öl mit Kreuzkümmel 6 Minuten schmoren, dann unter die Linsen rühren und 3 Minuten mitköcheln.',
+    'Für das Hogao Zwiebel, Frühlingszwiebel, Knoblauch und Tomaten würfeln und in der Pfanne in Öl mit Kreuzkümmel 6 Minuten schmoren. Das Hogao unter die Linsen rühren und 3 Minuten mitköcheln.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und Koriander abschmecken und mit Reis servieren.'
   ],
   kidName:'Mini-Lentejas',
@@ -4979,7 +4979,7 @@ RECIPES.push(
   ],
   steps:[
     'Frühlingszwiebel in Ringe schneiden und im Topf in Öl mit Kreuzkümmel 2 Minuten anschwitzen. Bulgur einrühren und 1 Minute mitrösten.',
-    'Kartoffeln und Karotte würfeln, Kohl in feine Streifen schneiden und mit der Brühe zugeben. Zugedeckt 20 Minuten köcheln.',
+    'Kartoffeln und Karotte würfeln, Kohl in feine Streifen schneiden. Kartoffeln, Karotte und Kohl mit der Brühe zugeben und zugedeckt 20 Minuten köcheln.',
     'Dicke Bohnen und Erbsen zugeben und weitere 8 Minuten garen, bis der Eintopf dick und alles weich ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und frischem Koriander abschmecken.'
   ],
@@ -5034,8 +5034,8 @@ RECIPES.push(
   ],
   steps:[
     'Mais mit der Milch grob pürieren und mit dem Maismehl zu einem dicken, streichfähigen Teig verrühren, 5 Minuten quellen lassen.',
-    'Für den Salat Bohnen abspülen, Tomate würfeln, Zwiebel fein hacken und mit Koriander, der Hälfte des Öls und Limettensaft mischen.',
-    'Teig als kleine, flache Fladen in die Pfanne mit dem restlichen Öl geben und bei mittlerer Hitze je Seite 3 bis 4 Minuten goldbraun braten. Mozzarellascheiben auf die Hälfte legen, zuklappen und schmelzen lassen.',
+    'Für den Salat Bohnen abspülen, Tomate würfeln und Zwiebel fein hacken. Etwas Bohnen und Tomate für das Kind beiseitestellen. Übrige Bohnen und Tomate mit Zwiebel, Koriander, der Hälfte des Öls und Limettensaft mischen.',
+    'Teig als kleine, flache Fladen in die Pfanne mit dem restlichen Öl geben und bei mittlerer Hitze je Seite 3 bis 4 Minuten goldbraun braten. Mozzarellascheiben auf eine Hälfte jedes Fladens legen, die Fladen zuklappen und den Käse schmelzen lassen.',
     'Kinderportion ungesalzen und ohne Zwiebel abnehmen. Erwachsene den Salat mit Salz und Ají würzen.'
   ],
   kidName:'Mini-Choclo-Arepa',
@@ -5068,7 +5068,7 @@ RECIPES.push(
   steps:[
     'Rindfleisch im Ganzen knapp mit Wasser bedeckt und zugedeckt 75 bis 90 Minuten weich köcheln, im Slowcooker 6 Stunden auf niedriger Stufe. Etwas abkühlen lassen und mit zwei Gabeln in feine Fasern zerzupfen.',
     'Vollkornreis in der doppelten Menge Wasser 30 Minuten garen.',
-    'Zwiebel und Paprika in Streifen schneiden, Knoblauch hacken und in Öl 6 Minuten dünsten. Kreuzkümmel und Oregano kurz mitrösten, passierte Tomaten und 100 ml Kochbrühe zugeben.',
+    'Zwiebel und Paprika in Streifen schneiden, Knoblauch hacken. Alle drei in Öl 6 Minuten dünsten. Kreuzkümmel und Oregano kurz mitrösten, passierte Tomaten und 100 ml Kochbrühe zugeben.',
     'Fleisch untermischen und 10 Minuten sämig köcheln.',
     'Kinderportion abnehmen. Erwachsene mit halbierten Oliven, Salz und Pfeffer abschmecken.'
   ],
@@ -5129,7 +5129,7 @@ RECIPES.push(
     'Kinderportion abnehmen. Erwachsene mit Salz, Pfeffer und etwas Limettensaft abschmecken.'
   ],
   kidName:'Gelber Hähnchenreis',
-  kid:'Hähnchen sehr fein zerzupfen, Erbsen leicht zerdrücken und alles mit dem weichen Reis mischen. Ohne Salz.',
+  kid:'Hähnchen sehr fein zerzupfen, Erbsen leicht zerdrücken. Hähnchen und Erbsen mit dem weichen Reis mischen. Ohne Salz.',
   leftover:'Reis-Taler · 15 Min. – Reste mit einem Ei vermengen, zu Talern formen und in der Pfanne braten.',
   tipp:'Kurkuma ersetzt das in Kuba übliche Färbepulver Bijol und färbt den Reis kräftig gelb.'
 },
@@ -5211,7 +5211,7 @@ RECIPES.push(
     'Ofen auf 200 °C vorheizen. Süßkartoffel in Spalten schneiden, mit der Hälfte des Öls mischen und 15 Minuten backen.',
     'Knoblauch fein reiben und mit Orangen- und Limettensaft, Kreuzkümmel und restlichem Öl zu Mojo verrühren.',
     'Fisch zu den Süßkartoffeln aufs Blech legen, nur die Erwachsenenstücke mit der Hälfte des Mojos beträufeln und alles 10 bis 12 Minuten backen, bis der Fisch sich leicht zerteilen lässt.',
-    'Avocado und Tomate würfeln, Zwiebel in feine Ringe schneiden und mit etwas Limettensaft mischen.',
+    'Avocado und Tomate würfeln, Zwiebel in feine Ringe schneiden. Avocado, Tomate und Zwiebel mit etwas Limettensaft mischen.',
     'Kinderportion abnehmen und den Fisch auf Gräten prüfen. Erwachsene mit Salz und dem restlichen Mojo servieren.'
   ],
   kidName:'Fisch mit Süßkartoffelbrei',
@@ -5271,7 +5271,7 @@ RECIPES.push(
     'Kinderportion abnehmen und den Fisch auf Gräten prüfen. Erwachsene mit Salz, Limettensaft und etwas Chili abschmecken.'
   ],
   kidName:'Kokosfisch mit Reis',
-  kid:'Fisch gründlich auf Gräten prüfen und zerpflücken, Spinat fein hacken und alles mit Reis und Sauce mischen. Ohne Salz und Chili.',
+  kid:'Fisch gründlich auf Gräten prüfen und zerpflücken, Spinat fein hacken. Fisch und Spinat mit Reis und Sauce mischen. Ohne Salz und Chili.',
   leftover:'Kokos-Reis-Pfanne · 8 Min. – Reis- und Saucenreste mit Erbsen in der Pfanne vollständig erhitzen.',
   tipp:'In Baracoa im Osten Kubas wachsen Kokospalmen, deshalb wird Fisch dort in Kokosmilch geschmort.'
 },
@@ -5433,7 +5433,7 @@ RECIPES.push(
     'Reis in der doppelten Menge Wasser 15 Minuten garen.',
     'Zwiebel und Knoblauch fein würfeln und in einem kleinen Topf in der Hälfte des Öls 3 Minuten dünsten. Passierte Tomaten und Oregano zugeben, 8 Minuten köcheln und den Spinat unterrühren.',
     'Reife Kochbanane schräg in Scheiben schneiden, im restlichen Öl in der Pfanne je Seite 3 Minuten braten und herausnehmen. Eier in derselben Pfanne zugedeckt 4 bis 5 Minuten braten, bis Eiweiß und Eigelb fest sind.',
-    'Kinderportion abnehmen. Erwachsene die Tomatensauce mit Salz und Pfeffer abschmecken und alles auf dem Reis anrichten.'
+    'Kinderportion abnehmen. Erwachsene die Tomatensauce mit Salz und Pfeffer abschmecken. Sauce, Kochbanane und Ei auf dem Reis anrichten.'
   ],
   kidName:'Reis mit Ei und Kochbanane',
   kid:'Ei vollständig durchbraten und klein schneiden, Kochbanane zerdrücken und den Reis mit milder Tomatensauce mischen. Ohne Salz.',
@@ -5525,7 +5525,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Schweinefleisch mit mildem Kraut',
-  kid:'Fleisch in sehr dünne, kleine Streifen schneiden, Kraut fein hacken und mit zerdrückten Kartoffeln mischen. Ohne Salz.',
+  kid:'Fleisch in sehr dünne, kleine Streifen schneiden. Kraut fein hacken und mit zerdrückten Kartoffeln mischen. Ohne Salz.',
   leftover:'Kraut-Kartoffel-Pfanne · 10 Min. – Kartoffeln, Kraut und Fleischreste in der Pfanne kräftig anbraten.',
   tipp:'Traditionell gibt es Böhmische Knödel dazu, Salzkartoffeln sind die schnellere Alternative.'
 },
@@ -5609,7 +5609,7 @@ RECIPES.push(
     'Zahnstocher entfernen. Kinderportion ohne Salz abnehmen, Erwachsene mit Salz und Pfeffer abschmecken.'
   ],
   kidName:'Rouladenstückchen mit Reis',
-  kid:'Roulade in dünne Scheiben und dann klein schneiden, die salzige Gurke herauslösen. Mit Reis und Soße mischen.',
+  kid:'Roulade in dünne Scheiben und dann klein schneiden, die salzige Gurke herauslösen. Die Rouladenstücke mit Reis und Soße mischen.',
   leftover:'Rouladen-Reispfanne · 10 Min. – Reste klein schneiden und mit Reis und Soße in der Pfanne vollständig erhitzen.',
   tipp:'Zahnstocher vor dem Servieren zählen, damit keiner in einer Kinderportion landet.'
 },
@@ -5687,7 +5687,7 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln mit Schale, Karotte und Sellerie im Ganzen 20 Minuten weich kochen, Erbsen in den letzten 2 Minuten zugeben. Ei 10 Minuten hart kochen.',
-    'Ofen auf 200 °C vorheizen. Kartoffeln pellen, mit Gemüse und Ei klein würfeln und mit Joghurt und 1 TL Öl vermengen.',
+    'Ofen auf 200 °C vorheizen. Kartoffeln pellen. Kartoffeln, Karotte, Sellerie und Ei klein würfeln und mit den Erbsen, Joghurt und 1 TL Öl vermengen.',
     'Fisch auf ein Blech mit Backpapier legen, mit dem restlichen Öl beträufeln und 12 bis 15 Minuten backen, bis er sich leicht zerteilen lässt.',
     'Kinderportion von Fisch und Salat ohne Salz abnehmen. Danach die gewürfelte Gewürzgurke unter den restlichen Salat heben und Erwachsene mit Salz, Pfeffer und Zitronensaft würzen.'
   ],
@@ -5713,7 +5713,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel fein würfeln, Karotte fein reiben und in der Hälfte des Öls 4 Minuten dünsten. Mehl darüberstäuben und 1 Minute anschwitzen.',
+    'Zwiebel fein würfeln, Karotte fein reiben. Beides in der Hälfte des Öls 4 Minuten dünsten. Mehl darüberstäuben und 1 Minute anschwitzen.',
     'Mit 150 ml Wasser ablöschen, glatt rühren, abgespülte Linsen zugeben und 5 Minuten sämig köcheln.',
     'Inzwischen im restlichen Öl ein Spiegelei braten, bis Eiweiß und Eigelb vollständig fest sind.',
     'Kinderportion abnehmen. Erwachsene Linsen mit Essig, Salz und Pfeffer säuerlich abschmecken und mit Ei, Gurkenscheiben und Brot servieren.'
@@ -5852,7 +5852,7 @@ RECIPES.push(
   steps:[
     'Kartoffeln schälen, in 2 cm große Stücke schneiden und in Wasser aufsetzen. Eier nach 3 Minuten dazulegen und alles 10 bis 12 Minuten kochen, bis die Kartoffeln weich und die Eier hart sind.',
     'Zwiebel und Knoblauch fein hacken und in Öl 2 Minuten dünsten. Spinat zugeben und zugedeckt 8 Minuten auftauen und garen.',
-    'Mehl mit Milch glatt rühren, unterrühren und 2 Minuten cremig köcheln. Nach Wunsch mit dem Stabmixer fein pürieren.',
+    'Mehl mit Milch glatt rühren, unter den Spinat rühren und 2 Minuten cremig köcheln. Den Spinat nach Wunsch mit dem Stabmixer fein pürieren.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz, Pfeffer und Muskat würzen und mit Kartoffeln und halbierten Eiern servieren.'
   ],
   kidName:'Spinat-Kartoffel-Mus mit Ei',
@@ -5908,7 +5908,7 @@ RECIPES.push(
   ],
   steps:[
     'Spätzle in reichlich Wasser nach Packungsangabe etwa 12 Minuten garen, dabei eine halbe Tasse Kochwasser auffangen.',
-    'Zwiebel in feine Ringe, Lauch in dünne Ringe schneiden und in Öl bei mittlerer Hitze 8 bis 10 Minuten goldbraun schmoren.',
+    'Zwiebel in feine Ringe, Lauch in dünne Ringe schneiden. Beides in Öl bei mittlerer Hitze 8 bis 10 Minuten goldbraun schmoren.',
     'Spätzle abgießen, mit Milch, etwas Kochwasser und dem Käse in die Pfanne geben und rühren, bis der Käse geschmolzen und alles cremig ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Muskat, Pfeffer und wenig Salz würzen und mit dem Salat servieren.'
   ],
@@ -6045,7 +6045,7 @@ RECIPES.push(
     'Kinderportion ungewürzt abschneiden. Erwachsene mit Muskat, Pfeffer und wenig Salz würzen.'
   ],
   kidName:'Mini-Flammkuchen',
-  kid:'In schmale Streifen schneiden und den harten Rand entfernen. Lauch und Zwiebel für das Kindstück besonders fein schneiden, damit sie weich backen.',
+  kid:'Das Kindstück in schmale Streifen schneiden und den harten Rand entfernen. Lauch und Zwiebel für das Kindstück besonders fein schneiden, damit sie weich backen.',
   leftover:'Flammkuchen-Snack · 5 Min. – Reste in der Pfanne ohne Fett kurz aufknuspern und mit Gurkensticks servieren.',
   tipp:'Den Teig in doppelter Menge kneten und ausgerollt zwischen Backpapier einfrieren.'
 },
@@ -6066,7 +6066,7 @@ RECIPES.push(
   ],
   steps:[
     'Kleine Kartoffeln waschen und mit Kümmel in Wasser zugedeckt 18 Minuten gar kochen.',
-    'Quark mit Milch glatt rühren. Gurke würfeln, Radieschen fein schneiden, Schnittlauch hacken und alles unterrühren.',
+    'Quark mit Milch glatt rühren und etwas davon für das Kind abnehmen. Gurke würfeln, Radieschen fein schneiden, Schnittlauch hacken und alle drei unter den übrigen Quark rühren.',
     'Kartoffeln abgießen, kurz ausdampfen lassen und nach Wunsch pellen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene den Quark mit Pfeffer und wenig Salz würzen und mit Leinöl beträufeln.'
   ],
@@ -6148,7 +6148,7 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln in der Schale 20 Minuten gar kochen, kurz ausdampfen lassen, pellen und in Scheiben schneiden. Für das Kind einige Scheiben ohne Marinade beiseitelegen.',
-    'Zwiebel fein würfeln und in der heißen Brühe 2 Minuten ziehen lassen. Mit Essig und der Hälfte des Öls über die warmen Kartoffeln geben, Gurke in dünne Scheiben hobeln und mit Dill unterheben.',
+    'Zwiebel fein würfeln und in der heißen Brühe 2 Minuten ziehen lassen. Zwiebelbrühe mit Essig und der Hälfte des Öls über die warmen Kartoffeln geben. Gurke in dünne Scheiben hobeln und mit Dill unterheben.',
     'Schollenfilets in Mehl wenden und im restlichen Öl je Seite 2 bis 3 Minuten braten, bis sie durchgegart sind. Krabben 1 Minute in der Pfanne mitwärmen und über den Fisch geben.',
     'Kinderportion ungesalzen abnehmen. Erwachsene Fisch und Salat mit Pfeffer und wenig Salz würzen.'
   ],
@@ -6237,7 +6237,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Schmorsoße für die Erwachsenen mit Pfeffer und wenig Salz abschmecken.'
   ],
   kidName:'Mini-Kohlroulade',
-  kid:'Roulade aufschneiden, die Füllung zerdrücken und den weichen Kohl fein hacken. Mit Soße und zerdrückten Kartoffeln mischen.',
+  kid:'Roulade aufschneiden, die Füllung zerdrücken und den weichen Kohl fein hacken. Füllung und Kohl mit Soße und zerdrückten Kartoffeln mischen.',
   leftover:'Kohl-Hack-Pfanne · 10 Min. – Rouladenreste klein schneiden und mit den Kartoffeln in der Pfanne vollständig erhitzen.',
   tipp:'Den ganzen Kohlkopf über Nacht einfrieren und auftauen lassen, dann lösen sich die Blätter ohne Blanchieren.'
 },
@@ -6261,7 +6261,7 @@ RECIPES.push(
   steps:[
     'Nudeln in reichlich Wasser nach Packungsangabe etwa 10 Minuten garen.',
     'Schnitzel flach klopfen und in Öl je Seite 2 bis 3 Minuten braten, bis sie durchgegart sind, dann herausnehmen und warm halten.',
-    'Zwiebel würfeln, Champignons in Scheiben schneiden und im Bratfett 5 Minuten braten. Tomatenmark kurz mitrösten, Milch mit Stärke verrühren, angießen und 2 Minuten köcheln, bis die Soße bindet.',
+    'Zwiebel würfeln, Champignons in Scheiben schneiden. Beides im Bratfett 5 Minuten braten. Tomatenmark kurz mitrösten, Milch mit Stärke verrühren, angießen und 2 Minuten köcheln, bis die Soße bindet.',
     'Kinderportion ungewürzt abnehmen. Soße für die Erwachsenen mit Paprikapulver, Pfeffer und wenig Salz abschmecken und mit Petersilie über Schnitzel und Nudeln geben.'
   ],
   kidName:'Mini-Jägerschnitzel',
@@ -6377,7 +6377,7 @@ RECIPES.push(
   steps:[
     'Reis aufsetzen und in 25 Minuten garen. Haferflocken mit 2 EL Wasser quellen lassen und mit Putenhack zu einer glatten Masse verrühren.',
     'Brühe aufkochen, mit zwei Teelöffeln kleine Bällchen abstechen und 8 bis 10 Minuten darin gar ziehen lassen, bis sie innen durchgegart sind, dann herausnehmen.',
-    'Zwiebel und Lauch in Ringe, Apfel in Würfel schneiden und mit Currypulver in der Brühe 6 Minuten weich köcheln. Milch mit Speisestärke verrühren, einrühren und 2 Minuten sämig kochen.',
+    'Zwiebel und Lauch in Ringe, Apfel in Würfel schneiden. Alle drei mit Currypulver in der Brühe 6 Minuten weich köcheln. Milch mit Speisestärke verrühren, einrühren und 2 Minuten sämig kochen.',
     'Bällchen zurück in die Sauce geben. Kinderportion ohne Salz abnehmen, Erwachsene mit Salz abschmecken und mit Reis servieren.'
   ],
   kidName:'Mini-Boller mit Reis',
@@ -6432,7 +6432,7 @@ RECIPES.push(
   ],
   steps:[
     'Fleisch in 2 cm große Würfel schneiden und in Öl rundum anbraten, Zwiebelwürfel kurz mitbraten.',
-    'Brühe, Lorbeer und Pfefferkörner im Teesieb zugeben und zugedeckt 50 Minuten leise köcheln (Slow Cooker: alles zusammen 6 Stunden auf niedriger Stufe).',
+    'Pfefferkörner in ein Teesieb füllen. Brühe, Lorbeer und Teesieb zugeben und zugedeckt 50 Minuten leise köcheln (Slow Cooker: alles zusammen 6 Stunden auf niedriger Stufe).',
     'Kartoffeln und Karotten würfeln, zugeben und weitere 30 Minuten köcheln, bis die Kartoffeln zerfallen und den Eintopf sämig binden. Dabei gelegentlich umrühren.',
     'Lorbeer und Teesieb entfernen. Kinderportion ohne Salz abnehmen, Erwachsene mit Salz abschmecken und mit Schnittlauch und Rote-Bete-Würfeln servieren.'
   ],
@@ -6514,7 +6514,7 @@ RECIPES.push(
   steps:[
     'Kartoffeln halbieren und in 15 Minuten weich kochen, Erbsen in den letzten 4 Minuten dazugeben.',
     'Schollenfilets trocken tupfen und dünn in Roggenmehl wenden.',
-    'In Öl bei mittlerer Hitze von jeder Seite 2 bis 3 Minuten goldbraun braten, bis der Fisch weiß und durchgegart ist. Gurke in Scheiben schneiden.',
+    'Schollenfilets in Öl bei mittlerer Hitze von jeder Seite 2 bis 3 Minuten goldbraun braten, bis der Fisch weiß und durchgegart ist. Gurke in Scheiben schneiden.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz, Zitrone und Petersilie servieren.'
   ],
   kidName:'Scholle mit Erbsenkartoffeln',
@@ -6545,7 +6545,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und Pfeffer abschmecken und mit Reis servieren.'
   ],
   kidName:'Fisch-Gemüse-Reis',
-  kid:'Fisch auf Gräten prüfen und zerpflücken, Gemüse weich gegart klein schneiden und mit Reis und Sauce mischen. Ohne Salz.',
+  kid:'Fisch auf Gräten prüfen und zerpflücken, Gemüse weich gegart klein schneiden. Fisch und Gemüse mit Reis und Sauce mischen. Ohne Salz.',
   leftover:'Fisch-Reis-Pfanne · 8 Min. – Reste vorsichtig in der Pfanne erhitzen, bis alles vollständig heiß ist.',
   tipp:'Das Gemüse lässt sich nach Saison tauschen, im Sommer passen Zucchini und Kirschtomaten, im Winter Lauch und Karotten.'
 },
@@ -6703,7 +6703,7 @@ RECIPES.push(
   ],
   steps:[
     'Erbsen in einem Sieb gründlich spülen, mit Brühe und Thymian aufkochen, abschäumen und zugedeckt 30 Minuten köcheln.',
-    'Kartoffeln, Karotten und Sellerie würfeln, Lauch in Ringe schneiden, zugeben und weitere 30 Minuten köcheln, bis die Erbsen zerfallen (Slow Cooker: alles zusammen 7 Stunden auf niedriger Stufe).',
+    'Kartoffeln, Karotten und Sellerie würfeln, Lauch in Ringe schneiden. Das ganze Gemüse zugeben und weitere 30 Minuten köcheln, bis die Erbsen zerfallen (Slow Cooker: alles zusammen 7 Stunden auf niedriger Stufe).',
     'Suppe kräftig umrühren, damit sie sämig wird, bei Bedarf etwas Wasser nachgießen.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und Pfeffer abschmecken und mit Roggenvollkornbrot und Senf servieren.'
   ],
@@ -6736,7 +6736,7 @@ RECIPES.push(
   ],
   steps:[
     'Ei in 10 Minuten hart kochen. Bohnen abspülen, mit 80 ml Wasser 8 Minuten sanft köcheln und mit dem Kartoffelstampfer grob zerdrücken.',
-    'Kreuzkümmel und die Hälfte des Öls unterrühren. Tomaten und Gurke fein würfeln, Petersilie hacken.',
+    'Kreuzkümmel und die Hälfte des Öls unter die Bohnen rühren. Tomaten und Gurke fein würfeln, Petersilie hacken.',
     'Kinderportion abnehmen und mit gehacktem Ei anbieten. Erwachsene mit gepresstem Knoblauch, Zitronensaft, Salz, restlichem Öl und Chili würzen und mit Gemüse, Ei und Fladenbrot essen.'
   ],
   kidName:'Weiches Bohnenmus mit Ei',
@@ -6877,7 +6877,7 @@ RECIPES.push(
     'Ofen auf 220 °C vorheizen. Aubergine in 1 cm dicke Scheiben schneiden, mit der Hälfte des Öls bestreichen und auf dem Blech 15 Minuten backen, statt sie zu frittieren.',
     'Zwiebel, Paprika und Knoblauch würfeln und im restlichen Öl im Topf 5 Minuten dünsten, gehackte Tomaten, Kichererbsen und Kreuzkümmel zugeben und 5 Minuten köcheln.',
     'Auberginen und Tomatensoße in einer Form schichten und bei 190 °C 20 Minuten backen, bis die Auberginen ganz weich sind.',
-    'Kinderportion abnehmen, Aubergine ohne Schale und Kichererbsen zerdrücken. Erwachsene mit Salz und Chili würzen und mit Fladenbrot essen.'
+    'Kinderportion abnehmen. Schale der Aubergine entfernen, Aubergine und Kichererbsen zerdrücken. Erwachsene mit Salz und Chili würzen und mit Fladenbrot essen.'
   ],
   kidName:'Weiche Auberginen-Tomaten-Soße',
   kid:'Aubergine ohne Schale mit der Soße und den Kichererbsen zu einem weichen Mus zerdrücken, mit Brotstreifen. Ohne Salz und Chili.',
@@ -6929,7 +6929,7 @@ RECIPES.push(
   ],
   steps:[
     'Vollkornreis in der doppelten Menge Wasser 30 Minuten garen.',
-    'Hähnchen mit der halbierten Zwiebel in der Brühe 15 Minuten leise köcheln, herausnehmen und in Stücke zupfen.',
+    'Hähnchen mit der halbierten Zwiebel in der Brühe 15 Minuten leise köcheln. Das Hähnchen herausnehmen und in Stücke zupfen.',
     'Molokhia gefroren in die heiße Brühe geben und unter Rühren 5 Minuten erhitzen, dabei nicht sprudelnd kochen lassen.',
     'Knoblauch fein hacken und mit dem gemahlenen Koriander im Öl in der Pfanne 1 Minute goldgelb anrösten, dann unter die Molokhia rühren.',
     'Kinderportion abnehmen und das Hähnchen fein zerzupfen. Erwachsene mit Salz und Zitrone würzen und mit Reis und Hähnchen essen.'
@@ -6988,11 +6988,11 @@ RECIPES.push(
   steps:[
     'Ofen auf 220 °C vorheizen. Zwiebel und Paprika sehr fein würfeln, Petersilie hacken und alles mit Hackfleisch, Kreuzkümmel und Paprikapulver verkneten.',
     'Fladenbrot seitlich aufschneiden, die Füllung dünn und gleichmäßig hineinstreichen und das Brot außen mit dem Öl bestreichen.',
-    'Auf dem Rost 15 Minuten backen und nach der Hälfte wenden, bis die Füllung vollständig durchgegart ist, im Airfryer 12 Minuten bei 190 °C. Tomaten und Gurke in Stücke schneiden.',
+    'Gefüllte Brote auf dem Rost 15 Minuten backen und nach der Hälfte wenden, bis die Füllung vollständig durchgegart ist, im Airfryer 12 Minuten bei 190 °C. Tomaten und Gurke in Stücke schneiden.',
     'Kinderportion abnehmen, in schmale Streifen schneiden und prüfen, dass die Füllung durch ist. Erwachsene mit Salz und Chili würzen und mit Gemüse essen.'
   ],
   kidName:'Hawawshi-Streifen',
-  kid:'In schmale Streifen schneiden, die Füllung muss innen durchgegart und ohne Rosa sein. Harte Ränder abschneiden, ohne Salz, Gurke in Stifte.',
+  kid:'Gefülltes Brot in schmale Streifen schneiden, die Füllung muss innen durchgegart und ohne Rosa sein. Harte Ränder abschneiden, ohne Salz, Gurke in Stifte.',
   leftover:'Hawawshi-Toast · 6 Min. – Reste in der Pfanne von beiden Seiten aufbacken, bis sie innen heiß sind.',
   tipp:'Die Füllung dünn verstreichen, dann gart sie in der Zeit sicher durch und das Brot wird knusprig.'
 },
@@ -7015,7 +7015,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 200 °C vorheizen. Nudeln 2 Minuten kürzer als angegeben kochen und abgießen.',
-    'Zwiebel fein würfeln, Karotte raspeln und mit dem Hackfleisch in der Hälfte des Öls krümelig braten, passierte Tomaten zugeben und 8 Minuten einkochen.',
+    'Zwiebel fein würfeln, Karotte raspeln. Beides mit dem Hackfleisch in der Hälfte des Öls krümelig braten, passierte Tomaten zugeben und 8 Minuten einkochen.',
     'Für die Béchamel das restliche Öl im Nudeltopf erhitzen, Mehl 1 Minute anschwitzen, nach und nach die Milch einrühren und unter Rühren 4 Minuten köcheln, mit Muskat würzen.',
     'Die Hälfte der Nudeln in eine Form geben, Hackfleischsoße darauf verteilen, restliche Nudeln darüber schichten, mit Béchamel übergießen, Käse aufstreuen und 20 Minuten goldbraun backen.',
     'Kinderportion abnehmen und in kleine Stücke schneiden. Erwachsene nach Geschmack salzen und pfeffern.'
@@ -7159,7 +7159,7 @@ RECIPES.push(
     {n:'Kurkuma',q:0.25,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Hähnchen in Stücke schneiden und in der großen Pfanne in Öl 6 Minuten rundum goldbraun braten. Grüne Bohnen in Stücke und Paprika in Streifen schneiden und 3 Minuten mitbraten.',
+    'Hähnchen in Stücke schneiden und in der großen Pfanne in Öl 6 Minuten rundum goldbraun braten. Grüne Bohnen in Stücke und Paprika in Streifen schneiden, beides 3 Minuten mitbraten.',
     'Tomate reiben oder fein würfeln, mit Paprikapulver und Kurkuma zugeben und 2 Minuten einkochen.',
     'Reis gleichmäßig einstreuen, heiße Brühe angießen und die abgespülten weißen Bohnen verteilen. Ohne Rühren 18 bis 20 Minuten bei mittlerer Hitze garen, bis der Reis weich und die Flüssigkeit aufgesogen ist.',
     'Vom Herd nehmen und 5 Minuten mit einem Tuch bedeckt ruhen lassen.',
@@ -7387,7 +7387,7 @@ RECIPES.push(
   ],
   steps:[
     'Reis in der doppelten Menge Wasser aufsetzen und zugedeckt 15 Minuten garen.',
-    'Zwiebel, Knoblauch und Paprika klein schneiden und in Öl 10 Minuten bei mittlerer Hitze weich schmoren. Paprikapulver und passierte Tomaten zugeben, 3 Minuten köcheln und fein pürieren.',
+    'Zwiebel, Knoblauch und Paprika klein schneiden und in Öl 10 Minuten bei mittlerer Hitze weich schmoren. Paprikapulver und passierte Tomaten zugeben, 3 Minuten köcheln und die Soße fein pürieren.',
     'Kabeljau in Stücke schneiden, in die Soße legen und zugedeckt 7 bis 8 Minuten gar ziehen lassen, bis er innen weiß ist.',
     'Kinderportion abnehmen, den Fisch auf Gräten prüfen und zerpflücken. Erwachsene mit Salz, Pfeffer und etwas Chili würzen.'
   ],
@@ -7414,7 +7414,7 @@ RECIPES.push(
     {n:'Paprikapulver, edelsüß',q:0.5,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Eine halbe Brotscheibe würfeln und mit dem Knoblauch in Öl 2 Minuten rösten. Mit Kreuzkümmel, Paprikapulver und 2 EL Wasser fein zerdrücken oder pürieren.',
+    'Eine halbe Brotscheibe würfeln und mit dem Knoblauch in Öl 2 Minuten rösten. Brot und Knoblauch mit Kreuzkümmel, Paprikapulver und 2 EL Wasser fein zerdrücken oder pürieren.',
     'Zwiebel fein würfeln und in der Pfanne 3 Minuten dünsten. Spinat zugeben und zusammenfallen lassen.',
     'Kichererbsen abspülen und mit passierten Tomaten und der Brot-Gewürz-Paste zugeben. 5 Minuten sämig köcheln.',
     'Kinderportion ohne Salz abnehmen und die Kichererbsen zerdrücken. Erwachsene mit Salz und Pfeffer abschmecken, dazu das restliche Brot.'
@@ -7501,9 +7501,9 @@ RECIPES.push(
     {n:'Kurkuma',q:0.25,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 220 °C vorheizen. Kartoffeln in dünne Scheiben und Paprika in Würfel schneiden und in einer ofenfesten Pfanne in Öl 5 Minuten anbraten.',
+    'Ofen auf 220 °C vorheizen. Kartoffeln in dünne Scheiben und Paprika in Würfel schneiden. Beides in einer ofenfesten Pfanne in Öl 5 Minuten anbraten.',
     'Eine Tomate würfeln und mit gehacktem Knoblauch, Paprikapulver und Kurkuma 2 Minuten mitdünsten. Reis und abgespülte Kichererbsen unterrühren und mit heißer Brühe aufgießen.',
-    'Die halbe Tomate mit der Schnittfläche nach oben in die Mitte setzen. Im Ofen 25 bis 30 Minuten backen, bis der Reis weich und die Flüssigkeit aufgesogen ist.',
+    'Die übrige halbe Tomate mit der Schnittfläche nach oben in die Mitte setzen. Im Ofen 25 bis 30 Minuten backen, bis der Reis weich und die Flüssigkeit aufgesogen ist.',
     'Kinderportion ohne Salz abnehmen und die Kichererbsen zerdrücken. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   nutri:{p:['Kichererbsen','Reis'],f:['Kichererbsen','Kartoffeln','Tomaten'],i:['Kichererbsen'],fat:['Olivenöl']},
@@ -7595,7 +7595,7 @@ RECIPES.push(
     'Kinderportion ohne Berbere und Salz abnehmen. Berbere in den Rest rühren, 2 Minuten köcheln, salzen und mit Reis servieren.'
   ],
   kidName:'Mildes Hähnchen mit Ei und Reis',
-  kid:'Ei hart kochen und klein schneiden, Hähnchen fein zerzupfen. Mit der milden Zwiebel-Tomaten-Soße und Reis mischen, ganz ohne Berbere und Salz.',
+  kid:'Ei hart kochen und klein schneiden, Hähnchen fein zerzupfen. Ei und Hähnchen mit der milden Zwiebel-Tomaten-Soße und Reis mischen, ganz ohne Berbere und Salz.',
   leftover:'Doro-Wat-Fladen · 8 Min. – Reste vollständig erhitzen und in Vollkorn-Fladenbrot wickeln.',
   tipp:'Original wird Doro Wat mit Injera gegessen; in afrikanischen Lebensmittelläden gibt es das säuerliche Teff-Fladenbrot fertig.'
 },
@@ -7670,7 +7670,7 @@ RECIPES.push(
     {n:'Berbere-Gewürz',q:0.5,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel sehr fein würfeln und in Öl 6 Minuten weich dünsten. Knoblauch und Ingwer hacken, Karotte fein reiben und mit Kurkuma zugeben.',
+    'Zwiebel sehr fein würfeln und in Öl 6 Minuten weich dünsten. Knoblauch und Ingwer hacken, Karotte fein reiben. Alle drei mit Kurkuma zugeben.',
     'Hack zugeben und krümelig braten, bis es nicht mehr rosa ist.',
     'Passierte Tomaten und 50 ml Wasser angießen und 10 Minuten köcheln, bis die Soße dick ist.',
     'Kinderportion ohne Berbere und Salz abnehmen. Berbere in den Rest rühren, 2 Minuten köcheln, salzen und mit Fladenbrot servieren.'
@@ -7807,7 +7807,7 @@ RECIPES.push(
     {n:'Berbere-Gewürz',q:0.5,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel und Tomate sehr fein würfeln, Knoblauch hacken. In Öl 5 Minuten weich dünsten, Paprikapulver kurz mitrösten.',
+    'Zwiebel und Tomate sehr fein würfeln, Knoblauch hacken. Alle drei in Öl 5 Minuten weich dünsten, Paprikapulver kurz mitrösten.',
     'Kichererbsenmehl mit 300 ml kaltem Wasser glatt rühren, in den Topf gießen und unter ständigem Rühren aufkochen.',
     'Bei kleiner Hitze 10 Minuten köcheln, bis die Masse cremig und nicht mehr mehlig ist, bei Bedarf etwas Wasser nachgießen. Spinat unterrühren.',
     'Kinderportion ohne Berbere und Salz abnehmen. Berbere in den Rest rühren, salzen und mit Fladenbrot servieren.'
@@ -7890,7 +7890,7 @@ RECIPES.push(
   steps:[
     'Ei in 10 Minuten hart kochen. Zwiebel und Tomaten klein würfeln, Knoblauch hacken.',
     'Die Hälfte der Zwiebel mit dem Knoblauch in Öl 3 Minuten dünsten, eine gewürfelte Tomate und Kreuzkümmel zugeben. Bohnen abspülen, mit 50 ml Wasser zugeben und 5 Minuten köcheln, dabei grob zerdrücken.',
-    'Ei schälen und hacken. Bohnen auf Teller geben und mit restlicher Tomate, Zwiebel, Ei und Joghurt belegen.',
+    'Ei schälen und hacken. Bohnen auf Teller geben und mit restlicher Tomate, Ei und Joghurt belegen. Die restliche rohe Zwiebel nur auf die Teller der Erwachsenen geben.',
     'Kinderportion ohne Berbere, rohe Zwiebel und Salz abnehmen. Erwachsene mit Berbere und Salz bestreuen und mit Fladenbrot essen.'
   ],
   kidName:'Bohnenmus mit Ei und Joghurt',
@@ -7944,7 +7944,7 @@ RECIPES.push(
     'Reis aufsetzen, Eier in 10 Minuten hart kochen. Bohnen in 3 cm lange Stücke, Karotten in Stifte schneiden.',
     'Zwiebel in Streifen schneiden und in Öl 4 Minuten dünsten, gehackten Knoblauch, geriebenen Ingwer und Kurkuma kurz mitrösten.',
     'Bohnen, Karotten und 100 ml Wasser zugeben und zugedeckt 12 bis 15 Minuten garen, bis das Gemüse weich ist. Eier schälen und halbieren.',
-    'Kinderportion ohne Salz abnehmen. Erwachsene salzen, pfeffern und alles mit Reis servieren.'
+    'Kinderportion ohne Salz abnehmen. Erwachsene salzen, pfeffern und Gemüse und Eier mit Reis servieren.'
   ],
   kidName:'Weiche Bohnen-Karotten-Stifte mit Ei',
   kid:'Bohnen und Karotten sehr weich garen und als greifbare Stifte anbieten. Ei hart kochen und klein schneiden, kein Salz.',
@@ -7999,13 +7999,13 @@ RECIPES.push(
     {n:'Pimentkörner',q:2,u:'Stk.',c:'gewuerz',p:true}
   ],
   steps:[
-    'Kartoffeln und Karotten würfeln, Lauch in Ringe schneiden und mit Brühe und Pimentkörnern im Teesieb 12 Minuten weich köcheln.',
+    'Kartoffeln und Karotten würfeln, Lauch in Ringe schneiden. Pimentkörner in ein Teesieb füllen. Das Gemüse mit Brühe und dem Teesieb 12 Minuten weich köcheln.',
     'Milch zugießen. Lachs würfeln, auf Gräten prüfen und in die nicht mehr kochende Suppe geben.',
     'Bei kleiner Hitze 5 bis 6 Minuten gar ziehen lassen, bis der Lachs vollständig durchgegart ist, dann das Teesieb herausnehmen.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz, Pfeffer und reichlich Dill abschmecken und mit Roggenvollkornbrot servieren.'
   ],
   kidName:'Lachs-Kartoffel-Topf',
-  kid:'Lachs und Gemüse herausnehmen, nochmals auf Gräten prüfen und mit wenig Suppe zu einem dicken Mus zerdrücken. Pimentkörner sicher entfernen, ohne Salz.',
+  kid:'Lachs und Gemüse herausnehmen und den Lachs nochmals auf Gräten prüfen. Beides mit wenig Suppe zu einem dicken Mus zerdrücken. Pimentkörner sicher entfernen, ohne Salz.',
   leftover:'Lachs-Kartoffel-Auflauf · 20 Min. – Lachs und Gemüse mit wenig Suppe in eine Form geben, mit Käse bestreuen und im Ofen überbacken.',
   tipp:'Pimentkörner in ein Teesieb geben, dann lassen sie sich vor dem Servieren leicht entfernen.'
 },
@@ -8028,7 +8028,7 @@ RECIPES.push(
   steps:[
     'Kartoffeln schälen, würfeln und in 12 bis 14 Minuten weich kochen, dann mit warmer Milch stampfen.',
     'Heringsfilets trocken tupfen, die Hälfte mit der Hautseite nach unten auslegen, mit Dill bestreuen und mit einem zweiten Filet bedecken. Die Päckchen in Roggenmehl wenden.',
-    'In Öl bei mittlerer Hitze von jeder Seite 3 bis 4 Minuten braten, bis der Fisch innen nicht mehr glasig ist.',
+    'Päckchen in Öl bei mittlerer Hitze von jeder Seite 3 bis 4 Minuten braten, bis der Fisch innen nicht mehr glasig ist.',
     'Gurke in Scheiben schneiden und mit Joghurt mischen. Kinderportion ohne Salz abnehmen, Erwachsene mit Salz, Pfeffer und Zitrone servieren.'
   ],
   kidName:'Hering mit Kartoffelstampf',
@@ -8135,7 +8135,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 180 °C vorheizen. Nudeln 3 Minuten kürzer als angegeben kochen und abgießen.',
-    'Hackfleisch in Öl krümelig braten, Zwiebel, geriebene Karotte und Zucchini zugeben und 5 Minuten mitbraten, bis das Fleisch durchgegart ist.',
+    'Hackfleisch in Öl krümelig braten, Zwiebel, geriebene Karotte und geriebene Zucchini zugeben und 5 Minuten mitbraten, bis das Fleisch durchgegart ist.',
     'Nudeln und Hackmischung in einer Auflaufform mischen. Eier mit Milch verquirlen, darübergießen, mit Käse bestreuen und 40 bis 45 Minuten backen, bis die Eiermilch vollständig gestockt ist.',
     'Kinderportion abnehmen. Erwachsene mit Salz und Pfeffer würzen und Kirschtomaten dazu servieren.'
   ],
@@ -8298,13 +8298,13 @@ RECIPES.push(
     {n:'Vollkornbrot',q:1,u:'Scheiben',c:'brot'}
   ],
   steps:[
-    'Kartoffeln und Karotten würfeln, Blumenkohl in kleine Röschen teilen und in 300 ml Wasser 12 Minuten weich köcheln.',
+    'Kartoffeln und Karotten würfeln, Blumenkohl in kleine Röschen teilen. Alle drei in 300 ml Wasser 12 Minuten weich köcheln.',
     'Erbsen und Zuckerschoten zugeben und 3 Minuten mitgaren.',
     'Milch mit Speisestärke verrühren, einrühren und vorsichtig erhitzen, bis die Suppe leicht bindet, dann Spinat und Dill unterheben.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und Pfeffer abschmecken und mit Roggenvollkornbrot servieren.'
   ],
   kidName:'Sommersuppe mit Gemüsestückchen',
-  kid:'Gemüse weich garen, mit der Gabel zerdrücken oder grob pürieren und Zuckerschoten klein schneiden. Brot in weiche Streifen, ohne Salz.',
+  kid:'Gemüse weich garen. Kartoffeln, Karotten und Blumenkohl mit der Gabel zerdrücken oder grob pürieren, Zuckerschoten klein schneiden. Brot in weiche Streifen, ohne Salz.',
   leftover:'Gemüse-Nudeln · 10 Min. – Gemüsereste aus der Suppe mit Vollkornnudeln und etwas Käse mischen.',
   tipp:'Kesäkeitto schmeckt am besten im Juni und Juli mit jungem Gemüse, außerhalb der Saison passt TK-Gemüse.'
 },
@@ -8418,11 +8418,11 @@ RECIPES.push(
     'Reis in der doppelten Menge Wasser aufsetzen und zugedeckt 30 Minuten weich garen.',
     'Aubergine, Zucchini, Paprika und Tomate in 1,5 cm große Würfel schneiden, Zwiebel und Knoblauch fein hacken.',
     'Zwiebel, Knoblauch, Aubergine und Paprika in Öl 5 Minuten anbraten. Zucchini, Tomate und Kräuter zugeben und zugedeckt 20 Minuten schmoren, bis alles weich ist, die abgespülten Bohnen die letzten 5 Minuten mitschmoren.',
-    'Kinderportion abnehmen und die Bohnen zerdrücken. Erwachsene mit Salz und Pfeffer abschmecken und mit Reis servieren.'
+    'Kinderportion abnehmen und darin nur die Bohnen zerdrücken, das Gemüse in Stücken lassen. Erwachsene mit Salz und Pfeffer abschmecken und mit Reis servieren.'
   ],
   nutri:{p:['Weiße Bohnen','Vollkornreis'],f:['Vollkornreis','Weiße Bohnen','Aubergine','Paprika'],i:['Weiße Bohnen'],fat:['Olivenöl']},
   kidName:'Mini-Ratatouille',
-  kid:'Gemüse sehr weich schmoren und Tomatenhaut entfernen, Bohnen zerdrücken und alles mit dem Reis vermischen. Ohne Salz.',
+  kid:'Gemüse sehr weich schmoren und die Tomatenhaut entfernen. Bohnen zerdrücken, Gemüse in weichen Stücken lassen und beides mit dem Reis vermischen. Ohne Salz.',
   leftover:'Ratatouille-Gratin · 15 Min. – Reste mit etwas geriebenem Käse im Ofen bei 200 °C überbacken.',
   extras:['feta','ei','haehnchen'], tipp:'Ratatouille schmeckt am nächsten Tag noch besser, deshalb lohnt sich die doppelte Menge.'
 },
@@ -8469,7 +8469,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Buchweizenmehl mit 120 ml Wasser glatt rühren und 5 Minuten quellen lassen. Pilze in Scheiben schneiden, in etwas Öl 4 Minuten braten, Spinat darin zusammenfallen lassen und herausnehmen.',
+    'Buchweizenmehl mit 120 ml Wasser glatt rühren und 5 Minuten quellen lassen. Pilze in Scheiben schneiden und in etwas Öl 4 Minuten braten. Spinat darin zusammenfallen lassen, dann Pilze und Spinat herausnehmen.',
     'Pfanne dünn ausölen, die Hälfte des Teigs dünn verstreichen und 2 Minuten backen, bis sich der Rand löst. Wenden.',
     'Ein Ei in die Mitte schlagen, Käse, Pilze und Spinat rundherum verteilen, die Ränder einklappen und zugedeckt 4 Minuten garen, bis Eiweiß und Eigelb fest sind. Zweite Galette ebenso backen.',
     'Kindergalette ohne Salz abnehmen und in Streifen schneiden. Erwachsene mit Pfeffer, etwas Salz und Tomatenwürfeln servieren.'
@@ -8528,13 +8528,13 @@ RECIPES.push(
   steps:[
     'Ofen mit Blech auf 250 °C vorheizen. Mehl, 45 ml Wasser und die Hälfte des Öls 3 Minuten verkneten und auf Backpapier sehr dünn ausrollen.',
     'Quark mit Joghurt und Muskat glatt rühren und dünn auf den Teig streichen.',
-    'Lauch und Zwiebel in feine Ringe, Pilze in dünne Scheiben schneiden, darauf verteilen, mit Käse bestreuen und mit dem restlichen Öl beträufeln.',
+    'Lauch und Zwiebel in feine Ringe, Pilze in dünne Scheiben schneiden. Lauch, Zwiebel und Pilze auf dem Teig verteilen, mit Käse bestreuen und mit dem restlichen Öl beträufeln.',
     'Auf dem heißen Blech 10 bis 12 Minuten backen, bis der Rand knusprig ist.',
     'Kinderstück ohne Salz abschneiden und in Streifen teilen. Erwachsene mit Pfeffer und etwas Salz würzen.'
   ],
   nutri:{p:['Magerquark','Dinkel-Vollkornmehl','Emmentaler'],f:['Dinkel-Vollkornmehl','Lauch','Pilze'],i:['Vollkornmehl'],fat:['Olivenöl','Emmentaler']},
   kidName:'Flammkuchen-Streifen',
-  kid:'In schmale Streifen schneiden und harte Randstücke entfernen. Zwiebeln und Lauch sind dünn geschnitten und weich gebacken.',
+  kid:'Flammkuchen in schmale Streifen schneiden und harte Randstücke entfernen. Zwiebeln und Lauch sind dünn geschnitten und weich gebacken.',
   leftover:'Flammkuchen-Snack · 5 Min. – Kalte Streifen in der Pfanne ohne Fett kurz aufknuspern.',
   extras:['haehnchen','ei'], tipp:'Der Teig ohne Hefe ist in 3 Minuten fertig und wird hauchdünn besonders knusprig.'
 },
@@ -8554,7 +8554,7 @@ RECIPES.push(
   ],
   steps:[
     'Kichererbsenmehl mit 140 ml Wasser und 1 TL Öl glatt rühren und 5 Minuten quellen lassen.',
-    'Zucchini in dünne Scheiben, Zwiebel in Streifen schneiden, Kirschtomaten halbieren. In etwas Öl 5 Minuten braten und herausnehmen.',
+    'Zucchini in dünne Scheiben, Zwiebel in Streifen schneiden, Kirschtomaten halbieren. Zucchini, Zwiebel und Tomaten zusammen in etwas Öl 5 Minuten braten und herausnehmen.',
     'Pfanne dünn ausölen, die Hälfte des Teigs eingießen und bei mittlerer Hitze je Seite 3 Minuten goldbraun backen. Den zweiten Fladen ebenso backen.',
     'Kinderportion ohne Salz abnehmen und in Streifen schneiden. Erwachsene Socca mit Pfeffer, Rosmarin und Salz bestreuen und mit Gemüse und Joghurt servieren.'
   ],
@@ -8608,12 +8608,12 @@ RECIPES.push(
   steps:[
     'Reis in der doppelten Menge Wasser aufsetzen und zugedeckt 30 Minuten weich garen. Ofen auf 200 °C vorheizen.',
     'Lauch und Karotten in feine, lange Streifen schneiden und auf Backpapier verteilen. Lachs darauflegen, mit Zitronenscheiben belegen, mit Öl beträufeln und das Papier zu einem Päckchen falten.',
-    'Auf einem Blech 15 bis 18 Minuten garen, bis sich der Lachs leicht zerpflücken lässt.',
+    'Das Päckchen auf einem Blech 15 bis 18 Minuten garen, bis sich der Lachs leicht zerpflücken lässt.',
     'Kinderportion abnehmen, den Lachs auf Gräten prüfen und zerpflücken. Erwachsene mit Dill, Salz und Pfeffer würzen.'
   ],
   nutri:{p:['Lachs','Vollkornreis'],f:['Vollkornreis','Lauch','Karotten'],i:['Lachs'],fat:['Lachs (Omega-3)','Olivenöl']},
   kidName:'Lachs-Reis mild',
-  kid:'Lachs sorgfältig entgräten und zerpflücken, Gemüsestreifen klein schneiden und mit dem weichen Reis mischen. Ohne Salz und Zitrone.',
+  kid:'Lachs sorgfältig entgräten und zerpflücken, Gemüsestreifen klein schneiden. Lachs und Gemüse mit dem weichen Reis mischen. Ohne Salz und Zitrone.',
   leftover:'Lachs-Reis-Pfanne · 8 Min. – Reis, Gemüse und zerpflückten Lachs mit einem Ei in der Pfanne durchbraten.',
   extras:['joghurt'], tipp:'Die Päckchen lassen sich vorbereiten und bis zum Backen im Kühlschrank lagern.'
 },
@@ -8636,8 +8636,8 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln in 2 cm große Würfel schneiden und in Wasser 15 Minuten weich kochen. Nach 5 Minuten das Ei und nach 9 Minuten die geputzten Bohnen in Stücken mit in den Topf geben.',
-    'Abgießen, das Ei kalt abschrecken, schälen und vierteln. Tomate in Spalten schneiden, Thunfisch abtropfen und zerpflücken.',
-    'Kinderportion ohne Dressing abnehmen und alles klein schneiden. Für die Erwachsenen Senf, Zitronensaft, Öl, Salz und Pfeffer verrühren, die warmen Kartoffeln und Bohnen damit mischen und mit Salat, Tomate, Ei, Thunfisch und Oliven anrichten.'
+    'Kartoffeln, Bohnen und Ei abgießen. Das Ei kalt abschrecken, schälen und vierteln. Tomate in Spalten schneiden, Thunfisch abtropfen und zerpflücken.',
+    'Kinderportion ohne Dressing abnehmen und darin Kartoffeln, Bohnen, Ei und Tomate klein schneiden. Für die Erwachsenen Senf, Zitronensaft, Öl, Salz und Pfeffer verrühren, die warmen Kartoffeln und Bohnen damit mischen und mit Salat, Tomate, Ei, Thunfisch und Oliven anrichten.'
   ],
   nutri:{p:['Thunfisch','Ei'],f:['Kartoffeln','Grüne Bohnen','Tomaten'],i:['Thunfisch','Ei','Grüne Bohnen'],fat:['Olivenöl','Oliven']},
   kidName:'Mini-Niçoise',
@@ -8670,7 +8670,7 @@ RECIPES.push(
   ],
   nutri:{p:['Seelachs oder Kabeljau'],f:['Kartoffeln','Fenchel','Vollkornbrot'],i:['Fisch'],fat:['Olivenöl']},
   kidName:'Fisch-Kartoffel-Topf',
-  kid:'Fisch auf Gräten prüfen und zerpflücken, Kartoffeln und Fenchel zerdrücken. Mit wenig Sud als dicken Brei und ohne Salz anbieten.',
+  kid:'Fisch auf Gräten prüfen und zerpflücken. Kartoffeln und Fenchel zerdrücken und mit dem Fisch und wenig Sud zu einem dicken Brei mischen. Ohne Salz anbieten.',
   leftover:'Fisch-Gratin · 15 Min. – Reste abtropfen lassen, in eine Form geben, mit Käse bestreuen und bei 200 °C überbacken.',
   extras:['kichererbsen'], tipp:'Mit einer Prise Safran statt Kurkuma schmeckt der Sud wie in Marseille.'
 },
@@ -8691,9 +8691,9 @@ RECIPES.push(
     {n:'Thymian, getrocknet',q:0.5,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 200 °C vorheizen. Kartoffeln, Karotten und Pastinake in grobe Stücke, Zwiebel in Spalten schneiden und mit Öl und Thymian auf dem Blech mischen.',
+    'Ofen auf 200 °C vorheizen. Kartoffeln, Karotten und Pastinake in grobe Stücke, Zwiebel in Spalten schneiden. Das ganze Gemüse mit Öl und Thymian auf dem Blech mischen.',
     'Hähnchen mit Zitronenscheiben und angedrückten Knoblauchzehen zwischen das Gemüse legen.',
-    'Etwa 40 Minuten backen und einmal wenden, bis das Gemüse weich ist und das Hähnchen innen keinen rosa Saft mehr zeigt.',
+    'Etwa 40 Minuten backen, bis das Gemüse weich ist und das Hähnchen innen keinen rosa Saft mehr zeigt. Hähnchen und Gemüse dabei einmal wenden.',
     'Kinderportion abnehmen und das Fleisch fein zerzupfen. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   nutri:{p:['Hähnchen'],f:['Kartoffeln','Karotten','Pastinake'],i:['Hähnchen'],fat:['Olivenöl']},
@@ -8781,7 +8781,7 @@ RECIPES.push(
     'Brot in kleine Würfel schneiden, im Schmortopf ohne Fett 3 Minuten knusprig rösten und herausnehmen.',
     'Hähnchen würfeln und in Öl 5 Minuten anbraten. Zwiebel, Knoblauch, Karotte und Lauch klein schneiden und 4 Minuten mitdünsten.',
     'Tomaten, Thymian und 100 ml Wasser zugeben, die abgespülten Bohnen unterrühren und zugedeckt 25 Minuten leise schmoren, bis das Fleisch zart ist.',
-    'Kinderportion ohne Salz abnehmen, Bohnen und Fleisch zerdrücken. Erwachsene mit Salz und Pfeffer abschmecken und die Brotwürfel darüberstreuen.'
+    'Kinderportion ohne Salz abnehmen und nur darin Bohnen und Fleisch zerdrücken. Erwachsene mit Salz und Pfeffer abschmecken und die Brotwürfel darüberstreuen.'
   ],
   nutri:{p:['Hähnchen','Weiße Bohnen'],f:['Weiße Bohnen','Karotten','Vollkornbrot'],i:['Weiße Bohnen','Hähnchen'],fat:['Olivenöl']},
   kidName:'Bohnen-Hähnchen-Topf',
@@ -8808,13 +8808,13 @@ RECIPES.push(
   ],
   steps:[
     'Kalbfleisch in 3 cm große Würfel schneiden, mit Brühe, Zwiebel und Lorbeer aufkochen, Schaum abschöpfen und zugedeckt 45 Minuten leise köcheln.',
-    'Karotten in Scheiben und Pilze in Viertel schneiden, zugeben und weitere 15 Minuten garen. Reis inzwischen in der doppelten Menge Wasser 15 Minuten garen.',
+    'Karotten in Scheiben und Pilze in Viertel schneiden, beides zugeben und weitere 15 Minuten garen. Reis inzwischen in der doppelten Menge Wasser 15 Minuten garen.',
     'Lorbeer entfernen. Milch mit Stärke verrühren, einrühren und 2 Minuten sämig köcheln.',
     'Kinderportion abnehmen und das Fleisch sehr fein schneiden. Erwachsene mit Zitronensaft, Salz und Pfeffer abschmecken.'
   ],
   nutri:{p:['Kalbfleisch'],f:['Karotten','Pilze'],i:['Kalbfleisch'],fat:['Milch']},
   kidName:'Mildes Kalbsragout',
-  kid:'Kalbfleisch sehr fein schneiden oder zerzupfen, Karotten und Pilze klein schneiden und mit Reis und heller Soße mischen. Ohne Salz und Zitrone.',
+  kid:'Kalbfleisch sehr fein schneiden oder zerzupfen, Karotten und Pilze klein schneiden. Fleisch und Gemüse mit Reis und heller Soße mischen. Ohne Salz und Zitrone.',
   leftover:'Ragout-Reispfanne · 10 Min. – Reis und Ragout mit etwas Wasser zusammen in der Pfanne erhitzen.',
   extras:['ei'], tipp:'Klassisch wird die Soße mit Sahne und Eigelb gebunden, mit Milch und Stärke bleibt sie leicht.'
 }
@@ -8953,7 +8953,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 200 °C vorheizen. Kartoffeln, Karotten und Pastinake in grobe Stücke, Zwiebel in Spalten schneiden und mit Öl und Thymian auf dem Blech mischen.',
+    'Ofen auf 200 °C vorheizen. Kartoffeln, Karotten und Pastinake in grobe Stücke, Zwiebel in Spalten schneiden. Das ganze Gemüse mit Öl und Thymian auf dem Blech mischen.',
     'Hähnchen auf das Gemüse legen und 25 Minuten backen.',
     'Brokkoliröschen zugeben und weitere 12 bis 15 Minuten backen, bis das Hähnchen innen kein rosa Fleisch mehr zeigt.',
     'Hähnchen und Gemüse herausnehmen, die Brühe auf das heiße Blech gießen, Bratrückstände lösen und die Zwiebelspalten darin zerdrücken, so entsteht eine leichte Soße.',
@@ -9118,8 +9118,8 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln ungeschält in 1 cm große Würfel schneiden und in einer großen Pfanne mit Öl und 4 EL Wasser zugedeckt 10 Minuten garen.',
-    'Wirsing in feine Streifen schneiden, Karotte grob raspeln, Zwiebel würfeln und alles 6 Minuten mitbraten, bis der Kohl weich ist.',
-    'Kartoffeln leicht zerdrücken, flach andrücken und ohne Rühren 4 Minuten goldbraun braten. Eier daneben in die Pfanne schlagen und zugedeckt braten, bis Eiweiß und Eigelb fest sind.',
+    'Wirsing in feine Streifen schneiden, Karotte grob raspeln, Zwiebel würfeln. Alle drei zu den Kartoffeln geben und 6 Minuten mitbraten, bis der Kohl weich ist.',
+    'Kartoffeln leicht zerdrücken. Die Kartoffel-Gemüse-Masse flach andrücken und ohne Rühren 4 Minuten goldbraun braten. Eier daneben in die Pfanne schlagen und zugedeckt braten, bis Eiweiß und Eigelb fest sind.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und Muskat würzen.'
   ],
   kidName:'Mini-Bubble',
@@ -9198,7 +9198,7 @@ RECIPES.push(
   ],
   steps:[
     'Bohnen mit den passierten Tomaten in einem kleinen Topf 8 Minuten sämig köcheln.',
-    'Champignons in Scheiben schneiden, Tomate halbieren und beides in der Pfanne in Öl 5 Minuten braten. Spinat kurz mitdünsten und an den Rand schieben.',
+    'Champignons in Scheiben schneiden, Tomate halbieren und beides in der Pfanne in Öl 5 Minuten braten. Spinat kurz mitdünsten. Pilze, Tomate und Spinat an den Rand schieben.',
     'Eier in die Pfanne schlagen und bei mittlerer Hitze zugedeckt 4 bis 5 Minuten braten, bis Eiweiß und Eigelb fest sind. Brot toasten.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
   ],
@@ -9256,7 +9256,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 200 °C vorheizen. Kirschtomaten halbieren, Paprika in Streifen schneiden und mit der Hälfte des Öls auf ein Blech geben.',
+    'Ofen auf 200 °C vorheizen. Kirschtomaten halbieren, Paprika in Streifen schneiden. Beides mit der Hälfte des Öls auf ein Blech geben.',
     'Forellenfilets mit der Hautseite nach unten dazulegen, mit gehacktem Knoblauch, Estragon und restlichem Öl bestreichen und 12 bis 14 Minuten backen, bis der Fisch gerade durch ist.',
     'Inzwischen die Polenta in 280 ml kochendes Wasser einrühren und nach Packungsangabe 5 bis 10 Minuten weich und cremig garen.',
     'Kinderportion ungesalzen abnehmen und Fisch auf Gräten prüfen. Erwachsene mit Salz, Pfeffer und Granatapfelkernen servieren.'
@@ -9311,7 +9311,7 @@ RECIPES.push(
   ],
   steps:[
     'Reis in der doppelten Menge Wasser 25 bis 30 Minuten garen.',
-    'Hähnchen in große Stücke schneiden und im zweiten Topf in Öl rundum 5 Minuten anbraten. Zwiebel in Streifen und Paprika in Würfel schneiden, zugeben und 5 Minuten weich dünsten.',
+    'Hähnchen in große Stücke schneiden und im zweiten Topf in Öl rundum 5 Minuten anbraten. Zwiebel in Streifen und Paprika in Würfel schneiden, beides zugeben und 5 Minuten weich dünsten.',
     'Gehackte Tomaten und Chmeli-Suneli zugeben und zugedeckt 20 Minuten schmoren, bis das Hähnchen zart und durchgegart ist. Knoblauch fein hacken und in den letzten 5 Minuten mitgaren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und nach Wunsch Chili würzen und Koriander darüberstreuen.'
   ],
@@ -9530,7 +9530,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 220 °C vorheizen. Mehl, Backpulver, 40 g Quark, Milch und Öl zu einem glatten Teig kneten und zu einem Oval ausrollen.',
     'Die langen Ränder einrollen und die Enden zu einem Schiffchen zusammendrücken. Mozzarella und Feta zerkleinern, mit dem restlichen Quark mischen und in die Mitte füllen.',
-    'Auf dem Blech 12 Minuten backen. Ei in eine Mulde der Käsefüllung gleiten lassen und weitere 7 bis 8 Minuten backen, bis Eiweiß und Eigelb vollständig fest sind.',
+    'Das Schiffchen auf dem Blech 12 Minuten backen. Ei in eine Mulde der Käsefüllung gleiten lassen und weitere 7 bis 8 Minuten backen, bis Eiweiß und Eigelb vollständig fest sind.',
     'Tomaten und Gurke als Salat dazu schneiden.',
     'Kinderportion ungesalzen abnehmen. Erwachsene den Salat mit Salz, Pfeffer und etwas Öl würzen.'
   ],
@@ -9556,7 +9556,7 @@ RECIPES.push(
   ],
   steps:[
     'Grüne Bohnen putzen, in 3 cm lange Stücke schneiden und in der Pfanne mit 100 ml Wasser zugedeckt 7 Minuten weich dünsten. Restliches Wasser abgießen.',
-    'Zwiebel in Streifen schneiden, Tomate würfeln und mit Öl und gehacktem Knoblauch 3 Minuten mit den Bohnen braten.',
+    'Zwiebel in Streifen schneiden, Tomate würfeln. Beides mit Öl und gehacktem Knoblauch 3 Minuten mit den Bohnen braten.',
     'Eier verquirlen, darübergießen und unter gelegentlichem Rühren 3 bis 4 Minuten vollständig stocken lassen. Koriander darüberstreuen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und nach Wunsch Chili würzen und mit Vollkornbrot servieren.'
   ],
@@ -9609,13 +9609,13 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel fein würfeln und im Topf in Öl 4 Minuten glasig dünsten. In einer Schüssel mit Reis, abgespülten Linsen, Koriander und 3 EL Wasser mischen.',
-    'Paprika oben aufschneiden und entkernen, Tomate aushöhlen und das Innere hacken. Das Gemüse locker zu drei Vierteln füllen und die Deckel aufsetzen.',
-    'Gefülltes Gemüse aufrecht in den Topf setzen, passierte Tomaten, Tomateninneres und so viel Wasser angießen, dass es zur Hälfte bedeckt ist. Zugedeckt 35 bis 40 Minuten sanft köcheln, bis Reis und Linsen weich sind.',
+    'Zwiebel fein würfeln und im Topf in Öl 4 Minuten glasig dünsten. Die Zwiebel in einer Schüssel mit Reis, abgespülten Linsen, Koriander und 3 EL Wasser mischen.',
+    'Paprika oben aufschneiden und entkernen, Tomate aushöhlen und das Innere hacken. Paprika und Tomate locker zu drei Vierteln mit der Reismischung füllen und die Deckel aufsetzen.',
+    'Gefülltes Gemüse aufrecht in den Topf setzen, passierte Tomaten, Tomateninneres und so viel Wasser angießen, dass das Gemüse zur Hälfte bedeckt ist. Zugedeckt 35 bis 40 Minuten sanft köcheln, bis Reis und Linsen weich sind.',
     'Kinderportion ungesalzen abnehmen. Joghurt für die Erwachsenen mit fein geriebenem Knoblauch und Salz verrühren und dazu servieren.'
   ],
   kidName:'Mini-Tolma',
-  kid:'Füllung aus der Paprika lösen, die Paprikahaut entfernen und alles mit etwas Soße zerdrücken. Joghurt pur ohne Knoblauch und Salz dazugeben.',
+  kid:'Füllung aus der Paprika lösen und die Paprikahaut entfernen. Füllung und Gemüse mit etwas Soße zerdrücken. Joghurt pur ohne Knoblauch und Salz dazugeben.',
   leftover:'Tolma-Reispfanne · 10 Min. – Reste klein schneiden und in der Pfanne mit Soße und einem Ei durchbraten.',
   tipp:'Klassisch wird Tolma in Weinblätter oder Kohl gewickelt, gefüllte Paprika und Tomaten sind im Sommer die schnellere Variante.'
 },
@@ -9676,7 +9676,7 @@ RECIPES.push(
     'Kinderportion ohne Salz und Chili abnehmen. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen.'
   ],
   kidName:'Milder Ingwer-Reis',
-  kid:'Rindfleisch sehr klein schneiden, Erbsen leicht andrücken und alles mit dem weichen Reis mischen. Ohne Salz und Chili.',
+  kid:'Rindfleisch sehr klein schneiden, Erbsen leicht andrücken. Fleisch und Erbsen mit dem weichen Reis mischen. Ohne Salz und Chili.',
   leftover:'Jollof-Pfanne · 10 Min. – Reste mit einem Schuss Wasser und etwas Spinat in der Pfanne vollständig durcherhitzen.',
   tipp:'In Ghana wird Jollof mit Duftreis gekocht, Vollkornreis bringt mehr Ballaststoffe und braucht etwas länger.'
 },
@@ -9757,7 +9757,7 @@ RECIPES.push(
     'Reismasse mit nassen Händen zu Bällchen formen. Kinderportion ohne Salz und Chili abnehmen, Erwachsene mit Salz und nach Wunsch Chiliflocken würzen.'
   ],
   kidName:'Erdnusssuppe mit Reisbällchen',
-  kid:'Hähnchen fein zerzupfen, Reisbällchen klein drücken und mit der sämigen Suppe mischen. Erdnuss nur als glattes Mus, ohne Salz und Chili.',
+  kid:'Hähnchen fein zerzupfen, Reisbällchen klein drücken. Hähnchen und Reis mit der sämigen Suppe mischen. Erdnuss nur als glattes Mus, ohne Salz und Chili.',
   tipp:'Erdnussmus ohne Zucker und Salz verwenden, die Suppe dickt beim Stehen noch nach.'
 },
 {
@@ -9833,7 +9833,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 220 °C vorheizen. Ingwer reiben und mit Paprikapulver und dem Öl verrühren.',
     'Kochbanane schälen, in 2 cm Würfel schneiden, mit der Hälfte der Ingwer-Mischung vermengen und auf dem Blech 10 Minuten backen.',
-    'Fleisch, Paprika und Zwiebel in Stücken abwechselnd auf Spieße stecken, mit der restlichen Mischung bestreichen und neben die Kochbanane legen. Alles 12 bis 15 Minuten backen und einmal wenden, bis das Fleisch durchgegart ist.',
+    'Fleisch, Paprika und Zwiebel in Stücken abwechselnd auf Spieße stecken, mit der restlichen Mischung bestreichen und neben die Kochbanane legen. Spieße und Kochbanane 12 bis 15 Minuten backen und dabei einmal wenden, bis das Fleisch durchgegart ist.',
     'Tomate würfeln. Kinderportion ohne Salz und Chili abnehmen, Erwachsene Spieße und Kelewele mit Salz und nach Wunsch Chiliflocken würzen.'
   ],
   kidName:'Fleisch-Stückchen mit Ofen-Kochbanane',
@@ -9863,7 +9863,7 @@ RECIPES.push(
     'Kinderportion ohne Salz und Chili abnehmen. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen und mit den Klößchen servieren.'
   ],
   kidName:'Weiche Mais-Klößchen mit Spinat',
-  kid:'Polenta weich kochen, Rindfleisch sehr fein schneiden und unter die Spinatsuppe mischen. Ohne Salz und Chili.',
+  kid:'Polenta weich kochen. Rindfleisch sehr fein schneiden und unter die Spinatsuppe mischen. Ohne Salz und Chili.',
   tipp:'Ayoyo sind Jute-Blätter aus dem Norden Ghanas, im Afroshop gibt es sie tiefgekühlt als Molokhia.'
 },
 {
@@ -9915,7 +9915,7 @@ RECIPES.push(
     'Kinderportion ohne Salz und Chili abnehmen und den Fisch entgräten. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen.'
   ],
   kidName:'Okra-Fisch mit Reis',
-  kid:'Fisch entgräten und zerpflücken, Okra sehr weich garen und klein schneiden, dann mit Reis mischen. Ohne Salz und Chili.',
+  kid:'Fisch entgräten und zerpflücken, Okra sehr weich garen und klein schneiden. Fisch und Okra mit Reis mischen. Ohne Salz und Chili.',
   tipp:'Okra nur kurz garen und wenig rühren, dann bleibt die Soße stückig statt schleimig.'
 },
 {
@@ -10075,7 +10075,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen und klein schneiden. Erwachsene am Tisch mit Salz und Pfeffer würzen.'
   ],
   kidName:'Mini-Moussaka',
-  kid:'Ein Stück aus der Mitte nehmen, Auberginenschale bei Bedarf entfernen und alles in kleine weiche Würfel schneiden. Ohne Salz servieren, die Ei-Joghurt-Haube ist vollständig durchgebacken.',
+  kid:'Ein Stück aus der Mitte nehmen, Auberginenschale bei Bedarf entfernen und das Stück in kleine weiche Würfel schneiden. Ohne Salz servieren, die Ei-Joghurt-Haube ist vollständig durchgebacken.',
   leftover:'Moussaka-Nudeln · 10 Min. – Reste grob zerteilen und mit gekochten Nudeln und etwas Wasser vollständig erhitzen.',
   tipp:'Vorbacken statt Frittieren spart viel Öl, die Auberginen werden trotzdem weich und cremig.'
 },
@@ -10099,8 +10099,8 @@ RECIPES.push(
   steps:[
     'Vollkornreis 15 Minuten vorkochen und abgießen. Ofen auf 190 °C vorheizen.',
     'Von Paprika und Tomaten einen Deckel abschneiden, Kerne entfernen und das Tomateninnere hacken. Zwiebel und Zucchini fein würfeln.',
-    'Reis mit Kichererbsen, Tomateninnerem, Zucchini, Zwiebel, gehackter Petersilie, Oregano und der Hälfte des Öls mischen und in das Gemüse füllen.',
-    'Gemüse in eine Form setzen, Gemüsedeckel auflegen, passierte Tomaten mit 100 ml Wasser angießen, mit restlichem Öl beträufeln und 35 Minuten backen, bis die Paprika weich ist.',
+    'Reis mit Kichererbsen, Tomateninnerem, Zucchini, Zwiebel, gehackter Petersilie, Oregano und der Hälfte des Öls mischen und in Paprika und Tomaten füllen.',
+    'Gefüllte Paprika und Tomaten in eine Form setzen, die Deckel auflegen, passierte Tomaten mit 100 ml Wasser angießen, mit restlichem Öl beträufeln und 35 Minuten backen, bis die Paprika weich ist.',
     'Kinderportion ungesalzen abnehmen, Paprika in Stücke teilen und die Kichererbsen in der Füllung zerdrücken. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Weiche Gemista-Schiffchen',
@@ -10181,9 +10181,9 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 190 °C vorheizen. Zwiebel und Knoblauch fein würfeln, Karotten in dünne Scheiben schneiden.',
-    'Alles mit Bohnen, gehackten Tomaten, Oregano, Öl und 100 ml Wasser in einer Auflaufform mischen.',
+    'Zwiebel, Knoblauch und Karotten mit Bohnen, gehackten Tomaten, Oregano, Öl und 100 ml Wasser in einer Auflaufform mischen.',
     'Abgedeckt 20 Minuten backen, dann offen weitere 15 Minuten, bis die Soße dick ist und die Karotten weich sind. Gehackte Petersilie unterheben.',
-    'Kinderportion ungesalzen abnehmen und die Bohnen leicht zerdrücken. Erwachsene mit Salz und Pfeffer würzen und mit Brot servieren.'
+    'Kinderportion ungesalzen abnehmen und darin die Bohnen leicht zerdrücken. Erwachsene mit Salz und Pfeffer würzen und mit Brot servieren.'
   ],
   kidName:'Weiche Tomatenbohnen',
   kid:'Bohnen mit der Gabel grob zerdrücken und die Karotten sehr weich backen. Ohne Salz, dazu weiches Brot in Streifen zum Dippen.',
@@ -10342,7 +10342,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 200 °C vorheizen. Kartoffeln in Spalten, Karotten in dicke Stifte und Zwiebel in Spalten schneiden.',
     'Saft der Zitrone mit Öl, gepresstem Knoblauch, Oregano und 100 ml Wasser verrühren und Gemüse und Hähnchen auf dem Blech damit mischen.',
-    'Etwa 45 Minuten backen und nach 25 Minuten wenden, bis die Kartoffeln goldbraun sind und das Hähnchen innen vollständig durchgegart ist.',
+    'Etwa 45 Minuten backen, bis die Kartoffeln goldbraun sind und das Hähnchen innen vollständig durchgegart ist. Gemüse und Hähnchen nach 25 Minuten wenden.',
     'Kinderportion ungesalzen abnehmen und das Hähnchen klein zupfen. Erwachsene mit Salz, Pfeffer und etwas Zitronenschale würzen.'
   ],
   kidName:'Zitronenhähnchen-Teller',
@@ -10396,10 +10396,10 @@ RECIPES.push(
     {n:'Lorbeerblatt',q:0.5,u:'Stk.',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel in feine Streifen und Karotten in dünne Scheiben schneiden und in Öl 4 Minuten weich dünsten.',
+    'Zwiebel in feine Streifen und Karotten in dünne Scheiben schneiden und beides in Öl 4 Minuten weich dünsten.',
     'Kichererbsen, Rosmarin, Lorbeer und 200 ml Wasser zugeben und 10 Minuten offen köcheln, dabei einige Kichererbsen am Topfrand zerdrücken, damit die Soße sämig wird.',
     'Spinat unterheben, 1 Minute ziehen lassen und das Lorbeerblatt entfernen.',
-    'Kinderportion ungesalzen abnehmen und die Kichererbsen zerdrücken. Erwachsene mit Zitronensaft, Salz und Pfeffer würzen und mit Brot servieren.'
+    'Kinderportion ungesalzen abnehmen und darin die Kichererbsen zerdrücken. Erwachsene mit Zitronensaft, Salz und Pfeffer würzen und mit Brot servieren.'
   ],
   kidName:'Kichererbsen-Mus mit Brot',
   kid:'Kichererbsen mit der Gabel zu einem groben Mus zerdrücken, die Karotten sind weich gegart. Ohne Salz, dazu weiche Brotstreifen zum Dippen.',
@@ -10484,7 +10484,7 @@ RECIPES.push(
   steps:[
     'Fleisch in 3 cm große Stücke schneiden und im Öl rundum kräftig anbraten. Zwiebel, Karotten, Sellerie und Knoblauch würfeln, zugeben und 5 Minuten mitrösten.',
     'Tomatenmark kurz mitrösten, gehackte Pflaumen, Lorbeer und 400 ml Wasser zugeben und zugedeckt bei kleiner Hitze 1 Stunde 45 Minuten schmoren, bis das Fleisch weich ist.',
-    'Lorbeer entfernen und das Gemüse mit einem Teil der Soße fein pürieren, sodass eine sämige, dunkle Soße entsteht. Nudeln in der Zwischenzeit weich kochen.',
+    'Lorbeer entfernen. Das Gemüse mit einem Teil der Soße fein pürieren, sodass eine sämige, dunkle Soße entsteht. Das Fleisch in Stücken lassen. Nudeln in der Zwischenzeit weich kochen.',
     'Kinderportion ungesalzen abnehmen und das Fleisch fein zerzupfen. Erwachsene mit Salz und Pfeffer abschmecken.'
   ],
   kidName:'Zartes Rind mit Nudeln',
@@ -10511,13 +10511,13 @@ RECIPES.push(
   ],
   steps:[
     'Strunk aus dem Kohl schneiden, den Kopf 5 Minuten in kochendes Wasser legen und die weichen Blätter ablösen. Dicke Blattrippen flach schneiden.',
-    'Zwiebel fein würfeln und in Öl glasig dünsten. Mit Hack, rohem Reis und Paprikapulver verkneten, auf die Blätter verteilen und fest aufrollen.',
+    'Zwiebel fein würfeln und in Öl glasig dünsten. Die Zwiebel mit Hack, rohem Reis und Paprikapulver verkneten. Die Füllung auf die Kohlblätter verteilen und die Blätter fest aufrollen.',
     'Rouladen dicht in einen Topf legen, Kohlreste dazwischen stecken, passierte Tomaten, Lorbeer und Wasser bis knapp unter die Oberfläche angießen und zugedeckt 60 Minuten leise köcheln, bis Reis und Fleisch vollständig gar sind.',
     'Inzwischen Kartoffeln schälen, 20 Minuten weich kochen und mit warmer Milch stampfen.',
     'Kinderportion ungesalzen abnehmen und die Roulade in kleine Stücke schneiden. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Kleine Kohlrouladen-Stücke',
-  kid:'Roulade in kleine Stücke schneiden, den sehr weichen Kohl fein hacken und mit Püree und Tomatensoße mischen. Ohne Salz.',
+  kid:'Roulade in kleine Stücke schneiden und den sehr weichen Kohl fein hacken. Roulade und Kohl mit Püree und Tomatensoße mischen. Ohne Salz.',
   leftover:'Sarma aus dem Ofen · 20 Min. – Rouladen halbieren, mit Soße in eine Form legen und bei 180 °C vollständig durcherhitzen.',
   tipp:'Traditionell werden sauer eingelegte Kohlblätter verwendet, frischer Weißkohl ist deutlich salzärmer.'
 },
@@ -10598,7 +10598,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen und das Hähnchen klein schneiden. Erwachsene mit Salz und scharfem Paprikapulver würzen.'
   ],
   kidName:'Mildes Paprikahähnchen',
-  kid:'Hähnchen klein schneiden, Paprika sehr weich schmoren und mit Nudeln und der cremigen Soße mischen. Nur edelsüßes Paprikapulver, ohne Salz.',
+  kid:'Hähnchen klein schneiden, Paprika sehr weich schmoren. Hähnchen und Gemüse mit Nudeln und der cremigen Soße mischen. Nur edelsüßes Paprikapulver, ohne Salz.',
   leftover:'Paprikaš-Auflauf · 20 Min. – Reste mit den Nudeln in eine Form geben, mit Käse bestreuen und vollständig durchbacken.',
   tipp:'Paprikapulver nie in heißem Fett anbrennen lassen, sonst wird es bitter.'
 },
@@ -10619,7 +10619,7 @@ RECIPES.push(
     {n:'Lorbeerblatt',q:0.5,u:'Stk.',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel in Streifen schneiden, Paprika und Knoblauch würfeln und in Öl 5 Minuten weich dünsten.',
+    'Zwiebel in Streifen schneiden, Paprika und Knoblauch würfeln. Alle drei in Öl 5 Minuten weich dünsten.',
     'Tomaten, Lorbeer und 150 ml Wasser zugeben und 10 Minuten zu einer dicken Soße köcheln. Fisch in große Stücke schneiden, in die Soße legen und zugedeckt bei kleiner Hitze 8 Minuten gar ziehen lassen, ohne zu rühren. Lorbeer entfernen.',
     'Inzwischen 300 ml Wasser aufkochen, Polenta einrühren und unter Rühren 5 Minuten zu einem weichen Brei garen.',
     'Kinderportion ungesalzen abnehmen, den Fisch auf Gräten prüfen und zerpflücken. Erwachsene mit Salz, Pfeffer und gehackter Petersilie würzen.'
@@ -10644,7 +10644,7 @@ RECIPES.push(
     {n:'Olivenöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Kartoffeln schälen, würfeln und in Wasser 10 Minuten kochen. Mangoldstiele klein schneiden, Blätter grob hacken, zu den Kartoffeln geben und 5 Minuten mitkochen.',
+    'Kartoffeln schälen, würfeln und in Wasser 10 Minuten kochen. Mangoldstiele klein schneiden, Blätter grob hacken. Stiele und Blätter zu den Kartoffeln geben und 5 Minuten mitkochen.',
     'Inzwischen den Fisch trocken tupfen und in der Hälfte des Öls bei mittlerer Hitze 3 bis 4 Minuten je Seite braten, bis er sich leicht zerpflücken lässt.',
     'Kartoffeln und Mangold abgießen und mit dem restlichen Öl grob zerdrücken.',
     'Kinderportion ungesalzen abnehmen, den Fisch auf Gräten prüfen und zerpflücken. Erwachsene rühren gepressten Knoblauch und Salz unter die Blitva und würzen den Fisch mit Zitrone und gehackter Petersilie.'
@@ -10674,7 +10674,7 @@ RECIPES.push(
     'Kartoffeln in dicke Scheiben schneiden, Zwiebel fein würfeln und beides mit Lorbeer und 300 ml Wasser 15 Minuten köcheln.',
     'Fisch in Stücke schneiden, auf die Kartoffeln legen und zugedeckt 8 Minuten gar ziehen lassen. Lorbeer entfernen und Petersilie hacken.',
     'Kohl sehr fein hobeln und mit etwas Zitronensaft und einem Teil des Öls mischen.',
-    'Kinderportion ungesalzen abnehmen und Fisch und Kartoffeln mit etwas Kochflüssigkeit zerdrücken. Erwachsene mit gehacktem Knoblauch, Petersilie, restlichem Öl, Salz und Pfeffer würzen und vorsichtig durchschwenken.'
+    'Kinderportion ungesalzen abnehmen und darin Fisch und Kartoffeln mit etwas Kochflüssigkeit zerdrücken. Erwachsene mit gehacktem Knoblauch, Petersilie, restlichem Öl, Salz und Pfeffer würzen und vorsichtig durchschwenken.'
   ],
   kidName:'Fisch-Kartoffel-Mus',
   kid:'Fisch auf Gräten prüfen und mit Kartoffeln und etwas Kochflüssigkeit zu einem cremigen Mus zerdrücken. Den rohen Kohlsalat beim Kind weglassen.',
@@ -10702,7 +10702,7 @@ RECIPES.push(
     'Zwiebel, Karotten und Sellerie würfeln und in Öl 5 Minuten andünsten. Kartoffeln in Würfel schneiden.',
     'Kartoffeln, passierte Tomaten, Lorbeer und 500 ml Wasser zugeben und 20 Minuten köcheln.',
     'Bohnen und Mais zugeben und 5 Minuten mitkochen. Ein Viertel des Eintopfs pürieren und wieder unterrühren, damit er sämig wird. Lorbeer entfernen.',
-    'Kinderportion ungesalzen abnehmen und die Bohnen zerdrücken. Erwachsene mit Salz und Pfeffer würzen und mit Brot servieren.'
+    'Kinderportion ungesalzen abnehmen und darin Bohnen und Mais zerdrücken. Erwachsene mit Salz und Pfeffer würzen und mit Brot servieren.'
   ],
   kidName:'Dicker Bohnen-Mais-Eintopf',
   kid:'Eintopf dick lassen und Bohnen und Mais gründlich zerdrücken, damit keine ganzen Körner bleiben. Ohne Salz servieren.',
@@ -10805,7 +10805,7 @@ RECIPES.push(
   ],
   steps:[
     'Vollkornreis in der doppelten Menge Wasser aufsetzen und in 30 Minuten weich garen.',
-    'Zwiebel in Streifen und Paprika in Stücke schneiden und in Öl 8 Minuten weich schmoren. Tomaten würfeln, mit Paprikapulver zugeben und 10 Minuten einköcheln.',
+    'Zwiebel in Streifen und Paprika in Stücke schneiden und beides in Öl 8 Minuten weich schmoren. Tomaten würfeln, mit Paprikapulver zugeben und 10 Minuten einköcheln.',
     'Eier verquirlen, unter das Gemüse rühren und bei kleiner Hitze 3 bis 4 Minuten stocken lassen, bis kein flüssiges Ei mehr zu sehen ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und etwas Chili würzen und mit Reis servieren.'
   ],
@@ -10858,9 +10858,9 @@ RECIPES.push(
   ],
   steps:[
     'Nudeln nach Packungsangabe in Wasser weich kochen und dabei 100 ml Kochwasser auffangen.',
-    'Pilze in Scheiben schneiden, Zwiebel und Knoblauch fein würfeln und in Öl bei starker Hitze 6 Minuten braten, bis die Pilze gebräunt sind. Thymian unterrühren.',
+    'Pilze in Scheiben schneiden, Zwiebel und Knoblauch fein würfeln. Alle drei in Öl bei starker Hitze 6 Minuten braten, bis die Pilze gebräunt sind. Thymian unterrühren.',
     'Nudeln, Ricotta und so viel Kochwasser zugeben, bis eine cremige Soße entsteht. Gehackte Petersilie unterheben.',
-    'Kinderportion ungesalzen abnehmen und die Pilze klein schneiden. Erwachsene mit Salz, Pfeffer und geriebenem Käse würzen.'
+    'Kinderportion ungesalzen abnehmen und darin die Pilze klein schneiden. Erwachsene mit Salz, Pfeffer und geriebenem Käse würzen.'
   ],
   kidName:'Cremige Pilznudeln',
   kid:'Pilze für das Kind fein hacken und unter die cremigen Nudeln mischen. Ohne Salz, Käse nur als kleine Prise.',
@@ -11005,7 +11005,7 @@ RECIPES.push(
   steps:[
     'Reis in der doppelten Menge Wasser 20 Minuten vorgaren. Ofen auf 180 °C vorheizen.',
     'Sauerkraut abspülen und ausdrücken, Weißkohl in feine Streifen schneiden. Beides mit 100 ml Wasser zugedeckt 10 Minuten dünsten.',
-    'Zwiebel würfeln und in Öl glasig dünsten, Hack zugeben und krümelig braten, bis es nicht mehr rosa ist. Paprikapulver einrühren und mit dem Reis mischen.',
+    'Zwiebel würfeln und in Öl glasig dünsten, Hack zugeben und krümelig braten, bis es nicht mehr rosa ist. Paprikapulver einrühren und die Hackmischung mit dem Reis mischen.',
     'Hälfte des Krauts in eine Auflaufform geben, Hack-Reis darauf verteilen und mit dem restlichen Kraut abdecken. Saure Sahne mit Joghurt verrühren, darüberstreichen und 25 Minuten backen.',
     'Kinderportion ohne Salz abnehmen. Erwachsene am Tisch mit Pfeffer und etwas Salz würzen.'
   ],
@@ -11110,12 +11110,12 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln schälen, in 2 cm große Würfel schneiden und in Wasser 12 bis 15 Minuten weich kochen.',
-    'Gurke in dünne Scheiben hobeln, Paprika in feine Streifen schneiden und mit Zitronensaft, 1 TL Öl und etwas Paprikapulver mischen.',
+    'Gurke in dünne Scheiben hobeln, Paprika in feine Streifen schneiden. Beides mit Zitronensaft, 1 TL Öl und etwas Paprikapulver mischen.',
     'Zander trocken tupfen und im restlichen Öl auf der Hautseite 4 Minuten braten, wenden und 2 Minuten fertig garen, bis er innen weiß ist.',
     'Kartoffeln mit Petersilie mischen. Kinderportion ohne Salz abnehmen, Erwachsene mit Salz, Pfeffer und Zitrone würzen.'
   ],
   kidName:'Zanderflocken mit Kartoffeln',
-  kid:'Haut entfernen, Fisch auf Gräten prüfen und zerpflücken, Kartoffeln zerdrücken. Gurke schälen und in Stifte schneiden, ohne Zitrone und Salz.',
+  kid:'Fischhaut entfernen, Fisch auf Gräten prüfen und zerpflücken, Kartoffeln zerdrücken. Gurke schälen und in Stifte schneiden, ohne Zitrone und Salz.',
   leftover:'Fisch-Kartoffel-Salat · 8 Min. – Reste kalt mit Joghurt, Gurke und Petersilie zu einem Salat mischen.',
   tipp:'Der Zander aus dem Balaton gilt in Ungarn als feinster Speisefisch, TK-Zanderfilet ist eine gute Alternative.'
 },
@@ -11191,7 +11191,7 @@ RECIPES.push(
     'Ei in einem kleinen Topf 10 Minuten hart kochen, abschrecken und pellen.',
     'Karotte fein würfeln und in Öl 2 Minuten dünsten. Erbsen und 100 ml Wasser zugeben und zugedeckt 6 Minuten garen.',
     'Mehl mit Milch glatt rühren, einrühren und unter Rühren 3 Minuten zu einem cremigen Gemüse köcheln. Petersilie unterheben.',
-    'Kinderportion abnehmen und die Erbsen grob zerdrücken. Erwachsene mit Salz und Pfeffer würzen und mit Ei und Brot servieren.'
+    'Kinderportion abnehmen und darin die Erbsen grob zerdrücken. Erwachsene mit Salz und Pfeffer würzen und mit Ei und Brot servieren.'
   ],
   kidName:'Erbsenmus mit Ei',
   kid:'Erbsen mit der Gabel oder dem Stabmixer grob pürieren, damit keine runden Erbsen im Ganzen verschluckt werden. Das hart gekochte Ei klein schneiden, ohne Salz.',
@@ -11271,7 +11271,7 @@ RECIPES.push(
     {n:'Rapsöl',q:0.5,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Kartoffeln mit Schale 20 Minuten kochen, Eier in den letzten 10 Minuten mitkochen. Abschrecken, pellen und beides in Scheiben schneiden.',
+    'Kartoffeln mit Schale 20 Minuten kochen, Eier in den letzten 10 Minuten mitkochen. Kartoffeln und Eier abschrecken, pellen und in Scheiben schneiden.',
     'Ofen auf 180 °C vorheizen. Paprika und Zwiebel fein würfeln und in Öl 3 Minuten dünsten. Saure Sahne mit Joghurt und Paprikapulver verrühren.',
     'In eine geölte Form abwechselnd Kartoffeln, Eier und Gemüse schichten, jede Lage mit etwas Sahnemischung bestreichen und mit Kartoffeln und Sahne abschließen.',
     'Auflauf 25 Minuten backen, bis die Oberfläche leicht gebräunt ist. Gurke in Scheiben dazu reichen.',
@@ -11333,7 +11333,7 @@ RECIPES.push(
   steps:[
     'Vollkornnudeln nach Packungsangabe etwa 9 Minuten bissfest kochen und abgießen.',
     'Hähnchen in dünne Streifen schneiden und in Öl 4 Minuten rundum braten, bis es innen nicht mehr rosa ist.',
-    'Karotten in feine Stifte, Kohl und Pak Choi in Streifen schneiden und mit dem Knoblauch 4 Minuten mitbraten. Nudeln untermischen.',
+    'Karotten in feine Stifte, Kohl und Pak Choi in Streifen schneiden und das Gemüse mit dem Knoblauch 4 Minuten mitbraten. Nudeln untermischen.',
     'Kinderportion ohne Sauce abnehmen. Rest mit Kecap Manis und Sojasauce schwenken, Erwachsene nach Wunsch mit Chili würzen.'
   ],
   kidName:'Kinder-Mie',
@@ -11559,7 +11559,7 @@ RECIPES.push(
     'Zitronengras entfernen. Kinderportion ungesalzen abnehmen, Erwachsene mit Salz und nach Wunsch Chili würzen.'
   ],
   kidName:'Fisch-Päckchen',
-  kid:'Lachs auf Gräten prüfen und zerpflücken, Tomaten ohne Haut klein schneiden. Mit dem weichen Pak Choi unter den Reis mischen.',
+  kid:'Lachs auf Gräten prüfen und zerpflücken, Tomaten ohne Haut klein schneiden. Lachs und Tomaten mit dem weichen Pak Choi unter den Reis mischen.',
   leftover:'Fisch-Reis-Taler · 15 Min. – Reis- und Fischreste mit einem Ei vermengen, zu Talern formen und in der Pfanne beidseitig durchbraten.',
   tipp:'Statt Backpapier eignen sich Bananenblätter aus dem Asialaden für das typische Aroma.'
 },
@@ -11639,7 +11639,7 @@ RECIPES.push(
     'Lorbeerblatt entfernen. Kinderportion ungesalzen abnehmen, Erwachsene mit Salz und nach Wunsch Sambal würzen.'
   ],
   kidName:'Kürbis-Kokos-Topf',
-  kid:'Kürbis und Tofu mit der Gabel zerdrücken, Bohnen klein schneiden. Mit wenig Flüssigkeit über den Reis geben, damit es nicht zu suppig ist.',
+  kid:'Kürbis und Tofu mit der Gabel zerdrücken, Bohnen klein schneiden. Gemüse und Tofu mit wenig Flüssigkeit über den Reis geben, damit es nicht zu suppig ist.',
   leftover:'Lodeh-Curryreis · 8 Min. – Reste mit Reis in einem Topf vollständig erhitzen und dick einkochen lassen.',
   tipp:'Hokkaido muss nicht geschält werden und macht die Soße sämig.'
 },
@@ -11689,7 +11689,7 @@ RECIPES.push(
   ],
   steps:[
     'Jasminreis in der 1,5-fachen Menge Wasser 12 Minuten garen. Eier verquirlen, in wenig Öl zu einem festen Omelett braten, in Streifen schneiden und herausnehmen.',
-    'Brokkoli in kleine Röschen, Karotten in Scheiben, Pilze und Chinakohl in Streifen schneiden und mit dem Knoblauch im restlichen Öl 5 Minuten braten.',
+    'Brokkoli in kleine Röschen, Karotten in Scheiben, Pilze und Chinakohl in Streifen schneiden und das Gemüse mit dem Knoblauch im restlichen Öl 5 Minuten braten.',
     'Stärke in 80 ml Wasser verrühren, zugießen und 2 Minuten köcheln, bis die Soße leicht bindet. Eierstreifen unterheben.',
     'Kinderportion ohne Sojasauce abnehmen. Rest mit Sojasauce abschmecken, Erwachsene nach Wunsch mit Chili würzen.'
   ],
@@ -11722,7 +11722,7 @@ RECIPES.push(
   ],
   steps:[
     'Lammfleisch in 2 cm große Würfel schneiden, sichtbares Fett entfernen und in einem schweren Topf in Öl rundum 5 Minuten anbraten.',
-    'Zwiebel und Lauch in Ringe, Karotten in dicke Scheiben schneiden und kurz mitbraten. Brühe, Thymian und Lorbeer zugeben und zugedeckt 30 Minuten sanft köcheln.',
+    'Zwiebel und Lauch in Ringe, Karotten in dicke Scheiben schneiden und alle drei kurz mitbraten. Brühe, Thymian und Lorbeer zugeben und zugedeckt 30 Minuten sanft köcheln.',
     'Kartoffeln schälen, in große Stücke schneiden, zugeben und weitere 25 bis 30 Minuten garen, bis Fleisch und Kartoffeln weich sind. Einige Kartoffelstücke zerdrücken, damit der Eintopf bindet.',
     'Lorbeer entfernen und die Petersilie unterrühren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
@@ -11750,7 +11750,7 @@ RECIPES.push(
   ],
   steps:[
     'Würstchen in einem breiten Topf in Öl 5 Minuten rundum anbraten, herausnehmen und in dicke Stücke schneiden.',
-    'Zwiebeln in Streifen, Karotten in Scheiben und Kartoffeln in dicke Scheiben schneiden. Abwechselnd mit den Würstchen in den Topf schichten und mit Thymian bestreuen.',
+    'Zwiebeln in Streifen, Karotten in Scheiben und Kartoffeln in dicke Scheiben schneiden. Gemüse und Kartoffeln abwechselnd mit den Würstchen in den Topf schichten und mit Thymian bestreuen.',
     'Brühe angießen und zugedeckt bei kleiner Hitze 35 Minuten sanft schmoren, bis die Kartoffeln weich sind. Erbsen in den letzten 5 Minuten zugeben.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Petersilie, Pfeffer und wenig Salz würzen.'
   ],
@@ -11805,7 +11805,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 200 °C vorheizen. Mehl, Quark, 1 TL Öl und 1 EL Wasser zu einem glatten Teig verkneten und kurz ruhen lassen.',
-    'Hähnchen würfeln und im restlichen Öl 4 Minuten anbraten. Lauch in Ringe und Pilze in Scheiben schneiden, zugeben und 5 Minuten dünsten.',
+    'Hähnchen würfeln und im restlichen Öl 4 Minuten anbraten. Lauch in Ringe und Pilze in Scheiben schneiden, beides zugeben und 5 Minuten dünsten.',
     'Milch mit der Stärke verrühren, mit Erbsen und Thymian in die Pfanne geben und 2 Minuten zu einer cremigen Füllung köcheln. In eine kleine Auflaufform füllen.',
     'Teig dünn ausrollen, auf die Füllung legen, die Ränder andrücken, einstechen und 20 bis 25 Minuten goldbraun backen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Pfeffer nachwürzen.'
@@ -11834,7 +11834,7 @@ RECIPES.push(
   ],
   steps:[
     'Rindfleisch trocken tupfen und portionsweise im Schmortopf in Öl rundum kräftig anbraten, dann herausnehmen.',
-    'Zwiebel würfeln, Karotten und Pastinake in Stücke und Pilze in Viertel schneiden und im Bratfett 5 Minuten anrösten.',
+    'Zwiebel würfeln, Karotten und Pastinake in Stücke und Pilze in Viertel schneiden. Das ganze Gemüse im Bratfett 5 Minuten anrösten.',
     'Fleisch zurückgeben, passierte Tomaten, Brühe und Thymian zugeben und zugedeckt bei kleiner Hitze 80 bis 90 Minuten schmoren, bis das Fleisch zart ist.',
     'Offen 5 Minuten sämig einkochen und mit Vollkornbrot servieren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
@@ -11891,12 +11891,12 @@ RECIPES.push(
   steps:[
     'Lauch, Sellerie und Karotte klein würfeln und in Öl 4 Minuten anschwitzen. Kartoffeln schälen, in 1 cm große Würfel schneiden und zugeben.',
     'Brühe angießen und 12 Minuten köcheln, bis die Kartoffeln weich sind. Ein Viertel der Kartoffeln am Topfrand zerdrücken, damit der Eintopf sämig wird.',
-    'Milch zugießen, Fisch in mundgerechten Stücken einlegen und bei kleiner Hitze 5 bis 6 Minuten ziehen lassen, bis er gar ist, ohne dass es kocht.',
+    'Milch zugießen, Fisch in mundgerechten Stücken einlegen und bei kleiner Hitze 5 bis 6 Minuten ziehen lassen, bis er gar ist, ohne dass der Eintopf kocht.',
     'Dill unterrühren und mit Vollkornbrot servieren.',
     'Kinderportion ungesalzen abnehmen und Fisch auf Gräten prüfen. Erwachsene mit Salz, Pfeffer und etwas Zitrone würzen.'
   ],
   kidName:'Mini-Chowder',
-  kid:'Dick und löffelbar mit wenig Flüssigkeit anbieten, Fisch auf Gräten prüfen und zerpflücken. Gemüse weich zerdrücken, Brot ohne Kruste zum Eintunken.',
+  kid:'Eintopf dick und löffelbar mit wenig Flüssigkeit anbieten, Fisch auf Gräten prüfen und zerpflücken. Gemüse weich zerdrücken, Brot ohne Kruste zum Eintunken.',
   leftover:'Chowder Tag 2 · 5 Min. – Reste langsam erhitzen, ohne zu kochen, und mit frischem Spinat strecken.',
   tipp:'Klassisch kommt ein Stück geräucherter Fisch hinein, eine kleine Menge reicht für den Geschmack, da er sehr salzig ist.'
 },
@@ -11945,7 +11945,7 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln schälen, würfeln und in 15 Minuten weich kochen. Den Fisch für die letzten 6 Minuten zugeben und mitgaren, dann alles gut abtropfen lassen.',
-    'Ofen auf 200 °C vorheizen. Kartoffeln zerstampfen, Fisch zerpflücken und auf Gräten prüfen. Mit Ei, Haferflocken, fein geschnittener Frühlingszwiebel und Dill vermengen.',
+    'Ofen auf 200 °C vorheizen. Kartoffeln zerstampfen, Fisch zerpflücken und auf Gräten prüfen. Kartoffeln und Fisch mit Ei, Haferflocken, fein geschnittener Frühlingszwiebel und Dill vermengen.',
     'Mit feuchten Händen flache Küchlein formen, auf ein Blech mit Backpapier legen, mit Öl bestreichen und 18 bis 20 Minuten backen, nach der Hälfte wenden. Im Airfryer bei 190 °C etwa 12 Minuten.',
     'Erbsen in wenig Wasser 4 Minuten garen. Joghurt mit etwas Zitronensaft verrühren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und Zitrone würzen.'
@@ -11998,10 +11998,10 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Kartoffeln fein reiben und in einem Tuch kräftig ausdrücken. Mit Mehl, Milch und Ei zu einem dicken Teig verrühren.',
+    'Kartoffeln fein reiben und in einem Tuch kräftig ausdrücken. Die Kartoffeln mit Mehl, Milch und Ei zu einem dicken Teig verrühren.',
     'In einer beschichteten Pfanne mit wenig Öl kleine, flache Pfannkuchen bei mittlerer Hitze je Seite 3 bis 4 Minuten goldbraun und durch braten.',
     'Pilze in Scheiben schneiden und im restlichen Öl 4 Minuten braten, Spinat zugeben und zusammenfallen lassen.',
-    'Kinderportion ungesalzen abnehmen. Erwachsene die Pilze mit Salz und Pfeffer würzen und alles mit Hüttenkäse und Frühlingszwiebel servieren.'
+    'Kinderportion ungesalzen abnehmen. Erwachsene die Pilze mit Salz und Pfeffer würzen und Pfannkuchen und Pilze mit Hüttenkäse und Frühlingszwiebel servieren.'
   ],
   kidName:'Mini-Boxty',
   kid:'Pfannkuchen gut durchbraten, in weiche Streifen schneiden und mit Hüttenkäse bestreichen. Pilze sehr klein schneiden, ohne Salz.',
@@ -12107,7 +12107,7 @@ RECIPES.push(
     {n:'Muskat',q:0.1,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel würfeln, Lauch in Ringe schneiden und in Öl 5 Minuten weich dünsten, ohne dass er Farbe nimmt.',
+    'Zwiebel würfeln, Lauch in Ringe schneiden. Beides in Öl 5 Minuten weich dünsten, ohne dass das Gemüse Farbe nimmt.',
     'Kartoffeln schälen, klein würfeln, mit der Brühe zugeben und 15 Minuten weich köcheln. Abgespülte Bohnen in den letzten 5 Minuten zugeben.',
     'Milch zugießen und die Suppe fein pürieren, sie soll dick und cremig sein. Schnittlauch darüberstreuen und mit Vollkornbrot servieren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und Muskat würzen.'
@@ -12169,12 +12169,12 @@ RECIPES.push(
   ],
   steps:[
     'Kichererbsen mit 3 EL Wasser 5 Minuten erhitzen. Die Hälfte mit Tahini, Zitronensaft, Knoblauch und etwas Kochwasser mit der Gabel zu einer cremigen Masse zerdrücken, den Rest ganz lassen.',
-    'Champignons in Scheiben und Zwiebel in Streifen schneiden und in Öl 6 bis 8 Minuten goldbraun braten, mit Kreuzkümmel würzen.',
+    'Champignons in Scheiben und Zwiebel in Streifen schneiden und beides in Öl 6 bis 8 Minuten goldbraun braten, mit Kreuzkümmel würzen.',
     'Warmen Hummus auf Teller streichen, ganze Kichererbsen und Pilze in die Mitte geben, Tomaten in Spalten schneiden und Fladenbrot dazureichen.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz, Kreuzkümmel und einem Spritzer Olivenöl würzen.'
   ],
   kidName:'Hummus zum Tunken',
-  kid:'Für das Kind nur den cremigen Teil nehmen und die ganzen Kichererbsen zerdrücken, Pilze klein schneiden und Brot in Streifen zum Tunken anbieten.',
+  kid:'Für das Kind die ganzen Kichererbsen zerdrücken und mit dem cremigen Teil anbieten. Pilze klein schneiden und Brot in Streifen zum Tunken anbieten.',
   leftover:'Hummus-Toast · 5 Min. – Reste auf Vollkornbrot streichen und mit Tomate belegen.',
   tipp:'Mit dem Pürierstab wird der Hummus glatter, die grobe warme Variante heißt in Israel Masabacha.'
 },
@@ -12227,7 +12227,7 @@ RECIPES.push(
     'Hähnchen in kleine, dünne Stücke schneiden, Zwiebel und Paprika in Streifen.',
     'Öl in einer großen Pfanne stark erhitzen, Hähnchen 4 Minuten scharf anbraten, dann Zwiebeln und Paprika zugeben und weitere 6 bis 8 Minuten braten, bis das Fleisch durchgegart ist. Kurkuma und Kreuzkümmel in den letzten 2 Minuten zugeben.',
     'Tahini mit 2 bis 3 EL Wasser glatt rühren, Gurke und Tomaten würfeln und das Fladenbrot erwärmen.',
-    'Kinderportion ungesalzen abnehmen. Erwachsene salzen und alles mit Tahini und Salat ins Fladenbrot füllen.'
+    'Kinderportion ungesalzen abnehmen. Erwachsene salzen und Fleisch und Gemüse mit Tahini und Salat ins Fladenbrot füllen.'
   ],
   kidName:'Hähnchen-Zwiebel-Pita',
   kid:'Hähnchen fein schneiden, Zwiebeln und Paprika weich braten und klein schneiden, mit wenig Tahini und weichem Brot anbieten. Ohne Salz.',
@@ -12341,7 +12341,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Pfeffer würzen und mit Joghurt servieren.'
   ],
   kidName:'Gefüllte Paprika-Stücke',
-  kid:'Paprikahaut abziehen, wenn sie sich löst, alles in kleine Stücke schneiden und mit Füllung und Joghurt mischen. Ohne Salz.',
+  kid:'Paprikahaut abziehen, wenn sie sich löst, die Paprika in kleine Stücke schneiden und mit Füllung und Joghurt mischen. Ohne Salz.',
   leftover:'Paprika-Reis-Pfanne · 8 Min. – Reste klein schneiden und mit der Soße vollständig erhitzen.',
   tipp:'In Israel werden auch Zucchini, Zwiebeln und Auberginen so gefüllt, gemischte Formen sind beliebt.'
 },
@@ -12364,8 +12364,8 @@ RECIPES.push(
   ],
   steps:[
     'Hähnchen im Schmortopf in Öl rundum 5 Minuten anbraten, Kurkuma, Paprikapulver und zerdrückten Knoblauch kurz mitrösten.',
-    'Zwiebel in Spalten, Kartoffeln und Karotten in große Stücke schneiden und zugeben, Zitronensaft und 150 ml Wasser angießen.',
-    'Zugedeckt bei kleiner Hitze 40 Minuten schmoren und zwischendurch wenden, bis Kartoffeln und Hähnchen weich und durchgegart sind.',
+    'Zwiebel in Spalten, Kartoffeln und Karotten in große Stücke schneiden. Alle drei zugeben, Zitronensaft und 150 ml Wasser angießen.',
+    'Zugedeckt bei kleiner Hitze 40 Minuten schmoren, bis Kartoffeln und Hähnchen weich und durchgegart sind. Hähnchen und Gemüse zwischendurch wenden.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und gehackter Petersilie würzen.'
   ],
   kidName:'Gelbes Hähnchen mit Kartoffeln',
@@ -12451,7 +12451,7 @@ RECIPES.push(
     'Zwiebel würfeln und im Topf in Öl 3 Minuten dünsten, Kurkuma und Zimt kurz mitrösten.',
     'Kürbis, Karotten und Zucchini in große Würfel schneiden, mit Kichererbsen und Brühe zugeben und 18 bis 20 Minuten köcheln, bis das Gemüse weich ist.',
     'Couscous in einer Schüssel mit der gleichen Menge kochender Brühe aus dem Topf übergießen, 5 Minuten zugedeckt quellen lassen und auflockern.',
-    'Kinderportion ungesalzen abnehmen und die Kichererbsen zerdrücken. Erwachsene mit Salz und Pfeffer würzen.'
+    'Kinderportion ungesalzen abnehmen und darin die Kichererbsen zerdrücken. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Couscous mit Gemüse',
   kid:'Gemüse für das Kind sehr weich garen und klein schneiden, Kichererbsen zerdrücken und mit etwas Brühe unter den Couscous mischen. Ohne Salz.',
@@ -12477,7 +12477,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 220 °C vorheizen. Kartoffeln, Zucchini und Zwiebel grob raspeln und in einem Tuch kräftig ausdrücken.',
-    'Mit Ei und Mehl mischen, kleine flache Häufchen auf ein Blech mit geöltem Backpapier setzen und dünn mit Öl bepinseln.',
+    'Das geraspelte Gemüse mit Ei und Mehl mischen, kleine flache Häufchen auf ein Blech mit geöltem Backpapier setzen und dünn mit Öl bepinseln.',
     'Etwa 25 Minuten backen und nach 15 Minuten wenden, bis die Puffer beidseitig goldbraun und durchgegart sind.',
     'Joghurt mit Dill und geraspelter Gurke verrühren, Apfel in dünne Spalten schneiden. Kinderportion ungesalzen abnehmen, dann Erwachsene salzen.'
   ],
@@ -12573,7 +12573,7 @@ RECIPES.push(
   ],
   nutri:{p:['Paneer','Joghurt'],f:['Spinat','Vollkornreis'],i:['Spinat'],fat:['Paneer','Rapsöl']},
   kidName:'Mini-Palak mit Paneer',
-  kid:'Spinat fein pürieren, Paneer in kleine weiche Würfel schneiden oder zerdrücken und mit weichem Reis mischen. Ohne Salz und Chili.',
+  kid:'Spinat fein pürieren. Paneer in kleine weiche Würfel schneiden oder zerdrücken. Spinat und Paneer mit weichem Reis mischen, ohne Salz und Chili.',
   leftover:'Palak-Wrap · 8 Min. – Reste vollständig erhitzen und mit etwas Reis in ein Vollkorn-Fladenbrot rollen.',
   extras:['kichererbsen','tofu'], tipp:'Statt Paneer passt gebratener fester Tofu, die Soße bleibt genauso cremig.'
 },
@@ -12918,11 +12918,11 @@ RECIPES.push(
     'Hähnchen in dünne Streifen schneiden und mit Garam Masala mischen. Paprika und Zwiebel in Streifen schneiden, Karotte grob raspeln, Gurke in Stifte schneiden.',
     'Hähnchen in Öl 4 Minuten scharf anbraten, Paprika und Zwiebel zugeben und 4 Minuten weiterbraten, bis das Fleisch durchgegart ist.',
     'Minze fein hacken und unter den Joghurt rühren. Tortillas in der heißen Pfanne je Seite 30 Sekunden erwärmen.',
-    'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chili würzen, alles mit Karotte, Gurke und Minz-Joghurt in die Tortillas füllen und fest aufrollen.'
+    'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chili würzen. Hähnchen, Paprika und Zwiebel aus der Pfanne mit Karotte, Gurke und Minz-Joghurt in die Tortillas füllen und fest aufrollen.'
   ],
   nutri:{p:['Hähnchen','Joghurt'],f:['Vollkorn-Tortillas','Paprika','Karotten'],i:['Hähnchen'],fat:['Rapsöl']},
   kidName:'Mini-Kathi-Roll',
-  kid:'Hähnchen in kleine Stücke schneiden, mit Joghurt in eine halbe Tortilla rollen und in Scheiben schneiden. Paprika weich garen, ohne Salz und Chili.',
+  kid:'Hähnchen in kleine Stücke schneiden und mit Joghurt in eine halbe Tortilla rollen. Die Rolle in Scheiben schneiden. Paprika weich garen, ohne Salz und Chili.',
   leftover:'Kathi-Bowl · 8 Min. – Reste vollständig erhitzen und mit Reis und Joghurt als Bowl anrichten.',
   extras:['ei','kichererbsen'], tipp:'Mit einem verquirlten Ei auf der Tortilla gebraten wird daraus die Egg Roll aus Kolkata.'
 },
@@ -13070,7 +13070,7 @@ RECIPES.push(
     'Kinderportion abnehmen, Fleisch fein zerzupfen und Okra in Scheiben schneiden. Erwachsene mit Salz und Chili abschmecken.'
   ],
   kidName:'Weiche Bamia mit Reis',
-  kid:'Fleisch sehr fein zerzupfen, Okra in dünne Scheiben schneiden und mit der Soße unter den Reis mischen. Ohne Salz und Chili.',
+  kid:'Fleisch sehr fein zerzupfen und Okra in dünne Scheiben schneiden. Fleisch und Okra mit der Soße unter den Reis mischen, ohne Salz und Chili.',
   leftover:'Bamia-Reis-Topf · 10 Min. – Reste mit etwas Wasser vollständig erhitzen und mit Petersilie servieren.',
   tipp:'TK-Okra gefroren in die Soße geben, dann bleibt sie in Form und wird weniger schleimig.'
 },
@@ -13099,7 +13099,7 @@ RECIPES.push(
     'Kinderportion abnehmen, Füllung aus der Hülle lösen und mit dem weichen Gemüse zerdrücken. Erwachsene mit Salz und Chili nachwürzen.'
   ],
   kidName:'Dolma-Füllung mit Gemüse',
-  kid:'Füllung aus dem Gemüse lösen, die Hülle ohne Haut fein schneiden und mit der Soße mischen. Hackfleisch muss durchgegart sein, ohne Salz.',
+  kid:'Füllung aus dem Gemüse lösen und die Hülle ohne Haut fein schneiden. Füllung und Hülle mit der Soße mischen. Hackfleisch muss durchgegart sein, ohne Salz.',
   leftover:'Dolma-Auflauf · 20 Min. – Reste mit der Soße in einer Form bei 180 °C vollständig durcherhitzen.',
   tipp:'Gefüllte Zwiebeln gehören im Irak dazu: kurz gekocht lassen sich die Schichten leicht ablösen und füllen.'
 },
@@ -13210,7 +13210,7 @@ RECIPES.push(
     'Die Hälfte der Zwiebel sehr fein reiben, mit Hackfleisch, der Hälfte der gehackten Petersilie und Kreuzkümmel verkneten und zu länglichen Röllchen formen.',
     'Röllchen im Öl bei mittlerer Hitze 8 bis 10 Minuten rundum braten, bis sie innen durchgegart sind. Tomaten halbieren und 3 Minuten mitbraten.',
     'Restliche Zwiebel in feine Ringe schneiden und mit Sumach und Petersilie mischen, Gurke in Stifte schneiden.',
-    'Kinderportion abnehmen, Kebab in kleine Stücke schneiden und mit weicher Tomate und Gurkenstiften anbieten. Erwachsene salzen und mit Sumach-Zwiebeln ins Fladenbrot rollen.'
+    'Kinderportion abnehmen, Kebab in kleine Stücke schneiden und mit weicher Tomate und Gurkenstiften anbieten. Erwachsenenportion salzen. Kebab und Tomaten mit den Sumach-Zwiebeln ins Fladenbrot rollen.'
   ],
   kidName:'Kebab-Häppchen',
   kid:'Kebab in kleine Stücke schneiden und prüfen, dass er innen durch ist. Gebratene Tomate ohne Haut, Gurke in Stifte, rohe Zwiebel weglassen und ohne Salz.',
@@ -13399,7 +13399,7 @@ RECIPES.push(
     'Ofen auf 220 °C vorheizen. Kartoffeln in kleine Würfel schneiden, mit dem Öl mischen und 25 Minuten goldbraun backen, im Airfryer 18 Minuten bei 200 °C.',
     'Eier in 10 Minuten hart kochen, abschrecken und in Scheiben schneiden.',
     'Mango sehr fein würfeln und mit Joghurt und Currypulver verrühren. Tomaten und Gurke würfeln.',
-    'Kinderportion abnehmen: Kartoffeln, Ei und Gurke getrennt und ohne Salz. Erwachsene salzen und alles mit Mango-Joghurt ins Fladenbrot rollen.'
+    'Kinderportion abnehmen: Kartoffeln, Ei und Gurke getrennt und ohne Salz. Erwachsenenportion salzen. Kartoffeln, Ei, Tomaten und Gurke mit Mango-Joghurt ins Fladenbrot rollen.'
   ],
   kidName:'Kartoffel-Ei-Teller',
   kid:'Ei hart kochen und klein schneiden, Kartoffelwürfel weich und lauwarm anbieten. Mango-Joghurt als Dip, ohne Salz.',
@@ -13429,8 +13429,8 @@ RECIPES.push(
   ],
   steps:[
     'Reis waschen und in der 1,5-fachen Menge Wasser zugedeckt 12 Minuten garen. Safran in 1 EL heißem Wasser auflösen und unter einen Teil des Reises mischen.',
-    'Ofen mit Grillfunktion auf 240 °C vorheizen. Ein Viertel der Zwiebel fein reiben, den Saft ausdrücken und mit dem Hack 2 Minuten kräftig verkneten.',
-    'Hack zu flachen, länglichen Rollen formen und aufs Blech legen, halbierte Tomaten danebenlegen, mit Öl bepinseln und 10 bis 12 Minuten grillen, bis das Fleisch innen nicht mehr rosa ist.',
+    'Ofen mit Grillfunktion auf 240 °C vorheizen. Ein Viertel der Zwiebel fein reiben und den Saft ausdrücken. Die geriebene Zwiebel mit dem Hack 2 Minuten kräftig verkneten.',
+    'Hack zu flachen, länglichen Rollen formen und aufs Blech legen, halbierte Tomaten danebenlegen. Hackrollen und Tomaten mit Öl bepinseln und 10 bis 12 Minuten grillen, bis das Fleisch innen nicht mehr rosa ist.',
     'Kinderportion ohne Salz abnehmen. Erwachsene den Kabab mit Salz und Sumach bestreuen und mit Reis, Tomaten, Gurke, restlicher Zwiebel in Ringen und Petersilie servieren.'
   ],
   kidName:'Mini-Koobideh',
@@ -13569,7 +13569,7 @@ RECIPES.push(
   ],
   steps:[
     'Lamm mit der Hälfte der Zwiebel, Kurkuma und der angestochenen Limette mit Wasser bedecken, aufkochen, Schaum abschöpfen und zugedeckt 60 Minuten leise köcheln.',
-    'Kartoffeln halbieren, Tomaten vierteln und mit abgespülten Kichererbsen und Bohnen zugeben, dann weitere 30 Minuten garen, bis alles sehr weich ist.',
+    'Kartoffeln halbieren und Tomaten vierteln. Kartoffeln und Tomaten mit abgespülten Kichererbsen und Bohnen zugeben, dann weitere 30 Minuten garen, bis alles sehr weich ist.',
     'Brühe abgießen und als Suppe mit Fladenbrotstücken servieren. Fleisch, Kartoffeln und Hülsenfrüchte ohne Limette mit dem Stampfer grob zerdrücken.',
     'Kinderportion ohne Salz abnehmen. Erwachsene Brühe und Stampf mit Salz und Pfeffer würzen und mit Radieschen und der restlichen Zwiebel in Spalten servieren.'
   ],
@@ -13762,7 +13762,7 @@ RECIPES.push(
   ],
   steps:[
     'Zwiebel in Halbringe schneiden und in der Hälfte des Öls 8 Minuten goldbraun braten, die Hälfte als Topping beiseitestellen.',
-    'Lauch in Ringe schneiden, Petersilie und Spinat grob hacken und mit der übrigen Zwiebel, abgespülten Kichererbsen, Bohnen und reichlich Wasser im Topf 15 Minuten köcheln.',
+    'Lauch in Ringe schneiden, Petersilie und Spinat grob hacken. Lauch, Petersilie und Spinat mit der übrigen Zwiebel, abgespülten Kichererbsen, Bohnen und reichlich Wasser im Topf 15 Minuten köcheln.',
     'Nudeln in Stücke brechen, zugeben und 10 Minuten weich köcheln, bis der Eintopf sämig ist.',
     'Restliches Öl in der Pfanne erwärmen, die Minze 20 Sekunden darin schwenken und vom Herd nehmen.',
     'Kinderportion ohne Salz abnehmen und Joghurt unterrühren. Erwachsene mit Salz und Pfeffer würzen und mit Joghurt, Röstzwiebeln und Minzöl servieren.'
@@ -13886,7 +13886,7 @@ RECIPES.push(
   ],
   nutri:{p:['Ricotta','Mozzarella'],f:['Vollkorn-Lasagne','Spinat','Zucchini'],i:['Spinat'],fat:['Ricotta','Olivenöl']},
   kidName:'Mini-Lasagne',
-  kid:'In kleine Würfel schneiden und lauwarm servieren, ohne Salz. Ricotta macht die Füllung weich und mild.',
+  kid:'Lasagne in kleine Würfel schneiden und lauwarm servieren, ohne Salz. Ricotta macht die Füllung weich und mild.',
   leftover:'Lasagne-Würfel · 10 Min. – Reste in Würfeln mit etwas Wasser zugedeckt in der Pfanne erhitzen.',
   extras:['linsen','ei'], tipp:'Ungekochte Platten werden weich, wenn die Soße sie vollständig bedeckt.'
 },
@@ -14075,7 +14075,7 @@ RECIPES.push(
     {n:'Oregano, getrocknet',q:0.25,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zucchini und Paprika klein würfeln, Frühlingszwiebel in Ringe schneiden. In Öl 5 Minuten weich dünsten und den Spinat kurz zusammenfallen lassen.',
+    'Zucchini und Paprika klein würfeln, Frühlingszwiebel in Ringe schneiden. Alle drei in Öl 5 Minuten weich dünsten, dann den Spinat kurz zusammenfallen lassen.',
     'Eier mit Parmesan und Oregano verquirlen und über das Gemüse gießen.',
     'Zugedeckt bei milder Hitze 7 bis 8 Minuten stocken lassen, bis auch die Oberfläche fest ist, dann auf einen Teller gleiten lassen.',
     'Kinderportion in Streifen schneiden, bevor gesalzen wird. Erwachsene mit Salz und Pfeffer würzen, dazu Vollkornbrot.'
@@ -14311,7 +14311,7 @@ RECIPES.push(
   ],
   nutri:{p:['Hähnchen','Vollkornreis'],f:['Vollkornreis','Karotten','Paprika'],i:['Hähnchen'],fat:['Rapsöl']},
   kidName:'Mildes Schmorhähnchen',
-  kid:'Hähnchen in kleine Stücke zupfen, Karotten und Paprika weich geschmort mit etwas Soße unter den Reis mischen. Ohne Salz.',
+  kid:'Hähnchen in kleine Stücke zupfen. Hähnchen mit den weich geschmorten Karotten, der Paprika und etwas Soße unter den Reis mischen. Ohne Salz.',
   leftover:'Hähnchen-Reis-Pfanne · 10 Min. – Reste mit etwas Wasser in der Pfanne vollständig durcherhitzen.',
   extras:[], tipp:'Das Hähnchen gut anbräunen lassen, das gibt der Soße die typische braune Farbe ganz ohne Würzsoße.'
 },
@@ -14398,7 +14398,7 @@ RECIPES.push(
   ],
   nutri:{p:['Rindfleisch','Weiße Bohnen'],f:['Weiße Bohnen','Vollkornreis','Karotten'],i:['Rindfleisch','Weiße Bohnen'],fat:['Rapsöl']},
   kidName:'Zartes Bohnen-Rind',
-  kid:'Rindfleisch sehr fein zerzupfen, Bohnen und Karotten zerdrücken und mit Soße unter den Reis mischen. Ohne Salz.',
+  kid:'Rindfleisch sehr fein zerzupfen, Bohnen und Karotten zerdrücken. Fleisch, Bohnen und Karotten mit Soße unter den Reis mischen. Ohne Salz.',
   leftover:'Rind-Bohnen-Wrap · 8 Min. – Reste vollständig erhitzen und in eine Vollkorn-Tortilla rollen.',
   extras:[], tipp:'Original wird Ochsenschwanz geschmort; magerer Gulasch hat deutlich weniger Fett und eine kürzere Garzeit.'
 },
@@ -14484,7 +14484,7 @@ RECIPES.push(
   ],
   nutri:{p:['Fisch'],f:['Okra','Karotten','Tomaten'],i:[],fat:['Rapsöl']},
   kidName:'Weicher Dampffisch',
-  kid:'Fisch entgräten und zerpflücken, Okra und Karotten weich gedämpft in kleine Stücke schneiden und mit Reis und Sud mischen. Ohne Salz und Chili.',
+  kid:'Fisch entgräten und zerpflücken, Okra und Karotten weich gedämpft in kleine Stücke schneiden. Fisch und Gemüse mit Reis und Sud mischen. Ohne Salz und Chili.',
   leftover:'Fisch-Reis-Pfanne · 8 Min. – Reis, Fisch und Gemüse in der Pfanne vollständig durcherhitzen.',
   extras:[], tipp:'Okra gibt es frisch oder tiefgekühlt im Asia- oder Afroshop; ersatzweise grüne Bohnen nehmen.'
 },
@@ -14513,7 +14513,7 @@ RECIPES.push(
   ],
   nutri:{p:['Lachs'],f:['Kochbanane','Tomaten'],i:[],fat:['Lachs (Omega-3)','Kokosmilch']},
   kidName:'Kokos-Lachs mit Kochbanane',
-  kid:'Lachs sorgfältig entgräten und zerpflücken, Kochbanane mit der Gabel zerdrücken und mit etwas Soße mischen. Ohne Salz und Chili.',
+  kid:'Lachs sorgfältig entgräten und zerpflücken, Kochbanane mit der Gabel zerdrücken. Beides mit etwas Soße mischen. Ohne Salz und Chili.',
   leftover:'Kokos-Fisch-Reis · 10 Min. – Reste vollständig erhitzen und mit Reis vom Vortag servieren.',
   extras:[], tipp:'Grüne, feste Kochbananen schmecken herzhaft wie Kartoffeln, gelbe sind süßer und weicher.'
 },
@@ -14859,7 +14859,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Zitronensaft abschmecken und mit Reis servieren.'
   ],
   kidName:'Okra-Rind-Topf mit Reis',
-  kid:'Fleisch sehr fein schneiden oder zerzupfen, Okra in kleine Scheiben schneiden und mit Reis und Soße mischen. Ohne Salz.',
+  kid:'Fleisch sehr fein schneiden oder zerzupfen, Okra in kleine Scheiben schneiden. Fleisch und Okra mit Reis und Soße mischen. Ohne Salz.',
   leftover:'Bamia-Reis-Pfanne · 8 Min. – Reste mit Reis in der Pfanne vollständig erhitzen.',
   tipp:'Kleine tiefgekühlte Okraschoten aus dem arabischen oder türkischen Supermarkt bleiben fest und werden kaum schleimig.'
 },
@@ -14966,7 +14966,7 @@ RECIPES.push(
   ],
   steps:[
     'Zwiebel, Karotten und Kartoffel würfeln und im Topf in Öl mit Kreuzkümmel und Kurkuma 4 Minuten dünsten.',
-    'Linsen waschen, mit der Brühe zugeben und 18 bis 20 Minuten köcheln, bis alles zerfällt, dann mit dem Schneebesen glatt rühren oder pürieren.',
+    'Linsen waschen, mit der Brühe zugeben und 18 bis 20 Minuten köcheln, bis alles zerfällt. Die Suppe mit dem Schneebesen glatt rühren oder pürieren.',
     'Fladenbrot in Stücke schneiden und in einer trockenen Pfanne 4 Minuten knusprig rösten.',
     'Kinderportion ohne Zitrone und Salz abnehmen. Erwachsene mit Salz, Zitronensaft und Kreuzkümmel würzen und mit Brotchips servieren.'
   ],
@@ -15184,7 +15184,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 200 °C vorheizen. Reis waschen, mit der 1,25-fachen Menge Wasser aufkochen und zugedeckt bei kleiner Hitze 15 Minuten garen.',
-    'Pak Choi längs halbieren und Karotte in dünne Scheiben schneiden, mit Öl mischen und auf ein Blech legen. Fisch danebenlegen.',
+    'Pak Choi längs halbieren und Karotte in dünne Scheiben schneiden. Pak Choi und Karotte mit Öl mischen und auf ein Blech legen, Fisch danebenlegen.',
     'Alles 10 bis 12 Minuten backen, bis der Fisch gerade durch ist und das Gemüse weich ist.',
     'Kinderportion abnehmen und auf Gräten prüfen. Miso mit Apfelsaft verrühren, die Erwachsenenfilets damit bestreichen und mit der Grillfunktion 3 Minuten goldbraun überbacken.'
   ],
@@ -15910,7 +15910,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen und Linsen leicht zerdrücken. Erwachsene salzen, nach Wunsch frische Chili dazu nehmen und mit Reis servieren.'
   ],
   kidName:'Weiche Tomatenlinsen mit Reis',
-  kid:'Linsen sehr weich kochen und leicht zerdrücken, Gemüse fein würfeln. Mit Reis mischen, ohne Salz und Chili.',
+  kid:'Linsen sehr weich kochen und leicht zerdrücken, Gemüse fein würfeln. Linsen und Gemüse mit Reis mischen, ohne Salz und Chili.',
   leftover:'Linsen-Wrap · 5 Min. – Reste vollständig erhitzen und mit Avocado in eine Vollkorn-Tortilla rollen.',
   tipp:'Kamande ist das Kikuyu-Wort für Linsen; der Eintopf schmeckt auch mit Ugali oder Chapati.'
 },
@@ -16024,7 +16024,7 @@ RECIPES.push(
     'Kinderportion abnehmen und den Fisch auf Gräten prüfen. Erwachsene schmecken das Gemüse mit Sojasauce ab und geben es über den Fisch.'
   ],
   kidName:'Lachs mit weichem Gemüse',
-  kid:'Lachs entgräten und zerpflücken, Paprika und Pilze weich gebraten klein schneiden und mit Reis mischen. Ingwerstifte für das Kind herauslesen.',
+  kid:'Lachs entgräten und zerpflücken, Paprika und Pilze weich gebraten klein schneiden. Ingwerstifte für das Kind herauslesen. Lachs und Gemüse mit Reis mischen.',
   leftover:'Lachs-Reis-Bowl · 8 Min. – Reste vollständig erhitzen und mit Gurke und Kräutern als Bowl anrichten.',
   tipp:'In Kambodscha wird oft ein ganzer Fisch frittiert, gebratenes Filet kommt mit einem Bruchteil des Öls aus.'
 },
@@ -16501,7 +16501,7 @@ RECIPES.push(
     'Kinderportion ungewürzt abnehmen. Gochujang mit Sojasauce und 2 EL Wasser verrühren und 1 Minute unter den Rest schwenken.'
   ],
   kidName:'Mildes Schwein mit Gemüse',
-  kid:'Fleisch sehr fein schneiden und Gemüse weich und klein anbieten. Ohne Gochujang, dafür mit etwas Reis und Bratflüssigkeit mischen.',
+  kid:'Fleisch sehr fein schneiden und Gemüse weich und klein anbieten. Fleisch und Gemüse ohne Gochujang mit etwas Reis und Bratflüssigkeit mischen.',
   leftover:'Jeyuk-Reisbowl · 8 Min. – Reste vollständig erhitzen und mit Gurke und einem hart gekochten Ei auf Reis servieren.',
   tipp:'Mit Salatblättern und Reis zum Einwickeln wird daraus ein Ssam-Abend.'
 },
@@ -16669,7 +16669,7 @@ RECIPES.push(
     'Kinderportion ungewürzt abnehmen. Doenjang mit etwas Brühe glatt rühren, in den Rest rühren, 2 Minuten ziehen lassen und mit Frühlingszwiebel servieren.'
   ],
   kidName:'Milder Tofu-Gemüse-Topf',
-  kid:'Kartoffel und Zucchini zerdrücken, Tofu klein würfeln und mit Reis und wenig Brühe dick anbieten. Doenjang erst nach der Kinderportion, die Paste ist salzig.',
+  kid:'Kartoffel und Zucchini zerdrücken, Tofu klein würfeln. Gemüse und Tofu mit Reis und wenig Brühe dick anbieten. Doenjang erst nach der Kinderportion, die Paste ist salzig.',
   leftover:'Doenjang-Reistopf · 8 Min. – Reste mit Reis zu einem dicken Eintopf einkochen.',
   tipp:'Doenjang ist kräftiger als helles Miso, ein Esslöffel reicht für eine ganze Erwachsenenportion.'
 },
@@ -16810,7 +16810,7 @@ RECIPES.push(
     '1 EL Reis in der trockenen Pfanne 4 Minuten goldbraun rösten und im Mörser fein mahlen. Den restlichen Reis in der 1,5-fachen Menge Wasser 12 Minuten garen.',
     'Bohnen in 4 cm lange Stücke schneiden und in der Pfanne mit 3 EL Wasser zugedeckt 5 Minuten dünsten, dann herausnehmen. Gurke in Scheiben schneiden und Salat zupfen.',
     'Hack in der Pfanne mit 3 EL Wasser krümelig garen, bis es vollständig durch ist, und vom Herd nehmen.',
-    'Kinderportion ungewürzt abnehmen. In den Rest Limettensaft, Fischsauce, fein geschnittene rote Zwiebel, Kräuter, Röstreis und nach Wunsch Chiliflocken mischen und mit Salat, Gemüse und Reis essen.'
+    'Kinderportion Hack ungewürzt abnehmen. Unter das restliche Hack Limettensaft, Fischsauce, fein geschnittene rote Zwiebel, Kräuter, Röstreis und nach Wunsch Chiliflocken mischen und mit Salat, Gemüse und Reis essen.'
   ],
   kidName:'Mildes Kräuter-Hack mit Reis',
   kid:'Hack fein zerdrücken und mit Reis und etwas Röstreis mischen, Bohnen weich gedünstet klein schneiden und Gurke geschält dazu. Ohne Fischsauce, Limette und Chili.',
@@ -16864,8 +16864,8 @@ RECIPES.push(
   ],
   steps:[
     'Vollkornreis in der doppelten Menge Wasser etwa 30 Minuten garen. Ofen auf 220 °C vorheizen (Airfryer 200 °C).',
-    'Zitronengras und die Hälfte des Knoblauchs fein hacken, mit Öl verrühren und das Hähnchen damit einreiben. Mit Tomaten, Zwiebel und dem restlichen Knoblauch auf ein Blech legen.',
-    'Alles 18 bis 22 Minuten backen, bis das Hähnchen durchgegart ist und die Tomaten weich und leicht gebräunt sind.',
+    'Zitronengras und die Hälfte des Knoblauchs fein hacken, mit Öl verrühren und das Hähnchen damit einreiben. Das Hähnchen mit Tomaten, Zwiebel und dem restlichen Knoblauch auf ein Blech legen.',
+    'Hähnchen und Gemüse auf dem Blech 18 bis 22 Minuten backen, bis das Hähnchen durchgegart ist und die Tomaten weich und leicht gebräunt sind.',
     'Tomaten, Zwiebel und Knoblauch mit der Gabel zu einer groben Salsa zerdrücken und den Koriander untermischen.',
     'Kinderportion mit Hähnchen, Reis und etwas Salsa ungesalzen abnehmen. Erwachsene würzen die Salsa mit Fischsauce, Pfeffer und nach Wunsch Chili.'
   ],
@@ -16955,7 +16955,7 @@ RECIPES.push(
     'Kinderpäckchen ohne Fischsauce öffnen. Erwachsene beträufeln ihren Fisch mit Fischsauce und essen ihn mit Reis und nach Wunsch Chili.'
   ],
   kidName:'Kräuterfisch aus dem Päckchen',
-  kid:'Fisch auf Gräten prüfen und zerpflücken, Zucchini weich und Kirschtomaten geviertelt anbieten. Mit Reis und etwas Garsaft mischen.',
+  kid:'Fisch auf Gräten prüfen, zerpflücken und mit Reis und etwas Garsaft mischen. Zucchini weich und Kirschtomaten geviertelt dazu anbieten.',
   leftover:'Fisch-Reis-Pfanne · 8 Min. – Reste mit dem Reis und Frühlingszwiebel in der Pfanne vollständig erhitzen.',
   tipp:'In Laos wird Mok Pa in Bananenblättern gedämpft, Backpapier hält Saft und Aroma genauso im Päckchen.'
 },
@@ -17008,7 +17008,7 @@ RECIPES.push(
     'Brühe und Kokosmilch mit dem angedrückten Zitronengras aufkochen. Fisch zugeben, bei kleiner Hitze 8 Minuten gar ziehen lassen, herausnehmen und zerpflücken.',
     'Bohnen in kurzen Stücken und Weißkohl in sehr feinen Streifen 5 Minuten in der Suppe garen und den Fisch zurückgeben. Reisnudeln nach Packung garen.',
     'Zitronengras entfernen und die Nudeln auf Schalen verteilen.',
-    'Kinderschale ohne Currypaste und Fischsauce abnehmen. In den Rest Currypaste und Fischsauce rühren, 2 Minuten köcheln, über die Nudeln geben und mit Minze bestreuen.'
+    'Kinderschale ohne Currypaste und Fischsauce abnehmen. In die restliche Suppe Currypaste und Fischsauce rühren, 2 Minuten köcheln, über die übrigen Nudeln geben und mit Minze bestreuen.'
   ],
   kidName:'Milde Kokos-Fischsuppe mit Nudeln',
   kid:'Fisch auf Gräten prüfen, Nudeln kurz schneiden und Kohl und Bohnen weich gegart klein schneiden. Mit wenig lauwarmer Suppe anbieten.',
@@ -17036,7 +17036,7 @@ RECIPES.push(
     'Reis in der 1,5-fachen Menge Wasser 12 Minuten garen und etwas abkühlen lassen. Ofen auf 220 °C vorheizen.',
     'Ein Drittel des Reises für das Kind beiseitestellen. Den Rest mit Currypulver und der Hälfte des Öls mischen, dünn auf einem Blech mit Backpapier verteilen und 20 bis 25 Minuten knusprig backen.',
     'Tofu in kleine Würfel schneiden und im restlichen Öl in der Pfanne 6 Minuten goldbraun braten. Salat in Streifen, Gurke in Scheiben und Frühlingszwiebel in Ringe schneiden.',
-    'Knusperreis grob zerbrechen und mit Tofu, Frühlingszwiebel und Minze mischen.',
+    'Etwas Tofu für das Kind beiseitelegen. Knusperreis grob zerbrechen und mit dem übrigen Tofu, Frühlingszwiebel und Minze mischen.',
     'Kinderportion aus weichem Reis, Tofu und Gurke ungesalzen anrichten. Erwachsene würzen den Knusperreis mit Limettensaft, Salz, gehackten Erdnüssen und nach Wunsch Chili und essen ihn in Salatblättern.'
   ],
   kidName:'Weicher Tofu-Reis',
@@ -17062,12 +17062,12 @@ RECIPES.push(
   ],
   steps:[
     'Klebreis mindestens 4 Stunden einweichen, abtropfen und in einem Sieb über kochendem Wasser zugedeckt 25 Minuten dämpfen. Ofen auf 200 °C vorheizen.',
-    'Pilze in Scheiben schneiden, Zitronengras, Knoblauch und Frühlingszwiebel fein hacken und mit Spinat und Dill mischen.',
+    'Pilze in Scheiben schneiden. Zitronengras, Knoblauch und Frühlingszwiebel fein hacken. Pilze und gehackte Zutaten mit Spinat und Dill mischen.',
     'Eier verquirlen, unter die Pilzmischung rühren und in ofenfeste Förmchen füllen. Mit Backpapier abdecken und 20 bis 25 Minuten backen, bis das Ei vollständig gestockt ist.',
     'Kinderförmchen ohne Sojasauce servieren. Erwachsene beträufeln ihre Förmchen mit Sojasauce und essen sie mit Klebreis und nach Wunsch Chili.'
   ],
   kidName:'Pilz-Ei-Förmchen',
-  kid:'Ei vollständig stocken lassen, Pilze klein schneiden und mit Klebreis in kleinen flachgedrückten Bällchen anbieten. Ohne Sojasauce.',
+  kid:'Ei vollständig stocken lassen und Pilze klein schneiden. Klebreis zu kleinen flachen Bällchen drücken und dazu anbieten. Ohne Sojasauce.',
   leftover:'Pilz-Reis-Pfanne · 8 Min. – Reste mit dem Klebreis in der Pfanne vollständig durchbraten.',
   tipp:'Ohne eingeweichten Klebreis passt Jasminreis, der in 12 Minuten gar ist.'
 },
@@ -17088,7 +17088,7 @@ RECIPES.push(
     {n:'Sojasauce, salzreduziert',q:1,u:'TL',c:'vorrat',p:true}
   ],
   steps:[
-    'Vollkornreis in der doppelten Menge Wasser etwa 30 Minuten garen. Ofen auf 220 °C vorheizen, Aubergine mehrmals einstechen und mit der ungeschälten Knoblauchzehe 25 Minuten rösten, bis sie ganz weich ist.',
+    'Vollkornreis in der doppelten Menge Wasser etwa 30 Minuten garen. Ofen auf 220 °C vorheizen, Aubergine mehrmals einstechen und mit der ungeschälten Knoblauchzehe 25 Minuten rösten, bis die Aubergine ganz weich ist.',
     'Eier 9 Minuten hart kochen, abschrecken und pellen. Bohnen und Karotte in Stifte schneiden und die letzten 6 Minuten im Eierwasser weich garen.',
     'Auberginenfleisch aus der Schale kratzen und mit dem ausgedrückten Knoblauch, Frühlingszwiebel und Koriander mit der Gabel zu einem groben Dip zerdrücken.',
     'Kinderportion abnehmen. Erwachsene würzen den Dip mit Sojasauce und nach Wunsch gerösteter Chili und tunken Gemüse, Ei und Reis hinein.'
@@ -17204,7 +17204,7 @@ RECIPES.push(
     'Kinderportion abnehmen. Erwachsene mit Sojasauce und nach Wunsch Chili abschmecken und mit Reis essen.'
   ],
   kidName:'Milder Kürbis-Tofu-Eintopf',
-  kid:'Kürbis zerdrücken, Tofu und Pilze klein schneiden und mit Reis und wenig Sud mischen. Bambusstreifen sehr fein hacken oder weglassen.',
+  kid:'Kürbis zerdrücken, Tofu und Pilze klein schneiden. Alle drei mit Reis und wenig Sud mischen. Bambusstreifen sehr fein hacken oder weglassen.',
   leftover:'Kürbis-Reis-Topf · 8 Min. – Reste mit dem Reis vollständig aufkochen und als dicken Eintopf essen.',
   tipp:'Bambussprossen aus der Dose vorher gut abspülen, dann verlieren sie den Dosengeschmack.'
 }
@@ -17370,7 +17370,7 @@ RECIPES.push(
     'Hähnchen würfeln und mit 2 EL Joghurt, dem halben Zitronensaft, der Hälfte des Knoblauchs und Paprikapulver mindestens 10 Minuten marinieren. Ofen auf 220 °C vorheizen.',
     'Kartoffeln in Spalten schneiden, mit Öl mischen und 10 Minuten vorbacken.',
     'Hähnchen mit Paprika- und Zwiebelstücken auf Spieße stecken oder lose zu den Kartoffeln legen und 18 bis 20 Minuten mitbacken, bis das Fleisch innen nicht mehr rosa ist.',
-    'Restlichen Joghurt mit fein geriebenem Knoblauch und etwas Zitronensaft verrühren. Kinderportion ungesalzen und mit Naturjoghurt abnehmen, dann Erwachsene salzen und mit Knoblauchdip servieren.'
+    'Etwas Naturjoghurt für das Kind beiseitestellen. Den übrigen Joghurt mit fein geriebenem Knoblauch und etwas Zitronensaft verrühren. Kinderportion ungesalzen mit dem Naturjoghurt abnehmen, dann Erwachsene salzen und mit Knoblauchdip servieren.'
   ],
   kidName:'Hähnchen-Happen',
   kid:'Spieße entfernen, Hähnchen in kleine Stücke schneiden und mit Naturjoghurt ohne Knoblauch servieren. Kartoffelspalten längs halbieren.',
@@ -17395,7 +17395,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 220 °C vorheizen. Za\'atar mit Olivenöl zu einer Paste verrühren.',
-    'Fladenbrot zur Hälfte mit der Za\'atar-Paste bestreichen, die andere Hälfte mit zerzupftem Mozzarella belegen und 8 bis 10 Minuten backen, im Airfryer 5 bis 6 Minuten bei 190 °C.',
+    'Fladenbrot zur Hälfte mit der Za\'atar-Paste bestreichen, die andere Hälfte mit zerzupftem Mozzarella belegen. Das Fladenbrot 8 bis 10 Minuten backen, im Airfryer 5 bis 6 Minuten bei 190 °C.',
     'Tomaten und Gurke in Spalten schneiden, Oliven halbieren und Minze zupfen.',
     'Kinderportion ungesalzen abnehmen, dann Erwachsene mit Salz, Pfeffer und Minze würzen und alles mit Labneh servieren.'
   ],
@@ -17451,7 +17451,7 @@ RECIPES.push(
   steps:[
     'Zwiebeln in Halbringe schneiden und in Öl bei mittlerer Hitze 15 Minuten tief goldbraun schmoren.',
     'Die Hälfte der Zwiebeln mit Reis, Kreuzkümmel und Brühe in einen Topf geben, aufkochen und zugedeckt 12 Minuten garen.',
-    'Fisch in Stücke schneiden, auf den Reis legen und zugedeckt weitere 8 bis 10 Minuten garen, bis er durch ist. Tomaten und Gurke zu einem Salat würfeln.',
+    'Fisch in Stücke schneiden, auf den Reis legen und zugedeckt weitere 8 bis 10 Minuten garen, bis der Fisch durch ist. Tomaten und Gurke zu einem Salat würfeln.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Zitrone würzen und mit den übrigen Zwiebeln und dem Salat servieren.'
   ],
   kidName:'Fischreis',
@@ -17479,7 +17479,7 @@ RECIPES.push(
     'Reis in der doppelten Menge Wasser aufkochen und zugedeckt 15 Minuten garen.',
     'Zwiebel und Knoblauch fein würfeln und in Öl 3 Minuten dünsten, passierte Tomaten, Baharat und abgespülte Bohnen zugeben und 10 Minuten köcheln.',
     'Koriander hacken und die Hälfte unterrühren, Gurke in Scheiben schneiden.',
-    'Kinderportion ungesalzen abnehmen und die Bohnen leicht zerdrücken. Erwachsene mit Salz, Pfeffer und restlichem Koriander würzen.'
+    'Kinderportion ungesalzen abnehmen und die Bohnen der Kinderportion leicht zerdrücken. Erwachsene mit Salz, Pfeffer und restlichem Koriander würzen.'
   ],
   kidName:'Bohnen-Reis',
   kid:'Bohnen für das Kind mit der Gabel zerdrücken und unter den Reis mischen, Gurke in dünne Stifte schneiden. Ohne Salz.',
@@ -17533,7 +17533,7 @@ RECIPES.push(
   ],
   steps:[
     'Weinblätter 10 Minuten in warmem Wasser einweichen und abspülen, damit sie weniger salzig sind.',
-    'Reis waschen, Kichererbsen grob zerdrücken und mit einer fein gewürfelten Tomate, gehackten Kräutern, Öl und der Hälfte des Zitronensafts mischen.',
+    'Reis waschen und Kichererbsen grob zerdrücken. Reis und Kichererbsen mit einer fein gewürfelten Tomate, gehackten Kräutern, Öl und der Hälfte des Zitronensafts mischen.',
     'Je einen Teelöffel Füllung auf ein Blatt geben, Seiten einschlagen und fest aufrollen. Den Topfboden mit Kartoffel- und Tomatenscheiben auslegen und die Röllchen dicht daraufschichten.',
     'Mit Wasser knapp bedecken, restlichen Zitronensaft zugeben, einen Teller zum Beschweren auflegen und zugedeckt 40 bis 45 Minuten leise köcheln, bis der Reis weich ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und Joghurt servieren.'
@@ -17562,9 +17562,9 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 200 °C vorheizen. Mehl, Backpulver, 60 g Joghurt, die Hälfte des Öls und 2 bis 3 EL Wasser zu einem glatten Teig kneten.',
-    'Spinat grob hacken, Zwiebel fein würfeln und mit zerbröseltem Feta, Sumach und Zitronensaft mischen, die Flüssigkeit gut ausdrücken.',
+    'Spinat grob hacken und Zwiebel fein würfeln. Spinat und Zwiebel mit zerbröseltem Feta, Sumach und Zitronensaft mischen und die Flüssigkeit aus der Füllung gut ausdrücken.',
     'Teig dünn ausrollen, Kreise von 10 cm ausstechen, je einen Löffel Füllung daraufgeben und zu Dreiecken zusammendrücken.',
-    'Mit restlichem Öl bestreichen und 15 bis 18 Minuten goldbraun backen. Gurke fein würfeln und unter den restlichen Joghurt rühren.',
+    'Die Taschen mit restlichem Öl bestreichen und 15 bis 18 Minuten goldbraun backen. Gurke fein würfeln und unter den restlichen Joghurt rühren.',
     'Kinderportion abnehmen und mit Gurkenjoghurt servieren. Erwachsene mit Pfeffer und mehr Sumach würzen, Salz ist durch den Feta kaum nötig.'
   ],
   kidName:'Mini-Spinattaschen',
@@ -17683,7 +17683,7 @@ RECIPES.push(
     'Mehl mit Kokosraspeln, einem Viertel der Zwiebel sehr fein gehackt und etwa 45 ml Wasser zu einem weichen Teig kneten und 10 Minuten ruhen lassen.',
     'Restliche Zwiebel und Curryblätter in Öl 3 Minuten dünsten, Currypulver kurz mitrösten. Gewürfelte Tomate, abgespülte Kichererbsen und Kokosmilch zugeben und 10 Minuten köcheln, Spinat zum Schluss unterheben.',
     'Teig in 2 bis 3 Stücke teilen, mit feuchten Händen 5 mm dick flach drücken und in einer Pfanne ohne Fett je Seite 3 bis 4 Minuten backen, bis die Fladen fest und leicht gebräunt sind.',
-    'Kinderportion ungesalzen abnehmen, Curryblätter entfernen und Kichererbsen zerdrücken. Erwachsene mit Salz und nach Wunsch grüner Chili würzen.'
+    'Kinderportion ungesalzen abnehmen, Curryblätter entfernen und die Kichererbsen der Kinderportion zerdrücken. Erwachsene mit Salz und nach Wunsch grüner Chili würzen.'
   ],
   nutri:{p:['Kichererbsen','Vollkornmehl'],f:['Kichererbsen','Vollkornmehl','Kokos'],i:['Kichererbsen','Spinat'],fat:['Kokos','Rapsöl']},
   kidName:'Mini-Pol-Roti',
@@ -17712,7 +17712,7 @@ RECIPES.push(
     'Cashewkerne 30 Minuten in heißem Wasser einweichen, damit sie weich werden. Reis in der doppelten Menge Wasser 25 Minuten garen.',
     'Zwiebel und Curryblätter in Öl 3 Minuten dünsten. Abgetropfte Cashews, Karottenwürfel, Kurkuma, Zimt und 100 ml Wasser zugeben und 12 Minuten köcheln, bis die Cashews weich sind.',
     'Kokosmilch und Erbsen zugeben und 5 Minuten weiterköcheln.',
-    'Kinderportion ungesalzen abnehmen, Curryblätter entfernen und die Cashews zerdrücken. Erwachsene mit Salz und nach Wunsch Chili würzen.'
+    'Kinderportion ungesalzen abnehmen, Curryblätter entfernen und die Cashews der Kinderportion zerdrücken. Erwachsene mit Salz und nach Wunsch Chili würzen.'
   ],
   nutri:{p:['Cashews','Erbsen'],f:['Erbsen','Vollkornreis','Karotten'],i:['Cashews','Erbsen'],fat:['Cashews','Kokosmilch']},
   kidName:'Mini-Kaju-Curry',
@@ -17768,13 +17768,13 @@ RECIPES.push(
   ],
   steps:[
     'Eier 10 Minuten hart kochen, abschrecken und schälen. Reisnudeln nach Packungsangabe 4 bis 5 Minuten in heißem Wasser ziehen lassen und abgießen.',
-    'Für das Kiri Hodi Zwiebel in Streifen, Tomate in Würfel und Karotte in feine Stifte schneiden. Mit Curryblättern, Kurkuma, Kokosmilch und 100 ml Wasser 8 Minuten sanft köcheln.',
+    'Für das Kiri Hodi Zwiebel in Streifen, Tomate in Würfel und Karotte in feine Stifte schneiden. Das Gemüse mit Curryblättern, Kurkuma, Kokosmilch und 100 ml Wasser 8 Minuten sanft köcheln.',
     'Spinat und die halbierten Eier zugeben und 2 Minuten ziehen lassen. Nudeln zu kleinen Nestern drehen und die Soße darübergeben.',
     'Kinderportion ungesalzen abnehmen und die Curryblätter entfernen. Erwachsene mit Salz, Zitronensaft und nach Wunsch Chiliflocken würzen.'
   ],
   nutri:{p:['Eier'],f:['Spinat','Karotten'],i:['Eier','Spinat'],fat:['Kokosmilch','Eigelb']},
   kidName:'Mini-Indi-Appa',
-  kid:'Reisnudeln in kurze Stücke schneiden, Ei fein hacken und alles mit der milden Kokos-Soße mischen. Karotten weich garen, ohne Salz.',
+  kid:'Reisnudeln in kurze Stücke schneiden, Ei fein hacken und beides mit der milden Kokos-Soße mischen. Karotten weich garen, ohne Salz.',
   leftover:'Kokos-Nudelpfanne · 8 Min. – Reste mit etwas Wasser in der Pfanne vollständig erhitzen.',
   extras:['kichererbsen','tofu','linsen'], tipp:'Echte Indi Appa werden aus Reismehlteig gepresst, dünne Reisnudeln sind ein schneller Alltagsersatz.'
 },
@@ -17826,9 +17826,9 @@ RECIPES.push(
   ],
   steps:[
     'Mungbohnen waschen und mit Kurkuma in 500 ml Wasser 30 Minuten weich kochen. Reis parallel in der doppelten Menge Wasser 25 Minuten garen.',
-    'Bohnen und Karotte klein schneiden, zu den Mungbohnen geben und 8 Minuten mitkochen. Kokosmilch einrühren.',
-    'Senfsamen in Öl in einer kleinen Pfanne erhitzen, bis sie springen, Zwiebel und Curryblätter 3 Minuten goldbraun braten und über das Curry geben.',
-    'Kinderportion ungesalzen abnehmen, Curryblätter entfernen und die Mungbohnen leicht zerdrücken. Erwachsene mit Salz und nach Wunsch Chili würzen.'
+    'Grüne Bohnen und Karotte klein schneiden, zu den Mungbohnen geben und 8 Minuten mitkochen. Kokosmilch einrühren.',
+    'Senfsamen in Öl in einer kleinen Pfanne erhitzen, bis sie springen. Zwiebel und Curryblätter zugeben und 3 Minuten goldbraun braten. Den Pfanneninhalt über das Curry geben.',
+    'Kinderportion ungesalzen abnehmen, Curryblätter entfernen und die Mungbohnen der Kinderportion leicht zerdrücken. Erwachsene mit Salz und nach Wunsch Chili würzen.'
   ],
   nutri:{p:['Mungbohnen','Vollkornreis'],f:['Mungbohnen','Bohnen','Vollkornreis'],i:['Mungbohnen'],fat:['Kokosmilch','Rapsöl']},
   kidName:'Mini-Mungbohnen-Curry',
@@ -17885,13 +17885,13 @@ RECIPES.push(
   ],
   steps:[
     'Reis in der 1,5-fachen Menge Wasser 12 Minuten garen.',
-    'Zwiebel in Streifen, Tomate und Zucchini in Würfel schneiden. Mit Curryblättern, Kurkuma, Zimt, Kokosmilch und 50 ml Wasser in der Pfanne 6 Minuten sanft köcheln.',
+    'Zwiebel in Streifen, Tomate und Zucchini in Würfel schneiden. Das Gemüse mit Curryblättern, Kurkuma, Zimt, Kokosmilch und 50 ml Wasser in der Pfanne 6 Minuten sanft köcheln.',
     'Fisch in große Stücke schneiden, in die Soße legen und zugedeckt bei kleiner Hitze 6 bis 7 Minuten gar ziehen lassen, ohne umzurühren.',
     'Kinderportion ungesalzen abnehmen und die Curryblätter entfernen. Erwachsene mit Salz, Limettensaft und nach Wunsch grüner Chili würzen.'
   ],
   nutri:{p:['Seelachs'],f:['Zucchini','Tomaten'],i:['Seelachs'],fat:['Kokosmilch']},
   kidName:'Mini-Kiri-Malu',
-  kid:'Fisch auf Gräten prüfen und zerpflücken, Zucchini zerdrücken und alles mit Reis und der milden Kokos-Soße mischen. Ohne Salz und Chili.',
+  kid:'Fisch auf Gräten prüfen und zerpflücken, Zucchini zerdrücken und beides mit Reis und der milden Kokos-Soße mischen. Ohne Salz und Chili.',
   leftover:'Fisch-Kokos-Nudeln · 8 Min. – Reste mit Wasser und Reisnudeln verlängern und vollständig erhitzen.',
   extras:['kichererbsen','linsen'], tipp:'Weiße Currys ohne Chili sind in Sri Lanka das klassische Familienessen für Kinder.'
 },
@@ -17914,7 +17914,7 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln schälen, würfeln und in Wasser 15 Minuten weich kochen, abgießen und fein zerstampfen. Ofen auf 210 °C vorheizen.',
-    'Zwiebel und Curryblätter sehr fein hacken und in der Hälfte des Öls 3 Minuten dünsten. Mit dem abgetropften Thunfisch und einem Spritzer Limette unter die Kartoffeln mischen.',
+    'Zwiebel und Curryblätter sehr fein hacken und in der Hälfte des Öls 3 Minuten dünsten. Zwiebel und Curryblätter mit dem abgetropften Thunfisch und einem Spritzer Limette unter die Kartoffeln mischen.',
     'Masse zu walnussgroßen Bällchen formen, erst im verquirlten Ei, dann in Semmelbröseln wälzen. Auf ein Blech mit Backpapier setzen, mit restlichem Öl beträufeln und 20 Minuten goldbraun backen (Heißluftfritteuse: 12 Minuten bei 200 °C).',
     'Tomate und Gurke würfeln und als Salat dazu reichen.',
     'Kinderportion ohne Würze abnehmen. Erwachsene salzen und pfeffern am Tisch und nehmen nach Wunsch einen Chili-Dip dazu.'
@@ -17950,7 +17950,7 @@ RECIPES.push(
   ],
   nutri:{p:['Hähnchen'],f:['Bohnen','Tomaten'],i:['Hähnchen','Bohnen'],fat:['Kokosmilch','Rapsöl']},
   kidName:'Mini-Kukul-Curry',
-  kid:'Hähnchen klein zerzupfen, Bohnen sehr weich garen und klein schneiden, alles mit Reis und Kokossoße vermengen. Ohne Salz und Chili.',
+  kid:'Hähnchen klein zerzupfen, Bohnen sehr weich garen und klein schneiden, beides mit Reis und Kokossoße vermengen. Ohne Salz und Chili.',
   leftover:'Curry-Reis-Pfanne · 8 Min. – Reste mit etwas Wasser in der Pfanne vollständig erhitzen.',
   extras:['kichererbsen','linsen'], tipp:'Sri-lankisches Currypulver wird dunkel geröstet, normales Currypulver 1 Minute ohne Fett angeröstet kommt dem nahe.'
 },
@@ -18003,7 +18003,7 @@ RECIPES.push(
   steps:[
     'Tortillas in 1 cm breite Streifen schneiden. Kohl, Karotte und Lauch in feine Streifen, Hähnchen in kleine Würfel schneiden.',
     'Hähnchen in Öl 4 Minuten anbraten, bis es durchgegart ist. Zwiebel, Curryblätter, Currypulver und Gemüse zugeben und 3 Minuten unter Rühren braten.',
-    'Ei in die Pfanne schlagen und unter Rühren vollständig stocken lassen. Tortillastreifen und 2 EL Wasser untermischen und 1 Minute weiterbraten, dabei mit dem Pfannenwender klein hacken.',
+    'Ei in die Pfanne schlagen und unter Rühren vollständig stocken lassen. Tortillastreifen und 2 EL Wasser untermischen und 1 Minute weiterbraten, dabei alles in der Pfanne mit dem Pfannenwender klein hacken.',
     'Kinderportion ungesalzen abnehmen und die Curryblätter entfernen. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen.'
   ],
   nutri:{p:['Hähnchen','Ei'],f:['Vollkorn-Tortillas','Kohl','Karotten'],i:['Hähnchen','Ei'],fat:['Rapsöl']},
@@ -18038,7 +18038,7 @@ RECIPES.push(
   ],
   nutri:{p:['Rinderhack','Ei'],f:['Aubergine','Tomaten'],i:['Rinderhack','Ei'],fat:['Rapsöl']},
   kidName:'Mini-Lamprais',
-  kid:'Frikadellen vollständig durchgaren und zerkleinern, Ei fein hacken, Aubergine zerdrücken und alles mit dem Reis mischen. Ohne Salz und Chili.',
+  kid:'Frikadellen vollständig durchgaren und zerkleinern, Ei fein hacken, Aubergine zerdrücken und alle drei mit dem Reis mischen. Ohne Salz und Chili.',
   leftover:'Lamprais-Pfanne · 10 Min. – Päckcheninhalt mit etwas Wasser in der Pfanne vollständig erhitzen.',
   extras:['joghurt'], tipp:'Traditionell wird Lamprais in Bananenblätter gewickelt, die es tiefgekühlt im Asialaden gibt und die ein feines Aroma abgeben.'
 },
@@ -18095,7 +18095,7 @@ RECIPES.push(
     {n:'Kurkuma',q:0.25,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel fein würfeln, Ingwer reiben. Hähnchen in große Stücke schneiden und mit der Zwiebel in Öl 5 Minuten anbraten, Kurkuma kurz mitrösten.',
+    'Zwiebel fein würfeln, Ingwer reiben. Hähnchen in große Stücke schneiden und mit Zwiebel und Ingwer in Öl 5 Minuten anbraten, Kurkuma kurz mitrösten.',
     'Karotten in Stifte schneiden, mit 200 ml Wasser und etwas abgeriebener Zitronenschale zugeben und zugedeckt 20 Minuten schmoren.',
     'Zucchini in Stücke schneiden und 10 Minuten mitgaren, bis das Hähnchen durchgegart und das Gemüse weich ist. Couscous mit der gleichen Menge heißem Wasser übergießen und 5 Minuten quellen lassen.',
     'Kinderportion ohne Oliven und Salz abnehmen. Erwachsene mit Oliven, Zitronensaft, Salz und Pfeffer abschmecken.'
@@ -18209,7 +18209,7 @@ RECIPES.push(
     'Ofen auf 150 °C vorheizen. Rindfleisch mit Öl, Kreuzkümmel, Kurkuma, gehacktem Knoblauch und Zwiebelstreifen in einem Bräter mischen.',
     'Kartoffeln und Karotten in große Stücke schneiden und mit zwei Zitronenscheiben und 150 ml Wasser dazugeben.',
     'Zugedeckt 2,5 Stunden schmoren, bis das Fleisch zerfällt. Im Slowcooker 6 bis 7 Stunden auf niedriger Stufe garen. Zitronenscheiben entfernen.',
-    'Kinderportion ohne Salz abnehmen und das Fleisch fein zerzupfen. Erwachsene mit Salz und frischem Zitronensaft abschmecken.'
+    'Kinderportion ohne Salz abnehmen und das Fleisch der Kinderportion fein zerzupfen. Erwachsene mit Salz und frischem Zitronensaft abschmecken.'
   ],
   kidName:'Zartes Schmorfleisch mit Kartoffelstampf',
   kid:'Fleisch mit zwei Gabeln fein zerzupfen, Kartoffeln und Karotten mit etwas Schmorsaft zerdrücken. Kein Salz, Zitrone erst bei den Erwachsenen.',
@@ -18292,8 +18292,8 @@ RECIPES.push(
   steps:[
     'Zwiebel und Sellerie fein würfeln und in Öl 5 Minuten dünsten. Zimt und Kurkuma kurz mitrösten.',
     'Linsen, passierte Tomaten und 400 ml Wasser zugeben und 25 Minuten köcheln, bis die Linsen weich sind.',
-    'Kichererbsen zugeben und 5 Minuten mitwärmen. Mit etwas Wasser auf eine dicke, sämige Konsistenz bringen und gehackten Koriander unterrühren.',
-    'Kinderportion ohne Salz abnehmen und Kichererbsen zerdrücken. Erwachsene salzen, pfeffern und Brot dazu reichen.'
+    'Kichererbsen zugeben und 5 Minuten mitwärmen. Die Suppe mit etwas Wasser auf eine dicke, sämige Konsistenz bringen und gehackten Koriander unterrühren.',
+    'Kinderportion ohne Salz abnehmen und die Kichererbsen der Kinderportion zerdrücken. Erwachsene salzen, pfeffern und Brot dazu reichen.'
   ],
   kidName:'Dicke Mini-Harira',
   kid:'Harira etwas dicker lassen und Kichererbsen gründlich zerdrücken. Weiches Brot ohne Rinde in kleinen Stücken zum Tunken, ohne Salz.',
@@ -18349,7 +18349,7 @@ RECIPES.push(
     'Zwiebel, Knoblauch und Karotte fein würfeln und in Öl 4 Minuten dünsten. Kreuzkümmel und Paprikapulver kurz mitrösten.',
     'Passierte Tomaten und 100 ml Wasser zugeben, Bohnen abspülen und dazugeben. 8 Minuten köcheln, bis die Karotten weich sind und die Soße eindickt.',
     'Petersilie hacken und unterrühren.',
-    'Kinderportion ohne Salz abnehmen und Bohnen zerdrücken. Erwachsene salzen, nach Wunsch mit etwas Chili schärfen und Brot dazu reichen.'
+    'Kinderportion ohne Salz abnehmen und die Bohnen der Kinderportion zerdrücken. Erwachsene salzen, nach Wunsch mit etwas Chili schärfen und Brot dazu reichen.'
   ],
   kidName:'Bohnenmus mit Tomate',
   kid:'Bohnen gründlich zerdrücken und mit der Soße zu einem weichen Mus mischen. Brot ohne harte Rinde in Streifen dazu, kein Salz.',
@@ -18401,7 +18401,7 @@ RECIPES.push(
   ],
   steps:[
     'Aubergine in kleine Würfel schneiden, Tomaten grob hacken, Knoblauch fein hacken.',
-    'Aubergine in Öl 3 Minuten anbraten. Tomaten, Knoblauch und Gewürze zugeben und zugedeckt 7 Minuten weich schmoren, dabei grob zerdrücken.',
+    'Aubergine in Öl 3 Minuten anbraten. Tomaten, Knoblauch und Gewürze zugeben und zugedeckt 7 Minuten weich schmoren, dabei Aubergine und Tomaten grob zerdrücken.',
     'Für jedes Ei eine Mulde formen, Eier hineinschlagen und zugedeckt 6 Minuten garen, bis Eiweiß und Eigelb fest sind. Gehackten Koriander darüber streuen.',
     'Kinderportion ohne Salz abnehmen. Erwachsene salzen und mit warmem Fladenbrot essen.'
   ],
@@ -18429,7 +18429,7 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln schälen, in Stücke schneiden und in 15 Minuten weich kochen. Ofen auf 210 °C vorheizen.',
-    'Kartoffeln abgießen, ausdampfen lassen und zerstampfen. Mit Eiern, gehackter Petersilie, Kreuzkümmel und Kurkuma verrühren, auf einem Blech mit Backpapier zu flachen Küchlein formen und dünn mit Öl bestreichen.',
+    'Kartoffeln abgießen, ausdampfen lassen und zerstampfen. Den Kartoffelstampf mit Eiern, gehackter Petersilie, Kreuzkümmel und Kurkuma verrühren. Die Masse auf einem Blech mit Backpapier zu flachen Küchlein formen und die Küchlein dünn mit Öl bestreichen.',
     'Küchlein 20 Minuten backen und nach 12 Minuten wenden, bis sie goldbraun und innen fest sind. Für die Taktouka Paprika und Tomaten würfeln und mit Knoblauch in wenig Öl 10 Minuten weich schmoren.',
     'Kinderportion ohne Salz abnehmen und mit Joghurt servieren. Erwachsene salzen die Taktouka und würzen nach Wunsch mit Chili.'
   ],
@@ -18457,9 +18457,9 @@ RECIPES.push(
   ],
   steps:[
     'Zwiebel, Knoblauch und Karotte würfeln und in Öl 4 Minuten dünsten. Kreuzkümmel und Paprikapulver kurz mitrösten.',
-    'Linsen abspülen, mit Tomaten und 350 ml Wasser zugeben und 25 bis 30 Minuten köcheln, bis sie weich sind und die Soße dick ist.',
+    'Linsen abspülen, mit Tomaten und 350 ml Wasser zugeben und 25 bis 30 Minuten köcheln, bis die Linsen weich sind und die Soße dick ist.',
     'Koriander hacken und unterrühren.',
-    'Kinderportion ohne Salz abnehmen und Linsen leicht zerdrücken. Erwachsene salzen und mit einem Schuss Olivenöl und Brot servieren.'
+    'Kinderportion ohne Salz abnehmen und die Linsen der Kinderportion leicht zerdrücken. Erwachsene salzen und mit einem Schuss Olivenöl und Brot servieren.'
   ],
   kidName:'Weiche Tomatenlinsen',
   kid:'Linsen sehr weich kochen und leicht zerdrücken, Karotten fein gewürfelt. Mit weichem Brot ohne Rinde und ohne Salz anbieten.',
@@ -18517,7 +18517,7 @@ RECIPES.push(
   ],
   steps:[
     'Hähnchen in leicht siedendem Wasser 15 Minuten gar ziehen lassen und mit zwei Gabeln zerzupfen. Ofen auf 200 °C vorheizen.',
-    'Zwiebel in feine Streifen schneiden, Knoblauch hacken und in der Hälfte des Öls 5 Minuten weich dünsten. Tomaten und Oregano zugeben, 5 Minuten köcheln und das Hähnchen untermischen.',
+    'Zwiebel in feine Streifen schneiden und Knoblauch hacken. Beides in der Hälfte des Öls 5 Minuten weich dünsten. Tomaten und Oregano zugeben, 5 Minuten köcheln und das Hähnchen untermischen.',
     'Tortillas dünn mit dem restlichen Öl bepinseln und auf einem Blech 6 bis 8 Minuten knusprig backen. Bohnen zerdrücken und erwärmen, Salat in Streifen und Avocado in Scheiben schneiden.',
     'Kinderportion abnehmen. Erwachsene Tinga mit Salz und gehackter Chipotle-Chili abschmecken und die Tostadas mit Bohnen, Tinga, Salat und Avocado belegen.'
   ],
@@ -18606,7 +18606,7 @@ RECIPES.push(
     'Kinderportion abnehmen. Erwachsene mit Salz und Chiliflocken abschmecken und mit dem Reis servieren.'
   ],
   kidName:'Mini-Albóndigas',
-  kid:'Bällchen vierteln oder zerdrücken, Gemüse weich garen und mit Reis und Sauce mischen. Ohne Chili und Salz.',
+  kid:'Bällchen vierteln oder zerdrücken und Gemüse weich garen. Bällchen und Gemüse mit Reis und Sauce mischen. Ohne Chili und Salz.',
   leftover:'Albóndigas-Brötchen · 8 Min. – Bällchen in der Sauce erhitzen und in ein Vollkornbrötchen geben.',
   tipp:'Frische Minze in den Bällchen ist typisch für die mexikanische Hausküche und macht sie besonders frisch.'
 },
@@ -18658,7 +18658,7 @@ RECIPES.push(
   steps:[
     'Reis in der doppelten Menge Wasser 15 Minuten garen.',
     'Zwiebel, Knoblauch und Paprika in Streifen schneiden und in Öl 5 Minuten dünsten. Tomaten, Oregano und Lorbeer zugeben und 5 Minuten köcheln.',
-    'Fischfilet in die Sauce legen und zugedeckt bei kleiner Hitze 8 bis 10 Minuten garen, bis er sich leicht zerteilen lässt.',
+    'Fischfilet in die Sauce legen und zugedeckt bei kleiner Hitze 8 bis 10 Minuten garen, bis sich der Fisch leicht zerteilen lässt.',
     'Kinderportion abnehmen und den Fisch auf Gräten prüfen. Erwachsene mit halbierten Oliven, Salz und eingelegter Jalapeño servieren.'
   ],
   kidName:'Fisch in milder Tomatensauce',
@@ -18685,7 +18685,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 220 °C vorheizen. Fisch in fingerbreite Streifen schneiden, mit Öl, Paprikapulver und Kreuzkümmel mischen und auf einem Blech 10 bis 12 Minuten backen, bis er durchgegart ist.',
-    'Weißkohl fein hobeln, Karotte raspeln und mit etwas Limettensaft mischen. Joghurt mit abgeriebener Limettenschale verrühren, Avocado in Scheiben schneiden.',
+    'Weißkohl fein hobeln, Karotte raspeln und beides mit etwas Limettensaft mischen. Joghurt mit abgeriebener Limettenschale verrühren, Avocado in Scheiben schneiden.',
     'Tortillas in Alufolie gewickelt in den letzten 2 Minuten im Ofen erwärmen.',
     'Kinderportion abnehmen und den Fisch auf Gräten prüfen. Erwachsene mit Salz, Chili und Limette würzen und die Tacos mit Kohl, Avocado und Joghurt füllen.'
   ],
@@ -18739,7 +18739,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 200 °C vorheizen. Süßkartoffel in kleine Würfel schneiden und mit gewürfelter Zwiebel in Öl zugedeckt 8 Minuten weich braten. Bohnen, Spinat und Kreuzkümmel zugeben und grob zerdrücken.',
+    'Ofen auf 200 °C vorheizen. Süßkartoffel in kleine Würfel schneiden und mit gewürfelter Zwiebel in Öl zugedeckt 8 Minuten weich braten. Bohnen, Spinat und Kreuzkümmel zugeben und die ganze Füllung grob zerdrücken.',
     'Tortillas kurz in der trockenen Pfanne erwärmen, damit sie biegsam werden. Füllung darauf verteilen, aufrollen und dicht in eine Auflaufform legen.',
     'Passierte Tomaten darübergießen, mit zerzupftem Mozzarella belegen und 15 Minuten backen, bis der Käse geschmolzen ist.',
     'Kinderportion abnehmen. Erwachsene mit Salz und Chiliflocken würzen und mit einem Klecks Joghurt servieren.'
@@ -18793,9 +18793,9 @@ RECIPES.push(
     {n:'Rapsöl',q:0.5,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel fein würfeln, Champignons in Scheiben schneiden und in Öl 5 Minuten braten. Spinat und Mais zugeben, bis der Spinat zusammenfällt, dann herausnehmen.',
+    'Zwiebel fein würfeln, Champignons in Scheiben schneiden und beides in Öl 5 Minuten braten. Spinat und Mais zugeben und mitbraten, bis der Spinat zusammenfällt, dann das Gemüse herausnehmen.',
     'Tortillas zur Hälfte mit Gemüse und zerzupftem Mozzarella belegen und zuklappen.',
-    'In der trockenen Pfanne bei mittlerer Hitze je Seite 2 bis 3 Minuten rösten, bis der Käse geschmolzen ist. Tomate würfeln und mit Limettensaft mischen.',
+    'Die Quesadillas in der trockenen Pfanne bei mittlerer Hitze je Seite 2 bis 3 Minuten rösten, bis der Käse geschmolzen ist. Tomate würfeln und mit Limettensaft mischen.',
     'Kinderportion abnehmen. Erwachsene die Tomatensalsa mit Salz, Koriander und Chili würzen und zu den Quesadillas servieren.'
   ],
   kidName:'Käse-Tortilla-Ecken',
@@ -18823,11 +18823,11 @@ RECIPES.push(
   steps:[
     'Vollkornreis in der doppelten Menge Wasser 30 Minuten garen. Ofen auf 200 °C vorheizen.',
     'Spitzpaprika längs aufschneiden, entkernen, mit Öl bepinseln und 10 Minuten vorbacken.',
-    'Zucchini fein würfeln und mit Mais, Hüttenkäse und der Hälfte des Mozzarellas mischen. Passierte Tomaten mit fein geriebener Zwiebel und Oregano in eine Form geben, gefüllte Paprika daraufsetzen, mit restlichem Käse belegen und 15 Minuten backen.',
+    'Zucchini fein würfeln, mit Mais, Hüttenkäse und der Hälfte des Mozzarellas mischen und in die Paprika füllen. Passierte Tomaten mit fein geriebener Zwiebel und Oregano in eine Form geben, die gefüllten Paprika daraufsetzen, mit restlichem Käse belegen und 15 Minuten backen.',
     'Kinderportion abnehmen. Erwachsene mit Salz und Chili würzen und mit Reis servieren.'
   ],
   kidName:'Paprika-Käse-Schiffchen',
-  kid:'Paprikahaut nach dem Backen abziehen, das weiche Fruchtfleisch mit Füllung klein schneiden und den Mais zerdrücken. Ohne Salz und Chili mit Reis mischen.',
+  kid:'Paprikahaut nach dem Backen abziehen, das weiche Fruchtfleisch mit Füllung klein schneiden und den Mais zerdrücken. Paprika, Füllung und Mais ohne Salz und Chili mit Reis mischen.',
   leftover:'Chile-Reis-Pfanne · 8 Min. – Reste klein schneiden, mit Reis in der Pfanne erhitzen und ein Ei unterrühren.',
   tipp:'Im Original werden Poblano-Chilis im Eimantel frittiert, Spitzpaprika aus dem Ofen sind milder und leichter.'
 },
@@ -19047,7 +19047,7 @@ RECIPES.push(
   steps:[
     'Zwiebel, Paprika und Spinat fein hacken und mit den Eiern und dem Currypulver verquirlen.',
     'Brötchen längs halbieren. Eimasse in eine geölte Pfanne geben, die Brötchen mit der Schnittfläche darauf drücken und 4 Minuten bei mittlerer Hitze braten.',
-    'Alles wenden und weitere 3 Minuten braten, bis das Ei vollständig gestockt ist. Mit Tomatenscheiben belegen.',
+    'Die Brötchen samt Eischicht wenden und weitere 3 Minuten braten, bis das Ei vollständig gestockt ist. Mit Tomatenscheiben belegen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chilisoße würzen.'
   ],
   kidName:'Ei-Brot-Streifen',
@@ -19134,7 +19134,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chili würzen.'
   ],
   kidName:'Tomaten-Hähnchen mild',
-  kid:'Hähnchen fein zerzupfen, Erbsen leicht zerdrücken und alles mit der Soße unter den Reis mischen. Ohne Chili und Salz.',
+  kid:'Hähnchen fein zerzupfen, Erbsen leicht zerdrücken und beides mit der Soße unter den Reis mischen. Ohne Chili und Salz.',
   leftover:'Hähnchen-Tomaten-Nudeln · 12 Min. – Soßenreste vollständig erhitzen und mit gekochten Vollkornnudeln mischen.',
   tipp:'Eine Zimtstange statt Pulver gibt das typische Aroma und wird vor dem Servieren entfernt.'
 },
@@ -19273,7 +19273,7 @@ RECIPES.push(
     'Zitronengras entfernen. Kinderportion ungesalzen abnehmen, Erwachsene mit Salz und nach Wunsch Chili würzen.'
   ],
   kidName:'Milder Tomatenfisch',
-  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, Aubergine und Okra sehr weich garen und klein schneiden. Ohne Chili über den Reis geben.',
+  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, Aubergine und Okra sehr weich garen und klein schneiden. Fisch und Gemüse ohne Chili über den Reis geben.',
   leftover:'Fisch-Reis-Topf · 8 Min. – Reis- und Soßenreste zusammen vollständig erhitzen.',
   tipp:'Statt Okra eignet sich auch Zucchini, sie gart in derselben Zeit.'
 },
@@ -19325,7 +19325,7 @@ RECIPES.push(
     'Kinderportion abnehmen, bevor gewürzt wird. Erwachsene mit Sojasauce, ein paar Tropfen Sesamöl und Frühlingszwiebelringen beträufeln und nach Wunsch mit Chili würzen.'
   ],
   kidName:'Zarter Dampffisch',
-  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, Pak Choi weich dämpfen und klein schneiden. Ohne Sojasauce mit dem Reis mischen.',
+  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, Pak Choi weich dämpfen und klein schneiden. Fisch und Pak Choi ohne Sojasauce mit dem Reis mischen.',
   leftover:'Fisch-Reisbrei · 12 Min. – Reis- und Fischreste mit salzarmer Brühe zu einem weichen Reisbrei vollständig aufkochen.',
   tipp:'Ohne Dämpfeinsatz den Fisch in einer Pfanne mit Deckel und 3 EL Wasser bei kleiner Hitze garen.'
 }
@@ -19469,7 +19469,7 @@ RECIPES.push(
     'Kochbananenwürfel unterheben. Kinderportion ohne Salz und Chili abnehmen, Erwachsene mit Salz und nach Wunsch Chiliflocken würzen.'
   ],
   kidName:'Hähnchen mit Ofen-Dodo',
-  kid:'Kochbanane weich backen und in kleine Stücke teilen, Hähnchen fein zerzupfen und mit der Soße mischen. Ohne Salz und Chili.',
+  kid:'Kochbanane weich backen und in kleine Stücke teilen, Hähnchen fein zerzupfen. Beides mit der Soße mischen. Ohne Salz und Chili.',
   leftover:'Dodo-Bowl · 8 Min. – Reste vollständig erhitzen und mit Reis oder Bohnen anrichten.',
   tipp:'Die Kochbanane sollte gelb mit schwarzen Flecken sein, dann wird sie süß und weich. Im Original kommen Hähnchenmägen dazu.'
 },
@@ -19520,12 +19520,12 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln schälen und in 2 cm Würfel schneiden. Zwiebel, Ingwer und Knoblauch fein hacken.',
-    'Alles mit Brühe, Lorbeerblatt und Koriander aufkochen und 15 Minuten köcheln, bis die Kartoffeln weich sind.',
+    'Kartoffeln, Zwiebel, Ingwer und Knoblauch mit Brühe, Lorbeerblatt und Koriander aufkochen und 15 Minuten köcheln, bis die Kartoffeln weich sind.',
     'Fisch in große Stücke schneiden, in die Suppe legen und bei kleiner Hitze 6 Minuten ziehen lassen. Spinat zugeben und 1 Minute mitziehen lassen.',
     'Lorbeerblatt entfernen. Kinderportion ohne Salz und Chili abnehmen, Erwachsene mit Salz und nach Wunsch reichlich Chiliflocken würzen.'
   ],
   kidName:'Milde Fisch-Kartoffel-Suppe',
-  kid:'Fisch entgräten und zerpflücken, Kartoffeln mit der Gabel zerdrücken und mit wenig Brühe als dicken Brei anbieten. Ohne Salz und Chili.',
+  kid:'Fisch entgräten und zerpflücken, Kartoffeln mit der Gabel zerdrücken. Beides mit wenig Brühe als dicken Brei anbieten. Ohne Salz und Chili.',
   tipp:'Fertige Pepper-Soup-Gewürzmischungen gibt es im Afroshop, sie kommen erst nach der Kinderportion in den Topf.'
 },
 {
@@ -19648,7 +19648,7 @@ RECIPES.push(
   ],
   steps:[
     'Bohnen abspülen und mit 80 ml Wasser 8 Minuten weich köcheln, dann grob zu einem cremigen Mus zerdrücken.',
-    'Zwiebel in feine Ringe schneiden, Paprika fein würfeln und in Öl bei mittlerer Hitze 8 Minuten weich und leicht braun schmoren.',
+    'Zwiebel in feine Ringe schneiden, Paprika fein würfeln und beides in Öl bei mittlerer Hitze 8 Minuten weich und leicht braun schmoren.',
     'Passierte Tomaten zugeben und 3 Minuten einkochen, Spinat unterheben und zusammenfallen lassen.',
     'Kinderportion ohne Salz und Chili abnehmen. Erwachsene Soße mit Salz und nach Wunsch Chiliflocken würzen, über die Bohnen geben und mit Brot servieren.'
   ],
@@ -19791,7 +19791,7 @@ RECIPES.push(
     'Reis in der doppelten Menge Wasser zugedeckt 25 Minuten garen.',
     'Zwiebel in Ringe und Paprika in Streifen schneiden, in Öl 5 Minuten weich braten und das Paprikapulver kurz mitrösten.',
     'Gehackte Tomaten, Thymian und die abgespülten Bohnen zugeben und 10 Minuten sämig köcheln. Apfel klein würfeln und in den letzten 3 Minuten mitwärmen.',
-    'Kinderportion ungesalzen abnehmen und die Bohnen zerdrücken. Erwachsene mit Pfeffer und wenig Salz abschmecken und mit dem Reis servieren.'
+    'Kinderportion ungesalzen abnehmen und die Bohnen der Kinderportion zerdrücken. Erwachsene mit Pfeffer und wenig Salz abschmecken und mit dem Reis servieren.'
   ],
   kidName:'Mini-Bruine-Bonen',
   kid:'Bohnen gründlich zerdrücken und mit weichem Reis mischen. Apfelwürfel weich dünsten und ohne Salz servieren.',
@@ -19903,7 +19903,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Paprikapulver, Pfeffer und wenig Salz würzen.'
   ],
   kidName:'Mini-Macaroni',
-  kid:'Makkaroni kurz schneiden, Hack fein krümeln und alles mit der milden Tomatensoße mischen. Nur wenig Gouda verwenden.',
+  kid:'Makkaroni kurz schneiden, Hack fein krümeln und beides mit der milden Tomatensoße mischen. Nur wenig Gouda verwenden.',
   leftover:'Macaroni-Ovenschotel · 20 Min. – Reste in eine Form geben, mit etwas Gouda bestreuen und bei 200 °C vollständig durchbacken.',
   tipp:'In den Niederlanden kommt oft Ketchup dazu, die selbst gekochte Tomatensoße ist die zuckerarme Alternative.'
 },
@@ -19982,7 +19982,7 @@ RECIPES.push(
   steps:[
     'Nudeln nach Packungsangabe etwa 8 Minuten garen und abgießen.',
     'Eier verquirlen und in der Hälfte des Öls als dünnes Omelett 2 bis 3 Minuten vollständig stocken lassen, herausnehmen und in Streifen schneiden.',
-    'Knoblauch und Ingwer fein hacken, Karotten in Stifte und Kohl in Streifen schneiden und im restlichen Öl 4 Minuten braten. Nudeln und Frühlingszwiebel in Ringen zugeben und 2 Minuten mitbraten.',
+    'Knoblauch und Ingwer fein hacken, Karotten in Stifte und Kohl in Streifen schneiden. Knoblauch, Ingwer, Karotten und Kohl zusammen im restlichen Öl 4 Minuten braten. Nudeln und Frühlingszwiebel in Ringen zugeben und 2 Minuten mitbraten.',
     'Kinderportion ohne Sojasauce abnehmen. Erwachsene mit Sojasauce und nach Wunsch Sambal abschmecken und die Eistreifen darüber verteilen.'
   ],
   kidName:'Mini-Bami',
@@ -20033,7 +20033,7 @@ RECIPES.push(
   ],
   steps:[
     'Mehl, Ei und Milch zu einem glatten, dünnflüssigen Teig verrühren und kurz quellen lassen.',
-    'Champignons in dünne Scheiben schneiden und in wenig Öl 3 Minuten braten, Spinat zugeben, zusammenfallen lassen und herausnehmen.',
+    'Champignons in dünne Scheiben schneiden und in wenig Öl 3 Minuten braten, Spinat zugeben, zusammenfallen lassen und das Gemüse herausnehmen.',
     'Pro Pfannkuchen eine dünne Schicht Teig in wenig Öl geben, Gemüse und geriebenen Gouda darauf verteilen und bei mittlerer Hitze je Seite 2 bis 3 Minuten backen, bis der Teig vollständig gar ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Muskat und Pfeffer würzen.'
   ],
@@ -20113,7 +20113,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 220 °C vorheizen. Kartoffeln in Spalten schneiden, mit der Hälfte des Öls mischen und auf dem Blech 25 Minuten backen, nach der Hälfte wenden.',
-    'Weißkohl fein hobeln, Karotte raspeln und mit Zitronensaft verkneten. Etwas Joghurt für das Kind beiseitestellen, den Rest mit fein geriebenem Knoblauch verrühren.',
+    'Weißkohl fein hobeln, Karotte raspeln und beides mit Zitronensaft verkneten. Etwas Joghurt für das Kind beiseitestellen, den Rest mit fein geriebenem Knoblauch verrühren.',
     'Fisch in 3 cm große Stücke schneiden, in Mehl mit Paprikapulver wenden und im restlichen Öl rundum 5 bis 6 Minuten goldbraun braten, bis er durchgegart ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Pfeffer und wenig Salz würzen und mit Knoblauchsoße und Krautsalat servieren.'
   ],
@@ -20308,12 +20308,12 @@ RECIPES.push(
   ],
   steps:[
     'Reis aufsetzen und in 25 bis 30 Minuten garen. Hähnchen würfeln, in der Brühe aufkochen und 10 Minuten leise köcheln.',
-    'Karotten und Sellerie würfeln, Lauch in Ringe schneiden und Blumenkohl in kleine Röschen teilen. Zum Hähnchen geben und weitere 12 Minuten köcheln, bis Gemüse und Fleisch weich und durchgegart sind.',
+    'Karotten und Sellerie würfeln, Lauch in Ringe schneiden und Blumenkohl in kleine Röschen teilen. Das Gemüse zum Hähnchen geben und weitere 12 Minuten köcheln, bis Gemüse und Fleisch weich und durchgegart sind.',
     'Milch mit Speisestärke verrühren, einrühren und 2 Minuten sämig köcheln.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz, Pfeffer und Petersilie abschmecken und mit Reis servieren.'
   ],
   kidName:'Hühnerfrikassee mild',
-  kid:'Hähnchen fein zerzupfen, Gemüse sehr weich garen und mit Reis und Sauce zu einem sämigen Brei mischen. Ohne Salz servieren.',
+  kid:'Hähnchen fein zerzupfen und Gemüse sehr weich garen. Beides mit Reis und Sauce zu einem sämigen Brei mischen. Ohne Salz servieren.',
   leftover:'Frikassee-Auflauf · 20 Min. – Reste mit dem Reis in eine Form geben, mit Käse bestreuen und im Ofen überbacken.',
   tipp:'Frikassee lässt sich gut einfrieren, die Sauce nach dem Auftauen einmal kräftig durchrühren.'
 },
@@ -20335,7 +20335,7 @@ RECIPES.push(
     {n:'Schnittlauch',q:1,u:'EL',c:'gemuese'}
   ],
   steps:[
-    'Kartoffeln, Karotten und Sellerie in kleine Würfel schneiden, Lauch in feine Ringe. Alles in der Brühe 9 bis 10 Minuten weich köcheln.',
+    'Kartoffeln, Karotten und Sellerie in kleine Würfel schneiden, Lauch in feine Ringe. Das Gemüse in der Brühe 9 bis 10 Minuten weich köcheln.',
     'Milch zugießen. Fisch in mundgerechte Würfel schneiden, auf Gräten prüfen und in die nicht mehr kochende Suppe geben.',
     'Bei kleiner Hitze 4 bis 5 Minuten gar ziehen lassen, bis der Fisch innen nicht mehr glasig ist, dann saure Sahne einrühren.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz, Pfeffer und Schnittlauch abschmecken.'
@@ -20362,7 +20362,7 @@ RECIPES.push(
     {n:'Muskat',q:0.25,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 200 °C vorheizen. Nudeln 2 Minuten kürzer als angegeben kochen, Brokkoliröschen in den letzten 3 Minuten mitgaren und alles abgießen.',
+    'Ofen auf 200 °C vorheizen. Nudeln 2 Minuten kürzer als angegeben kochen, Brokkoliröschen in den letzten 3 Minuten mitgaren und beides abgießen.',
     'Milch mit Speisestärke und Muskat verrühren und unter Rühren 2 Minuten zu einer hellen Sauce aufkochen.',
     'Fisch würfeln, mit Nudeln, Brokkoli und Sauce in einer geölten Form mischen, mit Käse bestreuen und 25 Minuten backen, bis der Fisch durchgegart und die Oberfläche goldbraun ist.',
     'Karotte fein reiben. Kinderportion ohne Salz abnehmen, Erwachsene mit Pfeffer nachwürzen und die Karottenrohkost dazu servieren.'
@@ -20443,7 +20443,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel und Knoblauch fein würfeln, Pilze in Scheiben schneiden. Zwiebel in Öl glasig dünsten, Pilze zugeben und 4 Minuten braten.',
+    'Zwiebel und Knoblauch fein würfeln, Pilze in Scheiben schneiden. Zwiebel und Knoblauch in Öl glasig dünsten, Pilze zugeben und 4 Minuten braten.',
     'Graupen und Thymian unterrühren, Brühe nach und nach angießen und offen 30 bis 35 Minuten unter gelegentlichem Rühren köcheln, bis die Graupen weich und cremig sind.',
     'Erbsen und Spinat in den letzten 4 Minuten untermischen, dann geriebenen Käse einrühren.',
     'Kinderportion abnehmen. Erwachsene mit Salz und Pfeffer abschmecken.'
@@ -20618,7 +20618,7 @@ RECIPES.push(
   steps:[
     'Mehl mit etwa 45 ml Wasser zu einem glatten, festen Teig kneten und abgedeckt 15 Minuten ruhen lassen.',
     'Hähnchen sehr fein hacken oder im Blitzhacker zerkleinern. Kohl, Frühlingszwiebel, Ingwer und Knoblauch fein hacken und mit Fleisch und Öl verkneten.',
-    'Teig zu einer Rolle formen, in walnussgroße Stücke teilen, jedes dünn rund ausrollen, mit einem Teelöffel Füllung belegen und zu Säckchen falten. Im Dämpfeinsatz über kochendem Wasser 12 bis 15 Minuten garen, bis die Füllung vollständig durchgegart ist.',
+    'Teig zu einer Rolle formen, in walnussgroße Stücke teilen, jedes dünn rund ausrollen, mit einem Teelöffel Füllung belegen und zu Säckchen falten. Die Momos im Dämpfeinsatz über kochendem Wasser 12 bis 15 Minuten garen, bis die Füllung vollständig durchgegart ist.',
     'Für das Achar Tomaten 5 Minuten in Wasser kochen und häuten, Sesam in einer trockenen Pfanne 2 Minuten rösten und beides mit dem Koriander fein pürieren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene salzen das Achar und schärfen es nach Wunsch mit Chili.'
   ],
@@ -20908,7 +20908,7 @@ RECIPES.push(
   steps:[
     'Reismehl mit etwa 90 ml Wasser zu einem dünnflüssigen Teig rühren und 10 Minuten quellen lassen. Tomate und Paprika fein würfeln, Frühlingszwiebel in Ringe schneiden.',
     'Eier mit Kurkuma, Kreuzkümmel und den Erbsen verquirlen.',
-    'Pfanne mit wenig Öl auspinseln, die Hälfte des Teigs dünn hineingießen und bei mittlerer Hitze 2 Minuten backen. Die Hälfte der Eimasse und des Gemüses darauf verteilen, Deckel auflegen und 4 Minuten garen, bis das Ei vollständig gestockt ist. Mit dem Rest ebenso verfahren.',
+    'Pfanne mit wenig Öl auspinseln, die Hälfte des Teigs dünn hineingießen und bei mittlerer Hitze 2 Minuten backen. Die Hälfte der Eimasse und des Gemüses darauf verteilen, Deckel auflegen und 4 Minuten garen, bis das Ei vollständig gestockt ist. Den zweiten Fladen aus dem restlichen Teig, Ei und Gemüse ebenso backen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Koriander und nach Wunsch Chiliflocken bestreuen.'
   ],
   nutri:{p:['Eier','Erbsen'],f:['Erbsen','Paprika'],i:['Eier','Erbsen'],fat:['Eigelb','Rapsöl']},
@@ -20938,7 +20938,7 @@ RECIPES.push(
     'Kartoffelwürfel 12 Minuten weich kochen, das Ei für die letzten 10 Minuten und die Edamame für die letzten 4 Minuten mitkochen. Alles abgießen, Ei abschrecken und schälen.',
     'Für das Aloo Achar Sesam in der trockenen Pfanne 2 Minuten rösten und fein mahlen. Kartoffeln mit Sesam, Kurkuma, der Hälfte des Öls, Zitronensaft und Gurkenwürfeln mischen.',
     'Reisflocken in der Pfanne 2 Minuten trocken rösten, bis sie leicht knusprig sind, herausnehmen und den Spinat im restlichen Öl 2 Minuten zusammenfallen lassen.',
-    'Alles mit dem halbierten Ei als Teller anrichten. Kinderportion ungesalzen abnehmen, Erwachsene salzen das Achar und schärfen es nach Wunsch mit Chili.'
+    'Aloo Achar, Reisflocken, Spinat und Edamame mit dem halbierten Ei als Teller anrichten. Kinderportion ungesalzen abnehmen, Erwachsene salzen das Achar und schärfen es nach Wunsch mit Chili.'
   ],
   nutri:{p:['Edamame','Ei'],f:['Edamame','Kartoffeln','Spinat'],i:['Edamame','Spinat'],fat:['Sesam','Rapsöl']},
   kidName:'Mini-Samay-Baji',
@@ -20971,7 +20971,7 @@ RECIPES.push(
   ],
   nutri:{p:['Paneer','Erbsen'],f:['Erbsen','Tomaten'],i:['Erbsen'],fat:['Paneer','Rapsöl']},
   kidName:'Mini-Matar-Paneer',
-  kid:'Paneer in kleine weiche Würfel schneiden oder zerdrücken, Erbsen leicht zerdrücken und alles mit Reis mischen. Ohne Salz und Chili.',
+  kid:'Paneer in kleine weiche Würfel schneiden oder zerdrücken, Erbsen leicht zerdrücken und beides mit Reis mischen. Ohne Salz und Chili.',
   leftover:'Paneer-Wrap · 6 Min. – Reste vollständig erhitzen und mit Gurke in ein Fladenbrot rollen.',
   extras:['kichererbsen','tofu'], tipp:'Paneer zerfällt beim Kochen nicht und lässt sich deshalb gut von kleinen Händen greifen.'
 },
@@ -20995,7 +20995,7 @@ RECIPES.push(
   steps:[
     'Linsen waschen und mit Kurkuma, Ingwer und 400 ml Wasser 25 Minuten weich kochen.',
     'Für das Dhido 250 ml Wasser aufkochen, Buchweizenmehl nach und nach einrieseln lassen und mit einem Holzlöffel kräftig rühren, bis ein glatter, fester Brei entsteht. Bei kleiner Hitze 8 Minuten unter Rühren quellen lassen.',
-    'Kreuzkümmel in Öl in der Pfanne anrösten, gehackte Zwiebel, Knoblauch und Tomate 3 Minuten dünsten und die Hälfte unter die Linsen rühren. Den Spinat zum Rest in die Pfanne geben und 2 Minuten zusammenfallen lassen.',
+    'Kreuzkümmel in Öl in der Pfanne anrösten, gehackte Zwiebel, Knoblauch und Tomate zugeben und 3 Minuten dünsten. Die Hälfte der Zwiebel-Tomaten-Mischung unter die Linsen rühren. Den Spinat zur übrigen Mischung in die Pfanne geben und 2 Minuten zusammenfallen lassen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chili oder Timur-Pfeffer würzen und den Dhido zum Dal reichen.'
   ],
   nutri:{p:['Linsen','Buchweizen'],f:['Buchweizen','Linsen','Spinat'],i:['Linsen','Buchweizen','Spinat'],fat:['Rapsöl']},
@@ -21029,11 +21029,11 @@ RECIPES.push(
   steps:[
     'Ofen auf 220 °C vorheizen. Kartoffeln in Stifte schneiden, mit der Hälfte des Öls mischen und auf dem Blech 25 bis 30 Minuten knusprig backen, einmal wenden.',
     'Zwiebel in Spalten, Paprika in Streifen und Tomaten in Achtel schneiden, Knoblauch fein hacken.',
-    'Fleisch im restlichen Öl in der sehr heißen Pfanne 2 Minuten scharf anbraten. Knoblauch, Zwiebel und Paprika zugeben und 2 Minuten mitbraten, Tomaten nur 1 Minute mitschwenken.',
+    'Fleisch im restlichen Öl in der sehr heißen Pfanne 2 Minuten scharf anbraten. Knoblauch, Zwiebel und Paprika zugeben und 2 Minuten mitbraten. Dann die Tomaten zugeben und nur 1 Minute mitschwenken.',
     'Kinderportion ohne Sojasauce abnehmen. Erwachsene mit Sojasauce und Essig ablöschen, mit Koriander bestreuen und mit den Ofenkartoffeln mischen.'
   ],
   kidName:'Mini-Lomo',
-  kid:'Fleisch für das Kind etwas länger braten und sehr fein schneiden, Kartoffelstifte weich und lauwarm anbieten. Tomate ohne Haut, ohne Sojasauce.',
+  kid:'Fleisch für das Kind etwas länger braten und sehr fein schneiden, Kartoffelstifte weich und lauwarm anbieten. Tomate ohne Haut anbieten, die ganze Kinderportion ohne Sojasauce.',
   leftover:'Saltado-Wrap · 5 Min. – Reste vollständig erhitzen und in eine Tortilla rollen.',
   tipp:'In Peru gibt es zusätzlich Reis dazu, mit den Ofenkartoffeln reicht eine Beilage.'
 },
@@ -21084,12 +21084,12 @@ RECIPES.push(
   ],
   steps:[
     'Hähnchen in Stücke schneiden und im Topf in Öl 5 Minuten rundum anbraten. Gewürfelte Zwiebel zugeben und 2 Minuten mitbraten.',
-    'Koriander und Spinat mit 50 ml Brühe fein pürieren. Mit der restlichen Brühe, dem Reis und der gewürfelten Karotte in den Topf geben und zugedeckt 15 Minuten garen.',
+    'Koriander und Spinat mit 50 ml Brühe fein pürieren. Das Püree mit der restlichen Brühe, dem Reis und der gewürfelten Karotte in den Topf geben und zugedeckt 15 Minuten garen.',
     'Erbsen und Paprikawürfel unterheben und zugedeckt weitere 5 Minuten garen, bis der Reis weich und die Flüssigkeit aufgesogen ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und etwas Limette oder Chili würzen.'
   ],
   kidName:'Mini-Arroz con Pollo',
-  kid:'Hähnchen klein zupfen, Erbsen leicht zerdrücken und alles mit dem weichen Reis mischen. Ohne Salz und Chili servieren.',
+  kid:'Hähnchen klein zupfen und Erbsen leicht zerdrücken. Beides mit dem weichen Reis mischen. Ohne Salz und Chili servieren.',
   leftover:'Grüne Reisbällchen · 20 Min. – Reste mit einem Ei verkneten, zu Bällchen formen und im Ofen durchbacken.',
   tipp:'Spinat im Koriander-Püree macht den Reis kräftig grün und für Kinder milder.'
 },
@@ -21113,7 +21113,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 220 °C vorheizen. Knoblauch fein reiben und mit Kreuzkümmel, Paprikapulver, Oregano und der Hälfte des Öls verrühren, das Hähnchen damit rundum einreiben.',
     'Kartoffeln in Spalten schneiden, mit dem restlichen Öl mischen und mit dem Hähnchen auf ein Blech legen. 30 bis 35 Minuten backen, bis das Hähnchen innen keine rosa Stellen mehr hat.',
-    'Salat zupfen, Gurke in Scheiben schneiden und mit etwas Limettensaft anmachen.',
+    'Salat zupfen und Gurke in Scheiben schneiden. Beides zusammen mit etwas Limettensaft anmachen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Limette und nach Wunsch scharfer Ají-Soße servieren.'
   ],
   kidName:'Mini-Pollo',
@@ -21253,8 +21253,8 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln in Spalten schneiden und 15 bis 18 Minuten weich kochen, das Ei in den letzten 10 Minuten mitkochen.',
-    'Paprika würfeln und in Öl 5 Minuten weich dünsten, Kurkuma kurz mitrösten. Mit Hüttenkäse, Milch und Brot glatt pürieren, bis eine dicke, gelbe Soße entsteht.',
-    'Salat auf Teller verteilen, Kartoffeln darauflegen, mit Soße begießen und mit Eivierteln belegen.',
+    'Paprika würfeln und in Öl 5 Minuten weich dünsten, Kurkuma kurz mitrösten. Die Paprika mit Hüttenkäse, Milch und Brot glatt pürieren, bis eine dicke, gelbe Soße entsteht.',
+    'Salat auf Teller verteilen und Kartoffeln darauflegen. Die Kartoffeln mit Soße begießen und mit Eivierteln belegen.',
     'Kinderportion ohne Oliven und Salz abnehmen. Erwachsene mit Oliven, Salz und nach Wunsch Ají-Amarillo-Paste würzen.'
   ],
   kidName:'Mini-Huancaína',
@@ -21343,7 +21343,7 @@ RECIPES.push(
     'Kinderportion ohne Sojasauce abnehmen. Erwachsene mit Sojasauce, Sesamöl und dem Grün der Frühlingszwiebeln würzen.'
   ],
   kidName:'Mini-Chaufa',
-  kid:'Das Ei ist vollständig gestockt, in kleine Stücke schneiden. Erbsen leicht zerdrücken und ohne Sojasauce servieren.',
+  kid:'Das Ei ist vollständig gestockt, die Eistreifen in kleine Stücke schneiden. Erbsen leicht zerdrücken. Die Kinderportion ohne Sojasauce servieren.',
   leftover:'Chaufa-Omelett · 8 Min. – Reste mit zwei verquirlten Eiern übergießen und vollständig stocken lassen.',
   tipp:'Mit Reis vom Vortag ist der Chaufa in 15 Minuten fertig und wird besonders körnig.'
 },
@@ -21365,7 +21365,7 @@ RECIPES.push(
   ],
   steps:[
     'Nudeln in ungesalzenem Wasser nach Packung garen. Den Spinat in den letzten 30 Sekunden mitgaren und mit einer Schaumkelle herausheben.',
-    'Zwiebel und Knoblauch fein würfeln und in Öl 3 Minuten weich dünsten. Mit Spinat, Basilikum, Ricotta, Parmesan und Milch glatt pürieren.',
+    'Zwiebel und Knoblauch fein würfeln und in Öl 3 Minuten weich dünsten. Zwiebel und Knoblauch mit Spinat, Basilikum, Ricotta, Parmesan und Milch glatt pürieren.',
     'Nudeln abgießen und mit der grünen Soße mischen, bei Bedarf mit etwas Nudelwasser verdünnen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und etwas mehr Käse würzen.'
   ],
@@ -21398,7 +21398,7 @@ RECIPES.push(
     'Kinderportion ungesalzen mit nur wenig Feta abnehmen. Erwachsene mit dem restlichen zerbröselten Feta, Salz, Pfeffer und nach Wunsch Ají würzen und mit Reis servieren.'
   ],
   kidName:'Mini-Kürbis-Locro',
-  kid:'Kürbis und Kartoffeln sind weich und lassen sich gut zerdrücken, das Ei ist durchgegart. Nur wenige Krümel Feta, Erbsen leicht zerdrücken.',
+  kid:'Kürbis und Kartoffeln sind weich, beides für das Kind mit der Gabel zerdrücken. Das Ei ist durchgegart. Erbsen leicht zerdrücken, nur wenige Krümel Feta.',
   leftover:'Kürbis-Reis-Auflauf · 15 Min. – Reste mit Reis mischen, mit Käse bestreuen und im Ofen überbacken.',
   tipp:'Der Kürbis darf richtig zerfallen, so wird der Locro ohne Sahne cremig.'
 },
@@ -21480,11 +21480,11 @@ RECIPES.push(
   steps:[
     'Zwiebel, Knoblauch und Ingwer in feine Streifen schneiden und in Öl 3 Minuten dünsten.',
     'Hähnchen in Stücke schneiden, 3 Minuten mitbraten, mit Brühe aufgießen und zugedeckt 15 Minuten sanft köcheln.',
-    'Jasminreis in der 1,5-fachen Menge Wasser 12 Minuten garen. Zucchiniwürfel in den Topf geben, 6 Minuten weich garen und den Spinat unterrühren.',
+    'Jasminreis in der 1,5-fachen Menge Wasser 12 Minuten garen. Zucchiniwürfel in den Topf mit dem Hähnchen geben, 6 Minuten weich garen und den Spinat unterrühren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und nach Wunsch Chili würzen.'
   ],
   kidName:'Ingwer-Hühnertopf mild',
-  kid:'Ingwerstreifen herausnehmen, Hähnchen fein zerzupfen und Zucchini zerdrücken. Mit wenig Brühe über den Reis geben, damit es nicht zu suppig ist.',
+  kid:'Ingwerstreifen herausnehmen, Hähnchen fein zerzupfen und Zucchini zerdrücken. Hähnchen und Zucchini mit wenig Brühe über den Reis geben, damit die Kinderportion nicht zu suppig ist.',
   leftover:'Tinola-Reistopf · 10 Min. – Reste mit dem übrigen Reis zu einem dicken Reistopf vollständig aufkochen.',
   tipp:'Original kommen grüne Papaya oder Chayote hinein, Zucchini ist ein milder Ersatz.'
 },
@@ -21510,7 +21510,7 @@ RECIPES.push(
     'Kinderportion ohne Sojasauce abnehmen. Rest mit Sojasauce abschmecken, Erwachsene nach Wunsch mit Pfeffer würzen.'
   ],
   kidName:'Zartes Zwiebelfleisch',
-  kid:'Fleisch vollständig durchbraten und sehr fein schneiden, Brokkoli weich dämpfen. Ohne Sojasauce mit weichen Zwiebeln unter den Reis mischen.',
+  kid:'Fleisch vollständig durchbraten und sehr fein schneiden, Brokkoli weich dämpfen. Fleisch und Brokkoli ohne Sojasauce mit weichen Zwiebeln unter den Reis mischen.',
   leftover:'Bistek-Wrap · 8 Min. – Fleisch- und Zwiebelreste vollständig erhitzen und mit Gurke in ein Vollkorn-Fladenbrot rollen.',
   tipp:'Original wird Calamansi verwendet, Limette oder Zitrone schmecken ähnlich.'
 },
@@ -21593,7 +21593,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Kinder-Giniling',
-  kid:'Hack ist von Natur aus fein, Kartoffeln und Karotten weich garen und Erbsen leicht zerdrücken. Ohne Salz unter den Reis mischen.',
+  kid:'Hack ist von Natur aus fein, Kartoffeln und Karotten weich garen und Erbsen leicht zerdrücken. Hack, Gemüse und Erbsen ohne Salz unter den Reis mischen.',
   leftover:'Tortang Giniling · 10 Min. – Hackreste in verquirlte Eier geben und als Omelett in der Pfanne vollständig stocken lassen.',
   tipp:'Klein gewürfeltes Gemüse gart schnell und verschwindet fast in der Soße.'
 },
@@ -21620,7 +21620,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch einer Chilischote würzen.'
   ],
   kidName:'Milder Fischtopf',
-  kid:'Fisch auf Gräten prüfen und zerpflücken, Gemüse weich garen und klein schneiden, Radieschen vierteln. Mit wenig Brühe über den Reis geben.',
+  kid:'Fisch auf Gräten prüfen und zerpflücken, Gemüse weich garen und klein schneiden, Radieschen vierteln. Fisch und Gemüse mit wenig Brühe über den Reis geben.',
   leftover:'Sinigang-Reistopf · 8 Min. – Brühe- und Fischreste mit Reis vollständig aufkochen und dick einkochen lassen.',
   tipp:'Die Säure mit der Tamarindenpaste langsam anpassen, Kinder mögen den Topf meist etwas milder.'
 },
@@ -21647,7 +21647,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chili würzen.'
   ],
   kidName:'Kokos-Lachs mild',
-  kid:'Lachs sorgfältig auf Gräten prüfen und zerpflücken, Pak Choi und Paprika weich garen und klein schneiden. Mit der milden Kokossoße unter den Reis mischen.',
+  kid:'Lachs sorgfältig auf Gräten prüfen und zerpflücken, Pak Choi und Paprika weich garen und klein schneiden. Lachs und Gemüse mit der milden Kokossoße unter den Reis mischen.',
   leftover:'Kokos-Fischreis · 8 Min. – Reis- und Fischreste mit etwas Wasser in einem Topf vollständig erhitzen.',
   tipp:'Lachs nur sanft ziehen lassen statt kochen, dann bleibt er saftig.'
 },
@@ -21673,7 +21673,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Fisch in Tomatensoße',
-  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, das Ei in der Soße vollständig garen. Mit der weichen Soße unter den Reis mischen.',
+  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, das Ei in der Soße vollständig garen. Den Fisch mit der weichen Soße unter den Reis mischen.',
   leftover:'Sarciado-Toast · 5 Min. – Soßen- und Fischreste vollständig erhitzen und auf Vollkornbrot geben.',
   tipp:'Sarciado eignet sich auch für gebratenen Fisch vom Vortag, der in der Soße wieder saftig wird.'
 },
@@ -21694,7 +21694,7 @@ RECIPES.push(
   ],
   steps:[
     'Vollkornreis in der doppelten Menge Wasser 30 Minuten garen. Ofen auf 200 °C vorheizen.',
-    'Die Hälfte der Tomaten und Zwiebeln fein würfeln, mit geriebenem Ingwer mischen und auf den Fisch geben. Alles in Backpapier einschlagen und 18 bis 20 Minuten garen.',
+    'Die Hälfte der Tomaten und Zwiebeln fein würfeln, mit geriebenem Ingwer mischen und auf den Fisch geben. Den Fisch samt Belag in Backpapier einschlagen und 18 bis 20 Minuten garen.',
     'Restliche Tomaten und Gurke würfeln und mit etwas Limettensaft und Öl zu einem Salat mischen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und nach Wunsch Chili würzen.'
   ],
@@ -21750,7 +21750,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und nach Wunsch Chilisoße würzen.'
   ],
   kidName:'Auberginen-Omelett-Streifen',
-  kid:'Omelett vollständig durchbraten und in Streifen schneiden, Auberginenschale bei Bedarf entfernen. Tomaten klein würfeln, ohne Salz.',
+  kid:'Omelett vollständig durchbraten und in Streifen schneiden, Auberginenschale bei Bedarf entfernen. Tomaten klein würfeln. Die Kinderportion ohne Salz servieren.',
   leftover:'Omelett-Brot · 5 Min. – Omelettreste mit Tomaten auf Vollkornbrot legen und in der Pfanne vollständig durchwärmen.',
   tipp:'Klassisch wird die Aubergine ganz über der Gasflamme geröstet, das gibt ein rauchiges Aroma.'
 },
@@ -21777,7 +21777,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chili würzen.'
   ],
   kidName:'Kürbis-Kokos-Tofu',
-  kid:'Kürbis mit der Gabel zerdrücken, Bohnen sehr weich garen und klein schneiden, Tofu zerbröseln. Ohne Salz mit Reis mischen.',
+  kid:'Kürbis mit der Gabel zerdrücken, Bohnen sehr weich garen und klein schneiden, Tofu zerbröseln. Kürbis, Bohnen und Tofu ohne Salz mit Reis mischen.',
   leftover:'Kürbis-Kokos-Suppe · 8 Min. – Reste mit etwas Brühe pürieren und vollständig aufkochen.',
   tipp:'Traditionell kommen Garnelen oder Schweinefleisch hinein, mit Tofu wird das Gericht vegetarisch.'
 },
@@ -21828,8 +21828,8 @@ RECIPES.push(
   ],
   steps:[
     'Jasminreis in der 1,5-fachen Menge Wasser 12 Minuten garen. Eier in einem zweiten Topf 9 Minuten hart kochen, abschrecken, schälen und halbieren.',
-    'Blumenkohl und Brokkoli in kleine Röschen, Karotten in Scheiben schneiden. Mit Knoblauch in Öl 3 Minuten braten, dann 80 ml Wasser zugeben und zugedeckt 4 Minuten dünsten.',
-    'Zuckerschoten zugeben, Stärke in 2 EL Wasser verrühren, unterrühren und 1 Minute köcheln lassen. Eihälften darauf legen.',
+    'Blumenkohl und Brokkoli in kleine Röschen, Karotten in Scheiben schneiden. Das Gemüse mit Knoblauch in Öl 3 Minuten braten, dann 80 ml Wasser zugeben und zugedeckt 4 Minuten dünsten.',
+    'Zuckerschoten zugeben. Stärke in 2 EL Wasser verrühren, unter das Gemüse rühren und 1 Minute köcheln lassen. Eihälften darauf legen.',
     'Kinderportion ohne Sojasauce abnehmen. Rest mit Sojasauce abschmecken, Erwachsene nach Wunsch mit Pfeffer würzen.'
   ],
   kidName:'Gemüse mit Ei',
@@ -21986,7 +21986,7 @@ RECIPES.push(
   ],
   nutri:{p:['Rindfleisch'],f:['Vollkorn-Fladenbrot','Karotten'],i:['Rindfleisch'],fat:['Rapsöl']},
   kidName:'Mini-Nihari',
-  kid:'Das butterweiche Fleisch fein zerzupfen, Karotten zerdrücken und mit Soße auf eingeweichtem Fladenbrot servieren. Ohne Salz, Ingwerstreifen und Chili.',
+  kid:'Das butterweiche Fleisch fein zerzupfen und Karotten zerdrücken. Beides mit Soße auf eingeweichtem Fladenbrot servieren. Ohne Salz, Ingwerstreifen und Chili.',
   leftover:'Nihari-Nudeln · 10 Min. – Reste vollständig erhitzen und mit Vollkornnudeln mischen.',
   extras:['joghurt'], tipp:'Nihari ist ein Wochenendgericht: die doppelte Menge schmoren und die Hälfte einfrieren.'
 },
@@ -22045,7 +22045,7 @@ RECIPES.push(
   ],
   nutri:{p:['Seelachs','Kichererbsenmehl'],f:['Kartoffeln','Karotten'],i:['Kichererbsenmehl'],fat:['Rapsöl']},
   kidName:'Mini-Ofenfisch',
-  kid:'Fisch sorgfältig auf Gräten prüfen und in kleine Stücke zerteilen, Kartoffeln und Karotten weich backen und zerdrücken. Joghurt als milder Dip, ohne Salz.',
+  kid:'Fisch sorgfältig auf Gräten prüfen und in kleine Stücke zerteilen, Kartoffeln und Karotten weich backen und zerdrücken. Joghurt als milden Dip anbieten. Die Kinderportion bleibt ohne Salz.',
   leftover:'Fisch-Wrap · 6 Min. – Fisch und Gemüse vollständig erhitzen und mit Joghurt in ein Fladenbrot rollen.',
   extras:['kichererbsen'], tipp:'Im Original wird der Fisch frittiert, die Kichererbsenmehl-Kruste wird im heißen Ofen ebenfalls knusprig.'
 },
@@ -22096,7 +22096,7 @@ RECIPES.push(
   ],
   steps:[
     'Reis in der 1,5-fachen Menge Wasser 12 Minuten garen. Linsen waschen und mit Kurkuma und 300 ml Wasser 12 bis 15 Minuten kochen, bis sie zerfallen.',
-    'Für die Tarka Kreuzkümmel in Öl in einer kleinen Pfanne 30 Sekunden rösten, gehackte Zwiebel und Knoblauch 3 Minuten goldbraun braten, eine halbe gewürfelte Tomate 1 Minute mitgaren und alles ins Daal rühren.',
+    'Für die Tarka Kreuzkümmel in Öl in einer kleinen Pfanne 30 Sekunden rösten, gehackte Zwiebel und Knoblauch 3 Minuten goldbraun braten, eine halbe gewürfelte Tomate 1 Minute mitgaren und die fertige Tarka ins Daal rühren.',
     'Restliche Tomate und Gurke fein würfeln und als Salat dazu reichen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch grüner Chili würzen.'
   ],
@@ -22189,7 +22189,7 @@ RECIPES.push(
   ],
   nutri:{p:['Eier'],f:['Vollkorn-Fladenbrot','Paprika','Tomaten'],i:['Eier','Spinat'],fat:['Eigelb','Rapsöl']},
   kidName:'Mini-Ghotala',
-  kid:'Rührei vollständig durchgaren und mit weichem Fladenbrot in Streifen servieren. Ohne Salz und Chili, Koriander fein gehackt.',
+  kid:'Rührei vollständig durchgaren und mit weichen Fladenbrotstreifen servieren. Ohne Salz und Chili, Koriander fein gehackt.',
   leftover:'Ei-Paratha · 8 Min. – Reste in ein Fladenbrot füllen, zusammenklappen und in der Pfanne knusprig und heiß braten.',
   extras:['kichererbsen','huettenkaese'], tipp:'In Lahore wird ein Teil der Eier vorher hart gekocht und gerieben untergemischt, das macht die Masse besonders saftig.'
 },
@@ -22242,7 +22242,7 @@ RECIPES.push(
   steps:[
     'Linsen waschen und mit Kurkuma und 400 ml Wasser 25 Minuten weich kochen.',
     'Mehl mit etwa 40 ml lauwarmem Wasser zu einem weichen Teig kneten und abgedeckt ruhen lassen.',
-    'Zwiebel, Knoblauch und Ingwer fein hacken und in Öl 5 Minuten dünsten, gewürfelte Tomaten 4 Minuten mitgaren. Alles mit dem Spinat unter die Linsen rühren und 5 Minuten köcheln.',
+    'Zwiebel, Knoblauch und Ingwer fein hacken und in Öl 5 Minuten dünsten, gewürfelte Tomaten 4 Minuten mitgaren. Die Zwiebel-Tomaten-Mischung mit dem Spinat unter die Linsen rühren und 5 Minuten köcheln.',
     'Teig in Kugeln teilen, dünn ausrollen und in einer heißen Pfanne ohne Fett je Seite etwa 1 Minute backen.',
     'Kinderportion ungesalzen abnehmen und die Linsen zerdrücken. Erwachsene mit Garam Masala, Salz und nach Wunsch Chili würzen.'
   ],
@@ -22277,7 +22277,7 @@ RECIPES.push(
   ],
   nutri:{p:['Eier','Erbsen'],f:['Kartoffeln','Erbsen','Tomaten'],i:['Eier','Erbsen'],fat:['Rapsöl']},
   kidName:'Mini-Aloo-Anday',
-  kid:'Ei fein hacken, Kartoffeln und Erbsen mit etwas Soße zerdrücken und alles vermengen. Ohne Salz und Chili.',
+  kid:'Ei fein hacken. Kartoffeln und Erbsen mit etwas Soße zerdrücken und mit dem Ei vermengen. Ohne Salz und Chili.',
   leftover:'Aloo-Anday-Wrap · 6 Min. – Reste vollständig erhitzen, grob zerdrücken und in ein Fladenbrot rollen.',
   extras:['kichererbsen','joghurt'], tipp:'Die geschälten Eier vor dem Einlegen mehrmals mit einer Gabel einstechen, dann nehmen sie mehr Geschmack auf.'
 }
@@ -22332,13 +22332,13 @@ RECIPES.push(
   ],
   steps:[
     'Fleisch in 2 cm große Würfel schneiden und in Öl 4 Minuten rundum anbraten. Zwiebel und Pilze klein schneiden, zugeben und 3 Minuten mitbraten.',
-    'Sauerkraut abspülen, ausdrücken und grob hacken, Weißkohl in feine Streifen schneiden. Mit Tomatenmark, klein geschnittenen Pflaumen, Lorbeer und 150 ml Wasser in den Topf geben.',
+    'Sauerkraut abspülen, ausdrücken und grob hacken, Weißkohl in feine Streifen schneiden. Sauerkraut und Weißkohl mit Tomatenmark, klein geschnittenen Pflaumen, Lorbeer und 150 ml Wasser in den Topf geben.',
     'Zugedeckt bei kleiner Hitze 45 Minuten schmoren, gelegentlich umrühren und bei Bedarf Wasser nachgießen. Im Slowcooker 5 Stunden auf niedriger Stufe garen.',
     'Kartoffeln schälen und in den letzten 20 Minuten in Wasser weich kochen. Lorbeerblatt entfernen.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Pfeffer und wenig Salz abschmecken.'
   ],
   kidName:'Mildes Kraut mit Kartoffeln',
-  kid:'Fleisch und Kohl sehr klein schneiden und mit zerdrückten Kartoffeln mischen. Lorbeerblatt sicher entfernen und ohne Salz servieren.',
+  kid:'Fleisch und Kohl sehr klein schneiden und mit zerdrückten Kartoffeln mischen. Lorbeerblatt sicher entfernen. Die Kinderportion ohne Salz servieren.',
   leftover:'Bigos vom Vortag · 10 Min. – Reste im Topf vollständig erhitzen, aufgewärmt schmeckt Bigos noch kräftiger.',
   tipp:'Gleich die doppelte Menge kochen, Bigos lässt sich gut einfrieren.'
 },
@@ -22359,7 +22359,7 @@ RECIPES.push(
     {n:'Majoran, getrocknet',q:0.5,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel und Karotte würfeln, Kartoffeln in 1,5 cm große Würfel schneiden. Mit der Brühe aufkochen und 15 Minuten köcheln, bis die Kartoffeln weich sind.',
+    'Zwiebel und Karotte würfeln, Kartoffeln in 1,5 cm große Würfel schneiden. Das Gemüse mit der Brühe aufkochen und 15 Minuten köcheln, bis die Kartoffeln weich sind.',
     'Eier in einem kleinen Topf 10 Minuten hart kochen, abschrecken, pellen und halbieren.',
     'Sauerteig gut aufschütteln, unter Rühren in die Suppe gießen und mit gehacktem Knoblauch und Majoran 5 Minuten leise köcheln lassen.',
     'Kinderportion abnehmen, bevor Salz und Pfeffer dazukommen. Erwachsene nach Geschmack würzen, die Eier in die Teller legen und mit Brot servieren.'
@@ -22420,7 +22420,7 @@ RECIPES.push(
     'Kinderportion abnehmen, bevor gesalzen wird. Erwachsene Schnitzel und Mizeria mit Salz und Pfeffer würzen.'
   ],
   kidName:'Schnitzelstreifen mit Gurkenjoghurt',
-  kid:'Schnitzel in schmale Streifen schneiden, die gut in der Hand liegen, und die Gurke fein raspeln statt in Scheiben. Kartoffeln leicht zerdrücken, alles ohne Salz.',
+  kid:'Schnitzel in schmale Streifen schneiden, die gut in der Hand liegen, und die Gurke fein raspeln statt in Scheiben. Kartoffeln leicht zerdrücken. Die Kinderportion bleibt ohne Salz.',
   leftover:'Schnitzelbrot · 5 Min. – Kaltes Schnitzel in Scheiben mit Gurke auf Vollkornbrot legen.',
   tipp:'In einer guten beschichteten Pfanne wird die Panade mit 1 EL Öl knusprig, ohne im Fett zu schwimmen.'
 },
@@ -22476,7 +22476,7 @@ RECIPES.push(
     'Kinderportion abnehmen und die Bohnen leicht zerdrücken. Erwachsene mit Salz und Pfeffer abschmecken und mit Brot servieren.'
   ],
   kidName:'Bohnen-Tomaten-Mus mit Brotstreifen',
-  kid:'Bohnen mit einer Gabel grob zerdrücken, damit sie nicht im Ganzen verschluckt werden. Brot in schmale Streifen zum Eintunken schneiden, ohne Salz.',
+  kid:'Bohnen mit einer Gabel grob zerdrücken, damit sie nicht im Ganzen verschluckt werden. Brot in schmale Streifen zum Eintunken schneiden. Die Kinderportion bleibt ohne Salz.',
   leftover:'Bohnen-Toast · 6 Min. – Reste erhitzen und auf geröstetes Vollkornbrot geben.',
   tipp:'Geräuchertes Paprikapulver bringt den rauchigen Geschmack der klassischen Wurst ohne zusätzliches Salz.'
 },
@@ -22499,11 +22499,11 @@ RECIPES.push(
   steps:[
     'Hähnchen mit halbierter Zwiebel, Lorbeer und 500 ml kaltem Wasser aufsetzen, langsam aufkochen und den Schaum abschöpfen.',
     'Karotte, Sellerie, Wurzel und Lauch putzen, in grobe Stücke schneiden, zugeben und alles 35 bis 40 Minuten leise köcheln.',
-    'Nudeln in einem zweiten Topf nach Packung garen. Fleisch herausnehmen, zerzupfen und mit dem in Scheiben geschnittenen Gemüse zurück in die Brühe geben, Zwiebel und Lorbeer entfernen.',
+    'Nudeln in einem zweiten Topf nach Packung garen. Fleisch und Gemüse herausnehmen, Fleisch zerzupfen und Gemüse in Scheiben schneiden. Beides zurück in die Brühe geben, Zwiebel und Lorbeer entfernen.',
     'Kinderportion abnehmen, bevor gesalzen wird. Erwachsene mit Salz, Pfeffer und Petersilie würzen und die Suppe über die Nudeln schöpfen.'
   ],
   kidName:'Hühnersuppe mit Nudeln',
-  kid:'Fleisch fein zerzupfen, das weiche Gemüse klein schneiden und mit wenig Brühe und den Nudeln mischen, damit es gut löffelbar ist. Ohne Salz.',
+  kid:'Fleisch fein zerzupfen und das weiche Gemüse klein schneiden. Beides mit wenig Brühe und den Nudeln mischen, damit die Kinderportion gut löffelbar ist. Ohne Salz.',
   leftover:'Nudeln mit Huhn · 8 Min. – Fleisch, Gemüse und Nudeln mit wenig Brühe in der Pfanne vollständig erhitzen.',
   tipp:'Übrige Brühe einfrieren, sie ist eine gute Grundlage für Soßen und Eintöpfe.'
 },
@@ -22532,7 +22532,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und Pfeffer abschmecken.'
   ],
   kidName:'Dill-Bällchen mit Buchweizen',
-  kid:'Bällchen vierteln, damit sie gut zu kauen sind, und mit Buchweizen und Soße vermischen. Erbsen leicht zerdrücken, ohne Salz.',
+  kid:'Bällchen vierteln, damit sie gut zu kauen sind, und mit Buchweizen und Soße vermischen. Erbsen leicht zerdrücken. Die Kinderportion bleibt ohne Salz.',
   leftover:'Buchweizen-Pfanne · 8 Min. – Restlichen Buchweizen mit Gemüse und einem Ei in der Pfanne braten.',
   tipp:'Buchweizen vor dem Kochen 2 Minuten in der trockenen Pfanne rösten, dann schmeckt er nussiger.'
 },
@@ -22554,12 +22554,12 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 200 °C vorheizen. Kartoffeln in Spalten schneiden, mit der Hälfte des Öls mischen und auf dem Blech 10 Minuten vorbacken.',
-    'Karotte und Sellerie grob raspeln, Zwiebel in feine Streifen schneiden und im restlichen Öl 5 Minuten dünsten. Passierte Tomaten, Paprikapulver und Lorbeer zugeben und 5 Minuten köcheln.',
+    'Karotte und Sellerie grob raspeln und Zwiebel in feine Streifen schneiden. Alle drei im restlichen Öl 5 Minuten dünsten. Passierte Tomaten, Paprikapulver und Lorbeer zugeben und 5 Minuten köcheln.',
     'Lorbeerblatt entfernen. Fisch zu den Kartoffeln auf das Blech legen, das Gemüse darauf verteilen und 12 bis 15 Minuten backen, bis der Fisch sich leicht zerteilen lässt.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Fisch unter Möhrendecke',
-  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, dann mit dem weichen Gemüse mischen. Kartoffeln zerdrücken, alles ohne Salz.',
+  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, dann mit dem weichen Gemüse mischen. Kartoffeln zerdrücken. Die Kinderportion bleibt ohne Salz.',
   leftover:'Kalte Ryba po grecku · 5 Min. – Gekühlte Reste mit Vollkornbrot essen, so wird das Gericht in Polen oft serviert.',
   tipp:'In Polen wird das Gericht gern kalt gegessen und lässt sich deshalb gut am Vortag vorbereiten.'
 },
@@ -22641,7 +22641,7 @@ RECIPES.push(
     'Kinderportion abnehmen, bevor gewürzt wird. Erwachsene mit Salz und Pfeffer abschmecken.'
   ],
   kidName:'Hühnchen-Rahm-Reis',
-  kid:'Hähnchen fein zerzupfen oder klein schneiden und mit Reis, weichen Karotten und Soße mischen. Erbsen leicht zerdrücken, ohne Salz.',
+  kid:'Hähnchen fein zerzupfen oder klein schneiden und mit Reis, weichen Karotten und Soße mischen. Erbsen leicht zerdrücken. Die Kinderportion bleibt ohne Salz.',
   leftover:'Frikassee-Auflauf · 20 Min. – Reste mit Reis in eine Form geben, mit etwas Käse bestreuen und im Ofen vollständig erhitzen.',
   tipp:'Mit Resten von einem Brathähnchen verkürzt sich die Garzeit auf wenige Minuten.'
 },
@@ -22692,7 +22692,7 @@ RECIPES.push(
   ],
   steps:[
     'Mehl, Milch, Ei und 50 ml Wasser glatt verquirlen und 10 Minuten quellen lassen.',
-    'Zwiebel und Knoblauch fein hacken, in wenig Öl 2 Minuten dünsten, Spinat zugeben und zusammenfallen lassen. Abtropfen lassen und mit dem Quark mischen, etwas Füllung für das Kind beiseitestellen und unter den Rest den zerbröselten Feta heben.',
+    'Zwiebel und Knoblauch fein hacken, in wenig Öl 2 Minuten dünsten, Spinat zugeben und zusammenfallen lassen. Die Spinatmischung abtropfen lassen und mit dem Quark mischen, etwas Füllung für das Kind beiseitestellen und unter den Rest den zerbröselten Feta heben.',
     'Pfanne dünn mit Öl auspinseln und aus dem Teig nacheinander dünne Pfannkuchen backen, je Seite etwa 1 Minute.',
     'Pfannkuchen mit der Füllung bestreichen, zu Dreiecken falten und in der Pfanne je Seite 2 Minuten erwärmen. Tomate in Spalten dazu reichen.',
     'Kinderportion mit der Füllung ohne Feta abnehmen. Erwachsene mit Pfeffer würzen, Salz ist durch den Feta kaum nötig.'
@@ -22731,7 +22731,7 @@ RECIPES.push(
   ],
   nutri:{p:['Kabeljau','Ei'],f:['Kartoffeln','Zwiebel'],i:['Ei','Kabeljau'],fat:['Olivenöl','Oliven']},
   kidName:'Mini-Brás',
-  kid:'Ei vollständig stocken lassen und den Fisch sorgfältig entgräten. Harte Kartoffelstifte klein brechen, ohne Oliven und Salz.',
+  kid:'Ei vollständig stocken lassen und den Fisch sorgfältig entgräten. Harte Kartoffelstifte klein brechen. Die Kinderportion ohne Oliven und Salz servieren.',
   leftover:'Brás-Brot · 5 Min. – Reste in der Pfanne erwärmen und auf geröstetes Vollkornbrot geben.',
   extras:[], tipp:'Klassisch werden gewässerter Stockfisch und frittiertes Kartoffelstroh verwendet, frischer Kabeljau und Ofenkartoffeln sind leichter und deutlich salzärmer.'
 },
@@ -22758,7 +22758,7 @@ RECIPES.push(
   ],
   nutri:{p:['Sardinen'],f:['Kartoffeln','Paprika'],i:['Sardinen'],fat:['Sardinen (Omega-3)','Olivenöl']},
   kidName:'Sardinen-Kartoffel-Mus',
-  kid:'Sardinen vollständig von Haut und Gräten befreien, zerpflücken und mit den Kartoffeln zerdrücken. Paprika gehäutet und klein geschnitten, ohne rohe Zwiebel und Salz.',
+  kid:'Sardinen vollständig von Haut und Gräten befreien, zerpflücken und mit den Kartoffeln zerdrücken. Paprika gehäutet und klein geschnitten dazugeben. Die Kinderportion ohne rohe Zwiebel und Salz servieren.',
   leftover:'Sardinen-Aufstrich · 5 Min. – Übrige entgrätete Sardinen mit Joghurt und Zitrone zerdrücken und aufs Brot streichen.',
   extras:[], tipp:'Sardinen liefern viel Omega-3 und Vitamin D und sind meist günstiger als Lachs.'
 },
@@ -22787,7 +22787,7 @@ RECIPES.push(
   ],
   nutri:{p:['Seelachs oder Kabeljau'],f:['Kartoffeln','Paprika','Tomaten'],i:['Fisch'],fat:['Olivenöl']},
   kidName:'Fisch-Kartoffel-Schichten',
-  kid:'Fisch auf Gräten prüfen und zerpflücken, Kartoffeln und Gemüse mit etwas Sud weich zerdrücken. Tomatenhaut entfernen, ohne Salz.',
+  kid:'Fisch auf Gräten prüfen und zerpflücken, Kartoffeln und Gemüse mit etwas Sud weich zerdrücken. Tomatenhaut entfernen. Die Kinderportion bleibt ohne Salz.',
   leftover:'Caldeirada-Suppe · 10 Min. – Reste mit etwas Brühe aufkochen, grob pürieren und mit Vollkornbrot essen.',
   extras:[], tipp:'Zwei Fischsorten machen den Eintopf aromatischer, feste Filets zerfallen dabei nicht.'
 },
@@ -22809,7 +22809,7 @@ RECIPES.push(
     {n:'Paprikapulver, edelsüß',q:0.25,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel und Knoblauch fein hacken, Tomaten würfeln. In der Hälfte des Öls 3 Minuten dünsten, dann den Reis zugeben und kurz mitrühren.',
+    'Zwiebel und Knoblauch fein hacken, Tomaten würfeln. Alle drei in der Hälfte des Öls 3 Minuten dünsten, dann den Reis zugeben und kurz mitrühren.',
     'Brühe angießen und zugedeckt 15 Minuten leise köcheln, die letzten 4 Minuten die Erbsen zugeben. Der Reis soll weich und leicht saftig bleiben.',
     'Fisch trocken tupfen, mit Paprikapulver bestäuben und im restlichen Öl je Seite 3 bis 4 Minuten braten, bis er innen weiß ist.',
     'Kinderportion ohne Salz abnehmen, den Fisch auf Gräten prüfen und zerpflücken. Erwachsene mit gehacktem Koriander, Salz und Pfeffer würzen.'
@@ -23015,7 +23015,7 @@ RECIPES.push(
   ],
   nutri:{p:['Eier','Erbsen'],f:['Erbsen','Vollkornbrot'],i:['Erbsen','Eier'],fat:['Eier','Olivenöl']},
   kidName:'Erbsen mit Ei',
-  kid:'Eigelb vollständig durchgaren, das Ei klein schneiden und die Erbsen mit der Gabel zerdrücken. Brot in weichen Streifen, ohne Salz.',
+  kid:'Eigelb vollständig durchgaren, das Ei klein schneiden und die Erbsen mit der Gabel zerdrücken. Brot in weichen Streifen dazugeben. Die Kinderportion bleibt ohne Salz.',
   leftover:'Erbsen-Ei-Brot · 5 Min. – Reste zerdrücken und warm auf Vollkornbrot streichen.',
   extras:['feta'], tipp:'TK-Erbsen sind schnell gegart, schmecken süßlich und liefern viel pflanzliches Eiweiß.'
 },
@@ -23099,7 +23099,7 @@ RECIPES.push(
   ],
   nutri:{p:['Kidneybohnen','Vollkornreis'],f:['Kidneybohnen','Vollkornreis','Wirsing'],i:['Kidneybohnen'],fat:['Olivenöl']},
   kidName:'Bohnenreis mild',
-  kid:'Bohnen gründlich zerdrücken, Wirsing sehr weich garen und fein schneiden und alles mit dem saftigen Reis mischen. Ohne Salz.',
+  kid:'Bohnen gründlich zerdrücken. Wirsing sehr weich garen und fein schneiden. Bohnen und Wirsing mit dem saftigen Reis mischen. Ohne Salz.',
   leftover:'Gefüllte Paprika · 25 Min. – Reste in halbierte Paprika füllen und bei 200 °C im Ofen backen.',
   extras:['ei','feta'], tipp:'In Portugal ist Bohnenreis die Beilage zu Fisch, mit Kohl und mehr Bohnen wird er zum Hauptgericht.'
 },
@@ -23120,7 +23120,7 @@ RECIPES.push(
     {n:'Olivenöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ei 10 Minuten hart kochen. Bohnen abspülen und die letzten 3 Minuten mit ins Kochwasser geben, dann alles abgießen.',
+    'Ei 10 Minuten hart kochen. Bohnen abspülen und die letzten 3 Minuten mit ins Kochwasser geben, dann Ei und Bohnen zusammen abgießen.',
     'Paprika und Tomate klein würfeln, Zwiebel sehr fein hacken, Petersilie hacken. Ei kalt abschrecken, schälen und würfeln.',
     'Die warmen Bohnen mit Paprika, Tomate und Ei mischen.',
     'Kinderportion ohne Zwiebel, Essig und Salz abnehmen, mit etwas Öl mischen und die Bohnen zerdrücken. Erwachsene mit Zwiebel, Petersilie, Öl, Essig, Salz und Pfeffer anmachen, dazu Vollkornbrot.'
@@ -23155,12 +23155,12 @@ RECIPES.push(
   ],
   steps:[
     'Wirsingblätter ablösen, 3 Minuten in kochendem Wasser blanchieren und dicke Blattrippen flach schneiden.',
-    'Zwiebel und Karotte fein würfeln und in Öl 4 Minuten dünsten. Mit Hack, rohem Reis, Thymian und der Hälfte des Dills verkneten und in kleinen Portionen fest in die Blätter wickeln.',
+    'Zwiebel und Karotte fein würfeln und in Öl 4 Minuten dünsten. Zwiebel und Karotte mit Hack, rohem Reis, Thymian und der Hälfte des Dills verkneten. Die Füllung in kleinen Portionen fest in die Blätter wickeln.',
     'Röllchen dicht in einen Topf schichten, passierte Tomaten und Wasser bis knapp unter die Oberfläche angießen und zugedeckt 60 Minuten leise köcheln, bis Reis und Fleisch vollständig gar sind.',
     'Kinderportion ungesalzen abnehmen und die Röllchen klein schneiden. Erwachsene mit Salz, Pfeffer und restlichem Dill würzen und mit Joghurt servieren.'
   ],
   kidName:'Mini-Sarmale mit Joghurt',
-  kid:'Röllchen in kleine Stücke schneiden, den weichen Wirsing fein hacken und mit Tomatensoße und Joghurt mild mischen. Ohne Salz.',
+  kid:'Röllchen in kleine Stücke schneiden und den weichen Wirsing fein hacken. Beides mit Tomatensoße und Joghurt mild mischen. Ohne Salz.',
   leftover:'Sarmale mit Polenta · 12 Min. – Röllchen in der Soße vollständig erhitzen und mit schnell gekochter Polenta servieren.',
   tipp:'Sarmale schmecken aufgewärmt am zweiten Tag am besten, in Rumänien gehört Mămăligă dazu.'
 },
@@ -23184,7 +23184,7 @@ RECIPES.push(
   steps:[
     'Hack mit gepresstem Knoblauch, Thymian und der kalten Brühe 2 Minuten kräftig verkneten, bis die Masse geschmeidig ist, und zu daumendicken, 8 cm langen Röllchen formen.',
     'Röllchen in Öl bei mittlerer Hitze rundum 8 bis 10 Minuten braten, bis sie innen vollständig durchgegart sind.',
-    'Tomaten und Gurke würfeln, Zwiebel in feine Ringe schneiden und alles zu einem Salat mischen.',
+    'Tomaten und Gurke würfeln, Zwiebel in feine Ringe schneiden und alle drei zu einem Salat mischen.',
     'Kinderportion ungesalzen abnehmen und die Röllchen in Scheiben schneiden. Erwachsene mit Salz und Pfeffer würzen und mit Senf, Salat und Brot servieren.'
   ],
   kidName:'Mici-Scheiben mit Gurke',
@@ -23237,13 +23237,13 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Hähnchen in Würfel schneiden und in Öl 5 Minuten rundum anbraten. Zwiebel würfeln, Pilze in Scheiben schneiden, zugeben und 5 Minuten mitbraten.',
+    'Hähnchen in Würfel schneiden und in Öl 5 Minuten rundum anbraten. Zwiebel würfeln und Pilze in Scheiben schneiden. Beides zugeben und 5 Minuten mitbraten.',
     'Mehl darüberstäuben und kurz anschwitzen, Milch und 100 ml Wasser unter Rühren zugießen, Erbsen zugeben und 6 Minuten sämig köcheln, bis das Hähnchen vollständig durchgegart ist.',
     'Inzwischen 300 ml Wasser aufkochen, Polenta einrühren und unter Rühren 5 Minuten zu einem festen Brei garen.',
     'Kinderportion ungesalzen abnehmen und das Hähnchen klein schneiden. Erwachsene mit Salz, Pfeffer und Dill würzen.'
   ],
   kidName:'Rahmhähnchen mit Polenta',
-  kid:'Hähnchen und Pilze klein schneiden, Erbsen zerdrücken und mit der milden Soße über weiche Polenta geben. Ohne Salz.',
+  kid:'Hähnchen und Pilze klein schneiden und Erbsen zerdrücken. Hähnchen, Pilze und Erbsen mit der milden Soße über weiche Polenta geben. Ohne Salz.',
   leftover:'Ciulama-Nudeln · 10 Min. – Reste mit gekochten Nudeln und etwas Milch vollständig erhitzen.',
   tipp:'Mit Milch statt Sahne bleibt die Soße hell und cremig, aber deutlich leichter.'
 },
@@ -23350,7 +23350,7 @@ RECIPES.push(
   steps:[
     'Für die Mămăligă 300 ml Wasser aufkochen, Polenta einrühren und unter Rühren 5 Minuten zu einem festen Brei garen.',
     'Fisch trocken tupfen und in der Hälfte des Öls bei mittlerer Hitze 3 Minuten je Seite braten, bis er sich leicht zerpflücken lässt, dann herausnehmen.',
-    'Kirschtomaten halbieren, Paprika in Streifen schneiden und im restlichen Öl 3 Minuten anbraten. Brühe und Thymian zugeben, 3 Minuten köcheln und den Fisch zurück in den Sud legen.',
+    'Kirschtomaten halbieren und Paprika in Streifen schneiden. Beides im restlichen Öl 3 Minuten anbraten. Brühe und Thymian zugeben, 3 Minuten köcheln und den Fisch zurück in den Sud legen.',
     'Kinderportion ungesalzen abnehmen, den Fisch auf Gräten prüfen und zerpflücken. Erwachsene rühren gepressten Knoblauch und gehackte Petersilie in den Sud und würzen mit Salz, Pfeffer und Chili.'
   ],
   kidName:'Forelle mit weicher Polenta',
@@ -23572,7 +23572,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel und Karotte würfeln, Kohl in feine Streifen schneiden und alles in Öl 5 Minuten andünsten.',
+    'Zwiebel und Karotte würfeln, Kohl in feine Streifen schneiden und alle drei zusammen in Öl 5 Minuten andünsten.',
     'Kartoffeln würfeln, mit der Brühe zugeben und 15 Minuten köcheln.',
     'Rote Bete würfeln, mit den abgespülten Bohnen zugeben und weitere 10 Minuten köcheln, bis alles weich ist.',
     'Kinderportion ungesalzen abnehmen und etwas abkühlen lassen. Erwachsene mit Salz und Pfeffer abschmecken und mit Joghurt und Brot servieren.'
@@ -23605,7 +23605,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen und das Lorbeerblatt entfernen. Erwachsene mit Salz, Pfeffer und Dill abschmecken.'
   ],
   kidName:'Kohl-Eintopf mild',
-  kid:'Fleisch sehr fein zerzupfen, Kohl und Kartoffeln weich kochen und grob zerdrücken. Lorbeerblatt sicher entfernen und ohne Salz servieren.',
+  kid:'Fleisch sehr fein zerzupfen, Kohl und Kartoffeln weich kochen und grob zerdrücken. Lorbeerblatt sicher entfernen. Die Kinderportion ohne Salz servieren.',
   leftover:'Schtschi vom Vortag · 10 Min. – Eintopf vollständig erhitzen, durchgezogen wird er noch aromatischer.',
   tipp:'Im Slowcooker auf niedriger Stufe 6 Stunden garen, dann wird das Fleisch besonders zart.'
 },
@@ -23690,7 +23690,7 @@ RECIPES.push(
     'Kinderportion ohne Senf und Salz abnehmen. Erwachsene mit Senf, Paprika, Salz und Pfeffer abschmecken und mit Buchweizen und Gurkenscheiben servieren.'
   ],
   kidName:'Mildes Stroganow',
-  kid:'Rindfleisch sehr fein schneiden, Pilze klein hacken und mit Buchweizen und Sauce mischen. Ohne Senf und Salz servieren.',
+  kid:'Rindfleisch sehr fein schneiden und Pilze klein hacken. Beides mit Buchweizen und Sauce mischen. Ohne Senf und Salz servieren.',
   leftover:'Buchweizen-Pfanne · 8 Min. – Reste mit etwas Wasser in der Pfanne vollständig erhitzen und mit Gurke servieren.',
   tipp:'Gerösteten Buchweizen (Kascha) kaufen, er schmeckt nussiger und bleibt schön körnig.'
 },
@@ -23741,7 +23741,7 @@ RECIPES.push(
   ],
   steps:[
     'Reis 15 Minuten vorkochen und abgießen. Große Kohlblätter im selben Topf in kochendem Wasser 3 bis 4 Minuten blanchieren, bis sie biegsam sind.',
-    'Zwiebel und Karotte fein würfeln, die Hälfte in Öl andünsten und mit Hack und Reis mischen.',
+    'Zwiebel und Karotte fein würfeln. Die Hälfte dieses Gemüses in Öl andünsten und mit Hack und Reis mischen.',
     'Je einen Esslöffel Füllung in ein Kohlblatt wickeln, die Rouladen dicht in den Topf legen, restliches Gemüse und passierte Tomaten mit etwas Wasser darübergeben.',
     'Zugedeckt 35 bis 40 Minuten leise schmoren, bis der Kohl weich und die Füllung vollständig durchgegart ist.',
     'Kinderportion ohne Salz abnehmen. Erwachsene die Sauce mit Paprika, Salz und Pfeffer abschmecken und mit Joghurt servieren.'
@@ -23793,7 +23793,7 @@ RECIPES.push(
   ],
   steps:[
     'Buchweizen abspülen und in der doppelten Menge Wasser zugedeckt 12 bis 15 Minuten garen, bis das Wasser aufgenommen ist. Eier parallel 10 Minuten hart kochen.',
-    'Zwiebel würfeln, Pilze in Scheiben schneiden und in Öl 6 bis 8 Minuten goldbraun braten, zum Schluss den Spinat zusammenfallen lassen.',
+    'Zwiebel würfeln und Pilze in Scheiben schneiden. Beides in Öl 6 bis 8 Minuten goldbraun braten, zum Schluss den Spinat zusammenfallen lassen.',
     'Buchweizen unter die Pilze mischen, Eier pellen und vierteln.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz, Pfeffer und Dill würzen.'
   ],
@@ -23853,7 +23853,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen und das Lorbeerblatt entfernen. Erwachsene mit Paprika, Salz und Pfeffer abschmecken und mit Brot servieren.'
   ],
   kidName:'Erbsenbrei mild',
-  kid:'Eintopf für das Kind fein pürieren oder gründlich zerdrücken, Lorbeerblatt entfernen und ohne Salz lauwarm servieren.',
+  kid:'Lorbeerblatt entfernen. Den Eintopf für das Kind fein pürieren oder gründlich zerdrücken und ohne Salz lauwarm servieren.',
   leftover:'Erbsen-Dip · 5 Min. – dick eingekochte Reste vollständig erhitzen, glatt pürieren und als warmen Aufstrich zu Brot essen.',
   tipp:'Über Nacht eingeweichte Schälerbsen garen etwa 10 Minuten schneller.'
 },
@@ -23931,7 +23931,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 200 °C vorheizen. Kartoffeln in dünne Scheiben schneiden, mit der Hälfte des Öls in einer Form verteilen und 15 Minuten vorbacken.',
-    'Zwiebel in Ringe und Pilze in Scheiben schneiden, Brokkoli in kleine Röschen teilen und alles mit dem restlichen Öl auf die Kartoffeln geben.',
+    'Zwiebel in Ringe und Pilze in Scheiben schneiden, Brokkoli in kleine Röschen teilen. Zwiebel, Pilze und Brokkoli mit dem restlichen Öl auf die Kartoffeln geben.',
     'Fisch obenauf legen, mit Joghurt bestreichen, Käse darüberreiben und 15 bis 18 Minuten backen, bis der Fisch innen weiß ist und sich leicht zerteilen lässt.',
     'Kinderportion ohne Salz abnehmen und den Fisch auf Gräten prüfen. Erwachsene mit Salz, Pfeffer und Dill würzen.'
   ],
@@ -23958,7 +23958,7 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln halbieren und in Wasser 18 bis 20 Minuten weich kochen.',
-    'Karotten grob raspeln, Zwiebel in Halbringe schneiden und in der Hälfte des Öls 8 Minuten weich dünsten. Tomatenmark, Lorbeer und 4 EL Wasser zugeben und 5 Minuten schmoren, dann herausnehmen.',
+    'Karotten grob raspeln und Zwiebel in Halbringe schneiden. Beides in der Hälfte des Öls 8 Minuten weich dünsten. Tomatenmark, Lorbeer und 4 EL Wasser zugeben, 5 Minuten schmoren und das Gemüse herausnehmen.',
     'Fisch im restlichen Öl bei mittlerer Hitze je Seite 3 bis 4 Minuten braten, bis er innen weiß ist.',
     'Kinderportion ohne Essig und Salz abnehmen und das Lorbeerblatt entfernen. Für die Erwachsenen das Gemüse mit Essig, Salz und Pfeffer abschmecken, über den Fisch geben und mit Dill bestreuen.'
   ],
@@ -24051,7 +24051,7 @@ RECIPES.push(
     'Lorbeer und Pimentkörner herausnehmen. Kinderportion ungesalzen abnehmen, dann Erwachsene mit Salz und Pfeffer abschmecken und mit Rote-Bete-Scheiben servieren.'
   ],
   kidName:'Weicher Rindertopf',
-  kid:'Fleisch in feine Fasern zupfen, Kartoffeln und Karotten mit etwas Sauce zerdrücken. Pimentkörner vorher sicher entfernen, ohne Salz servieren.',
+  kid:'Fleisch in feine Fasern zupfen, Kartoffeln und Karotten mit etwas Sauce zerdrücken. Pimentkörner vorher sicher entfernen. Die Kinderportion ohne Salz servieren.',
   leftover:'Kalops-Pfanne · 10 Min. – Reste grob zerdrücken und in der Pfanne mit einem vollständig durchgebratenen Spiegelei servieren.',
   tipp:'Kalops schmeckt am zweiten Tag noch besser, deshalb lohnt es sich, gleich die doppelte Menge zu schmoren.'
 },
@@ -24163,7 +24163,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen. Sauce für die Erwachsenen mit Salz, Muskat und Zitrone abschmecken.'
   ],
   kidName:'Fisch mit Eiersauce',
-  kid:'Fisch sorgfältig entgräten und zerpflücken, Kartoffeln und Karotten mit etwas Sauce zerdrücken. Das Ei ist hart gekocht und darf mit, Salz erst danach.',
+  kid:'Fisch sorgfältig entgräten und zerpflücken, Kartoffeln und Karotten mit etwas Sauce zerdrücken. Das hart gekochte Ei in der Sauce darf mit. Die Sauce erst nach dem Abnehmen der Kinderportion salzen.',
   leftover:'Fischsalat-Brot · 5 Min. – Kalten Fisch mit restlicher Eiersauce und Gurke auf Vollkornbrot verteilen.',
   tipp:'Seelachs ist eine günstige Alternative zu Kabeljau, beim Kauf auf ein Siegel für nachhaltigen Fang achten.'
 },
@@ -24212,7 +24212,7 @@ RECIPES.push(
   steps:[
     'Kartoffeln schälen, würfeln und in 12 bis 14 Minuten weich kochen, dann mit warmer Milch stampfen. Erbsen in wenig Wasser 4 Minuten garen.',
     'Heringsfilets trocken tupfen und dünn in Roggenmehl wenden.',
-    'In Öl bei mittlerer Hitze von jeder Seite 3 Minuten braten, bis der Fisch innen nicht mehr glasig ist.',
+    'Heringsfilets in Öl bei mittlerer Hitze von jeder Seite 3 Minuten braten, bis der Fisch innen nicht mehr glasig ist.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz, Pfeffer, Zitrone und Preiselbeeren servieren.'
   ],
   kidName:'Hering mit Stampf',
@@ -24375,7 +24375,7 @@ RECIPES.push(
   steps:[
     'Kartoffeln in Stücke schneiden und in 15 Minuten weich kochen.',
     'Zwiebel fein würfeln und in der Hälfte des Öls glasig dünsten. Bohnen abspülen, mit Brühe und der Hälfte des fein geriebenen Apfels zugeben und 10 Minuten köcheln.',
-    'Speisestärke mit etwas Wasser verrühren, unterrühren und kurz aufkochen, bis die Sauce bindet, dann mit Essig abschmecken.',
+    'Speisestärke mit etwas Wasser verrühren, unter die Bohnen rühren und kurz aufkochen, bis die Sauce bindet, dann mit Essig abschmecken.',
     'Rotkohl in feine Streifen schneiden und mit dem restlichen Apfel im übrigen Öl und 3 EL Wasser zugedeckt 8 Minuten weich dünsten.',
     'Kinderportion ohne Salz abnehmen und die Bohnen dafür zerdrücken. Erwachsene mit Salz und Pfeffer würzen.'
   ],
@@ -24413,7 +24413,7 @@ RECIPES.push(
     'Kinderportion ohne Salz und Chili abnehmen und den Fisch sorgfältig entgräten. Erwachsene Reis, Gemüse und Fisch mit Salz und nach Wunsch Chiliflocken würzen und mit der restlichen Brühe beträufeln.'
   ],
   kidName:'Fisch-Reis mit weichem Gemüse',
-  kid:'Fisch gründlich entgräten und zerpflücken, Karotten und Kohl sehr weich und klein geschnitten zum Reis geben. Ohne Salz und Chili.',
+  kid:'Fisch gründlich entgräten und zerpflücken. Die sehr weichen Karotten und den Kohl klein schneiden. Fisch und Gemüse zum Reis geben. Ohne Salz und Chili.',
   leftover:'Thiéb-Pfanne · 10 Min. – Reis und Gemüse mit etwas Brühe in der Pfanne vollständig durcherhitzen.',
   tipp:'Im Senegal wird Thieboudienne mit Bruchreis gekocht, er nimmt die Tomatenbrühe besonders gut auf.'
 },
@@ -24441,7 +24441,7 @@ RECIPES.push(
     'Kinderportion ohne Salz und Chili abnehmen und den Fisch entgräten. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen und über den Reis geben.'
   ],
   kidName:'Okra-Fisch-Reis',
-  kid:'Fisch entgräten und zerpflücken, Okra sehr weich kochen und fein schneiden, dann alles unter den Reis mischen. Ohne Salz und Chili.',
+  kid:'Fisch entgräten und zerpflücken, Okra sehr weich kochen und fein schneiden, dann Fisch und Okra unter den Reis mischen. Ohne Salz und Chili.',
   tipp:'Im Original kommen rotes Palmöl und getrockneter Fisch hinein, diese Variante ist milder und leichter.'
 },
 {
@@ -24490,7 +24490,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 200 °C vorheizen. Süßkartoffel und Karotte in 2 cm Würfel schneiden, mit der Hälfte des Öls mischen und 12 Minuten backen.',
-    'Lachs mit der Hälfte des Zitronensafts und dem Senf einreiben, aufs Blech legen und alles weitere 12 bis 14 Minuten backen, bis der Fisch gerade durch ist.',
+    'Lachs mit der Hälfte des Zitronensafts und dem Senf einreiben, aufs Blech legen und Lachs und Gemüse zusammen weitere 12 bis 14 Minuten backen, bis der Fisch gerade durch ist.',
     'Inzwischen die Zwiebel in feine Streifen schneiden und im restlichen Öl mit dem Lorbeerblatt 15 Minuten bei mittlerer Hitze weich und goldgelb schmoren, dann mit 3 EL Wasser und dem restlichen Zitronensaft ablöschen.',
     'Kinderportion ohne Salz und Chili abnehmen und den Fisch entgräten. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen und die Zwiebelsoße über den Fisch geben.'
   ],
@@ -24522,7 +24522,7 @@ RECIPES.push(
     'Kinderportion ohne Salz und Chili abnehmen. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen und mit dem Reis servieren.'
   ],
   kidName:'Zitronen-Hähnchen mit Reis',
-  kid:'Hähnchen fein zerzupfen, die weich geschmorten Zwiebeln klein schneiden und mit der Soße unter den Reis mischen. Ohne Salz und Chili.',
+  kid:'Hähnchen fein zerzupfen und die weich geschmorten Zwiebeln klein schneiden. Beides mit der Soße unter den Reis mischen. Ohne Salz und Chili.',
   leftover:'Yassa-Wrap · 8 Min. – Hähnchen und Zwiebeln vollständig erhitzen und in ein Fladenbrot rollen.',
   tipp:'Die Zwiebeln langsam schmoren, bis sie süß und weich sind, dann braucht die Soße kaum Salz.'
 },
@@ -24576,7 +24576,7 @@ RECIPES.push(
     'Kinderportion ohne Salz und Chili abnehmen. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen und mit Tomate und Gurke im Fladenbrot servieren.'
   ],
   kidName:'Lamm-Stückchen im Fladenbrot',
-  kid:'Lamm sehr klein schneiden, die weichen Zwiebeln fein hacken und mit Gurke in weichem Fladenbrot anbieten. Ohne Salz und Chili.',
+  kid:'Lamm sehr klein schneiden und die weichen Zwiebeln fein hacken. Beides mit Gurke in weichem Fladenbrot anbieten. Ohne Salz und Chili.',
   tipp:'Im Senegal wird Dibi am Straßengrill über Holzkohle gebraten und auf Papier mit Senfzwiebeln serviert.'
 },
 {
@@ -24603,7 +24603,7 @@ RECIPES.push(
     'Kinderportion ohne Salz und Chili abnehmen. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen und die Soße über den Couscous geben.'
   ],
   kidName:'Couscous mit Hähnchen-Kürbis',
-  kid:'Hähnchen fein zerzupfen, Kürbis und Karotten weich zerdrücken und mit Couscous und etwas Soße mischen. Ohne Salz und Chili.',
+  kid:'Hähnchen fein zerzupfen, Kürbis und Karotten weich zerdrücken. Hähnchen und Gemüse mit Couscous und etwas Soße mischen. Ohne Salz und Chili.',
   leftover:'Couscous-Pfanne · 8 Min. – Couscous und Soße zusammen in der Pfanne vollständig erhitzen.',
   tipp:'Im Senegal wird Thiéré aus Hirse gedämpft, Vollkorn-Couscous ist der schnelle Ersatz und gart ohne Kochen.'
 },
@@ -24658,7 +24658,7 @@ RECIPES.push(
     'Lorbeerblatt entfernen. Kinderportion ohne Salz und Chili abnehmen, Erwachsene mit Salz und nach Wunsch Chiliflocken würzen.'
   ],
   kidName:'Fleisch-Reis mit Erbsen',
-  kid:'Rindfleisch sehr fein schneiden, die weichen Zwiebeln klein hacken und mit Reis und angedrückten Erbsen mischen. Ohne Salz und Chili.',
+  kid:'Rindfleisch sehr fein schneiden und die weichen Zwiebeln klein hacken. Beides mit Reis und angedrückten Erbsen mischen. Ohne Salz und Chili.',
   tipp:'Thiébou Yapp ist ein Festessen zu Tabaski, im Original mit Lamm und reichlich Zwiebelsoße.'
 },
 {
@@ -24679,7 +24679,7 @@ RECIPES.push(
   steps:[
     'Zwiebel und Knoblauch würfeln und in Öl 3 Minuten dünsten. Süßkartoffel in 1 cm Würfel schneiden.',
     'Süßkartoffel, Tomaten, abgespülte Bohnen und 100 ml Wasser zugeben und zugedeckt 10 Minuten köcheln, bis die Würfel weich sind.',
-    'Etwa ein Drittel mit dem Löffel zerdrücken, damit der Eintopf sämig wird.',
+    'Etwa ein Drittel des Eintopfs mit dem Löffel zerdrücken, damit er sämig wird.',
     'Kinderportion ohne Salz und Chili abnehmen. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen und mit Brot servieren.'
   ],
   kidName:'Bohnen-Süßkartoffel-Mus',
@@ -24817,7 +24817,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 220 °C vorheizen. Hack mit fein geriebener Zwiebel, gehackter Petersilie, Paprikapulver und Kreuzkümmel verkneten und zu länglichen Röllchen formen.',
-    'Tomaten halbieren, Paprika in breite Streifen schneiden und mit Öl auf ein Blech legen, die Röllchen dazulegen.',
+    'Tomaten halbieren und Paprika in breite Streifen schneiden. Beides mit Öl auf ein Blech legen, die Röllchen dazulegen.',
     'Alles 15 bis 20 Minuten backen, bis das Fleisch innen durchgegart ist, im Airfryer 12 bis 14 Minuten bei 200 °C. Fladenbrot in den letzten 2 Minuten kurz mitwärmen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Pfeffer würzen, Kabab und Gemüse auf das Fladenbrot legen und mit Joghurt servieren.'
   ],
@@ -24899,9 +24899,9 @@ RECIPES.push(
   ],
   steps:[
     'Hähnchen in sehr dünne Streifen schneiden und mit Öl, Baharat, Kurkuma und der Hälfte des fein geriebenen Knoblauchs mischen.',
-    'In einer heißen Pfanne in zwei Portionen je 5 bis 6 Minuten kräftig anbraten, bis das Fleisch durchgegart und leicht gebräunt ist.',
+    'Hähnchen in einer heißen Pfanne in zwei Portionen je 5 bis 6 Minuten kräftig anbraten, bis das Fleisch durchgegart und leicht gebräunt ist.',
     'Joghurt mit restlichem Knoblauch verrühren, Tomaten und Gurke in Scheiben und Salat in Streifen schneiden, Fladenbrot erwärmen.',
-    'Kinderportion ohne Salz und ohne Knoblauchjoghurt abnehmen. Erwachsene salzen und alles mit Knoblauchjoghurt ins Fladenbrot füllen.'
+    'Kinderportion ohne Salz und ohne Knoblauchjoghurt abnehmen. Erwachsene salzen und Hähnchen und Gemüse mit Knoblauchjoghurt ins Fladenbrot füllen.'
   ],
   kidName:'Hähnchen-Pita',
   kid:'Hähnchen fein schneiden und mit Naturjoghurt, Gurkenstiften und weichem Fladenbrot getrennt auf dem Teller anbieten.',
@@ -24955,7 +24955,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 220 °C vorheizen. Tomate, Paprika und Zwiebel sehr fein würfeln.',
-    'Mit dem rohen Hack, Tomatenmark, Paprikapulver und Öl zu einer streichfähigen Masse verrühren.',
+    'Das gewürfelte Gemüse mit dem rohen Hack, Tomatenmark, Paprikapulver und Öl zu einer streichfähigen Masse verrühren.',
     'Masse dünn bis zum Rand auf das Fladenbrot streichen und 10 bis 12 Minuten backen, bis das Fleisch vollständig durchgegart ist.',
     'Kinderportion ungesalzen abnehmen und in Streifen schneiden. Erwachsene salzen und mit Joghurt und Gurke servieren.'
   ],
@@ -24985,7 +24985,7 @@ RECIPES.push(
     'Bulgur 10 Minuten in warmem Wasser einweichen und gut ausdrücken. Ofen auf 190 °C vorheizen.',
     'Fisch sehr fein hacken und mit Bulgur, Kreuzkümmel, Kurkuma, abgeriebener Zitronenschale und der Hälfte des gehackten Korianders zu einem formbaren Teig verkneten.',
     'Zwiebeln in Halbringe schneiden und in der Hälfte des Öls 10 Minuten goldbraun schmoren. Die Hälfte des Teigs in eine geölte Form drücken, Zwiebeln darauf verteilen und mit dem restlichen Teig bedecken.',
-    'In Rauten schneiden, mit restlichem Öl bestreichen und 25 bis 30 Minuten backen, bis die Oberfläche goldbraun und der Fisch durchgegart ist.',
+    'Den Kibbeh in der Form in Rauten schneiden, mit restlichem Öl bestreichen und 25 bis 30 Minuten backen, bis die Oberfläche goldbraun und der Fisch durchgegart ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Zitronensaft würzen und mit Tomaten-Gurken-Salat servieren.'
   ],
   kidName:'Fisch-Kibbeh-Würfel',
@@ -25100,7 +25100,7 @@ RECIPES.push(
     'Tomaten in Spalten schneiden und Fladenbrot erwärmen. Kinderportion ungesalzen abnehmen, dann Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Kräuter-Omelett-Streifen',
-  kid:'Omelett vollständig durchgaren und in Streifen schneiden, die das Kind gut greifen kann. Tomaten in kleine Stücke schneiden, ohne Salz.',
+  kid:'Omelett vollständig durchgaren und in Streifen schneiden, die das Kind gut greifen kann. Tomaten in kleine Stücke schneiden. Die Kinderportion bleibt ohne Salz.',
   leftover:'Ijjeh-Sandwich · 3 Min. – Kalte Omelett-Fladen mit Tomate ins Fladenbrot legen.',
   tipp:'Kleine Fladen lassen sich leichter wenden als ein großes Omelett.'
 },
@@ -25181,7 +25181,7 @@ RECIPES.push(
     'Kürbis würfeln und in wenig Wasser 12 Minuten weich kochen oder in der Mikrowelle 6 Minuten garen, abgießen und zerdrücken. Bulgur unterrühren, 10 Minuten quellen lassen, dann mit Mehl und Baharat verkneten. Ofen auf 190 °C vorheizen.',
     'Zwiebel würfeln und in der Pfanne in der Hälfte des Öls 5 Minuten dünsten, Spinat und grob zerdrückte Kichererbsen zugeben, bis der Spinat zusammenfällt, mit Sumach und Zitronensaft würzen.',
     'Die Hälfte des Kürbisteigs in eine geölte Form streichen, die Füllung verteilen, restlichen Teig darauf glatt streichen und in Rauten schneiden.',
-    'Mit restlichem Öl bestreichen und 30 bis 35 Minuten backen, bis die Oberfläche fest und goldbraun ist.',
+    'Den Kibbeh mit restlichem Öl bestreichen und 30 bis 35 Minuten backen, bis die Oberfläche fest und goldbraun ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz würzen und mit einem Salat servieren.'
   ],
   kidName:'Kürbis-Kibbeh-Würfel',
@@ -25274,7 +25274,7 @@ RECIPES.push(
     'Kaffirlimettenblätter entfernen und die Kinderportion ohne Currypaste abnehmen. Für die Erwachsenen Currypaste und Fischsauce einrühren, 1 Minute köcheln und mit Thai-Basilikum bestreuen.'
   ],
   kidName:'Mildes Kokos-Hähnchen',
-  kid:'Hähnchen klein schneiden, Bohnen und Aubergine sehr weich garen und mit Reis und Kokossoße mischen. Ohne Currypaste und Fischsauce.',
+  kid:'Hähnchen klein schneiden, Bohnen und Aubergine sehr weich garen. Hähnchen und Gemüse mit Reis und Kokossoße mischen. Ohne Currypaste und Fischsauce.',
   leftover:'Curry-Nudeln · 8 Min. – Reste vollständig erhitzen und mit gegarten Reisnudeln mischen.',
   tipp:'Grüne Currypaste ist je nach Marke sehr scharf, deshalb mit wenig beginnen.'
 },
@@ -25330,7 +25330,7 @@ RECIPES.push(
     'Zitronengras und Galgant entfernen und die Kinderschale ohne Fischsauce abnehmen. Erwachsene mit Fischsauce, Limettensaft und nach Wunsch Chili würzen und mit Reis essen.'
   ],
   kidName:'Milde Kokos-Hähnchen-Suppe',
-  kid:'Hähnchen und Pilze klein schneiden, Kirschtomaten vierteln und mit Reis und wenig Suppe zu einem dicken Brei mischen. Ohne Fischsauce und Limette.',
+  kid:'Hähnchen und Pilze klein schneiden, Kirschtomaten vierteln. Alle drei mit Reis und wenig Suppe zu einem dicken Brei mischen. Ohne Fischsauce und Limette.',
   leftover:'Kokos-Reispfanne · 8 Min. – Reste mit dem Reis einkochen lassen, bis eine sämige Reispfanne entsteht.',
   tipp:'Galgant gibt es frisch oder tiefgekühlt im Asialaden, Ingwer schmeckt etwas schärfer, passt aber auch.'
 },
@@ -25462,12 +25462,12 @@ RECIPES.push(
   ],
   steps:[
     'Vollkornreis in der doppelten Menge Wasser etwa 30 Minuten garen. Ofen auf 200 °C vorheizen.',
-    'Pak Choi längs halbieren und in eine Auflaufform legen, den Fisch darauflegen, mit Brühe und Öl beträufeln und mit Alufolie abgedeckt 15 bis 18 Minuten garen, bis er gerade durch ist.',
+    'Pak Choi längs halbieren und in eine Auflaufform legen. Den Fisch darauflegen, beides mit Brühe und Öl beträufeln und mit Alufolie abgedeckt 15 bis 18 Minuten garen, bis der Fisch gerade durch ist.',
     'Für die Soße Limettensaft mit fein gehacktem Knoblauch und Koriander verrühren.',
     'Kinderportion ohne Soße abnehmen. Erwachsene mischen Fischsauce und nach Wunsch Chili in die Soße und beträufeln damit ihren Fisch.'
   ],
   kidName:'Zarter Ofenfisch mit Reis',
-  kid:'Fisch sorgfältig entgräten und zerpflücken, Pak Choi weich gegart klein schneiden und mit Reis und etwas Garsud mischen.',
+  kid:'Fisch sorgfältig entgräten und zerpflücken, Pak Choi weich gegart klein schneiden. Fisch und Pak Choi mit Reis und etwas Garsud mischen.',
   leftover:'Fisch-Reis-Pfanne · 8 Min. – Reste mit dem Reis und einem Ei in der Pfanne vollständig durchbraten.',
   tipp:'In Thailand wird ein ganzer Fisch gedämpft, unter Folie im Ofen bleibt Filet genauso saftig.'
 },
@@ -25492,7 +25492,7 @@ RECIPES.push(
     'Vollkornreis in der doppelten Menge Wasser etwa 30 Minuten garen. Ofen auf 220 °C vorheizen (Airfryer 200 °C).',
     'Fisch mit dem Ei im Zerkleinerer oder mit dem Messer fein hacken. Bohnen in dünne Ringe schneiden und untermischen.',
     'Ein Viertel der Masse für das Kind abnehmen, in den Rest Currypaste und fein geschnittene Kaffirlimettenblätter rühren. Kleine flache Küchlein formen, mit Öl bepinseln und 12 bis 15 Minuten backen, bis sie durchgegart sind.',
-    'Gurke in dünne Scheiben und Zwiebel in feine Ringe schneiden und mit Reisessig und 1 EL Wasser mischen.',
+    'Für das Kind ein Stück Gurke schälen und in dünne Scheiben schneiden. Restliche Gurke in dünne Scheiben und Zwiebel in feine Ringe schneiden, beides mit Reisessig und 1 EL Wasser mischen.',
     'Kinderportion mit milden Küchlein, Reis und geschälter Gurke anrichten. Erwachsene essen die würzigen Küchlein mit Gurkensalat und nach Wunsch Chilisauce.'
   ],
   kidName:'Milde Fischküchlein',
@@ -25578,8 +25578,8 @@ RECIPES.push(
     'Kinderportion abnehmen, bevor die Sojasauce dazukommt. In den Rest die Sojasauce rühren, 5 Minuten ziehen lassen und mit Koriander bestreuen.'
   ],
   kidName:'Milde Schmor-Eier mit Reis',
-  kid:'Hart gekochte Eier in kleine Stücke schneiden, Tofu und Pilze klein schneiden und mit Reis und etwas Sud mischen.',
-  leftover:'Eier-Reis-Pfanne · 8 Min. – Eier, Tofu und Reis klein schneiden und in der Pfanne vollständig durchbraten.',
+  kid:'Hart gekochte Eier in kleine Stücke schneiden, Tofu und Pilze klein schneiden. Eier, Tofu und Pilze mit Reis und etwas Sud mischen.',
+  leftover:'Eier-Reis-Pfanne · 8 Min. – Eier und Tofu klein schneiden und mit dem Reis in der Pfanne vollständig durchbraten.',
   tipp:'Je länger die Eier im Sud ziehen, desto dunkler und aromatischer werden sie.'
 },
 {
@@ -25605,7 +25605,7 @@ RECIPES.push(
     'Kinderportion ohne Currypaste abnehmen. In den Rest Currypaste und Sojasauce einrühren, 2 Minuten köcheln und mit Thai-Basilikum bestreuen.'
   ],
   kidName:'Mildes Kokos-Kürbis-Curry',
-  kid:'Kürbis mit der Gabel zerdrücken, Tofu zerbröseln und mit Reis und Kokossoße mischen. Ohne Currypaste und Sojasauce.',
+  kid:'Kürbis mit der Gabel zerdrücken und Tofu zerbröseln. Beides mit Reis und Kokossoße mischen. Ohne Currypaste und Sojasauce.',
   leftover:'Kürbis-Curry-Suppe · 8 Min. – Reste mit etwas Brühe aufkochen und fein pürieren.',
   tipp:'Hokkaido muss nicht geschält werden, die Schale wird beim Kochen weich.'
 },
@@ -25630,11 +25630,11 @@ RECIPES.push(
     'Currypulver und Kurkuma in 2 EL Kokosmilch im Topf 1 Minute anrösten, dann restliche Kokosmilch und Brühe zugeben und aufkochen.',
     'Tofu würfeln und 5 Minuten in der Suppe ziehen lassen. Pak Choi in Streifen die letzten 3 Minuten mitgaren.',
     'Mie-Nudeln nach Packung garen. Eine kleine Handvoll gegarte Nudeln in der trockenen Pfanne 4 Minuten knusprig rösten.',
-    'Nudeln auf Schalen verteilen und mit der Currysuppe übergießen.',
+    'Die übrigen gegarten Nudeln auf Schalen verteilen und mit der Currysuppe übergießen.',
     'Kinderschale ohne Sojasauce abnehmen. Erwachsene mit Sojasauce, Limettensaft, roten Zwiebelstreifen, den knusprigen Nudeln und nach Wunsch Chiliöl würzen.'
   ],
   kidName:'Milde Kokos-Nudelsuppe',
-  kid:'Nudeln kurz schneiden, Tofu und Pak Choi klein schneiden und mit wenig lauwarmer Suppe anbieten. Knusprige Nudeln und Zwiebeln weglassen.',
+  kid:'Nudeln kurz schneiden, Tofu und Pak Choi klein schneiden. Nudeln, Tofu und Pak Choi zusammen mit wenig lauwarmer Suppe anbieten. Knusprige Nudeln und Zwiebeln weglassen.',
   leftover:'Curry-Nudelpfanne · 8 Min. – Nudeln, Tofu und Gemüse abtropfen und mit etwas Suppe in der Pfanne einkochen.',
   tipp:'Klassisch kommt Hähnchenkeule hinein, mit Tofu bleibt das Gericht vegetarisch und geht schneller.'
 }
@@ -25665,10 +25665,10 @@ RECIPES.push(
     'Karotten und Kürbis in große Stücke schneiden, mit 500 ml Wasser zugeben und 12 Minuten köcheln, dann Zucchini und Kichererbsen zugeben und 5 Minuten weitergaren.',
     'Fisch in große Stücke teilen, in die Brühe legen und bei kleiner Hitze 6 bis 8 Minuten garziehen lassen, bis er nicht mehr glasig ist.',
     'Couscous in einer Schüssel mit 100 ml heißer Brühe aus dem Topf übergießen, 5 Minuten quellen lassen und mit einer Gabel auflockern.',
-    'Kinderportion abnehmen, Fisch entgräten, Gemüse und Kichererbsen zerdrücken. Erwachsene salzen und die Brühe mit Harissa schärfen.'
+    'Kinderportion abnehmen. Darin den Fisch entgräten und Gemüse und Kichererbsen zerdrücken. Erwachsene salzen und die Brühe mit Harissa schärfen.'
   ],
   kidName:'Weicher Fisch-Couscous',
-  kid:'Fisch sorgfältig entgräten und zerpflücken, Kürbis, Karotten und Kichererbsen weich zerdrücken und mit etwas Brühe unter den Couscous mischen. Ohne Salz und Harissa.',
+  kid:'Fisch sorgfältig entgräten und zerpflücken. Kürbis, Karotten und Kichererbsen weich zerdrücken und mit dem Fisch und etwas Brühe unter den Couscous mischen. Ohne Salz und Harissa.',
   leftover:'Couscous-Pfanne · 8 Min. – Couscous, Gemüse und Fisch mit etwas Brühe in der Pfanne vollständig durcherhitzen.',
   tipp:'In Sfax wird Couscous mit Fisch und viel Gemüse gekocht, der Kürbis gibt der Brühe eine milde Süße.'
 },
@@ -25694,10 +25694,10 @@ RECIPES.push(
     'Karotten und Kohlrabi in Stifte, Weißkohl in breite Streifen und Paprika in Stücke schneiden, mit 500 ml Wasser zugeben und 15 Minuten köcheln.',
     'Kichererbsen zugeben und 5 Minuten mitwärmen, bis das Gemüse weich ist.',
     'Couscous in einer Schüssel mit 100 ml heißer Brühe aus dem Topf übergießen, 5 Minuten quellen lassen und auflockern.',
-    'Kinderportion abnehmen und die Kichererbsen zerdrücken. Erwachsene salzen und die Brühe mit Harissa schärfen.'
+    'Kinderportion abnehmen und darin die Kichererbsen zerdrücken. Erwachsene salzen und die Brühe mit Harissa schärfen.'
   ],
   kidName:'Gemüse-Couscous mit Kichererbsenmus',
-  kid:'Kichererbsen zerdrücken, das weich gekochte Gemüse klein schneiden und mit Brühe unter den Couscous mischen. Ohne Salz und Harissa.',
+  kid:'Kichererbsen zerdrücken und das weich gekochte Gemüse klein schneiden. Beides mit Brühe unter den Couscous mischen. Ohne Salz und Harissa.',
   leftover:'Couscous-Taler · 15 Min. – Reste mit einem Ei verkneten, zu Talern formen und in der Pfanne durchbraten.',
   tipp:'Das Gemüse richtet sich in Tunesien nach dem Markt, Kürbis, weiße Rübchen und Kartoffeln passen ebenso.'
 },
@@ -25721,8 +25721,8 @@ RECIPES.push(
   steps:[
     'Kichererbsen abspülen und mit Brühe, gehacktem Knoblauch und Kreuzkümmel 12 Minuten köcheln. Ei parallel in 10 Minuten hart kochen.',
     'Brot in Würfel schneiden und in tiefe Teller verteilen, Tomate und Petersilie fein hacken.',
-    'Heiße Kichererbsen mit der Brühe über das Brot schöpfen, das Ei klein schneiden, darauf verteilen und mit Öl beträufeln.',
-    'Kinderportion abnehmen und die Kichererbsen zerdrücken. Erwachsene mit Salz, Zitrone, Harissa, Tomaten und Petersilie würzen.'
+    'Heiße Kichererbsen mit der Brühe über das Brot schöpfen. Das Ei klein schneiden und darauf verteilen, die Teller mit Öl beträufeln.',
+    'Kinderportion abnehmen und darin die Kichererbsen zerdrücken. Erwachsene mit Salz, Zitrone, Harissa, Tomaten und Petersilie würzen.'
   ],
   kidName:'Kichererbsen-Brot-Schale',
   kid:'Kichererbsen gründlich zerdrücken, Brot vollständig einweichen lassen und das hart gekochte Ei klein hacken. Ohne Salz und Harissa.',
@@ -25748,7 +25748,7 @@ RECIPES.push(
     'Kartoffeln klein würfeln, in 10 Minuten weich kochen, abgießen und mit gehackter Petersilie grob zerdrücken. Ofen auf 200 °C vorheizen.',
     'Je zwei Teigblätter aufeinanderlegen und mit Öl bestreichen, die Hälfte der Kartoffelmasse mit einer Mulde daraufgeben, ein Ei hineinschlagen und das Eigelb mit einer Gabel anstechen.',
     'Teig zu einem Dreieck falten, Ränder fest andrücken, außen mit Öl bestreichen und auf dem Blech 18 Minuten backen, bis der Teig goldbraun und das Ei vollständig fest ist, im Airfryer 14 Minuten bei 180 °C.',
-    'Tomaten und Gurke für den Salat würfeln. Kinderportion abnehmen und das Brik in Streifen schneiden. Erwachsene salzen und mit Zitrone und Harissa essen.'
+    'Tomaten und Gurke für den Salat würfeln. Kinderportion abnehmen und das Brik für das Kind in Streifen schneiden. Erwachsene salzen und mit Zitrone und Harissa essen.'
   ],
   kidName:'Brik-Streifen',
   kid:'Brik erst servieren, wenn das Ei vollständig fest ist, und in schmale Streifen schneiden. Harte Teigecken abbrechen, ohne Salz.',
@@ -25800,7 +25800,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 180 °C vorheizen. Kartoffeln in kleine Würfel schneiden und 8 Minuten in Wasser vorkochen, abgießen.',
-    'Spinat grob hacken, Zwiebel und Petersilie fein hacken. Eier mit Milch, Kurkuma und der Hälfte des Käses verquirlen und alles untermischen.',
+    'Spinat grob hacken, Zwiebel und Petersilie fein hacken. Eier mit Milch, Kurkuma und der Hälfte des Käses verquirlen. Kartoffeln, Spinat, Zwiebel und Petersilie untermischen.',
     'Masse in eine mit dem Öl ausgestrichene kleine Form füllen, mit dem restlichen Käse bestreuen und 25 Minuten backen, bis die Mitte fest ist und sich ein Messer sauber herausziehen lässt.',
     'Kinderportion abnehmen und in kleine Würfel schneiden. Erwachsene nach Geschmack salzen und mit Harissa und Salat essen.'
   ],
@@ -25830,7 +25830,7 @@ RECIPES.push(
     'Zwiebel, Paprika und Knoblauch würfeln und im Öl 5 Minuten dünsten, Tomatenmark und Kümmel 1 Minute mitrösten.',
     'Passierte Tomaten, 150 ml Wasser und die abgespülten Bohnen zugeben und 10 Minuten sämig köcheln.',
     'Petersilie hacken und unterrühren, Brot in Scheiben dazu reichen.',
-    'Kinderportion abnehmen und die Bohnen zerdrücken. Erwachsene salzen, mit Harissa schärfen und mit einem Schuss Olivenöl und Brot essen.'
+    'Kinderportion abnehmen und darin die Bohnen zerdrücken. Erwachsene salzen, mit Harissa schärfen und mit einem Schuss Olivenöl und Brot essen.'
   ],
   kidName:'Bohnen-Tomaten-Mus',
   kid:'Bohnen gründlich zerdrücken und mit der milden Tomatensoße mischen, Brot in weichen Streifen dazu. Ohne Salz und Harissa.',
@@ -25887,7 +25887,7 @@ RECIPES.push(
     'Fischfilet fein hacken oder kurz im Mixer zerkleinern, mit Ei, Haferflocken, der Hälfte der gehackten Petersilie und Kreuzkümmel verkneten und zu walnussgroßen Bällchen formen.',
     'Zwiebel und Paprika würfeln und im Öl 5 Minuten dünsten, passierte Tomaten und 50 ml Wasser zugeben und 3 Minuten köcheln.',
     'Bällchen in die Soße legen und zugedeckt 10 bis 12 Minuten garziehen lassen, bis sie innen fest und durchgegart sind.',
-    'Kinderportion abnehmen und die Bällchen zerteilen. Erwachsene salzen, mit Harissa schärfen und mit restlicher Petersilie und den Kartoffeln servieren.'
+    'Kinderportion abnehmen und darin die Bällchen zerteilen. Erwachsene salzen, mit Harissa schärfen und mit restlicher Petersilie und den Kartoffeln servieren.'
   ],
   kidName:'Mini-Fischbällchen mit Kartoffeln',
   kid:'Fischbällchen in kleine Stücke teilen und auf Gräten prüfen, Kartoffeln mit der Tomatensoße zerdrücken. Ohne Salz und Harissa.',
@@ -25912,9 +25912,9 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 220 °C vorheizen. Kartoffeln in Spalten schneiden, mit der Hälfte des Öls mischen und auf dem Blech 20 Minuten backen.',
-    'Fischfilets mit Kreuzkümmel, etwas Zitronensaft und dem restlichen Öl einreiben, zu den Kartoffeln legen und 10 bis 12 Minuten backen, bis sie sich leicht zerpflücken lassen.',
+    'Fischfilets mit Kreuzkümmel, etwas Zitronensaft und dem restlichen Öl einreiben, zu den Kartoffeln legen und 10 bis 12 Minuten backen, bis sich der Fisch leicht zerpflücken lässt.',
     'Für die Salata Tounsia Tomaten, Gurke und rote Zwiebel sehr fein würfeln und mit gehackter Petersilie und Zitronensaft mischen.',
-    'Kinderportion abnehmen, Fisch entgräten und zerpflücken, Kartoffeln zerdrücken. Erwachsene salzen und mit Salat und Harissa essen.'
+    'Kinderportion abnehmen. Darin den Fisch entgräten und zerpflücken und die Kartoffeln zerdrücken. Erwachsene salzen und mit Salat und Harissa essen.'
   ],
   kidName:'Fisch mit Kartoffelspalten',
   kid:'Fisch sorgfältig entgräten und zerpflücken, Kartoffeln weich und lauwarm, Gurke in Stiften statt Salat mit roher Zwiebel. Ohne Salz.',
@@ -25942,7 +25942,7 @@ RECIPES.push(
     'Lammfleisch in kleine Würfel schneiden und mit der gewürfelten Zwiebel im Öl anbraten, Tomatenmark und Paprikapulver 1 Minute mitrösten.',
     'Mit 700 ml Wasser auffüllen, Karotten in kleinen Würfeln zugeben und zugedeckt 30 Minuten leise köcheln.',
     'Bulgur und Kichererbsen zugeben und weitere 15 Minuten köcheln, bis der Bulgur weich und die Suppe sämig ist.',
-    'Kinderportion abnehmen, Fleisch fein zerzupfen und Kichererbsen zerdrücken. Erwachsene salzen und mit Zitrone, Petersilie und Harissa würzen.'
+    'Kinderportion abnehmen. Darin das Fleisch fein zerzupfen und die Kichererbsen zerdrücken. Erwachsene salzen und mit Zitrone, Petersilie und Harissa würzen.'
   ],
   kidName:'Sämiger Bulgur-Lamm-Topf',
   kid:'Fleisch fein zerzupfen, Kichererbsen zerdrücken und die Suppe etwas dicker lassen, damit sie gut löffelbar ist. Ohne Salz und Harissa.',
@@ -25970,7 +25970,7 @@ RECIPES.push(
     'Zwiebel und Paprika würfeln und mit dem Fleisch im Öl rundum anbraten.',
     'Gepressten Knoblauch, Tomatenmark und Kreuzkümmel 1 Minute mitrösten, passierte Tomaten und 300 ml Wasser zugeben.',
     'Zugedeckt 60 Minuten leise schmoren, im Slowcooker 6 Stunden auf niedriger Stufe, bis das Fleisch sehr zart und die Soße dick ist. Gehackte Petersilie unterrühren.',
-    'Kinderportion abnehmen und das Fleisch fein zerzupfen. Erwachsene salzen, mit Harissa würzen und mit Brot essen.'
+    'Kinderportion abnehmen und darin das Fleisch fein zerzupfen. Erwachsene salzen, mit Harissa würzen und mit Brot essen.'
   ],
   kidName:'Zartes Kreuzkümmel-Fleisch',
   kid:'Fleisch sehr fein zerzupfen und mit der Soße und weichem Brot ohne Kruste anbieten. Ohne Salz und Harissa.',
@@ -25998,7 +25998,7 @@ RECIPES.push(
     'Zwiebel würfeln und mit dem Hähnchen im Öl anbraten, Knoblauch, Tomatenmark, Paprikapulver und Kümmel 1 Minute mitrösten.',
     'Mit 400 ml Wasser ablöschen und zugedeckt 10 Minuten köcheln.',
     'Kartoffeln und Karotten würfeln, zugeben und 15 Minuten garen, dann die Erbsen zugeben und weitere 5 Minuten köcheln, bis alles weich ist.',
-    'Kinderportion abnehmen, Hähnchen fein zerzupfen und Erbsen zerdrücken. Erwachsene salzen und mit Harissa und Brot essen.'
+    'Kinderportion abnehmen. Darin das Hähnchen fein zerzupfen und die Erbsen zerdrücken. Erwachsene salzen und mit Harissa und Brot essen.'
   ],
   kidName:'Erbsen-Kartoffel-Topf mit Hähnchen',
   kid:'Hähnchen fein zerzupfen, Kartoffeln und Erbsen mit der Gabel zerdrücken, damit keine runden Erbsen ganz bleiben. Ohne Salz und Harissa.',
@@ -26026,10 +26026,10 @@ RECIPES.push(
     'Nudeln nach Packungsangabe in etwa 10 Minuten bissfest kochen.',
     'Hähnchen in kleine Würfel schneiden und im Öl 4 Minuten rundum anbraten, Zwiebel, Paprika, Zucchini und Knoblauch gewürfelt zugeben und 3 Minuten mitbraten.',
     'Tomatenmark und Paprikapulver kurz mitrösten, passierte Tomaten zugeben und 6 Minuten köcheln, bis das Hähnchen durchgegart ist. Nudeln untermischen.',
-    'Kinderportion abnehmen und das Hähnchen klein schneiden. Erwachsene salzen und mit Harissa schärfen.'
+    'Kinderportion abnehmen und darin das Hähnchen klein schneiden. Erwachsene salzen und mit Harissa schärfen.'
   ],
   kidName:'Tomaten-Nudeln mit Hähnchen',
-  kid:'Hähnchen sehr klein schneiden, Nudeln weich kochen und mit der milden Soße mischen. Ohne Salz und Harissa.',
+  kid:'Hähnchen sehr klein schneiden und Nudeln weich kochen. Beides mit der milden Soße mischen. Ohne Salz und Harissa.',
   leftover:'Nudel-Auflauf · 20 Min. – Reste mit etwas Käse in einer Form bei 200 °C vollständig durchbacken.',
   tipp:'Tunesien zählt zu den Ländern mit dem höchsten Nudelverbrauch, Makrouna steht dort fast jede Woche auf dem Tisch.'
 },
@@ -26055,7 +26055,7 @@ RECIPES.push(
     'Zwiebel und Hähnchen im Öl 4 Minuten anbraten, Tomatenmark und Kurkuma 1 Minute mitrösten.',
     'Reis, Kichererbsen und die Hälfte der Kräuter unterheben, mit 150 ml Wasser aufgießen und zugedeckt bei kleiner Hitze 18 Minuten garen.',
     'Spinat und restliche Kräuter unterheben und zugedeckt 5 Minuten ziehen lassen, bis der Spinat zusammenfällt.',
-    'Kinderportion abnehmen, Kichererbsen zerdrücken und das Hähnchen klein schneiden. Erwachsene salzen und mit Harissa essen.'
+    'Kinderportion abnehmen. Darin die Kichererbsen zerdrücken und das Hähnchen klein schneiden. Erwachsene salzen und mit Harissa essen.'
   ],
   kidName:'Grüner Hähnchenreis',
   kid:'Hähnchen klein schneiden, Kichererbsen zerdrücken und den weichen Kräuterreis lauwarm anbieten. Ohne Salz und Harissa.',
@@ -26168,7 +26168,7 @@ RECIPES.push(
     'Zwiebel, Paprika und Karotten fein würfeln und in der Hälfte des Öls 5 Minuten dünsten, Tomatenmark und Paprikapulver kurz mitrösten.',
     'Bohnen, passierte Tomaten und 150 ml Wasser zugeben und 20 Minuten sämig köcheln.',
     'Inzwischen Bulgur im zweiten Topf im restlichen Öl kurz anrösten, mit 150 ml Wasser aufgießen und zugedeckt 12 Minuten quellen lassen.',
-    'Kinderportion ungesalzen abnehmen und die Bohnen zerdrücken. Erwachsene mit Salz, Pfeffer und Chiliflocken würzen.'
+    'Kinderportion ungesalzen abnehmen und darin die Bohnen zerdrücken. Erwachsene mit Salz, Pfeffer und Chiliflocken würzen.'
   ],
   kidName:'Bohnen-Bulgur-Teller',
   kid:'Bohnen mit der Gabel zerdrücken und mit dem weichen Bulgur mischen, Karotten sind weich geschmort. Ohne Salz und Chili.',
@@ -26196,7 +26196,7 @@ RECIPES.push(
     'Ofen auf 200 °C vorheizen. Aubergine längs halbieren, das Fruchtfleisch rautenförmig einschneiden, mit wenig Öl bestreichen und mit der Schnittfläche nach oben 20 Minuten backen.',
     'Inzwischen Zwiebel in Streifen, Paprika und Tomaten in Würfel schneiden, Knoblauch hacken und alles im restlichen Öl mit Tomatenmark 8 Minuten zu einer dicken Füllung schmoren. Gehackte Petersilie unterheben.',
     'Auberginen in der Mitte mit einem Löffel eindrücken, die Füllung daraufgeben und weitere 20 Minuten backen, bis sie ganz weich sind. Bulgur mit 150 ml Wasser aufkochen und zugedeckt 12 Minuten quellen lassen.',
-    'Kinderportion ungesalzen abnehmen und das weiche Auberginenfleisch aus der Schale löffeln. Erwachsene mit Salz und Pfeffer würzen, Joghurt dazu.'
+    'Kinderportion ungesalzen abnehmen und für das Kind das weiche Auberginenfleisch aus der Schale löffeln. Erwachsene mit Salz und Pfeffer würzen, Joghurt dazu.'
   ],
   kidName:'Auberginen-Tomaten-Mus mit Bulgur',
   kid:'Weiches Auberginenfleisch aus der Schale löffeln, mit Füllung und Bulgur mischen und mit Joghurt mild machen. Ohne Salz servieren.',
@@ -26279,7 +26279,7 @@ RECIPES.push(
     'Vollkornreis in der doppelten Menge Wasser aufsetzen und in 30 Minuten weich garen.',
     'Zwiebel und Paprika würfeln und in Öl 5 Minuten dünsten, Tomatenmark, Kreuzkümmel und Paprikapulver 1 Minute mitrösten.',
     'Kichererbsen, passierte Tomaten und 150 ml Wasser zugeben und 15 Minuten sämig köcheln. Spinat unterheben und zusammenfallen lassen.',
-    'Kinderportion ungesalzen abnehmen und die Kichererbsen zerdrücken. Erwachsene mit Salz und Chiliflocken würzen und mit Reis servieren.'
+    'Kinderportion ungesalzen abnehmen und darin die Kichererbsen zerdrücken. Erwachsene mit Salz und Chiliflocken würzen und mit Reis servieren.'
   ],
   kidName:'Kichererbsen-Reis-Teller',
   kid:'Kichererbsen gründlich zerdrücken und mit Reis und Soße mischen, Spinat fein hacken. Ohne Salz und Chili.',
@@ -26307,7 +26307,7 @@ RECIPES.push(
     'Ofen auf 200 °C vorheizen und den Reis aufsetzen. Aubergine längs halbieren, die Schnittflächen mit wenig Öl bestreichen und 20 Minuten backen.',
     'Zwiebel, Knoblauch, Paprika und Tomate würfeln. Hack im restlichen Öl krümelig und vollständig durchbraten, Gemüse und Tomatenmark zugeben und 8 Minuten schmoren.',
     'Auberginen in der Mitte aufdrücken, die Hackfüllung hineingeben, 100 ml Wasser in die Form gießen und weitere 20 Minuten backen. Mit gehackter Petersilie bestreuen.',
-    'Kinderportion ungesalzen abnehmen und Auberginenfleisch und Füllung aus der Schale löffeln. Erwachsene mit Salz, Pfeffer und Chiliflocken würzen und mit Reis servieren.'
+    'Kinderportion ungesalzen abnehmen und für das Kind Auberginenfleisch und Füllung aus der Schale löffeln. Erwachsene mit Salz, Pfeffer und Chiliflocken würzen und mit Reis servieren.'
   ],
   kidName:'Hack-Auberginen-Mus mit Reis',
   kid:'Weiches Auberginenfleisch aus der Schale löffeln und mit Hackfüllung und Reis mischen. Ohne Salz und Chili, das Hack ist vollständig durchgegart.',
@@ -26333,7 +26333,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 220 °C vorheizen. Tomate, Paprika, Zwiebel und die Hälfte der Petersilie sehr fein hacken oder im Blitzhacker zerkleinern.',
-    'Mit Hack, Tomatenmark und Paprikapulver zu einer streichfähigen Masse verkneten und hauchdünn bis an den Rand auf die Fladen streichen.',
+    'Die gehackte Gemüsemischung mit Hack, Tomatenmark und Paprikapulver zu einer streichfähigen Masse verkneten und hauchdünn bis an den Rand auf die Fladen streichen.',
     'Fladen auf dem Blech 9 bis 10 Minuten backen, bis der Belag vollständig durchgegart und der Rand knusprig ist. Salat in Streifen schneiden.',
     'Kinderportion ungesalzen abnehmen und in Streifen schneiden. Erwachsene mit Salz, Chiliflocken und Zitronensaft würzen, mit Salat und restlicher Petersilie belegen und aufrollen.'
   ],
@@ -26363,7 +26363,7 @@ RECIPES.push(
     'Bulgur mit 150 ml Wasser aufkochen und zugedeckt 12 Minuten quellen lassen.',
     'Hähnchen in Würfel schneiden und mit 2 EL Joghurt, Tomatenmark, Paprikapulver und der Hälfte des Öls mischen. Paprika und Zwiebel in Stücke schneiden und abwechselnd mit dem Fleisch auf Spieße stecken.',
     'Spieße im restlichen Öl bei mittlerer Hitze rundum 10 Minuten braten, bis das Hähnchen innen nicht mehr rosa ist. Gurke raspeln und mit dem restlichen Joghurt und der Minze verrühren.',
-    'Kinderportion ungesalzen abnehmen, Fleisch und Gemüse vom Spieß streifen und klein schneiden. Erwachsene mit Salz und Chiliflocken würzen, Cacık dazu.'
+    'Kinderportion ungesalzen abnehmen. Für das Kind Fleisch und Gemüse vom Spieß streifen und klein schneiden. Erwachsene mit Salz und Chiliflocken würzen, Cacık dazu.'
   ],
   kidName:'Hähnchen-Bulgur mit Gurkenjoghurt',
   kid:'Fleisch und Paprika vom Spieß nehmen, klein schneiden und mit Bulgur mischen, Gurkenjoghurt zum Dippen dazu. Ohne Salz und Chili.',
@@ -26392,7 +26392,7 @@ RECIPES.push(
     'Tomaten, Thymian und 250 ml Wasser zugeben und zugedeckt 60 bis 70 Minuten schmoren, bis das Fleisch zart ist.',
     'Inzwischen die Aubergine mehrmals einstechen und bei 220 °C 40 Minuten im Ofen backen, bis sie ganz weich ist. Fruchtfleisch herauslöffeln und fein hacken.',
     'Mehl im restlichen Öl in einem kleinen Topf kurz anschwitzen, Milch einrühren und 3 Minuten zu einer Soße köcheln. Aubergine und geriebenen Käse unterrühren.',
-    'Kinderportion ungesalzen abnehmen und das Fleisch zerzupfen. Erwachsene mit Salz und Pfeffer würzen und den Schmortopf auf dem Püree anrichten.'
+    'Kinderportion ungesalzen abnehmen und darin das Fleisch zerzupfen. Erwachsene mit Salz und Pfeffer würzen und den Schmortopf auf dem Püree anrichten.'
   ],
   kidName:'Auberginenpüree mit zartem Rind',
   kid:'Rindfleisch mit zwei Gabeln fein zerzupfen und unter das milde, cremige Püree mischen. Ohne Salz servieren.',
@@ -26447,10 +26447,10 @@ RECIPES.push(
     'Kartoffeln in 0,5 cm dünne Scheiben, Zwiebel in Ringe, Paprika in Streifen und Tomaten in Würfel schneiden.',
     'Kartoffeln und Zwiebeln mit dem Öl in einen breiten Topf schichten, 150 ml Wasser angießen und zugedeckt 15 Minuten dünsten.',
     'Fisch in Stücke schneiden und mit Paprika, Tomaten und gehacktem Knoblauch auf die Kartoffeln legen. Zugedeckt bei kleiner Hitze 10 Minuten garen, bis sich der Fisch leicht zerpflücken lässt.',
-    'Kinderportion ungesalzen abnehmen, den Fisch auf Gräten prüfen und zerpflücken. Erwachsene mit Salz, Pfeffer, Zitronensaft und gehackter Petersilie würzen.'
+    'Kinderportion ungesalzen abnehmen und darin den Fisch auf Gräten prüfen und zerpflücken. Erwachsene mit Salz, Pfeffer, Zitronensaft und gehackter Petersilie würzen.'
   ],
   kidName:'Weicher Tomatenfisch',
-  kid:'Fisch sorgfältig auf Gräten prüfen und mit Kartoffeln und weichen Tomaten zerdrücken. Ohne Salz und Zitrone servieren.',
+  kid:'Fisch sorgfältig auf Gräten prüfen. Fisch, Kartoffeln und weiche Tomaten zusammen zerdrücken. Ohne Salz und Zitrone servieren.',
   leftover:'Fisch-Kartoffel-Taler · 15 Min. – Reste zerdrücken, mit einem Ei vermengen und in der Pfanne beidseitig durchbraten.',
   tipp:'Buğulama heißt gedünstet: im eigenen Dampf bleibt der Fisch saftig und braucht kaum Fett.'
 },
@@ -26474,7 +26474,7 @@ RECIPES.push(
     'Zwiebel in sehr dünne Ringe, Salat in Streifen und Tomaten in Scheiben schneiden.',
     'Fisch trocken tupfen, mit Paprikapulver bestreuen und im Öl bei mittlerer Hitze 3 bis 4 Minuten je Seite braten, bis er sich leicht zerpflücken lässt.',
     'Fladenbrot aufschneiden und mit der Schnittfläche 1 Minute in der Pfanne anrösten.',
-    'Kinderportion ungesalzen abnehmen, den Fisch auf Gräten prüfen und zerpflücken. Erwachsene mit Salz und Zitronensaft würzen und das Brot mit Fisch, Salat, Tomaten, Zwiebeln und Petersilie füllen.'
+    'Kinderportion ungesalzen abnehmen und darin den Fisch auf Gräten prüfen und zerpflücken. Erwachsene mit Salz und Zitronensaft würzen und das Brot mit Fisch, Salat, Tomaten, Zwiebeln und Petersilie füllen.'
   ],
   kidName:'Fisch-Brotstreifen',
   kid:'Makrele besonders sorgfältig auf Gräten prüfen und zerpflücken, Brot in Streifen und Tomate klein geschnitten daneben. Rohe Zwiebel und Zitrone weglassen.',
@@ -26538,7 +26538,7 @@ RECIPES.push(
     'Kinderportion Fleisch, Gemüse und Nudeln mit wenig Brühe ungesalzen abnehmen. Sternanis entfernen, Erwachsene mit Sojasauce, Frühlingszwiebel und nach Wunsch Chiliöl würzen.'
   ],
   kidName:'Weiche Rindfleisch-Nudeln',
-  kid:'Rindfleisch zerfasern, Nudeln kurz schneiden und nur mit wenig Brühe anbieten. Karotte und Pak Choi weich und klein geschnitten.',
+  kid:'Rindfleisch zerfasern und Nudeln kurz schneiden, die Kinderportion nur mit wenig Brühe anbieten. Karotte und Pak Choi weich und klein geschnitten.',
   leftover:'Rind-Nudel-Pfanne · 10 Min. – Fleisch und Nudeln ohne Brühe mit Gemüse in der Pfanne vollständig erhitzen.',
   tipp:'Die Brühe am Vortag kochen, über Nacht kühlen und die feste Fettschicht abheben.'
 },
@@ -26564,7 +26564,7 @@ RECIPES.push(
     'Hähnchen in mundgerechte Stücke und Paprika in Streifen schneiden, Brokkoli in kleine Röschen teilen. Ingwer in dünne Scheiben schneiden, Knoblauch halbieren.',
     'Ingwer und Knoblauch in Raps- und Sesamöl 2 Minuten anbraten, Hähnchen zugeben und 6 Minuten rundum braten.',
     'Brokkoli, Paprika und 100 ml Wasser zugeben und zugedeckt 6 Minuten schmoren, bis das Hähnchen durchgegart und der Brokkoli weich ist.',
-    'Kinderportion ohne Sojasauce abnehmen und Ingwerscheiben entfernen. Erwachsene mit Sojasauce 2 Minuten offen einköcheln lassen und Basilikum unterheben.'
+    'Kinderportion ohne Sojasauce abnehmen und darin die Ingwerscheiben entfernen. Den Rest für die Erwachsenen mit Sojasauce 2 Minuten offen einköcheln lassen und Basilikum unterheben.'
   ],
   kidName:'Basilikum-Hähnchen mild',
   kid:'Hähnchen fein zupfen, Brokkoli weich garen und Ingwerscheiben herausnehmen. Ohne Sojasauce, etwas fein gehacktes Basilikum ist erlaubt.',
@@ -26616,7 +26616,7 @@ RECIPES.push(
   ],
   steps:[
     'Reis in der doppelten Menge Wasser etwa 30 Minuten garen.',
-    'Schweinefilet in 1 cm dicke Scheiben schneiden und flach klopfen. Mit Speisestärke und der Hälfte des Knoblauchs einreiben, die Erwachsenenscheiben zusätzlich mit Fünf-Gewürze-Pulver, und 10 Minuten ziehen lassen.',
+    'Schweinefilet in 1 cm dicke Scheiben schneiden und flach klopfen. Alle Scheiben mit Speisestärke und der Hälfte des Knoblauchs einreiben, die Erwachsenenscheiben zusätzlich mit Fünf-Gewürze-Pulver. 10 Minuten ziehen lassen.',
     'Kohl in feine Streifen und Karotte in Stifte schneiden und mit dem restlichen Knoblauch in 1 TL Öl und 4 EL Wasser zugedeckt 8 Minuten weich dünsten, dann herausnehmen.',
     'Fleisch im restlichen Öl bei mittlerer Hitze je Seite 3 Minuten braten, bis es durchgegart ist.',
     'Kinderportion ohne Sojasauce abnehmen. Erwachsene mit Sojasauce beträufeln und mit Kohl und Reis servieren.'
@@ -26926,7 +26926,7 @@ RECIPES.push(
     'Fleisch in 2 cm große Würfel schneiden und mit geriebenem Knoblauch und Ingwer, Currypulver, der Hälfte des Öls und etwas Limettensaft mischen.',
     'Während das Fleisch kurz zieht, für Kachumbari Tomaten und Zwiebel sehr fein würfeln und mit Limettensaft mischen. Paprika in Stücke schneiden.',
     'Fleisch und Paprika abwechselnd auf Spieße stecken und in einer Grillpfanne im restlichen Öl rundum 8 bis 10 Minuten braten, bis das Fleisch durchgegart ist. Tortillas kurz in der Pfanne erwärmen.',
-    'Kinderportion ohne Salz abnehmen, Fleisch vom Spieß nehmen und sehr klein schneiden. Erwachsene salzen und nach Wunsch Chili dazu nehmen.'
+    'Kinderportion ohne Salz abnehmen. Für das Kind das Fleisch vom Spieß nehmen und sehr klein schneiden. Erwachsene salzen und nach Wunsch Chili dazu nehmen.'
   ],
   kidName:'Spießfleisch in kleinen Stücken',
   kid:'Spieße vorher ganz entfernen, Fleisch sehr fein schneiden und Paprika weich braten. Tomate ohne rohe Zwiebel, Tortilla in weichen Streifen, kein Salz.',
@@ -26985,7 +26985,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen. Erwachsene salzen, Reis und Hähnchensoße schichtweise anrichten und nach Wunsch Chili dazu nehmen.'
   ],
   kidName:'Mildes Joghurt-Hähnchen mit Reis',
-  kid:'Hähnchen fein schneiden und mit Kartoffeln, Erbsen und Reis zerdrücken, der Joghurt macht es extra mild. Ohne Salz und Chili.',
+  kid:'Hähnchen fein schneiden und zusammen mit Kartoffeln, Erbsen und Reis zerdrücken, der Joghurt macht es extra mild. Ohne Salz und Chili.',
   leftover:'Biryani-Pfanne · 10 Min. – Reste mit etwas Wasser in der Pfanne vollständig erhitzen.',
   tipp:'Auf Sansibar werden Reis und Soße getrennt gekocht und erst auf dem Teller zusammengebracht; das macht die Kinderportion leicht.'
 },
@@ -27065,7 +27065,7 @@ RECIPES.push(
     'Reis aufsetzen. Zwiebel, Paprika und Knoblauch würfeln und in Öl 5 Minuten dünsten, Currypulver kurz mitrösten.',
     'Tomaten und Kokosmilch zugeben und 8 Minuten zu einer dicken Soße einkochen.',
     'Fisch in große Stücke schneiden, in die Soße legen und zugedeckt 6 bis 8 Minuten sanft garen, bis er sich leicht zerteilen lässt.',
-    'Kinderportion ohne Salz abnehmen und den Fisch auf Gräten prüfen. Erwachsene salzen, mit Limettensaft und nach Wunsch Chili abschmecken.'
+    'Kinderportion ohne Salz abnehmen und darin den Fisch auf Gräten prüfen. Erwachsene salzen, mit Limettensaft und nach Wunsch Chili abschmecken.'
   ],
   kidName:'Milder Kokosfisch mit Reis',
   kid:'Fisch vollständig durchgaren, entgräten und zerpflücken. Mit der milden Soße unter den weichen Reis mischen, ohne Salz und Chili.',
@@ -27092,7 +27092,7 @@ RECIPES.push(
     'Ofen auf 210 °C vorheizen. Süßkartoffeln in Spalten schneiden, mit der Hälfte des Öls mischen und auf dem Blech 15 Minuten backen.',
     'Knoblauch fein reiben und mit restlichem Öl, Paprikapulver und etwas Limettensaft verrühren. Fisch damit bestreichen, zu den Süßkartoffeln legen und 12 bis 15 Minuten backen, bis er sich leicht zerteilen lässt.',
     'Für Kachumbari Tomate und Zwiebel sehr fein würfeln und mit gehacktem Koriander und Limettensaft mischen.',
-    'Kinderportion ohne Salz abnehmen und den Fisch zerpflücken. Erwachsene salzen und nehmen nach Wunsch frische Chili dazu.'
+    'Kinderportion ohne Salz abnehmen und darin den Fisch zerpflücken. Erwachsene salzen und nehmen nach Wunsch frische Chili dazu.'
   ],
   kidName:'Ofenfisch mit Süßkartoffel-Spalten',
   kid:'Fisch vollständig durchgaren, entgräten und zerpflücken. Süßkartoffeln weich und gut greifbar, Tomate fein gewürfelt ohne rohe Zwiebel, kein Salz.',
@@ -27119,7 +27119,7 @@ RECIPES.push(
     'Polenta in 300 ml Wasser unter Rühren 10 Minuten zu weichem Ugali kochen.',
     'Zwiebel und Tomate würfeln und in der Hälfte des Öls 4 Minuten dünsten. Erdnussmus mit 80 ml Wasser glatt rühren, zugeben und den Spinat darin zusammenfallen lassen. Mchicha in eine Schüssel geben und die Pfanne auswischen.',
     'Fisch mit Kurkuma bestreuen und im restlichen Öl je Seite 3 bis 4 Minuten braten, bis er sich leicht zerteilen lässt.',
-    'Kinderportion ohne Salz abnehmen und den Fisch entgräten. Erwachsene salzen und mit Limettensaft und nach Wunsch Chili würzen.'
+    'Kinderportion ohne Salz abnehmen und darin den Fisch entgräten. Erwachsene salzen und mit Limettensaft und nach Wunsch Chili würzen.'
   ],
   kidName:'Fisch mit Ugali und Erdnuss-Spinat',
   kid:'Fisch vollständig durchgaren und zerpflücken, Spinat fein hacken. Erdnussmus nur glatt verrührt verwenden, nie ganze Erdnüsse, und kein Salz.',
@@ -27143,7 +27143,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 220 °C vorheizen. Kartoffeln in dünne Stäbchen schneiden, mit Öl und Paprikapulver mischen und 25 bis 30 Minuten knusprig backen, nach der Hälfte wenden; im Airfryer etwa 18 Minuten.',
-    'Für Kachumbari Tomate, Gurke und Zwiebel sehr fein würfeln und mit gehacktem Koriander mischen.',
+    'Für Kachumbari Tomate, Gurke und Zwiebel sehr fein würfeln. Etwas Tomate und Gurke für das Kind beiseitestellen, den Rest mit der Zwiebel und gehacktem Koriander mischen.',
     'Eier verquirlen. Pommes in eine beschichtete Pfanne geben, Eier darüber gießen und zugedeckt bei mittlerer Hitze 5 bis 6 Minuten stocken lassen, dann wenden und 2 Minuten fertig garen.',
     'Kinderportion ohne Salz abnehmen, Kachumbari für das Kind ohne rohe Zwiebel. Erwachsene salzen und essen nach Wunsch mit Chilisoße.'
   ],
@@ -27172,7 +27172,7 @@ RECIPES.push(
     'Reis mit der Hälfte der Kokosmilch und Wasser nach Packungsangabe aufsetzen und zugedeckt 15 Minuten garen.',
     'Zwiebel und Karotte fein würfeln und in Öl 4 Minuten dünsten, Kurkuma kurz mitrösten. Tomate würfeln und 3 Minuten mitgaren.',
     'Bohnen abspülen, mit der restlichen Kokosmilch und 50 ml Wasser zugeben und 8 Minuten köcheln, dann den Spinat unterheben.',
-    'Kinderportion ohne Salz abnehmen und Bohnen zerdrücken. Erwachsene salzen und nach Wunsch frische Chili dazu nehmen.'
+    'Kinderportion ohne Salz abnehmen und darin die Bohnen zerdrücken. Erwachsene salzen und nach Wunsch frische Chili dazu nehmen.'
   ],
   kidName:'Kokosreis mit Bohnenmus',
   kid:'Bohnen gründlich zerdrücken und mit dem weichen Kokosreis mischen, Spinat fein gehackt. Ohne Salz und Chili.',
@@ -27226,7 +27226,7 @@ RECIPES.push(
   ],
   steps:[
     'Zwiebel, Knoblauch und Ingwer fein hacken und in Öl 3 Minuten dünsten, Currypulver kurz mitrösten.',
-    'Zucchini klein würfeln, Linsen abspülen und mit Tomaten, Kokosmilch und 250 ml Wasser zugeben. 12 bis 15 Minuten köcheln, bis die Linsen zerfallen.',
+    'Zucchini klein würfeln und Linsen abspülen. Beides mit Tomaten, Kokosmilch und 250 ml Wasser zugeben. 12 bis 15 Minuten köcheln, bis die Linsen zerfallen.',
     'Tortillas kurz in der trockenen Pfanne erwärmen.',
     'Kinderportion ohne Salz abnehmen. Erwachsene salzen, nach Wunsch mit Chili abschmecken und die Tortillas zum Tunken dazu reichen.'
   ],
@@ -27255,7 +27255,7 @@ RECIPES.push(
     'Zwiebel, Karotte und Paprika klein würfeln und in Öl 4 Minuten dünsten, Kurkuma kurz mitrösten.',
     'Tomate würfeln und 2 Minuten mitgaren. Bohnen abspülen und mit Mais, Kokosmilch und 100 ml Wasser zugeben.',
     'Zugedeckt 8 Minuten köcheln, bis die Karotten weich sind und die Soße leicht sämig ist.',
-    'Kinderportion ohne Salz abnehmen, Mais und Bohnen gründlich zerdrücken. Erwachsene salzen und nach Wunsch Chili dazu nehmen.'
+    'Kinderportion ohne Salz abnehmen und darin Mais und Bohnen gründlich zerdrücken. Erwachsene salzen und nach Wunsch Chili dazu nehmen.'
   ],
   kidName:'Kokos-Mais-Bohnen-Mus',
   kid:'Mais und Bohnen gründlich zerdrücken, ganze Maiskörner sind für Kleinkinder ein Verschluckrisiko. Ohne Salz und Chili.',
@@ -27282,7 +27282,7 @@ RECIPES.push(
     'Reis aufsetzen. Okra waschen, trocken tupfen, die Stielenden abschneiden und in Scheiben schneiden.',
     'Zwiebel und Knoblauch würfeln und in Öl 3 Minuten dünsten. Okra zugeben und 5 Minuten anbraten, dabei einen Spritzer Limettensaft zugeben, damit sie weniger schleimig wird.',
     'Tomaten würfeln und mit Currypulver, Kichererbsen und 100 ml Wasser zugeben. Zugedeckt 10 Minuten köcheln, bis die Okra weich ist.',
-    'Kinderportion ohne Salz abnehmen und Kichererbsen zerdrücken. Erwachsene salzen, nach Wunsch Chili dazu nehmen und mit Reis servieren.'
+    'Kinderportion ohne Salz abnehmen und darin die Kichererbsen zerdrücken. Erwachsene salzen, nach Wunsch Chili dazu nehmen und mit Reis servieren.'
   ],
   kidName:'Weiche Okra mit Kichererbsenmus',
   kid:'Okra weich schmoren und klein schneiden, Kichererbsen gründlich zerdrücken. Mit Reis und milder Soße, ohne Salz und Chili.',
@@ -27340,7 +27340,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel würfeln, Karotte und Rote Bete grob raspeln und in Öl 5 Minuten dünsten. Tomatenmark einrühren und 1 Minute mitrösten.',
+    'Zwiebel würfeln, Karotte und Rote Bete grob raspeln. Alle drei in Öl 5 Minuten dünsten. Tomatenmark einrühren und 1 Minute mitrösten.',
     'Brühe angießen, Kartoffeln in Würfeln zugeben und 15 Minuten köcheln.',
     'Weißkohl in feine Streifen schneiden, mit den abgespülten Bohnen zugeben und 12 Minuten weiterköcheln, bis der Kohl weich ist.',
     'Kinderportion abnehmen. Erwachsene mit Salz und Pfeffer abschmecken und mit einem Klecks saurer Sahne servieren.'
@@ -27506,7 +27506,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Fisch in Dillsoße mit Kartoffeln',
-  kid:'Fisch auf Gräten prüfen und zerpflücken, mit Kartoffeln und Soße zerdrücken. Erbsen leicht quetschen, ohne Salz.',
+  kid:'Fisch auf Gräten prüfen, zerpflücken und zusammen mit Kartoffeln und Soße zerdrücken. Erbsen leicht quetschen, ohne Salz.',
   leftover:'Fisch-Kartoffel-Auflauf · 15 Min. – Reste in eine Form geben und zugedeckt im Ofen vollständig erhitzen.',
   tipp:'In der Ukraine wird oft Karausche verwendet, jeder feste weiße Fisch eignet sich ebenso.'
 },
@@ -27526,7 +27526,7 @@ RECIPES.push(
     {n:'Lorbeerblatt',q:0.5,u:'Stk.',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel und Karotte würfeln und Kartoffeln in 1,5 cm große Stücke schneiden. Mit Brühe und Lorbeer aufkochen und 15 Minuten köcheln, bis die Kartoffeln weich sind.',
+    'Zwiebel und Karotte würfeln und Kartoffeln in 1,5 cm große Stücke schneiden. Alle drei mit Brühe und Lorbeer aufkochen und 15 Minuten köcheln, bis die Kartoffeln weich sind.',
     'Fisch in 3 cm große Stücke schneiden, in die Suppe legen und 6 bis 8 Minuten gar ziehen lassen. Lorbeerblatt entfernen.',
     'Dill unterziehen und das Brot dazu in Scheiben schneiden.',
     'Kinderportion abnehmen. Erwachsene mit Salz und Pfeffer abschmecken.'
@@ -27551,7 +27551,7 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln schälen, in 2 cm große Würfel schneiden und in Wasser 12 bis 14 Minuten weich kochen.',
-    'Weißkohl und Karotte fein hobeln, mit Zitronensaft und 1 TL Öl kräftig durchkneten.',
+    'Für das Kind etwas Karotte sehr fein reiben. Weißkohl und restliche Karotte fein hobeln, mit Zitronensaft und 1 TL Öl kräftig durchkneten.',
     'Zander trocken tupfen und im restlichen Öl auf der Hautseite 4 Minuten braten, wenden und 2 Minuten fertig garen, bis er innen weiß ist.',
     'Kartoffeln mit Dill mischen. Kinderportion ohne Salz abnehmen, Erwachsene mit Salz, Pfeffer und Zitrone würzen.'
   ],
@@ -27580,7 +27580,7 @@ RECIPES.push(
     'Butter mit Dill verkneten, zu kleinen Stangen formen und 10 Minuten ins Gefrierfach legen. Ofen auf 200 °C vorheizen.',
     'Hähnchenbrust seitlich tief einschneiden, aufklappen und flach klopfen. Butterstange daraufsetzen, fest einrollen, die Enden einschlagen, durch verquirltes Ei ziehen und in den Bröseln wälzen.',
     'Röllchen auf ein Blech mit Backpapier legen, mit Öl beträufeln und 22 bis 25 Minuten backen, bis die Panade goldbraun und das Fleisch innen vollständig durchgegart ist.',
-    'Kartoffeln schälen, würfeln und in Wasser 15 Minuten kochen, Erbsen in den letzten 3 Minuten zugeben. Kartoffeln mit warmer Milch zu Püree stampfen.',
+    'Kartoffeln schälen, würfeln und in Wasser 15 Minuten kochen, Erbsen in den letzten 3 Minuten zugeben. Erbsen mit dem Schaumlöffel herausheben, dann nur die Kartoffeln mit warmer Milch zu Püree stampfen.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Hähnchenröllchen mit Püree',
@@ -27667,7 +27667,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Hirse-Hähnchen-Brei',
-  kid:'Hähnchen fein zerzupfen und mit den weichen Kartoffeln und der Hirse leicht zerdrücken. Ohne Salz servieren.',
+  kid:'Hähnchen fein zerzupfen und zusammen mit den weichen Kartoffeln und der Hirse leicht zerdrücken. Ohne Salz servieren.',
   leftover:'Hirse-Pfanne · 8 Min. – Dick gewordene Reste in der Pfanne mit etwas Gemüse vollständig erhitzen und anbraten.',
   tipp:'Kulisch war das Lagerfeuer-Essen der Kosaken und wird beim Abkühlen fest, mit etwas Brühe lässt er sich gut aufwärmen.'
 },
@@ -27691,7 +27691,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 180 °C vorheizen. Fleisch in 2 cm große Würfel schneiden und mit Paprikapulver und Öl mischen.',
     'Kartoffeln, Karotten und Zwiebel in grobe Stücke schneiden, Pilze halbieren und Knoblauch fein hacken.',
-    'Alles mit Lorbeer in einen Bräter oder eine Form mit Deckel schichten, Brühe angießen und zugedeckt 60 Minuten schmoren, bis Fleisch und Kartoffeln weich sind. Im Slowcooker 6 Stunden auf niedriger Stufe garen.',
+    'Fleisch und Gemüse mit Lorbeer in einen Bräter oder eine Form mit Deckel schichten, Brühe angießen und zugedeckt 60 Minuten schmoren, bis Fleisch und Kartoffeln weich sind. Im Slowcooker 6 Stunden auf niedriger Stufe garen.',
     'Lorbeerblatt entfernen. Kinderportion ohne Salz abnehmen, Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Ofentopf mit zartem Fleisch',
@@ -27754,7 +27754,7 @@ RECIPES.push(
     'Vollkornreis in der doppelten Menge Wasser etwa 30 Minuten garen.',
     'Zwiebel, Karotte und Paprika fein würfeln. Hack in Öl krümelig braten, Gemüse zugeben und 5 Minuten mitdünsten.',
     'Kreuzkümmel kurz mitrösten, gehackte Tomaten, Bohnen und Mais zugeben und offen 20 Minuten sämig köcheln.',
-    'Kinderportion ungewürzt abnehmen und die Bohnen zerdrücken. Erwachsene mit Salz und Chiliflocken abschmecken.'
+    'Kinderportion ungewürzt abnehmen und darin die Bohnen zerdrücken. Erwachsene mit Salz und Chiliflocken abschmecken.'
   ],
   kidName:'Mildes Mini-Chili',
   kid:'Ohne Chili und Salz abnehmen, Bohnen und Mais zerdrücken und mit weichem Reis mischen.',
@@ -27832,7 +27832,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 210 °C vorheizen. Süßkartoffel in 2 cm große Würfel schneiden, mit der Hälfte des Öls mischen und 12 Minuten backen.',
-    'Hähnchen in mundgerechte Stücke, Paprika in Streifen und Zwiebel in Spalten schneiden. Mit Brokkoliröschen, restlichem Öl und Paprikapulver mischen.',
+    'Hähnchen in mundgerechte Stücke, Paprika in Streifen und Zwiebel in Spalten schneiden. Hähnchen, Paprika und Zwiebel mit Brokkoliröschen, restlichem Öl und Paprikapulver mischen.',
     'Alles zu den Süßkartoffeln aufs Blech geben und weitere 15 bis 18 Minuten backen, bis das Hähnchen innen nicht mehr rosa ist. Inzwischen etwas Joghurt für das Kind beiseitestellen und den Rest mit fein geriebenem Knoblauch verrühren.',
     'Kinderportion ohne Knoblauchdip und Salz abnehmen. Erwachsene salzen und mit dem Dip servieren.'
   ],
@@ -27890,7 +27890,7 @@ RECIPES.push(
     'Lauch in Ringe, Karotte und Sellerie in kleine Würfel schneiden und in Öl 4 Minuten dünsten.',
     'Kartoffeln in 1 cm große Würfel schneiden, mit Brühe und Thymian zugeben und zugedeckt 12 Minuten köcheln.',
     'Milch und Mais zugeben und ein Drittel der Kartoffeln im Topf zerdrücken. Fisch in großen Stücken einlegen und bei kleiner Hitze 5 bis 6 Minuten ziehen lassen, bis er vollständig gar ist.',
-    'Kinderportion abnehmen und den Fisch auf Gräten prüfen. Erwachsene mit Salz, Pfeffer und frischer Petersilie würzen.'
+    'Kinderportion abnehmen und darin den Fisch auf Gräten prüfen. Erwachsene mit Salz, Pfeffer und frischer Petersilie würzen.'
   ],
   kidName:'Mini-Chowder',
   kid:'Fisch gründlich auf Gräten prüfen und zerpflücken, Kartoffeln und Gemüse weich zerdrücken. Ungesalzen und lauwarm servieren.',
@@ -27918,7 +27918,7 @@ RECIPES.push(
     'Kartoffeln schälen, würfeln und in 12 Minuten weich kochen, abgießen und zerstampfen. Ofen auf 200 °C vorheizen.',
     'Lachs entgräten, sehr fein würfeln und mit Kartoffeln, Ei, Haferflocken und Dill zu einer formbaren Masse mischen. Kleine flache Küchlein formen.',
     'Küchlein auf ein Blech mit Backpapier legen, mit Öl bepinseln und 18 bis 20 Minuten backen, nach der Hälfte wenden, bis sie goldbraun und innen durchgegart sind.',
-    'Kohl und Karotte fein raspeln und mit Joghurt und etwas Zitronensaft mischen.',
+    'Kohl und Karotte fein raspeln. Etwas davon für das Kind beiseitestellen, den Rest mit Joghurt und etwas Zitronensaft mischen.',
     'Kinderportion abnehmen. Erwachsene Küchlein und Krautsalat mit Salz, Pfeffer und Zitrone würzen.'
   ],
   kidName:'Lachs-Taler',
@@ -27945,12 +27945,12 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 200 °C vorheizen. Nudeln 2 Minuten kürzer als angegeben kochen, Erbsen in der letzten Minute mitgaren und abgießen.',
-    'Zwiebel würfeln, Champignons in Scheiben schneiden und im Nudeltopf in Öl 5 Minuten braten. Milch mit Stärke verrühren, zugießen und unter Rühren aufkochen, bis die Sauce andickt.',
+    'Zwiebel würfeln und Champignons in Scheiben schneiden. Beides im Nudeltopf in Öl 5 Minuten braten. Milch mit Stärke verrühren, zugießen und unter Rühren aufkochen, bis die Sauce andickt.',
     'Spinat, Nudeln, Erbsen und abgetropften Thunfisch untermischen, in eine Auflaufform geben, mit Käse bestreuen und 15 Minuten goldbraun überbacken.',
     'Kinderportion abnehmen. Erwachsene mit Pfeffer, Zitronenschale und wenig Salz würzen.'
   ],
   kidName:'Mini-Nudelauflauf',
-  kid:'Nudeln und Pilze klein schneiden, Erbsen leicht zerdrücken und ohne Salz servieren. Thunfisch als Raubfisch für das Kind nur in kleiner Menge.',
+  kid:'Nudeln und Pilze klein schneiden, Erbsen leicht zerdrücken. Ohne Salz servieren. Thunfisch als Raubfisch für das Kind nur in kleiner Menge.',
   leftover:'Auflauf-Pfanne · 8 Min. – Reste mit einem Schuss Milch in der Pfanne erhitzen und mit frischem Spinat ergänzen.',
   tipp:'Thunfisch im eigenen Saft hat deutlich weniger Fett und Salz als Thunfisch in Öl.'
 },
@@ -27974,7 +27974,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 190 °C vorheizen. Karotte, Zucchini und Zwiebel fein reiben und mit Hack, Haferflocken und Ei gründlich verkneten.',
     'Masse in eine kleine Kastenform drücken oder als Laib aufs Blech setzen, mit Tomatenmark bestreichen und 35 bis 40 Minuten backen, bis der Braten innen vollständig durchgegart ist.',
-    'Kartoffeln schälen, würfeln und 15 Minuten weich kochen, die Bohnen für die letzten 8 Minuten mitgaren. Kartoffeln mit warmer Milch zu Püree stampfen und den Hackbraten in Scheiben schneiden.',
+    'Kartoffeln schälen, würfeln und 15 Minuten weich kochen, die Bohnen für die letzten 8 Minuten mitgaren. Bohnen herausnehmen, nur die Kartoffeln mit warmer Milch zu Püree stampfen und den Hackbraten in Scheiben schneiden.',
     'Kinderportion ungesalzen abnehmen. Erwachsene Püree und Fleisch am Teller mit Salz, Pfeffer und Muskat würzen.'
   ],
   kidName:'Mini-Hackbraten mit Püree',
@@ -28006,7 +28006,7 @@ RECIPES.push(
     'Kinderportion ungewürzt abnehmen. Erwachsene mit Salz und Pfeffer abschmecken.'
   ],
   kidName:'Zartes Schmorfleisch',
-  kid:'Fleisch sehr fein zerzupfen und mit weichen Kartoffeln und Karotten im Schmorsaft zerdrücken. Ohne Salz.',
+  kid:'Fleisch sehr fein zerzupfen und zusammen mit weichen Kartoffeln und Karotten im Schmorsaft zerdrücken. Ohne Salz.',
   leftover:'Pot-Roast-Brötchen · 8 Min. – Zerzupftes Fleisch im Schmorsaft erhitzen und in ein Vollkornbrötchen geben.',
   tipp:'Am Wochenende schmoren und unter der Woche aufwärmen, dann steht das Essen in 10 Minuten auf dem Tisch.'
 },
@@ -28138,7 +28138,7 @@ RECIPES.push(
   ],
   steps:[
     'Vollkornreis in der doppelten Menge Wasser 25 Minuten garen. Ofen auf 200 °C vorheizen.',
-    'Zwiebel und Zucchini fein würfeln und in Öl 5 Minuten dünsten. Mit Reis, Bohnen, Mais, Kreuzkümmel und der Hälfte der passierten Tomaten mischen.',
+    'Zwiebel und Zucchini fein würfeln und in Öl 5 Minuten dünsten. Beides mit Reis, Bohnen, Mais, Kreuzkümmel und der Hälfte der passierten Tomaten mischen.',
     'Paprika längs halbieren, entkernen, füllen und in eine Form mit den restlichen passierten Tomaten setzen. Mit Käse bestreuen und 20 Minuten backen, bis die Paprika weich ist.',
     'Kinderportion abnehmen. Erwachsene mit Salz, Pfeffer und Chili würzen.'
   ],
@@ -28173,7 +28173,7 @@ RECIPES.push(
     'Karotten in lange, dünne Stifte schneiden, mit Kreuzkümmel zugeben, knapp mit Wasser bedecken und zugedeckt 20 Minuten schmoren.',
     'Gewaschenen Reis und abgespülte Kichererbsen gleichmäßig darauf verteilen, ganze Knoblauchzehen hineindrücken, Wasser 1,5 cm über den Reis gießen und zugedeckt bei kleinster Hitze 30 bis 35 Minuten garen.',
     'Tomaten in dünne Spalten und die restliche Zwiebel in feine Ringe schneiden und als Achichuk-Salat anrichten.',
-    'Kinderportion ohne Salz abnehmen und das Fleisch klein schneiden. Plov für die Erwachsenen mit Salz abschmecken, vermengen und mit dem Salat servieren.'
+    'Kinderportion ohne Salz abnehmen und darin das Fleisch klein schneiden. Plov für die Erwachsenen mit Salz abschmecken, vermengen und mit dem Salat servieren.'
   ],
   kidName:'Mini-Plov',
   kid:'Fleisch sehr klein schneiden, Kichererbsen zerdrücken und Karotten weich garen. Knoblauchzehen herausnehmen, Tomaten ohne Zwiebel und Salz klein würfeln.',
@@ -28201,7 +28201,7 @@ RECIPES.push(
     'Nudeln in ungesalzenem Wasser nach Packungsangabe garen.',
     'Fleisch in heißem Öl 2 Minuten scharf anbraten. Zwiebel, Karotte und Paprika in feine Streifen schneiden, zugeben und 4 Minuten braten.',
     'Tomaten würfeln und mit Tomatenmark, Knoblauch, Kreuzkümmel und 100 ml Wasser zugeben, dann 5 Minuten zu einer sämigen Sauce köcheln.',
-    'Kinderportion ohne Salz abnehmen und die Nudeln klein schneiden. Erwachsene mit Salz und nach Wunsch Chili würzen und die Sauce über die Nudeln geben.'
+    'Kinderportion ohne Salz abnehmen und die Nudeln für das Kind klein schneiden. Erwachsene mit Salz und nach Wunsch Chili würzen und die Sauce über die Nudeln geben.'
   ],
   kidName:'Mini-Lagman',
   kid:'Nudeln kurz schneiden, Fleisch sehr fein schneiden und das Gemüse weich schmoren. Ohne Chili und Salz servieren.',
@@ -28339,7 +28339,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Karotten und Radieschen grob raspeln, Zwiebel in feine Ringe schneiden und mit Dill mischen.',
+    'Etwas Karotte und Radieschen für das Kind beiseitelegen. Übrige Karotten und Radieschen grob raspeln und Zwiebel in feine Ringe schneiden, alle drei mit Dill mischen.',
     'Fisch trocken tupfen, in Stücke schneiden, mit Koriander bestreuen und dünn in Mehl wenden.',
     'Fisch in Öl bei mittlerer Hitze je Seite 3 bis 4 Minuten goldbraun braten, bis er innen weiß ist und sich leicht teilen lässt.',
     'Kinderportion ohne Salz abnehmen. Erwachsene Fisch und Salat mit Salz, Pfeffer und Zitronensaft würzen und mit Fladenbrot servieren.'
@@ -28368,7 +28368,7 @@ RECIPES.push(
   steps:[
     'Reis waschen und in der 1,5-fachen Menge Wasser zugedeckt 12 Minuten garen, dann 5 Minuten ruhen lassen.',
     'Ofen mit Grillfunktion auf 220 °C vorheizen. Lachs in 3-cm-Würfel, Paprika, Zucchini und Zwiebel in Stücke schneiden.',
-    'Alles mit Öl und Kreuzkümmel mischen, abwechselnd auf Spieße stecken und 10 bis 12 Minuten grillen, bis der Fisch innen nicht mehr glasig ist.',
+    'Lachs und Gemüse mit Öl und Kreuzkümmel mischen, abwechselnd auf Spieße stecken und 10 bis 12 Minuten grillen, bis der Fisch innen nicht mehr glasig ist.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und Zitronensaft würzen und den Reis mit Dill mischen.'
   ],
   kidName:'Fisch-Gemüse-Spießchen',
@@ -28399,7 +28399,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen. Erwachsene Kichiri salzen, Zwiebel-Karotten darauf verteilen und mit Joghurt und Salat servieren.'
   ],
   kidName:'Mungbohnen-Brei',
-  kid:'Kichiri weich und breiig garen, Röstzwiebeln fein hacken und mit Joghurt ohne Salz unterrühren. Tomaten und Gurke in kleinen Würfeln dazu.',
+  kid:'Kichiri weich und breiig garen. Röstzwiebeln fein hacken und mit Joghurt unter den Kichiri rühren, ohne Salz. Tomaten und Gurke in kleinen Würfeln dazu.',
   leftover:'Kichiri-Bratlinge · 15 Min. – den fest gewordenen Rest zu flachen Bratlingen formen und in wenig Öl von beiden Seiten durchbraten.',
   tipp:'Mungbohnen 2 Stunden einweichen verkürzt die Garzeit um etwa 10 Minuten.'
 },
@@ -28600,7 +28600,7 @@ RECIPES.push(
     'Kinderschale ungesalzen abnehmen. Erwachsene mit Salz, Limettensaft, Koriander und nach Wunsch frischer Chili würzen.'
   ],
   kidName:'Mini-Phở',
-  kid:'Nudeln kurz schneiden, Hähnchen fein zerzupfen und mit weichem, klein geschnittenem Gemüse und wenig lauwarmer Brühe anbieten.',
+  kid:'Nudeln kurz schneiden und Hähnchen fein zerzupfen. Beides mit weichem, klein geschnittenem Gemüse und wenig lauwarmer Brühe anbieten.',
   leftover:'Phở-Nudelpfanne · 8 Min. – Nudeln, Hähnchen und Gemüse abtropfen und mit einem Schluck Brühe in der Pfanne durchbraten.',
   tipp:'Die Brühe lässt sich am Vortag kochen, dann bleiben am Abend nur 10 Minuten.'
 },
@@ -28709,7 +28709,7 @@ RECIPES.push(
     'Vollkornreis in der doppelten Menge Wasser etwa 30 Minuten garen.',
     'Zwiebel in feine Streifen schneiden und in Öl bei mittlerer Hitze 8 Minuten dunkelgoldbraun schmoren. Ingwerstifte und Knoblauch 1 Minute mitbraten.',
     'Lachs in große Stücke schneiden, auf die Zwiebeln legen, 100 ml Wasser angießen und zugedeckt 8 Minuten sanft schmoren. Pak Choi halbiert dazulegen und 4 Minuten mitgaren.',
-    'Kinderportion abnehmen und den Fisch auf Gräten prüfen. Erwachsene mit Fischsauce, Pfeffer und Frühlingszwiebelringen würzen.'
+    'Kinderportion abnehmen und darin den Fisch auf Gräten prüfen. Erwachsene mit Fischsauce, Pfeffer und Frühlingszwiebelringen würzen.'
   ],
   kidName:'Milder Schmorlachs mit Reis',
   kid:'Lachs sorgfältig entgräten, zerpflücken und mit Reis und etwas Schmorsud mischen. Pak Choi weich gegart klein schneiden.',
@@ -28824,7 +28824,7 @@ RECIPES.push(
     'Zitronengras entfernen und die Kinderportion abnehmen. Erwachsene mit Fischsauce und nach Wunsch Chili abschmecken.'
   ],
   kidName:'Süßkartoffel-Hähnchen-Curry',
-  kid:'Süßkartoffel und Karotte mit der Gabel zerdrücken, Hähnchen fein schneiden und mit Reis und Soße mischen. Ohne Fischsauce und Chili.',
+  kid:'Süßkartoffel und Karotte mit der Gabel zerdrücken und Hähnchen fein schneiden. Gemüse und Hähnchen mit Reis und Soße mischen. Ohne Fischsauce und Chili.',
   leftover:'Curry mit Baguette · 5 Min. – Reste vollständig erhitzen und mit Vollkorn-Baguette zum Tunken essen.',
   tipp:'In Vietnam isst man dieses Curry oft mit Baguette statt mit Reis.'
 },
@@ -28955,7 +28955,7 @@ RECIPES.push(
     {n:'Rapsöl',q:0.5,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Karotte und Rettich in feine Stifte hobeln, mit Reisessig und 2 EL Wasser mischen und 10 Minuten ziehen lassen.',
+    'Für das Kind etwas Karotte fein raspeln. Restliche Karotte und Rettich in feine Stifte hobeln, mit Reisessig und 2 EL Wasser mischen und 10 Minuten ziehen lassen.',
     'Baguette in der trockenen Pfanne 2 Minuten anrösten. Dann die Eier in Öl braten, wenden und von beiden Seiten braten, bis das Eigelb fest ist.',
     'Baguette aufschneiden und mit Gurkenscheiben, eingelegtem Gemüse und Ei füllen.',
     'Kinderportion ohne Sojasauce abnehmen. Erwachsene beträufeln ihr Ei mit Sojasauce und streuen Koriander und nach Wunsch Chili darüber.'
@@ -29019,7 +29019,7 @@ RECIPES.push(
     'Zwiebel würfeln und im Öl 3 Minuten anschwitzen, Hawaij kurz mitrösten. Kartoffeln, gewürfelte Tomaten und Brühe zugeben und 12 Minuten köcheln.',
     'Eier verquirlen, in den sprudelnden Eintopf rühren und unter Rühren 3 Minuten garen, bis sie vollständig gestockt sind.',
     'Gequollenen Bockshornklee mit dem Schneebesen und 1 EL Wasser zu einem hellen Schaum schlagen und die Hälfte des gehackten Korianders unterziehen.',
-    'Kinderportion ohne Schaum abnehmen und die Kartoffeln zerdrücken. Erwachsene salzen, den Schaum auf den heißen Eintopf geben und mit Fladenbrot löffeln.'
+    'Kinderportion ohne Schaum abnehmen und darin die Kartoffeln zerdrücken. Erwachsene salzen, den Schaum auf den heißen Eintopf geben und mit Fladenbrot löffeln.'
   ],
   kidName:'Kartoffel-Ei-Eintopf',
   kid:'Kartoffeln mit der Gabel zerdrücken, Ei vollständig gestockt und klein. Ohne Bockshornklee-Schaum und ohne Salz, mit weichem Brot.',
@@ -29046,7 +29046,7 @@ RECIPES.push(
     'Zwiebel und Knoblauch würfeln und im Öl anschwitzen, Rindfleisch zugeben, rundum anbraten und Hawaij kurz mitrösten.',
     'Gehackte Tomaten, geriebene Karotte und 300 ml Wasser zugeben und zugedeckt 60 Minuten schmoren, im Slowcooker 6 Stunden auf niedriger Stufe, bis das Fleisch zerfällt.',
     'Fleisch im Topf mit zwei Gabeln zerzupfen und offen einkochen, bis ein dicker Eintopf entsteht. Bockshornklee mit 3 EL Wasser verrühren, 10 Minuten quellen lassen und schaumig schlagen.',
-    'Kinderportion abnehmen und das Fleisch noch feiner zerzupfen. Erwachsene salzen, den Bockshornklee-Schaum daraufgeben und mit Fladenbrot essen.'
+    'Kinderportion abnehmen und darin das Fleisch noch feiner zerzupfen. Erwachsene salzen, den Bockshornklee-Schaum daraufgeben und mit Fladenbrot essen.'
   ],
   kidName:'Zartes Zupffleisch mit Brot',
   kid:'Fleisch sehr fein zerzupfen und mit der Tomatensoße zu weichem Brot geben. Ohne Schaum und ohne Salz.',
@@ -29075,7 +29075,7 @@ RECIPES.push(
     'Zwiebel würfeln und im restlichen Öl glasig dünsten, Reis, geriebene Karotte und Zimt zugeben, mit 160 ml Wasser aufgießen und zugedeckt 15 Minuten garen.',
     'Tomaten sehr fein würfeln und mit gehacktem Koriander zu einem Dip verrühren, Gurke in Scheiben schneiden.',
     'Hähnchen auf den Reis legen und den Bratensaft vom Blech darüberträufeln.',
-    'Kinderportion abnehmen, Hähnchen fein zerzupfen und mit dem Reis mischen. Erwachsene salzen und den Tomaten-Dip mit Chili schärfen.'
+    'Kinderportion abnehmen. Darin das Hähnchen fein zerzupfen und mit dem Reis mischen. Erwachsene salzen und den Tomaten-Dip mit Chili schärfen.'
   ],
   kidName:'Mini-Mandi',
   kid:'Hähnchen fein zerzupfen und mit dem Bratensaft unter den Reis mischen. Gurke in Stifte, ohne Salz und Chili.',
@@ -29104,7 +29104,7 @@ RECIPES.push(
     'Zwiebel in Streifen schneiden und im Öl 6 Minuten goldbraun dünsten, Fleisch mit der Marinade zugeben und 5 Minuten anbraten.',
     'Kartoffeln würfeln, mit gewürfelter Tomate und 150 ml Wasser zugeben und zugedeckt 30 Minuten schmoren, bis Fleisch und Kartoffeln weich sind.',
     'Reis unter das Fleisch heben und zugedeckt 5 Minuten ziehen lassen.',
-    'Kinderportion abnehmen, Lammfleisch fein zerzupfen und Kartoffeln zerdrücken. Erwachsene mit Salz und Chili würzen.'
+    'Kinderportion abnehmen. Darin das Lammfleisch fein zerzupfen und die Kartoffeln zerdrücken. Erwachsene mit Salz und Chili würzen.'
   ],
   kidName:'Weicher Lamm-Kartoffel-Reis',
   kid:'Lammfleisch sehr fein zerzupfen, Kartoffeln zerdrücken und alles mit der Joghurtsoße mischen. Ohne Salz und Chili.',
@@ -29131,10 +29131,10 @@ RECIPES.push(
     'Zwiebel würfeln und im Öl 3 Minuten anschwitzen, Hähnchen und Hawaij zugeben und kurz anrösten.',
     'Mit 600 ml Wasser auffüllen, die gewürfelte Tomate zugeben und 15 Minuten leise köcheln, dabei den Schaum abschöpfen.',
     'Kartoffeln und Karotten in große Stücke schneiden, zugeben und weitere 15 Minuten garen, bis alles weich ist. Hähnchen herausnehmen, zerzupfen und zurückgeben.',
-    'Kinderportion ungesalzen abnehmen und Kartoffeln zerdrücken. Erwachsene salzen, mit Koriander bestreuen und mit Fladenbrot und etwas Chili essen.'
+    'Kinderportion ungesalzen abnehmen und darin die Kartoffeln zerdrücken. Erwachsene salzen, mit Koriander bestreuen und mit Fladenbrot und etwas Chili essen.'
   ],
   kidName:'Hähnchen-Kartoffel-Topf',
-  kid:'Hähnchen fein zerzupfen, Kartoffeln und Karotten weich zerdrücken und mit wenig Brühe als dicken Brei anbieten. Ohne Salz und Chili.',
+  kid:'Hähnchen fein zerzupfen, Kartoffeln und Karotten weich zerdrücken. Hähnchen und Gemüse zusammen mit wenig Brühe als dicken Brei anbieten. Ohne Salz und Chili.',
   leftover:'Hähnchen-Reis-Topf · 10 Min. – Restliche Brühe mit Reis aufkochen und die Reste darin vollständig erhitzen.',
   tipp:'Hawaij für Suppe besteht vor allem aus Kreuzkümmel, Kurkuma, Pfeffer und Kardamom und lässt sich leicht selbst mischen.'
 },
@@ -29158,7 +29158,7 @@ RECIPES.push(
     'Zwiebel, Paprika und Knoblauch würfeln. Rindfleisch im heißen Öl in 2 Portionen je 2 Minuten scharf anbraten und herausnehmen.',
     'Zwiebel und Paprika in der Pfanne 4 Minuten braten, Knoblauch und Hawaij kurz mitrösten.',
     'Gewürfelte Tomaten zugeben und 4 Minuten einkochen, Fleisch zurück in die Pfanne geben und 1 Minute durchschwenken.',
-    'Kinderportion abnehmen und das Fleisch sehr klein schneiden. Erwachsene salzen, mit Koriander und Chili bestreuen und mit Fladenbrot essen.'
+    'Kinderportion abnehmen und darin das Fleisch sehr klein schneiden. Erwachsene salzen, mit Koriander und Chili bestreuen und mit Fladenbrot essen.'
   ],
   kidName:'Feine Fleisch-Tomaten-Pfanne',
   kid:'Fleisch sehr fein schneiden und mit der weichen Tomatensoße mischen, Brot in Streifen dazu. Ohne Salz und Chili.',
@@ -29185,10 +29185,10 @@ RECIPES.push(
     'Reis in der doppelten Menge Wasser 15 bis 18 Minuten garen.',
     'Hähnchen in Würfel schneiden und im Öl 5 Minuten rundum anbraten, gewürfelte Zwiebel und Hawaij zugeben.',
     'Karotten, Zucchini und Paprika würfeln, mit passierten Tomaten und 100 ml Wasser zugeben und 12 Minuten sämig schmoren, bis das Gemüse weich und das Hähnchen durchgegart ist.',
-    'Kinderportion abnehmen und das Hähnchen fein schneiden. Erwachsene mit Salz und Chili würzen und mit Reis servieren.'
+    'Kinderportion abnehmen und darin das Hähnchen fein schneiden. Erwachsene mit Salz und Chili würzen und mit Reis servieren.'
   ],
   kidName:'Hähnchen-Gemüse-Reis',
-  kid:'Hähnchen sehr klein schneiden, Gemüse weich schmoren und mit der Soße unter den Reis mischen. Ohne Salz und Chili.',
+  kid:'Hähnchen sehr klein schneiden und Gemüse weich schmoren. Beides mit der Soße unter den Reis mischen. Ohne Salz und Chili.',
   leftover:'Aqda-Wrap · 5 Min. – Reste vollständig erhitzen und mit Joghurt ins Fladenbrot rollen.',
   tipp:'Das Gemüse lässt sich je nach Saison tauschen, Kartoffeln und Okra sind im Jemen ebenso üblich.'
 },
@@ -29213,7 +29213,7 @@ RECIPES.push(
     'Tomatenmark, gepressten Knoblauch, Hawaij, Öl und etwas Zitronensaft zu einer Paste verrühren und den Fisch damit bestreichen.',
     'Fisch auf ein Blech mit Backpapier legen und 12 bis 15 Minuten backen, bis er sich leicht zerpflücken lässt.',
     'Für das Sahawiq die Tomaten sehr fein würfeln und mit gehacktem Koriander mischen.',
-    'Kinderportion abnehmen, Fisch entgräten und zerpflücken. Erwachsene salzen und das Sahawiq mit Chili schärfen.'
+    'Kinderportion abnehmen und darin den Fisch entgräten und zerpflücken. Erwachsene salzen und das Sahawiq mit Chili schärfen.'
   ],
   kidName:'Zarter Ofenfisch mit Reis',
   kid:'Fisch sorgfältig entgräten und zerpflücken, mit weichem Reis und fein gewürfelter Tomate ohne Chili anbieten. Ohne Salz.',
@@ -29241,10 +29241,10 @@ RECIPES.push(
     'Zwiebel in Streifen schneiden und im Öl 5 Minuten weich dünsten, Knoblauch, Kreuzkümmel und Kurkuma kurz mitrösten.',
     'Gehackte Tomaten zugeben und 4 Minuten einkochen.',
     'Fisch in große Stücke teilen, in die Soße legen und zugedeckt 6 bis 8 Minuten garen, bis er innen nicht mehr glasig ist.',
-    'Kinderportion abnehmen, Fisch entgräten und mit Soße und Brotstücken zerdrücken. Erwachsene mit Salz, Zitrone, Koriander und Chili würzen und mit Fladenbrot essen.'
+    'Kinderportion abnehmen. Darin den Fisch entgräten und zusammen mit Soße und Brotstücken zerdrücken. Erwachsene mit Salz, Zitrone, Koriander und Chili würzen und mit Fladenbrot essen.'
   ],
   kidName:'Fisch-Brot-Mus',
-  kid:'Fisch gründlich entgräten und mit der Tomatensoße und eingeweichtem Brot zerdrücken. Ohne Salz und Chili.',
+  kid:'Fisch gründlich entgräten und zusammen mit der Tomatensoße und eingeweichtem Brot zerdrücken. Ohne Salz und Chili.',
   leftover:'Fisch-Tomaten-Nudeln · 12 Min. – Restliche Soße mit Fisch vollständig erhitzen und unter Vollkornnudeln mischen.',
   tipp:'In Aden wird der Fisch mit dem Brot vermengt gegessen, mit Fladenbrot zum Eintunken gelingt das ganz ohne Frittieren.'
 },
@@ -29294,7 +29294,7 @@ RECIPES.push(
     'Zwiebel, Karotten und Knoblauch fein würfeln und im Öl 4 Minuten anschwitzen, Hawaij kurz mitrösten.',
     'Linsen abspülen, mit gehackten Tomaten und 400 ml Wasser zugeben und zugedeckt 25 bis 30 Minuten weich köcheln.',
     'Spinat unterheben und zusammenfallen lassen, der Eintopf soll dick und löffelbar sein.',
-    'Kinderportion abnehmen und die Linsen grob zerdrücken. Erwachsene salzen, mit Chili würzen und mit Fladenbrot essen.'
+    'Kinderportion abnehmen und darin die Linsen grob zerdrücken. Erwachsene salzen, mit Chili würzen und mit Fladenbrot essen.'
   ],
   kidName:'Linsenbrei mit Brot',
   kid:'Linsen gut weich kochen und grob zerdrücken, Spinat fein hacken. Ohne Salz und Chili, mit weichen Brotstücken.',
@@ -29322,7 +29322,7 @@ RECIPES.push(
     'Ofen auf 200 °C vorheizen. Kichererbsen gut abtropfen lassen und mit Zwiebel, der Hälfte des Korianders, Kreuzkümmel und Kurkuma grob pürieren.',
     'Kichererbsenmehl und die Hälfte des Öls unterkneten, kleine flache Taler formen, auf ein Blech mit Backpapier setzen und mit dem restlichen Öl bestreichen.',
     'Taler 20 Minuten backen und nach 10 Minuten wenden, im Airfryer 12 Minuten bei 190 °C. Tomaten und Gurke würfeln und mit dem restlichen Koriander mischen.',
-    'Kinderportion abnehmen, Taler zerkleinern und mit Tomatenwürfeln anbieten. Erwachsene salzen und mit Salat und Chili ins Fladenbrot füllen.'
+    'Kinderportion abnehmen. Die Taler für das Kind zerkleinern und mit Tomatenwürfeln anbieten. Erwachsene salzen und mit Salat und Chili ins Fladenbrot füllen.'
   ],
   kidName:'Weiche Kichererbsen-Taler',
   kid:'Taler in kleine Stücke brechen oder zerdrücken, Tomaten ohne Haut fein würfeln. Ohne Salz und Chili, Brot in weichen Streifen.',
@@ -29377,7 +29377,7 @@ RECIPES.push(
     'Ei in 10 Minuten hart kochen, abschrecken und vierteln.',
     'Zwiebel würfeln und im Öl 4 Minuten dünsten, Kreuzkümmel und Kurkuma kurz mitrösten. Tomaten fein würfeln und 3 Minuten einkochen.',
     'Bohnen abspülen, mit 50 ml Wasser zugeben und 5 Minuten köcheln, dabei ein Viertel der Bohnen mit dem Löffel andrücken.',
-    'Kinderportion abnehmen, Bohnen zerdrücken und das Ei klein hacken. Erwachsene salzen, mit Koriander und Chili bestreuen und mit Fladenbrot essen.'
+    'Kinderportion abnehmen. Für das Kind die Bohnen zerdrücken und das Ei klein hacken. Erwachsene salzen, mit Koriander und Chili bestreuen und mit Fladenbrot essen.'
   ],
   kidName:'Bohnenmus mit Ei',
   kid:'Bohnen gründlich zerdrücken, Ei hart gekocht und klein gehackt dazugeben. Ohne Salz und Chili, mit weichem Brot.',
@@ -29524,7 +29524,7 @@ RECIPES.push(
     'Kinderportion ohne Salz und Chili abnehmen. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen und mit dem Reis servieren.'
   ],
   kidName:'Mildes Hähnchen-Curry',
-  kid:'Hähnchen zerzupfen und die Kartoffeln mit der Soße zerdrücken, dann mit Reis mischen. Ohne Salz und Chili.',
+  kid:'Hähnchen zerzupfen und die Kartoffeln mit der Soße zerdrücken. Beides mit Reis mischen. Ohne Salz und Chili.',
   leftover:'Curry-Roti · 8 Min. – Reste vollständig erhitzen und in ein warmes Fladenbrot rollen.',
   tipp:'Kapmalaiische Currys sind eher mild und leicht süßlich, ein Stück Zimtstange im Topf reicht für viel Aroma.'
 },
@@ -29552,7 +29552,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene am Tisch mit Salz und Pfeffer würzen.'
   ],
   kidName:'Weicher Potjie-Teller',
-  kid:'Rindfleisch fein zerzupfen, Gemüse und Kartoffeln weich zerdrücken und mit etwas Schmorsaft mischen. Ohne Salz.',
+  kid:'Rindfleisch fein zerzupfen, Gemüse und Kartoffeln weich zerdrücken. Fleisch und Gemüse mit etwas Schmorsaft mischen. Ohne Salz.',
   tipp:'Im Slowcooker die Schichten auf niedriger Stufe 6 Stunden garen, dabei ebenfalls nicht umrühren.'
 },
 {
@@ -29627,7 +29627,7 @@ RECIPES.push(
     'Ofen auf 200 °C vorheizen. Süßkartoffel in Spalten schneiden, mit der Hälfte des Öls mischen und auf dem Blech 12 Minuten backen.',
     'Aprikosen mit 2 EL heißem Wasser, Zitronensaft, Knoblauch und dem restlichen Öl fein pürieren.',
     'Bohnen und Fisch aufs Blech legen, den Fisch mit der Aprikosenpaste bestreichen und alles 12 bis 14 Minuten backen, bis der Fisch gerade durch ist.',
-    'Kinderportion ohne Salz und Chili abnehmen und den Fisch entgräten. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen.'
+    'Kinderportion ohne Salz und Chili abnehmen und darin den Fisch entgräten. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen.'
   ],
   kidName:'Lachs mit Süßkartoffel-Spalten',
   kid:'Lachs entgräten und zerpflücken, Süßkartoffel und Bohnen weich backen und in kleine Stücke schneiden. Ohne Salz und Chili.',
@@ -29654,7 +29654,7 @@ RECIPES.push(
     'Ofen auf 220 °C vorheizen. Kartoffeln in Spalten schneiden, mit der Hälfte des Öls und dem Paprikapulver mischen und auf dem Blech 15 Minuten backen.',
     'Fisch trocken tupfen, dünn mit dem restlichen Öl bestreichen und in Maisgrieß wenden. Kartoffeln wenden, Fisch dazulegen und alles 12 bis 15 Minuten backen, bis der Fisch gerade durch und die Kruste goldbraun ist.',
     'Kohl und Karotte fein reiben und mit Joghurt und etwas Zitronensaft zu einem Krautsalat mischen.',
-    'Kinderportion ohne Salz und Essig abnehmen und den Fisch entgräten. Erwachsene Kartoffeln mit Salz und Apfelessig, Fisch mit Zitrone würzen.'
+    'Kinderportion ohne Salz und Essig abnehmen und darin den Fisch entgräten. Erwachsene Kartoffeln mit Salz und Apfelessig, Fisch mit Zitrone würzen.'
   ],
   kidName:'Knusper-Fisch mit Kartoffelspalten',
   kid:'Fisch entgräten und in Streifen teilen, Kartoffeln weich backen und Krautsalat sehr fein gerieben in kleiner Menge dazu. Ohne Salz und Essig.',
@@ -29734,7 +29734,7 @@ RECIPES.push(
   steps:[
     'Zwiebel würfeln und in Öl 4 Minuten dünsten. Kürbis in 2 cm Würfel und Tomate klein schneiden.',
     'Kürbis, Tomate, Mais, abgespülte Bohnen, Brühe und Lorbeerblatt zugeben und zugedeckt 18 Minuten köcheln, bis der Kürbis weich ist.',
-    'Lorbeerblatt entfernen und etwa ein Drittel mit dem Kartoffelstampfer grob zerdrücken, damit der Eintopf cremig wird.',
+    'Lorbeerblatt entfernen. Etwa ein Drittel von Kürbis, Mais und Bohnen mit dem Kartoffelstampfer grob zerdrücken, damit der Eintopf cremig wird.',
     'Kinderportion ohne Salz und Chili abnehmen. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen.'
   ],
   kidName:'Cremiger Mais-Bohnen-Brei',
@@ -29786,8 +29786,8 @@ RECIPES.push(
   ],
   steps:[
     'Tomate in Scheiben und Zwiebel in sehr feine Ringe schneiden.',
-    'Eine Brotscheibe mit Käse, Tomate, Spinat und Zwiebel belegen, mit der zweiten Scheibe abdecken und außen dünn mit Öl bestreichen.',
-    'In einer Pfanne bei mittlerer Hitze, mit einem Deckel beschwert, je Seite 3 bis 4 Minuten rösten, bis der Käse geschmolzen ist.',
+    'Eine Brotscheibe mit Käse, Tomate, Spinat und Zwiebel belegen, beim Toast für das Kind die Zwiebel weglassen. Mit der zweiten Scheibe abdecken und außen dünn mit Öl bestreichen.',
+    'Den Toast in einer Pfanne bei mittlerer Hitze, mit einem Deckel beschwert, je Seite 3 bis 4 Minuten rösten, bis der Käse geschmolzen ist.',
     'Gurke in Scheiben schneiden und mit Joghurt mischen. Kinderportion ungesalzen abnehmen, Erwachsene den Gurkensalat mit Salz und Pfeffer würzen.'
   ],
   kidName:'Käsetoast-Streifen',
@@ -29816,7 +29816,7 @@ RECIPES.push(
     'Kinderportion ohne Salz und Chili abnehmen. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen.'
   ],
   kidName:'Spinat-Ei mit weichem Pap',
-  kid:'Ei vollständig durchgaren und klein rühren, Spinat fein hacken und mit weicher Polenta mischen. Ohne Salz und Chili.',
+  kid:'Ei vollständig durchgaren und klein rühren, Spinat fein hacken. Beides mit weicher Polenta mischen. Ohne Salz und Chili.',
   tipp:'Morogo ist der Sammelname für wildes Blattgemüse wie Amarant, als Ersatz passen Spinat oder junger Grünkohl.'
 }
 );

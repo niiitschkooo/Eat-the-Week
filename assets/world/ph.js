@@ -47,11 +47,11 @@ RECIPES.push(
   steps:[
     'Zwiebel, Knoblauch und Ingwer in feine Streifen schneiden und in Öl 3 Minuten dünsten.',
     'Hähnchen in Stücke schneiden, 3 Minuten mitbraten, mit Brühe aufgießen und zugedeckt 15 Minuten sanft köcheln.',
-    'Jasminreis in der 1,5-fachen Menge Wasser 12 Minuten garen. Zucchiniwürfel in den Topf geben, 6 Minuten weich garen und den Spinat unterrühren.',
+    'Jasminreis in der 1,5-fachen Menge Wasser 12 Minuten garen. Zucchiniwürfel in den Topf mit dem Hähnchen geben, 6 Minuten weich garen und den Spinat unterrühren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und nach Wunsch Chili würzen.'
   ],
   kidName:'Ingwer-Hühnertopf mild',
-  kid:'Ingwerstreifen herausnehmen, Hähnchen fein zerzupfen und Zucchini zerdrücken. Mit wenig Brühe über den Reis geben, damit es nicht zu suppig ist.',
+  kid:'Ingwerstreifen herausnehmen, Hähnchen fein zerzupfen und Zucchini zerdrücken. Hähnchen und Zucchini mit wenig Brühe über den Reis geben, damit die Kinderportion nicht zu suppig ist.',
   leftover:'Tinola-Reistopf · 10 Min. – Reste mit dem übrigen Reis zu einem dicken Reistopf vollständig aufkochen.',
   tipp:'Original kommen grüne Papaya oder Chayote hinein, Zucchini ist ein milder Ersatz.'
 },
@@ -77,7 +77,7 @@ RECIPES.push(
     'Kinderportion ohne Sojasauce abnehmen. Rest mit Sojasauce abschmecken, Erwachsene nach Wunsch mit Pfeffer würzen.'
   ],
   kidName:'Zartes Zwiebelfleisch',
-  kid:'Fleisch vollständig durchbraten und sehr fein schneiden, Brokkoli weich dämpfen. Ohne Sojasauce mit weichen Zwiebeln unter den Reis mischen.',
+  kid:'Fleisch vollständig durchbraten und sehr fein schneiden, Brokkoli weich dämpfen. Fleisch und Brokkoli ohne Sojasauce mit weichen Zwiebeln unter den Reis mischen.',
   leftover:'Bistek-Wrap · 8 Min. – Fleisch- und Zwiebelreste vollständig erhitzen und mit Gurke in ein Vollkorn-Fladenbrot rollen.',
   tipp:'Original wird Calamansi verwendet, Limette oder Zitrone schmecken ähnlich.'
 },
@@ -160,7 +160,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Kinder-Giniling',
-  kid:'Hack ist von Natur aus fein, Kartoffeln und Karotten weich garen und Erbsen leicht zerdrücken. Ohne Salz unter den Reis mischen.',
+  kid:'Hack ist von Natur aus fein, Kartoffeln und Karotten weich garen und Erbsen leicht zerdrücken. Hack, Gemüse und Erbsen ohne Salz unter den Reis mischen.',
   leftover:'Tortang Giniling · 10 Min. – Hackreste in verquirlte Eier geben und als Omelett in der Pfanne vollständig stocken lassen.',
   tipp:'Klein gewürfeltes Gemüse gart schnell und verschwindet fast in der Soße.'
 },
@@ -187,7 +187,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch einer Chilischote würzen.'
   ],
   kidName:'Milder Fischtopf',
-  kid:'Fisch auf Gräten prüfen und zerpflücken, Gemüse weich garen und klein schneiden, Radieschen vierteln. Mit wenig Brühe über den Reis geben.',
+  kid:'Fisch auf Gräten prüfen und zerpflücken, Gemüse weich garen und klein schneiden, Radieschen vierteln. Fisch und Gemüse mit wenig Brühe über den Reis geben.',
   leftover:'Sinigang-Reistopf · 8 Min. – Brühe- und Fischreste mit Reis vollständig aufkochen und dick einkochen lassen.',
   tipp:'Die Säure mit der Tamarindenpaste langsam anpassen, Kinder mögen den Topf meist etwas milder.'
 },
@@ -214,7 +214,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chili würzen.'
   ],
   kidName:'Kokos-Lachs mild',
-  kid:'Lachs sorgfältig auf Gräten prüfen und zerpflücken, Pak Choi und Paprika weich garen und klein schneiden. Mit der milden Kokossoße unter den Reis mischen.',
+  kid:'Lachs sorgfältig auf Gräten prüfen und zerpflücken, Pak Choi und Paprika weich garen und klein schneiden. Lachs und Gemüse mit der milden Kokossoße unter den Reis mischen.',
   leftover:'Kokos-Fischreis · 8 Min. – Reis- und Fischreste mit etwas Wasser in einem Topf vollständig erhitzen.',
   tipp:'Lachs nur sanft ziehen lassen statt kochen, dann bleibt er saftig.'
 },
@@ -240,7 +240,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Fisch in Tomatensoße',
-  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, das Ei in der Soße vollständig garen. Mit der weichen Soße unter den Reis mischen.',
+  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, das Ei in der Soße vollständig garen. Den Fisch mit der weichen Soße unter den Reis mischen.',
   leftover:'Sarciado-Toast · 5 Min. – Soßen- und Fischreste vollständig erhitzen und auf Vollkornbrot geben.',
   tipp:'Sarciado eignet sich auch für gebratenen Fisch vom Vortag, der in der Soße wieder saftig wird.'
 },
@@ -261,7 +261,7 @@ RECIPES.push(
   ],
   steps:[
     'Vollkornreis in der doppelten Menge Wasser 30 Minuten garen. Ofen auf 200 °C vorheizen.',
-    'Die Hälfte der Tomaten und Zwiebeln fein würfeln, mit geriebenem Ingwer mischen und auf den Fisch geben. Alles in Backpapier einschlagen und 18 bis 20 Minuten garen.',
+    'Die Hälfte der Tomaten und Zwiebeln fein würfeln, mit geriebenem Ingwer mischen und auf den Fisch geben. Den Fisch samt Belag in Backpapier einschlagen und 18 bis 20 Minuten garen.',
     'Restliche Tomaten und Gurke würfeln und mit etwas Limettensaft und Öl zu einem Salat mischen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und nach Wunsch Chili würzen.'
   ],
@@ -317,7 +317,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und nach Wunsch Chilisoße würzen.'
   ],
   kidName:'Auberginen-Omelett-Streifen',
-  kid:'Omelett vollständig durchbraten und in Streifen schneiden, Auberginenschale bei Bedarf entfernen. Tomaten klein würfeln, ohne Salz.',
+  kid:'Omelett vollständig durchbraten und in Streifen schneiden, Auberginenschale bei Bedarf entfernen. Tomaten klein würfeln. Die Kinderportion ohne Salz servieren.',
   leftover:'Omelett-Brot · 5 Min. – Omelettreste mit Tomaten auf Vollkornbrot legen und in der Pfanne vollständig durchwärmen.',
   tipp:'Klassisch wird die Aubergine ganz über der Gasflamme geröstet, das gibt ein rauchiges Aroma.'
 },
@@ -344,7 +344,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chili würzen.'
   ],
   kidName:'Kürbis-Kokos-Tofu',
-  kid:'Kürbis mit der Gabel zerdrücken, Bohnen sehr weich garen und klein schneiden, Tofu zerbröseln. Ohne Salz mit Reis mischen.',
+  kid:'Kürbis mit der Gabel zerdrücken, Bohnen sehr weich garen und klein schneiden, Tofu zerbröseln. Kürbis, Bohnen und Tofu ohne Salz mit Reis mischen.',
   leftover:'Kürbis-Kokos-Suppe · 8 Min. – Reste mit etwas Brühe pürieren und vollständig aufkochen.',
   tipp:'Traditionell kommen Garnelen oder Schweinefleisch hinein, mit Tofu wird das Gericht vegetarisch.'
 },
@@ -395,8 +395,8 @@ RECIPES.push(
   ],
   steps:[
     'Jasminreis in der 1,5-fachen Menge Wasser 12 Minuten garen. Eier in einem zweiten Topf 9 Minuten hart kochen, abschrecken, schälen und halbieren.',
-    'Blumenkohl und Brokkoli in kleine Röschen, Karotten in Scheiben schneiden. Mit Knoblauch in Öl 3 Minuten braten, dann 80 ml Wasser zugeben und zugedeckt 4 Minuten dünsten.',
-    'Zuckerschoten zugeben, Stärke in 2 EL Wasser verrühren, unterrühren und 1 Minute köcheln lassen. Eihälften darauf legen.',
+    'Blumenkohl und Brokkoli in kleine Röschen, Karotten in Scheiben schneiden. Das Gemüse mit Knoblauch in Öl 3 Minuten braten, dann 80 ml Wasser zugeben und zugedeckt 4 Minuten dünsten.',
+    'Zuckerschoten zugeben. Stärke in 2 EL Wasser verrühren, unter das Gemüse rühren und 1 Minute köcheln lassen. Eihälften darauf legen.',
     'Kinderportion ohne Sojasauce abnehmen. Rest mit Sojasauce abschmecken, Erwachsene nach Wunsch mit Pfeffer würzen.'
   ],
   kidName:'Gemüse mit Ei',

@@ -21,11 +21,11 @@ RECIPES.push(
     'Ofen auf 200 °C vorheizen. Ei 10 Minuten hart kochen. Den größten Teil der Zwiebel fein würfeln und mit dem Hack 8 Minuten krümelig braten, bis es durchgegart ist, dann mit Kreuzkümmel, Paprikapulver und 3 EL Wasser 2 Minuten schmoren.',
     'Mais mit Milch und Basilikum fein pürieren und im Topf unter Rühren 5 Minuten zu einem dicken Brei einkochen.',
     'Hack in eine Auflaufform geben, Eischeiben und Oliven darauf verteilen, mit dem Maisbrei bedecken und 20 Minuten backen, bis die Oberfläche goldbraun ist.',
-    'Kinderportion ohne Oliven abnehmen und etwas abkühlen lassen. Für die Erwachsenen Tomaten in Scheiben mit der restlichen Zwiebel als Ensalada chilena anrichten und alles mit Salz würzen.'
+    'Kinderportion ohne Oliven abnehmen und etwas abkühlen lassen. Für die Erwachsenen Tomaten in Scheiben mit der restlichen Zwiebel als Ensalada chilena anrichten. Auflauf und Salat der Erwachsenen mit Salz würzen.'
   ],
   nutri:{p:['Rindfleisch','Eier'],f:['Mais','Tomaten'],i:['Rindfleisch','Eier'],fat:['Oliven']},
   kidName:'Mini-Maisauflauf',
-  kid:'Ohne Oliven abnehmen, Ei klein schneiden und den Auflauf lauwarm mit der Gabel etwas zerdrücken. Kein Salz, die Maiskruste ist von Natur aus mild-süß.',
+  kid:'Die Kinderportion ohne Oliven abnehmen, Ei klein schneiden und den Auflauf lauwarm mit der Gabel etwas zerdrücken. Kein Salz, die Maiskruste ist von Natur aus mild-süß.',
   leftover:'Mais-Hack-Pfanne · 8 Min. – Auflaufreste mit etwas Wasser in der Pfanne vollständig durcherhitzen.',
   extras:[], tipp:'In Chile wird die Maiskruste oft mit Zucker bestreut; hier bleibt sie ohne, das Basilikum gibt genug Aroma.'
 },
@@ -83,7 +83,7 @@ RECIPES.push(
   ],
   nutri:{p:['Hähnchen','Erbsen'],f:['Erbsen','Karotten'],i:['Hähnchen','Erbsen'],fat:['Olivenöl']},
   kidName:'Hähnchen-Erbsen-Reis',
-  kid:'Hähnchen fein schneiden, Erbsen leicht zerdrücken und mit Soße unter den Reis mischen. Ohne Salz.',
+  kid:'Hähnchen fein schneiden, Erbsen leicht zerdrücken. Beides mit Soße unter den Reis mischen. Ohne Salz.',
   leftover:'Erbsen-Reis-Pfanne · 8 Min. – Reste mit einem Ei in der Pfanne vollständig durchbraten.',
   extras:[], tipp:'Mit Kartoffelpüree statt Reis schmeckt es wie bei chilenischen Großmüttern.'
 },
@@ -168,7 +168,7 @@ RECIPES.push(
   ],
   nutri:{p:['Rindfleisch'],f:['Kürbis','Kartoffeln','Erbsen'],i:['Rindfleisch','Erbsen'],fat:['Olivenöl']},
   kidName:'Kürbis-Hack-Stampf',
-  kid:'Fein stampfen, damit Mais und Erbsen zerdrückt sind, und lauwarm servieren. Ohne Salz und Chili.',
+  kid:'Die Kinderportion fein stampfen, damit Mais und Erbsen zerdrückt sind, und lauwarm servieren. Ohne Salz und Chili.',
   leftover:'Charquicán-Taler · 15 Min. – Reste mit einem Ei verkneten, zu Talern formen und in der Pfanne durchbraten.',
   extras:['ei'], tipp:'Original wird Charqui verwendet, getrocknetes Rindfleisch; mageres Hack ist salzärmer und schneller gar.'
 },
@@ -220,7 +220,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 200 °C vorheizen. Brot würfeln und in der Milch einweichen. Zwiebel würfeln, in Öl 5 Minuten weich dünsten und den Spinat kurz zusammenfallen lassen.',
     'Fisch in Würfel schneiden. Eingeweichtes Brot mit der Gabel zu einem Brei zerdrücken und mit Zwiebel, Spinat und Fisch mischen.',
-    'In eine kleine Auflaufform füllen, mit Käse und Paprikapulver bestreuen und 18 bis 20 Minuten backen, bis der Fisch durchgegart und die Oberfläche goldbraun ist.',
+    'Die Fischmasse in eine kleine Auflaufform füllen, mit Käse und Paprikapulver bestreuen und 18 bis 20 Minuten backen, bis der Fisch durchgegart und die Oberfläche goldbraun ist.',
     'Kinderportion abnehmen, nochmals auf Gräten prüfen und etwas abkühlen lassen. Erwachsene mit Pfeffer würzen und mit Tomatenscheiben servieren, Salz ist dank Käse kaum nötig.'
   ],
   nutri:{p:['Fisch','Milch','Käse'],f:['Vollkornbrot','Spinat'],i:['Spinat'],fat:['Käse','Olivenöl']},
@@ -361,7 +361,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 190 °C vorheizen. Zwiebel fein würfeln. Mais mit Ei, Basilikum und Paprikapulver grob pürieren.',
     'Hüttenkäse, Polenta und Zwiebel unterrühren und den Teig 5 Minuten quellen lassen.',
-    'In geölte Muffinmulden füllen und 22 bis 25 Minuten backen, bis die Küchlein fest und goldbraun sind und das Ei vollständig gestockt ist.',
+    'Den Teig in geölte Muffinmulden füllen und 22 bis 25 Minuten backen, bis die Küchlein fest und goldbraun sind und das Ei vollständig gestockt ist.',
     'Kinderportion abnehmen, etwas abkühlen lassen und halbieren. Tomaten in Spalten schneiden und für die Erwachsenen mit Salz, Pfeffer und dem restlichen Öl anmachen.'
   ],
   nutri:{p:['Hüttenkäse','Ei'],f:['Mais','Tomaten'],i:['Ei'],fat:['Olivenöl']},

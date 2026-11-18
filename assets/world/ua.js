@@ -18,7 +18,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel würfeln, Karotte und Rote Bete grob raspeln und in Öl 5 Minuten dünsten. Tomatenmark einrühren und 1 Minute mitrösten.',
+    'Zwiebel würfeln, Karotte und Rote Bete grob raspeln. Alle drei in Öl 5 Minuten dünsten. Tomatenmark einrühren und 1 Minute mitrösten.',
     'Brühe angießen, Kartoffeln in Würfeln zugeben und 15 Minuten köcheln.',
     'Weißkohl in feine Streifen schneiden, mit den abgespülten Bohnen zugeben und 12 Minuten weiterköcheln, bis der Kohl weich ist.',
     'Kinderportion abnehmen. Erwachsene mit Salz und Pfeffer abschmecken und mit einem Klecks saurer Sahne servieren.'
@@ -184,7 +184,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Fisch in Dillsoße mit Kartoffeln',
-  kid:'Fisch auf Gräten prüfen und zerpflücken, mit Kartoffeln und Soße zerdrücken. Erbsen leicht quetschen, ohne Salz.',
+  kid:'Fisch auf Gräten prüfen, zerpflücken und zusammen mit Kartoffeln und Soße zerdrücken. Erbsen leicht quetschen, ohne Salz.',
   leftover:'Fisch-Kartoffel-Auflauf · 15 Min. – Reste in eine Form geben und zugedeckt im Ofen vollständig erhitzen.',
   tipp:'In der Ukraine wird oft Karausche verwendet, jeder feste weiße Fisch eignet sich ebenso.'
 },
@@ -204,7 +204,7 @@ RECIPES.push(
     {n:'Lorbeerblatt',q:0.5,u:'Stk.',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel und Karotte würfeln und Kartoffeln in 1,5 cm große Stücke schneiden. Mit Brühe und Lorbeer aufkochen und 15 Minuten köcheln, bis die Kartoffeln weich sind.',
+    'Zwiebel und Karotte würfeln und Kartoffeln in 1,5 cm große Stücke schneiden. Alle drei mit Brühe und Lorbeer aufkochen und 15 Minuten köcheln, bis die Kartoffeln weich sind.',
     'Fisch in 3 cm große Stücke schneiden, in die Suppe legen und 6 bis 8 Minuten gar ziehen lassen. Lorbeerblatt entfernen.',
     'Dill unterziehen und das Brot dazu in Scheiben schneiden.',
     'Kinderportion abnehmen. Erwachsene mit Salz und Pfeffer abschmecken.'
@@ -229,7 +229,7 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln schälen, in 2 cm große Würfel schneiden und in Wasser 12 bis 14 Minuten weich kochen.',
-    'Weißkohl und Karotte fein hobeln, mit Zitronensaft und 1 TL Öl kräftig durchkneten.',
+    'Für das Kind etwas Karotte sehr fein reiben. Weißkohl und restliche Karotte fein hobeln, mit Zitronensaft und 1 TL Öl kräftig durchkneten.',
     'Zander trocken tupfen und im restlichen Öl auf der Hautseite 4 Minuten braten, wenden und 2 Minuten fertig garen, bis er innen weiß ist.',
     'Kartoffeln mit Dill mischen. Kinderportion ohne Salz abnehmen, Erwachsene mit Salz, Pfeffer und Zitrone würzen.'
   ],
@@ -258,7 +258,7 @@ RECIPES.push(
     'Butter mit Dill verkneten, zu kleinen Stangen formen und 10 Minuten ins Gefrierfach legen. Ofen auf 200 °C vorheizen.',
     'Hähnchenbrust seitlich tief einschneiden, aufklappen und flach klopfen. Butterstange daraufsetzen, fest einrollen, die Enden einschlagen, durch verquirltes Ei ziehen und in den Bröseln wälzen.',
     'Röllchen auf ein Blech mit Backpapier legen, mit Öl beträufeln und 22 bis 25 Minuten backen, bis die Panade goldbraun und das Fleisch innen vollständig durchgegart ist.',
-    'Kartoffeln schälen, würfeln und in Wasser 15 Minuten kochen, Erbsen in den letzten 3 Minuten zugeben. Kartoffeln mit warmer Milch zu Püree stampfen.',
+    'Kartoffeln schälen, würfeln und in Wasser 15 Minuten kochen, Erbsen in den letzten 3 Minuten zugeben. Erbsen mit dem Schaumlöffel herausheben, dann nur die Kartoffeln mit warmer Milch zu Püree stampfen.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Hähnchenröllchen mit Püree',
@@ -345,7 +345,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Hirse-Hähnchen-Brei',
-  kid:'Hähnchen fein zerzupfen und mit den weichen Kartoffeln und der Hirse leicht zerdrücken. Ohne Salz servieren.',
+  kid:'Hähnchen fein zerzupfen und zusammen mit den weichen Kartoffeln und der Hirse leicht zerdrücken. Ohne Salz servieren.',
   leftover:'Hirse-Pfanne · 8 Min. – Dick gewordene Reste in der Pfanne mit etwas Gemüse vollständig erhitzen und anbraten.',
   tipp:'Kulisch war das Lagerfeuer-Essen der Kosaken und wird beim Abkühlen fest, mit etwas Brühe lässt er sich gut aufwärmen.'
 },
@@ -369,7 +369,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 180 °C vorheizen. Fleisch in 2 cm große Würfel schneiden und mit Paprikapulver und Öl mischen.',
     'Kartoffeln, Karotten und Zwiebel in grobe Stücke schneiden, Pilze halbieren und Knoblauch fein hacken.',
-    'Alles mit Lorbeer in einen Bräter oder eine Form mit Deckel schichten, Brühe angießen und zugedeckt 60 Minuten schmoren, bis Fleisch und Kartoffeln weich sind. Im Slowcooker 6 Stunden auf niedriger Stufe garen.',
+    'Fleisch und Gemüse mit Lorbeer in einen Bräter oder eine Form mit Deckel schichten, Brühe angießen und zugedeckt 60 Minuten schmoren, bis Fleisch und Kartoffeln weich sind. Im Slowcooker 6 Stunden auf niedriger Stufe garen.',
     'Lorbeerblatt entfernen. Kinderportion ohne Salz abnehmen, Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Ofentopf mit zartem Fleisch',

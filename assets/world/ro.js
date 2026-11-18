@@ -19,12 +19,12 @@ RECIPES.push(
   ],
   steps:[
     'Wirsingblätter ablösen, 3 Minuten in kochendem Wasser blanchieren und dicke Blattrippen flach schneiden.',
-    'Zwiebel und Karotte fein würfeln und in Öl 4 Minuten dünsten. Mit Hack, rohem Reis, Thymian und der Hälfte des Dills verkneten und in kleinen Portionen fest in die Blätter wickeln.',
+    'Zwiebel und Karotte fein würfeln und in Öl 4 Minuten dünsten. Zwiebel und Karotte mit Hack, rohem Reis, Thymian und der Hälfte des Dills verkneten. Die Füllung in kleinen Portionen fest in die Blätter wickeln.',
     'Röllchen dicht in einen Topf schichten, passierte Tomaten und Wasser bis knapp unter die Oberfläche angießen und zugedeckt 60 Minuten leise köcheln, bis Reis und Fleisch vollständig gar sind.',
     'Kinderportion ungesalzen abnehmen und die Röllchen klein schneiden. Erwachsene mit Salz, Pfeffer und restlichem Dill würzen und mit Joghurt servieren.'
   ],
   kidName:'Mini-Sarmale mit Joghurt',
-  kid:'Röllchen in kleine Stücke schneiden, den weichen Wirsing fein hacken und mit Tomatensoße und Joghurt mild mischen. Ohne Salz.',
+  kid:'Röllchen in kleine Stücke schneiden und den weichen Wirsing fein hacken. Beides mit Tomatensoße und Joghurt mild mischen. Ohne Salz.',
   leftover:'Sarmale mit Polenta · 12 Min. – Röllchen in der Soße vollständig erhitzen und mit schnell gekochter Polenta servieren.',
   tipp:'Sarmale schmecken aufgewärmt am zweiten Tag am besten, in Rumänien gehört Mămăligă dazu.'
 },
@@ -48,7 +48,7 @@ RECIPES.push(
   steps:[
     'Hack mit gepresstem Knoblauch, Thymian und der kalten Brühe 2 Minuten kräftig verkneten, bis die Masse geschmeidig ist, und zu daumendicken, 8 cm langen Röllchen formen.',
     'Röllchen in Öl bei mittlerer Hitze rundum 8 bis 10 Minuten braten, bis sie innen vollständig durchgegart sind.',
-    'Tomaten und Gurke würfeln, Zwiebel in feine Ringe schneiden und alles zu einem Salat mischen.',
+    'Tomaten und Gurke würfeln, Zwiebel in feine Ringe schneiden und alle drei zu einem Salat mischen.',
     'Kinderportion ungesalzen abnehmen und die Röllchen in Scheiben schneiden. Erwachsene mit Salz und Pfeffer würzen und mit Senf, Salat und Brot servieren.'
   ],
   kidName:'Mici-Scheiben mit Gurke',
@@ -101,13 +101,13 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Hähnchen in Würfel schneiden und in Öl 5 Minuten rundum anbraten. Zwiebel würfeln, Pilze in Scheiben schneiden, zugeben und 5 Minuten mitbraten.',
+    'Hähnchen in Würfel schneiden und in Öl 5 Minuten rundum anbraten. Zwiebel würfeln und Pilze in Scheiben schneiden. Beides zugeben und 5 Minuten mitbraten.',
     'Mehl darüberstäuben und kurz anschwitzen, Milch und 100 ml Wasser unter Rühren zugießen, Erbsen zugeben und 6 Minuten sämig köcheln, bis das Hähnchen vollständig durchgegart ist.',
     'Inzwischen 300 ml Wasser aufkochen, Polenta einrühren und unter Rühren 5 Minuten zu einem festen Brei garen.',
     'Kinderportion ungesalzen abnehmen und das Hähnchen klein schneiden. Erwachsene mit Salz, Pfeffer und Dill würzen.'
   ],
   kidName:'Rahmhähnchen mit Polenta',
-  kid:'Hähnchen und Pilze klein schneiden, Erbsen zerdrücken und mit der milden Soße über weiche Polenta geben. Ohne Salz.',
+  kid:'Hähnchen und Pilze klein schneiden und Erbsen zerdrücken. Hähnchen, Pilze und Erbsen mit der milden Soße über weiche Polenta geben. Ohne Salz.',
   leftover:'Ciulama-Nudeln · 10 Min. – Reste mit gekochten Nudeln und etwas Milch vollständig erhitzen.',
   tipp:'Mit Milch statt Sahne bleibt die Soße hell und cremig, aber deutlich leichter.'
 },
@@ -214,7 +214,7 @@ RECIPES.push(
   steps:[
     'Für die Mămăligă 300 ml Wasser aufkochen, Polenta einrühren und unter Rühren 5 Minuten zu einem festen Brei garen.',
     'Fisch trocken tupfen und in der Hälfte des Öls bei mittlerer Hitze 3 Minuten je Seite braten, bis er sich leicht zerpflücken lässt, dann herausnehmen.',
-    'Kirschtomaten halbieren, Paprika in Streifen schneiden und im restlichen Öl 3 Minuten anbraten. Brühe und Thymian zugeben, 3 Minuten köcheln und den Fisch zurück in den Sud legen.',
+    'Kirschtomaten halbieren und Paprika in Streifen schneiden. Beides im restlichen Öl 3 Minuten anbraten. Brühe und Thymian zugeben, 3 Minuten köcheln und den Fisch zurück in den Sud legen.',
     'Kinderportion ungesalzen abnehmen, den Fisch auf Gräten prüfen und zerpflücken. Erwachsene rühren gepressten Knoblauch und gehackte Petersilie in den Sud und würzen mit Salz, Pfeffer und Chili.'
   ],
   kidName:'Forelle mit weicher Polenta',

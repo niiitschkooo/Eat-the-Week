@@ -20,12 +20,12 @@ RECIPES.push(
   steps:[
     'Zwiebel fein würfeln und in der Hälfte des Öls goldbraun braten. Lamm zugeben, rundum anbraten, mit Wasser bedecken und zugedeckt 35 Minuten schmoren.',
     'Gewaschenen Reis, Kreuzkümmel und Kardamom zum Fleisch geben, Wasser auffüllen, bis der Reis 1 cm bedeckt ist, und zugedeckt bei kleiner Hitze 30 Minuten garen.',
-    'Karotten in feine Stifte schneiden und mit den Rosinen im restlichen Öl in der Pfanne 5 Minuten weich dünsten, dann auf dem Reis verteilen und 5 Minuten ziehen lassen.',
+    'Karotten in feine Stifte schneiden und mit den Rosinen im restlichen Öl in der Pfanne 5 Minuten weich dünsten. Karotten und Rosinen auf dem Reis verteilen und den Palaw 5 Minuten ziehen lassen.',
     'Gurke und Tomaten würfeln und als Salat anrichten.',
     'Kinderportion ohne Salz abnehmen. Erwachsene den Palaw mit Salz abschmecken und mit dem Salat servieren.'
   ],
   kidName:'Mini-Palaw',
-  kid:'Lamm sehr fein zerzupfen, Rosinen halbieren oder für Kinder unter drei Jahren weglassen. Karotten weich garen und ohne Salz servieren.',
+  kid:'Lamm sehr fein zerzupfen. Rosinen halbieren oder für Kinder unter drei Jahren weglassen. Karotten weich garen. Die Kinderportion ohne Salz servieren.',
   leftover:'Palaw-Pfanne · 10 Min. – Reste mit etwas Wasser zugedeckt in der Pfanne vollständig erhitzen.',
   tipp:'Traditionell kommen geröstete Mandeln und Pistazien obenauf, bei Nussallergie einfach weglassen.'
 },
@@ -78,8 +78,8 @@ RECIPES.push(
   steps:[
     'Ein Drittel der Tomaten sehr fein würfeln, Frühlingszwiebel und Koriandergrün hacken.',
     'Hack mit Tomatenwürfeln, Frühlingszwiebel, der Hälfte des Koriandergrüns und den Gewürzen verkneten und zu flachen, handtellergroßen Patties formen.',
-    'In wenig Öl bei mittlerer Hitze je Seite 4 bis 5 Minuten braten, bis sie innen nicht mehr rosa sind.',
-    'Kinderportion ohne Salz abnehmen. Restliche Tomaten und Gurke in Scheiben schneiden, für die Erwachsenen salzen und mit Joghurt, Koriandergrün, Chili und Fladenbrot servieren.'
+    'Patties in wenig Öl bei mittlerer Hitze je Seite 4 bis 5 Minuten braten, bis sie innen nicht mehr rosa sind.',
+    'Kinderportion ohne Salz abnehmen. Restliche Tomaten und Gurke in Scheiben schneiden. Für die Erwachsenen Patties, Tomaten und Gurke salzen und mit Joghurt, Koriandergrün, Chili und Fladenbrot servieren.'
   ],
   kidName:'Mini-Chapli',
   kid:'Patties klein und dünn formen, damit sie sicher durchgaren, und in Streifen schneiden. Ohne Chili und Salz, mit Joghurt zum Dippen.',
@@ -161,12 +161,12 @@ RECIPES.push(
   ],
   steps:[
     'Hähnchen in kleine Würfel schneiden und in heißem Öl 4 Minuten rundum anbraten.',
-    'Zwiebel, Ingwer und Knoblauch fein hacken, Paprika in Streifen schneiden und 3 Minuten mitbraten.',
+    'Zwiebel, Ingwer und Knoblauch fein hacken, Paprika in Streifen schneiden. Alle vier zum Hähnchen geben und 3 Minuten mitbraten.',
     'Tomaten würfeln, mit Kreuzkümmel zugeben und offen 6 bis 7 Minuten einkochen, bis eine dicke Sauce entsteht und das Hähnchen durchgegart ist.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und frischer Chili würzen, mit Koriandergrün bestreuen und mit Fladenbrot servieren.'
   ],
   kidName:'Tomaten-Hähnchen mild',
-  kid:'Hähnchen sehr klein schneiden, Paprika und Tomaten weich schmoren und die Haut entfernen. Ohne Chili und Salz, mit weichem Fladenbrot zum Tunken.',
+  kid:'Hähnchen sehr klein schneiden. Paprika und Tomaten weich schmoren und bei beiden die Haut entfernen. Ohne Chili und Salz, mit weichem Fladenbrot zum Tunken.',
   leftover:'Karahi-Reis · 8 Min. – Reste mit gekochtem Reis in der Pfanne vollständig erhitzen.',
   tipp:'Im Original wird im gusseisernen Karahi gekocht, eine weite Pfanne mit hohem Rand funktioniert genauso.'
 },
@@ -190,11 +190,11 @@ RECIPES.push(
   steps:[
     'Ofen auf 220 °C vorheizen. Fisch trocken tupfen, in breite Stücke schneiden, mit Öl und Kurkuma einreiben und auf Backpapier legen.',
     'Fisch 10 bis 12 Minuten backen, bis er innen weiß ist und sich leicht zerteilen lässt.',
-    'Inzwischen Koriandergrün sehr fein hacken und mit Joghurt und einem Spritzer Zitronensaft verrühren. Tomaten, Gurke und Zwiebel in Scheiben schneiden.',
+    'Inzwischen Koriandergrün sehr fein hacken und mit Joghurt und einem Spritzer Zitronensaft zu Chatni verrühren. Tomaten, Gurke und Zwiebel in Scheiben schneiden.',
     'Kinderportion ohne Salz abnehmen. Erwachsene den Fisch mit Salz und Chili würzen und mit Chatni, Salat und Fladenbrot servieren.'
   ],
   kidName:'Goldene Fischstücke',
-  kid:'Fisch vollständig durchgaren, sorgfältig entgräten und zerpflücken. Chatni ohne Salz als milden Dip, Gurke in Stiften, rohe Zwiebel weglassen.',
+  kid:'Fisch vollständig durchgaren, sorgfältig entgräten und zerpflücken. Chatni ohne Salz als milden Dip und Gurke in Stiften dazugeben. Rohe Zwiebel weglassen.',
   leftover:'Fisch-Fladen · 5 Min. – übrigen Fisch vollständig erhitzen und mit Salat und Chatni in Fladenbrot rollen.',
   tipp:'In Kabul isst man Mahi vor allem im Winter, der Ofen ersetzt hier das Frittieren vom Straßenstand.'
 },
@@ -223,7 +223,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen und den Fisch auf Gräten prüfen. Erwachsene mit Salz und Chili abschmecken und mit Koriandergrün bestreut zum Reis servieren.'
   ],
   kidName:'Fisch in Tomatensauce',
-  kid:'Fisch vollständig garen, sorgfältig entgräten und in der Sauce zerpflücken, Zucchini weich schmoren. Ohne Chili und Salz mit Reis mischen.',
+  kid:'Fisch vollständig garen, sorgfältig entgräten und in der Sauce zerpflücken, Zucchini weich schmoren. Fisch, Zucchini und Sauce ohne Chili und Salz mit dem Reis mischen.',
   leftover:'Fisch-Reis-Topf · 8 Min. – Reis und Sauce zusammen zugedeckt vollständig erhitzen.',
   tipp:'Fester Kabeljau zerfällt in der Sauce weniger als Seelachs, die Stücke nur einmal vorsichtig wenden.'
 },
@@ -304,7 +304,7 @@ RECIPES.push(
     'Kartoffeln schälen, in Stücke schneiden und 15 Minuten weich kochen, abgießen und mit fein geschnittener Frühlingszwiebel und Koriandergrün zerstampfen.',
     'Teig in Portionen teilen und dünn ausrollen, eine Hälfte mit Füllung bestreichen, zuklappen und die Ränder fest andrücken.',
     'Bolani in einer dünn geölten Pfanne bei mittlerer Hitze je Seite 3 bis 4 Minuten goldbraun backen.',
-    'Kinderportion ohne Salz abnehmen. Joghurt mit geriebener Gurke und Minze verrühren, für die Erwachsenen salzen und zu den Bolani reichen.'
+    'Joghurt mit geriebener Gurke und Minze verrühren. Kinderportion ohne Salz abnehmen. Den Gurken-Joghurt für die Erwachsenen salzen und zu den Bolani reichen.'
   ],
   kidName:'Mini-Bolani',
   kid:'Bolani in schmale Streifen schneiden und gut abkühlen lassen, die Füllung ist innen sehr heiß. Mit ungesalzenem Gurken-Joghurt zum Dippen.',
@@ -386,7 +386,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel und Karotte fein würfeln und in Öl 4 Minuten andünsten, dann mit passierten Tomaten und der dreifachen Menge Wasser aufkochen.',
+    'Zwiebel und Karotte fein würfeln und in Öl 4 Minuten andünsten. Passierte Tomaten und dreimal so viel Wasser zugeben und alles aufkochen.',
     'Nudeln in kurze Stücke brechen, mit den abgespülten Kichererbsen zugeben und 10 bis 12 Minuten weich köcheln.',
     'Spinat und Dill unterrühren und 2 Minuten ziehen lassen.',
     'Kinderportion ohne Salz abnehmen, etwas abkühlen lassen und Joghurt unterrühren. Erwachsene mit Salz, Pfeffer und Minze würzen und mit einem großen Klecks Joghurt servieren.'

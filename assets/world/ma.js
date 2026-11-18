@@ -18,7 +18,7 @@ RECIPES.push(
     {n:'Kurkuma',q:0.25,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel fein würfeln, Ingwer reiben. Hähnchen in große Stücke schneiden und mit der Zwiebel in Öl 5 Minuten anbraten, Kurkuma kurz mitrösten.',
+    'Zwiebel fein würfeln, Ingwer reiben. Hähnchen in große Stücke schneiden und mit Zwiebel und Ingwer in Öl 5 Minuten anbraten, Kurkuma kurz mitrösten.',
     'Karotten in Stifte schneiden, mit 200 ml Wasser und etwas abgeriebener Zitronenschale zugeben und zugedeckt 20 Minuten schmoren.',
     'Zucchini in Stücke schneiden und 10 Minuten mitgaren, bis das Hähnchen durchgegart und das Gemüse weich ist. Couscous mit der gleichen Menge heißem Wasser übergießen und 5 Minuten quellen lassen.',
     'Kinderportion ohne Oliven und Salz abnehmen. Erwachsene mit Oliven, Zitronensaft, Salz und Pfeffer abschmecken.'
@@ -132,7 +132,7 @@ RECIPES.push(
     'Ofen auf 150 °C vorheizen. Rindfleisch mit Öl, Kreuzkümmel, Kurkuma, gehacktem Knoblauch und Zwiebelstreifen in einem Bräter mischen.',
     'Kartoffeln und Karotten in große Stücke schneiden und mit zwei Zitronenscheiben und 150 ml Wasser dazugeben.',
     'Zugedeckt 2,5 Stunden schmoren, bis das Fleisch zerfällt. Im Slowcooker 6 bis 7 Stunden auf niedriger Stufe garen. Zitronenscheiben entfernen.',
-    'Kinderportion ohne Salz abnehmen und das Fleisch fein zerzupfen. Erwachsene mit Salz und frischem Zitronensaft abschmecken.'
+    'Kinderportion ohne Salz abnehmen und das Fleisch der Kinderportion fein zerzupfen. Erwachsene mit Salz und frischem Zitronensaft abschmecken.'
   ],
   kidName:'Zartes Schmorfleisch mit Kartoffelstampf',
   kid:'Fleisch mit zwei Gabeln fein zerzupfen, Kartoffeln und Karotten mit etwas Schmorsaft zerdrücken. Kein Salz, Zitrone erst bei den Erwachsenen.',
@@ -215,8 +215,8 @@ RECIPES.push(
   steps:[
     'Zwiebel und Sellerie fein würfeln und in Öl 5 Minuten dünsten. Zimt und Kurkuma kurz mitrösten.',
     'Linsen, passierte Tomaten und 400 ml Wasser zugeben und 25 Minuten köcheln, bis die Linsen weich sind.',
-    'Kichererbsen zugeben und 5 Minuten mitwärmen. Mit etwas Wasser auf eine dicke, sämige Konsistenz bringen und gehackten Koriander unterrühren.',
-    'Kinderportion ohne Salz abnehmen und Kichererbsen zerdrücken. Erwachsene salzen, pfeffern und Brot dazu reichen.'
+    'Kichererbsen zugeben und 5 Minuten mitwärmen. Die Suppe mit etwas Wasser auf eine dicke, sämige Konsistenz bringen und gehackten Koriander unterrühren.',
+    'Kinderportion ohne Salz abnehmen und die Kichererbsen der Kinderportion zerdrücken. Erwachsene salzen, pfeffern und Brot dazu reichen.'
   ],
   kidName:'Dicke Mini-Harira',
   kid:'Harira etwas dicker lassen und Kichererbsen gründlich zerdrücken. Weiches Brot ohne Rinde in kleinen Stücken zum Tunken, ohne Salz.',
@@ -272,7 +272,7 @@ RECIPES.push(
     'Zwiebel, Knoblauch und Karotte fein würfeln und in Öl 4 Minuten dünsten. Kreuzkümmel und Paprikapulver kurz mitrösten.',
     'Passierte Tomaten und 100 ml Wasser zugeben, Bohnen abspülen und dazugeben. 8 Minuten köcheln, bis die Karotten weich sind und die Soße eindickt.',
     'Petersilie hacken und unterrühren.',
-    'Kinderportion ohne Salz abnehmen und Bohnen zerdrücken. Erwachsene salzen, nach Wunsch mit etwas Chili schärfen und Brot dazu reichen.'
+    'Kinderportion ohne Salz abnehmen und die Bohnen der Kinderportion zerdrücken. Erwachsene salzen, nach Wunsch mit etwas Chili schärfen und Brot dazu reichen.'
   ],
   kidName:'Bohnenmus mit Tomate',
   kid:'Bohnen gründlich zerdrücken und mit der Soße zu einem weichen Mus mischen. Brot ohne harte Rinde in Streifen dazu, kein Salz.',
@@ -324,7 +324,7 @@ RECIPES.push(
   ],
   steps:[
     'Aubergine in kleine Würfel schneiden, Tomaten grob hacken, Knoblauch fein hacken.',
-    'Aubergine in Öl 3 Minuten anbraten. Tomaten, Knoblauch und Gewürze zugeben und zugedeckt 7 Minuten weich schmoren, dabei grob zerdrücken.',
+    'Aubergine in Öl 3 Minuten anbraten. Tomaten, Knoblauch und Gewürze zugeben und zugedeckt 7 Minuten weich schmoren, dabei Aubergine und Tomaten grob zerdrücken.',
     'Für jedes Ei eine Mulde formen, Eier hineinschlagen und zugedeckt 6 Minuten garen, bis Eiweiß und Eigelb fest sind. Gehackten Koriander darüber streuen.',
     'Kinderportion ohne Salz abnehmen. Erwachsene salzen und mit warmem Fladenbrot essen.'
   ],
@@ -352,7 +352,7 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln schälen, in Stücke schneiden und in 15 Minuten weich kochen. Ofen auf 210 °C vorheizen.',
-    'Kartoffeln abgießen, ausdampfen lassen und zerstampfen. Mit Eiern, gehackter Petersilie, Kreuzkümmel und Kurkuma verrühren, auf einem Blech mit Backpapier zu flachen Küchlein formen und dünn mit Öl bestreichen.',
+    'Kartoffeln abgießen, ausdampfen lassen und zerstampfen. Den Kartoffelstampf mit Eiern, gehackter Petersilie, Kreuzkümmel und Kurkuma verrühren. Die Masse auf einem Blech mit Backpapier zu flachen Küchlein formen und die Küchlein dünn mit Öl bestreichen.',
     'Küchlein 20 Minuten backen und nach 12 Minuten wenden, bis sie goldbraun und innen fest sind. Für die Taktouka Paprika und Tomaten würfeln und mit Knoblauch in wenig Öl 10 Minuten weich schmoren.',
     'Kinderportion ohne Salz abnehmen und mit Joghurt servieren. Erwachsene salzen die Taktouka und würzen nach Wunsch mit Chili.'
   ],
@@ -380,9 +380,9 @@ RECIPES.push(
   ],
   steps:[
     'Zwiebel, Knoblauch und Karotte würfeln und in Öl 4 Minuten dünsten. Kreuzkümmel und Paprikapulver kurz mitrösten.',
-    'Linsen abspülen, mit Tomaten und 350 ml Wasser zugeben und 25 bis 30 Minuten köcheln, bis sie weich sind und die Soße dick ist.',
+    'Linsen abspülen, mit Tomaten und 350 ml Wasser zugeben und 25 bis 30 Minuten köcheln, bis die Linsen weich sind und die Soße dick ist.',
     'Koriander hacken und unterrühren.',
-    'Kinderportion ohne Salz abnehmen und Linsen leicht zerdrücken. Erwachsene salzen und mit einem Schuss Olivenöl und Brot servieren.'
+    'Kinderportion ohne Salz abnehmen und die Linsen der Kinderportion leicht zerdrücken. Erwachsene salzen und mit einem Schuss Olivenöl und Brot servieren.'
   ],
   kidName:'Weiche Tomatenlinsen',
   kid:'Linsen sehr weich kochen und leicht zerdrücken, Karotten fein gewürfelt. Mit weichem Brot ohne Rinde und ohne Salz anbieten.',

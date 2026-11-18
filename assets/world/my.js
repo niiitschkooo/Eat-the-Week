@@ -127,7 +127,7 @@ RECIPES.push(
   steps:[
     'Zwiebel, Paprika und Spinat fein hacken und mit den Eiern und dem Currypulver verquirlen.',
     'Brötchen längs halbieren. Eimasse in eine geölte Pfanne geben, die Brötchen mit der Schnittfläche darauf drücken und 4 Minuten bei mittlerer Hitze braten.',
-    'Alles wenden und weitere 3 Minuten braten, bis das Ei vollständig gestockt ist. Mit Tomatenscheiben belegen.',
+    'Die Brötchen samt Eischicht wenden und weitere 3 Minuten braten, bis das Ei vollständig gestockt ist. Mit Tomatenscheiben belegen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chilisoße würzen.'
   ],
   kidName:'Ei-Brot-Streifen',
@@ -214,7 +214,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chili würzen.'
   ],
   kidName:'Tomaten-Hähnchen mild',
-  kid:'Hähnchen fein zerzupfen, Erbsen leicht zerdrücken und alles mit der Soße unter den Reis mischen. Ohne Chili und Salz.',
+  kid:'Hähnchen fein zerzupfen, Erbsen leicht zerdrücken und beides mit der Soße unter den Reis mischen. Ohne Chili und Salz.',
   leftover:'Hähnchen-Tomaten-Nudeln · 12 Min. – Soßenreste vollständig erhitzen und mit gekochten Vollkornnudeln mischen.',
   tipp:'Eine Zimtstange statt Pulver gibt das typische Aroma und wird vor dem Servieren entfernt.'
 },
@@ -353,7 +353,7 @@ RECIPES.push(
     'Zitronengras entfernen. Kinderportion ungesalzen abnehmen, Erwachsene mit Salz und nach Wunsch Chili würzen.'
   ],
   kidName:'Milder Tomatenfisch',
-  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, Aubergine und Okra sehr weich garen und klein schneiden. Ohne Chili über den Reis geben.',
+  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, Aubergine und Okra sehr weich garen und klein schneiden. Fisch und Gemüse ohne Chili über den Reis geben.',
   leftover:'Fisch-Reis-Topf · 8 Min. – Reis- und Soßenreste zusammen vollständig erhitzen.',
   tipp:'Statt Okra eignet sich auch Zucchini, sie gart in derselben Zeit.'
 },
@@ -405,7 +405,7 @@ RECIPES.push(
     'Kinderportion abnehmen, bevor gewürzt wird. Erwachsene mit Sojasauce, ein paar Tropfen Sesamöl und Frühlingszwiebelringen beträufeln und nach Wunsch mit Chili würzen.'
   ],
   kidName:'Zarter Dampffisch',
-  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, Pak Choi weich dämpfen und klein schneiden. Ohne Sojasauce mit dem Reis mischen.',
+  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, Pak Choi weich dämpfen und klein schneiden. Fisch und Pak Choi ohne Sojasauce mit dem Reis mischen.',
   leftover:'Fisch-Reisbrei · 12 Min. – Reis- und Fischreste mit salzarmer Brühe zu einem weichen Reisbrei vollständig aufkochen.',
   tipp:'Ohne Dämpfeinsatz den Fisch in einer Pfanne mit Deckel und 3 EL Wasser bei kleiner Hitze garen.'
 }

@@ -21,7 +21,7 @@ RECIPES.push(
     'Vollkornreis in der doppelten Menge Wasser etwa 30 Minuten garen.',
     'Zwiebel, Karotte und Paprika fein würfeln. Hack in Öl krümelig braten, Gemüse zugeben und 5 Minuten mitdünsten.',
     'Kreuzkümmel kurz mitrösten, gehackte Tomaten, Bohnen und Mais zugeben und offen 20 Minuten sämig köcheln.',
-    'Kinderportion ungewürzt abnehmen und die Bohnen zerdrücken. Erwachsene mit Salz und Chiliflocken abschmecken.'
+    'Kinderportion ungewürzt abnehmen und darin die Bohnen zerdrücken. Erwachsene mit Salz und Chiliflocken abschmecken.'
   ],
   kidName:'Mildes Mini-Chili',
   kid:'Ohne Chili und Salz abnehmen, Bohnen und Mais zerdrücken und mit weichem Reis mischen.',
@@ -99,7 +99,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 210 °C vorheizen. Süßkartoffel in 2 cm große Würfel schneiden, mit der Hälfte des Öls mischen und 12 Minuten backen.',
-    'Hähnchen in mundgerechte Stücke, Paprika in Streifen und Zwiebel in Spalten schneiden. Mit Brokkoliröschen, restlichem Öl und Paprikapulver mischen.',
+    'Hähnchen in mundgerechte Stücke, Paprika in Streifen und Zwiebel in Spalten schneiden. Hähnchen, Paprika und Zwiebel mit Brokkoliröschen, restlichem Öl und Paprikapulver mischen.',
     'Alles zu den Süßkartoffeln aufs Blech geben und weitere 15 bis 18 Minuten backen, bis das Hähnchen innen nicht mehr rosa ist. Inzwischen etwas Joghurt für das Kind beiseitestellen und den Rest mit fein geriebenem Knoblauch verrühren.',
     'Kinderportion ohne Knoblauchdip und Salz abnehmen. Erwachsene salzen und mit dem Dip servieren.'
   ],
@@ -157,7 +157,7 @@ RECIPES.push(
     'Lauch in Ringe, Karotte und Sellerie in kleine Würfel schneiden und in Öl 4 Minuten dünsten.',
     'Kartoffeln in 1 cm große Würfel schneiden, mit Brühe und Thymian zugeben und zugedeckt 12 Minuten köcheln.',
     'Milch und Mais zugeben und ein Drittel der Kartoffeln im Topf zerdrücken. Fisch in großen Stücken einlegen und bei kleiner Hitze 5 bis 6 Minuten ziehen lassen, bis er vollständig gar ist.',
-    'Kinderportion abnehmen und den Fisch auf Gräten prüfen. Erwachsene mit Salz, Pfeffer und frischer Petersilie würzen.'
+    'Kinderportion abnehmen und darin den Fisch auf Gräten prüfen. Erwachsene mit Salz, Pfeffer und frischer Petersilie würzen.'
   ],
   kidName:'Mini-Chowder',
   kid:'Fisch gründlich auf Gräten prüfen und zerpflücken, Kartoffeln und Gemüse weich zerdrücken. Ungesalzen und lauwarm servieren.',
@@ -185,7 +185,7 @@ RECIPES.push(
     'Kartoffeln schälen, würfeln und in 12 Minuten weich kochen, abgießen und zerstampfen. Ofen auf 200 °C vorheizen.',
     'Lachs entgräten, sehr fein würfeln und mit Kartoffeln, Ei, Haferflocken und Dill zu einer formbaren Masse mischen. Kleine flache Küchlein formen.',
     'Küchlein auf ein Blech mit Backpapier legen, mit Öl bepinseln und 18 bis 20 Minuten backen, nach der Hälfte wenden, bis sie goldbraun und innen durchgegart sind.',
-    'Kohl und Karotte fein raspeln und mit Joghurt und etwas Zitronensaft mischen.',
+    'Kohl und Karotte fein raspeln. Etwas davon für das Kind beiseitestellen, den Rest mit Joghurt und etwas Zitronensaft mischen.',
     'Kinderportion abnehmen. Erwachsene Küchlein und Krautsalat mit Salz, Pfeffer und Zitrone würzen.'
   ],
   kidName:'Lachs-Taler',
@@ -212,12 +212,12 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 200 °C vorheizen. Nudeln 2 Minuten kürzer als angegeben kochen, Erbsen in der letzten Minute mitgaren und abgießen.',
-    'Zwiebel würfeln, Champignons in Scheiben schneiden und im Nudeltopf in Öl 5 Minuten braten. Milch mit Stärke verrühren, zugießen und unter Rühren aufkochen, bis die Sauce andickt.',
+    'Zwiebel würfeln und Champignons in Scheiben schneiden. Beides im Nudeltopf in Öl 5 Minuten braten. Milch mit Stärke verrühren, zugießen und unter Rühren aufkochen, bis die Sauce andickt.',
     'Spinat, Nudeln, Erbsen und abgetropften Thunfisch untermischen, in eine Auflaufform geben, mit Käse bestreuen und 15 Minuten goldbraun überbacken.',
     'Kinderportion abnehmen. Erwachsene mit Pfeffer, Zitronenschale und wenig Salz würzen.'
   ],
   kidName:'Mini-Nudelauflauf',
-  kid:'Nudeln und Pilze klein schneiden, Erbsen leicht zerdrücken und ohne Salz servieren. Thunfisch als Raubfisch für das Kind nur in kleiner Menge.',
+  kid:'Nudeln und Pilze klein schneiden, Erbsen leicht zerdrücken. Ohne Salz servieren. Thunfisch als Raubfisch für das Kind nur in kleiner Menge.',
   leftover:'Auflauf-Pfanne · 8 Min. – Reste mit einem Schuss Milch in der Pfanne erhitzen und mit frischem Spinat ergänzen.',
   tipp:'Thunfisch im eigenen Saft hat deutlich weniger Fett und Salz als Thunfisch in Öl.'
 },
@@ -241,7 +241,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 190 °C vorheizen. Karotte, Zucchini und Zwiebel fein reiben und mit Hack, Haferflocken und Ei gründlich verkneten.',
     'Masse in eine kleine Kastenform drücken oder als Laib aufs Blech setzen, mit Tomatenmark bestreichen und 35 bis 40 Minuten backen, bis der Braten innen vollständig durchgegart ist.',
-    'Kartoffeln schälen, würfeln und 15 Minuten weich kochen, die Bohnen für die letzten 8 Minuten mitgaren. Kartoffeln mit warmer Milch zu Püree stampfen und den Hackbraten in Scheiben schneiden.',
+    'Kartoffeln schälen, würfeln und 15 Minuten weich kochen, die Bohnen für die letzten 8 Minuten mitgaren. Bohnen herausnehmen, nur die Kartoffeln mit warmer Milch zu Püree stampfen und den Hackbraten in Scheiben schneiden.',
     'Kinderportion ungesalzen abnehmen. Erwachsene Püree und Fleisch am Teller mit Salz, Pfeffer und Muskat würzen.'
   ],
   kidName:'Mini-Hackbraten mit Püree',
@@ -273,7 +273,7 @@ RECIPES.push(
     'Kinderportion ungewürzt abnehmen. Erwachsene mit Salz und Pfeffer abschmecken.'
   ],
   kidName:'Zartes Schmorfleisch',
-  kid:'Fleisch sehr fein zerzupfen und mit weichen Kartoffeln und Karotten im Schmorsaft zerdrücken. Ohne Salz.',
+  kid:'Fleisch sehr fein zerzupfen und zusammen mit weichen Kartoffeln und Karotten im Schmorsaft zerdrücken. Ohne Salz.',
   leftover:'Pot-Roast-Brötchen · 8 Min. – Zerzupftes Fleisch im Schmorsaft erhitzen und in ein Vollkornbrötchen geben.',
   tipp:'Am Wochenende schmoren und unter der Woche aufwärmen, dann steht das Essen in 10 Minuten auf dem Tisch.'
 },
@@ -405,7 +405,7 @@ RECIPES.push(
   ],
   steps:[
     'Vollkornreis in der doppelten Menge Wasser 25 Minuten garen. Ofen auf 200 °C vorheizen.',
-    'Zwiebel und Zucchini fein würfeln und in Öl 5 Minuten dünsten. Mit Reis, Bohnen, Mais, Kreuzkümmel und der Hälfte der passierten Tomaten mischen.',
+    'Zwiebel und Zucchini fein würfeln und in Öl 5 Minuten dünsten. Beides mit Reis, Bohnen, Mais, Kreuzkümmel und der Hälfte der passierten Tomaten mischen.',
     'Paprika längs halbieren, entkernen, füllen und in eine Form mit den restlichen passierten Tomaten setzen. Mit Käse bestreuen und 20 Minuten backen, bis die Paprika weich ist.',
     'Kinderportion abnehmen. Erwachsene mit Salz, Pfeffer und Chili würzen.'
   ],

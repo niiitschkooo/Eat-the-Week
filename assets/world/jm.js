@@ -54,7 +54,7 @@ RECIPES.push(
   ],
   nutri:{p:['Hähnchen','Vollkornreis'],f:['Vollkornreis','Karotten','Paprika'],i:['Hähnchen'],fat:['Rapsöl']},
   kidName:'Mildes Schmorhähnchen',
-  kid:'Hähnchen in kleine Stücke zupfen, Karotten und Paprika weich geschmort mit etwas Soße unter den Reis mischen. Ohne Salz.',
+  kid:'Hähnchen in kleine Stücke zupfen. Hähnchen mit den weich geschmorten Karotten, der Paprika und etwas Soße unter den Reis mischen. Ohne Salz.',
   leftover:'Hähnchen-Reis-Pfanne · 10 Min. – Reste mit etwas Wasser in der Pfanne vollständig durcherhitzen.',
   extras:[], tipp:'Das Hähnchen gut anbräunen lassen, das gibt der Soße die typische braune Farbe ganz ohne Würzsoße.'
 },
@@ -141,7 +141,7 @@ RECIPES.push(
   ],
   nutri:{p:['Rindfleisch','Weiße Bohnen'],f:['Weiße Bohnen','Vollkornreis','Karotten'],i:['Rindfleisch','Weiße Bohnen'],fat:['Rapsöl']},
   kidName:'Zartes Bohnen-Rind',
-  kid:'Rindfleisch sehr fein zerzupfen, Bohnen und Karotten zerdrücken und mit Soße unter den Reis mischen. Ohne Salz.',
+  kid:'Rindfleisch sehr fein zerzupfen, Bohnen und Karotten zerdrücken. Fleisch, Bohnen und Karotten mit Soße unter den Reis mischen. Ohne Salz.',
   leftover:'Rind-Bohnen-Wrap · 8 Min. – Reste vollständig erhitzen und in eine Vollkorn-Tortilla rollen.',
   extras:[], tipp:'Original wird Ochsenschwanz geschmort; magerer Gulasch hat deutlich weniger Fett und eine kürzere Garzeit.'
 },
@@ -227,7 +227,7 @@ RECIPES.push(
   ],
   nutri:{p:['Fisch'],f:['Okra','Karotten','Tomaten'],i:[],fat:['Rapsöl']},
   kidName:'Weicher Dampffisch',
-  kid:'Fisch entgräten und zerpflücken, Okra und Karotten weich gedämpft in kleine Stücke schneiden und mit Reis und Sud mischen. Ohne Salz und Chili.',
+  kid:'Fisch entgräten und zerpflücken, Okra und Karotten weich gedämpft in kleine Stücke schneiden. Fisch und Gemüse mit Reis und Sud mischen. Ohne Salz und Chili.',
   leftover:'Fisch-Reis-Pfanne · 8 Min. – Reis, Fisch und Gemüse in der Pfanne vollständig durcherhitzen.',
   extras:[], tipp:'Okra gibt es frisch oder tiefgekühlt im Asia- oder Afroshop; ersatzweise grüne Bohnen nehmen.'
 },
@@ -256,7 +256,7 @@ RECIPES.push(
   ],
   nutri:{p:['Lachs'],f:['Kochbanane','Tomaten'],i:[],fat:['Lachs (Omega-3)','Kokosmilch']},
   kidName:'Kokos-Lachs mit Kochbanane',
-  kid:'Lachs sorgfältig entgräten und zerpflücken, Kochbanane mit der Gabel zerdrücken und mit etwas Soße mischen. Ohne Salz und Chili.',
+  kid:'Lachs sorgfältig entgräten und zerpflücken, Kochbanane mit der Gabel zerdrücken. Beides mit etwas Soße mischen. Ohne Salz und Chili.',
   leftover:'Kokos-Fisch-Reis · 10 Min. – Reste vollständig erhitzen und mit Reis vom Vortag servieren.',
   extras:[], tipp:'Grüne, feste Kochbananen schmecken herzhaft wie Kartoffeln, gelbe sind süßer und weicher.'
 },

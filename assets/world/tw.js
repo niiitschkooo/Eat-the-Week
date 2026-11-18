@@ -52,7 +52,7 @@ RECIPES.push(
     'Kinderportion Fleisch, Gemüse und Nudeln mit wenig Brühe ungesalzen abnehmen. Sternanis entfernen, Erwachsene mit Sojasauce, Frühlingszwiebel und nach Wunsch Chiliöl würzen.'
   ],
   kidName:'Weiche Rindfleisch-Nudeln',
-  kid:'Rindfleisch zerfasern, Nudeln kurz schneiden und nur mit wenig Brühe anbieten. Karotte und Pak Choi weich und klein geschnitten.',
+  kid:'Rindfleisch zerfasern und Nudeln kurz schneiden, die Kinderportion nur mit wenig Brühe anbieten. Karotte und Pak Choi weich und klein geschnitten.',
   leftover:'Rind-Nudel-Pfanne · 10 Min. – Fleisch und Nudeln ohne Brühe mit Gemüse in der Pfanne vollständig erhitzen.',
   tipp:'Die Brühe am Vortag kochen, über Nacht kühlen und die feste Fettschicht abheben.'
 },
@@ -78,7 +78,7 @@ RECIPES.push(
     'Hähnchen in mundgerechte Stücke und Paprika in Streifen schneiden, Brokkoli in kleine Röschen teilen. Ingwer in dünne Scheiben schneiden, Knoblauch halbieren.',
     'Ingwer und Knoblauch in Raps- und Sesamöl 2 Minuten anbraten, Hähnchen zugeben und 6 Minuten rundum braten.',
     'Brokkoli, Paprika und 100 ml Wasser zugeben und zugedeckt 6 Minuten schmoren, bis das Hähnchen durchgegart und der Brokkoli weich ist.',
-    'Kinderportion ohne Sojasauce abnehmen und Ingwerscheiben entfernen. Erwachsene mit Sojasauce 2 Minuten offen einköcheln lassen und Basilikum unterheben.'
+    'Kinderportion ohne Sojasauce abnehmen und darin die Ingwerscheiben entfernen. Den Rest für die Erwachsenen mit Sojasauce 2 Minuten offen einköcheln lassen und Basilikum unterheben.'
   ],
   kidName:'Basilikum-Hähnchen mild',
   kid:'Hähnchen fein zupfen, Brokkoli weich garen und Ingwerscheiben herausnehmen. Ohne Sojasauce, etwas fein gehacktes Basilikum ist erlaubt.',
@@ -130,7 +130,7 @@ RECIPES.push(
   ],
   steps:[
     'Reis in der doppelten Menge Wasser etwa 30 Minuten garen.',
-    'Schweinefilet in 1 cm dicke Scheiben schneiden und flach klopfen. Mit Speisestärke und der Hälfte des Knoblauchs einreiben, die Erwachsenenscheiben zusätzlich mit Fünf-Gewürze-Pulver, und 10 Minuten ziehen lassen.',
+    'Schweinefilet in 1 cm dicke Scheiben schneiden und flach klopfen. Alle Scheiben mit Speisestärke und der Hälfte des Knoblauchs einreiben, die Erwachsenenscheiben zusätzlich mit Fünf-Gewürze-Pulver. 10 Minuten ziehen lassen.',
     'Kohl in feine Streifen und Karotte in Stifte schneiden und mit dem restlichen Knoblauch in 1 TL Öl und 4 EL Wasser zugedeckt 8 Minuten weich dünsten, dann herausnehmen.',
     'Fleisch im restlichen Öl bei mittlerer Hitze je Seite 3 Minuten braten, bis es durchgegart ist.',
     'Kinderportion ohne Sojasauce abnehmen. Erwachsene mit Sojasauce beträufeln und mit Kohl und Reis servieren.'

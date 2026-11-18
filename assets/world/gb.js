@@ -130,7 +130,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 200 °C vorheizen. Kartoffeln, Karotten und Pastinake in grobe Stücke, Zwiebel in Spalten schneiden und mit Öl und Thymian auf dem Blech mischen.',
+    'Ofen auf 200 °C vorheizen. Kartoffeln, Karotten und Pastinake in grobe Stücke, Zwiebel in Spalten schneiden. Das ganze Gemüse mit Öl und Thymian auf dem Blech mischen.',
     'Hähnchen auf das Gemüse legen und 25 Minuten backen.',
     'Brokkoliröschen zugeben und weitere 12 bis 15 Minuten backen, bis das Hähnchen innen kein rosa Fleisch mehr zeigt.',
     'Hähnchen und Gemüse herausnehmen, die Brühe auf das heiße Blech gießen, Bratrückstände lösen und die Zwiebelspalten darin zerdrücken, so entsteht eine leichte Soße.',
@@ -295,8 +295,8 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln ungeschält in 1 cm große Würfel schneiden und in einer großen Pfanne mit Öl und 4 EL Wasser zugedeckt 10 Minuten garen.',
-    'Wirsing in feine Streifen schneiden, Karotte grob raspeln, Zwiebel würfeln und alles 6 Minuten mitbraten, bis der Kohl weich ist.',
-    'Kartoffeln leicht zerdrücken, flach andrücken und ohne Rühren 4 Minuten goldbraun braten. Eier daneben in die Pfanne schlagen und zugedeckt braten, bis Eiweiß und Eigelb fest sind.',
+    'Wirsing in feine Streifen schneiden, Karotte grob raspeln, Zwiebel würfeln. Alle drei zu den Kartoffeln geben und 6 Minuten mitbraten, bis der Kohl weich ist.',
+    'Kartoffeln leicht zerdrücken. Die Kartoffel-Gemüse-Masse flach andrücken und ohne Rühren 4 Minuten goldbraun braten. Eier daneben in die Pfanne schlagen und zugedeckt braten, bis Eiweiß und Eigelb fest sind.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und Muskat würzen.'
   ],
   kidName:'Mini-Bubble',
@@ -375,7 +375,7 @@ RECIPES.push(
   ],
   steps:[
     'Bohnen mit den passierten Tomaten in einem kleinen Topf 8 Minuten sämig köcheln.',
-    'Champignons in Scheiben schneiden, Tomate halbieren und beides in der Pfanne in Öl 5 Minuten braten. Spinat kurz mitdünsten und an den Rand schieben.',
+    'Champignons in Scheiben schneiden, Tomate halbieren und beides in der Pfanne in Öl 5 Minuten braten. Spinat kurz mitdünsten. Pilze, Tomate und Spinat an den Rand schieben.',
     'Eier in die Pfanne schlagen und bei mittlerer Hitze zugedeckt 4 bis 5 Minuten braten, bis Eiweiß und Eigelb fest sind. Brot toasten.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
   ],

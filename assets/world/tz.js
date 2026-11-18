@@ -21,7 +21,7 @@ RECIPES.push(
     'Fleisch in 2 cm große Würfel schneiden und mit geriebenem Knoblauch und Ingwer, Currypulver, der Hälfte des Öls und etwas Limettensaft mischen.',
     'Während das Fleisch kurz zieht, für Kachumbari Tomaten und Zwiebel sehr fein würfeln und mit Limettensaft mischen. Paprika in Stücke schneiden.',
     'Fleisch und Paprika abwechselnd auf Spieße stecken und in einer Grillpfanne im restlichen Öl rundum 8 bis 10 Minuten braten, bis das Fleisch durchgegart ist. Tortillas kurz in der Pfanne erwärmen.',
-    'Kinderportion ohne Salz abnehmen, Fleisch vom Spieß nehmen und sehr klein schneiden. Erwachsene salzen und nach Wunsch Chili dazu nehmen.'
+    'Kinderportion ohne Salz abnehmen. Für das Kind das Fleisch vom Spieß nehmen und sehr klein schneiden. Erwachsene salzen und nach Wunsch Chili dazu nehmen.'
   ],
   kidName:'Spießfleisch in kleinen Stücken',
   kid:'Spieße vorher ganz entfernen, Fleisch sehr fein schneiden und Paprika weich braten. Tomate ohne rohe Zwiebel, Tortilla in weichen Streifen, kein Salz.',
@@ -80,7 +80,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen. Erwachsene salzen, Reis und Hähnchensoße schichtweise anrichten und nach Wunsch Chili dazu nehmen.'
   ],
   kidName:'Mildes Joghurt-Hähnchen mit Reis',
-  kid:'Hähnchen fein schneiden und mit Kartoffeln, Erbsen und Reis zerdrücken, der Joghurt macht es extra mild. Ohne Salz und Chili.',
+  kid:'Hähnchen fein schneiden und zusammen mit Kartoffeln, Erbsen und Reis zerdrücken, der Joghurt macht es extra mild. Ohne Salz und Chili.',
   leftover:'Biryani-Pfanne · 10 Min. – Reste mit etwas Wasser in der Pfanne vollständig erhitzen.',
   tipp:'Auf Sansibar werden Reis und Soße getrennt gekocht und erst auf dem Teller zusammengebracht; das macht die Kinderportion leicht.'
 },
@@ -160,7 +160,7 @@ RECIPES.push(
     'Reis aufsetzen. Zwiebel, Paprika und Knoblauch würfeln und in Öl 5 Minuten dünsten, Currypulver kurz mitrösten.',
     'Tomaten und Kokosmilch zugeben und 8 Minuten zu einer dicken Soße einkochen.',
     'Fisch in große Stücke schneiden, in die Soße legen und zugedeckt 6 bis 8 Minuten sanft garen, bis er sich leicht zerteilen lässt.',
-    'Kinderportion ohne Salz abnehmen und den Fisch auf Gräten prüfen. Erwachsene salzen, mit Limettensaft und nach Wunsch Chili abschmecken.'
+    'Kinderportion ohne Salz abnehmen und darin den Fisch auf Gräten prüfen. Erwachsene salzen, mit Limettensaft und nach Wunsch Chili abschmecken.'
   ],
   kidName:'Milder Kokosfisch mit Reis',
   kid:'Fisch vollständig durchgaren, entgräten und zerpflücken. Mit der milden Soße unter den weichen Reis mischen, ohne Salz und Chili.',
@@ -187,7 +187,7 @@ RECIPES.push(
     'Ofen auf 210 °C vorheizen. Süßkartoffeln in Spalten schneiden, mit der Hälfte des Öls mischen und auf dem Blech 15 Minuten backen.',
     'Knoblauch fein reiben und mit restlichem Öl, Paprikapulver und etwas Limettensaft verrühren. Fisch damit bestreichen, zu den Süßkartoffeln legen und 12 bis 15 Minuten backen, bis er sich leicht zerteilen lässt.',
     'Für Kachumbari Tomate und Zwiebel sehr fein würfeln und mit gehacktem Koriander und Limettensaft mischen.',
-    'Kinderportion ohne Salz abnehmen und den Fisch zerpflücken. Erwachsene salzen und nehmen nach Wunsch frische Chili dazu.'
+    'Kinderportion ohne Salz abnehmen und darin den Fisch zerpflücken. Erwachsene salzen und nehmen nach Wunsch frische Chili dazu.'
   ],
   kidName:'Ofenfisch mit Süßkartoffel-Spalten',
   kid:'Fisch vollständig durchgaren, entgräten und zerpflücken. Süßkartoffeln weich und gut greifbar, Tomate fein gewürfelt ohne rohe Zwiebel, kein Salz.',
@@ -214,7 +214,7 @@ RECIPES.push(
     'Polenta in 300 ml Wasser unter Rühren 10 Minuten zu weichem Ugali kochen.',
     'Zwiebel und Tomate würfeln und in der Hälfte des Öls 4 Minuten dünsten. Erdnussmus mit 80 ml Wasser glatt rühren, zugeben und den Spinat darin zusammenfallen lassen. Mchicha in eine Schüssel geben und die Pfanne auswischen.',
     'Fisch mit Kurkuma bestreuen und im restlichen Öl je Seite 3 bis 4 Minuten braten, bis er sich leicht zerteilen lässt.',
-    'Kinderportion ohne Salz abnehmen und den Fisch entgräten. Erwachsene salzen und mit Limettensaft und nach Wunsch Chili würzen.'
+    'Kinderportion ohne Salz abnehmen und darin den Fisch entgräten. Erwachsene salzen und mit Limettensaft und nach Wunsch Chili würzen.'
   ],
   kidName:'Fisch mit Ugali und Erdnuss-Spinat',
   kid:'Fisch vollständig durchgaren und zerpflücken, Spinat fein hacken. Erdnussmus nur glatt verrührt verwenden, nie ganze Erdnüsse, und kein Salz.',
@@ -238,7 +238,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 220 °C vorheizen. Kartoffeln in dünne Stäbchen schneiden, mit Öl und Paprikapulver mischen und 25 bis 30 Minuten knusprig backen, nach der Hälfte wenden; im Airfryer etwa 18 Minuten.',
-    'Für Kachumbari Tomate, Gurke und Zwiebel sehr fein würfeln und mit gehacktem Koriander mischen.',
+    'Für Kachumbari Tomate, Gurke und Zwiebel sehr fein würfeln. Etwas Tomate und Gurke für das Kind beiseitestellen, den Rest mit der Zwiebel und gehacktem Koriander mischen.',
     'Eier verquirlen. Pommes in eine beschichtete Pfanne geben, Eier darüber gießen und zugedeckt bei mittlerer Hitze 5 bis 6 Minuten stocken lassen, dann wenden und 2 Minuten fertig garen.',
     'Kinderportion ohne Salz abnehmen, Kachumbari für das Kind ohne rohe Zwiebel. Erwachsene salzen und essen nach Wunsch mit Chilisoße.'
   ],
@@ -267,7 +267,7 @@ RECIPES.push(
     'Reis mit der Hälfte der Kokosmilch und Wasser nach Packungsangabe aufsetzen und zugedeckt 15 Minuten garen.',
     'Zwiebel und Karotte fein würfeln und in Öl 4 Minuten dünsten, Kurkuma kurz mitrösten. Tomate würfeln und 3 Minuten mitgaren.',
     'Bohnen abspülen, mit der restlichen Kokosmilch und 50 ml Wasser zugeben und 8 Minuten köcheln, dann den Spinat unterheben.',
-    'Kinderportion ohne Salz abnehmen und Bohnen zerdrücken. Erwachsene salzen und nach Wunsch frische Chili dazu nehmen.'
+    'Kinderportion ohne Salz abnehmen und darin die Bohnen zerdrücken. Erwachsene salzen und nach Wunsch frische Chili dazu nehmen.'
   ],
   kidName:'Kokosreis mit Bohnenmus',
   kid:'Bohnen gründlich zerdrücken und mit dem weichen Kokosreis mischen, Spinat fein gehackt. Ohne Salz und Chili.',
@@ -321,7 +321,7 @@ RECIPES.push(
   ],
   steps:[
     'Zwiebel, Knoblauch und Ingwer fein hacken und in Öl 3 Minuten dünsten, Currypulver kurz mitrösten.',
-    'Zucchini klein würfeln, Linsen abspülen und mit Tomaten, Kokosmilch und 250 ml Wasser zugeben. 12 bis 15 Minuten köcheln, bis die Linsen zerfallen.',
+    'Zucchini klein würfeln und Linsen abspülen. Beides mit Tomaten, Kokosmilch und 250 ml Wasser zugeben. 12 bis 15 Minuten köcheln, bis die Linsen zerfallen.',
     'Tortillas kurz in der trockenen Pfanne erwärmen.',
     'Kinderportion ohne Salz abnehmen. Erwachsene salzen, nach Wunsch mit Chili abschmecken und die Tortillas zum Tunken dazu reichen.'
   ],
@@ -350,7 +350,7 @@ RECIPES.push(
     'Zwiebel, Karotte und Paprika klein würfeln und in Öl 4 Minuten dünsten, Kurkuma kurz mitrösten.',
     'Tomate würfeln und 2 Minuten mitgaren. Bohnen abspülen und mit Mais, Kokosmilch und 100 ml Wasser zugeben.',
     'Zugedeckt 8 Minuten köcheln, bis die Karotten weich sind und die Soße leicht sämig ist.',
-    'Kinderportion ohne Salz abnehmen, Mais und Bohnen gründlich zerdrücken. Erwachsene salzen und nach Wunsch Chili dazu nehmen.'
+    'Kinderportion ohne Salz abnehmen und darin Mais und Bohnen gründlich zerdrücken. Erwachsene salzen und nach Wunsch Chili dazu nehmen.'
   ],
   kidName:'Kokos-Mais-Bohnen-Mus',
   kid:'Mais und Bohnen gründlich zerdrücken, ganze Maiskörner sind für Kleinkinder ein Verschluckrisiko. Ohne Salz und Chili.',
@@ -377,7 +377,7 @@ RECIPES.push(
     'Reis aufsetzen. Okra waschen, trocken tupfen, die Stielenden abschneiden und in Scheiben schneiden.',
     'Zwiebel und Knoblauch würfeln und in Öl 3 Minuten dünsten. Okra zugeben und 5 Minuten anbraten, dabei einen Spritzer Limettensaft zugeben, damit sie weniger schleimig wird.',
     'Tomaten würfeln und mit Currypulver, Kichererbsen und 100 ml Wasser zugeben. Zugedeckt 10 Minuten köcheln, bis die Okra weich ist.',
-    'Kinderportion ohne Salz abnehmen und Kichererbsen zerdrücken. Erwachsene salzen, nach Wunsch Chili dazu nehmen und mit Reis servieren.'
+    'Kinderportion ohne Salz abnehmen und darin die Kichererbsen zerdrücken. Erwachsene salzen, nach Wunsch Chili dazu nehmen und mit Reis servieren.'
   ],
   kidName:'Weiche Okra mit Kichererbsenmus',
   kid:'Okra weich schmoren und klein schneiden, Kichererbsen gründlich zerdrücken. Mit Reis und milder Soße, ohne Salz und Chili.',

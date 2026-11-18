@@ -49,7 +49,7 @@ RECIPES.push(
   steps:[
     'Mehl mit etwa 45 ml Wasser zu einem glatten, festen Teig kneten und abgedeckt 15 Minuten ruhen lassen.',
     'Hähnchen sehr fein hacken oder im Blitzhacker zerkleinern. Kohl, Frühlingszwiebel, Ingwer und Knoblauch fein hacken und mit Fleisch und Öl verkneten.',
-    'Teig zu einer Rolle formen, in walnussgroße Stücke teilen, jedes dünn rund ausrollen, mit einem Teelöffel Füllung belegen und zu Säckchen falten. Im Dämpfeinsatz über kochendem Wasser 12 bis 15 Minuten garen, bis die Füllung vollständig durchgegart ist.',
+    'Teig zu einer Rolle formen, in walnussgroße Stücke teilen, jedes dünn rund ausrollen, mit einem Teelöffel Füllung belegen und zu Säckchen falten. Die Momos im Dämpfeinsatz über kochendem Wasser 12 bis 15 Minuten garen, bis die Füllung vollständig durchgegart ist.',
     'Für das Achar Tomaten 5 Minuten in Wasser kochen und häuten, Sesam in einer trockenen Pfanne 2 Minuten rösten und beides mit dem Koriander fein pürieren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene salzen das Achar und schärfen es nach Wunsch mit Chili.'
   ],
@@ -339,7 +339,7 @@ RECIPES.push(
   steps:[
     'Reismehl mit etwa 90 ml Wasser zu einem dünnflüssigen Teig rühren und 10 Minuten quellen lassen. Tomate und Paprika fein würfeln, Frühlingszwiebel in Ringe schneiden.',
     'Eier mit Kurkuma, Kreuzkümmel und den Erbsen verquirlen.',
-    'Pfanne mit wenig Öl auspinseln, die Hälfte des Teigs dünn hineingießen und bei mittlerer Hitze 2 Minuten backen. Die Hälfte der Eimasse und des Gemüses darauf verteilen, Deckel auflegen und 4 Minuten garen, bis das Ei vollständig gestockt ist. Mit dem Rest ebenso verfahren.',
+    'Pfanne mit wenig Öl auspinseln, die Hälfte des Teigs dünn hineingießen und bei mittlerer Hitze 2 Minuten backen. Die Hälfte der Eimasse und des Gemüses darauf verteilen, Deckel auflegen und 4 Minuten garen, bis das Ei vollständig gestockt ist. Den zweiten Fladen aus dem restlichen Teig, Ei und Gemüse ebenso backen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Koriander und nach Wunsch Chiliflocken bestreuen.'
   ],
   nutri:{p:['Eier','Erbsen'],f:['Erbsen','Paprika'],i:['Eier','Erbsen'],fat:['Eigelb','Rapsöl']},
@@ -369,7 +369,7 @@ RECIPES.push(
     'Kartoffelwürfel 12 Minuten weich kochen, das Ei für die letzten 10 Minuten und die Edamame für die letzten 4 Minuten mitkochen. Alles abgießen, Ei abschrecken und schälen.',
     'Für das Aloo Achar Sesam in der trockenen Pfanne 2 Minuten rösten und fein mahlen. Kartoffeln mit Sesam, Kurkuma, der Hälfte des Öls, Zitronensaft und Gurkenwürfeln mischen.',
     'Reisflocken in der Pfanne 2 Minuten trocken rösten, bis sie leicht knusprig sind, herausnehmen und den Spinat im restlichen Öl 2 Minuten zusammenfallen lassen.',
-    'Alles mit dem halbierten Ei als Teller anrichten. Kinderportion ungesalzen abnehmen, Erwachsene salzen das Achar und schärfen es nach Wunsch mit Chili.'
+    'Aloo Achar, Reisflocken, Spinat und Edamame mit dem halbierten Ei als Teller anrichten. Kinderportion ungesalzen abnehmen, Erwachsene salzen das Achar und schärfen es nach Wunsch mit Chili.'
   ],
   nutri:{p:['Edamame','Ei'],f:['Edamame','Kartoffeln','Spinat'],i:['Edamame','Spinat'],fat:['Sesam','Rapsöl']},
   kidName:'Mini-Samay-Baji',
@@ -402,7 +402,7 @@ RECIPES.push(
   ],
   nutri:{p:['Paneer','Erbsen'],f:['Erbsen','Tomaten'],i:['Erbsen'],fat:['Paneer','Rapsöl']},
   kidName:'Mini-Matar-Paneer',
-  kid:'Paneer in kleine weiche Würfel schneiden oder zerdrücken, Erbsen leicht zerdrücken und alles mit Reis mischen. Ohne Salz und Chili.',
+  kid:'Paneer in kleine weiche Würfel schneiden oder zerdrücken, Erbsen leicht zerdrücken und beides mit Reis mischen. Ohne Salz und Chili.',
   leftover:'Paneer-Wrap · 6 Min. – Reste vollständig erhitzen und mit Gurke in ein Fladenbrot rollen.',
   extras:['kichererbsen','tofu'], tipp:'Paneer zerfällt beim Kochen nicht und lässt sich deshalb gut von kleinen Händen greifen.'
 },
@@ -426,7 +426,7 @@ RECIPES.push(
   steps:[
     'Linsen waschen und mit Kurkuma, Ingwer und 400 ml Wasser 25 Minuten weich kochen.',
     'Für das Dhido 250 ml Wasser aufkochen, Buchweizenmehl nach und nach einrieseln lassen und mit einem Holzlöffel kräftig rühren, bis ein glatter, fester Brei entsteht. Bei kleiner Hitze 8 Minuten unter Rühren quellen lassen.',
-    'Kreuzkümmel in Öl in der Pfanne anrösten, gehackte Zwiebel, Knoblauch und Tomate 3 Minuten dünsten und die Hälfte unter die Linsen rühren. Den Spinat zum Rest in die Pfanne geben und 2 Minuten zusammenfallen lassen.',
+    'Kreuzkümmel in Öl in der Pfanne anrösten, gehackte Zwiebel, Knoblauch und Tomate zugeben und 3 Minuten dünsten. Die Hälfte der Zwiebel-Tomaten-Mischung unter die Linsen rühren. Den Spinat zur übrigen Mischung in die Pfanne geben und 2 Minuten zusammenfallen lassen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chili oder Timur-Pfeffer würzen und den Dhido zum Dal reichen.'
   ],
   nutri:{p:['Linsen','Buchweizen'],f:['Buchweizen','Linsen','Spinat'],i:['Linsen','Buchweizen','Spinat'],fat:['Rapsöl']},

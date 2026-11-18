@@ -79,7 +79,7 @@ RECIPES.push(
     'Lorbeer und Pimentkörner herausnehmen. Kinderportion ungesalzen abnehmen, dann Erwachsene mit Salz und Pfeffer abschmecken und mit Rote-Bete-Scheiben servieren.'
   ],
   kidName:'Weicher Rindertopf',
-  kid:'Fleisch in feine Fasern zupfen, Kartoffeln und Karotten mit etwas Sauce zerdrücken. Pimentkörner vorher sicher entfernen, ohne Salz servieren.',
+  kid:'Fleisch in feine Fasern zupfen, Kartoffeln und Karotten mit etwas Sauce zerdrücken. Pimentkörner vorher sicher entfernen. Die Kinderportion ohne Salz servieren.',
   leftover:'Kalops-Pfanne · 10 Min. – Reste grob zerdrücken und in der Pfanne mit einem vollständig durchgebratenen Spiegelei servieren.',
   tipp:'Kalops schmeckt am zweiten Tag noch besser, deshalb lohnt es sich, gleich die doppelte Menge zu schmoren.'
 },
@@ -191,7 +191,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen. Sauce für die Erwachsenen mit Salz, Muskat und Zitrone abschmecken.'
   ],
   kidName:'Fisch mit Eiersauce',
-  kid:'Fisch sorgfältig entgräten und zerpflücken, Kartoffeln und Karotten mit etwas Sauce zerdrücken. Das Ei ist hart gekocht und darf mit, Salz erst danach.',
+  kid:'Fisch sorgfältig entgräten und zerpflücken, Kartoffeln und Karotten mit etwas Sauce zerdrücken. Das hart gekochte Ei in der Sauce darf mit. Die Sauce erst nach dem Abnehmen der Kinderportion salzen.',
   leftover:'Fischsalat-Brot · 5 Min. – Kalten Fisch mit restlicher Eiersauce und Gurke auf Vollkornbrot verteilen.',
   tipp:'Seelachs ist eine günstige Alternative zu Kabeljau, beim Kauf auf ein Siegel für nachhaltigen Fang achten.'
 },
@@ -240,7 +240,7 @@ RECIPES.push(
   steps:[
     'Kartoffeln schälen, würfeln und in 12 bis 14 Minuten weich kochen, dann mit warmer Milch stampfen. Erbsen in wenig Wasser 4 Minuten garen.',
     'Heringsfilets trocken tupfen und dünn in Roggenmehl wenden.',
-    'In Öl bei mittlerer Hitze von jeder Seite 3 Minuten braten, bis der Fisch innen nicht mehr glasig ist.',
+    'Heringsfilets in Öl bei mittlerer Hitze von jeder Seite 3 Minuten braten, bis der Fisch innen nicht mehr glasig ist.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz, Pfeffer, Zitrone und Preiselbeeren servieren.'
   ],
   kidName:'Hering mit Stampf',
@@ -403,7 +403,7 @@ RECIPES.push(
   steps:[
     'Kartoffeln in Stücke schneiden und in 15 Minuten weich kochen.',
     'Zwiebel fein würfeln und in der Hälfte des Öls glasig dünsten. Bohnen abspülen, mit Brühe und der Hälfte des fein geriebenen Apfels zugeben und 10 Minuten köcheln.',
-    'Speisestärke mit etwas Wasser verrühren, unterrühren und kurz aufkochen, bis die Sauce bindet, dann mit Essig abschmecken.',
+    'Speisestärke mit etwas Wasser verrühren, unter die Bohnen rühren und kurz aufkochen, bis die Sauce bindet, dann mit Essig abschmecken.',
     'Rotkohl in feine Streifen schneiden und mit dem restlichen Apfel im übrigen Öl und 3 EL Wasser zugedeckt 8 Minuten weich dünsten.',
     'Kinderportion ohne Salz abnehmen und die Bohnen dafür zerdrücken. Erwachsene mit Salz und Pfeffer würzen.'
   ],

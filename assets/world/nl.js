@@ -48,7 +48,7 @@ RECIPES.push(
     'Reis in der doppelten Menge Wasser zugedeckt 25 Minuten garen.',
     'Zwiebel in Ringe und Paprika in Streifen schneiden, in Öl 5 Minuten weich braten und das Paprikapulver kurz mitrösten.',
     'Gehackte Tomaten, Thymian und die abgespülten Bohnen zugeben und 10 Minuten sämig köcheln. Apfel klein würfeln und in den letzten 3 Minuten mitwärmen.',
-    'Kinderportion ungesalzen abnehmen und die Bohnen zerdrücken. Erwachsene mit Pfeffer und wenig Salz abschmecken und mit dem Reis servieren.'
+    'Kinderportion ungesalzen abnehmen und die Bohnen der Kinderportion zerdrücken. Erwachsene mit Pfeffer und wenig Salz abschmecken und mit dem Reis servieren.'
   ],
   kidName:'Mini-Bruine-Bonen',
   kid:'Bohnen gründlich zerdrücken und mit weichem Reis mischen. Apfelwürfel weich dünsten und ohne Salz servieren.',
@@ -160,7 +160,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Paprikapulver, Pfeffer und wenig Salz würzen.'
   ],
   kidName:'Mini-Macaroni',
-  kid:'Makkaroni kurz schneiden, Hack fein krümeln und alles mit der milden Tomatensoße mischen. Nur wenig Gouda verwenden.',
+  kid:'Makkaroni kurz schneiden, Hack fein krümeln und beides mit der milden Tomatensoße mischen. Nur wenig Gouda verwenden.',
   leftover:'Macaroni-Ovenschotel · 20 Min. – Reste in eine Form geben, mit etwas Gouda bestreuen und bei 200 °C vollständig durchbacken.',
   tipp:'In den Niederlanden kommt oft Ketchup dazu, die selbst gekochte Tomatensoße ist die zuckerarme Alternative.'
 },
@@ -239,7 +239,7 @@ RECIPES.push(
   steps:[
     'Nudeln nach Packungsangabe etwa 8 Minuten garen und abgießen.',
     'Eier verquirlen und in der Hälfte des Öls als dünnes Omelett 2 bis 3 Minuten vollständig stocken lassen, herausnehmen und in Streifen schneiden.',
-    'Knoblauch und Ingwer fein hacken, Karotten in Stifte und Kohl in Streifen schneiden und im restlichen Öl 4 Minuten braten. Nudeln und Frühlingszwiebel in Ringen zugeben und 2 Minuten mitbraten.',
+    'Knoblauch und Ingwer fein hacken, Karotten in Stifte und Kohl in Streifen schneiden. Knoblauch, Ingwer, Karotten und Kohl zusammen im restlichen Öl 4 Minuten braten. Nudeln und Frühlingszwiebel in Ringen zugeben und 2 Minuten mitbraten.',
     'Kinderportion ohne Sojasauce abnehmen. Erwachsene mit Sojasauce und nach Wunsch Sambal abschmecken und die Eistreifen darüber verteilen.'
   ],
   kidName:'Mini-Bami',
@@ -290,7 +290,7 @@ RECIPES.push(
   ],
   steps:[
     'Mehl, Ei und Milch zu einem glatten, dünnflüssigen Teig verrühren und kurz quellen lassen.',
-    'Champignons in dünne Scheiben schneiden und in wenig Öl 3 Minuten braten, Spinat zugeben, zusammenfallen lassen und herausnehmen.',
+    'Champignons in dünne Scheiben schneiden und in wenig Öl 3 Minuten braten, Spinat zugeben, zusammenfallen lassen und das Gemüse herausnehmen.',
     'Pro Pfannkuchen eine dünne Schicht Teig in wenig Öl geben, Gemüse und geriebenen Gouda darauf verteilen und bei mittlerer Hitze je Seite 2 bis 3 Minuten backen, bis der Teig vollständig gar ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Muskat und Pfeffer würzen.'
   ],
@@ -370,7 +370,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 220 °C vorheizen. Kartoffeln in Spalten schneiden, mit der Hälfte des Öls mischen und auf dem Blech 25 Minuten backen, nach der Hälfte wenden.',
-    'Weißkohl fein hobeln, Karotte raspeln und mit Zitronensaft verkneten. Etwas Joghurt für das Kind beiseitestellen, den Rest mit fein geriebenem Knoblauch verrühren.',
+    'Weißkohl fein hobeln, Karotte raspeln und beides mit Zitronensaft verkneten. Etwas Joghurt für das Kind beiseitestellen, den Rest mit fein geriebenem Knoblauch verrühren.',
     'Fisch in 3 cm große Stücke schneiden, in Mehl mit Paprikapulver wenden und im restlichen Öl rundum 5 bis 6 Minuten goldbraun braten, bis er durchgegart ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Pfeffer und wenig Salz würzen und mit Knoblauchsoße und Krautsalat servieren.'
   ],

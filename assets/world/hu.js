@@ -133,7 +133,7 @@ RECIPES.push(
   steps:[
     'Reis in der doppelten Menge Wasser 20 Minuten vorgaren. Ofen auf 180 °C vorheizen.',
     'Sauerkraut abspülen und ausdrücken, Weißkohl in feine Streifen schneiden. Beides mit 100 ml Wasser zugedeckt 10 Minuten dünsten.',
-    'Zwiebel würfeln und in Öl glasig dünsten, Hack zugeben und krümelig braten, bis es nicht mehr rosa ist. Paprikapulver einrühren und mit dem Reis mischen.',
+    'Zwiebel würfeln und in Öl glasig dünsten, Hack zugeben und krümelig braten, bis es nicht mehr rosa ist. Paprikapulver einrühren und die Hackmischung mit dem Reis mischen.',
     'Hälfte des Krauts in eine Auflaufform geben, Hack-Reis darauf verteilen und mit dem restlichen Kraut abdecken. Saure Sahne mit Joghurt verrühren, darüberstreichen und 25 Minuten backen.',
     'Kinderportion ohne Salz abnehmen. Erwachsene am Tisch mit Pfeffer und etwas Salz würzen.'
   ],
@@ -238,12 +238,12 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln schälen, in 2 cm große Würfel schneiden und in Wasser 12 bis 15 Minuten weich kochen.',
-    'Gurke in dünne Scheiben hobeln, Paprika in feine Streifen schneiden und mit Zitronensaft, 1 TL Öl und etwas Paprikapulver mischen.',
+    'Gurke in dünne Scheiben hobeln, Paprika in feine Streifen schneiden. Beides mit Zitronensaft, 1 TL Öl und etwas Paprikapulver mischen.',
     'Zander trocken tupfen und im restlichen Öl auf der Hautseite 4 Minuten braten, wenden und 2 Minuten fertig garen, bis er innen weiß ist.',
     'Kartoffeln mit Petersilie mischen. Kinderportion ohne Salz abnehmen, Erwachsene mit Salz, Pfeffer und Zitrone würzen.'
   ],
   kidName:'Zanderflocken mit Kartoffeln',
-  kid:'Haut entfernen, Fisch auf Gräten prüfen und zerpflücken, Kartoffeln zerdrücken. Gurke schälen und in Stifte schneiden, ohne Zitrone und Salz.',
+  kid:'Fischhaut entfernen, Fisch auf Gräten prüfen und zerpflücken, Kartoffeln zerdrücken. Gurke schälen und in Stifte schneiden, ohne Zitrone und Salz.',
   leftover:'Fisch-Kartoffel-Salat · 8 Min. – Reste kalt mit Joghurt, Gurke und Petersilie zu einem Salat mischen.',
   tipp:'Der Zander aus dem Balaton gilt in Ungarn als feinster Speisefisch, TK-Zanderfilet ist eine gute Alternative.'
 },
@@ -319,7 +319,7 @@ RECIPES.push(
     'Ei in einem kleinen Topf 10 Minuten hart kochen, abschrecken und pellen.',
     'Karotte fein würfeln und in Öl 2 Minuten dünsten. Erbsen und 100 ml Wasser zugeben und zugedeckt 6 Minuten garen.',
     'Mehl mit Milch glatt rühren, einrühren und unter Rühren 3 Minuten zu einem cremigen Gemüse köcheln. Petersilie unterheben.',
-    'Kinderportion abnehmen und die Erbsen grob zerdrücken. Erwachsene mit Salz und Pfeffer würzen und mit Ei und Brot servieren.'
+    'Kinderportion abnehmen und darin die Erbsen grob zerdrücken. Erwachsene mit Salz und Pfeffer würzen und mit Ei und Brot servieren.'
   ],
   kidName:'Erbsenmus mit Ei',
   kid:'Erbsen mit der Gabel oder dem Stabmixer grob pürieren, damit keine runden Erbsen im Ganzen verschluckt werden. Das hart gekochte Ei klein schneiden, ohne Salz.',
@@ -399,7 +399,7 @@ RECIPES.push(
     {n:'Rapsöl',q:0.5,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Kartoffeln mit Schale 20 Minuten kochen, Eier in den letzten 10 Minuten mitkochen. Abschrecken, pellen und beides in Scheiben schneiden.',
+    'Kartoffeln mit Schale 20 Minuten kochen, Eier in den letzten 10 Minuten mitkochen. Kartoffeln und Eier abschrecken, pellen und in Scheiben schneiden.',
     'Ofen auf 180 °C vorheizen. Paprika und Zwiebel fein würfeln und in Öl 3 Minuten dünsten. Saure Sahne mit Joghurt und Paprikapulver verrühren.',
     'In eine geölte Form abwechselnd Kartoffeln, Eier und Gemüse schichten, jede Lage mit etwas Sahnemischung bestreichen und mit Kartoffeln und Sahne abschließen.',
     'Auflauf 25 Minuten backen, bis die Oberfläche leicht gebräunt ist. Gurke in Scheiben dazu reichen.',

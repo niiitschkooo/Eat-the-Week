@@ -19,7 +19,7 @@ RECIPES.push(
   ],
   steps:[
     'Vollkornreis nach Packung etwa 30 Minuten garen. Ofen auf 200 °C vorheizen, reife Kochbanane schälen, schräg in Scheiben schneiden, mit wenig Öl bestreichen und 20 Minuten weich backen.',
-    'Für das Hogao Zwiebel und Tomate fein würfeln und in der Hälfte des Öls in der Pfanne 5 Minuten weich schmoren. Die Hälfte davon mit den Bohnen und 50 ml Wasser in einem kleinen Topf 10 Minuten köcheln und einen Teil zerdrücken.',
+    'Für das Hogao Zwiebel und Tomate fein würfeln und in der Hälfte des Öls in der Pfanne 5 Minuten weich schmoren. Die Hälfte des Hogao mit den Bohnen und 50 ml Wasser in einem kleinen Topf 10 Minuten köcheln. Einen Teil der Bohnen zerdrücken.',
     'Hack mit Kreuzkümmel zum restlichen Hogao in die Pfanne geben und 6 Minuten krümelig braten. Danach im restlichen Öl ein Spiegelei braten, bis Eiweiß und Eigelb fest sind.',
     'Avocado in Scheiben schneiden und alles getrennt auf einem großen Teller anrichten.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und Ají würzen.'
@@ -47,7 +47,7 @@ RECIPES.push(
     {n:'Oregano, getrocknet',q:0.5,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Hähnchen mit Brühe, Frühlingszwiebel und Oregano aufkochen und 15 Minuten leise köcheln, herausnehmen und in Fasern zupfen.',
+    'Hähnchen mit Brühe, Frühlingszwiebel und Oregano aufkochen und 15 Minuten leise köcheln. Das Hähnchen herausnehmen und in Fasern zupfen.',
     'Mehlige Kartoffeln in dünne Scheiben und festkochende in Würfel schneiden, mit dem Maiskolben in Stücken in die Brühe geben und 25 Minuten köcheln, bis die mehligen Kartoffeln zerfallen und der Eintopf sämig ist.',
     'Hähnchenfasern zurück in den Topf geben und 2 Minuten erwärmen. Avocado in Würfel schneiden.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz würzen und mit Koriander, Joghurt und Avocado servieren.'
@@ -132,7 +132,7 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln in kleine Würfel schneiden und 10 Minuten weich kochen. Maismehl mit Kurkuma und etwa 90 ml warmem Wasser zu einem weichen Teig kneten und 5 Minuten ruhen lassen.',
-    'Frühlingszwiebel und Tomate fein würfeln und in der Hälfte des Öls 4 Minuten schmoren. Hack und Kreuzkümmel zugeben und 6 Minuten krümelig braten, Kartoffeln untermischen und leicht zerdrücken.',
+    'Frühlingszwiebel und Tomate fein würfeln und in der Hälfte des Öls 4 Minuten schmoren. Hack und Kreuzkümmel zugeben und 6 Minuten krümelig braten. Die Kartoffeln untermischen und leicht zerdrücken.',
     'Ofen auf 210 °C vorheizen. Teig portionsweise zwischen zwei Lagen Frischhaltefolie zu Kreisen von 10 cm drücken, mit Füllung belegen, zuklappen und die Ränder mit einer Gabel festdrücken.',
     'Empanadas mit dem restlichen Öl bestreichen und auf Backpapier 20 bis 25 Minuten goldbraun backen. Salat mit Limettensaft anmachen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und einer Ají-Soße aus Frühlingszwiebel, Koriander und Limette servieren.'
@@ -164,7 +164,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene Steak mit Salz und Pfeffer würzen, mit Hogao und Ei belegen und mit Kartoffeln servieren.'
   ],
   kidName:'Mini-Caballo',
-  kid:'Steak für das Kind gut durchbraten und sehr fein schneiden, mit Hogao und Kartoffeln zerdrücken. Das Ei ist ganz fest gebraten.',
+  kid:'Steak für das Kind gut durchbraten und sehr fein schneiden. Kartoffeln mit dem Hogao zerdrücken. Das Ei ist ganz fest gebraten.',
   leftover:'Hogao-Kartoffel-Pfanne · 10 Min. – Reste in Würfel schneiden und mit etwas Hogao in der Pfanne vollständig durcherhitzen.',
   tipp:'Hogao ist die Grundsoße Kolumbiens und hält sich im Kühlschrank drei Tage.'
 },
@@ -244,7 +244,7 @@ RECIPES.push(
   steps:[
     'Reis in der doppelten Menge Wasser 12 bis 14 Minuten garen.',
     'Für das Hogao Zwiebel, Frühlingszwiebel und Tomate fein würfeln und in Öl 4 Minuten schmoren, Kreuzkümmel kurz mitrösten.',
-    'Karotte und grüne Kochbanane in kleine Würfel schneiden, mit den Bohnen und 200 ml Wasser zugeben und 12 Minuten köcheln, bis alles weich ist. Ein Viertel der Bohnen zerdrücken, damit es sämig wird.',
+    'Karotte und grüne Kochbanane in kleine Würfel schneiden, mit den Bohnen und 200 ml Wasser zugeben und 12 Minuten köcheln, bis alles weich ist. Ein Viertel der Bohnen zerdrücken, damit das Gericht sämig wird.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und Ají würzen und mit Reis servieren.'
   ],
   kidName:'Mini-Frijoles',
@@ -272,7 +272,7 @@ RECIPES.push(
   steps:[
     'Vollkornreis nach Packung etwa 30 Minuten garen.',
     'Linsen abspülen und mit 400 ml Wasser 10 Minuten köcheln. Kartoffeln und Karotte würfeln, zugeben und weitere 15 bis 20 Minuten garen, bis alles weich ist.',
-    'Für das Hogao Zwiebel, Frühlingszwiebel, Knoblauch und Tomaten würfeln und in der Pfanne in Öl mit Kreuzkümmel 6 Minuten schmoren, dann unter die Linsen rühren und 3 Minuten mitköcheln.',
+    'Für das Hogao Zwiebel, Frühlingszwiebel, Knoblauch und Tomaten würfeln und in der Pfanne in Öl mit Kreuzkümmel 6 Minuten schmoren. Das Hogao unter die Linsen rühren und 3 Minuten mitköcheln.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und Koriander abschmecken und mit Reis servieren.'
   ],
   kidName:'Mini-Lentejas',
@@ -352,7 +352,7 @@ RECIPES.push(
   ],
   steps:[
     'Frühlingszwiebel in Ringe schneiden und im Topf in Öl mit Kreuzkümmel 2 Minuten anschwitzen. Bulgur einrühren und 1 Minute mitrösten.',
-    'Kartoffeln und Karotte würfeln, Kohl in feine Streifen schneiden und mit der Brühe zugeben. Zugedeckt 20 Minuten köcheln.',
+    'Kartoffeln und Karotte würfeln, Kohl in feine Streifen schneiden. Kartoffeln, Karotte und Kohl mit der Brühe zugeben und zugedeckt 20 Minuten köcheln.',
     'Dicke Bohnen und Erbsen zugeben und weitere 8 Minuten garen, bis der Eintopf dick und alles weich ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und frischem Koriander abschmecken.'
   ],
@@ -407,8 +407,8 @@ RECIPES.push(
   ],
   steps:[
     'Mais mit der Milch grob pürieren und mit dem Maismehl zu einem dicken, streichfähigen Teig verrühren, 5 Minuten quellen lassen.',
-    'Für den Salat Bohnen abspülen, Tomate würfeln, Zwiebel fein hacken und mit Koriander, der Hälfte des Öls und Limettensaft mischen.',
-    'Teig als kleine, flache Fladen in die Pfanne mit dem restlichen Öl geben und bei mittlerer Hitze je Seite 3 bis 4 Minuten goldbraun braten. Mozzarellascheiben auf die Hälfte legen, zuklappen und schmelzen lassen.',
+    'Für den Salat Bohnen abspülen, Tomate würfeln und Zwiebel fein hacken. Etwas Bohnen und Tomate für das Kind beiseitestellen. Übrige Bohnen und Tomate mit Zwiebel, Koriander, der Hälfte des Öls und Limettensaft mischen.',
+    'Teig als kleine, flache Fladen in die Pfanne mit dem restlichen Öl geben und bei mittlerer Hitze je Seite 3 bis 4 Minuten goldbraun braten. Mozzarellascheiben auf eine Hälfte jedes Fladens legen, die Fladen zuklappen und den Käse schmelzen lassen.',
     'Kinderportion ungesalzen und ohne Zwiebel abnehmen. Erwachsene den Salat mit Salz und Ají würzen.'
   ],
   kidName:'Mini-Choclo-Arepa',

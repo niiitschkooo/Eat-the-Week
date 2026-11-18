@@ -135,7 +135,7 @@ RECIPES.push(
     'Kochbananenwürfel unterheben. Kinderportion ohne Salz und Chili abnehmen, Erwachsene mit Salz und nach Wunsch Chiliflocken würzen.'
   ],
   kidName:'Hähnchen mit Ofen-Dodo',
-  kid:'Kochbanane weich backen und in kleine Stücke teilen, Hähnchen fein zerzupfen und mit der Soße mischen. Ohne Salz und Chili.',
+  kid:'Kochbanane weich backen und in kleine Stücke teilen, Hähnchen fein zerzupfen. Beides mit der Soße mischen. Ohne Salz und Chili.',
   leftover:'Dodo-Bowl · 8 Min. – Reste vollständig erhitzen und mit Reis oder Bohnen anrichten.',
   tipp:'Die Kochbanane sollte gelb mit schwarzen Flecken sein, dann wird sie süß und weich. Im Original kommen Hähnchenmägen dazu.'
 },
@@ -186,12 +186,12 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln schälen und in 2 cm Würfel schneiden. Zwiebel, Ingwer und Knoblauch fein hacken.',
-    'Alles mit Brühe, Lorbeerblatt und Koriander aufkochen und 15 Minuten köcheln, bis die Kartoffeln weich sind.',
+    'Kartoffeln, Zwiebel, Ingwer und Knoblauch mit Brühe, Lorbeerblatt und Koriander aufkochen und 15 Minuten köcheln, bis die Kartoffeln weich sind.',
     'Fisch in große Stücke schneiden, in die Suppe legen und bei kleiner Hitze 6 Minuten ziehen lassen. Spinat zugeben und 1 Minute mitziehen lassen.',
     'Lorbeerblatt entfernen. Kinderportion ohne Salz und Chili abnehmen, Erwachsene mit Salz und nach Wunsch reichlich Chiliflocken würzen.'
   ],
   kidName:'Milde Fisch-Kartoffel-Suppe',
-  kid:'Fisch entgräten und zerpflücken, Kartoffeln mit der Gabel zerdrücken und mit wenig Brühe als dicken Brei anbieten. Ohne Salz und Chili.',
+  kid:'Fisch entgräten und zerpflücken, Kartoffeln mit der Gabel zerdrücken. Beides mit wenig Brühe als dicken Brei anbieten. Ohne Salz und Chili.',
   tipp:'Fertige Pepper-Soup-Gewürzmischungen gibt es im Afroshop, sie kommen erst nach der Kinderportion in den Topf.'
 },
 {
@@ -314,7 +314,7 @@ RECIPES.push(
   ],
   steps:[
     'Bohnen abspülen und mit 80 ml Wasser 8 Minuten weich köcheln, dann grob zu einem cremigen Mus zerdrücken.',
-    'Zwiebel in feine Ringe schneiden, Paprika fein würfeln und in Öl bei mittlerer Hitze 8 Minuten weich und leicht braun schmoren.',
+    'Zwiebel in feine Ringe schneiden, Paprika fein würfeln und beides in Öl bei mittlerer Hitze 8 Minuten weich und leicht braun schmoren.',
     'Passierte Tomaten zugeben und 3 Minuten einkochen, Spinat unterheben und zusammenfallen lassen.',
     'Kinderportion ohne Salz und Chili abnehmen. Erwachsene Soße mit Salz und nach Wunsch Chiliflocken würzen, über die Bohnen geben und mit Brot servieren.'
   ],

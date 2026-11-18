@@ -24,7 +24,7 @@ RECIPES.push(
     'Kinderportion ohne Berbere und Salz abnehmen. Berbere in den Rest rühren, 2 Minuten köcheln, salzen und mit Reis servieren.'
   ],
   kidName:'Mildes Hähnchen mit Ei und Reis',
-  kid:'Ei hart kochen und klein schneiden, Hähnchen fein zerzupfen. Mit der milden Zwiebel-Tomaten-Soße und Reis mischen, ganz ohne Berbere und Salz.',
+  kid:'Ei hart kochen und klein schneiden, Hähnchen fein zerzupfen. Ei und Hähnchen mit der milden Zwiebel-Tomaten-Soße und Reis mischen, ganz ohne Berbere und Salz.',
   leftover:'Doro-Wat-Fladen · 8 Min. – Reste vollständig erhitzen und in Vollkorn-Fladenbrot wickeln.',
   tipp:'Original wird Doro Wat mit Injera gegessen; in afrikanischen Lebensmittelläden gibt es das säuerliche Teff-Fladenbrot fertig.'
 },
@@ -99,7 +99,7 @@ RECIPES.push(
     {n:'Berbere-Gewürz',q:0.5,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel sehr fein würfeln und in Öl 6 Minuten weich dünsten. Knoblauch und Ingwer hacken, Karotte fein reiben und mit Kurkuma zugeben.',
+    'Zwiebel sehr fein würfeln und in Öl 6 Minuten weich dünsten. Knoblauch und Ingwer hacken, Karotte fein reiben. Alle drei mit Kurkuma zugeben.',
     'Hack zugeben und krümelig braten, bis es nicht mehr rosa ist.',
     'Passierte Tomaten und 50 ml Wasser angießen und 10 Minuten köcheln, bis die Soße dick ist.',
     'Kinderportion ohne Berbere und Salz abnehmen. Berbere in den Rest rühren, 2 Minuten köcheln, salzen und mit Fladenbrot servieren.'
@@ -236,7 +236,7 @@ RECIPES.push(
     {n:'Berbere-Gewürz',q:0.5,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel und Tomate sehr fein würfeln, Knoblauch hacken. In Öl 5 Minuten weich dünsten, Paprikapulver kurz mitrösten.',
+    'Zwiebel und Tomate sehr fein würfeln, Knoblauch hacken. Alle drei in Öl 5 Minuten weich dünsten, Paprikapulver kurz mitrösten.',
     'Kichererbsenmehl mit 300 ml kaltem Wasser glatt rühren, in den Topf gießen und unter ständigem Rühren aufkochen.',
     'Bei kleiner Hitze 10 Minuten köcheln, bis die Masse cremig und nicht mehr mehlig ist, bei Bedarf etwas Wasser nachgießen. Spinat unterrühren.',
     'Kinderportion ohne Berbere und Salz abnehmen. Berbere in den Rest rühren, salzen und mit Fladenbrot servieren.'
@@ -319,7 +319,7 @@ RECIPES.push(
   steps:[
     'Ei in 10 Minuten hart kochen. Zwiebel und Tomaten klein würfeln, Knoblauch hacken.',
     'Die Hälfte der Zwiebel mit dem Knoblauch in Öl 3 Minuten dünsten, eine gewürfelte Tomate und Kreuzkümmel zugeben. Bohnen abspülen, mit 50 ml Wasser zugeben und 5 Minuten köcheln, dabei grob zerdrücken.',
-    'Ei schälen und hacken. Bohnen auf Teller geben und mit restlicher Tomate, Zwiebel, Ei und Joghurt belegen.',
+    'Ei schälen und hacken. Bohnen auf Teller geben und mit restlicher Tomate, Ei und Joghurt belegen. Die restliche rohe Zwiebel nur auf die Teller der Erwachsenen geben.',
     'Kinderportion ohne Berbere, rohe Zwiebel und Salz abnehmen. Erwachsene mit Berbere und Salz bestreuen und mit Fladenbrot essen.'
   ],
   kidName:'Bohnenmus mit Ei und Joghurt',
@@ -373,7 +373,7 @@ RECIPES.push(
     'Reis aufsetzen, Eier in 10 Minuten hart kochen. Bohnen in 3 cm lange Stücke, Karotten in Stifte schneiden.',
     'Zwiebel in Streifen schneiden und in Öl 4 Minuten dünsten, gehackten Knoblauch, geriebenen Ingwer und Kurkuma kurz mitrösten.',
     'Bohnen, Karotten und 100 ml Wasser zugeben und zugedeckt 12 bis 15 Minuten garen, bis das Gemüse weich ist. Eier schälen und halbieren.',
-    'Kinderportion ohne Salz abnehmen. Erwachsene salzen, pfeffern und alles mit Reis servieren.'
+    'Kinderportion ohne Salz abnehmen. Erwachsene salzen, pfeffern und Gemüse und Eier mit Reis servieren.'
   ],
   kidName:'Weiche Bohnen-Karotten-Stifte mit Ei',
   kid:'Bohnen und Karotten sehr weich garen und als greifbare Stifte anbieten. Ei hart kochen und klein schneiden, kein Salz.',

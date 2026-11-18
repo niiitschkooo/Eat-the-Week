@@ -26,7 +26,7 @@ RECIPES.push(
   ],
   nutri:{p:['Paneer','Joghurt'],f:['Spinat','Vollkornreis'],i:['Spinat'],fat:['Paneer','Rapsöl']},
   kidName:'Mini-Palak mit Paneer',
-  kid:'Spinat fein pürieren, Paneer in kleine weiche Würfel schneiden oder zerdrücken und mit weichem Reis mischen. Ohne Salz und Chili.',
+  kid:'Spinat fein pürieren. Paneer in kleine weiche Würfel schneiden oder zerdrücken. Spinat und Paneer mit weichem Reis mischen, ohne Salz und Chili.',
   leftover:'Palak-Wrap · 8 Min. – Reste vollständig erhitzen und mit etwas Reis in ein Vollkorn-Fladenbrot rollen.',
   extras:['kichererbsen','tofu'], tipp:'Statt Paneer passt gebratener fester Tofu, die Soße bleibt genauso cremig.'
 },
@@ -371,11 +371,11 @@ RECIPES.push(
     'Hähnchen in dünne Streifen schneiden und mit Garam Masala mischen. Paprika und Zwiebel in Streifen schneiden, Karotte grob raspeln, Gurke in Stifte schneiden.',
     'Hähnchen in Öl 4 Minuten scharf anbraten, Paprika und Zwiebel zugeben und 4 Minuten weiterbraten, bis das Fleisch durchgegart ist.',
     'Minze fein hacken und unter den Joghurt rühren. Tortillas in der heißen Pfanne je Seite 30 Sekunden erwärmen.',
-    'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chili würzen, alles mit Karotte, Gurke und Minz-Joghurt in die Tortillas füllen und fest aufrollen.'
+    'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chili würzen. Hähnchen, Paprika und Zwiebel aus der Pfanne mit Karotte, Gurke und Minz-Joghurt in die Tortillas füllen und fest aufrollen.'
   ],
   nutri:{p:['Hähnchen','Joghurt'],f:['Vollkorn-Tortillas','Paprika','Karotten'],i:['Hähnchen'],fat:['Rapsöl']},
   kidName:'Mini-Kathi-Roll',
-  kid:'Hähnchen in kleine Stücke schneiden, mit Joghurt in eine halbe Tortilla rollen und in Scheiben schneiden. Paprika weich garen, ohne Salz und Chili.',
+  kid:'Hähnchen in kleine Stücke schneiden und mit Joghurt in eine halbe Tortilla rollen. Die Rolle in Scheiben schneiden. Paprika weich garen, ohne Salz und Chili.',
   leftover:'Kathi-Bowl · 8 Min. – Reste vollständig erhitzen und mit Reis und Joghurt als Bowl anrichten.',
   extras:['ei','kichererbsen'], tipp:'Mit einem verquirlten Ei auf der Tortilla gebraten wird daraus die Egg Roll aus Kolkata.'
 },

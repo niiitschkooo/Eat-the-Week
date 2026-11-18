@@ -20,7 +20,7 @@ RECIPES.push(
     'Ofen auf 220 °C vorheizen. Kartoffeln in Stifte schneiden, mit der Hälfte des Öls mischen und 25 bis 30 Minuten goldbraun backen, einmal wenden.',
     'Muscheln unter kaltem Wasser abbürsten und die Bärte entfernen. Offene Muscheln, die sich beim Klopfen nicht schließen, aussortieren.',
     'Zwiebel, Sellerie und Lauch fein schneiden und im großen Topf im restlichen Öl 4 Minuten dünsten. Brühe und Muscheln zugeben und zugedeckt 6 bis 8 Minuten garen, bis sich alle Muscheln geöffnet haben, dabei einmal schütteln. Geschlossene Muscheln wegwerfen.',
-    'Petersilie unterheben und Joghurt als Dip zu den Pommes reichen.',
+    'Petersilie unter die Muscheln heben und Joghurt als Dip zu den Pommes reichen.',
     'Kinderportion ungesalzen abnehmen und die Muscheln dafür auslösen. Erwachsene mit Pfeffer und Zitrone würzen, der Sud ist von Natur aus salzig.'
   ],
   kidName:'Mini-Moules-frites',
@@ -128,11 +128,11 @@ RECIPES.push(
   steps:[
     'Karotten, Lauch und Sellerie in feine Streifen schneiden. Brühe mit Lorbeer aufkochen, Gemüse zugeben und 8 Minuten köcheln.',
     'Hähnchen in mundgerechte Stücke schneiden, in die Brühe legen und bei kleiner Hitze 10 bis 12 Minuten gar ziehen lassen, bis es innen nicht mehr rosa ist.',
-    'Milch mit Stärke verrühren, einrühren und 2 Minuten sanft köcheln, bis die Brühe leicht cremig ist. Lorbeer entfernen, Petersilie unterrühren und mit Vollkornbrot servieren.',
+    'Milch mit Stärke verrühren, einrühren und 2 Minuten sanft köcheln, bis die Brühe leicht cremig ist. Lorbeer entfernen, Petersilie unterrühren und den Waterzooi mit Vollkornbrot servieren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Mini-Waterzooi',
-  kid:'Hähnchen und Gemüse mit wenig Brühe herausnehmen und klein schneiden oder zerdrücken, damit es löffelbar ist. Brot ohne Kruste zum Eintunken, kein Salz.',
+  kid:'Hähnchen und Gemüse mit wenig Brühe herausnehmen. Beides klein schneiden oder zerdrücken, damit die Kinderportion löffelbar ist. Brot ohne Kruste zum Eintunken, kein Salz.',
   leftover:'Waterzooi-Reis · 10 Min. – Reste mit gekochtem Reis dick einkochen und als Ragout essen.',
   tipp:'Ursprünglich wurde Waterzooi in Gent mit Flussfisch gekocht, mit Seelachs gelingt die Fischvariante genauso.'
 },
@@ -184,7 +184,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 220 °C vorheizen. Kartoffeln in Spalten schneiden, mit der Hälfte des Öls mischen und 25 bis 30 Minuten backen.',
     'Hack mit Haferflocken, 2 EL Wasser und der Hälfte des Thymians verkneten und zu 4 bis 5 Bällchen formen. In der Pfanne im restlichen Öl rundum 6 Minuten anbraten.',
-    'Zwiebel in Streifen schneiden, Apfel würfeln und neben den Bällchen 5 Minuten anschwitzen. Brühe, Apfelkraut und restlichen Thymian zugeben und zugedeckt 12 Minuten schmoren, bis die Bällchen durch sind. Erbsen in den letzten 4 Minuten mitgaren.',
+    'Zwiebel in Streifen schneiden, Apfel würfeln. Beides neben den Bällchen 5 Minuten anschwitzen. Brühe, Apfelkraut und restlichen Thymian zugeben und zugedeckt 12 Minuten schmoren, bis die Bällchen durch sind. Erbsen in den letzten 4 Minuten mitgaren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und einem Spritzer Essig abschmecken.'
   ],
   kidName:'Mini-Boulets',
@@ -369,7 +369,7 @@ RECIPES.push(
   steps:[
     'Zwiebel, Knoblauch und Karotte sehr fein würfeln und in Öl 4 Minuten dünsten.',
     'Gehackte Tomaten, Thymian und Lorbeer zugeben und 6 Minuten köcheln. Abgespülte Bohnen zugeben und weitere 5 Minuten sämig einkochen.',
-    'Lorbeer entfernen und mit Vollkornbrot servieren.',
+    'Lorbeer entfernen. Die Bohnen mit Vollkornbrot servieren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und etwas Senf würzen.'
   ],
   kidName:'Mini-Bohnentopf',

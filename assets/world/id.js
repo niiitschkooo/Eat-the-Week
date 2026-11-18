@@ -46,7 +46,7 @@ RECIPES.push(
   steps:[
     'Vollkornnudeln nach Packungsangabe etwa 9 Minuten bissfest kochen und abgießen.',
     'Hähnchen in dünne Streifen schneiden und in Öl 4 Minuten rundum braten, bis es innen nicht mehr rosa ist.',
-    'Karotten in feine Stifte, Kohl und Pak Choi in Streifen schneiden und mit dem Knoblauch 4 Minuten mitbraten. Nudeln untermischen.',
+    'Karotten in feine Stifte, Kohl und Pak Choi in Streifen schneiden und das Gemüse mit dem Knoblauch 4 Minuten mitbraten. Nudeln untermischen.',
     'Kinderportion ohne Sauce abnehmen. Rest mit Kecap Manis und Sojasauce schwenken, Erwachsene nach Wunsch mit Chili würzen.'
   ],
   kidName:'Kinder-Mie',
@@ -272,7 +272,7 @@ RECIPES.push(
     'Zitronengras entfernen. Kinderportion ungesalzen abnehmen, Erwachsene mit Salz und nach Wunsch Chili würzen.'
   ],
   kidName:'Fisch-Päckchen',
-  kid:'Lachs auf Gräten prüfen und zerpflücken, Tomaten ohne Haut klein schneiden. Mit dem weichen Pak Choi unter den Reis mischen.',
+  kid:'Lachs auf Gräten prüfen und zerpflücken, Tomaten ohne Haut klein schneiden. Lachs und Tomaten mit dem weichen Pak Choi unter den Reis mischen.',
   leftover:'Fisch-Reis-Taler · 15 Min. – Reis- und Fischreste mit einem Ei vermengen, zu Talern formen und in der Pfanne beidseitig durchbraten.',
   tipp:'Statt Backpapier eignen sich Bananenblätter aus dem Asialaden für das typische Aroma.'
 },
@@ -352,7 +352,7 @@ RECIPES.push(
     'Lorbeerblatt entfernen. Kinderportion ungesalzen abnehmen, Erwachsene mit Salz und nach Wunsch Sambal würzen.'
   ],
   kidName:'Kürbis-Kokos-Topf',
-  kid:'Kürbis und Tofu mit der Gabel zerdrücken, Bohnen klein schneiden. Mit wenig Flüssigkeit über den Reis geben, damit es nicht zu suppig ist.',
+  kid:'Kürbis und Tofu mit der Gabel zerdrücken, Bohnen klein schneiden. Gemüse und Tofu mit wenig Flüssigkeit über den Reis geben, damit es nicht zu suppig ist.',
   leftover:'Lodeh-Curryreis · 8 Min. – Reste mit Reis in einem Topf vollständig erhitzen und dick einkochen lassen.',
   tipp:'Hokkaido muss nicht geschält werden und macht die Soße sämig.'
 },
@@ -402,7 +402,7 @@ RECIPES.push(
   ],
   steps:[
     'Jasminreis in der 1,5-fachen Menge Wasser 12 Minuten garen. Eier verquirlen, in wenig Öl zu einem festen Omelett braten, in Streifen schneiden und herausnehmen.',
-    'Brokkoli in kleine Röschen, Karotten in Scheiben, Pilze und Chinakohl in Streifen schneiden und mit dem Knoblauch im restlichen Öl 5 Minuten braten.',
+    'Brokkoli in kleine Röschen, Karotten in Scheiben, Pilze und Chinakohl in Streifen schneiden und das Gemüse mit dem Knoblauch im restlichen Öl 5 Minuten braten.',
     'Stärke in 80 ml Wasser verrühren, zugießen und 2 Minuten köcheln, bis die Soße leicht bindet. Eierstreifen unterheben.',
     'Kinderportion ohne Sojasauce abnehmen. Rest mit Sojasauce abschmecken, Erwachsene nach Wunsch mit Chili würzen.'
   ],

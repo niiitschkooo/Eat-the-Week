@@ -147,11 +147,11 @@ const DEFAULTS = {
     adults: 2, kids: [{ age: 19 }], extraPortions: 1,
     diet: 'alles', fish: 1, legumes: 2, plant: 3, meatMax: 2,
     allergens: [], dislikes: '', timeWeek: 30, timeWeekend: 45,
-    lowChop: false, oneVessel: false, base3: false, seasonal: true, devPref: 'alle', protTarget: 0, protNoDairy: false,
+    lowChop: false, oneVessel: false, base3: false, seasonal: true, devPref: 'alle', protTarget: 0, protNoDairy: false, sauceDefault: '',
     devices: { ofen: true, airfryer: false, mikrowelle: true, maschine: false, slowcooker: false },
     kidMode: 'welt', hideDone: false, showPantry: false, preferHave: false, photos: true
   },
-  weeks: {}, favorites: [], diary: [], notes: {}, pantry: [], have: [], photos: {}, theme: 'system', view: 'woche'
+  weeks: {}, favorites: [], diary: [], notes: {}, pantry: [], have: [], photos: {}, sauce: {}, theme: 'system', view: 'woche'
 };
 function deepMerge(a, b) {
   if (Array.isArray(a) || Array.isArray(b) || typeof a !== 'object' || typeof b !== 'object' || !a || !b) return b === undefined ? a : b;
@@ -183,7 +183,48 @@ function hashStr(s) { let h = 2166136261; for (let i = 0; i < s.length; i++) { h
 function rng(seed) { let t = seed >>> 0; return () => { t += 0x6D2B79F5; let r = Math.imul(t ^ (t >>> 15), 1 | t); r ^= r + Math.imul(r ^ (r >>> 7), 61 | r); return ((r ^ (r >>> 14)) >>> 0) / 4294967296; }; }
 
 /* ---------- Haushalt ---------- */
-const R = id => RECIPES.find(r => r.id === id) || null;
+const RAW = id => RECIPES.find(r => r.id === id) || null;
+const R = id => eff(RAW(id));
+
+/* ---------- Sauce-Auswahl: Sojasauce oder Kecap Manis durch eine andere Sauce ersetzen ---------- */
+const SAUCE_RE = /sojasauce|soja-sauce|kecap manis|tamari/i;
+const SAUCES = [
+  { id: '', n: 'Wie im Rezept', short: '', note: 'Sojasauce oder Kecap Manis wie angegeben.', allergens: null },
+  { id: 'tamari', n: 'Tamari (glutenfreie Sojasauce)', short: 'Tamari', note: 'Schmeckt wie Sojasauce, ohne Weizen.', allergens: ['soja'], factor: 1 },
+  { id: 'aminos', n: 'Kokos-Aminos', short: 'Kokos-Aminos', note: 'Ohne Soja und ohne Gluten, milder und leicht süßlich.', allergens: [], factor: 1.3 },
+  { id: 'miso', n: 'Misopaste, hell', short: 'Misopaste (mit etwas Wasser glatt gerührt)', note: 'Rund und mild. Mit 1 EL Wasser glatt rühren, halbe Menge.', allergens: ['soja'], factor: 0.5 },
+  { id: 'fisch', n: 'Fischsauce', short: 'Fischsauce', note: 'Kräftig und salzig, typisch für Südostasien. Halbe Menge.', allergens: ['fisch'], factor: 0.5 },
+  { id: 'erdnuss', n: 'Erdnussmus, ungesüßt', l: 'Erdnuss-Limetten-Sauce', short: 'Erdnuss-Limetten-Sauce (Erdnussmus mit Limettensaft und heißem Wasser glatt gerührt)', note: 'Cremig und mild, Kinder mögen sie oft. Mit Limettensaft und heißem Wasser glatt rühren.', allergens: ['nuesse'], factor: 1.5 },
+  { id: 'tahini', n: 'Tahini (Sesammus)', l: 'Tahini-Zitronen-Sauce', short: 'Tahini-Zitronen-Sauce (Tahini mit Zitronensaft und Wasser glatt gerührt)', note: 'Nussig, ohne Soja. Mit Zitronensaft und Wasser glatt rühren.', allergens: ['sesam'], factor: 1.5 },
+  { id: 'salz', n: 'Limette', l: 'Salz und Limette', short: 'Salz und Limettensaft', note: 'Ganz ohne Sauce: am Ende salzen und mit Limettensaft abschmecken.', allergens: [], fixedQ: 0.25, unit: 'Stk.', c: 'gemuese' }
+];
+const STILL_SOY_RE = /tofu|edamame|tempeh|miso|soja|doenjang|gochujang|hoisin|teriyaki|kecap/i;
+function sauceIdx(r) { if (!r || !r.ing) return -1; return r.ing.findIndex(i => SAUCE_RE.test(i.n)); }
+function sauceSlot(r) { return r && r._sauceIdx != null ? r._sauceIdx : sauceIdx(r); }
+function sauceChoice(r) { return (S.sauce && S.sauce[r.id] != null) ? S.sauce[r.id] : (S.settings.sauceDefault || ''); }
+const EFF_CACHE = new Map();
+function eff(r) {
+  if (!r || !r.ing) return r;
+  const idx = sauceIdx(r); if (idx < 0) return r;
+  const ch = sauceChoice(r); const alt = SAUCES.find(x => x.id === ch); if (!alt || !alt.id) return r;
+  const key = r.id + '|' + ch; if (EFF_CACHE.has(key)) return EFF_CACHE.get(key);
+  const orig = r.ing[idx];
+  const ing = r.ing.slice();
+  ing[idx] = { n: alt.n, q: alt.fixedQ != null ? alt.fixedQ : orig.q * alt.factor, u: alt.unit || orig.u, c: alt.c || 'vorrat', p: !alt.c, hint: alt.note };
+  const rx = /\b(die |der |den )?(salzreduzierten? |süßen? )?(Sojasauce|Soja-Sauce|Kecap Manis(?: \(süße Sojasauce\))?|Tamari)\b/g;
+  const swap = t => typeof t === 'string' ? t.replace(rx, (m, art) => ((art && alt.id !== 'salz') ? art : '') + alt.short) : t;
+  let allergens = r.allergens.slice();
+  if (!ing.some(i => STILL_SOY_RE.test(i.n))) allergens = allergens.filter(a => a !== 'soja');
+  alt.allergens.forEach(a => { if (!allergens.includes(a)) allergens.push(a); });
+  const out = Object.assign({}, r, { ing, steps: r.steps.map(swap), kid: swap(r.kid), tipp: swap(r.tipp), leftover: swap(r.leftover), allergens, _sauce: alt, _sauceIdx: idx, _prot: undefined });
+  EFF_CACHE.set(key, out); return out;
+}
+function sauceOptionsHtml(r) {
+  const cur = sauceChoice(r); const own = S.sauce && S.sauce[r.id] != null; const st = S.settings;
+  return '<div class="sauce-panel"><div class="row between"><b>Andere Sauce wählen</b><button type="button" class="btn icon sm ghost" data-act="saucepick" data-id="' + r.id + '" aria-label="Schließen">' + ICON.x + '</button></div>' +
+    '<div class="sauce-opts">' + SAUCES.map(o => { const bad = o.allergens && o.allergens.some(a => st.allergens.includes(a)); return '<button type="button" class="sauce-opt" data-act="sauceset" data-id="' + r.id + '" data-s="' + o.id + '" aria-pressed="' + (cur === o.id) + '"' + (bad ? ' disabled' : '') + '><b>' + esc(o.l || o.n) + '</b><span>' + esc(o.note) + '</span>' + (o.allergens && o.allergens.length ? '<span class="tiny">Allergene: ' + o.allergens.map(a => ALLERGEN_LABEL[a]).join(', ') + (bad ? ' (bei euch ausgeschlossen)' : '') + '</span>' : (o.allergens ? '<span class="tiny">ohne typische Allergene</span>' : '')) + '</button>'; }).join('') + '</div>' +
+    '<div class="row" style="margin-top:8px"><button type="button" class="btn sm" data-act="saucedefault" data-s="' + cur + '">Für alle Gerichte übernehmen</button>' + (own ? '<button type="button" class="btn sm ghost" data-act="sauceclear" data-id="' + r.id + '">Standard verwenden</button>' : '') + '<span class="tiny">Mengen, Schritte, Allergene und Einkaufsliste passen sich an.</span></div></div>';
+}
 const K = id => KIDS.find(k => k.id === id) || null;
 function tierFor(months) { if (months == null) return null; return AGE_TIERS.find(t => months >= t.min && months <= t.max) || (months < 6 ? null : AGE_TIERS[AGE_TIERS.length - 1]); }
 function youngest() { const k = S.settings.kids; return k.length ? Math.min.apply(null, k.map(c => c.age)) : null; }
@@ -224,7 +265,7 @@ function missingDevices(r, st) { return r.devices.filter(g => !g.some(d => d ===
 function dislikes(st) { return st.dislikes.split(',').map(s => s.trim().toLowerCase()).filter(Boolean); }
 function dislikeHit(r, st) { const dl = dislikes(st); if (!dl.length) return null; const hay = [r.name].concat(r.ing.map(i => i.n), r.veg).join(' ').toLowerCase(); return dl.find(d => hay.includes(d)) || null; }
 function hardIssues(r, st) {
-  const out = []; const al = r.allergens.filter(a => st.allergens.includes(a));
+  const out = []; const al = (eff(r) || r).allergens.filter(a => st.allergens.includes(a));
   if (al.length) out.push('Enthält ' + al.map(a => ALLERGEN_LABEL[a]).join(', '));
   if (!dietOk(r, st)) out.push('Passt nicht zur Ernährungsweise');
   const md = missingDevices(r, st); if (md.length) out.push('Gerät fehlt: ' + md.join(', '));
@@ -285,7 +326,7 @@ function haveMatch(r) {
 function allIngredientNames() { const set = new Set(); RECIPES.forEach(r => r.ing.forEach(i => { if (!i.p) set.add(short(i.n)); })); return Array.from(set).sort((a, b) => a.localeCompare(b, 'de')); }
 
 /* ---------- Woche und Plan ---------- */
-function settingsSig(st) { return JSON.stringify([st.diet, st.fish, st.legumes, st.plant, st.meatMax, st.allergens, st.dislikes, st.timeWeek, st.timeWeekend, st.lowChop, st.oneVessel, st.base3, st.seasonal, st.devices, st.devPref, st.protTarget, st.protNoDairy]); }
+function settingsSig(st) { return JSON.stringify([st.diet, st.fish, st.legumes, st.plant, st.meatMax, st.allergens, st.dislikes, st.timeWeek, st.timeWeekend, st.lowChop, st.oneVessel, st.base3, st.seasonal, st.devices, st.devPref, st.protTarget, st.protNoDairy, st.sauceDefault]); }
 function week() {
   const k = iso(curMon);
   if (!S.weeks[k]) S.weeks[k] = { days: Array.from({ length: 7 }, () => ({})), shuffle: 0, checked: [], own: [], sel: Math.max(0, todayIndex()), sig: '', focusInit: true };
@@ -707,7 +748,7 @@ function renderDetail() {
     '</div>';
 
   const zutaten = '<div class="subcard"><div class="panel-head"><h3>Zutaten</h3><span class="tiny num">' + fmtNum(P) + ' Portionen</span></div><ul class="ing-list">' +
-    r.ing.map(x => '<li class="' + (x.p ? 'pantry' : '') + '"><span>' + esc(x.n) + (x.hint ? '<span class="hint">' + esc(x.hint) + '</span>' : '') + (x.p ? '<span class="hint">Vorrat</span>' : '') + '</span><span class="q">' + fmtQ(x.q * P, x.u) + '</span></li>').join('') + '</ul>' +
+    r.ing.map((x, k) => { const isS = k === sauceSlot(r); return '<li class="' + (x.p ? 'pantry' : '') + (isS ? ' sauce-li' : '') + '"><span>' + esc(x.n) + (x.hint ? '<span class="hint">' + esc(x.hint) + '</span>' : '') + (x.p ? '<span class="hint">Vorrat</span>' : '') + (isS ? '<button type="button" class="btn sm sauce-btn" data-act="saucepick" data-id="' + r.id + '">' + (r._sauce ? 'Sauce: ' + esc((r._sauce.l || r._sauce.n).split(' (')[0]) + ' · ändern' : 'Andere Sauce wählen') + '</button>' : '') + '</span><span class="q">' + fmtQ(x.q * P, x.u) + '</span></li>' + (isS && renderDetail.sauceOpen === r.id ? '<li class="sauce-row">' + sauceOptionsHtml(r) + '</li>' : ''); }).join('') + '</ul>' +
     '<div class="subbox"><div class="row between"><div><b>Noch einkaufen für ' + WD[i] + '</b><br><span class="small muted">' + (hv ? miss.length + ' von ' + all.length + ' Zutaten fehlen laut „Was ist da?“' : all.length + ' Zutaten; unter „Was ist da?“ eintragen, was ihr habt') + '</span></div></div>' + (!hv ? '<div style="height:8px"></div>' : miss.length ? '<div class="chips" style="margin:8px 0">' + miss.map(x => chip(esc(fmtQ(x.q, x.u) + ' ' + short(x.n)), 'outline')).join('') + '</div>' : '<p class="small" style="margin:8px 0;color:var(--brand)">Alles da.</p>') + '<div class="row">' + remindButtons(linesFor(miss), 'day:' + i) + '</div></div>' +
     (bi ? '<div class="subbox"><div class="row between"><div><b>Basis für 2 Tage</b><br><span class="small muted">' + esc(BASE_LABEL[r.base]) + ' einmal kochen, ' + (i < 6 ? WD[i + 1] : 'morgen') + ' neu kombinieren.</span></div>' + (i < 6 ? '<button type="button" class="btn sm" data-act="chain" data-i="' + i + '" aria-pressed="' + !!d.chain + '">' + ICON.link + ' ' + (d.chain ? 'Verkettet' : 'Verketten') + '</button>' : '') + '</div>' +
       (d.chain && nextBi ? '<div class="row" style="margin-top:8px;gap:16px"><span class="small"><span class="eyebrow">Heute gesamt</span><br><b class="num">' + fmtQ(bi.q * P + nextBi.q * P, bi.u) + '</b></span><span class="small"><span class="eyebrow">Davon für ' + WD[i + 1] + '</span><br><b class="num">' + fmtQ(nextBi.q * P, nextBi.u) + '</b></span><span class="small muted">' + WD[i + 1] + ': ' + esc(nextR.name) + '</span></div>' : '') + '</div>' : '') +
@@ -817,7 +858,7 @@ function renderKidCountries() {
   if (!cs.length) { el.innerHTML = ''; return; }
   const state = renderKidCountries.state || (renderKidCountries.state = { c: cs[0].name });
   if (!cs.some(c => c.name === state.c)) state.c = cs[0].name;
-  const list = RECIPES.filter(r => r.cuisine === state.c && r.kidName && !hardIssues(r, st).length);
+  const list = RECIPES.map(eff).filter(r => r.cuisine === state.c && r.kidName && !hardIssues(r, st).length);
   el.innerHTML = '<div class="panel"><div class="panel-head"><div><div class="eyebrow accent">Kinderversionen der Länderküche</div><h3 style="margin-top:4px">Jedes Länder-Gericht hat eine Kleinkind-Version.</h3></div>' +
     '<select data-act="kidcountry" aria-label="Land wählen">' + cs.map(c => '<option value="' + esc(c.name) + '"' + (c.name === state.c ? ' selected' : '') + '>' + c.flag + ' ' + esc(c.name) + '</option>').join('') + '</select></div>' +
     '<p class="small muted" style="margin-bottom:12px">Die Familie isst das Gericht, das Kind bekommt die mild abgenommene, weich gegarte Version. Einplanen setzt das Gericht auf den gewählten Tag.</p>' +
@@ -835,7 +876,7 @@ function renderLaender() {
   const card = (r, extraLine) => '<article class="alt" style="grid-template-columns:64px 1fr;cursor:default">' + photoBox(r, 'thumb') + '<span style="min-width:0"><b>' + esc(r.name) + '</b><small>' + r.flag + ' ' + esc(r.cuisine) + ' · ' + (r.time.a + r.time.c) + ' Min. · ' + PROTEIN_LABEL[r.protein] + ' · ' + catOf(r).ic + ' ' + esc(catOf(r).l) + (r.allergens.length ? ' · ' + r.allergens.map(a => ALLERGEN_LABEL[a]).join(', ') : '') + '</small>' + deviceLine(r) + (extraLine || '') + '<span class="row" style="margin-top:8px">' + daySelect('planday', 'data-id="' + r.id + '"') + '<button type="button" class="btn icon sm ghost" data-act="fav" data-id="' + r.id + '" aria-pressed="' + S.favorites.includes(r.id) + '" aria-label="Favorit">' + (S.favorites.includes(r.id) ? ICON.heart : ICON.heartO) + '</button></span></span></article>';
   if (state.q.trim() || state.cat) {
     const q = state.q.trim().toLowerCase();
-    const hits = RECIPES.filter(r => (!q || (r.name + ' ' + r.cuisine + ' ' + r.veg.join(' ') + ' ' + (r.kidName || '') + ' ' + catOf(r).l).toLowerCase().includes(q)) && (!state.cat || catOf(r).id === state.cat) && (state.region === 'alle' || regionOf(r.cuisine) === state.region) && !hardIssues(r, st).length);
+    const hits = RECIPES.map(eff).filter(r => (!q || (r.name + ' ' + r.cuisine + ' ' + r.veg.join(' ') + ' ' + (r.kidName || '') + ' ' + catOf(r).l).toLowerCase().includes(q)) && (!state.cat || catOf(r).id === state.cat) && (state.region === 'alle' || regionOf(r.cuisine) === state.region) && !hardIssues(r, st).length);
     $('#laender-grid').innerHTML = '<p class="muted small">' + hits.length + ' Treffer' + (hits.length > state.limit ? ', die ersten ' + state.limit : '') + '</p><div class="alts" style="grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))">' + hits.slice(0, state.limit).map(r => card(r, r.kidName ? '<small class="small" style="color:var(--accent)">Kind: ' + esc(r.kidName) + '</small>' : '')).join('') + '</div>' + (hits.length > state.limit ? '<p style="margin-top:10px"><button type="button" class="btn sm" data-act="landmore">Mehr anzeigen</button></p>' : '');
     $('#laender-country').innerHTML = ''; return;
   }
@@ -849,7 +890,7 @@ function renderLaender() {
   if (!state.country || !cs.some(c => c.name === state.country)) state.country = (shown[0] || cs[0] || {}).name || null;
   const c = cs.find(x => x.name === state.country);
   if (!c) { $('#laender-country').innerHTML = ''; return; }
-  const list = RECIPES.filter(r => r.cuisine === c.name); const okList = list.filter(r => !hardIssues(r, st).length);
+  const list = RECIPES.map(eff).filter(r => r.cuisine === c.name); const okList = list.filter(r => !hardIssues(r, st).length);
   $('#laender-country').innerHTML = '<div class="panel"><div class="panel-head"><h2>' + c.flag + ' ' + esc(c.name) + '</h2><div class="row"><span class="chip num">' + okList.length + ' von ' + list.length + ' passen zu euren Filtern</span><button type="button" class="btn sm" data-act="landkid" aria-pressed="' + state.showKid + '">Kinderversionen zeigen</button></div></div>' +
     '<div class="alts" style="grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))">' + okList.map(r => card(r, state.showKid && r.kidName ? '<small class="small" style="display:block;margin-top:4px;color:var(--accent)"><b>' + esc(r.kidName) + ':</b> ' + esc(r.kid) + '</small>' : (r.kidName ? '<small class="small" style="color:var(--accent)">Kind: ' + esc(r.kidName) + '</small>' : ''))).join('') + '</div>' +
     (list.length > okList.length ? '<p class="tiny" style="margin-top:10px">Ausgeblendet wegen Allergien, Ernährungsweise oder Geräten: ' + list.filter(r => hardIssues(r, st).length).map(r => esc(r.name.split(' · ')[0])).join(', ') + '</p>' : '') + '</div>';
@@ -865,7 +906,7 @@ function renderVorrat() {
     '<div class="eyebrow">Schnell hinzufügen</div><div class="chips" style="margin-top:6px">' + quick.filter(q => !have.some(h => norm(h) === norm(q))).map(q => '<button type="button" class="chip pick" data-act="havequick" data-h="' + q + '">' + q + '</button>').join('') + '</div>' +
     '<label class="switch" style="margin-top:10px;border:0"><input type="checkbox" data-act="toggle-have"' + (st.preferHave ? ' checked' : '') + '><span class="sw"></span><span class="txt"><b>Beim Wochenplan bevorzugen</b><span>Gerichte, die zu euren Vorräten passen, werden beim automatischen Planen höher bewertet.</span></span></label></div>';
   if (!have.length) { $('#vorrat-list').innerHTML = '<p class="muted">Tragt zwei, drei Zutaten ein. Dann erscheinen hier die Gerichte, die am besten dazu passen.</p>'; return; }
-  const scored = RECIPES.filter(r => !hardIssues(r, st).length).map(r => ({ r, m: haveMatch(r) })).filter(x => x.m.ok.length > 0)
+  const scored = RECIPES.map(eff).filter(r => !hardIssues(r, st).length).map(r => ({ r, m: haveMatch(r) })).filter(x => x.m.ok.length > 0)
     .sort((a, b) => b.m.pct - a.m.pct || a.m.missing.length - b.m.missing.length || (a.r.time.a + a.r.time.c) - (b.r.time.a + b.r.time.c));
   $('#vorrat-list').innerHTML = '<p class="muted small">' + scored.length + ' Gerichte nutzen mindestens eine eurer Zutaten' + (scored.length > state.limit ? ', die besten ' + state.limit + ' zuerst' : '') + '.</p>' +
     '<div class="alts" style="grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr))">' + scored.slice(0, state.limit).map(x => { const r = x.r, m = x.m; const pct = Math.round(m.pct * 100);
@@ -964,6 +1005,7 @@ function renderFeinplanung() {
 
     '<div class="panel"><div class="eyebrow">Allergien und No-Gos</div><h3 style="margin-top:4px">Was bleibt draußen?</h3>' +
     '<div class="field"><span class="lab">Allergene ausschließen</span><div class="chips">' + Object.keys(ALLERGEN_LABEL).map(a => '<button type="button" class="chip pick" data-act="allergen" data-a="' + a + '" aria-pressed="' + st.allergens.includes(a) + '">' + ALLERGEN_LABEL[a] + '</button>').join('') + '</div><span class="help">Gerichte mit diesen Allergenen werden nicht geplant und in der Kinderküche ausgeblendet.</span></div>' +
+    '<div class="field"><span class="lab">Statt Sojasauce standardmäßig</span>' + seg('saucedef', SAUCES.map(o => ({ v: o.id, l: o.id ? (o.l || o.n).split(' (')[0] : 'Wie im Rezept' })), st.sauceDefault || '') + '<span class="help">Gilt für alle Gerichte mit Sojasauce oder Kecap Manis. Im Gericht lässt sich die Sauce einzeln ändern („Andere Sauce wählen“). Kokos-Aminos ist frei von Soja und Gluten.</span></div>' +
     '<div class="field"><label for="dislikes">Mag niemand (Zutaten, mit Komma)</label><input type="text" id="dislikes" data-act="dislikes" value="' + esc(st.dislikes) + '" placeholder="zum Beispiel Pilze, Rosenkohl"></div>' +
     '</div>' +
 
@@ -1020,7 +1062,7 @@ function fillPicker(more) {
   const f = fillPicker.state || (fillPicker.state = { land: '', prot: 'alle', time: 0, dev: 'alle', cat: '', limit: 60 }); if (!more) f.limit = 60; else f.limit += 60;
   const catSel = $('#picker-cat'); if (catSel && !catSel.options.length) catSel.outerHTML = catSelect('picker-cat', f.cat);
   const landSel = $('#picker-land'); if (landSel && !landSel.options.length) landSel.innerHTML = '<option value="">Alle Länder</option>' + countries().map(c => '<option value="' + esc(c.name) + '">' + c.flag + ' ' + esc(c.name) + '</option>').join('');
-  let list = RECIPES.filter(r => !hardIssues(r, st).length);
+  let list = RECIPES.map(eff).filter(r => !hardIssues(r, st).length);
   if (f.land) list = list.filter(r => r.cuisine === f.land);
   if (f.prot === 'pflanzlich') list = list.filter(plantBased); else if (f.prot === 'fisch') list = list.filter(r => r.protein === 'fisch'); else if (f.prot === 'fleisch') list = list.filter(isMeat); else if (f.prot === 'eiweiss') list = list.filter(r => proteinFor(r) >= (st.protTarget || 25));
   if (f.time) list = list.filter(r => r.time.a + r.time.c <= f.time);
@@ -1097,6 +1139,11 @@ document.addEventListener('click', e => {
     case 'reload': { toast('Lade neu …'); try { if (navigator.serviceWorker && navigator.serviceWorker.getRegistration) navigator.serviceWorker.getRegistration().then(r => r && r.update()).catch(() => {}); } catch (err) {} setTimeout(() => location.reload(), 300); break; }
     case 'pickermore': fillPicker(true); break;
     case 'cook': openCook(i); break;
+    case 'saucepick': { const id = el.dataset.id; renderDetail.sauceOpen = renderDetail.sauceOpen === id ? null : id; renderDetail(); break; }
+    case 'sauceset': { const id = el.dataset.id; S.sauce = S.sauce || {}; S.sauce[id] = el.dataset.s; save(); renderDetail.sauceOpen = null; const a = SAUCES.find(x => x.id === el.dataset.s); toast(a && a.id ? 'Sauce: ' + (a.l || a.n).split(' (')[0] : 'Sauce wie im Rezept'); render(); break; }
+    case 'sauceclear': { const id = el.dataset.id; if (S.sauce) delete S.sauce[id]; save(); render(); break; }
+    case 'saucedefault': { st.sauceDefault = el.dataset.s || ''; S.sauce = {}; save(); renderDetail.sauceOpen = null; const a = SAUCES.find(x => x.id === st.sauceDefault); toast('Standard für alle Gerichte: ' + (a && a.id ? (a.l || a.n).split(' (')[0] : 'wie im Rezept')); render(); break; }
+    case 'saucedef': st.sauceDefault = el.dataset.v; S.sauce = {}; save(); renderFeinplanung(); break;
     case 'cookclose': closeCook(); break;
     case 'cooknext': cookGo(cook.idx + 1); break;
     case 'cookprev': cookGo(cook.idx - 1); break;

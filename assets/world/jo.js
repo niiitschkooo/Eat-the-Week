@@ -164,7 +164,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Zitronensaft abschmecken und mit Reis servieren.'
   ],
   kidName:'Okra-Rind-Topf mit Reis',
-  kid:'Fleisch sehr fein schneiden oder zerzupfen, Okra in kleine Scheiben schneiden und mit Reis und Soße mischen. Ohne Salz.',
+  kid:'Fleisch sehr fein schneiden oder zerzupfen, Okra in kleine Scheiben schneiden. Fleisch und Okra mit Reis und Soße mischen. Ohne Salz.',
   leftover:'Bamia-Reis-Pfanne · 8 Min. – Reste mit Reis in der Pfanne vollständig erhitzen.',
   tipp:'Kleine tiefgekühlte Okraschoten aus dem arabischen oder türkischen Supermarkt bleiben fest und werden kaum schleimig.'
 },
@@ -271,7 +271,7 @@ RECIPES.push(
   ],
   steps:[
     'Zwiebel, Karotten und Kartoffel würfeln und im Topf in Öl mit Kreuzkümmel und Kurkuma 4 Minuten dünsten.',
-    'Linsen waschen, mit der Brühe zugeben und 18 bis 20 Minuten köcheln, bis alles zerfällt, dann mit dem Schneebesen glatt rühren oder pürieren.',
+    'Linsen waschen, mit der Brühe zugeben und 18 bis 20 Minuten köcheln, bis alles zerfällt. Die Suppe mit dem Schneebesen glatt rühren oder pürieren.',
     'Fladenbrot in Stücke schneiden und in einer trockenen Pfanne 4 Minuten knusprig rösten.',
     'Kinderportion ohne Zitrone und Salz abnehmen. Erwachsene mit Salz, Zitronensaft und Kreuzkümmel würzen und mit Brotchips servieren.'
   ],

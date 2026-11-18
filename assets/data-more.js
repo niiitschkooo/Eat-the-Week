@@ -74,7 +74,7 @@ RECIPES.push(
     'Kartoffeln schälen, würfeln und 20 Minuten weich kochen. Ofen auf 200 °C vorheizen.',
     'Makrelenfilet mit der Haut nach unten auf Backpapier legen, mit Öl bestreichen und 12 bis 14 Minuten backen, bis es fest und durch ist.',
     'Rote Bete und Apfel fein würfeln. Kartoffeln mit Milch stampfen, Rote Bete und Apfel unterheben, Gurke in Scheiben schneiden.',
-    'Kinderportion: Stampf und Fisch ohne Haut, sorgfältig entgrätet und zerpflückt, Gurke in Stifte. Erwachsene mit Dill, Salz und Pfeffer.'
+    'Kinderportion: Stampf, Gurke in Stiften und Fisch ohne Haut, sorgfältig entgrätet und zerpflückt. Erwachsene mit Dill, Salz und Pfeffer.'
   ],
   nutri:{p:['Makrele'],f:['Kartoffeln','Rote Bete','Apfel'],i:['Rote Bete','Makrele'],fat:['Makrele (Omega-3)','Rapsöl']},
   kidName:'Pinker Stampf mit Fisch',
@@ -156,7 +156,7 @@ RECIPES.push(
   ],
   steps:[
     'Reis waschen und in der 1,5-fachen Menge Wasser 12 Minuten garen. Garnelen auftauen und trocken tupfen.',
-    'Brokkoli in kleine Röschen, Karotte in dünne Scheiben, Ingwer fein hacken. Gemüse in Öl mit 3 EL Wasser und Deckel 6 Minuten dünsten.',
+    'Brokkoli in kleine Röschen teilen, Karotte in dünne Scheiben schneiden, Ingwer fein hacken. Brokkoli, Karotte und Ingwer in Öl mit 3 EL Wasser und Deckel 6 Minuten dünsten.',
     'Garnelen und Zuckerschoten zugeben und 3 bis 4 Minuten braten, bis die Garnelen rosa und fest sind.',
     'Kinderportion mit klein geschnittenen Garnelen und weichem Brokkoli ohne Sojasauce abnehmen. Erwachsene mit Sojasauce, Sesamöl und Frühlingszwiebel.'
   ],
@@ -187,7 +187,7 @@ RECIPES.push(
     'Zwiebel fein würfeln und in Öl glasig dünsten, Kurkuma und Currypulver 30 Sekunden mitrösten. Reis zugeben, 200 ml Wasser angießen, Deckel auf, 22 Minuten leise garen.',
     'Ei 9 Minuten hart kochen, pellen und würfeln.',
     'Fisch in Stücken und Erbsen die letzten 8 Minuten auf den Reis legen und mitdämpfen. Fisch zerpflücken, auf Gräten prüfen, mit Spinat unterheben.',
-    'Kinderportion abnehmen, Erbsen zerdrücken, Ei klein schneiden, kein Salz. Erwachsene mit Zitrone, Salz und Pfeffer abschmecken.'
+    'Kinderportion ohne Salz abnehmen. Für das Kind Erbsen zerdrücken und Ei klein schneiden. Erwachsene mit Zitrone, Salz und Pfeffer abschmecken.'
   ],
   nutri:{p:['Fisch','Eier','Erbsen'],f:['Vollkornreis','Erbsen'],i:['Fisch','Eier','Spinat'],fat:['Rapsöl','Eier']},
   kidName:'Gelber Reis mit Fisch und Ei',
@@ -271,10 +271,10 @@ RECIPES.push(
     {n:'Kreuzkümmel, gemahlen',q:0.25,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel würfeln und in Öl 5 Minuten goldgelb dünsten. Paprikapulver vom Herd nehmen und kurz einrühren, damit es nicht bitter wird.',
+    'Zwiebel würfeln und in Öl 5 Minuten goldgelb dünsten. Topf vom Herd nehmen und Paprikapulver kurz einrühren, damit es nicht bitter wird.',
     'Pute in Streifen, Kartoffeln und Karotte in 2 cm Würfel, Paprika in Stücke schneiden. Alles mit passierten Tomaten und Brühe aufgießen.',
     'Deckel auf und 25 Minuten köcheln, bis die Kartoffeln weich sind und die Soße bindet (Slow Cooker: 4 Stunden niedrig).',
-    'Kinderportion abnehmen, Pute fein zerzupfen, Kartoffeln zerdrücken, kein Salz. Erwachsene salzen, pfeffern und nach Wunsch mit Essig abschmecken.'
+    'Kinderportion ohne Salz abnehmen. Für das Kind Pute fein zerzupfen und Kartoffeln zerdrücken. Erwachsene salzen, pfeffern und nach Wunsch mit Essig abschmecken.'
   ],
   nutri:{p:['Pute','Kartoffeln'],f:['Kartoffeln','Paprika','Karotten'],i:['Pute'],fat:['Rapsöl']},
   kidName:'Mildes Kartoffelgulasch',
@@ -365,7 +365,7 @@ RECIPES.push(
     'Hähnchen in Öl rundum 4 Minuten anbraten, herausnehmen. Zwiebel, Knoblauch, Karotten- und Paprikawürfel 4 Minuten dünsten.',
     'Reis und Kurkuma einrühren, Brühe angießen, Hähnchen obenauf legen, Deckel auf und 20 Minuten leise garen.',
     'Erbsen und Mais unterheben, 5 Minuten ziehen lassen. Fleisch anschneiden: kein rosa Saft mehr.',
-    'Kinderportion abnehmen, Hähnchen fein zerpflücken, Erbsen und Mais zerdrücken, kein Salz. Erwachsene mit Koriander, Salz, Pfeffer und Limette.'
+    'Kinderportion ohne Salz abnehmen. Für das Kind Hähnchen fein zerpflücken, Erbsen und Mais zerdrücken. Erwachsene mit Koriander, Salz, Pfeffer und Limette.'
   ],
   nutri:{p:['Hähnchen','Erbsen'],f:['Reis','Paprika','Karotten','Mais'],i:['Hähnchen','Erbsen'],fat:['Rapsöl']},
   kidName:'Gelber Hähnchen-Reis',
@@ -394,7 +394,7 @@ RECIPES.push(
     'Reis garen. Hähnchen würfeln und mit gewürfelter Zwiebel in Öl 4 Minuten anbraten.',
     'Süßkartoffel in 2 cm Würfel, Kohl in Streifen, Karotte in Scheiben. Mit passierten Tomaten, Paprikapulver und 200 ml Wasser zugeben, 20 Minuten köcheln (Slow Cooker: 4 Stunden niedrig).',
     'Erdnussmus mit 3 EL heißem Kochwasser glatt rühren und einrühren, 5 Minuten weiterköcheln, bis die Soße sämig ist.',
-    'Kinderportion abnehmen, Hähnchen zerpflücken, Süßkartoffel zerdrücken, kein Salz. Erwachsene salzen und nach Wunsch mit Chili abschmecken.'
+    'Kinderportion ohne Salz abnehmen. Für das Kind Hähnchen zerpflücken und Süßkartoffel zerdrücken. Erwachsene salzen und nach Wunsch mit Chili abschmecken.'
   ],
   nutri:{p:['Hähnchen','Erdnussmus'],f:['Süßkartoffel','Vollkornreis','Kohl'],i:['Hähnchen'],fat:['Erdnussmus','Rapsöl']},
   kidName:'Milder Erdnuss-Eintopf',
@@ -504,7 +504,7 @@ RECIPES.push(
     {n:'Muskat',q:0.1,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 200 °C vorheizen. Kartoffeln in Spalten, Rosenkohl halbieren, Zwiebel in Streifen, mit Öl und Thymian mischen und 15 Minuten backen.',
+    'Ofen auf 200 °C vorheizen. Kartoffeln in Spalten und Zwiebel in Streifen schneiden, Rosenkohl halbieren. Alle drei mit Öl und Thymian mischen und 15 Minuten backen.',
     'Schweinefilet im Ganzen oder als dicke Medaillons auf das Blech legen, Apfelspalten dazulegen, weitere 15 Minuten backen.',
     'Fleisch prüfen: es muss innen gerade nicht mehr rosa sein, dann 3 Minuten ruhen lassen und in dünne Scheiben schneiden.',
     'Kinderportion mit fein geschnittenem Fleisch, weichem Rosenkohl in Vierteln und zerdrückter Kartoffel ohne Salz. Erwachsene mit Salz, Pfeffer und Muskat.'
@@ -535,7 +535,7 @@ RECIPES.push(
   steps:[
     'Lauch in Ringe, Karotte, Pastinake, Sellerie und Kartoffeln in 1 cm Würfel schneiden. In Öl 5 Minuten anschwitzen.',
     'Linsen spülen, mit passierten Tomaten, Lorbeer, Thymian und 400 ml Wasser zugeben, 30 Minuten weich köcheln (Slow Cooker: 5 Stunden niedrig).',
-    'Lorbeer entfernen, einen Teil mit dem Stampfer zerdrücken, bis der Eintopf dick ist.',
+    'Lorbeer entfernen. Einen Teil des Eintopfs mit dem Stampfer zerdrücken, bis er dick ist.',
     'Kinderportion dick, mit zerdrückten Linsen und ohne Salz abnehmen. Erwachsene mit Salz, Pfeffer und einem Spritzer Essig abschmecken.'
   ],
   nutri:{p:['Linsen','Kartoffeln'],f:['Linsen','Kartoffeln','Pastinake'],i:['Linsen','Lauch'],fat:['Rapsöl']},
@@ -566,7 +566,7 @@ RECIPES.push(
     'Reis garen. Zwiebel, Knoblauch, Paprika und Karotte fein würfeln und in Öl 5 Minuten anschwitzen, Gewürze kurz mitrösten.',
     'Tomaten zugeben und 10 Minuten einkochen. Bohnen abspülen, mit Mais zugeben und 8 Minuten köcheln.',
     'Einen Teil der Bohnen mit dem Löffel an der Topfwand zerdrücken, damit das Chili bindet.',
-    'Kinderportion mit vollständig zerdrückten Bohnen und Maiskörnern ohne Salz auf Reis abnehmen. Erwachsene salzen und mit Chili oder Limette abschmecken.'
+    'Kinderportion mit Bohnen und Mais, beides vollständig zerdrückt, ohne Salz auf Reis abnehmen. Erwachsene salzen und mit Chili oder Limette abschmecken.'
   ],
   nutri:{p:['Kidneybohnen','Vollkornreis'],f:['Bohnen','Vollkornreis','Paprika','Mais'],i:['Bohnen'],fat:['Rapsöl']},
   kidName:'Mildes Bohnen-Chili',
@@ -595,12 +595,12 @@ RECIPES.push(
   steps:[
     'Lauch in Ringe, Karotte und Zucchini in kleine Würfel, grüne Bohnen in 1 cm Stücke schneiden. In Öl 5 Minuten anschwitzen.',
     'Tomaten, Brühe und Oregano zugeben und 10 Minuten köcheln. Nudeln hineingeben und 8 Minuten weich garen.',
-    'Weiße Bohnen und Spinat zugeben und 3 Minuten erhitzen. Einen Teil der Bohnen zerdrücken, damit die Suppe sämig wird.',
-    'Kinderportion dick, mit zerdrückten Bohnen und kurzen Nudeln ohne Salz. Erwachsene mit Salz, Pfeffer, Parmesan und einem Faden Öl.'
+    'Weiße Bohnen und Spinat zugeben und 3 Minuten erhitzen. Einen Teil der weißen Bohnen zerdrücken, damit die Suppe sämig wird.',
+    'Kinderportion dick, mit zerdrückten weißen Bohnen und kurzen Nudeln ohne Salz. Erwachsene mit Salz, Pfeffer, Parmesan und einem Faden Öl.'
   ],
   nutri:{p:['Weiße Bohnen','Vollkornnudeln'],f:['Bohnen','Vollkornnudeln','Karotten','Grüne Bohnen'],i:['Bohnen','Spinat'],fat:['Olivenöl']},
   kidName:'Dicke Gemüse-Nudelsuppe',
-  kid:'Viel Einlage, wenig Brühe. Bohnen zerdrücken, grüne Bohnen sehr weich und in kurzen Stücken.',
+  kid:'Viel Einlage, wenig Brühe. Weiße Bohnen zerdrücken, grüne Bohnen sehr weich und in kurzen Stücken.',
   leftover:'Minestrone Tag 2 · 5 Min. – Dicker einkochen, mit Brot als Eintopf essen.',
   extras:['feta','ei'], tipp:'Minestrone nimmt jedes Gemüse, das weg muss: Kohl, Kartoffel, Fenchel oder Erbsen passen immer.'
 },
@@ -626,7 +626,7 @@ RECIPES.push(
   steps:[
     'Paprika, die halbe Zwiebel und Ingwer grob schneiden und mit den passierten Tomaten fein pürieren. Restliche Zwiebel würfeln und in Öl 4 Minuten dünsten.',
     'Paprikapüree, Paprikapulver, Thymian und Lorbeer zugeben und 8 Minuten einkochen, bis die Soße dick wird.',
-    'Reis, Karottenwürfel, grüne Bohnen in Stücken und 200 ml Wasser einrühren, Deckel auf und 18 Minuten leise garen. Bohnen die letzten 5 Minuten obenauf erhitzen.',
+    'Reis, Karottenwürfel, grüne Bohnen in Stücken und 200 ml Wasser einrühren, Deckel auf und 18 Minuten leise garen. Kidneybohnen die letzten 5 Minuten obenauf erhitzen.',
     'Kinderportion mit zerdrückten Kidneybohnen und weichem Gemüse ohne Salz abnehmen. Erwachsene salzen und nach Wunsch mit Chili abschmecken.'
   ],
   nutri:{p:['Kidneybohnen','Reis'],f:['Reis','Paprika','Bohnen'],i:['Bohnen','Paprika'],fat:['Rapsöl']},
@@ -746,7 +746,7 @@ RECIPES.push(
     'Zwiebel in Streifen schneiden und in Öl 6 Minuten goldbraun dünsten, Kurkuma und Zimt kurz mitrösten.',
     'Karotte in feine Stifte, Zucchini in Würfel schneiden, 3 Minuten mitdünsten. Reis, Rosinen und 180 ml Wasser zugeben, Deckel auf, 18 Minuten leise garen.',
     'Kichererbsen abspülen, mit dem Spinat auf den Reis geben und 5 Minuten im geschlossenen Topf ziehen lassen, dann locker unterheben.',
-    'Kinderportion abnehmen, Kichererbsen zerdrücken, Rosinen klein hacken, kein Salz. Erwachsene salzen und mit Joghurt oder Zitrone servieren.'
+    'Kinderportion ohne Salz abnehmen. Für das Kind Kichererbsen zerdrücken und Rosinen klein hacken. Erwachsene salzen und mit Joghurt oder Zitrone servieren.'
   ],
   nutri:{p:['Kichererbsen','Reis'],f:['Reis','Karotten','Kichererbsen'],i:['Kichererbsen','Spinat'],fat:['Rapsöl']},
   kidName:'Süßer Karotten-Reis mit Kichererbsen',
@@ -800,7 +800,7 @@ RECIPES.push(
   steps:[
     'Kartoffeln, Karotten und Zwiebel schälen, grob würfeln und zusammen in wenig Wasser 20 Minuten weich kochen.',
     'Lauch in Ringe schneiden und die letzten 5 Minuten mitgaren. Bohnen abspülen und die letzten 3 Minuten obenauf erhitzen.',
-    'Abgießen, etwas Kochwasser auffangen. Alles mit Öl grob stampfen, bei Bedarf Kochwasser zugeben.',
+    'Abgießen, etwas Kochwasser auffangen. Für das Kind ein paar Karottenwürfel beiseitelegen. Kartoffeln, übrige Karotten und Zwiebel mit Öl grob stampfen, bei Bedarf Kochwasser zugeben.',
     'Kinderportion ohne Salz abnehmen, Bohnen sind untergestampft. Erwachsene mit Muskat, Salz, Pfeffer und Petersilie abschmecken.'
   ],
   nutri:{p:['Weiße Bohnen','Kartoffeln'],f:['Kartoffeln','Karotten','Bohnen'],i:['Bohnen','Lauch'],fat:['Rapsöl']},
@@ -862,11 +862,11 @@ RECIPES.push(
     'Zwiebel, Knoblauch und Paprika klein schneiden und in Öl 5 Minuten dünsten. Tomate reiben und mit Paprikapulver und Kurkuma 3 Minuten einkochen.',
     'Reis einrühren, Brühe angießen, grüne Bohnen in Stücken verteilen und ohne Rühren 15 Minuten bei mittlerer Hitze köcheln.',
     'Erbsen und weiße Bohnen obenauf verteilen, 5 Minuten weitergaren, dann vom Herd nehmen und mit Deckel 5 Minuten ruhen lassen.',
-    'Kinderportion mit zerdrückten Bohnen und Erbsen ohne Salz abnehmen. Erwachsene mit Zitrone, Salz und Pfeffer.'
+    'Kinderportion mit weißen Bohnen und Erbsen, beides zerdrückt, ohne Salz abnehmen. Erwachsene mit Zitrone, Salz und Pfeffer.'
   ],
   nutri:{p:['Weiße Bohnen','Erbsen'],f:['Reis','Paprika','Bohnen','Erbsen'],i:['Bohnen','Erbsen'],fat:['Olivenöl']},
   kidName:'Gelber Gemüse-Reis',
-  kid:'Erbsen und Bohnen zerdrücken, Paprika weich und ohne Haut. Der Reis ist durch die Brühe feucht und gut löffelbar.',
+  kid:'Erbsen und weiße Bohnen zerdrücken, Paprika weich und ohne Haut. Der Reis ist durch die Brühe feucht und gut löffelbar.',
   leftover:'Paella-Bällchen · 12 Min. – Kalten Reis zu Bällchen formen und im Ofen oder in der Pfanne garen.',
   extras:['haehnchen','ei','tofu'], tipp:'Kurkuma statt Safran färbt die Paella ebenso gelb und kostet einen Bruchteil.'
 },
@@ -891,7 +891,7 @@ RECIPES.push(
     'Ofen auf 210 °C vorheizen. Kartoffeln in 2 cm Würfel, Blumenkohl in Röschen, Zwiebel in Spalten schneiden. Mit Öl, Kreuzkümmel und Paprika mischen und 18 Minuten backen.',
     'Kichererbsen abspülen und trocken tupfen, mit den Kirschtomaten auf das Blech geben und weitere 10 Minuten rösten.',
     'Tahini mit Zitronensaft und 3 EL Wasser zu einem cremigen Dressing rühren.',
-    'Kinderportion: weiche Blumenkohlröschen, zerdrückte Kartoffeln und Kichererbsen, längs geviertelte Tomaten, ein Klecks Tahini, kein Salz. Erwachsene salzen.'
+    'Kinderportion: weiche Blumenkohlröschen, zerdrückte Kartoffeln, zerdrückte Kichererbsen, längs geviertelte Tomaten, ein Klecks Tahini, kein Salz. Erwachsene salzen.'
   ],
   nutri:{p:['Kichererbsen','Tahini'],f:['Kartoffeln','Blumenkohl','Kichererbsen'],i:['Kichererbsen'],fat:['Olivenöl','Tahini']},
   kidName:'Blumenkohl-Kartoffel-Teller mit Sesamdip',
@@ -1041,7 +1041,7 @@ RECIPES.push(
   ],
   steps:[
     'Tofu ausdrücken und in 2 cm Stücke schneiden, mit der Hälfte des Öls und Paprikapulver mischen und in Paniermehl wälzen.',
-    'Süßkartoffel in 1 cm Stifte, Paprika in Streifen schneiden, mit dem restlichen Öl mischen. Alles im Airfryer 12 Minuten bei 190 °C oder im Ofen 18 Minuten bei 210 °C garen.',
+    'Süßkartoffel in 1 cm Stifte und Paprika in Streifen schneiden, beides mit dem restlichen Öl mischen. Tofu und Gemüse zusammen im Airfryer 12 Minuten bei 190 °C oder im Ofen 18 Minuten bei 210 °C garen.',
     'Brokkoliröschen die letzten 6 Minuten dazugeben, bis sie weich und leicht geröstet sind.',
     'Mit Hummus als Dip anrichten. Kinderportion: ein halbiertes Nugget, weiche Süßkartoffel und Brokkoli, Hummus, kein Salz. Erwachsene salzen.'
   ],
@@ -1220,7 +1220,7 @@ RECIPES.push(
     'Ofen auf 190 °C vorheizen. Kartoffeln, Kohlrabi und Karotte in sehr dünne Scheiben hobeln.',
     'Hüttenkäse mit Milch, Thymian und Muskat verrühren. Gemüse mit Erbsen in eine geölte Form schichten, Käsemilch darübergießen.',
     'Abgedeckt 30 Minuten backen, dann mit Parmesan bestreuen und 10 Minuten offen überbacken, bis ein Messer leicht durch die Scheiben gleitet.',
-    'Kinderportion aus der Mitte ohne Kruste abnehmen, Erbsen zerdrücken, kein Salz. Erwachsene salzen und pfeffern.'
+    'Kinderportion aus der Mitte ohne Kruste und ohne Salz abnehmen, die Erbsen darin zerdrücken. Erwachsene salzen und pfeffern.'
   ],
   nutri:{p:['Hüttenkäse','Milch','Erbsen'],f:['Kartoffeln','Kohlrabi','Erbsen'],i:['Erbsen','Kohlrabi'],fat:['Hüttenkäse','Rapsöl']},
   kidName:'Weiches Kohlrabi-Kartoffel-Gratin',
@@ -1236,7 +1236,7 @@ KIDS.push(
   text:'Kartoffel wird zu einer cremigen Suppe gestampft, fein geschnittener Grünkohl und weiße Bohnen kommen dazu.',
   parts:['Kartoffelcreme','Feiner Grünkohl','Bohnenstampf'], texture:'weich · dick-cremig',
   serve:'Dick wie ein Brei servieren, damit nichts verschluckt wird. Grünkohl sehr fein und weich, Bohnen vollständig zerdrückt.',
-  steps:['Kartoffel und Zwiebel in Wasser 15 Minuten weich kochen und stampfen.','Grünkohl sehr fein schneiden und 8 Minuten in der Suppe weich garen.','Bohnen erhitzen, zerdrücken, mit etwas Olivenöl und ohne Salz lauwarm anbieten.'],
+  steps:['Kartoffel und Zwiebel in Wasser 15 Minuten weich kochen und stampfen.','Grünkohl sehr fein schneiden und 8 Minuten in der Suppe weich garen.','Bohnen erhitzen und zerdrücken. Suppe und Bohnen mit etwas Olivenöl und ohne Salz lauwarm anbieten.'],
   allergens:[], spice:'Ein Faden Olivenöl und etwas Knoblauch, der beim Kochen mitzieht.',
   ing:[{n:'Kartoffeln, mehlig',q:70,u:'g',c:'gemuese'},{n:'Grünkohl, TK',q:30,u:'g',c:'tk'},{n:'Weiße Bohnen (Dose, abgetropft)',q:40,u:'g',c:'vorrat'},{n:'Zwiebel',q:0.25,u:'Stk.',c:'gemuese'}],
   match:['Spanien','Deutschland','Alltag'], base:['kartoffeln'] },
@@ -1252,7 +1252,7 @@ KIDS.push(
   text:'Reis und Linsen werden weich zusammen gekocht, geriebene Karotte und eine Prise Zimt bringen Süße.',
   parts:['Reis & Linsen','Geriebene Karotte','Weiche Apfelstücke'], texture:'weich · körnig-cremig',
   serve:'Rosinen aus dem Original werden durch geriebenen Apfel ersetzt, der ist weich und nicht rund. Reis feucht halten.',
-  steps:['Linsen 10 Minuten vorkochen, Reis zugeben und mit Karotte 18 Minuten weich garen.','Apfel reiben oder in weiche Stücke dünsten.','Mit einer Prise Zimt und etwas Öl, ohne Salz, lauwarm anbieten.'],
+  steps:['Linsen 10 Minuten vorkochen, Reis zugeben und mit Karotte 18 Minuten weich garen.','Apfel reiben oder in weiche Stücke dünsten.','Linsenreis und Apfel mit einer Prise Zimt und etwas Öl, ohne Salz, lauwarm anbieten.'],
   allergens:[], spice:'Zimt und eine Messerspitze Kurkuma: warm und süßlich.',
   ing:[{n:'Reis',q:25,u:'g',c:'vorrat'},{n:'Rote Linsen, trocken',q:15,u:'g',c:'vorrat'},{n:'Karotten',q:0.5,u:'Stk.',c:'gemuese'},{n:'Apfel',q:0.25,u:'Stk.',c:'gemuese'}],
   match:['Persien','Türkei','Nahost'], base:['reis'] },
@@ -1268,9 +1268,9 @@ KIDS.push(
   text:'Kartoffel, Karotte und Lauch in wenig Milch gekocht, dazu vollständig gegarter, zerpflückter Fisch.',
   parts:['Kartoffel & Karotte','Zerpflückter Fisch','Erbsenstampf'], texture:'weich · dick statt wässrig',
   serve:'Wenig Flüssigkeit, viel Einlage. Fisch zweimal auf Gräten prüfen und in Flocken zerpflücken.',
-  steps:['Kartoffel, Karotte und Lauch fein würfeln und 12 Minuten weich kochen.','Fisch 6 Minuten in der Suppe gar ziehen lassen, herausnehmen, entgräten und zerpflücken.','Erbsen zerdrücken, alles mit etwas Milch dick und ohne Salz anbieten.'],
+  steps:['Kartoffel, Karotte und Lauch fein würfeln und in Wasser 12 Minuten weich kochen.','Fisch 6 Minuten in der Suppe gar ziehen lassen, herausnehmen, entgräten und zerpflücken.','Erbsen in den letzten 3 Minuten mitkochen und zerdrücken. Fisch, Gemüse und Erbsen mit etwas Milch dick und ohne Salz anbieten.'],
   allergens:['fisch','milch'], spice:'Frischer Dill, fein gehackt.',
-  ing:[{n:'Seelachs- oder Kabeljaufilet',q:40,u:'g',c:'fisch'},{n:'Kartoffeln',q:50,u:'g',c:'gemuese'},{n:'Karotten',q:0.5,u:'Stk.',c:'gemuese'},{n:'Erbsen, TK',q:30,u:'g',c:'tk'},{n:'Milch',q:30,u:'ml',c:'kuehl'}],
+  ing:[{n:'Seelachs- oder Kabeljaufilet',q:40,u:'g',c:'fisch'},{n:'Kartoffeln',q:50,u:'g',c:'gemuese'},{n:'Karotten',q:0.5,u:'Stk.',c:'gemuese'},{n:'Lauch',q:0.1,u:'Stange',c:'gemuese'},{n:'Erbsen, TK',q:30,u:'g',c:'tk'},{n:'Milch',q:30,u:'ml',c:'kuehl'}],
   match:['Schweden','Norwegen','Alltag'], base:['kartoffeln'] },
 { id:'grossbritannien-kedgeree', land:'Großbritannien', flag:'🇬🇧', region:'Europa', min:25, name:'Mini-Kedgeree (gelber Reis mit Fisch und Ei)',
   text:'Reis mit einer Prise Kurkuma gelb gekocht, dazu zerpflückter Fisch, hartes Ei und zerdrückte Erbsen.',
@@ -1284,7 +1284,7 @@ KIDS.push(
   text:'Kartoffel, Karotte und Zwiebel zusammen weich gekocht und gestampft, dazu untergestampfte weiße Bohnen.',
   parts:['Möhren-Kartoffel-Stampf','Bohnen','Ein Klecks Öl'], texture:'weich · grob gestampft',
   serve:'Grob stampfen, ein paar weiche Karottenwürfel sichtbar daneben. Bohnen vollständig untergestampft.',
-  steps:['Kartoffel, Karotte und Zwiebel würfeln und 20 Minuten weich kochen.','Bohnen die letzten 3 Minuten mitgaren.','Alles mit etwas Rapsöl grob stampfen und ohne Salz lauwarm anbieten.'],
+  steps:['Kartoffel, Karotte und Zwiebel würfeln und 20 Minuten weich kochen.','Bohnen die letzten 3 Minuten mitgaren.','Ein paar Karottenwürfel beiseitelegen. Den Rest mit etwas Rapsöl grob stampfen und ohne Salz lauwarm anbieten.'],
   allergens:[], spice:'Eine Prise Muskat oder gehackte Petersilie.',
   ing:[{n:'Kartoffeln, mehlig',q:60,u:'g',c:'gemuese'},{n:'Karotten',q:1,u:'Stk.',c:'gemuese'},{n:'Zwiebel',q:0.25,u:'Stk.',c:'gemuese'},{n:'Weiße Bohnen (Dose, abgetropft)',q:40,u:'g',c:'vorrat'}],
   match:['Niederlande','Deutschland','Alltag'], base:['kartoffeln'] },
@@ -1292,7 +1292,7 @@ KIDS.push(
   text:'Kartoffel, Paprika und Pute in einer milden Tomatensoße mit Paprika edelsüß weich geschmort.',
   parts:['Weiche Kartoffel','Gehäutete Paprika','Zerzupfte Pute'], texture:'weich · saftig',
   serve:'Paprika häuten oder sehr weich kochen, Pute in Fasern zerzupfen. Kartoffel zerdrücken, Soße darüber.',
-  steps:['Zwiebel in Öl dünsten, eine Prise Paprika edelsüß einrühren.','Kartoffel- und Paprikawürfel mit Pute und passierter Tomate 20 Minuten weich schmoren.','Pute zerzupfen, Kartoffel zerdrücken und ohne Salz mit einem Klecks Joghurt anbieten.'],
+  steps:['Zwiebel in Öl dünsten, eine Prise Paprika edelsüß einrühren.','Kartoffel- und Paprikawürfel mit Pute und passierter Tomate 20 Minuten weich schmoren.','Pute zerzupfen und Kartoffel zerdrücken. Alles ohne Salz mit einem Klecks Joghurt anbieten.'],
   allergens:['milch'], spice:'Paprikapulver edelsüß: rauchig-mild, färbt schön, kein Chili.',
   ing:[{n:'Kartoffeln',q:60,u:'g',c:'gemuese'},{n:'Rote Paprika',q:0.25,u:'Stk.',c:'gemuese'},{n:'Putenbrust',q:30,u:'g',c:'fisch'},{n:'Tomaten, passiert',q:40,u:'ml',c:'vorrat'},{n:'Naturjoghurt',q:20,u:'g',c:'kuehl'}],
   match:['Österreich','Deutschland','Türkei'], base:['kartoffeln'] },
@@ -1300,7 +1300,7 @@ KIDS.push(
   text:'Kleine weiche Grießnockerl in einer dicken Gemüsesuppe mit Karotte, Pastinake und Erbsen.',
   parts:['Weiche Grießnockerl','Karotte & Pastinake','Erbsenstampf'], texture:'weich · Nockerl zerfallen leicht',
   serve:'Nockerl klein formen (bohnengroß) und mit wenig Brühe anbieten. Gemüse weich und klein.',
-  steps:['Grieß mit Ei und etwas Öl verrühren und 10 Minuten quellen lassen.','Karotte und Pastinake fein würfeln, in salzarmer Brühe 12 Minuten weich kochen.','Kleine Nockerl abstechen, 8 Minuten in der Suppe ziehen lassen, Erbsen zerdrücken, ohne Salz servieren.'],
+  steps:['Grieß mit Ei und etwas Öl verrühren und 10 Minuten quellen lassen.','Karotte und Pastinake fein würfeln, in salzarmer Brühe 12 Minuten weich kochen.','Kleine Nockerl abstechen und 8 Minuten in der Suppe ziehen lassen. Erbsen zerdrücken. Alles ohne Salz servieren.'],
   allergens:['gluten','ei'], spice:'Petersilie und eine Prise Muskat im Nockerlteig.',
   ing:[{n:'Weichweizengrieß',q:20,u:'g',c:'vorrat'},{n:'Eier',q:0.5,u:'Stk.',c:'kuehl'},{n:'Karotten',q:0.5,u:'Stk.',c:'gemuese'},{n:'Pastinake',q:0.5,u:'Stk.',c:'gemuese'},{n:'Erbsen, TK',q:30,u:'g',c:'tk'}],
   match:['Österreich','Deutschland'], base:[] },
@@ -1324,7 +1324,7 @@ KIDS.push(
   text:'Pap ist ein weicher Maisbrei, hier mit Kürbis und einer milden Soße aus Rinderhack, Tomate und Karotte.',
   parts:['Maisbrei mit Kürbis','Hack-Tomatensoße','Weiche Karotte'], texture:'weich · löffelbar',
   serve:'Maisbrei weich statt schnittfest, Hack krümelig und vollständig durchgegart. Alles lauwarm.',
-  steps:['Polenta in 150 ml Wasser mit Kürbiswürfeln 10 Minuten weich kochen und zerdrücken.','Hack mit Zwiebel krümelig durchbraten, Karotte reiben, mit passierter Tomate 8 Minuten köcheln.','Beides nebeneinander ohne Salz anbieten.'],
+  steps:['Polenta in 150 ml Wasser mit Kürbiswürfeln 10 Minuten weich kochen. Kürbis und Polenta zusammen zerdrücken.','Hack mit Zwiebel krümelig durchbraten. Karotte reiben. Hack, Karotte und passierte Tomate zusammen 8 Minuten köcheln.','Beides nebeneinander ohne Salz anbieten.'],
   allergens:[], spice:'Etwas Paprika edelsüß und Kreuzkümmel in der Soße.',
   ing:[{n:'Polenta (Maisgrieß)',q:25,u:'g',c:'vorrat'},{n:'Hokkaido-Kürbis',q:40,u:'g',c:'gemuese'},{n:'Rinderhack, mager',q:30,u:'g',c:'fisch'},{n:'Tomaten, passiert',q:40,u:'ml',c:'vorrat'},{n:'Karotten',q:0.5,u:'Stk.',c:'gemuese'}],
   match:['Südafrika','Kenia','Nigeria'], base:['polenta'] },
@@ -1332,7 +1332,7 @@ KIDS.push(
   text:'Dal Bhat ist das tägliche Essen in Nepal: weiche Linsen, Reis und ein mildes Gemüse. Hier mit Spinat und Kartoffel.',
   parts:['Weiche Linsen','Reis','Spinat-Kartoffel'], texture:'weich · dick-cremig',
   serve:'Linsen dick kochen und den Reis daruntermischen, so lässt sich alles löffeln. Spinat fein hacken.',
-  steps:['Linsen mit Kurkuma 15 Minuten weich kochen.','Reis weich garen, Kartoffelwürfel 12 Minuten kochen und Spinat kurz mitgaren.','Alles ohne Salz und ohne Chili lauwarm anbieten, etwas Öl darüber.'],
+  steps:['Linsen mit Kurkuma 15 Minuten weich kochen.','Reis weich garen. Kartoffelwürfel 12 Minuten kochen und Spinat kurz mit den Kartoffeln garen.','Alles ohne Salz und ohne Chili lauwarm anbieten, etwas Öl darüber.'],
   allergens:[], spice:'Kurkuma, eine Prise Kreuzkümmel und Ingwer im Kochwasser.',
   ing:[{n:'Rote Linsen, trocken',q:20,u:'g',c:'vorrat'},{n:'Reis',q:25,u:'g',c:'vorrat'},{n:'Kartoffeln',q:40,u:'g',c:'gemuese'},{n:'Babyspinat',q:15,u:'g',c:'gemuese'}],
   match:['Indien','Nepal'], base:['reis'] },

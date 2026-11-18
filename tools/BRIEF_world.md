@@ -53,6 +53,12 @@ Vorhandene Namen genau so verwenden: 'Rote Paprika', 'Tomaten', 'Tomaten, passie
 Kategorien `c`: gemuese (Gemüse, Obst, frische Kräuter) · vorrat (Getreide, Dosen, Nudeln, Saucen) · kuehl (Milchprodukte, Eier, Tofu, Hummus) · fisch (Fisch UND Fleisch) · tk (Tiefkühl) · brot · gewuerz (Öl, Gewürze, immer mit p:true).
 Gemüsenamen für `veg` bevorzugt aus: Rote Paprika, Tomaten, Kirschtomaten, Mais, Babyspinat, Spinat, Brokkoli, Karotten, Kürbis, Zucchini, Erbsen, Kartoffeln, Süßkartoffel, Avocado, Pilze, Gurke, Blumenkohl, Lauch, Grünkohl, Pak Choi, Zwiebel, Rote Zwiebel, Zuckerschoten, Salat, Frühlingszwiebel, Rote Bete, Apfel, Zitrone, Limette, Aubergine, Grüne Bohnen, Kohl, Weißkohl, Rotkohl, Wirsing, Rosenkohl, Kohlrabi, Fenchel, Sellerie, Pastinake, Okra, Mangold, Spargel, Radieschen, Chinakohl, Bambussprossen, Mango, Ananas, Banane, Kochbanane, Maniok, Yams, Oliven, Artischocke, Rucola, Kräuter.
 
+## Schritte eindeutig formulieren
+Jedes Verb braucht ein klares Objekt. Bekommen zwei Zutaten unterschiedliche Behandlungen, stehen sie in getrennten Sätzen („Kürbis weich dämpfen. Mais erhitzen und zerdrücken.“). Bekommen sie dieselbe, steht das ausdrücklich da („Kürbis und Mais zusammen pürieren“). Keine schwebenden Verben am Ende einer Aufzählung, Pronomen nur wenn eindeutig. Ausführlich: `tools/BRIEF_steps.md`.
+
+## Sojasauce
+Sojasauce, Kecap Manis oder Tamari immer als eigene Zutat führen (Name wie in der Liste oben). Die App bietet dafür automatisch „Andere Sauce wählen“ an und ersetzt die Sauce in Zutaten, Schritten, Allergenen und Einkaufsliste. Im Schritt die Sauce deshalb beim Namen nennen („mit Sojasauce abschmecken“), nicht als „Würze“ oder „Sauce“ umschreiben.
+
 ## Qualität
 Deutsch, sachlich, kurz, keine Ausrufezeichen, kein Marketing. Einfache Anführungszeichen für Strings; ein Apostroph im Text als \' schreiben. Keine Kommentare innerhalb der Objekte nötig. Jede Datei zuerst mit `node --check` prüfen, dann mit dem Prüfskript:
 

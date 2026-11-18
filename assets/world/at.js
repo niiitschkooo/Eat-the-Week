@@ -18,13 +18,13 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Kartoffeln in der Schale 20 Minuten gar kochen, pellen, in dünne Scheiben schneiden und mit heißer Brühe, Essig und fein gewürfelter Zwiebel marinieren. Für das Kind einige Scheiben ohne Marinade beiseitelegen.',
+    'Kartoffeln in der Schale 20 Minuten gar kochen, pellen und in dünne Scheiben schneiden. Für das Kind einige Scheiben ohne Marinade beiseitelegen. Die übrigen Scheiben mit heißer Brühe, Essig und fein gewürfelter Zwiebel marinieren.',
     'Ofen auf 220 °C Umluft vorheizen. Schnitzel dünn klopfen und nacheinander in Mehl, verquirltem Ei und Bröseln wenden.',
     'Schnitzel auf ein Blech mit Backpapier legen, mit dem Öl beträufeln und 12 bis 14 Minuten backen, nach der Hälfte wenden, bis die Panade goldbraun und das Fleisch durchgegart ist. Gurke in dünne Scheiben hobeln und unter den Salat heben.',
     'Kinderportion ungesalzen abnehmen. Erwachsene Schnitzel und Salat mit Pfeffer und wenig Salz würzen.'
   ],
   kidName:'Mini-Schnitzel',
-  kid:'Schnitzel in schmale Streifen zum Greifen schneiden. Kartoffeln ohne Marinade und Gurke geschält in Stiften anbieten.',
+  kid:'Schnitzel in schmale Streifen zum Greifen schneiden. Kartoffelscheiben ohne Marinade anbieten, Gurke geschält in Stiften dazulegen.',
   leftover:'Schnitzel-Wrap · 8 Min. – Schnitzelreste vollständig erhitzen, in Streifen schneiden und mit Salat in eine Vollkorn-Tortilla rollen.',
   tipp:'In der Heißluftfritteuse gelingt das Schnitzel bei 200 °C in 10 Minuten mit nur einem Teelöffel Öl.'
 },
@@ -49,7 +49,7 @@ RECIPES.push(
     'Fleisch kalt abspülen, in einem großen Topf mit Wasser bedecken, aufkochen und den Schaum abschöpfen. Halbierte Zwiebel zugeben und 2 Stunden leise sieden lassen.',
     'Karotten, Sellerie und Lauch in grobe Stücke schneiden und für die letzten 30 Minuten zum Fleisch geben. Kartoffeln separat 20 Minuten gar kochen.',
     'Apfel fein reiben, die Hälfte für das Kind beiseitestellen und den Rest mit Kren mischen. Joghurt mit fein geschnittenem Schnittlauch verrühren.',
-    'Fleisch gegen die Faser in dünne Scheiben schneiden. Kinderportion ungesalzen und ohne Kren abnehmen, dann die Erwachsenen mit Salz, Pfeffer, Apfelkren und Schnittlauchsoße servieren.'
+    'Fleisch gegen die Faser in dünne Scheiben schneiden. Kinderportion ungesalzen und ohne Kren abnehmen, dann die Portionen für die Erwachsenen mit Salz und Pfeffer würzen und mit Apfelkren und Schnittlauchsoße servieren.'
   ],
   kidName:'Mini-Tafelspitz',
   kid:'Fleisch hauchdünn gegen die Faser schneiden und mit etwas Brühe saftig halten. Gemüse weich zerdrücken, geriebenen Apfel ohne Kren dazugeben.',
@@ -131,7 +131,7 @@ RECIPES.push(
   ],
   steps:[
     'Nockerl nach Packungsangabe etwa 12 Minuten garen und abgießen.',
-    'Hähnchen in Streifen schneiden, in Öl 4 Minuten rundum anbraten, bis es durchgegart ist, und herausnehmen. Zwiebel würfeln, Paprika in Streifen schneiden und 5 Minuten im Bratfett dünsten.',
+    'Hähnchen in Streifen schneiden, in Öl 4 Minuten rundum anbraten, bis es durchgegart ist, und herausnehmen. Zwiebel würfeln, Paprika in Streifen schneiden. Beides 5 Minuten im Bratfett dünsten.',
     'Tomatenmark und Paprikapulver kurz unterrühren, mit Brühe ablöschen und 3 Minuten köcheln. Saure Sahne mit Stärke verrühren, unterziehen, Fleisch zurückgeben und kurz erhitzen, ohne zu kochen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Pfeffer, wenig Salz und nach Wunsch scharfem Paprika abschmecken.'
   ],
@@ -187,7 +187,7 @@ RECIPES.push(
   ],
   steps:[
     'Kleine Kartoffeln waschen, halbieren und in Wasser 15 Minuten gar kochen, abgießen und in Butter mit gehackter Petersilie schwenken.',
-    'Feldsalat waschen und Karotte fein raspeln. Essig mit Kürbiskernöl verrühren, aber erst beim Servieren unterheben.',
+    'Feldsalat waschen und Karotte fein raspeln. Essig mit Kürbiskernöl zu einem Dressing verrühren. Das Dressing erst beim Servieren unter Feldsalat und Karotte heben.',
     'Saiblingsfilets trocken tupfen und in Öl auf der Hautseite 4 Minuten knusprig braten, wenden und 1 bis 2 Minuten fertig garen, bis das Fleisch nicht mehr glasig ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene den Fisch mit Zitronensaft, Pfeffer und wenig Salz würzen und den Salat mit dem Dressing anmachen.'
   ],
@@ -326,7 +326,7 @@ RECIPES.push(
   steps:[
     'Eier 10 Minuten hart kochen, kalt abschrecken und schälen.',
     'Bohnen abspülen und abtropfen lassen. Rote Zwiebel sehr fein würfeln, Kirschtomaten vierteln und Feldsalat waschen.',
-    'Bohnen mit Zwiebel, Essig und Kürbiskernöl mischen und 5 Minuten ziehen lassen, dann Salat und Tomaten unterheben und mit Eivierteln belegen.',
+    'Für das Kind einige Bohnen ohne Zwiebel beiseitestellen. Die übrigen Bohnen mit Zwiebel, Essig und Kürbiskernöl mischen und 5 Minuten ziehen lassen. Dann Feldsalat und Tomaten unterheben und den Bohnensalat mit Eivierteln belegen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Pfeffer und wenig Salz würzen und mit Vollkornbrot servieren.'
   ],
   kidName:'Mini-Käferbohnen',

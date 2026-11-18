@@ -21,7 +21,7 @@ RECIPES.push(
     'Karotten in lange, dünne Stifte schneiden, mit Kreuzkümmel zugeben, knapp mit Wasser bedecken und zugedeckt 20 Minuten schmoren.',
     'Gewaschenen Reis und abgespülte Kichererbsen gleichmäßig darauf verteilen, ganze Knoblauchzehen hineindrücken, Wasser 1,5 cm über den Reis gießen und zugedeckt bei kleinster Hitze 30 bis 35 Minuten garen.',
     'Tomaten in dünne Spalten und die restliche Zwiebel in feine Ringe schneiden und als Achichuk-Salat anrichten.',
-    'Kinderportion ohne Salz abnehmen und das Fleisch klein schneiden. Plov für die Erwachsenen mit Salz abschmecken, vermengen und mit dem Salat servieren.'
+    'Kinderportion ohne Salz abnehmen und darin das Fleisch klein schneiden. Plov für die Erwachsenen mit Salz abschmecken, vermengen und mit dem Salat servieren.'
   ],
   kidName:'Mini-Plov',
   kid:'Fleisch sehr klein schneiden, Kichererbsen zerdrücken und Karotten weich garen. Knoblauchzehen herausnehmen, Tomaten ohne Zwiebel und Salz klein würfeln.',
@@ -49,7 +49,7 @@ RECIPES.push(
     'Nudeln in ungesalzenem Wasser nach Packungsangabe garen.',
     'Fleisch in heißem Öl 2 Minuten scharf anbraten. Zwiebel, Karotte und Paprika in feine Streifen schneiden, zugeben und 4 Minuten braten.',
     'Tomaten würfeln und mit Tomatenmark, Knoblauch, Kreuzkümmel und 100 ml Wasser zugeben, dann 5 Minuten zu einer sämigen Sauce köcheln.',
-    'Kinderportion ohne Salz abnehmen und die Nudeln klein schneiden. Erwachsene mit Salz und nach Wunsch Chili würzen und die Sauce über die Nudeln geben.'
+    'Kinderportion ohne Salz abnehmen und die Nudeln für das Kind klein schneiden. Erwachsene mit Salz und nach Wunsch Chili würzen und die Sauce über die Nudeln geben.'
   ],
   kidName:'Mini-Lagman',
   kid:'Nudeln kurz schneiden, Fleisch sehr fein schneiden und das Gemüse weich schmoren. Ohne Chili und Salz servieren.',
@@ -187,7 +187,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Karotten und Radieschen grob raspeln, Zwiebel in feine Ringe schneiden und mit Dill mischen.',
+    'Etwas Karotte und Radieschen für das Kind beiseitelegen. Übrige Karotten und Radieschen grob raspeln und Zwiebel in feine Ringe schneiden, alle drei mit Dill mischen.',
     'Fisch trocken tupfen, in Stücke schneiden, mit Koriander bestreuen und dünn in Mehl wenden.',
     'Fisch in Öl bei mittlerer Hitze je Seite 3 bis 4 Minuten goldbraun braten, bis er innen weiß ist und sich leicht teilen lässt.',
     'Kinderportion ohne Salz abnehmen. Erwachsene Fisch und Salat mit Salz, Pfeffer und Zitronensaft würzen und mit Fladenbrot servieren.'
@@ -216,7 +216,7 @@ RECIPES.push(
   steps:[
     'Reis waschen und in der 1,5-fachen Menge Wasser zugedeckt 12 Minuten garen, dann 5 Minuten ruhen lassen.',
     'Ofen mit Grillfunktion auf 220 °C vorheizen. Lachs in 3-cm-Würfel, Paprika, Zucchini und Zwiebel in Stücke schneiden.',
-    'Alles mit Öl und Kreuzkümmel mischen, abwechselnd auf Spieße stecken und 10 bis 12 Minuten grillen, bis der Fisch innen nicht mehr glasig ist.',
+    'Lachs und Gemüse mit Öl und Kreuzkümmel mischen, abwechselnd auf Spieße stecken und 10 bis 12 Minuten grillen, bis der Fisch innen nicht mehr glasig ist.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und Zitronensaft würzen und den Reis mit Dill mischen.'
   ],
   kidName:'Fisch-Gemüse-Spießchen',
@@ -247,7 +247,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen. Erwachsene Kichiri salzen, Zwiebel-Karotten darauf verteilen und mit Joghurt und Salat servieren.'
   ],
   kidName:'Mungbohnen-Brei',
-  kid:'Kichiri weich und breiig garen, Röstzwiebeln fein hacken und mit Joghurt ohne Salz unterrühren. Tomaten und Gurke in kleinen Würfeln dazu.',
+  kid:'Kichiri weich und breiig garen. Röstzwiebeln fein hacken und mit Joghurt unter den Kichiri rühren, ohne Salz. Tomaten und Gurke in kleinen Würfeln dazu.',
   leftover:'Kichiri-Bratlinge · 15 Min. – den fest gewordenen Rest zu flachen Bratlingen formen und in wenig Öl von beiden Seiten durchbraten.',
   tipp:'Mungbohnen 2 Stunden einweichen verkürzt die Garzeit um etwa 10 Minuten.'
 },

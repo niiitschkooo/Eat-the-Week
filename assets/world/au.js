@@ -49,7 +49,7 @@ RECIPES.push(
     'Ofen auf 220 °C vorheizen. Kartoffeln in Spalten schneiden, mit der Hälfte des Öls mischen und auf dem Blech 10 Minuten vorbacken.',
     'Hähnchenbrust waagerecht halbieren und flach drücken, erst durch verquirltes Ei, dann durch Paniermehl ziehen und mit dem restlichen Öl beträufeln.',
     'Schnitzel auf das Blech legen und 12 Minuten backen, dann mit passierten Tomaten, Oregano und Mozzarella belegen und weitere 6 bis 8 Minuten backen, bis der Käse schmilzt und das Fleisch vollständig durchgegart ist.',
-    'Kinderportion ungesalzen abnehmen und in Streifen schneiden. Erwachsene mit Salz und Pfeffer würzen und mit Salat servieren.'
+    'Kinderportion ungesalzen abnehmen und das Schnitzel dafür in Streifen schneiden. Erwachsene mit Salz und Pfeffer würzen und mit Salat servieren.'
   ],
   nutri:{p:['Hähnchen','Käse'],f:['Kartoffeln','Tomaten','Salat'],i:['Hähnchen'],fat:['Olivenöl','Käse']},
   kidName:'Mini-Parmi',
@@ -75,7 +75,7 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln schälen, würfeln und in 15 Minuten weich kochen, in den letzten 4 Minuten die Erbsen zugeben.',
-    'Karotte fein raspeln, Zwiebel fein würfeln und mit Hack, Haferflocken und Ei verkneten. Zu kleinen flachen Frikadellen formen.',
+    'Karotte fein raspeln, Zwiebel fein würfeln. Beides mit Hack, Haferflocken und Ei verkneten. Zu kleinen flachen Frikadellen formen.',
     'Frikadellen in Öl bei mittlerer Hitze pro Seite 5 Minuten braten, bis sie innen vollständig durchgegart sind.',
     'Kartoffeln und Erbsen abgießen und mit warmer Milch stampfen. Kinderportion ungesalzen abnehmen, dann Erwachsene mit Salz und Pfeffer würzen.'
   ],
@@ -132,7 +132,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 200 °C vorheizen. Lamm mit gehacktem Knoblauch, Rosmarin und etwas Öl einreiben.',
-    'Kartoffeln, Süßkartoffel und Karotten in große Stücke, Zwiebel in Spalten schneiden, mit dem restlichen Öl auf dem Blech mischen und das Lamm in die Mitte legen.',
+    'Kartoffeln, Süßkartoffel und Karotten in große Stücke, Zwiebel in Spalten schneiden. Das ganze Gemüse mit dem restlichen Öl auf dem Blech mischen und das Lamm in die Mitte legen.',
     'Etwa 45 Minuten rösten, bis das Lamm eine Kerntemperatur von mindestens 70 °C hat und das Gemüse weich ist, Erbsen in den letzten 8 Minuten mit aufs Blech geben. Lamm 10 Minuten ruhen lassen und die Erbsen mit gehackter Minze mischen.',
     'Kinderportion ungesalzen abnehmen und das Lamm dafür in sehr dünne Scheiben schneiden. Erwachsene mit Salz und Pfeffer würzen.'
   ],
@@ -273,12 +273,12 @@ RECIPES.push(
   steps:[
     'Ofen auf 180 °C vorheizen. Zucchini und Karotte grob raspeln, Zwiebel fein würfeln.',
     'Eier mit Mehl, Öl und der Hälfte des Käses verquirlen und das Gemüse unterheben.',
-    'In eine mit Backpapier ausgelegte Form füllen, mit restlichem Käse bestreuen und 30 Minuten backen, bis die Masse fest und goldbraun und das Ei vollständig gestockt ist.',
+    'Die Masse in eine mit Backpapier ausgelegte Form füllen, mit restlichem Käse bestreuen und 30 Minuten backen, bis die Masse fest und goldbraun und das Ei vollständig gestockt ist.',
     'Kinderportion abnehmen, etwas abkühlen lassen und in Fingerstreifen schneiden. Erwachsene mit Pfeffer würzen und mit Salat servieren, Salz ist dank Käse kaum nötig.'
   ],
   nutri:{p:['Eier','Käse'],f:['Zucchini','Karotten','Vollkornmehl'],i:['Eier'],fat:['Rapsöl','Käse']},
   kidName:'Zucchini-Fingerschnitten',
-  kid:'In fingerlange Streifen schneiden, die das Kind selbst greifen kann; das Ei ist vollständig durchgebacken. Nicht nachsalzen.',
+  kid:'Den Slice in fingerlange Streifen schneiden, die das Kind selbst greifen kann; das Ei ist vollständig durchgebacken. Nicht nachsalzen.',
   leftover:'Slice-Brotdose · 2 Min. – Kalte Stücke mit Gurke und Tomaten als Brotzeit einpacken.',
   extras:[], tipp:'Zucchini Slice gehört in Australien in jede Brotdose und lässt sich gut einfrieren.'
 },
@@ -329,9 +329,9 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 220 °C vorheizen. Mehl, Backpulver und Joghurt zu einem weichen Teig verkneten, zu einem flachen Laib formen, kreuzweise einschneiden und 20 bis 25 Minuten backen.',
+    'Ofen auf 220 °C vorheizen. Mehl, Backpulver und Joghurt zu einem weichen Teig verkneten, zu einem flachen Laib formen, kreuzweise einschneiden und das Brot (Damper) 20 bis 25 Minuten backen.',
     'Zwiebel, Kürbis und Karotte würfeln und in Öl 3 Minuten andünsten.',
-    'Linsen abspülen, mit Brühe und Muskat zugeben und 18 Minuten köcheln, bis alles weich ist, dann fein pürieren.',
+    'Linsen abspülen, mit Brühe und Muskat zugeben und 18 Minuten köcheln, bis alles weich ist. Dann die ganze Suppe fein pürieren.',
     'Kinderportion ungesalzen abnehmen und etwas abkühlen lassen. Erwachsene mit Salz und Pfeffer würzen und mit warmem Damper servieren.'
   ],
   nutri:{p:['Rote Linsen','Vollkornmehl'],f:['Kürbis','Linsen','Vollkornmehl'],i:['Linsen'],fat:['Rapsöl']},
@@ -358,7 +358,7 @@ RECIPES.push(
     {n:'Olivenöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 200 °C vorheizen. Kürbis mit Schale in Würfel und Zwiebel in Spalten schneiden, mit Kichererbsen, Kreuzkümmel und Öl mischen und 25 Minuten rösten, Kürbiskerne in den letzten 3 Minuten mit aufs Blech geben.',
+    'Ofen auf 200 °C vorheizen. Kürbis mit Schale in Würfel und Zwiebel in Spalten schneiden. Beides mit Kichererbsen, Kreuzkümmel und Öl mischen und 25 Minuten rösten, Kürbiskerne in den letzten 3 Minuten mit aufs Blech geben.',
     'Quinoa gründlich spülen und in der doppelten Menge Wasser etwa 15 Minuten garen.',
     'Quinoa mit Spinat und dem warmen Ofengemüse mischen, damit der Spinat leicht zusammenfällt.',
     'Kinderportion abnehmen, Kichererbsen zerdrücken und den Kürbis weich lassen. Erwachsene mit Feta, Kürbiskernen, Zitronensaft, Salz und Pfeffer würzen.'

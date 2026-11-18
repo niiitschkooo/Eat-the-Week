@@ -135,7 +135,7 @@ RECIPES.push(
     'Kinderportion ungewürzt abnehmen. Gochujang mit Sojasauce und 2 EL Wasser verrühren und 1 Minute unter den Rest schwenken.'
   ],
   kidName:'Mildes Schwein mit Gemüse',
-  kid:'Fleisch sehr fein schneiden und Gemüse weich und klein anbieten. Ohne Gochujang, dafür mit etwas Reis und Bratflüssigkeit mischen.',
+  kid:'Fleisch sehr fein schneiden und Gemüse weich und klein anbieten. Fleisch und Gemüse ohne Gochujang mit etwas Reis und Bratflüssigkeit mischen.',
   leftover:'Jeyuk-Reisbowl · 8 Min. – Reste vollständig erhitzen und mit Gurke und einem hart gekochten Ei auf Reis servieren.',
   tipp:'Mit Salatblättern und Reis zum Einwickeln wird daraus ein Ssam-Abend.'
 },
@@ -303,7 +303,7 @@ RECIPES.push(
     'Kinderportion ungewürzt abnehmen. Doenjang mit etwas Brühe glatt rühren, in den Rest rühren, 2 Minuten ziehen lassen und mit Frühlingszwiebel servieren.'
   ],
   kidName:'Milder Tofu-Gemüse-Topf',
-  kid:'Kartoffel und Zucchini zerdrücken, Tofu klein würfeln und mit Reis und wenig Brühe dick anbieten. Doenjang erst nach der Kinderportion, die Paste ist salzig.',
+  kid:'Kartoffel und Zucchini zerdrücken, Tofu klein würfeln. Gemüse und Tofu mit Reis und wenig Brühe dick anbieten. Doenjang erst nach der Kinderportion, die Paste ist salzig.',
   leftover:'Doenjang-Reistopf · 8 Min. – Reste mit Reis zu einem dicken Eintopf einkochen.',
   tipp:'Doenjang ist kräftiger als helles Miso, ein Esslöffel reicht für eine ganze Erwachsenenportion.'
 },

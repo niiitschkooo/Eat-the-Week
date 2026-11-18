@@ -24,7 +24,7 @@ RECIPES.push(
     'Kinderportion ohne Salz und Chili abnehmen. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen.'
   ],
   kidName:'Milder Ingwer-Reis',
-  kid:'Rindfleisch sehr klein schneiden, Erbsen leicht andrücken und alles mit dem weichen Reis mischen. Ohne Salz und Chili.',
+  kid:'Rindfleisch sehr klein schneiden, Erbsen leicht andrücken. Fleisch und Erbsen mit dem weichen Reis mischen. Ohne Salz und Chili.',
   leftover:'Jollof-Pfanne · 10 Min. – Reste mit einem Schuss Wasser und etwas Spinat in der Pfanne vollständig durcherhitzen.',
   tipp:'In Ghana wird Jollof mit Duftreis gekocht, Vollkornreis bringt mehr Ballaststoffe und braucht etwas länger.'
 },
@@ -105,7 +105,7 @@ RECIPES.push(
     'Reismasse mit nassen Händen zu Bällchen formen. Kinderportion ohne Salz und Chili abnehmen, Erwachsene mit Salz und nach Wunsch Chiliflocken würzen.'
   ],
   kidName:'Erdnusssuppe mit Reisbällchen',
-  kid:'Hähnchen fein zerzupfen, Reisbällchen klein drücken und mit der sämigen Suppe mischen. Erdnuss nur als glattes Mus, ohne Salz und Chili.',
+  kid:'Hähnchen fein zerzupfen, Reisbällchen klein drücken. Hähnchen und Reis mit der sämigen Suppe mischen. Erdnuss nur als glattes Mus, ohne Salz und Chili.',
   tipp:'Erdnussmus ohne Zucker und Salz verwenden, die Suppe dickt beim Stehen noch nach.'
 },
 {
@@ -181,7 +181,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 220 °C vorheizen. Ingwer reiben und mit Paprikapulver und dem Öl verrühren.',
     'Kochbanane schälen, in 2 cm Würfel schneiden, mit der Hälfte der Ingwer-Mischung vermengen und auf dem Blech 10 Minuten backen.',
-    'Fleisch, Paprika und Zwiebel in Stücken abwechselnd auf Spieße stecken, mit der restlichen Mischung bestreichen und neben die Kochbanane legen. Alles 12 bis 15 Minuten backen und einmal wenden, bis das Fleisch durchgegart ist.',
+    'Fleisch, Paprika und Zwiebel in Stücken abwechselnd auf Spieße stecken, mit der restlichen Mischung bestreichen und neben die Kochbanane legen. Spieße und Kochbanane 12 bis 15 Minuten backen und dabei einmal wenden, bis das Fleisch durchgegart ist.',
     'Tomate würfeln. Kinderportion ohne Salz und Chili abnehmen, Erwachsene Spieße und Kelewele mit Salz und nach Wunsch Chiliflocken würzen.'
   ],
   kidName:'Fleisch-Stückchen mit Ofen-Kochbanane',
@@ -211,7 +211,7 @@ RECIPES.push(
     'Kinderportion ohne Salz und Chili abnehmen. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen und mit den Klößchen servieren.'
   ],
   kidName:'Weiche Mais-Klößchen mit Spinat',
-  kid:'Polenta weich kochen, Rindfleisch sehr fein schneiden und unter die Spinatsuppe mischen. Ohne Salz und Chili.',
+  kid:'Polenta weich kochen. Rindfleisch sehr fein schneiden und unter die Spinatsuppe mischen. Ohne Salz und Chili.',
   tipp:'Ayoyo sind Jute-Blätter aus dem Norden Ghanas, im Afroshop gibt es sie tiefgekühlt als Molokhia.'
 },
 {
@@ -263,7 +263,7 @@ RECIPES.push(
     'Kinderportion ohne Salz und Chili abnehmen und den Fisch entgräten. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen.'
   ],
   kidName:'Okra-Fisch mit Reis',
-  kid:'Fisch entgräten und zerpflücken, Okra sehr weich garen und klein schneiden, dann mit Reis mischen. Ohne Salz und Chili.',
+  kid:'Fisch entgräten und zerpflücken, Okra sehr weich garen und klein schneiden. Fisch und Okra mit Reis mischen. Ohne Salz und Chili.',
   tipp:'Okra nur kurz garen und wenig rühren, dann bleibt die Soße stückig statt schleimig.'
 },
 {

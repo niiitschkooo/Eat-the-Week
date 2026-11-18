@@ -380,7 +380,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen und Linsen leicht zerdrücken. Erwachsene salzen, nach Wunsch frische Chili dazu nehmen und mit Reis servieren.'
   ],
   kidName:'Weiche Tomatenlinsen mit Reis',
-  kid:'Linsen sehr weich kochen und leicht zerdrücken, Gemüse fein würfeln. Mit Reis mischen, ohne Salz und Chili.',
+  kid:'Linsen sehr weich kochen und leicht zerdrücken, Gemüse fein würfeln. Linsen und Gemüse mit Reis mischen, ohne Salz und Chili.',
   leftover:'Linsen-Wrap · 5 Min. – Reste vollständig erhitzen und mit Avocado in eine Vollkorn-Tortilla rollen.',
   tipp:'Kamande ist das Kikuyu-Wort für Linsen; der Eintopf schmeckt auch mit Ugali oder Chapati.'
 },

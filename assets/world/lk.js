@@ -50,7 +50,7 @@ RECIPES.push(
     'Mehl mit Kokosraspeln, einem Viertel der Zwiebel sehr fein gehackt und etwa 45 ml Wasser zu einem weichen Teig kneten und 10 Minuten ruhen lassen.',
     'Restliche Zwiebel und Curryblätter in Öl 3 Minuten dünsten, Currypulver kurz mitrösten. Gewürfelte Tomate, abgespülte Kichererbsen und Kokosmilch zugeben und 10 Minuten köcheln, Spinat zum Schluss unterheben.',
     'Teig in 2 bis 3 Stücke teilen, mit feuchten Händen 5 mm dick flach drücken und in einer Pfanne ohne Fett je Seite 3 bis 4 Minuten backen, bis die Fladen fest und leicht gebräunt sind.',
-    'Kinderportion ungesalzen abnehmen, Curryblätter entfernen und Kichererbsen zerdrücken. Erwachsene mit Salz und nach Wunsch grüner Chili würzen.'
+    'Kinderportion ungesalzen abnehmen, Curryblätter entfernen und die Kichererbsen der Kinderportion zerdrücken. Erwachsene mit Salz und nach Wunsch grüner Chili würzen.'
   ],
   nutri:{p:['Kichererbsen','Vollkornmehl'],f:['Kichererbsen','Vollkornmehl','Kokos'],i:['Kichererbsen','Spinat'],fat:['Kokos','Rapsöl']},
   kidName:'Mini-Pol-Roti',
@@ -79,7 +79,7 @@ RECIPES.push(
     'Cashewkerne 30 Minuten in heißem Wasser einweichen, damit sie weich werden. Reis in der doppelten Menge Wasser 25 Minuten garen.',
     'Zwiebel und Curryblätter in Öl 3 Minuten dünsten. Abgetropfte Cashews, Karottenwürfel, Kurkuma, Zimt und 100 ml Wasser zugeben und 12 Minuten köcheln, bis die Cashews weich sind.',
     'Kokosmilch und Erbsen zugeben und 5 Minuten weiterköcheln.',
-    'Kinderportion ungesalzen abnehmen, Curryblätter entfernen und die Cashews zerdrücken. Erwachsene mit Salz und nach Wunsch Chili würzen.'
+    'Kinderportion ungesalzen abnehmen, Curryblätter entfernen und die Cashews der Kinderportion zerdrücken. Erwachsene mit Salz und nach Wunsch Chili würzen.'
   ],
   nutri:{p:['Cashews','Erbsen'],f:['Erbsen','Vollkornreis','Karotten'],i:['Cashews','Erbsen'],fat:['Cashews','Kokosmilch']},
   kidName:'Mini-Kaju-Curry',
@@ -135,13 +135,13 @@ RECIPES.push(
   ],
   steps:[
     'Eier 10 Minuten hart kochen, abschrecken und schälen. Reisnudeln nach Packungsangabe 4 bis 5 Minuten in heißem Wasser ziehen lassen und abgießen.',
-    'Für das Kiri Hodi Zwiebel in Streifen, Tomate in Würfel und Karotte in feine Stifte schneiden. Mit Curryblättern, Kurkuma, Kokosmilch und 100 ml Wasser 8 Minuten sanft köcheln.',
+    'Für das Kiri Hodi Zwiebel in Streifen, Tomate in Würfel und Karotte in feine Stifte schneiden. Das Gemüse mit Curryblättern, Kurkuma, Kokosmilch und 100 ml Wasser 8 Minuten sanft köcheln.',
     'Spinat und die halbierten Eier zugeben und 2 Minuten ziehen lassen. Nudeln zu kleinen Nestern drehen und die Soße darübergeben.',
     'Kinderportion ungesalzen abnehmen und die Curryblätter entfernen. Erwachsene mit Salz, Zitronensaft und nach Wunsch Chiliflocken würzen.'
   ],
   nutri:{p:['Eier'],f:['Spinat','Karotten'],i:['Eier','Spinat'],fat:['Kokosmilch','Eigelb']},
   kidName:'Mini-Indi-Appa',
-  kid:'Reisnudeln in kurze Stücke schneiden, Ei fein hacken und alles mit der milden Kokos-Soße mischen. Karotten weich garen, ohne Salz.',
+  kid:'Reisnudeln in kurze Stücke schneiden, Ei fein hacken und beides mit der milden Kokos-Soße mischen. Karotten weich garen, ohne Salz.',
   leftover:'Kokos-Nudelpfanne · 8 Min. – Reste mit etwas Wasser in der Pfanne vollständig erhitzen.',
   extras:['kichererbsen','tofu','linsen'], tipp:'Echte Indi Appa werden aus Reismehlteig gepresst, dünne Reisnudeln sind ein schneller Alltagsersatz.'
 },
@@ -193,9 +193,9 @@ RECIPES.push(
   ],
   steps:[
     'Mungbohnen waschen und mit Kurkuma in 500 ml Wasser 30 Minuten weich kochen. Reis parallel in der doppelten Menge Wasser 25 Minuten garen.',
-    'Bohnen und Karotte klein schneiden, zu den Mungbohnen geben und 8 Minuten mitkochen. Kokosmilch einrühren.',
-    'Senfsamen in Öl in einer kleinen Pfanne erhitzen, bis sie springen, Zwiebel und Curryblätter 3 Minuten goldbraun braten und über das Curry geben.',
-    'Kinderportion ungesalzen abnehmen, Curryblätter entfernen und die Mungbohnen leicht zerdrücken. Erwachsene mit Salz und nach Wunsch Chili würzen.'
+    'Grüne Bohnen und Karotte klein schneiden, zu den Mungbohnen geben und 8 Minuten mitkochen. Kokosmilch einrühren.',
+    'Senfsamen in Öl in einer kleinen Pfanne erhitzen, bis sie springen. Zwiebel und Curryblätter zugeben und 3 Minuten goldbraun braten. Den Pfanneninhalt über das Curry geben.',
+    'Kinderportion ungesalzen abnehmen, Curryblätter entfernen und die Mungbohnen der Kinderportion leicht zerdrücken. Erwachsene mit Salz und nach Wunsch Chili würzen.'
   ],
   nutri:{p:['Mungbohnen','Vollkornreis'],f:['Mungbohnen','Bohnen','Vollkornreis'],i:['Mungbohnen'],fat:['Kokosmilch','Rapsöl']},
   kidName:'Mini-Mungbohnen-Curry',
@@ -252,13 +252,13 @@ RECIPES.push(
   ],
   steps:[
     'Reis in der 1,5-fachen Menge Wasser 12 Minuten garen.',
-    'Zwiebel in Streifen, Tomate und Zucchini in Würfel schneiden. Mit Curryblättern, Kurkuma, Zimt, Kokosmilch und 50 ml Wasser in der Pfanne 6 Minuten sanft köcheln.',
+    'Zwiebel in Streifen, Tomate und Zucchini in Würfel schneiden. Das Gemüse mit Curryblättern, Kurkuma, Zimt, Kokosmilch und 50 ml Wasser in der Pfanne 6 Minuten sanft köcheln.',
     'Fisch in große Stücke schneiden, in die Soße legen und zugedeckt bei kleiner Hitze 6 bis 7 Minuten gar ziehen lassen, ohne umzurühren.',
     'Kinderportion ungesalzen abnehmen und die Curryblätter entfernen. Erwachsene mit Salz, Limettensaft und nach Wunsch grüner Chili würzen.'
   ],
   nutri:{p:['Seelachs'],f:['Zucchini','Tomaten'],i:['Seelachs'],fat:['Kokosmilch']},
   kidName:'Mini-Kiri-Malu',
-  kid:'Fisch auf Gräten prüfen und zerpflücken, Zucchini zerdrücken und alles mit Reis und der milden Kokos-Soße mischen. Ohne Salz und Chili.',
+  kid:'Fisch auf Gräten prüfen und zerpflücken, Zucchini zerdrücken und beides mit Reis und der milden Kokos-Soße mischen. Ohne Salz und Chili.',
   leftover:'Fisch-Kokos-Nudeln · 8 Min. – Reste mit Wasser und Reisnudeln verlängern und vollständig erhitzen.',
   extras:['kichererbsen','linsen'], tipp:'Weiße Currys ohne Chili sind in Sri Lanka das klassische Familienessen für Kinder.'
 },
@@ -281,7 +281,7 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln schälen, würfeln und in Wasser 15 Minuten weich kochen, abgießen und fein zerstampfen. Ofen auf 210 °C vorheizen.',
-    'Zwiebel und Curryblätter sehr fein hacken und in der Hälfte des Öls 3 Minuten dünsten. Mit dem abgetropften Thunfisch und einem Spritzer Limette unter die Kartoffeln mischen.',
+    'Zwiebel und Curryblätter sehr fein hacken und in der Hälfte des Öls 3 Minuten dünsten. Zwiebel und Curryblätter mit dem abgetropften Thunfisch und einem Spritzer Limette unter die Kartoffeln mischen.',
     'Masse zu walnussgroßen Bällchen formen, erst im verquirlten Ei, dann in Semmelbröseln wälzen. Auf ein Blech mit Backpapier setzen, mit restlichem Öl beträufeln und 20 Minuten goldbraun backen (Heißluftfritteuse: 12 Minuten bei 200 °C).',
     'Tomate und Gurke würfeln und als Salat dazu reichen.',
     'Kinderportion ohne Würze abnehmen. Erwachsene salzen und pfeffern am Tisch und nehmen nach Wunsch einen Chili-Dip dazu.'
@@ -317,7 +317,7 @@ RECIPES.push(
   ],
   nutri:{p:['Hähnchen'],f:['Bohnen','Tomaten'],i:['Hähnchen','Bohnen'],fat:['Kokosmilch','Rapsöl']},
   kidName:'Mini-Kukul-Curry',
-  kid:'Hähnchen klein zerzupfen, Bohnen sehr weich garen und klein schneiden, alles mit Reis und Kokossoße vermengen. Ohne Salz und Chili.',
+  kid:'Hähnchen klein zerzupfen, Bohnen sehr weich garen und klein schneiden, beides mit Reis und Kokossoße vermengen. Ohne Salz und Chili.',
   leftover:'Curry-Reis-Pfanne · 8 Min. – Reste mit etwas Wasser in der Pfanne vollständig erhitzen.',
   extras:['kichererbsen','linsen'], tipp:'Sri-lankisches Currypulver wird dunkel geröstet, normales Currypulver 1 Minute ohne Fett angeröstet kommt dem nahe.'
 },
@@ -370,7 +370,7 @@ RECIPES.push(
   steps:[
     'Tortillas in 1 cm breite Streifen schneiden. Kohl, Karotte und Lauch in feine Streifen, Hähnchen in kleine Würfel schneiden.',
     'Hähnchen in Öl 4 Minuten anbraten, bis es durchgegart ist. Zwiebel, Curryblätter, Currypulver und Gemüse zugeben und 3 Minuten unter Rühren braten.',
-    'Ei in die Pfanne schlagen und unter Rühren vollständig stocken lassen. Tortillastreifen und 2 EL Wasser untermischen und 1 Minute weiterbraten, dabei mit dem Pfannenwender klein hacken.',
+    'Ei in die Pfanne schlagen und unter Rühren vollständig stocken lassen. Tortillastreifen und 2 EL Wasser untermischen und 1 Minute weiterbraten, dabei alles in der Pfanne mit dem Pfannenwender klein hacken.',
     'Kinderportion ungesalzen abnehmen und die Curryblätter entfernen. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen.'
   ],
   nutri:{p:['Hähnchen','Ei'],f:['Vollkorn-Tortillas','Kohl','Karotten'],i:['Hähnchen','Ei'],fat:['Rapsöl']},
@@ -405,7 +405,7 @@ RECIPES.push(
   ],
   nutri:{p:['Rinderhack','Ei'],f:['Aubergine','Tomaten'],i:['Rinderhack','Ei'],fat:['Rapsöl']},
   kidName:'Mini-Lamprais',
-  kid:'Frikadellen vollständig durchgaren und zerkleinern, Ei fein hacken, Aubergine zerdrücken und alles mit dem Reis mischen. Ohne Salz und Chili.',
+  kid:'Frikadellen vollständig durchgaren und zerkleinern, Ei fein hacken, Aubergine zerdrücken und alle drei mit dem Reis mischen. Ohne Salz und Chili.',
   leftover:'Lamprais-Pfanne · 10 Min. – Päckcheninhalt mit etwas Wasser in der Pfanne vollständig erhitzen.',
   extras:['joghurt'], tipp:'Traditionell wird Lamprais in Bananenblätter gewickelt, die es tiefgekühlt im Asialaden gibt und die ein feines Aroma abgeben.'
 },

@@ -102,7 +102,7 @@ const RECIPES = [
   steps:[
     'Ofen auf 200 °C vorheizen. Kartoffeln in dünne Scheiben schneiden, mit Öl mischen und 12 Minuten vorbacken.',
     'Brokkoliröschen und Lachs auf das Blech legen, weitere 12 bis 14 Minuten backen, bis der Fisch gerade durch ist.',
-    'Kinderportion mit Lachs nochmals auf Gräten prüfen und zerpflücken.',
+    'Lachs für die Kinderportion nochmals auf Gräten prüfen und zerpflücken.',
     'Erwachsene mit Zitrone, Dill und Salz servieren.'
   ],
   nutri:{p:['Lachs'],f:['Kartoffeln','Brokkoli'],i:['Brokkoli'],fat:['Lachs (Omega-3)','Olivenöl']},
@@ -130,7 +130,7 @@ const RECIPES = [
     'Reis aufsetzen. Zwiebel würfeln und in Öl glasig dünsten, Currypulver kurz mitrösten.',
     'Blumenkohl in kleine Röschen teilen, mit passierten Tomaten und Kokosmilch 12 Minuten weich köcheln.',
     'Kichererbsen und Spinat zugeben und 3 Minuten durchwärmen.',
-    'Kinderportion abnehmen und Kichererbsen zerdrücken. Erwachsene mit Salz und etwas Chili abschmecken.'
+    'Kinderportion abnehmen und die Kichererbsen darin zerdrücken. Erwachsene mit Salz und etwas Chili abschmecken.'
   ],
   nutri:{p:['Kichererbsen','Vollkornreis'],f:['Blumenkohl','Kichererbsen','Reis'],i:['Kichererbsen','Spinat'],fat:['Kokosmilch','Rapsöl']},
   kid:'Blumenkohl sehr weich garen, Kichererbsen zerdrücken. Curry ist mild, Chili erst später.',
@@ -183,7 +183,7 @@ const RECIPES = [
     'Ofen auf 210 °C vorheizen. Kürbis, Kartoffeln, Zucchini, Paprika und Zwiebel in gleichgroße Stücke schneiden.',
     'Mit Öl und Paprikapulver mischen, auf dem Blech verteilen, 20 Minuten backen.',
     'Kichererbsen darüberstreuen, Feta zerbröseln, weitere 8 bis 10 Minuten backen.',
-    'Für das Kind Gemüse ohne Feta-Kruste und ohne Salz abnehmen, Kichererbsen zerdrücken.'
+    'Für das Kind Gemüse ohne Feta-Kruste und ohne Salz abnehmen und die Kichererbsen darin zerdrücken.'
   ],
   nutri:{p:['Kichererbsen','Feta'],f:['Kürbis','Kartoffeln','Paprika'],i:['Kichererbsen'],fat:['Olivenöl','Feta']},
   kid:'Weiche Gemüsestücke ohne Kruste wählen, Kichererbsen zerdrücken. Feta ist salzig, für das Kind nur sehr wenig.',
@@ -313,7 +313,7 @@ const RECIPES = [
     {n:'Kreuzkümmel, gemahlen',q:0.25,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Paprika würfeln und in Öl 5 Minuten dünsten. Bohnen und Mais zugeben, erhitzen und einen Teil grob zerdrücken.',
+    'Paprika würfeln und in Öl 5 Minuten dünsten. Bohnen und Mais zugeben und erhitzen. Einen Teil von Bohnen und Mais grob zerdrücken.',
     'Avocado zerdrücken, Tomate würfeln, Salat in Streifen schneiden.',
     'Tortillas in der trockenen Pfanne kurz erwärmen.',
     'Kinderteller: Bohnenmus, weiche Tortilla-Streifen, Avocado. Erwachsene füllen mit allem und würzen mit Limette und Kreuzkümmel.'
@@ -396,7 +396,7 @@ const RECIPES = [
   ],
   steps:[
     'Reis garen. Kürbis würfeln und in wenig Wasser 10 Minuten weich dämpfen.',
-    'Zwiebel und Knoblauch in Öl anschwitzen, Bohnen mit etwas Wasser und Lorbeer 10 Minuten köcheln, einen Teil zerdrücken.',
+    'Zwiebel und Knoblauch in Öl anschwitzen. Bohnen mit etwas Wasser und Lorbeer 10 Minuten köcheln und einen Teil der Bohnen zerdrücken.',
     'Tomate würfeln, Avocado in Stücke schneiden.',
     'Als Baukastenteller anrichten. Kinderportion: Bohnen zerdrückt und cremig, Avocado weich, ohne Salz.'
   ],
@@ -419,7 +419,7 @@ const RECIPES = [
     {n:'Paprikapulver, edelsüß',q:0.5,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Kichererbsen trocken tupfen, in Öl mit Paprikapulver 8 Minuten knusprig braten.',
+    'Für das Kind 2 EL Kichererbsen beiseitestellen und mit der Gabel zerdrücken. Die übrigen Kichererbsen trocken tupfen und in Öl mit Paprikapulver 8 Minuten knusprig braten.',
     'Polenta in 300 ml Wasser oder Milch unter Rühren 5 bis 8 Minuten cremig kochen, Käse unterrühren.',
     'Brokkoli in wenig Wasser 6 Minuten weich garen.',
     'Kinderportion: weiche Polenta, zerdrückte (nicht knusprige) Kichererbsen, weicher Brokkoli, ohne Salz.'
@@ -499,7 +499,7 @@ const RECIPES = [
   steps:[
     'Kartoffeln und Karotten schälen, grob würfeln und 20 Minuten weich kochen.',
     'Brokkoli in den letzten 7 Minuten mitgaren oder separat dämpfen.',
-    'Kartoffeln und Karotten mit warmer Milch und Öl grob stampfen.',
+    'Für das Kind ein paar weiche Karottenwürfel beiseitelegen. Kartoffeln und übrige Karotten mit warmer Milch und Öl grob stampfen.',
     'Spiegeleier braten, für das Kind vollständig durchgaren und klein schneiden. Erwachsene salzen und mit Muskat würzen.'
   ],
   nutri:{p:['Eier','Milch'],f:['Kartoffeln','Karotten','Brokkoli'],i:['Eier','Brokkoli'],fat:['Rapsöl','Eier']},
@@ -526,11 +526,11 @@ const RECIPES = [
   steps:[
     'Lauch in Ringe, Karotte, Kartoffeln und Zucchini in kleine Würfel schneiden. In Öl 5 Minuten anschwitzen.',
     'Mit passierten Tomaten, Thymian und 300 ml Wasser auffüllen, 15 Minuten weich köcheln.',
-    'Bohnen zugeben, 5 Minuten erhitzen. Einen Teil mit dem Stampfer zerdrücken, damit die Suppe dick wird.',
+    'Bohnen zugeben, 5 Minuten erhitzen. Einen Teil der Suppe mit dem Stampfer zerdrücken, damit sie dick wird.',
     'Kinderportion dick und ohne Salz, mit weichem Brot. Erwachsene salzen und pfeffern.'
   ],
   nutri:{p:['Weiße Bohnen','Vollkornbrot'],f:['Bohnen','Kartoffeln','Vollkornbrot'],i:['Bohnen'],fat:['Olivenöl']},
-  kid:'Nur einen Teil pürieren, damit einzelne weiche Gemüseformen erkennbar bleiben. Einen vorgeladenen Löffel anbieten.',
+  kid:'Nur einen Teil der Suppe pürieren, damit einzelne weiche Gemüseformen erkennbar bleiben. Einen vorgeladenen Löffel anbieten.',
   leftover:'Eintopf Tag 2 · 5 Min. – Dicker einkochen und mit Nudeln verlängern.',
   extras:['feta','ei'], tipp:'Doppelte Menge kochen und die Hälfte einfrieren.'
 },
@@ -551,7 +551,7 @@ const RECIPES = [
   steps:[
     'Polenta in 300 ml Wasser unter Rühren weich kochen (Ugali-Art, aber löffelbar).',
     'Zwiebel in Öl dünsten, Grünkohl fein schneiden und mit gewürfelter Tomate 10 Minuten weich garen.',
-    'Bohnen zugeben und erhitzen, einen Teil zerdrücken.',
+    'Bohnen zugeben und erhitzen. Einen Teil der Bohnen zerdrücken.',
     'Als drei Komponenten anrichten. Kinderportion ohne Salz, Bohnen zerdrückt, Blattgemüse sehr fein.'
   ],
   nutri:{p:['Kidneybohnen','Polenta'],f:['Bohnen','Grünkohl','Polenta'],i:['Bohnen','Grünkohl'],fat:['Rapsöl']},
@@ -579,7 +579,7 @@ const RECIPES = [
   steps:[
     'Reis garen. Tofu würfeln und in Öl anbraten.',
     'Karotte, Paprika und Brokkoli klein schneiden, mit Kokosmilch und 100 ml Wasser 10 Minuten weich köcheln. Zuckerschoten zum Schluss.',
-    'Kinderportion mit Tofu und Gemüse abnehmen, Tofu zerbröseln.',
+    'Kinderportion mit Tofu und Gemüse abnehmen und den Tofu darin zerbröseln.',
     'Für Erwachsene Currypaste einrühren, mit Limette und etwas Salz abschmecken.'
   ],
   nutri:{p:['Tofu'],f:['Brokkoli','Paprika','Karotten'],i:['Tofu','Brokkoli'],fat:['Kokosmilch','Rapsöl']},
@@ -604,7 +604,7 @@ const RECIPES = [
     {n:'Sojasauce, salzreduziert',q:1,u:'EL',c:'vorrat',p:true}
   ],
   steps:[
-    'Brühe mit Ingwerscheiben aufkochen. Karotte in feine Stifte, Pilze in Scheiben, 8 Minuten köcheln.',
+    'Brühe mit Ingwerscheiben aufkochen. Karotte in feine Stifte und Pilze in Scheiben schneiden, beides in der Brühe 8 Minuten köcheln.',
     'Eier 9 Minuten hart kochen, pellen und halbieren.',
     'Reisnudeln und Pak Choi in die Suppe geben, 3 bis 4 Minuten garen.',
     'Kinderschale: Nudeln gekürzt, weiches Gemüse, Ei klein geschnitten, wenig Brühe. Erwachsene mit Sojasauce und Frühlingszwiebel.'
@@ -659,7 +659,7 @@ const RECIPES = [
   steps:[
     'Linsen spülen. Zwiebel und Knoblauch in Öl anschwitzen.',
     'Linsen, Kartoffel- und Karottenwürfel, passierte Tomaten, Lorbeer, Oregano und 350 ml Wasser zugeben, 25 Minuten weich köcheln.',
-    'Lorbeer entfernen, einen Teil zerdrücken, bis die Suppe dick ist.',
+    'Lorbeer entfernen. Einen Teil der Suppe zerdrücken, bis sie dick ist.',
     'Kinderportion dick und ohne Salz mit einem Klecks Joghurt. Erwachsene mit Salz, Essig und Öl abschmecken.'
   ],
   nutri:{p:['Linsen','Joghurt'],f:['Linsen','Kartoffeln','Karotten'],i:['Linsen'],fat:['Olivenöl','Joghurt']},
@@ -686,7 +686,7 @@ const RECIPES = [
     'Kartoffeln in Würfeln 15 Minuten kochen.',
     'Lauch, Karotte und Zucchini klein schneiden, in Öl 8 Minuten weich dünsten.',
     'Fisch in Stücken auf das Gemüse legen, Deckel auf, 8 Minuten gar ziehen lassen. Gräten prüfen.',
-    'Kinderportion zerpflückt und ohne Salz. Erwachsene mit Dill, Zitrone und Salz.'
+    'Kinderportion ohne Salz abnehmen und den Fisch darin zerpflücken. Erwachsene mit Dill, Zitrone und Salz.'
   ],
   nutri:{p:['Seelachs'],f:['Kartoffeln','Karotten','Zucchini'],i:['Lauch'],fat:['Rapsöl']},
   kid:'Fisch vollständig garen, sorgfältig entgräten und zerpflücken. Gemüse weich.',
@@ -735,7 +735,7 @@ const RECIPES = [
     {n:'Thymian, getrocknet',q:0.5,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 200 °C vorheizen. Süßkartoffel in 2 cm Würfel, Paprika in Streifen, mit Öl und Gewürzen mischen.',
+    'Ofen auf 200 °C vorheizen. Süßkartoffel in 2 cm Würfel und Paprika in Streifen schneiden, beides mit Öl und Gewürzen mischen.',
     'Hähnchen auf das Blech legen, 15 Minuten backen.',
     'Brokkoliröschen zugeben, weitere 12 bis 15 Minuten, bis das Fleisch durch ist (kein rosa Saft).',
     'Kinderportion: Hähnchen fein zerpflücken, Süßkartoffel und Brokkoli weich. Erwachsene salzen.'
@@ -762,7 +762,7 @@ const RECIPES = [
   ],
   steps:[
     'Reis mit der 6-fachen Menge Wasser und Ingwer aufkochen, dann 30 Minuten leise köcheln, bis ein cremiger Brei entsteht (Slow Cooker: 3 Stunden niedrig).',
-    'Karotte fein würfeln, Pilze in Scheiben, nach 15 Minuten zugeben. Pak Choi in den letzten 5 Minuten.',
+    'Karotte fein würfeln und Pilze in Scheiben schneiden, beides nach 15 Minuten zugeben. Pak Choi in den letzten 5 Minuten.',
     'Eier 9 Minuten hart kochen und klein schneiden.',
     'Kinderportion pur. Erwachsene mit Sojasauce und Sesamöl abschmecken.'
   ],
@@ -842,7 +842,7 @@ const RECIPES = [
   steps:[
     'Zwiebel würfeln und in Öl glasig dünsten, Reis und Linsen 1 Minute mitrösten.',
     'Nach und nach Brühe angießen und unter Rühren 22 Minuten garen.',
-    'Rote Bete fein würfeln oder reiben, Apfel reiben, in den letzten 5 Minuten einrühren.',
+    'Rote Bete fein würfeln oder reiben und Apfel reiben. Beides in den letzten 5 Minuten einrühren.',
     'Kinderportion ohne Salz. Erwachsene mit Käse, Salz und Pfeffer vollenden.'
   ],
   nutri:{p:['Linsen','Käse'],f:['Rote Bete','Apfel','Linsen'],i:['Linsen','Rote Bete'],fat:['Olivenöl','Käse']},

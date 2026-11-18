@@ -18,7 +18,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel und Karotte würfeln, Kohl in feine Streifen schneiden und alles in Öl 5 Minuten andünsten.',
+    'Zwiebel und Karotte würfeln, Kohl in feine Streifen schneiden und alle drei zusammen in Öl 5 Minuten andünsten.',
     'Kartoffeln würfeln, mit der Brühe zugeben und 15 Minuten köcheln.',
     'Rote Bete würfeln, mit den abgespülten Bohnen zugeben und weitere 10 Minuten köcheln, bis alles weich ist.',
     'Kinderportion ungesalzen abnehmen und etwas abkühlen lassen. Erwachsene mit Salz und Pfeffer abschmecken und mit Joghurt und Brot servieren.'
@@ -51,7 +51,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen und das Lorbeerblatt entfernen. Erwachsene mit Salz, Pfeffer und Dill abschmecken.'
   ],
   kidName:'Kohl-Eintopf mild',
-  kid:'Fleisch sehr fein zerzupfen, Kohl und Kartoffeln weich kochen und grob zerdrücken. Lorbeerblatt sicher entfernen und ohne Salz servieren.',
+  kid:'Fleisch sehr fein zerzupfen, Kohl und Kartoffeln weich kochen und grob zerdrücken. Lorbeerblatt sicher entfernen. Die Kinderportion ohne Salz servieren.',
   leftover:'Schtschi vom Vortag · 10 Min. – Eintopf vollständig erhitzen, durchgezogen wird er noch aromatischer.',
   tipp:'Im Slowcooker auf niedriger Stufe 6 Stunden garen, dann wird das Fleisch besonders zart.'
 },
@@ -136,7 +136,7 @@ RECIPES.push(
     'Kinderportion ohne Senf und Salz abnehmen. Erwachsene mit Senf, Paprika, Salz und Pfeffer abschmecken und mit Buchweizen und Gurkenscheiben servieren.'
   ],
   kidName:'Mildes Stroganow',
-  kid:'Rindfleisch sehr fein schneiden, Pilze klein hacken und mit Buchweizen und Sauce mischen. Ohne Senf und Salz servieren.',
+  kid:'Rindfleisch sehr fein schneiden und Pilze klein hacken. Beides mit Buchweizen und Sauce mischen. Ohne Senf und Salz servieren.',
   leftover:'Buchweizen-Pfanne · 8 Min. – Reste mit etwas Wasser in der Pfanne vollständig erhitzen und mit Gurke servieren.',
   tipp:'Gerösteten Buchweizen (Kascha) kaufen, er schmeckt nussiger und bleibt schön körnig.'
 },
@@ -187,7 +187,7 @@ RECIPES.push(
   ],
   steps:[
     'Reis 15 Minuten vorkochen und abgießen. Große Kohlblätter im selben Topf in kochendem Wasser 3 bis 4 Minuten blanchieren, bis sie biegsam sind.',
-    'Zwiebel und Karotte fein würfeln, die Hälfte in Öl andünsten und mit Hack und Reis mischen.',
+    'Zwiebel und Karotte fein würfeln. Die Hälfte dieses Gemüses in Öl andünsten und mit Hack und Reis mischen.',
     'Je einen Esslöffel Füllung in ein Kohlblatt wickeln, die Rouladen dicht in den Topf legen, restliches Gemüse und passierte Tomaten mit etwas Wasser darübergeben.',
     'Zugedeckt 35 bis 40 Minuten leise schmoren, bis der Kohl weich und die Füllung vollständig durchgegart ist.',
     'Kinderportion ohne Salz abnehmen. Erwachsene die Sauce mit Paprika, Salz und Pfeffer abschmecken und mit Joghurt servieren.'
@@ -239,7 +239,7 @@ RECIPES.push(
   ],
   steps:[
     'Buchweizen abspülen und in der doppelten Menge Wasser zugedeckt 12 bis 15 Minuten garen, bis das Wasser aufgenommen ist. Eier parallel 10 Minuten hart kochen.',
-    'Zwiebel würfeln, Pilze in Scheiben schneiden und in Öl 6 bis 8 Minuten goldbraun braten, zum Schluss den Spinat zusammenfallen lassen.',
+    'Zwiebel würfeln und Pilze in Scheiben schneiden. Beides in Öl 6 bis 8 Minuten goldbraun braten, zum Schluss den Spinat zusammenfallen lassen.',
     'Buchweizen unter die Pilze mischen, Eier pellen und vierteln.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz, Pfeffer und Dill würzen.'
   ],
@@ -299,7 +299,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen und das Lorbeerblatt entfernen. Erwachsene mit Paprika, Salz und Pfeffer abschmecken und mit Brot servieren.'
   ],
   kidName:'Erbsenbrei mild',
-  kid:'Eintopf für das Kind fein pürieren oder gründlich zerdrücken, Lorbeerblatt entfernen und ohne Salz lauwarm servieren.',
+  kid:'Lorbeerblatt entfernen. Den Eintopf für das Kind fein pürieren oder gründlich zerdrücken und ohne Salz lauwarm servieren.',
   leftover:'Erbsen-Dip · 5 Min. – dick eingekochte Reste vollständig erhitzen, glatt pürieren und als warmen Aufstrich zu Brot essen.',
   tipp:'Über Nacht eingeweichte Schälerbsen garen etwa 10 Minuten schneller.'
 },
@@ -377,7 +377,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 200 °C vorheizen. Kartoffeln in dünne Scheiben schneiden, mit der Hälfte des Öls in einer Form verteilen und 15 Minuten vorbacken.',
-    'Zwiebel in Ringe und Pilze in Scheiben schneiden, Brokkoli in kleine Röschen teilen und alles mit dem restlichen Öl auf die Kartoffeln geben.',
+    'Zwiebel in Ringe und Pilze in Scheiben schneiden, Brokkoli in kleine Röschen teilen. Zwiebel, Pilze und Brokkoli mit dem restlichen Öl auf die Kartoffeln geben.',
     'Fisch obenauf legen, mit Joghurt bestreichen, Käse darüberreiben und 15 bis 18 Minuten backen, bis der Fisch innen weiß ist und sich leicht zerteilen lässt.',
     'Kinderportion ohne Salz abnehmen und den Fisch auf Gräten prüfen. Erwachsene mit Salz, Pfeffer und Dill würzen.'
   ],
@@ -404,7 +404,7 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln halbieren und in Wasser 18 bis 20 Minuten weich kochen.',
-    'Karotten grob raspeln, Zwiebel in Halbringe schneiden und in der Hälfte des Öls 8 Minuten weich dünsten. Tomatenmark, Lorbeer und 4 EL Wasser zugeben und 5 Minuten schmoren, dann herausnehmen.',
+    'Karotten grob raspeln und Zwiebel in Halbringe schneiden. Beides in der Hälfte des Öls 8 Minuten weich dünsten. Tomatenmark, Lorbeer und 4 EL Wasser zugeben, 5 Minuten schmoren und das Gemüse herausnehmen.',
     'Fisch im restlichen Öl bei mittlerer Hitze je Seite 3 bis 4 Minuten braten, bis er innen weiß ist.',
     'Kinderportion ohne Essig und Salz abnehmen und das Lorbeerblatt entfernen. Für die Erwachsenen das Gemüse mit Essig, Salz und Pfeffer abschmecken, über den Fisch geben und mit Dill bestreuen.'
   ],

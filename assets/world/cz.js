@@ -52,7 +52,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Schweinefleisch mit mildem Kraut',
-  kid:'Fleisch in sehr dünne, kleine Streifen schneiden, Kraut fein hacken und mit zerdrückten Kartoffeln mischen. Ohne Salz.',
+  kid:'Fleisch in sehr dünne, kleine Streifen schneiden. Kraut fein hacken und mit zerdrückten Kartoffeln mischen. Ohne Salz.',
   leftover:'Kraut-Kartoffel-Pfanne · 10 Min. – Kartoffeln, Kraut und Fleischreste in der Pfanne kräftig anbraten.',
   tipp:'Traditionell gibt es Böhmische Knödel dazu, Salzkartoffeln sind die schnellere Alternative.'
 },
@@ -136,7 +136,7 @@ RECIPES.push(
     'Zahnstocher entfernen. Kinderportion ohne Salz abnehmen, Erwachsene mit Salz und Pfeffer abschmecken.'
   ],
   kidName:'Rouladenstückchen mit Reis',
-  kid:'Roulade in dünne Scheiben und dann klein schneiden, die salzige Gurke herauslösen. Mit Reis und Soße mischen.',
+  kid:'Roulade in dünne Scheiben und dann klein schneiden, die salzige Gurke herauslösen. Die Rouladenstücke mit Reis und Soße mischen.',
   leftover:'Rouladen-Reispfanne · 10 Min. – Reste klein schneiden und mit Reis und Soße in der Pfanne vollständig erhitzen.',
   tipp:'Zahnstocher vor dem Servieren zählen, damit keiner in einer Kinderportion landet.'
 },
@@ -214,7 +214,7 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln mit Schale, Karotte und Sellerie im Ganzen 20 Minuten weich kochen, Erbsen in den letzten 2 Minuten zugeben. Ei 10 Minuten hart kochen.',
-    'Ofen auf 200 °C vorheizen. Kartoffeln pellen, mit Gemüse und Ei klein würfeln und mit Joghurt und 1 TL Öl vermengen.',
+    'Ofen auf 200 °C vorheizen. Kartoffeln pellen. Kartoffeln, Karotte, Sellerie und Ei klein würfeln und mit den Erbsen, Joghurt und 1 TL Öl vermengen.',
     'Fisch auf ein Blech mit Backpapier legen, mit dem restlichen Öl beträufeln und 12 bis 15 Minuten backen, bis er sich leicht zerteilen lässt.',
     'Kinderportion von Fisch und Salat ohne Salz abnehmen. Danach die gewürfelte Gewürzgurke unter den restlichen Salat heben und Erwachsene mit Salz, Pfeffer und Zitronensaft würzen.'
   ],
@@ -240,7 +240,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel fein würfeln, Karotte fein reiben und in der Hälfte des Öls 4 Minuten dünsten. Mehl darüberstäuben und 1 Minute anschwitzen.',
+    'Zwiebel fein würfeln, Karotte fein reiben. Beides in der Hälfte des Öls 4 Minuten dünsten. Mehl darüberstäuben und 1 Minute anschwitzen.',
     'Mit 150 ml Wasser ablöschen, glatt rühren, abgespülte Linsen zugeben und 5 Minuten sämig köcheln.',
     'Inzwischen im restlichen Öl ein Spiegelei braten, bis Eiweiß und Eigelb vollständig fest sind.',
     'Kinderportion abnehmen. Erwachsene Linsen mit Essig, Salz und Pfeffer säuerlich abschmecken und mit Ei, Gurkenscheiben und Brot servieren.'
@@ -379,7 +379,7 @@ RECIPES.push(
   steps:[
     'Kartoffeln schälen, in 2 cm große Stücke schneiden und in Wasser aufsetzen. Eier nach 3 Minuten dazulegen und alles 10 bis 12 Minuten kochen, bis die Kartoffeln weich und die Eier hart sind.',
     'Zwiebel und Knoblauch fein hacken und in Öl 2 Minuten dünsten. Spinat zugeben und zugedeckt 8 Minuten auftauen und garen.',
-    'Mehl mit Milch glatt rühren, unterrühren und 2 Minuten cremig köcheln. Nach Wunsch mit dem Stabmixer fein pürieren.',
+    'Mehl mit Milch glatt rühren, unter den Spinat rühren und 2 Minuten cremig köcheln. Den Spinat nach Wunsch mit dem Stabmixer fein pürieren.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz, Pfeffer und Muskat würzen und mit Kartoffeln und halbierten Eiern servieren.'
   ],
   kidName:'Spinat-Kartoffel-Mus mit Ei',

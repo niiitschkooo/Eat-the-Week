@@ -71,7 +71,7 @@ RECIPES.push(
   ],
   steps:[
     'Kleine Kartoffeln waschen und in der Schale 18 Minuten gar kochen. Ofen auf 220 °C mit Grillfunktion vorheizen.',
-    'Paprika in Streifen und Champignons in Scheiben schneiden, Brokkoli in kleine Röschen teilen, mit Öl mischen und auf dem Blech 10 Minuten rösten.',
+    'Paprika in Streifen und Champignons in Scheiben schneiden, Brokkoli in kleine Röschen teilen. Das ganze Gemüse mit Öl mischen und auf dem Blech 10 Minuten rösten.',
     'Kartoffeln halbieren, zum Gemüse legen, mit Käsescheiben belegen und 3 bis 4 Minuten überbacken, bis der Käse geschmolzen ist.',
     'Kinderportion ungewürzt abnehmen. Erwachsene mit Paprikapulver und Pfeffer würzen und mit Gewürzgurken servieren, Salz ist durch den Käse nicht nötig.'
   ],
@@ -154,12 +154,12 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 200 °C Ober- und Unterhitze vorheizen. Mehl mit Quark, Öl und 1 EL Wasser zu einem glatten Teig kneten, dünn ausrollen und eine mit Backpapier ausgelegte Form damit auslegen.',
-    'Lauch in feine Ringe schneiden, Karotten grob raspeln und auf dem Teig verteilen.',
+    'Lauch in feine Ringe schneiden, Karotten grob raspeln. Beides auf dem Teig verteilen.',
     'Eier mit Milch und Käse verquirlen, über das Gemüse gießen und die Wähe 30 bis 35 Minuten backen, bis der Guss vollständig gestockt ist.',
     'Kinderportion ungewürzt abschneiden. Erwachsene mit Muskat, Pfeffer und wenig Salz würzen.'
   ],
   kidName:'Mini-Wähe',
-  kid:'In schmale Streifen schneiden und den harten Rand entfernen. Darauf achten, dass der Guss vollständig gestockt ist.',
+  kid:'Wähe in schmale Streifen schneiden und den harten Rand entfernen. Darauf achten, dass der Guss vollständig gestockt ist.',
   leftover:'Wähe für die Brotdose · 5 Min. – Kalte Wähestücke mit Gurkensticks einpacken oder bei 180 °C vollständig erwärmen.',
   tipp:'Im Sommer passen Zucchini und Tomaten, im Winter Lauch, Kürbis oder Spinat auf die Wähe.'
 },
@@ -291,7 +291,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 220 °C vorheizen. Kartoffeln in Schnitze schneiden, mit der Hälfte des Öls mischen und auf dem Blech 15 Minuten backen.',
     'Fisch in fingerdicke Streifen schneiden und nacheinander in Mehl, verquirltem Ei und Bröseln wenden. Zu den Kartoffeln legen, mit dem restlichen Öl beträufeln und 10 bis 12 Minuten backen, bis die Panade goldbraun und der Fisch durchgegart ist.',
-    'Karotten fein raspeln und mit Zitronensaft mischen. Joghurt mit fein gehackter Gewürzgurke verrühren, vorher etwas Joghurt für das Kind beiseitestellen.',
+    'Karotten fein raspeln und mit Zitronensaft zu Rüeblisalat mischen. Etwas Joghurt für das Kind beiseitestellen, den restlichen Joghurt mit fein gehackter Gewürzgurke verrühren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Pfeffer und wenig Salz würzen und mit Rüeblisalat und Joghurtsoße servieren.'
   ],
   kidName:'Mini-Chnusperli',
@@ -319,7 +319,7 @@ RECIPES.push(
   steps:[
     'Nudeln nach Packungsangabe etwa 10 Minuten garen, Brokkoliröschen in den letzten 4 Minuten mitkochen.',
     'Hähnchen in feine Streifen schneiden und in Öl portionsweise 3 bis 4 Minuten scharf anbraten, bis es durchgegart ist, dann herausnehmen.',
-    'Zwiebel fein würfeln, Champignons in Scheiben schneiden und 4 Minuten im Bratfett braten. Brühe und die mit Stärke verrührte Milch angießen, 2 Minuten köcheln, bis die Soße bindet, und das Fleisch zurückgeben.',
+    'Zwiebel fein würfeln, Champignons in Scheiben schneiden. Beides 4 Minuten im Bratfett braten. Brühe und die mit Stärke verrührte Milch angießen, 2 Minuten köcheln, bis die Soße bindet, und das Fleisch zurückgeben.',
     'Kinderportion ungewürzt abnehmen. Erwachsene mit Pfeffer, wenig Salz und Petersilie würzen.'
   ],
   kidName:'Mini-Geschnetzeltes',

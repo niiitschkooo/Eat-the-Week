@@ -25,7 +25,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen und klein schneiden. Erwachsene am Tisch mit Salz und Pfeffer würzen.'
   ],
   kidName:'Mini-Moussaka',
-  kid:'Ein Stück aus der Mitte nehmen, Auberginenschale bei Bedarf entfernen und alles in kleine weiche Würfel schneiden. Ohne Salz servieren, die Ei-Joghurt-Haube ist vollständig durchgebacken.',
+  kid:'Ein Stück aus der Mitte nehmen, Auberginenschale bei Bedarf entfernen und das Stück in kleine weiche Würfel schneiden. Ohne Salz servieren, die Ei-Joghurt-Haube ist vollständig durchgebacken.',
   leftover:'Moussaka-Nudeln · 10 Min. – Reste grob zerteilen und mit gekochten Nudeln und etwas Wasser vollständig erhitzen.',
   tipp:'Vorbacken statt Frittieren spart viel Öl, die Auberginen werden trotzdem weich und cremig.'
 },
@@ -49,8 +49,8 @@ RECIPES.push(
   steps:[
     'Vollkornreis 15 Minuten vorkochen und abgießen. Ofen auf 190 °C vorheizen.',
     'Von Paprika und Tomaten einen Deckel abschneiden, Kerne entfernen und das Tomateninnere hacken. Zwiebel und Zucchini fein würfeln.',
-    'Reis mit Kichererbsen, Tomateninnerem, Zucchini, Zwiebel, gehackter Petersilie, Oregano und der Hälfte des Öls mischen und in das Gemüse füllen.',
-    'Gemüse in eine Form setzen, Gemüsedeckel auflegen, passierte Tomaten mit 100 ml Wasser angießen, mit restlichem Öl beträufeln und 35 Minuten backen, bis die Paprika weich ist.',
+    'Reis mit Kichererbsen, Tomateninnerem, Zucchini, Zwiebel, gehackter Petersilie, Oregano und der Hälfte des Öls mischen und in Paprika und Tomaten füllen.',
+    'Gefüllte Paprika und Tomaten in eine Form setzen, die Deckel auflegen, passierte Tomaten mit 100 ml Wasser angießen, mit restlichem Öl beträufeln und 35 Minuten backen, bis die Paprika weich ist.',
     'Kinderportion ungesalzen abnehmen, Paprika in Stücke teilen und die Kichererbsen in der Füllung zerdrücken. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Weiche Gemista-Schiffchen',
@@ -131,9 +131,9 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 190 °C vorheizen. Zwiebel und Knoblauch fein würfeln, Karotten in dünne Scheiben schneiden.',
-    'Alles mit Bohnen, gehackten Tomaten, Oregano, Öl und 100 ml Wasser in einer Auflaufform mischen.',
+    'Zwiebel, Knoblauch und Karotten mit Bohnen, gehackten Tomaten, Oregano, Öl und 100 ml Wasser in einer Auflaufform mischen.',
     'Abgedeckt 20 Minuten backen, dann offen weitere 15 Minuten, bis die Soße dick ist und die Karotten weich sind. Gehackte Petersilie unterheben.',
-    'Kinderportion ungesalzen abnehmen und die Bohnen leicht zerdrücken. Erwachsene mit Salz und Pfeffer würzen und mit Brot servieren.'
+    'Kinderportion ungesalzen abnehmen und darin die Bohnen leicht zerdrücken. Erwachsene mit Salz und Pfeffer würzen und mit Brot servieren.'
   ],
   kidName:'Weiche Tomatenbohnen',
   kid:'Bohnen mit der Gabel grob zerdrücken und die Karotten sehr weich backen. Ohne Salz, dazu weiches Brot in Streifen zum Dippen.',
@@ -292,7 +292,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 200 °C vorheizen. Kartoffeln in Spalten, Karotten in dicke Stifte und Zwiebel in Spalten schneiden.',
     'Saft der Zitrone mit Öl, gepresstem Knoblauch, Oregano und 100 ml Wasser verrühren und Gemüse und Hähnchen auf dem Blech damit mischen.',
-    'Etwa 45 Minuten backen und nach 25 Minuten wenden, bis die Kartoffeln goldbraun sind und das Hähnchen innen vollständig durchgegart ist.',
+    'Etwa 45 Minuten backen, bis die Kartoffeln goldbraun sind und das Hähnchen innen vollständig durchgegart ist. Gemüse und Hähnchen nach 25 Minuten wenden.',
     'Kinderportion ungesalzen abnehmen und das Hähnchen klein zupfen. Erwachsene mit Salz, Pfeffer und etwas Zitronenschale würzen.'
   ],
   kidName:'Zitronenhähnchen-Teller',
@@ -346,10 +346,10 @@ RECIPES.push(
     {n:'Lorbeerblatt',q:0.5,u:'Stk.',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel in feine Streifen und Karotten in dünne Scheiben schneiden und in Öl 4 Minuten weich dünsten.',
+    'Zwiebel in feine Streifen und Karotten in dünne Scheiben schneiden und beides in Öl 4 Minuten weich dünsten.',
     'Kichererbsen, Rosmarin, Lorbeer und 200 ml Wasser zugeben und 10 Minuten offen köcheln, dabei einige Kichererbsen am Topfrand zerdrücken, damit die Soße sämig wird.',
     'Spinat unterheben, 1 Minute ziehen lassen und das Lorbeerblatt entfernen.',
-    'Kinderportion ungesalzen abnehmen und die Kichererbsen zerdrücken. Erwachsene mit Zitronensaft, Salz und Pfeffer würzen und mit Brot servieren.'
+    'Kinderportion ungesalzen abnehmen und darin die Kichererbsen zerdrücken. Erwachsene mit Zitronensaft, Salz und Pfeffer würzen und mit Brot servieren.'
   ],
   kidName:'Kichererbsen-Mus mit Brot',
   kid:'Kichererbsen mit der Gabel zu einem groben Mus zerdrücken, die Karotten sind weich gegart. Ohne Salz, dazu weiche Brotstreifen zum Dippen.',

@@ -16,7 +16,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 200 °C vorheizen. Kirschtomaten halbieren, Paprika in Streifen schneiden und mit der Hälfte des Öls auf ein Blech geben.',
+    'Ofen auf 200 °C vorheizen. Kirschtomaten halbieren, Paprika in Streifen schneiden. Beides mit der Hälfte des Öls auf ein Blech geben.',
     'Forellenfilets mit der Hautseite nach unten dazulegen, mit gehacktem Knoblauch, Estragon und restlichem Öl bestreichen und 12 bis 14 Minuten backen, bis der Fisch gerade durch ist.',
     'Inzwischen die Polenta in 280 ml kochendes Wasser einrühren und nach Packungsangabe 5 bis 10 Minuten weich und cremig garen.',
     'Kinderportion ungesalzen abnehmen und Fisch auf Gräten prüfen. Erwachsene mit Salz, Pfeffer und Granatapfelkernen servieren.'
@@ -71,7 +71,7 @@ RECIPES.push(
   ],
   steps:[
     'Reis in der doppelten Menge Wasser 25 bis 30 Minuten garen.',
-    'Hähnchen in große Stücke schneiden und im zweiten Topf in Öl rundum 5 Minuten anbraten. Zwiebel in Streifen und Paprika in Würfel schneiden, zugeben und 5 Minuten weich dünsten.',
+    'Hähnchen in große Stücke schneiden und im zweiten Topf in Öl rundum 5 Minuten anbraten. Zwiebel in Streifen und Paprika in Würfel schneiden, beides zugeben und 5 Minuten weich dünsten.',
     'Gehackte Tomaten und Chmeli-Suneli zugeben und zugedeckt 20 Minuten schmoren, bis das Hähnchen zart und durchgegart ist. Knoblauch fein hacken und in den letzten 5 Minuten mitgaren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und nach Wunsch Chili würzen und Koriander darüberstreuen.'
   ],
@@ -290,7 +290,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 220 °C vorheizen. Mehl, Backpulver, 40 g Quark, Milch und Öl zu einem glatten Teig kneten und zu einem Oval ausrollen.',
     'Die langen Ränder einrollen und die Enden zu einem Schiffchen zusammendrücken. Mozzarella und Feta zerkleinern, mit dem restlichen Quark mischen und in die Mitte füllen.',
-    'Auf dem Blech 12 Minuten backen. Ei in eine Mulde der Käsefüllung gleiten lassen und weitere 7 bis 8 Minuten backen, bis Eiweiß und Eigelb vollständig fest sind.',
+    'Das Schiffchen auf dem Blech 12 Minuten backen. Ei in eine Mulde der Käsefüllung gleiten lassen und weitere 7 bis 8 Minuten backen, bis Eiweiß und Eigelb vollständig fest sind.',
     'Tomaten und Gurke als Salat dazu schneiden.',
     'Kinderportion ungesalzen abnehmen. Erwachsene den Salat mit Salz, Pfeffer und etwas Öl würzen.'
   ],
@@ -316,7 +316,7 @@ RECIPES.push(
   ],
   steps:[
     'Grüne Bohnen putzen, in 3 cm lange Stücke schneiden und in der Pfanne mit 100 ml Wasser zugedeckt 7 Minuten weich dünsten. Restliches Wasser abgießen.',
-    'Zwiebel in Streifen schneiden, Tomate würfeln und mit Öl und gehacktem Knoblauch 3 Minuten mit den Bohnen braten.',
+    'Zwiebel in Streifen schneiden, Tomate würfeln. Beides mit Öl und gehacktem Knoblauch 3 Minuten mit den Bohnen braten.',
     'Eier verquirlen, darübergießen und unter gelegentlichem Rühren 3 bis 4 Minuten vollständig stocken lassen. Koriander darüberstreuen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und nach Wunsch Chili würzen und mit Vollkornbrot servieren.'
   ],
@@ -369,13 +369,13 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel fein würfeln und im Topf in Öl 4 Minuten glasig dünsten. In einer Schüssel mit Reis, abgespülten Linsen, Koriander und 3 EL Wasser mischen.',
-    'Paprika oben aufschneiden und entkernen, Tomate aushöhlen und das Innere hacken. Das Gemüse locker zu drei Vierteln füllen und die Deckel aufsetzen.',
-    'Gefülltes Gemüse aufrecht in den Topf setzen, passierte Tomaten, Tomateninneres und so viel Wasser angießen, dass es zur Hälfte bedeckt ist. Zugedeckt 35 bis 40 Minuten sanft köcheln, bis Reis und Linsen weich sind.',
+    'Zwiebel fein würfeln und im Topf in Öl 4 Minuten glasig dünsten. Die Zwiebel in einer Schüssel mit Reis, abgespülten Linsen, Koriander und 3 EL Wasser mischen.',
+    'Paprika oben aufschneiden und entkernen, Tomate aushöhlen und das Innere hacken. Paprika und Tomate locker zu drei Vierteln mit der Reismischung füllen und die Deckel aufsetzen.',
+    'Gefülltes Gemüse aufrecht in den Topf setzen, passierte Tomaten, Tomateninneres und so viel Wasser angießen, dass das Gemüse zur Hälfte bedeckt ist. Zugedeckt 35 bis 40 Minuten sanft köcheln, bis Reis und Linsen weich sind.',
     'Kinderportion ungesalzen abnehmen. Joghurt für die Erwachsenen mit fein geriebenem Knoblauch und Salz verrühren und dazu servieren.'
   ],
   kidName:'Mini-Tolma',
-  kid:'Füllung aus der Paprika lösen, die Paprikahaut entfernen und alles mit etwas Soße zerdrücken. Joghurt pur ohne Knoblauch und Salz dazugeben.',
+  kid:'Füllung aus der Paprika lösen und die Paprikahaut entfernen. Füllung und Gemüse mit etwas Soße zerdrücken. Joghurt pur ohne Knoblauch und Salz dazugeben.',
   leftover:'Tolma-Reispfanne · 10 Min. – Reste klein schneiden und in der Pfanne mit Soße und einem Ei durchbraten.',
   tipp:'Klassisch wird Tolma in Weinblätter oder Kohl gewickelt, gefüllte Paprika und Tomaten sind im Sommer die schnellere Variante.'
 },

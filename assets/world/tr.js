@@ -101,7 +101,7 @@ RECIPES.push(
     'Zwiebel, Paprika und Karotten fein würfeln und in der Hälfte des Öls 5 Minuten dünsten, Tomatenmark und Paprikapulver kurz mitrösten.',
     'Bohnen, passierte Tomaten und 150 ml Wasser zugeben und 20 Minuten sämig köcheln.',
     'Inzwischen Bulgur im zweiten Topf im restlichen Öl kurz anrösten, mit 150 ml Wasser aufgießen und zugedeckt 12 Minuten quellen lassen.',
-    'Kinderportion ungesalzen abnehmen und die Bohnen zerdrücken. Erwachsene mit Salz, Pfeffer und Chiliflocken würzen.'
+    'Kinderportion ungesalzen abnehmen und darin die Bohnen zerdrücken. Erwachsene mit Salz, Pfeffer und Chiliflocken würzen.'
   ],
   kidName:'Bohnen-Bulgur-Teller',
   kid:'Bohnen mit der Gabel zerdrücken und mit dem weichen Bulgur mischen, Karotten sind weich geschmort. Ohne Salz und Chili.',
@@ -129,7 +129,7 @@ RECIPES.push(
     'Ofen auf 200 °C vorheizen. Aubergine längs halbieren, das Fruchtfleisch rautenförmig einschneiden, mit wenig Öl bestreichen und mit der Schnittfläche nach oben 20 Minuten backen.',
     'Inzwischen Zwiebel in Streifen, Paprika und Tomaten in Würfel schneiden, Knoblauch hacken und alles im restlichen Öl mit Tomatenmark 8 Minuten zu einer dicken Füllung schmoren. Gehackte Petersilie unterheben.',
     'Auberginen in der Mitte mit einem Löffel eindrücken, die Füllung daraufgeben und weitere 20 Minuten backen, bis sie ganz weich sind. Bulgur mit 150 ml Wasser aufkochen und zugedeckt 12 Minuten quellen lassen.',
-    'Kinderportion ungesalzen abnehmen und das weiche Auberginenfleisch aus der Schale löffeln. Erwachsene mit Salz und Pfeffer würzen, Joghurt dazu.'
+    'Kinderportion ungesalzen abnehmen und für das Kind das weiche Auberginenfleisch aus der Schale löffeln. Erwachsene mit Salz und Pfeffer würzen, Joghurt dazu.'
   ],
   kidName:'Auberginen-Tomaten-Mus mit Bulgur',
   kid:'Weiches Auberginenfleisch aus der Schale löffeln, mit Füllung und Bulgur mischen und mit Joghurt mild machen. Ohne Salz servieren.',
@@ -212,7 +212,7 @@ RECIPES.push(
     'Vollkornreis in der doppelten Menge Wasser aufsetzen und in 30 Minuten weich garen.',
     'Zwiebel und Paprika würfeln und in Öl 5 Minuten dünsten, Tomatenmark, Kreuzkümmel und Paprikapulver 1 Minute mitrösten.',
     'Kichererbsen, passierte Tomaten und 150 ml Wasser zugeben und 15 Minuten sämig köcheln. Spinat unterheben und zusammenfallen lassen.',
-    'Kinderportion ungesalzen abnehmen und die Kichererbsen zerdrücken. Erwachsene mit Salz und Chiliflocken würzen und mit Reis servieren.'
+    'Kinderportion ungesalzen abnehmen und darin die Kichererbsen zerdrücken. Erwachsene mit Salz und Chiliflocken würzen und mit Reis servieren.'
   ],
   kidName:'Kichererbsen-Reis-Teller',
   kid:'Kichererbsen gründlich zerdrücken und mit Reis und Soße mischen, Spinat fein hacken. Ohne Salz und Chili.',
@@ -240,7 +240,7 @@ RECIPES.push(
     'Ofen auf 200 °C vorheizen und den Reis aufsetzen. Aubergine längs halbieren, die Schnittflächen mit wenig Öl bestreichen und 20 Minuten backen.',
     'Zwiebel, Knoblauch, Paprika und Tomate würfeln. Hack im restlichen Öl krümelig und vollständig durchbraten, Gemüse und Tomatenmark zugeben und 8 Minuten schmoren.',
     'Auberginen in der Mitte aufdrücken, die Hackfüllung hineingeben, 100 ml Wasser in die Form gießen und weitere 20 Minuten backen. Mit gehackter Petersilie bestreuen.',
-    'Kinderportion ungesalzen abnehmen und Auberginenfleisch und Füllung aus der Schale löffeln. Erwachsene mit Salz, Pfeffer und Chiliflocken würzen und mit Reis servieren.'
+    'Kinderportion ungesalzen abnehmen und für das Kind Auberginenfleisch und Füllung aus der Schale löffeln. Erwachsene mit Salz, Pfeffer und Chiliflocken würzen und mit Reis servieren.'
   ],
   kidName:'Hack-Auberginen-Mus mit Reis',
   kid:'Weiches Auberginenfleisch aus der Schale löffeln und mit Hackfüllung und Reis mischen. Ohne Salz und Chili, das Hack ist vollständig durchgegart.',
@@ -266,7 +266,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 220 °C vorheizen. Tomate, Paprika, Zwiebel und die Hälfte der Petersilie sehr fein hacken oder im Blitzhacker zerkleinern.',
-    'Mit Hack, Tomatenmark und Paprikapulver zu einer streichfähigen Masse verkneten und hauchdünn bis an den Rand auf die Fladen streichen.',
+    'Die gehackte Gemüsemischung mit Hack, Tomatenmark und Paprikapulver zu einer streichfähigen Masse verkneten und hauchdünn bis an den Rand auf die Fladen streichen.',
     'Fladen auf dem Blech 9 bis 10 Minuten backen, bis der Belag vollständig durchgegart und der Rand knusprig ist. Salat in Streifen schneiden.',
     'Kinderportion ungesalzen abnehmen und in Streifen schneiden. Erwachsene mit Salz, Chiliflocken und Zitronensaft würzen, mit Salat und restlicher Petersilie belegen und aufrollen.'
   ],
@@ -296,7 +296,7 @@ RECIPES.push(
     'Bulgur mit 150 ml Wasser aufkochen und zugedeckt 12 Minuten quellen lassen.',
     'Hähnchen in Würfel schneiden und mit 2 EL Joghurt, Tomatenmark, Paprikapulver und der Hälfte des Öls mischen. Paprika und Zwiebel in Stücke schneiden und abwechselnd mit dem Fleisch auf Spieße stecken.',
     'Spieße im restlichen Öl bei mittlerer Hitze rundum 10 Minuten braten, bis das Hähnchen innen nicht mehr rosa ist. Gurke raspeln und mit dem restlichen Joghurt und der Minze verrühren.',
-    'Kinderportion ungesalzen abnehmen, Fleisch und Gemüse vom Spieß streifen und klein schneiden. Erwachsene mit Salz und Chiliflocken würzen, Cacık dazu.'
+    'Kinderportion ungesalzen abnehmen. Für das Kind Fleisch und Gemüse vom Spieß streifen und klein schneiden. Erwachsene mit Salz und Chiliflocken würzen, Cacık dazu.'
   ],
   kidName:'Hähnchen-Bulgur mit Gurkenjoghurt',
   kid:'Fleisch und Paprika vom Spieß nehmen, klein schneiden und mit Bulgur mischen, Gurkenjoghurt zum Dippen dazu. Ohne Salz und Chili.',
@@ -325,7 +325,7 @@ RECIPES.push(
     'Tomaten, Thymian und 250 ml Wasser zugeben und zugedeckt 60 bis 70 Minuten schmoren, bis das Fleisch zart ist.',
     'Inzwischen die Aubergine mehrmals einstechen und bei 220 °C 40 Minuten im Ofen backen, bis sie ganz weich ist. Fruchtfleisch herauslöffeln und fein hacken.',
     'Mehl im restlichen Öl in einem kleinen Topf kurz anschwitzen, Milch einrühren und 3 Minuten zu einer Soße köcheln. Aubergine und geriebenen Käse unterrühren.',
-    'Kinderportion ungesalzen abnehmen und das Fleisch zerzupfen. Erwachsene mit Salz und Pfeffer würzen und den Schmortopf auf dem Püree anrichten.'
+    'Kinderportion ungesalzen abnehmen und darin das Fleisch zerzupfen. Erwachsene mit Salz und Pfeffer würzen und den Schmortopf auf dem Püree anrichten.'
   ],
   kidName:'Auberginenpüree mit zartem Rind',
   kid:'Rindfleisch mit zwei Gabeln fein zerzupfen und unter das milde, cremige Püree mischen. Ohne Salz servieren.',
@@ -380,10 +380,10 @@ RECIPES.push(
     'Kartoffeln in 0,5 cm dünne Scheiben, Zwiebel in Ringe, Paprika in Streifen und Tomaten in Würfel schneiden.',
     'Kartoffeln und Zwiebeln mit dem Öl in einen breiten Topf schichten, 150 ml Wasser angießen und zugedeckt 15 Minuten dünsten.',
     'Fisch in Stücke schneiden und mit Paprika, Tomaten und gehacktem Knoblauch auf die Kartoffeln legen. Zugedeckt bei kleiner Hitze 10 Minuten garen, bis sich der Fisch leicht zerpflücken lässt.',
-    'Kinderportion ungesalzen abnehmen, den Fisch auf Gräten prüfen und zerpflücken. Erwachsene mit Salz, Pfeffer, Zitronensaft und gehackter Petersilie würzen.'
+    'Kinderportion ungesalzen abnehmen und darin den Fisch auf Gräten prüfen und zerpflücken. Erwachsene mit Salz, Pfeffer, Zitronensaft und gehackter Petersilie würzen.'
   ],
   kidName:'Weicher Tomatenfisch',
-  kid:'Fisch sorgfältig auf Gräten prüfen und mit Kartoffeln und weichen Tomaten zerdrücken. Ohne Salz und Zitrone servieren.',
+  kid:'Fisch sorgfältig auf Gräten prüfen. Fisch, Kartoffeln und weiche Tomaten zusammen zerdrücken. Ohne Salz und Zitrone servieren.',
   leftover:'Fisch-Kartoffel-Taler · 15 Min. – Reste zerdrücken, mit einem Ei vermengen und in der Pfanne beidseitig durchbraten.',
   tipp:'Buğulama heißt gedünstet: im eigenen Dampf bleibt der Fisch saftig und braucht kaum Fett.'
 },
@@ -407,7 +407,7 @@ RECIPES.push(
     'Zwiebel in sehr dünne Ringe, Salat in Streifen und Tomaten in Scheiben schneiden.',
     'Fisch trocken tupfen, mit Paprikapulver bestreuen und im Öl bei mittlerer Hitze 3 bis 4 Minuten je Seite braten, bis er sich leicht zerpflücken lässt.',
     'Fladenbrot aufschneiden und mit der Schnittfläche 1 Minute in der Pfanne anrösten.',
-    'Kinderportion ungesalzen abnehmen, den Fisch auf Gräten prüfen und zerpflücken. Erwachsene mit Salz und Zitronensaft würzen und das Brot mit Fisch, Salat, Tomaten, Zwiebeln und Petersilie füllen.'
+    'Kinderportion ungesalzen abnehmen und darin den Fisch auf Gräten prüfen und zerpflücken. Erwachsene mit Salz und Zitronensaft würzen und das Brot mit Fisch, Salat, Tomaten, Zwiebeln und Petersilie füllen.'
   ],
   kidName:'Fisch-Brotstreifen',
   kid:'Makrele besonders sorgfältig auf Gräten prüfen und zerpflücken, Brot in Streifen und Tomate klein geschnitten daneben. Rohe Zwiebel und Zitrone weglassen.',

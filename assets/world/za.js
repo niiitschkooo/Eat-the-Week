@@ -109,7 +109,7 @@ RECIPES.push(
     'Kinderportion ohne Salz und Chili abnehmen. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen und mit dem Reis servieren.'
   ],
   kidName:'Mildes Hähnchen-Curry',
-  kid:'Hähnchen zerzupfen und die Kartoffeln mit der Soße zerdrücken, dann mit Reis mischen. Ohne Salz und Chili.',
+  kid:'Hähnchen zerzupfen und die Kartoffeln mit der Soße zerdrücken. Beides mit Reis mischen. Ohne Salz und Chili.',
   leftover:'Curry-Roti · 8 Min. – Reste vollständig erhitzen und in ein warmes Fladenbrot rollen.',
   tipp:'Kapmalaiische Currys sind eher mild und leicht süßlich, ein Stück Zimtstange im Topf reicht für viel Aroma.'
 },
@@ -137,7 +137,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene am Tisch mit Salz und Pfeffer würzen.'
   ],
   kidName:'Weicher Potjie-Teller',
-  kid:'Rindfleisch fein zerzupfen, Gemüse und Kartoffeln weich zerdrücken und mit etwas Schmorsaft mischen. Ohne Salz.',
+  kid:'Rindfleisch fein zerzupfen, Gemüse und Kartoffeln weich zerdrücken. Fleisch und Gemüse mit etwas Schmorsaft mischen. Ohne Salz.',
   tipp:'Im Slowcooker die Schichten auf niedriger Stufe 6 Stunden garen, dabei ebenfalls nicht umrühren.'
 },
 {
@@ -212,7 +212,7 @@ RECIPES.push(
     'Ofen auf 200 °C vorheizen. Süßkartoffel in Spalten schneiden, mit der Hälfte des Öls mischen und auf dem Blech 12 Minuten backen.',
     'Aprikosen mit 2 EL heißem Wasser, Zitronensaft, Knoblauch und dem restlichen Öl fein pürieren.',
     'Bohnen und Fisch aufs Blech legen, den Fisch mit der Aprikosenpaste bestreichen und alles 12 bis 14 Minuten backen, bis der Fisch gerade durch ist.',
-    'Kinderportion ohne Salz und Chili abnehmen und den Fisch entgräten. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen.'
+    'Kinderportion ohne Salz und Chili abnehmen und darin den Fisch entgräten. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen.'
   ],
   kidName:'Lachs mit Süßkartoffel-Spalten',
   kid:'Lachs entgräten und zerpflücken, Süßkartoffel und Bohnen weich backen und in kleine Stücke schneiden. Ohne Salz und Chili.',
@@ -239,7 +239,7 @@ RECIPES.push(
     'Ofen auf 220 °C vorheizen. Kartoffeln in Spalten schneiden, mit der Hälfte des Öls und dem Paprikapulver mischen und auf dem Blech 15 Minuten backen.',
     'Fisch trocken tupfen, dünn mit dem restlichen Öl bestreichen und in Maisgrieß wenden. Kartoffeln wenden, Fisch dazulegen und alles 12 bis 15 Minuten backen, bis der Fisch gerade durch und die Kruste goldbraun ist.',
     'Kohl und Karotte fein reiben und mit Joghurt und etwas Zitronensaft zu einem Krautsalat mischen.',
-    'Kinderportion ohne Salz und Essig abnehmen und den Fisch entgräten. Erwachsene Kartoffeln mit Salz und Apfelessig, Fisch mit Zitrone würzen.'
+    'Kinderportion ohne Salz und Essig abnehmen und darin den Fisch entgräten. Erwachsene Kartoffeln mit Salz und Apfelessig, Fisch mit Zitrone würzen.'
   ],
   kidName:'Knusper-Fisch mit Kartoffelspalten',
   kid:'Fisch entgräten und in Streifen teilen, Kartoffeln weich backen und Krautsalat sehr fein gerieben in kleiner Menge dazu. Ohne Salz und Essig.',
@@ -319,7 +319,7 @@ RECIPES.push(
   steps:[
     'Zwiebel würfeln und in Öl 4 Minuten dünsten. Kürbis in 2 cm Würfel und Tomate klein schneiden.',
     'Kürbis, Tomate, Mais, abgespülte Bohnen, Brühe und Lorbeerblatt zugeben und zugedeckt 18 Minuten köcheln, bis der Kürbis weich ist.',
-    'Lorbeerblatt entfernen und etwa ein Drittel mit dem Kartoffelstampfer grob zerdrücken, damit der Eintopf cremig wird.',
+    'Lorbeerblatt entfernen. Etwa ein Drittel von Kürbis, Mais und Bohnen mit dem Kartoffelstampfer grob zerdrücken, damit der Eintopf cremig wird.',
     'Kinderportion ohne Salz und Chili abnehmen. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen.'
   ],
   kidName:'Cremiger Mais-Bohnen-Brei',
@@ -371,8 +371,8 @@ RECIPES.push(
   ],
   steps:[
     'Tomate in Scheiben und Zwiebel in sehr feine Ringe schneiden.',
-    'Eine Brotscheibe mit Käse, Tomate, Spinat und Zwiebel belegen, mit der zweiten Scheibe abdecken und außen dünn mit Öl bestreichen.',
-    'In einer Pfanne bei mittlerer Hitze, mit einem Deckel beschwert, je Seite 3 bis 4 Minuten rösten, bis der Käse geschmolzen ist.',
+    'Eine Brotscheibe mit Käse, Tomate, Spinat und Zwiebel belegen, beim Toast für das Kind die Zwiebel weglassen. Mit der zweiten Scheibe abdecken und außen dünn mit Öl bestreichen.',
+    'Den Toast in einer Pfanne bei mittlerer Hitze, mit einem Deckel beschwert, je Seite 3 bis 4 Minuten rösten, bis der Käse geschmolzen ist.',
     'Gurke in Scheiben schneiden und mit Joghurt mischen. Kinderportion ungesalzen abnehmen, Erwachsene den Gurkensalat mit Salz und Pfeffer würzen.'
   ],
   kidName:'Käsetoast-Streifen',
@@ -401,7 +401,7 @@ RECIPES.push(
     'Kinderportion ohne Salz und Chili abnehmen. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen.'
   ],
   kidName:'Spinat-Ei mit weichem Pap',
-  kid:'Ei vollständig durchgaren und klein rühren, Spinat fein hacken und mit weicher Polenta mischen. Ohne Salz und Chili.',
+  kid:'Ei vollständig durchgaren und klein rühren, Spinat fein hacken. Beides mit weicher Polenta mischen. Ohne Salz und Chili.',
   tipp:'Morogo ist der Sammelname für wildes Blattgemüse wie Amarant, als Ersatz passen Spinat oder junger Grünkohl.'
 }
 );

@@ -18,8 +18,8 @@ RECIPES.push(
   ],
   steps:[
     'Reis waschen und in der 1,5-fachen Menge Wasser zugedeckt 12 Minuten garen. Safran in 1 EL heißem Wasser auflösen und unter einen Teil des Reises mischen.',
-    'Ofen mit Grillfunktion auf 240 °C vorheizen. Ein Viertel der Zwiebel fein reiben, den Saft ausdrücken und mit dem Hack 2 Minuten kräftig verkneten.',
-    'Hack zu flachen, länglichen Rollen formen und aufs Blech legen, halbierte Tomaten danebenlegen, mit Öl bepinseln und 10 bis 12 Minuten grillen, bis das Fleisch innen nicht mehr rosa ist.',
+    'Ofen mit Grillfunktion auf 240 °C vorheizen. Ein Viertel der Zwiebel fein reiben und den Saft ausdrücken. Die geriebene Zwiebel mit dem Hack 2 Minuten kräftig verkneten.',
+    'Hack zu flachen, länglichen Rollen formen und aufs Blech legen, halbierte Tomaten danebenlegen. Hackrollen und Tomaten mit Öl bepinseln und 10 bis 12 Minuten grillen, bis das Fleisch innen nicht mehr rosa ist.',
     'Kinderportion ohne Salz abnehmen. Erwachsene den Kabab mit Salz und Sumach bestreuen und mit Reis, Tomaten, Gurke, restlicher Zwiebel in Ringen und Petersilie servieren.'
   ],
   kidName:'Mini-Koobideh',
@@ -158,7 +158,7 @@ RECIPES.push(
   ],
   steps:[
     'Lamm mit der Hälfte der Zwiebel, Kurkuma und der angestochenen Limette mit Wasser bedecken, aufkochen, Schaum abschöpfen und zugedeckt 60 Minuten leise köcheln.',
-    'Kartoffeln halbieren, Tomaten vierteln und mit abgespülten Kichererbsen und Bohnen zugeben, dann weitere 30 Minuten garen, bis alles sehr weich ist.',
+    'Kartoffeln halbieren und Tomaten vierteln. Kartoffeln und Tomaten mit abgespülten Kichererbsen und Bohnen zugeben, dann weitere 30 Minuten garen, bis alles sehr weich ist.',
     'Brühe abgießen und als Suppe mit Fladenbrotstücken servieren. Fleisch, Kartoffeln und Hülsenfrüchte ohne Limette mit dem Stampfer grob zerdrücken.',
     'Kinderportion ohne Salz abnehmen. Erwachsene Brühe und Stampf mit Salz und Pfeffer würzen und mit Radieschen und der restlichen Zwiebel in Spalten servieren.'
   ],
@@ -351,7 +351,7 @@ RECIPES.push(
   ],
   steps:[
     'Zwiebel in Halbringe schneiden und in der Hälfte des Öls 8 Minuten goldbraun braten, die Hälfte als Topping beiseitestellen.',
-    'Lauch in Ringe schneiden, Petersilie und Spinat grob hacken und mit der übrigen Zwiebel, abgespülten Kichererbsen, Bohnen und reichlich Wasser im Topf 15 Minuten köcheln.',
+    'Lauch in Ringe schneiden, Petersilie und Spinat grob hacken. Lauch, Petersilie und Spinat mit der übrigen Zwiebel, abgespülten Kichererbsen, Bohnen und reichlich Wasser im Topf 15 Minuten köcheln.',
     'Nudeln in Stücke brechen, zugeben und 10 Minuten weich köcheln, bis der Eintopf sämig ist.',
     'Restliches Öl in der Pfanne erwärmen, die Minze 20 Sekunden darin schwenken und vom Herd nehmen.',
     'Kinderportion ohne Salz abnehmen und Joghurt unterrühren. Erwachsene mit Salz und Pfeffer würzen und mit Joghurt, Röstzwiebeln und Minzöl servieren.'

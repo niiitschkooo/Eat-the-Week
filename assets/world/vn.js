@@ -25,7 +25,7 @@ RECIPES.push(
     'Kinderschale ungesalzen abnehmen. Erwachsene mit Salz, Limettensaft, Koriander und nach Wunsch frischer Chili würzen.'
   ],
   kidName:'Mini-Phở',
-  kid:'Nudeln kurz schneiden, Hähnchen fein zerzupfen und mit weichem, klein geschnittenem Gemüse und wenig lauwarmer Brühe anbieten.',
+  kid:'Nudeln kurz schneiden und Hähnchen fein zerzupfen. Beides mit weichem, klein geschnittenem Gemüse und wenig lauwarmer Brühe anbieten.',
   leftover:'Phở-Nudelpfanne · 8 Min. – Nudeln, Hähnchen und Gemüse abtropfen und mit einem Schluck Brühe in der Pfanne durchbraten.',
   tipp:'Die Brühe lässt sich am Vortag kochen, dann bleiben am Abend nur 10 Minuten.'
 },
@@ -134,7 +134,7 @@ RECIPES.push(
     'Vollkornreis in der doppelten Menge Wasser etwa 30 Minuten garen.',
     'Zwiebel in feine Streifen schneiden und in Öl bei mittlerer Hitze 8 Minuten dunkelgoldbraun schmoren. Ingwerstifte und Knoblauch 1 Minute mitbraten.',
     'Lachs in große Stücke schneiden, auf die Zwiebeln legen, 100 ml Wasser angießen und zugedeckt 8 Minuten sanft schmoren. Pak Choi halbiert dazulegen und 4 Minuten mitgaren.',
-    'Kinderportion abnehmen und den Fisch auf Gräten prüfen. Erwachsene mit Fischsauce, Pfeffer und Frühlingszwiebelringen würzen.'
+    'Kinderportion abnehmen und darin den Fisch auf Gräten prüfen. Erwachsene mit Fischsauce, Pfeffer und Frühlingszwiebelringen würzen.'
   ],
   kidName:'Milder Schmorlachs mit Reis',
   kid:'Lachs sorgfältig entgräten, zerpflücken und mit Reis und etwas Schmorsud mischen. Pak Choi weich gegart klein schneiden.',
@@ -249,7 +249,7 @@ RECIPES.push(
     'Zitronengras entfernen und die Kinderportion abnehmen. Erwachsene mit Fischsauce und nach Wunsch Chili abschmecken.'
   ],
   kidName:'Süßkartoffel-Hähnchen-Curry',
-  kid:'Süßkartoffel und Karotte mit der Gabel zerdrücken, Hähnchen fein schneiden und mit Reis und Soße mischen. Ohne Fischsauce und Chili.',
+  kid:'Süßkartoffel und Karotte mit der Gabel zerdrücken und Hähnchen fein schneiden. Gemüse und Hähnchen mit Reis und Soße mischen. Ohne Fischsauce und Chili.',
   leftover:'Curry mit Baguette · 5 Min. – Reste vollständig erhitzen und mit Vollkorn-Baguette zum Tunken essen.',
   tipp:'In Vietnam isst man dieses Curry oft mit Baguette statt mit Reis.'
 },
@@ -380,7 +380,7 @@ RECIPES.push(
     {n:'Rapsöl',q:0.5,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Karotte und Rettich in feine Stifte hobeln, mit Reisessig und 2 EL Wasser mischen und 10 Minuten ziehen lassen.',
+    'Für das Kind etwas Karotte fein raspeln. Restliche Karotte und Rettich in feine Stifte hobeln, mit Reisessig und 2 EL Wasser mischen und 10 Minuten ziehen lassen.',
     'Baguette in der trockenen Pfanne 2 Minuten anrösten. Dann die Eier in Öl braten, wenden und von beiden Seiten braten, bis das Eigelb fest ist.',
     'Baguette aufschneiden und mit Gurkenscheiben, eingelegtem Gemüse und Ei füllen.',
     'Kinderportion ohne Sojasauce abnehmen. Erwachsene beträufeln ihr Ei mit Sojasauce und streuen Koriander und nach Wunsch Chili darüber.'

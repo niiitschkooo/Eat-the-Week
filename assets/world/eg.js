@@ -19,7 +19,7 @@ RECIPES.push(
   ],
   steps:[
     'Ei in 10 Minuten hart kochen. Bohnen abspülen, mit 80 ml Wasser 8 Minuten sanft köcheln und mit dem Kartoffelstampfer grob zerdrücken.',
-    'Kreuzkümmel und die Hälfte des Öls unterrühren. Tomaten und Gurke fein würfeln, Petersilie hacken.',
+    'Kreuzkümmel und die Hälfte des Öls unter die Bohnen rühren. Tomaten und Gurke fein würfeln, Petersilie hacken.',
     'Kinderportion abnehmen und mit gehacktem Ei anbieten. Erwachsene mit gepresstem Knoblauch, Zitronensaft, Salz, restlichem Öl und Chili würzen und mit Gemüse, Ei und Fladenbrot essen.'
   ],
   kidName:'Weiches Bohnenmus mit Ei',
@@ -160,7 +160,7 @@ RECIPES.push(
     'Ofen auf 220 °C vorheizen. Aubergine in 1 cm dicke Scheiben schneiden, mit der Hälfte des Öls bestreichen und auf dem Blech 15 Minuten backen, statt sie zu frittieren.',
     'Zwiebel, Paprika und Knoblauch würfeln und im restlichen Öl im Topf 5 Minuten dünsten, gehackte Tomaten, Kichererbsen und Kreuzkümmel zugeben und 5 Minuten köcheln.',
     'Auberginen und Tomatensoße in einer Form schichten und bei 190 °C 20 Minuten backen, bis die Auberginen ganz weich sind.',
-    'Kinderportion abnehmen, Aubergine ohne Schale und Kichererbsen zerdrücken. Erwachsene mit Salz und Chili würzen und mit Fladenbrot essen.'
+    'Kinderportion abnehmen. Schale der Aubergine entfernen, Aubergine und Kichererbsen zerdrücken. Erwachsene mit Salz und Chili würzen und mit Fladenbrot essen.'
   ],
   kidName:'Weiche Auberginen-Tomaten-Soße',
   kid:'Aubergine ohne Schale mit der Soße und den Kichererbsen zu einem weichen Mus zerdrücken, mit Brotstreifen. Ohne Salz und Chili.',
@@ -212,7 +212,7 @@ RECIPES.push(
   ],
   steps:[
     'Vollkornreis in der doppelten Menge Wasser 30 Minuten garen.',
-    'Hähnchen mit der halbierten Zwiebel in der Brühe 15 Minuten leise köcheln, herausnehmen und in Stücke zupfen.',
+    'Hähnchen mit der halbierten Zwiebel in der Brühe 15 Minuten leise köcheln. Das Hähnchen herausnehmen und in Stücke zupfen.',
     'Molokhia gefroren in die heiße Brühe geben und unter Rühren 5 Minuten erhitzen, dabei nicht sprudelnd kochen lassen.',
     'Knoblauch fein hacken und mit dem gemahlenen Koriander im Öl in der Pfanne 1 Minute goldgelb anrösten, dann unter die Molokhia rühren.',
     'Kinderportion abnehmen und das Hähnchen fein zerzupfen. Erwachsene mit Salz und Zitrone würzen und mit Reis und Hähnchen essen.'
@@ -271,11 +271,11 @@ RECIPES.push(
   steps:[
     'Ofen auf 220 °C vorheizen. Zwiebel und Paprika sehr fein würfeln, Petersilie hacken und alles mit Hackfleisch, Kreuzkümmel und Paprikapulver verkneten.',
     'Fladenbrot seitlich aufschneiden, die Füllung dünn und gleichmäßig hineinstreichen und das Brot außen mit dem Öl bestreichen.',
-    'Auf dem Rost 15 Minuten backen und nach der Hälfte wenden, bis die Füllung vollständig durchgegart ist, im Airfryer 12 Minuten bei 190 °C. Tomaten und Gurke in Stücke schneiden.',
+    'Gefüllte Brote auf dem Rost 15 Minuten backen und nach der Hälfte wenden, bis die Füllung vollständig durchgegart ist, im Airfryer 12 Minuten bei 190 °C. Tomaten und Gurke in Stücke schneiden.',
     'Kinderportion abnehmen, in schmale Streifen schneiden und prüfen, dass die Füllung durch ist. Erwachsene mit Salz und Chili würzen und mit Gemüse essen.'
   ],
   kidName:'Hawawshi-Streifen',
-  kid:'In schmale Streifen schneiden, die Füllung muss innen durchgegart und ohne Rosa sein. Harte Ränder abschneiden, ohne Salz, Gurke in Stifte.',
+  kid:'Gefülltes Brot in schmale Streifen schneiden, die Füllung muss innen durchgegart und ohne Rosa sein. Harte Ränder abschneiden, ohne Salz, Gurke in Stifte.',
   leftover:'Hawawshi-Toast · 6 Min. – Reste in der Pfanne von beiden Seiten aufbacken, bis sie innen heiß sind.',
   tipp:'Die Füllung dünn verstreichen, dann gart sie in der Zeit sicher durch und das Brot wird knusprig.'
 },
@@ -298,7 +298,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 200 °C vorheizen. Nudeln 2 Minuten kürzer als angegeben kochen und abgießen.',
-    'Zwiebel fein würfeln, Karotte raspeln und mit dem Hackfleisch in der Hälfte des Öls krümelig braten, passierte Tomaten zugeben und 8 Minuten einkochen.',
+    'Zwiebel fein würfeln, Karotte raspeln. Beides mit dem Hackfleisch in der Hälfte des Öls krümelig braten, passierte Tomaten zugeben und 8 Minuten einkochen.',
     'Für die Béchamel das restliche Öl im Nudeltopf erhitzen, Mehl 1 Minute anschwitzen, nach und nach die Milch einrühren und unter Rühren 4 Minuten köcheln, mit Muskat würzen.',
     'Die Hälfte der Nudeln in eine Form geben, Hackfleischsoße darauf verteilen, restliche Nudeln darüber schichten, mit Béchamel übergießen, Käse aufstreuen und 20 Minuten goldbraun backen.',
     'Kinderportion abnehmen und in kleine Stücke schneiden. Erwachsene nach Geschmack salzen und pfeffern.'

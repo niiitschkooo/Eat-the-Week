@@ -19,7 +19,7 @@ RECIPES.push(
   ],
   steps:[
     'Lammfleisch in 2 cm große Würfel schneiden, sichtbares Fett entfernen und in einem schweren Topf in Öl rundum 5 Minuten anbraten.',
-    'Zwiebel und Lauch in Ringe, Karotten in dicke Scheiben schneiden und kurz mitbraten. Brühe, Thymian und Lorbeer zugeben und zugedeckt 30 Minuten sanft köcheln.',
+    'Zwiebel und Lauch in Ringe, Karotten in dicke Scheiben schneiden und alle drei kurz mitbraten. Brühe, Thymian und Lorbeer zugeben und zugedeckt 30 Minuten sanft köcheln.',
     'Kartoffeln schälen, in große Stücke schneiden, zugeben und weitere 25 bis 30 Minuten garen, bis Fleisch und Kartoffeln weich sind. Einige Kartoffelstücke zerdrücken, damit der Eintopf bindet.',
     'Lorbeer entfernen und die Petersilie unterrühren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
@@ -47,7 +47,7 @@ RECIPES.push(
   ],
   steps:[
     'Würstchen in einem breiten Topf in Öl 5 Minuten rundum anbraten, herausnehmen und in dicke Stücke schneiden.',
-    'Zwiebeln in Streifen, Karotten in Scheiben und Kartoffeln in dicke Scheiben schneiden. Abwechselnd mit den Würstchen in den Topf schichten und mit Thymian bestreuen.',
+    'Zwiebeln in Streifen, Karotten in Scheiben und Kartoffeln in dicke Scheiben schneiden. Gemüse und Kartoffeln abwechselnd mit den Würstchen in den Topf schichten und mit Thymian bestreuen.',
     'Brühe angießen und zugedeckt bei kleiner Hitze 35 Minuten sanft schmoren, bis die Kartoffeln weich sind. Erbsen in den letzten 5 Minuten zugeben.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Petersilie, Pfeffer und wenig Salz würzen.'
   ],
@@ -102,7 +102,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 200 °C vorheizen. Mehl, Quark, 1 TL Öl und 1 EL Wasser zu einem glatten Teig verkneten und kurz ruhen lassen.',
-    'Hähnchen würfeln und im restlichen Öl 4 Minuten anbraten. Lauch in Ringe und Pilze in Scheiben schneiden, zugeben und 5 Minuten dünsten.',
+    'Hähnchen würfeln und im restlichen Öl 4 Minuten anbraten. Lauch in Ringe und Pilze in Scheiben schneiden, beides zugeben und 5 Minuten dünsten.',
     'Milch mit der Stärke verrühren, mit Erbsen und Thymian in die Pfanne geben und 2 Minuten zu einer cremigen Füllung köcheln. In eine kleine Auflaufform füllen.',
     'Teig dünn ausrollen, auf die Füllung legen, die Ränder andrücken, einstechen und 20 bis 25 Minuten goldbraun backen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Pfeffer nachwürzen.'
@@ -131,7 +131,7 @@ RECIPES.push(
   ],
   steps:[
     'Rindfleisch trocken tupfen und portionsweise im Schmortopf in Öl rundum kräftig anbraten, dann herausnehmen.',
-    'Zwiebel würfeln, Karotten und Pastinake in Stücke und Pilze in Viertel schneiden und im Bratfett 5 Minuten anrösten.',
+    'Zwiebel würfeln, Karotten und Pastinake in Stücke und Pilze in Viertel schneiden. Das ganze Gemüse im Bratfett 5 Minuten anrösten.',
     'Fleisch zurückgeben, passierte Tomaten, Brühe und Thymian zugeben und zugedeckt bei kleiner Hitze 80 bis 90 Minuten schmoren, bis das Fleisch zart ist.',
     'Offen 5 Minuten sämig einkochen und mit Vollkornbrot servieren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
@@ -188,12 +188,12 @@ RECIPES.push(
   steps:[
     'Lauch, Sellerie und Karotte klein würfeln und in Öl 4 Minuten anschwitzen. Kartoffeln schälen, in 1 cm große Würfel schneiden und zugeben.',
     'Brühe angießen und 12 Minuten köcheln, bis die Kartoffeln weich sind. Ein Viertel der Kartoffeln am Topfrand zerdrücken, damit der Eintopf sämig wird.',
-    'Milch zugießen, Fisch in mundgerechten Stücken einlegen und bei kleiner Hitze 5 bis 6 Minuten ziehen lassen, bis er gar ist, ohne dass es kocht.',
+    'Milch zugießen, Fisch in mundgerechten Stücken einlegen und bei kleiner Hitze 5 bis 6 Minuten ziehen lassen, bis er gar ist, ohne dass der Eintopf kocht.',
     'Dill unterrühren und mit Vollkornbrot servieren.',
     'Kinderportion ungesalzen abnehmen und Fisch auf Gräten prüfen. Erwachsene mit Salz, Pfeffer und etwas Zitrone würzen.'
   ],
   kidName:'Mini-Chowder',
-  kid:'Dick und löffelbar mit wenig Flüssigkeit anbieten, Fisch auf Gräten prüfen und zerpflücken. Gemüse weich zerdrücken, Brot ohne Kruste zum Eintunken.',
+  kid:'Eintopf dick und löffelbar mit wenig Flüssigkeit anbieten, Fisch auf Gräten prüfen und zerpflücken. Gemüse weich zerdrücken, Brot ohne Kruste zum Eintunken.',
   leftover:'Chowder Tag 2 · 5 Min. – Reste langsam erhitzen, ohne zu kochen, und mit frischem Spinat strecken.',
   tipp:'Klassisch kommt ein Stück geräucherter Fisch hinein, eine kleine Menge reicht für den Geschmack, da er sehr salzig ist.'
 },
@@ -242,7 +242,7 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln schälen, würfeln und in 15 Minuten weich kochen. Den Fisch für die letzten 6 Minuten zugeben und mitgaren, dann alles gut abtropfen lassen.',
-    'Ofen auf 200 °C vorheizen. Kartoffeln zerstampfen, Fisch zerpflücken und auf Gräten prüfen. Mit Ei, Haferflocken, fein geschnittener Frühlingszwiebel und Dill vermengen.',
+    'Ofen auf 200 °C vorheizen. Kartoffeln zerstampfen, Fisch zerpflücken und auf Gräten prüfen. Kartoffeln und Fisch mit Ei, Haferflocken, fein geschnittener Frühlingszwiebel und Dill vermengen.',
     'Mit feuchten Händen flache Küchlein formen, auf ein Blech mit Backpapier legen, mit Öl bestreichen und 18 bis 20 Minuten backen, nach der Hälfte wenden. Im Airfryer bei 190 °C etwa 12 Minuten.',
     'Erbsen in wenig Wasser 4 Minuten garen. Joghurt mit etwas Zitronensaft verrühren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und Zitrone würzen.'
@@ -295,10 +295,10 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Kartoffeln fein reiben und in einem Tuch kräftig ausdrücken. Mit Mehl, Milch und Ei zu einem dicken Teig verrühren.',
+    'Kartoffeln fein reiben und in einem Tuch kräftig ausdrücken. Die Kartoffeln mit Mehl, Milch und Ei zu einem dicken Teig verrühren.',
     'In einer beschichteten Pfanne mit wenig Öl kleine, flache Pfannkuchen bei mittlerer Hitze je Seite 3 bis 4 Minuten goldbraun und durch braten.',
     'Pilze in Scheiben schneiden und im restlichen Öl 4 Minuten braten, Spinat zugeben und zusammenfallen lassen.',
-    'Kinderportion ungesalzen abnehmen. Erwachsene die Pilze mit Salz und Pfeffer würzen und alles mit Hüttenkäse und Frühlingszwiebel servieren.'
+    'Kinderportion ungesalzen abnehmen. Erwachsene die Pilze mit Salz und Pfeffer würzen und Pfannkuchen und Pilze mit Hüttenkäse und Frühlingszwiebel servieren.'
   ],
   kidName:'Mini-Boxty',
   kid:'Pfannkuchen gut durchbraten, in weiche Streifen schneiden und mit Hüttenkäse bestreichen. Pilze sehr klein schneiden, ohne Salz.',
@@ -404,7 +404,7 @@ RECIPES.push(
     {n:'Muskat',q:0.1,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel würfeln, Lauch in Ringe schneiden und in Öl 5 Minuten weich dünsten, ohne dass er Farbe nimmt.',
+    'Zwiebel würfeln, Lauch in Ringe schneiden. Beides in Öl 5 Minuten weich dünsten, ohne dass das Gemüse Farbe nimmt.',
     'Kartoffeln schälen, klein würfeln, mit der Brühe zugeben und 15 Minuten weich köcheln. Abgespülte Bohnen in den letzten 5 Minuten zugeben.',
     'Milch zugießen und die Suppe fein pürieren, sie soll dick und cremig sein. Schnittlauch darüberstreuen und mit Vollkornbrot servieren.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und Muskat würzen.'

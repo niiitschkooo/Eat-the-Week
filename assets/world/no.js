@@ -153,12 +153,12 @@ RECIPES.push(
   ],
   steps:[
     'Reis aufsetzen und in 25 bis 30 Minuten garen. Hähnchen würfeln, in der Brühe aufkochen und 10 Minuten leise köcheln.',
-    'Karotten und Sellerie würfeln, Lauch in Ringe schneiden und Blumenkohl in kleine Röschen teilen. Zum Hähnchen geben und weitere 12 Minuten köcheln, bis Gemüse und Fleisch weich und durchgegart sind.',
+    'Karotten und Sellerie würfeln, Lauch in Ringe schneiden und Blumenkohl in kleine Röschen teilen. Das Gemüse zum Hähnchen geben und weitere 12 Minuten köcheln, bis Gemüse und Fleisch weich und durchgegart sind.',
     'Milch mit Speisestärke verrühren, einrühren und 2 Minuten sämig köcheln.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz, Pfeffer und Petersilie abschmecken und mit Reis servieren.'
   ],
   kidName:'Hühnerfrikassee mild',
-  kid:'Hähnchen fein zerzupfen, Gemüse sehr weich garen und mit Reis und Sauce zu einem sämigen Brei mischen. Ohne Salz servieren.',
+  kid:'Hähnchen fein zerzupfen und Gemüse sehr weich garen. Beides mit Reis und Sauce zu einem sämigen Brei mischen. Ohne Salz servieren.',
   leftover:'Frikassee-Auflauf · 20 Min. – Reste mit dem Reis in eine Form geben, mit Käse bestreuen und im Ofen überbacken.',
   tipp:'Frikassee lässt sich gut einfrieren, die Sauce nach dem Auftauen einmal kräftig durchrühren.'
 },
@@ -180,7 +180,7 @@ RECIPES.push(
     {n:'Schnittlauch',q:1,u:'EL',c:'gemuese'}
   ],
   steps:[
-    'Kartoffeln, Karotten und Sellerie in kleine Würfel schneiden, Lauch in feine Ringe. Alles in der Brühe 9 bis 10 Minuten weich köcheln.',
+    'Kartoffeln, Karotten und Sellerie in kleine Würfel schneiden, Lauch in feine Ringe. Das Gemüse in der Brühe 9 bis 10 Minuten weich köcheln.',
     'Milch zugießen. Fisch in mundgerechte Würfel schneiden, auf Gräten prüfen und in die nicht mehr kochende Suppe geben.',
     'Bei kleiner Hitze 4 bis 5 Minuten gar ziehen lassen, bis der Fisch innen nicht mehr glasig ist, dann saure Sahne einrühren.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz, Pfeffer und Schnittlauch abschmecken.'
@@ -207,7 +207,7 @@ RECIPES.push(
     {n:'Muskat',q:0.25,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 200 °C vorheizen. Nudeln 2 Minuten kürzer als angegeben kochen, Brokkoliröschen in den letzten 3 Minuten mitgaren und alles abgießen.',
+    'Ofen auf 200 °C vorheizen. Nudeln 2 Minuten kürzer als angegeben kochen, Brokkoliröschen in den letzten 3 Minuten mitgaren und beides abgießen.',
     'Milch mit Speisestärke und Muskat verrühren und unter Rühren 2 Minuten zu einer hellen Sauce aufkochen.',
     'Fisch würfeln, mit Nudeln, Brokkoli und Sauce in einer geölten Form mischen, mit Käse bestreuen und 25 Minuten backen, bis der Fisch durchgegart und die Oberfläche goldbraun ist.',
     'Karotte fein reiben. Kinderportion ohne Salz abnehmen, Erwachsene mit Pfeffer nachwürzen und die Karottenrohkost dazu servieren.'
@@ -288,7 +288,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel und Knoblauch fein würfeln, Pilze in Scheiben schneiden. Zwiebel in Öl glasig dünsten, Pilze zugeben und 4 Minuten braten.',
+    'Zwiebel und Knoblauch fein würfeln, Pilze in Scheiben schneiden. Zwiebel und Knoblauch in Öl glasig dünsten, Pilze zugeben und 4 Minuten braten.',
     'Graupen und Thymian unterrühren, Brühe nach und nach angießen und offen 30 bis 35 Minuten unter gelegentlichem Rühren köcheln, bis die Graupen weich und cremig sind.',
     'Erbsen und Spinat in den letzten 4 Minuten untermischen, dann geriebenen Käse einrühren.',
     'Kinderportion abnehmen. Erwachsene mit Salz und Pfeffer abschmecken.'

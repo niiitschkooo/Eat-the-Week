@@ -20,11 +20,11 @@ RECIPES.push(
   steps:[
     'Ofen auf 220 °C vorheizen. Kartoffeln in Stifte schneiden, mit der Hälfte des Öls mischen und auf dem Blech 25 bis 30 Minuten knusprig backen, einmal wenden.',
     'Zwiebel in Spalten, Paprika in Streifen und Tomaten in Achtel schneiden, Knoblauch fein hacken.',
-    'Fleisch im restlichen Öl in der sehr heißen Pfanne 2 Minuten scharf anbraten. Knoblauch, Zwiebel und Paprika zugeben und 2 Minuten mitbraten, Tomaten nur 1 Minute mitschwenken.',
+    'Fleisch im restlichen Öl in der sehr heißen Pfanne 2 Minuten scharf anbraten. Knoblauch, Zwiebel und Paprika zugeben und 2 Minuten mitbraten. Dann die Tomaten zugeben und nur 1 Minute mitschwenken.',
     'Kinderportion ohne Sojasauce abnehmen. Erwachsene mit Sojasauce und Essig ablöschen, mit Koriander bestreuen und mit den Ofenkartoffeln mischen.'
   ],
   kidName:'Mini-Lomo',
-  kid:'Fleisch für das Kind etwas länger braten und sehr fein schneiden, Kartoffelstifte weich und lauwarm anbieten. Tomate ohne Haut, ohne Sojasauce.',
+  kid:'Fleisch für das Kind etwas länger braten und sehr fein schneiden, Kartoffelstifte weich und lauwarm anbieten. Tomate ohne Haut anbieten, die ganze Kinderportion ohne Sojasauce.',
   leftover:'Saltado-Wrap · 5 Min. – Reste vollständig erhitzen und in eine Tortilla rollen.',
   tipp:'In Peru gibt es zusätzlich Reis dazu, mit den Ofenkartoffeln reicht eine Beilage.'
 },
@@ -75,12 +75,12 @@ RECIPES.push(
   ],
   steps:[
     'Hähnchen in Stücke schneiden und im Topf in Öl 5 Minuten rundum anbraten. Gewürfelte Zwiebel zugeben und 2 Minuten mitbraten.',
-    'Koriander und Spinat mit 50 ml Brühe fein pürieren. Mit der restlichen Brühe, dem Reis und der gewürfelten Karotte in den Topf geben und zugedeckt 15 Minuten garen.',
+    'Koriander und Spinat mit 50 ml Brühe fein pürieren. Das Püree mit der restlichen Brühe, dem Reis und der gewürfelten Karotte in den Topf geben und zugedeckt 15 Minuten garen.',
     'Erbsen und Paprikawürfel unterheben und zugedeckt weitere 5 Minuten garen, bis der Reis weich und die Flüssigkeit aufgesogen ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und etwas Limette oder Chili würzen.'
   ],
   kidName:'Mini-Arroz con Pollo',
-  kid:'Hähnchen klein zupfen, Erbsen leicht zerdrücken und alles mit dem weichen Reis mischen. Ohne Salz und Chili servieren.',
+  kid:'Hähnchen klein zupfen und Erbsen leicht zerdrücken. Beides mit dem weichen Reis mischen. Ohne Salz und Chili servieren.',
   leftover:'Grüne Reisbällchen · 20 Min. – Reste mit einem Ei verkneten, zu Bällchen formen und im Ofen durchbacken.',
   tipp:'Spinat im Koriander-Püree macht den Reis kräftig grün und für Kinder milder.'
 },
@@ -104,7 +104,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 220 °C vorheizen. Knoblauch fein reiben und mit Kreuzkümmel, Paprikapulver, Oregano und der Hälfte des Öls verrühren, das Hähnchen damit rundum einreiben.',
     'Kartoffeln in Spalten schneiden, mit dem restlichen Öl mischen und mit dem Hähnchen auf ein Blech legen. 30 bis 35 Minuten backen, bis das Hähnchen innen keine rosa Stellen mehr hat.',
-    'Salat zupfen, Gurke in Scheiben schneiden und mit etwas Limettensaft anmachen.',
+    'Salat zupfen und Gurke in Scheiben schneiden. Beides zusammen mit etwas Limettensaft anmachen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Limette und nach Wunsch scharfer Ají-Soße servieren.'
   ],
   kidName:'Mini-Pollo',
@@ -244,8 +244,8 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln in Spalten schneiden und 15 bis 18 Minuten weich kochen, das Ei in den letzten 10 Minuten mitkochen.',
-    'Paprika würfeln und in Öl 5 Minuten weich dünsten, Kurkuma kurz mitrösten. Mit Hüttenkäse, Milch und Brot glatt pürieren, bis eine dicke, gelbe Soße entsteht.',
-    'Salat auf Teller verteilen, Kartoffeln darauflegen, mit Soße begießen und mit Eivierteln belegen.',
+    'Paprika würfeln und in Öl 5 Minuten weich dünsten, Kurkuma kurz mitrösten. Die Paprika mit Hüttenkäse, Milch und Brot glatt pürieren, bis eine dicke, gelbe Soße entsteht.',
+    'Salat auf Teller verteilen und Kartoffeln darauflegen. Die Kartoffeln mit Soße begießen und mit Eivierteln belegen.',
     'Kinderportion ohne Oliven und Salz abnehmen. Erwachsene mit Oliven, Salz und nach Wunsch Ají-Amarillo-Paste würzen.'
   ],
   kidName:'Mini-Huancaína',
@@ -334,7 +334,7 @@ RECIPES.push(
     'Kinderportion ohne Sojasauce abnehmen. Erwachsene mit Sojasauce, Sesamöl und dem Grün der Frühlingszwiebeln würzen.'
   ],
   kidName:'Mini-Chaufa',
-  kid:'Das Ei ist vollständig gestockt, in kleine Stücke schneiden. Erbsen leicht zerdrücken und ohne Sojasauce servieren.',
+  kid:'Das Ei ist vollständig gestockt, die Eistreifen in kleine Stücke schneiden. Erbsen leicht zerdrücken. Die Kinderportion ohne Sojasauce servieren.',
   leftover:'Chaufa-Omelett · 8 Min. – Reste mit zwei verquirlten Eiern übergießen und vollständig stocken lassen.',
   tipp:'Mit Reis vom Vortag ist der Chaufa in 15 Minuten fertig und wird besonders körnig.'
 },
@@ -356,7 +356,7 @@ RECIPES.push(
   ],
   steps:[
     'Nudeln in ungesalzenem Wasser nach Packung garen. Den Spinat in den letzten 30 Sekunden mitgaren und mit einer Schaumkelle herausheben.',
-    'Zwiebel und Knoblauch fein würfeln und in Öl 3 Minuten weich dünsten. Mit Spinat, Basilikum, Ricotta, Parmesan und Milch glatt pürieren.',
+    'Zwiebel und Knoblauch fein würfeln und in Öl 3 Minuten weich dünsten. Zwiebel und Knoblauch mit Spinat, Basilikum, Ricotta, Parmesan und Milch glatt pürieren.',
     'Nudeln abgießen und mit der grünen Soße mischen, bei Bedarf mit etwas Nudelwasser verdünnen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und etwas mehr Käse würzen.'
   ],
@@ -389,7 +389,7 @@ RECIPES.push(
     'Kinderportion ungesalzen mit nur wenig Feta abnehmen. Erwachsene mit dem restlichen zerbröselten Feta, Salz, Pfeffer und nach Wunsch Ají würzen und mit Reis servieren.'
   ],
   kidName:'Mini-Kürbis-Locro',
-  kid:'Kürbis und Kartoffeln sind weich und lassen sich gut zerdrücken, das Ei ist durchgegart. Nur wenige Krümel Feta, Erbsen leicht zerdrücken.',
+  kid:'Kürbis und Kartoffeln sind weich, beides für das Kind mit der Gabel zerdrücken. Das Ei ist durchgegart. Erbsen leicht zerdrücken, nur wenige Krümel Feta.',
   leftover:'Kürbis-Reis-Auflauf · 15 Min. – Reste mit Reis mischen, mit Käse bestreuen und im Ofen überbacken.',
   tipp:'Der Kürbis darf richtig zerfallen, so wird der Locro ohne Sahne cremig.'
 },

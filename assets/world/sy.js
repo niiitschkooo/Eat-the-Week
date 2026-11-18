@@ -19,7 +19,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 220 °C vorheizen. Hack mit fein geriebener Zwiebel, gehackter Petersilie, Paprikapulver und Kreuzkümmel verkneten und zu länglichen Röllchen formen.',
-    'Tomaten halbieren, Paprika in breite Streifen schneiden und mit Öl auf ein Blech legen, die Röllchen dazulegen.',
+    'Tomaten halbieren und Paprika in breite Streifen schneiden. Beides mit Öl auf ein Blech legen, die Röllchen dazulegen.',
     'Alles 15 bis 20 Minuten backen, bis das Fleisch innen durchgegart ist, im Airfryer 12 bis 14 Minuten bei 200 °C. Fladenbrot in den letzten 2 Minuten kurz mitwärmen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Pfeffer würzen, Kabab und Gemüse auf das Fladenbrot legen und mit Joghurt servieren.'
   ],
@@ -101,9 +101,9 @@ RECIPES.push(
   ],
   steps:[
     'Hähnchen in sehr dünne Streifen schneiden und mit Öl, Baharat, Kurkuma und der Hälfte des fein geriebenen Knoblauchs mischen.',
-    'In einer heißen Pfanne in zwei Portionen je 5 bis 6 Minuten kräftig anbraten, bis das Fleisch durchgegart und leicht gebräunt ist.',
+    'Hähnchen in einer heißen Pfanne in zwei Portionen je 5 bis 6 Minuten kräftig anbraten, bis das Fleisch durchgegart und leicht gebräunt ist.',
     'Joghurt mit restlichem Knoblauch verrühren, Tomaten und Gurke in Scheiben und Salat in Streifen schneiden, Fladenbrot erwärmen.',
-    'Kinderportion ohne Salz und ohne Knoblauchjoghurt abnehmen. Erwachsene salzen und alles mit Knoblauchjoghurt ins Fladenbrot füllen.'
+    'Kinderportion ohne Salz und ohne Knoblauchjoghurt abnehmen. Erwachsene salzen und Hähnchen und Gemüse mit Knoblauchjoghurt ins Fladenbrot füllen.'
   ],
   kidName:'Hähnchen-Pita',
   kid:'Hähnchen fein schneiden und mit Naturjoghurt, Gurkenstiften und weichem Fladenbrot getrennt auf dem Teller anbieten.',
@@ -157,7 +157,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 220 °C vorheizen. Tomate, Paprika und Zwiebel sehr fein würfeln.',
-    'Mit dem rohen Hack, Tomatenmark, Paprikapulver und Öl zu einer streichfähigen Masse verrühren.',
+    'Das gewürfelte Gemüse mit dem rohen Hack, Tomatenmark, Paprikapulver und Öl zu einer streichfähigen Masse verrühren.',
     'Masse dünn bis zum Rand auf das Fladenbrot streichen und 10 bis 12 Minuten backen, bis das Fleisch vollständig durchgegart ist.',
     'Kinderportion ungesalzen abnehmen und in Streifen schneiden. Erwachsene salzen und mit Joghurt und Gurke servieren.'
   ],
@@ -187,7 +187,7 @@ RECIPES.push(
     'Bulgur 10 Minuten in warmem Wasser einweichen und gut ausdrücken. Ofen auf 190 °C vorheizen.',
     'Fisch sehr fein hacken und mit Bulgur, Kreuzkümmel, Kurkuma, abgeriebener Zitronenschale und der Hälfte des gehackten Korianders zu einem formbaren Teig verkneten.',
     'Zwiebeln in Halbringe schneiden und in der Hälfte des Öls 10 Minuten goldbraun schmoren. Die Hälfte des Teigs in eine geölte Form drücken, Zwiebeln darauf verteilen und mit dem restlichen Teig bedecken.',
-    'In Rauten schneiden, mit restlichem Öl bestreichen und 25 bis 30 Minuten backen, bis die Oberfläche goldbraun und der Fisch durchgegart ist.',
+    'Den Kibbeh in der Form in Rauten schneiden, mit restlichem Öl bestreichen und 25 bis 30 Minuten backen, bis die Oberfläche goldbraun und der Fisch durchgegart ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Zitronensaft würzen und mit Tomaten-Gurken-Salat servieren.'
   ],
   kidName:'Fisch-Kibbeh-Würfel',
@@ -302,7 +302,7 @@ RECIPES.push(
     'Tomaten in Spalten schneiden und Fladenbrot erwärmen. Kinderportion ungesalzen abnehmen, dann Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Kräuter-Omelett-Streifen',
-  kid:'Omelett vollständig durchgaren und in Streifen schneiden, die das Kind gut greifen kann. Tomaten in kleine Stücke schneiden, ohne Salz.',
+  kid:'Omelett vollständig durchgaren und in Streifen schneiden, die das Kind gut greifen kann. Tomaten in kleine Stücke schneiden. Die Kinderportion bleibt ohne Salz.',
   leftover:'Ijjeh-Sandwich · 3 Min. – Kalte Omelett-Fladen mit Tomate ins Fladenbrot legen.',
   tipp:'Kleine Fladen lassen sich leichter wenden als ein großes Omelett.'
 },
@@ -383,7 +383,7 @@ RECIPES.push(
     'Kürbis würfeln und in wenig Wasser 12 Minuten weich kochen oder in der Mikrowelle 6 Minuten garen, abgießen und zerdrücken. Bulgur unterrühren, 10 Minuten quellen lassen, dann mit Mehl und Baharat verkneten. Ofen auf 190 °C vorheizen.',
     'Zwiebel würfeln und in der Pfanne in der Hälfte des Öls 5 Minuten dünsten, Spinat und grob zerdrückte Kichererbsen zugeben, bis der Spinat zusammenfällt, mit Sumach und Zitronensaft würzen.',
     'Die Hälfte des Kürbisteigs in eine geölte Form streichen, die Füllung verteilen, restlichen Teig darauf glatt streichen und in Rauten schneiden.',
-    'Mit restlichem Öl bestreichen und 30 bis 35 Minuten backen, bis die Oberfläche fest und goldbraun ist.',
+    'Den Kibbeh mit restlichem Öl bestreichen und 30 bis 35 Minuten backen, bis die Oberfläche fest und goldbraun ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz würzen und mit einem Salat servieren.'
   ],
   kidName:'Kürbis-Kibbeh-Würfel',

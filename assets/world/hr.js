@@ -20,7 +20,7 @@ RECIPES.push(
   steps:[
     'Fleisch in 3 cm große Stücke schneiden und im Öl rundum kräftig anbraten. Zwiebel, Karotten, Sellerie und Knoblauch würfeln, zugeben und 5 Minuten mitrösten.',
     'Tomatenmark kurz mitrösten, gehackte Pflaumen, Lorbeer und 400 ml Wasser zugeben und zugedeckt bei kleiner Hitze 1 Stunde 45 Minuten schmoren, bis das Fleisch weich ist.',
-    'Lorbeer entfernen und das Gemüse mit einem Teil der Soße fein pürieren, sodass eine sämige, dunkle Soße entsteht. Nudeln in der Zwischenzeit weich kochen.',
+    'Lorbeer entfernen. Das Gemüse mit einem Teil der Soße fein pürieren, sodass eine sämige, dunkle Soße entsteht. Das Fleisch in Stücken lassen. Nudeln in der Zwischenzeit weich kochen.',
     'Kinderportion ungesalzen abnehmen und das Fleisch fein zerzupfen. Erwachsene mit Salz und Pfeffer abschmecken.'
   ],
   kidName:'Zartes Rind mit Nudeln',
@@ -47,13 +47,13 @@ RECIPES.push(
   ],
   steps:[
     'Strunk aus dem Kohl schneiden, den Kopf 5 Minuten in kochendes Wasser legen und die weichen Blätter ablösen. Dicke Blattrippen flach schneiden.',
-    'Zwiebel fein würfeln und in Öl glasig dünsten. Mit Hack, rohem Reis und Paprikapulver verkneten, auf die Blätter verteilen und fest aufrollen.',
+    'Zwiebel fein würfeln und in Öl glasig dünsten. Die Zwiebel mit Hack, rohem Reis und Paprikapulver verkneten. Die Füllung auf die Kohlblätter verteilen und die Blätter fest aufrollen.',
     'Rouladen dicht in einen Topf legen, Kohlreste dazwischen stecken, passierte Tomaten, Lorbeer und Wasser bis knapp unter die Oberfläche angießen und zugedeckt 60 Minuten leise köcheln, bis Reis und Fleisch vollständig gar sind.',
     'Inzwischen Kartoffeln schälen, 20 Minuten weich kochen und mit warmer Milch stampfen.',
     'Kinderportion ungesalzen abnehmen und die Roulade in kleine Stücke schneiden. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Kleine Kohlrouladen-Stücke',
-  kid:'Roulade in kleine Stücke schneiden, den sehr weichen Kohl fein hacken und mit Püree und Tomatensoße mischen. Ohne Salz.',
+  kid:'Roulade in kleine Stücke schneiden und den sehr weichen Kohl fein hacken. Roulade und Kohl mit Püree und Tomatensoße mischen. Ohne Salz.',
   leftover:'Sarma aus dem Ofen · 20 Min. – Rouladen halbieren, mit Soße in eine Form legen und bei 180 °C vollständig durcherhitzen.',
   tipp:'Traditionell werden sauer eingelegte Kohlblätter verwendet, frischer Weißkohl ist deutlich salzärmer.'
 },
@@ -134,7 +134,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen und das Hähnchen klein schneiden. Erwachsene mit Salz und scharfem Paprikapulver würzen.'
   ],
   kidName:'Mildes Paprikahähnchen',
-  kid:'Hähnchen klein schneiden, Paprika sehr weich schmoren und mit Nudeln und der cremigen Soße mischen. Nur edelsüßes Paprikapulver, ohne Salz.',
+  kid:'Hähnchen klein schneiden, Paprika sehr weich schmoren. Hähnchen und Gemüse mit Nudeln und der cremigen Soße mischen. Nur edelsüßes Paprikapulver, ohne Salz.',
   leftover:'Paprikaš-Auflauf · 20 Min. – Reste mit den Nudeln in eine Form geben, mit Käse bestreuen und vollständig durchbacken.',
   tipp:'Paprikapulver nie in heißem Fett anbrennen lassen, sonst wird es bitter.'
 },
@@ -155,7 +155,7 @@ RECIPES.push(
     {n:'Lorbeerblatt',q:0.5,u:'Stk.',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel in Streifen schneiden, Paprika und Knoblauch würfeln und in Öl 5 Minuten weich dünsten.',
+    'Zwiebel in Streifen schneiden, Paprika und Knoblauch würfeln. Alle drei in Öl 5 Minuten weich dünsten.',
     'Tomaten, Lorbeer und 150 ml Wasser zugeben und 10 Minuten zu einer dicken Soße köcheln. Fisch in große Stücke schneiden, in die Soße legen und zugedeckt bei kleiner Hitze 8 Minuten gar ziehen lassen, ohne zu rühren. Lorbeer entfernen.',
     'Inzwischen 300 ml Wasser aufkochen, Polenta einrühren und unter Rühren 5 Minuten zu einem weichen Brei garen.',
     'Kinderportion ungesalzen abnehmen, den Fisch auf Gräten prüfen und zerpflücken. Erwachsene mit Salz, Pfeffer und gehackter Petersilie würzen.'
@@ -180,7 +180,7 @@ RECIPES.push(
     {n:'Olivenöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Kartoffeln schälen, würfeln und in Wasser 10 Minuten kochen. Mangoldstiele klein schneiden, Blätter grob hacken, zu den Kartoffeln geben und 5 Minuten mitkochen.',
+    'Kartoffeln schälen, würfeln und in Wasser 10 Minuten kochen. Mangoldstiele klein schneiden, Blätter grob hacken. Stiele und Blätter zu den Kartoffeln geben und 5 Minuten mitkochen.',
     'Inzwischen den Fisch trocken tupfen und in der Hälfte des Öls bei mittlerer Hitze 3 bis 4 Minuten je Seite braten, bis er sich leicht zerpflücken lässt.',
     'Kartoffeln und Mangold abgießen und mit dem restlichen Öl grob zerdrücken.',
     'Kinderportion ungesalzen abnehmen, den Fisch auf Gräten prüfen und zerpflücken. Erwachsene rühren gepressten Knoblauch und Salz unter die Blitva und würzen den Fisch mit Zitrone und gehackter Petersilie.'
@@ -210,7 +210,7 @@ RECIPES.push(
     'Kartoffeln in dicke Scheiben schneiden, Zwiebel fein würfeln und beides mit Lorbeer und 300 ml Wasser 15 Minuten köcheln.',
     'Fisch in Stücke schneiden, auf die Kartoffeln legen und zugedeckt 8 Minuten gar ziehen lassen. Lorbeer entfernen und Petersilie hacken.',
     'Kohl sehr fein hobeln und mit etwas Zitronensaft und einem Teil des Öls mischen.',
-    'Kinderportion ungesalzen abnehmen und Fisch und Kartoffeln mit etwas Kochflüssigkeit zerdrücken. Erwachsene mit gehacktem Knoblauch, Petersilie, restlichem Öl, Salz und Pfeffer würzen und vorsichtig durchschwenken.'
+    'Kinderportion ungesalzen abnehmen und darin Fisch und Kartoffeln mit etwas Kochflüssigkeit zerdrücken. Erwachsene mit gehacktem Knoblauch, Petersilie, restlichem Öl, Salz und Pfeffer würzen und vorsichtig durchschwenken.'
   ],
   kidName:'Fisch-Kartoffel-Mus',
   kid:'Fisch auf Gräten prüfen und mit Kartoffeln und etwas Kochflüssigkeit zu einem cremigen Mus zerdrücken. Den rohen Kohlsalat beim Kind weglassen.',
@@ -238,7 +238,7 @@ RECIPES.push(
     'Zwiebel, Karotten und Sellerie würfeln und in Öl 5 Minuten andünsten. Kartoffeln in Würfel schneiden.',
     'Kartoffeln, passierte Tomaten, Lorbeer und 500 ml Wasser zugeben und 20 Minuten köcheln.',
     'Bohnen und Mais zugeben und 5 Minuten mitkochen. Ein Viertel des Eintopfs pürieren und wieder unterrühren, damit er sämig wird. Lorbeer entfernen.',
-    'Kinderportion ungesalzen abnehmen und die Bohnen zerdrücken. Erwachsene mit Salz und Pfeffer würzen und mit Brot servieren.'
+    'Kinderportion ungesalzen abnehmen und darin Bohnen und Mais zerdrücken. Erwachsene mit Salz und Pfeffer würzen und mit Brot servieren.'
   ],
   kidName:'Dicker Bohnen-Mais-Eintopf',
   kid:'Eintopf dick lassen und Bohnen und Mais gründlich zerdrücken, damit keine ganzen Körner bleiben. Ohne Salz servieren.',
@@ -341,7 +341,7 @@ RECIPES.push(
   ],
   steps:[
     'Vollkornreis in der doppelten Menge Wasser aufsetzen und in 30 Minuten weich garen.',
-    'Zwiebel in Streifen und Paprika in Stücke schneiden und in Öl 8 Minuten weich schmoren. Tomaten würfeln, mit Paprikapulver zugeben und 10 Minuten einköcheln.',
+    'Zwiebel in Streifen und Paprika in Stücke schneiden und beides in Öl 8 Minuten weich schmoren. Tomaten würfeln, mit Paprikapulver zugeben und 10 Minuten einköcheln.',
     'Eier verquirlen, unter das Gemüse rühren und bei kleiner Hitze 3 bis 4 Minuten stocken lassen, bis kein flüssiges Ei mehr zu sehen ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und etwas Chili würzen und mit Reis servieren.'
   ],
@@ -394,9 +394,9 @@ RECIPES.push(
   ],
   steps:[
     'Nudeln nach Packungsangabe in Wasser weich kochen und dabei 100 ml Kochwasser auffangen.',
-    'Pilze in Scheiben schneiden, Zwiebel und Knoblauch fein würfeln und in Öl bei starker Hitze 6 Minuten braten, bis die Pilze gebräunt sind. Thymian unterrühren.',
+    'Pilze in Scheiben schneiden, Zwiebel und Knoblauch fein würfeln. Alle drei in Öl bei starker Hitze 6 Minuten braten, bis die Pilze gebräunt sind. Thymian unterrühren.',
     'Nudeln, Ricotta und so viel Kochwasser zugeben, bis eine cremige Soße entsteht. Gehackte Petersilie unterheben.',
-    'Kinderportion ungesalzen abnehmen und die Pilze klein schneiden. Erwachsene mit Salz, Pfeffer und geriebenem Käse würzen.'
+    'Kinderportion ungesalzen abnehmen und darin die Pilze klein schneiden. Erwachsene mit Salz, Pfeffer und geriebenem Käse würzen.'
   ],
   kidName:'Cremige Pilznudeln',
   kid:'Pilze für das Kind fein hacken und unter die cremigen Nudeln mischen. Ohne Salz, Käse nur als kleine Prise.',

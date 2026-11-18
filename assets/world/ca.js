@@ -52,7 +52,7 @@ RECIPES.push(
     'Kinderportion ohne Sojasauce abnehmen. Erwachsene mit Sojasauce, einem Spritzer Reisessig und Chili abschmecken.'
   ],
   kidName:'Mildes Ingwer-Rind',
-  kid:'Fleisch sehr fein schneiden, Brokkoli und Karotten etwas länger weich dünsten. Ohne Sojasauce und Chili mit Reis vermischt servieren.',
+  kid:'Fleisch sehr fein schneiden, Brokkoli und Karotten etwas länger weich dünsten. Fleisch und Gemüse ohne Sojasauce und Chili mit Reis vermischt servieren.',
   leftover:'Gebratener Reis · 10 Min. – Reis und Fleischreste mit einem Ei und Erbsen in der Pfanne durchbraten.',
   tipp:'Im Restaurant wird das Fleisch frittiert, mit Stärke bestäubt wird es in der heißen Pfanne ebenfalls knusprig.'
 },
@@ -100,7 +100,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 200 °C vorheizen. Süßkartoffel in 2 cm große Würfel schneiden, Rosenkohl halbieren und Zwiebel in Spalten schneiden. Mit Öl und Thymian mischen und 15 Minuten backen.',
+    'Ofen auf 200 °C vorheizen. Süßkartoffel in 2 cm große Würfel schneiden, Rosenkohl halbieren und Zwiebel in Spalten schneiden. Das Gemüse mit Öl und Thymian mischen und 15 Minuten backen.',
     'Hähnchen in 3 cm große Stücke schneiden und zum Gemüse aufs Blech legen.',
     'Senf mit Ahornsirup verrühren und nur die Erwachsenenstücke damit bestreichen. Alles weitere 18 bis 20 Minuten backen, bis das Hähnchen innen nicht mehr rosa ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
@@ -372,7 +372,7 @@ RECIPES.push(
     'Kinderportion abnehmen. Erwachsene mit Salz und Pfeffer abschmecken.'
   ],
   kidName:'Sommergemüse in Milchsauce',
-  kid:'Kartoffeln und Gemüse weich zerdrücken, grüne Bohnen in kurze Stücke schneiden und weiße Bohnen zerquetschen. Ohne Salz.',
+  kid:'Kartoffeln, Karotten und Erbsen weich zerdrücken, grüne Bohnen in kurze Stücke schneiden und weiße Bohnen zerquetschen. Ohne Salz.',
   leftover:'Gemüse-Bratkartoffeln · 10 Min. – Reste abtropfen lassen und in der Pfanne mit etwas Öl knusprig braten.',
   tipp:'In Nova Scotia kommt Hodge Podge auf den Tisch, sobald die ersten neuen Kartoffeln und Bohnen geerntet sind.'
 },

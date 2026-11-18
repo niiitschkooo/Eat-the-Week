@@ -24,7 +24,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chili würzen und mit dem Gurkenjoghurt servieren.'
   ],
   kidName:'Mildes Hähnchen-Biryani',
-  kid:'Hähnchen fein zerzupfen und Kartoffeln mit der Gabel zerdrücken. Mit etwas Gurkenjoghurt mischen, damit der Reis saftig ist.',
+  kid:'Hähnchen fein zerzupfen und Kartoffeln mit der Gabel zerdrücken. Reis, Hähnchen und Kartoffeln mit etwas Gurkenjoghurt mischen, damit der Reis saftig ist.',
   leftover:'Biryani-Pfanne · 10 Min. – Reste mit einem Schuss Wasser in der Pfanne vollständig erhitzen.',
   tipp:'In Dhaka gehört ein Stück Kartoffel in jede Biryani-Portion, es saugt das Aroma auf.'
 },
@@ -52,7 +52,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch einer grünen Chili würzen.'
   ],
   kidName:'Joghurt-Hähnchen mild',
-  kid:'Hähnchen fein zerzupfen, Blumenkohl und Erbsen zerdrücken und mit der milden Soße mischen. Fladenbrot in weiche Streifen zum Dippen reißen.',
+  kid:'Hähnchen fein zerzupfen, Blumenkohl und Erbsen zerdrücken. Alle drei mit der milden Soße mischen. Fladenbrot in weiche Streifen zum Dippen reißen.',
   leftover:'Rezala-Reis · 15 Min. – Reste vollständig erhitzen und mit frisch gekochtem Basmatireis essen.',
   tipp:'Den Joghurt nur bei kleiner Hitze unterrühren, dann flockt er nicht aus.'
 },
@@ -80,7 +80,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chili würzen.'
   ],
   kidName:'Hähnchen-Kartoffel-Topf',
-  kid:'Kartoffeln mit etwas Soße zerdrücken, Hähnchen fein zerzupfen und mit dem Reis mischen. Eher dick als suppig servieren.',
+  kid:'Kartoffeln mit etwas Soße zerdrücken, Hähnchen fein zerzupfen. Beides mit dem Reis mischen. Eher dick als suppig servieren.',
   leftover:'Jhol-Reistopf · 8 Min. – Reste mit Reis in einem Topf vollständig erhitzen und dick einkochen lassen.',
   tipp:'Jhol wird mit viel Soße über Reis gegessen, für Kleinkinder etwas Flüssigkeit abgießen.'
 },
@@ -190,7 +190,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch grüner Chili würzen.'
   ],
   kidName:'Senf-Lachs mild',
-  kid:'Lachs sorgfältig auf Gräten prüfen und zerpflücken, Brokkoli weich dämpfen. Mit der milden Joghurtsoße unter den Reis mischen, ohne Chili.',
+  kid:'Lachs sorgfältig auf Gräten prüfen und zerpflücken, Brokkoli weich dämpfen. Lachs und Brokkoli mit der milden Joghurtsoße unter den Reis mischen, ohne Chili.',
   leftover:'Lachs-Reis-Pfanne · 8 Min. – Reis- und Fischreste mit Gemüse in der Pfanne vollständig erhitzen.',
   tipp:'Original wird der grätenreiche Ilish verwendet, Lachs ist ähnlich fettreich und leichter zu entgräten.'
 },
@@ -218,7 +218,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Koriandergrün und nach Wunsch grüner Chili würzen.'
   ],
   kidName:'Fisch-Kartoffel-Topf',
-  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, Kartoffeln und Aubergine sehr weich garen und zerdrücken. Mit wenig Soße über den Reis geben.',
+  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, Kartoffeln und Aubergine sehr weich garen und zerdrücken. Fisch und Gemüse mit wenig Soße über den Reis geben.',
   leftover:'Fisch-Kartoffel-Taler · 15 Min. – Fisch- und Kartoffelreste zerdrücken, zu Talern formen und in der Pfanne beidseitig vollständig durchbraten.',
   tipp:'Jhol ist eine dünne, leichte Soße, die mit viel Reis gegessen wird.'
 },
@@ -246,7 +246,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch grüner Chili würzen.'
   ],
   kidName:'Kokos-Fisch mild',
-  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, Erbsen leicht zerdrücken. Mit der milden Kokossoße unter den Reis mischen.',
+  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, Erbsen leicht zerdrücken. Fisch und Erbsen mit der milden Kokossoße unter den Reis mischen.',
   leftover:'Kokos-Fisch-Reis · 8 Min. – Reis- und Soßenreste zusammen in einem Topf vollständig erhitzen.',
   tipp:'Das Original wird mit Garnelen gekocht, mit Fisch ist es milder und günstiger.'
 },
@@ -298,7 +298,7 @@ RECIPES.push(
   steps:[
     'Vollkornreis in der doppelten Menge Wasser 30 Minuten garen. Kartoffeln schälen, würfeln und in Wasser 15 Minuten weich kochen.',
     'Linsen spülen und mit Kurkuma, Tomatenwürfeln und 350 ml Wasser 15 Minuten weich köcheln. Knoblauch in Scheiben in Öl goldgelb braten, zum Dal geben und den Spinat unterrühren.',
-    'Kartoffeln abgießen und mit einem Schuss Öl grob zerstampfen.',
+    'Kartoffeln abgießen und mit einem Schuss Öl grob zu Bhorta zerstampfen.',
     'Kinderportion ungesalzen abnehmen. Für Erwachsene fein gewürfelte Zwiebel, Koriandergrün, Salz und nach Wunsch Chili unter den Bhorta mischen und den Dal salzen.'
   ],
   kidName:'Dal mit Kartoffelstampf',
@@ -329,7 +329,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Gemüsewürfeln, Ei, Tamarindensoße, Koriandergrün, Salz und nach Wunsch Chili anrichten.'
   ],
   kidName:'Kichererbsen-Kartoffel-Mus',
-  kid:'Kichererbsen gründlich zerdrücken, Kartoffeln weich und das hart gekochte Ei in kleine Stücke schneiden. Gurke in dünne Stifte, ohne Tamarinde und Chili.',
+  kid:'Kichererbsen gründlich zerdrücken. Kartoffeln weich lassen und das hart gekochte Ei in kleine Stücke schneiden. Gurke in dünne Stifte, ohne Tamarinde und Chili.',
   leftover:'Chotpoti-Wrap · 5 Min. – Reste vollständig erwärmen und mit Gurke in ein Vollkorn-Fladenbrot rollen.',
   tipp:'In Dhaka wird Chotpoti mit getrockneten gelben Erbsen gekocht, Kichererbsen aus der Dose sparen viel Zeit.'
 },
@@ -357,7 +357,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chili würzen.'
   ],
   kidName:'Mildes Eier-Curry',
-  kid:'Hart gekochte Eier klein schneiden, Kartoffeln mit der Soße zerdrücken und Erbsen leicht quetschen. Ohne Salz und Chili mit Reis mischen.',
+  kid:'Hart gekochte Eier klein schneiden, Kartoffeln mit der Soße zerdrücken und Erbsen leicht quetschen. Eier, Kartoffeln und Erbsen ohne Salz und Chili mit dem Reis mischen.',
   leftover:'Eier-Curry-Brot · 5 Min. – Reste vollständig erhitzen und mit warmem Vollkorn-Fladenbrot essen.',
   tipp:'Die Eier leicht einritzen, dann nehmen sie die Soße besser auf.'
 },
@@ -406,7 +406,7 @@ RECIPES.push(
   ],
   steps:[
     'Fladenbrot in der trockenen Pfanne 1 Minute je Seite erwärmen und in ein Tuch wickeln.',
-    'Zwiebel würfeln, Karotten in feine Stifte und Kohl in feine Streifen schneiden. In der Hälfte des Öls mit Kurkuma und Kreuzkümmel 7 Minuten weich braten, Erbsen 2 Minuten mitgaren.',
+    'Zwiebel würfeln, Karotten in feine Stifte und Kohl in feine Streifen schneiden. Zwiebel, Karotten und Kohl in der Hälfte des Öls mit Kurkuma und Kreuzkümmel 7 Minuten weich braten, Erbsen 2 Minuten mitgaren.',
     'Gemüse an den Rand schieben, restliches Öl zugeben und die verquirlten Eier unter Rühren vollständig stocken lassen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch Chili würzen und alles mit dem Fladenbrot essen.'
   ],

@@ -21,11 +21,11 @@ RECIPES.push(
     'Reis in der doppelten Menge Wasser aufsetzen und zugedeckt 30 Minuten weich garen.',
     'Aubergine, Zucchini, Paprika und Tomate in 1,5 cm große Würfel schneiden, Zwiebel und Knoblauch fein hacken.',
     'Zwiebel, Knoblauch, Aubergine und Paprika in Öl 5 Minuten anbraten. Zucchini, Tomate und Kräuter zugeben und zugedeckt 20 Minuten schmoren, bis alles weich ist, die abgespülten Bohnen die letzten 5 Minuten mitschmoren.',
-    'Kinderportion abnehmen und die Bohnen zerdrücken. Erwachsene mit Salz und Pfeffer abschmecken und mit Reis servieren.'
+    'Kinderportion abnehmen und darin nur die Bohnen zerdrücken, das Gemüse in Stücken lassen. Erwachsene mit Salz und Pfeffer abschmecken und mit Reis servieren.'
   ],
   nutri:{p:['Weiße Bohnen','Vollkornreis'],f:['Vollkornreis','Weiße Bohnen','Aubergine','Paprika'],i:['Weiße Bohnen'],fat:['Olivenöl']},
   kidName:'Mini-Ratatouille',
-  kid:'Gemüse sehr weich schmoren und Tomatenhaut entfernen, Bohnen zerdrücken und alles mit dem Reis vermischen. Ohne Salz.',
+  kid:'Gemüse sehr weich schmoren und die Tomatenhaut entfernen. Bohnen zerdrücken, Gemüse in weichen Stücken lassen und beides mit dem Reis vermischen. Ohne Salz.',
   leftover:'Ratatouille-Gratin · 15 Min. – Reste mit etwas geriebenem Käse im Ofen bei 200 °C überbacken.',
   extras:['feta','ei','haehnchen'], tipp:'Ratatouille schmeckt am nächsten Tag noch besser, deshalb lohnt sich die doppelte Menge.'
 },
@@ -72,7 +72,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Buchweizenmehl mit 120 ml Wasser glatt rühren und 5 Minuten quellen lassen. Pilze in Scheiben schneiden, in etwas Öl 4 Minuten braten, Spinat darin zusammenfallen lassen und herausnehmen.',
+    'Buchweizenmehl mit 120 ml Wasser glatt rühren und 5 Minuten quellen lassen. Pilze in Scheiben schneiden und in etwas Öl 4 Minuten braten. Spinat darin zusammenfallen lassen, dann Pilze und Spinat herausnehmen.',
     'Pfanne dünn ausölen, die Hälfte des Teigs dünn verstreichen und 2 Minuten backen, bis sich der Rand löst. Wenden.',
     'Ein Ei in die Mitte schlagen, Käse, Pilze und Spinat rundherum verteilen, die Ränder einklappen und zugedeckt 4 Minuten garen, bis Eiweiß und Eigelb fest sind. Zweite Galette ebenso backen.',
     'Kindergalette ohne Salz abnehmen und in Streifen schneiden. Erwachsene mit Pfeffer, etwas Salz und Tomatenwürfeln servieren.'
@@ -131,13 +131,13 @@ RECIPES.push(
   steps:[
     'Ofen mit Blech auf 250 °C vorheizen. Mehl, 45 ml Wasser und die Hälfte des Öls 3 Minuten verkneten und auf Backpapier sehr dünn ausrollen.',
     'Quark mit Joghurt und Muskat glatt rühren und dünn auf den Teig streichen.',
-    'Lauch und Zwiebel in feine Ringe, Pilze in dünne Scheiben schneiden, darauf verteilen, mit Käse bestreuen und mit dem restlichen Öl beträufeln.',
+    'Lauch und Zwiebel in feine Ringe, Pilze in dünne Scheiben schneiden. Lauch, Zwiebel und Pilze auf dem Teig verteilen, mit Käse bestreuen und mit dem restlichen Öl beträufeln.',
     'Auf dem heißen Blech 10 bis 12 Minuten backen, bis der Rand knusprig ist.',
     'Kinderstück ohne Salz abschneiden und in Streifen teilen. Erwachsene mit Pfeffer und etwas Salz würzen.'
   ],
   nutri:{p:['Magerquark','Dinkel-Vollkornmehl','Emmentaler'],f:['Dinkel-Vollkornmehl','Lauch','Pilze'],i:['Vollkornmehl'],fat:['Olivenöl','Emmentaler']},
   kidName:'Flammkuchen-Streifen',
-  kid:'In schmale Streifen schneiden und harte Randstücke entfernen. Zwiebeln und Lauch sind dünn geschnitten und weich gebacken.',
+  kid:'Flammkuchen in schmale Streifen schneiden und harte Randstücke entfernen. Zwiebeln und Lauch sind dünn geschnitten und weich gebacken.',
   leftover:'Flammkuchen-Snack · 5 Min. – Kalte Streifen in der Pfanne ohne Fett kurz aufknuspern.',
   extras:['haehnchen','ei'], tipp:'Der Teig ohne Hefe ist in 3 Minuten fertig und wird hauchdünn besonders knusprig.'
 },
@@ -157,7 +157,7 @@ RECIPES.push(
   ],
   steps:[
     'Kichererbsenmehl mit 140 ml Wasser und 1 TL Öl glatt rühren und 5 Minuten quellen lassen.',
-    'Zucchini in dünne Scheiben, Zwiebel in Streifen schneiden, Kirschtomaten halbieren. In etwas Öl 5 Minuten braten und herausnehmen.',
+    'Zucchini in dünne Scheiben, Zwiebel in Streifen schneiden, Kirschtomaten halbieren. Zucchini, Zwiebel und Tomaten zusammen in etwas Öl 5 Minuten braten und herausnehmen.',
     'Pfanne dünn ausölen, die Hälfte des Teigs eingießen und bei mittlerer Hitze je Seite 3 Minuten goldbraun backen. Den zweiten Fladen ebenso backen.',
     'Kinderportion ohne Salz abnehmen und in Streifen schneiden. Erwachsene Socca mit Pfeffer, Rosmarin und Salz bestreuen und mit Gemüse und Joghurt servieren.'
   ],
@@ -211,12 +211,12 @@ RECIPES.push(
   steps:[
     'Reis in der doppelten Menge Wasser aufsetzen und zugedeckt 30 Minuten weich garen. Ofen auf 200 °C vorheizen.',
     'Lauch und Karotten in feine, lange Streifen schneiden und auf Backpapier verteilen. Lachs darauflegen, mit Zitronenscheiben belegen, mit Öl beträufeln und das Papier zu einem Päckchen falten.',
-    'Auf einem Blech 15 bis 18 Minuten garen, bis sich der Lachs leicht zerpflücken lässt.',
+    'Das Päckchen auf einem Blech 15 bis 18 Minuten garen, bis sich der Lachs leicht zerpflücken lässt.',
     'Kinderportion abnehmen, den Lachs auf Gräten prüfen und zerpflücken. Erwachsene mit Dill, Salz und Pfeffer würzen.'
   ],
   nutri:{p:['Lachs','Vollkornreis'],f:['Vollkornreis','Lauch','Karotten'],i:['Lachs'],fat:['Lachs (Omega-3)','Olivenöl']},
   kidName:'Lachs-Reis mild',
-  kid:'Lachs sorgfältig entgräten und zerpflücken, Gemüsestreifen klein schneiden und mit dem weichen Reis mischen. Ohne Salz und Zitrone.',
+  kid:'Lachs sorgfältig entgräten und zerpflücken, Gemüsestreifen klein schneiden. Lachs und Gemüse mit dem weichen Reis mischen. Ohne Salz und Zitrone.',
   leftover:'Lachs-Reis-Pfanne · 8 Min. – Reis, Gemüse und zerpflückten Lachs mit einem Ei in der Pfanne durchbraten.',
   extras:['joghurt'], tipp:'Die Päckchen lassen sich vorbereiten und bis zum Backen im Kühlschrank lagern.'
 },
@@ -239,8 +239,8 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln in 2 cm große Würfel schneiden und in Wasser 15 Minuten weich kochen. Nach 5 Minuten das Ei und nach 9 Minuten die geputzten Bohnen in Stücken mit in den Topf geben.',
-    'Abgießen, das Ei kalt abschrecken, schälen und vierteln. Tomate in Spalten schneiden, Thunfisch abtropfen und zerpflücken.',
-    'Kinderportion ohne Dressing abnehmen und alles klein schneiden. Für die Erwachsenen Senf, Zitronensaft, Öl, Salz und Pfeffer verrühren, die warmen Kartoffeln und Bohnen damit mischen und mit Salat, Tomate, Ei, Thunfisch und Oliven anrichten.'
+    'Kartoffeln, Bohnen und Ei abgießen. Das Ei kalt abschrecken, schälen und vierteln. Tomate in Spalten schneiden, Thunfisch abtropfen und zerpflücken.',
+    'Kinderportion ohne Dressing abnehmen und darin Kartoffeln, Bohnen, Ei und Tomate klein schneiden. Für die Erwachsenen Senf, Zitronensaft, Öl, Salz und Pfeffer verrühren, die warmen Kartoffeln und Bohnen damit mischen und mit Salat, Tomate, Ei, Thunfisch und Oliven anrichten.'
   ],
   nutri:{p:['Thunfisch','Ei'],f:['Kartoffeln','Grüne Bohnen','Tomaten'],i:['Thunfisch','Ei','Grüne Bohnen'],fat:['Olivenöl','Oliven']},
   kidName:'Mini-Niçoise',
@@ -273,7 +273,7 @@ RECIPES.push(
   ],
   nutri:{p:['Seelachs oder Kabeljau'],f:['Kartoffeln','Fenchel','Vollkornbrot'],i:['Fisch'],fat:['Olivenöl']},
   kidName:'Fisch-Kartoffel-Topf',
-  kid:'Fisch auf Gräten prüfen und zerpflücken, Kartoffeln und Fenchel zerdrücken. Mit wenig Sud als dicken Brei und ohne Salz anbieten.',
+  kid:'Fisch auf Gräten prüfen und zerpflücken. Kartoffeln und Fenchel zerdrücken und mit dem Fisch und wenig Sud zu einem dicken Brei mischen. Ohne Salz anbieten.',
   leftover:'Fisch-Gratin · 15 Min. – Reste abtropfen lassen, in eine Form geben, mit Käse bestreuen und bei 200 °C überbacken.',
   extras:['kichererbsen'], tipp:'Mit einer Prise Safran statt Kurkuma schmeckt der Sud wie in Marseille.'
 },
@@ -294,9 +294,9 @@ RECIPES.push(
     {n:'Thymian, getrocknet',q:0.5,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 200 °C vorheizen. Kartoffeln, Karotten und Pastinake in grobe Stücke, Zwiebel in Spalten schneiden und mit Öl und Thymian auf dem Blech mischen.',
+    'Ofen auf 200 °C vorheizen. Kartoffeln, Karotten und Pastinake in grobe Stücke, Zwiebel in Spalten schneiden. Das ganze Gemüse mit Öl und Thymian auf dem Blech mischen.',
     'Hähnchen mit Zitronenscheiben und angedrückten Knoblauchzehen zwischen das Gemüse legen.',
-    'Etwa 40 Minuten backen und einmal wenden, bis das Gemüse weich ist und das Hähnchen innen keinen rosa Saft mehr zeigt.',
+    'Etwa 40 Minuten backen, bis das Gemüse weich ist und das Hähnchen innen keinen rosa Saft mehr zeigt. Hähnchen und Gemüse dabei einmal wenden.',
     'Kinderportion abnehmen und das Fleisch fein zerzupfen. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   nutri:{p:['Hähnchen'],f:['Kartoffeln','Karotten','Pastinake'],i:['Hähnchen'],fat:['Olivenöl']},
@@ -384,7 +384,7 @@ RECIPES.push(
     'Brot in kleine Würfel schneiden, im Schmortopf ohne Fett 3 Minuten knusprig rösten und herausnehmen.',
     'Hähnchen würfeln und in Öl 5 Minuten anbraten. Zwiebel, Knoblauch, Karotte und Lauch klein schneiden und 4 Minuten mitdünsten.',
     'Tomaten, Thymian und 100 ml Wasser zugeben, die abgespülten Bohnen unterrühren und zugedeckt 25 Minuten leise schmoren, bis das Fleisch zart ist.',
-    'Kinderportion ohne Salz abnehmen, Bohnen und Fleisch zerdrücken. Erwachsene mit Salz und Pfeffer abschmecken und die Brotwürfel darüberstreuen.'
+    'Kinderportion ohne Salz abnehmen und nur darin Bohnen und Fleisch zerdrücken. Erwachsene mit Salz und Pfeffer abschmecken und die Brotwürfel darüberstreuen.'
   ],
   nutri:{p:['Hähnchen','Weiße Bohnen'],f:['Weiße Bohnen','Karotten','Vollkornbrot'],i:['Weiße Bohnen','Hähnchen'],fat:['Olivenöl']},
   kidName:'Bohnen-Hähnchen-Topf',
@@ -411,13 +411,13 @@ RECIPES.push(
   ],
   steps:[
     'Kalbfleisch in 3 cm große Würfel schneiden, mit Brühe, Zwiebel und Lorbeer aufkochen, Schaum abschöpfen und zugedeckt 45 Minuten leise köcheln.',
-    'Karotten in Scheiben und Pilze in Viertel schneiden, zugeben und weitere 15 Minuten garen. Reis inzwischen in der doppelten Menge Wasser 15 Minuten garen.',
+    'Karotten in Scheiben und Pilze in Viertel schneiden, beides zugeben und weitere 15 Minuten garen. Reis inzwischen in der doppelten Menge Wasser 15 Minuten garen.',
     'Lorbeer entfernen. Milch mit Stärke verrühren, einrühren und 2 Minuten sämig köcheln.',
     'Kinderportion abnehmen und das Fleisch sehr fein schneiden. Erwachsene mit Zitronensaft, Salz und Pfeffer abschmecken.'
   ],
   nutri:{p:['Kalbfleisch'],f:['Karotten','Pilze'],i:['Kalbfleisch'],fat:['Milch']},
   kidName:'Mildes Kalbsragout',
-  kid:'Kalbfleisch sehr fein schneiden oder zerzupfen, Karotten und Pilze klein schneiden und mit Reis und heller Soße mischen. Ohne Salz und Zitrone.',
+  kid:'Kalbfleisch sehr fein schneiden oder zerzupfen, Karotten und Pilze klein schneiden. Fleisch und Gemüse mit Reis und heller Soße mischen. Ohne Salz und Zitrone.',
   leftover:'Ragout-Reispfanne · 10 Min. – Reis und Ragout mit etwas Wasser zusammen in der Pfanne erhitzen.',
   extras:['ei'], tipp:'Klassisch wird die Soße mit Sahne und Eigelb gebunden, mit Milch und Stärke bleibt sie leicht.'
 }

@@ -24,7 +24,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen und Lorbeer entfernen. Erwachsene mit Salz und Pfeffer abschmecken und mit Reis, Grünkohl und Orangenstücken servieren.'
   ],
   kidName:'Mini-Feijoada',
-  kid:'Fleisch fein zerzupfen, Bohnen grob zerdrücken und mit Reis mischen. Orange in kleine, kernlose Stücke schneiden.',
+  kid:'Fleisch fein zerzupfen, Bohnen grob zerdrücken. Beides mit Reis mischen. Orange in kleine, kernlose Stücke schneiden.',
   leftover:'Bohnen-Reis-Pfanne · 10 Min. – Reste mit einem Ei in der Pfanne vollständig durchbraten.',
   tipp:'Mit magerem Rindfleisch statt Wurst und Speck bleibt die Feijoada leicht und trotzdem herzhaft.'
 },
@@ -130,7 +130,7 @@ RECIPES.push(
   steps:[
     'Kartoffeln und Süßkartoffel schälen, würfeln und in Wasser 15 Minuten weich kochen. Ofen auf 200 °C vorheizen.',
     'Zwiebel und Karotte fein würfeln und mit dem Hack in Öl 6 Minuten krümelig braten. Passierte Tomaten und Kreuzkümmel zugeben und 5 Minuten einköcheln.',
-    'Kartoffeln abgießen und mit warmer Milch zu Püree stampfen. Hack in eine Auflaufform geben, Püree darauf verstreichen und mit Käse bestreuen.',
+    'Kartoffeln und Süßkartoffel abgießen und zusammen mit warmer Milch zu Püree stampfen. Hack in eine Auflaufform geben, Püree darauf verstreichen und mit Käse bestreuen.',
     'Im Ofen 15 Minuten backen, bis die Oberfläche goldbraun ist.',
     'Kinderportion abnehmen und etwas abkühlen lassen, sie bleibt ungesalzen. Erwachsene am Tisch mit Salz und Pfeffer würzen.'
   ],
@@ -348,7 +348,7 @@ RECIPES.push(
   steps:[
     'Kürbis würfeln und in wenig Wasser 10 Minuten weich kochen. Bulgur mit 140 ml kochendem Wasser übergießen und 10 Minuten quellen lassen. Ofen auf 200 °C vorheizen.',
     'Kürbis abgießen, fein zerdrücken und mit Bulgur, sehr fein gewürfelter Zwiebel, Kräutern und Zimt zu einer formbaren Masse verkneten.',
-    'Spinat hacken und mit Ricotta mischen. Die Hälfte der Kürbismasse in eine geölte Form drücken, Ricotta darauf verteilen, mit der restlichen Masse bedecken, rautenförmig einschneiden und mit Öl bestreichen.',
+    'Spinat hacken und mit Ricotta mischen. Die Hälfte der Kürbismasse in eine geölte Form drücken, die Spinat-Ricotta-Mischung darauf verteilen, mit der restlichen Masse bedecken, rautenförmig einschneiden und mit Öl bestreichen.',
     'Im Ofen 25 Minuten backen, bis die Oberfläche fest und goldbraun ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene am Tisch mit Salz und Pfeffer würzen.'
   ],
@@ -376,7 +376,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 180 °C vorheizen. Eier, Milch, Mehl, Backpulver, Öl und die Hälfte des Käses mit dem Mixer oder Schneebesen 1 Minute glatt rühren.',
-    'Zucchini und Karotte grob raspeln, mit dem Mais unter den Teig heben und in eine geölte Form gießen. Halbierte Kirschtomaten darauflegen und mit dem restlichen Käse bestreuen.',
+    'Zucchini und Karotte grob raspeln und mit dem Mais unter den Teig heben. Den Teig in eine geölte Form gießen. Halbierte Kirschtomaten darauflegen und mit dem restlichen Käse bestreuen.',
     'Im Ofen 30 bis 35 Minuten backen, bis ein Holzstäbchen in der Mitte trocken herauskommt.',
     'Kinderportion abnehmen und lauwarm abkühlen lassen, der Teig ist ungesalzen. Erwachsene am Tisch mit Salz und Pfeffer würzen.'
   ],
@@ -404,7 +404,7 @@ RECIPES.push(
   ],
   steps:[
     'Mehl, Milch und Ei glatt verrühren und in einer leicht geölten Pfanne nacheinander dünne Pfannkuchen backen, je Seite etwa 1 Minute. Ofen auf 200 °C vorheizen.',
-    'Zwiebel fein würfeln und im restlichen Öl glasig dünsten, Spinat zugeben und zusammenfallen lassen. Etwas abkühlen lassen und mit Ricotta mischen.',
+    'Zwiebel fein würfeln und im restlichen Öl glasig dünsten, Spinat zugeben und zusammenfallen lassen. Die Spinatmischung etwas abkühlen lassen und mit Ricotta mischen.',
     'Pfannkuchen mit der Füllung bestreichen, aufrollen und in eine Form legen. Passierte Tomaten mit Oregano darübergießen und mit Käse bestreuen.',
     'Im Ofen 15 Minuten backen, bis die Soße blubbert.',
     'Kinderportion ungesalzen abnehmen. Erwachsene am Tisch mit Salz und Pfeffer würzen.'

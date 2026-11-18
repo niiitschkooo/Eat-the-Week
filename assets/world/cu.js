@@ -20,7 +20,7 @@ RECIPES.push(
   steps:[
     'Rindfleisch im Ganzen knapp mit Wasser bedeckt und zugedeckt 75 bis 90 Minuten weich köcheln, im Slowcooker 6 Stunden auf niedriger Stufe. Etwas abkühlen lassen und mit zwei Gabeln in feine Fasern zerzupfen.',
     'Vollkornreis in der doppelten Menge Wasser 30 Minuten garen.',
-    'Zwiebel und Paprika in Streifen schneiden, Knoblauch hacken und in Öl 6 Minuten dünsten. Kreuzkümmel und Oregano kurz mitrösten, passierte Tomaten und 100 ml Kochbrühe zugeben.',
+    'Zwiebel und Paprika in Streifen schneiden, Knoblauch hacken. Alle drei in Öl 6 Minuten dünsten. Kreuzkümmel und Oregano kurz mitrösten, passierte Tomaten und 100 ml Kochbrühe zugeben.',
     'Fleisch untermischen und 10 Minuten sämig köcheln.',
     'Kinderportion abnehmen. Erwachsene mit halbierten Oliven, Salz und Pfeffer abschmecken.'
   ],
@@ -81,7 +81,7 @@ RECIPES.push(
     'Kinderportion abnehmen. Erwachsene mit Salz, Pfeffer und etwas Limettensaft abschmecken.'
   ],
   kidName:'Gelber Hähnchenreis',
-  kid:'Hähnchen sehr fein zerzupfen, Erbsen leicht zerdrücken und alles mit dem weichen Reis mischen. Ohne Salz.',
+  kid:'Hähnchen sehr fein zerzupfen, Erbsen leicht zerdrücken. Hähnchen und Erbsen mit dem weichen Reis mischen. Ohne Salz.',
   leftover:'Reis-Taler · 15 Min. – Reste mit einem Ei vermengen, zu Talern formen und in der Pfanne braten.',
   tipp:'Kurkuma ersetzt das in Kuba übliche Färbepulver Bijol und färbt den Reis kräftig gelb.'
 },
@@ -163,7 +163,7 @@ RECIPES.push(
     'Ofen auf 200 °C vorheizen. Süßkartoffel in Spalten schneiden, mit der Hälfte des Öls mischen und 15 Minuten backen.',
     'Knoblauch fein reiben und mit Orangen- und Limettensaft, Kreuzkümmel und restlichem Öl zu Mojo verrühren.',
     'Fisch zu den Süßkartoffeln aufs Blech legen, nur die Erwachsenenstücke mit der Hälfte des Mojos beträufeln und alles 10 bis 12 Minuten backen, bis der Fisch sich leicht zerteilen lässt.',
-    'Avocado und Tomate würfeln, Zwiebel in feine Ringe schneiden und mit etwas Limettensaft mischen.',
+    'Avocado und Tomate würfeln, Zwiebel in feine Ringe schneiden. Avocado, Tomate und Zwiebel mit etwas Limettensaft mischen.',
     'Kinderportion abnehmen und den Fisch auf Gräten prüfen. Erwachsene mit Salz und dem restlichen Mojo servieren.'
   ],
   kidName:'Fisch mit Süßkartoffelbrei',
@@ -223,7 +223,7 @@ RECIPES.push(
     'Kinderportion abnehmen und den Fisch auf Gräten prüfen. Erwachsene mit Salz, Limettensaft und etwas Chili abschmecken.'
   ],
   kidName:'Kokosfisch mit Reis',
-  kid:'Fisch gründlich auf Gräten prüfen und zerpflücken, Spinat fein hacken und alles mit Reis und Sauce mischen. Ohne Salz und Chili.',
+  kid:'Fisch gründlich auf Gräten prüfen und zerpflücken, Spinat fein hacken. Fisch und Spinat mit Reis und Sauce mischen. Ohne Salz und Chili.',
   leftover:'Kokos-Reis-Pfanne · 8 Min. – Reis- und Saucenreste mit Erbsen in der Pfanne vollständig erhitzen.',
   tipp:'In Baracoa im Osten Kubas wachsen Kokospalmen, deshalb wird Fisch dort in Kokosmilch geschmort.'
 },
@@ -385,7 +385,7 @@ RECIPES.push(
     'Reis in der doppelten Menge Wasser 15 Minuten garen.',
     'Zwiebel und Knoblauch fein würfeln und in einem kleinen Topf in der Hälfte des Öls 3 Minuten dünsten. Passierte Tomaten und Oregano zugeben, 8 Minuten köcheln und den Spinat unterrühren.',
     'Reife Kochbanane schräg in Scheiben schneiden, im restlichen Öl in der Pfanne je Seite 3 Minuten braten und herausnehmen. Eier in derselben Pfanne zugedeckt 4 bis 5 Minuten braten, bis Eiweiß und Eigelb fest sind.',
-    'Kinderportion abnehmen. Erwachsene die Tomatensauce mit Salz und Pfeffer abschmecken und alles auf dem Reis anrichten.'
+    'Kinderportion abnehmen. Erwachsene die Tomatensauce mit Salz und Pfeffer abschmecken. Sauce, Kochbanane und Ei auf dem Reis anrichten.'
   ],
   kidName:'Reis mit Ei und Kochbanane',
   kid:'Ei vollständig durchbraten und klein schneiden, Kochbanane zerdrücken und den Reis mit milder Tomatensauce mischen. Ohne Salz.',

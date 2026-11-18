@@ -52,7 +52,7 @@ RECIPES.push(
     'Kaffirlimettenblätter entfernen und die Kinderportion ohne Currypaste abnehmen. Für die Erwachsenen Currypaste und Fischsauce einrühren, 1 Minute köcheln und mit Thai-Basilikum bestreuen.'
   ],
   kidName:'Mildes Kokos-Hähnchen',
-  kid:'Hähnchen klein schneiden, Bohnen und Aubergine sehr weich garen und mit Reis und Kokossoße mischen. Ohne Currypaste und Fischsauce.',
+  kid:'Hähnchen klein schneiden, Bohnen und Aubergine sehr weich garen. Hähnchen und Gemüse mit Reis und Kokossoße mischen. Ohne Currypaste und Fischsauce.',
   leftover:'Curry-Nudeln · 8 Min. – Reste vollständig erhitzen und mit gegarten Reisnudeln mischen.',
   tipp:'Grüne Currypaste ist je nach Marke sehr scharf, deshalb mit wenig beginnen.'
 },
@@ -108,7 +108,7 @@ RECIPES.push(
     'Zitronengras und Galgant entfernen und die Kinderschale ohne Fischsauce abnehmen. Erwachsene mit Fischsauce, Limettensaft und nach Wunsch Chili würzen und mit Reis essen.'
   ],
   kidName:'Milde Kokos-Hähnchen-Suppe',
-  kid:'Hähnchen und Pilze klein schneiden, Kirschtomaten vierteln und mit Reis und wenig Suppe zu einem dicken Brei mischen. Ohne Fischsauce und Limette.',
+  kid:'Hähnchen und Pilze klein schneiden, Kirschtomaten vierteln. Alle drei mit Reis und wenig Suppe zu einem dicken Brei mischen. Ohne Fischsauce und Limette.',
   leftover:'Kokos-Reispfanne · 8 Min. – Reste mit dem Reis einkochen lassen, bis eine sämige Reispfanne entsteht.',
   tipp:'Galgant gibt es frisch oder tiefgekühlt im Asialaden, Ingwer schmeckt etwas schärfer, passt aber auch.'
 },
@@ -240,12 +240,12 @@ RECIPES.push(
   ],
   steps:[
     'Vollkornreis in der doppelten Menge Wasser etwa 30 Minuten garen. Ofen auf 200 °C vorheizen.',
-    'Pak Choi längs halbieren und in eine Auflaufform legen, den Fisch darauflegen, mit Brühe und Öl beträufeln und mit Alufolie abgedeckt 15 bis 18 Minuten garen, bis er gerade durch ist.',
+    'Pak Choi längs halbieren und in eine Auflaufform legen. Den Fisch darauflegen, beides mit Brühe und Öl beträufeln und mit Alufolie abgedeckt 15 bis 18 Minuten garen, bis der Fisch gerade durch ist.',
     'Für die Soße Limettensaft mit fein gehacktem Knoblauch und Koriander verrühren.',
     'Kinderportion ohne Soße abnehmen. Erwachsene mischen Fischsauce und nach Wunsch Chili in die Soße und beträufeln damit ihren Fisch.'
   ],
   kidName:'Zarter Ofenfisch mit Reis',
-  kid:'Fisch sorgfältig entgräten und zerpflücken, Pak Choi weich gegart klein schneiden und mit Reis und etwas Garsud mischen.',
+  kid:'Fisch sorgfältig entgräten und zerpflücken, Pak Choi weich gegart klein schneiden. Fisch und Pak Choi mit Reis und etwas Garsud mischen.',
   leftover:'Fisch-Reis-Pfanne · 8 Min. – Reste mit dem Reis und einem Ei in der Pfanne vollständig durchbraten.',
   tipp:'In Thailand wird ein ganzer Fisch gedämpft, unter Folie im Ofen bleibt Filet genauso saftig.'
 },
@@ -270,7 +270,7 @@ RECIPES.push(
     'Vollkornreis in der doppelten Menge Wasser etwa 30 Minuten garen. Ofen auf 220 °C vorheizen (Airfryer 200 °C).',
     'Fisch mit dem Ei im Zerkleinerer oder mit dem Messer fein hacken. Bohnen in dünne Ringe schneiden und untermischen.',
     'Ein Viertel der Masse für das Kind abnehmen, in den Rest Currypaste und fein geschnittene Kaffirlimettenblätter rühren. Kleine flache Küchlein formen, mit Öl bepinseln und 12 bis 15 Minuten backen, bis sie durchgegart sind.',
-    'Gurke in dünne Scheiben und Zwiebel in feine Ringe schneiden und mit Reisessig und 1 EL Wasser mischen.',
+    'Für das Kind ein Stück Gurke schälen und in dünne Scheiben schneiden. Restliche Gurke in dünne Scheiben und Zwiebel in feine Ringe schneiden, beides mit Reisessig und 1 EL Wasser mischen.',
     'Kinderportion mit milden Küchlein, Reis und geschälter Gurke anrichten. Erwachsene essen die würzigen Küchlein mit Gurkensalat und nach Wunsch Chilisauce.'
   ],
   kidName:'Milde Fischküchlein',
@@ -356,8 +356,8 @@ RECIPES.push(
     'Kinderportion abnehmen, bevor die Sojasauce dazukommt. In den Rest die Sojasauce rühren, 5 Minuten ziehen lassen und mit Koriander bestreuen.'
   ],
   kidName:'Milde Schmor-Eier mit Reis',
-  kid:'Hart gekochte Eier in kleine Stücke schneiden, Tofu und Pilze klein schneiden und mit Reis und etwas Sud mischen.',
-  leftover:'Eier-Reis-Pfanne · 8 Min. – Eier, Tofu und Reis klein schneiden und in der Pfanne vollständig durchbraten.',
+  kid:'Hart gekochte Eier in kleine Stücke schneiden, Tofu und Pilze klein schneiden. Eier, Tofu und Pilze mit Reis und etwas Sud mischen.',
+  leftover:'Eier-Reis-Pfanne · 8 Min. – Eier und Tofu klein schneiden und mit dem Reis in der Pfanne vollständig durchbraten.',
   tipp:'Je länger die Eier im Sud ziehen, desto dunkler und aromatischer werden sie.'
 },
 {
@@ -383,7 +383,7 @@ RECIPES.push(
     'Kinderportion ohne Currypaste abnehmen. In den Rest Currypaste und Sojasauce einrühren, 2 Minuten köcheln und mit Thai-Basilikum bestreuen.'
   ],
   kidName:'Mildes Kokos-Kürbis-Curry',
-  kid:'Kürbis mit der Gabel zerdrücken, Tofu zerbröseln und mit Reis und Kokossoße mischen. Ohne Currypaste und Sojasauce.',
+  kid:'Kürbis mit der Gabel zerdrücken und Tofu zerbröseln. Beides mit Reis und Kokossoße mischen. Ohne Currypaste und Sojasauce.',
   leftover:'Kürbis-Curry-Suppe · 8 Min. – Reste mit etwas Brühe aufkochen und fein pürieren.',
   tipp:'Hokkaido muss nicht geschält werden, die Schale wird beim Kochen weich.'
 },
@@ -408,11 +408,11 @@ RECIPES.push(
     'Currypulver und Kurkuma in 2 EL Kokosmilch im Topf 1 Minute anrösten, dann restliche Kokosmilch und Brühe zugeben und aufkochen.',
     'Tofu würfeln und 5 Minuten in der Suppe ziehen lassen. Pak Choi in Streifen die letzten 3 Minuten mitgaren.',
     'Mie-Nudeln nach Packung garen. Eine kleine Handvoll gegarte Nudeln in der trockenen Pfanne 4 Minuten knusprig rösten.',
-    'Nudeln auf Schalen verteilen und mit der Currysuppe übergießen.',
+    'Die übrigen gegarten Nudeln auf Schalen verteilen und mit der Currysuppe übergießen.',
     'Kinderschale ohne Sojasauce abnehmen. Erwachsene mit Sojasauce, Limettensaft, roten Zwiebelstreifen, den knusprigen Nudeln und nach Wunsch Chiliöl würzen.'
   ],
   kidName:'Milde Kokos-Nudelsuppe',
-  kid:'Nudeln kurz schneiden, Tofu und Pak Choi klein schneiden und mit wenig lauwarmer Suppe anbieten. Knusprige Nudeln und Zwiebeln weglassen.',
+  kid:'Nudeln kurz schneiden, Tofu und Pak Choi klein schneiden. Nudeln, Tofu und Pak Choi zusammen mit wenig lauwarmer Suppe anbieten. Knusprige Nudeln und Zwiebeln weglassen.',
   leftover:'Curry-Nudelpfanne · 8 Min. – Nudeln, Tofu und Gemüse abtropfen und mit etwas Suppe in der Pfanne einkochen.',
   tipp:'Klassisch kommt Hähnchenkeule hinein, mit Tofu bleibt das Gericht vegetarisch und geht schneller.'
 }

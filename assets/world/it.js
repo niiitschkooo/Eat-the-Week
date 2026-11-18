@@ -53,7 +53,7 @@ RECIPES.push(
   ],
   nutri:{p:['Ricotta','Mozzarella'],f:['Vollkorn-Lasagne','Spinat','Zucchini'],i:['Spinat'],fat:['Ricotta','Olivenöl']},
   kidName:'Mini-Lasagne',
-  kid:'In kleine Würfel schneiden und lauwarm servieren, ohne Salz. Ricotta macht die Füllung weich und mild.',
+  kid:'Lasagne in kleine Würfel schneiden und lauwarm servieren, ohne Salz. Ricotta macht die Füllung weich und mild.',
   leftover:'Lasagne-Würfel · 10 Min. – Reste in Würfeln mit etwas Wasser zugedeckt in der Pfanne erhitzen.',
   extras:['linsen','ei'], tipp:'Ungekochte Platten werden weich, wenn die Soße sie vollständig bedeckt.'
 },
@@ -242,7 +242,7 @@ RECIPES.push(
     {n:'Oregano, getrocknet',q:0.25,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zucchini und Paprika klein würfeln, Frühlingszwiebel in Ringe schneiden. In Öl 5 Minuten weich dünsten und den Spinat kurz zusammenfallen lassen.',
+    'Zucchini und Paprika klein würfeln, Frühlingszwiebel in Ringe schneiden. Alle drei in Öl 5 Minuten weich dünsten, dann den Spinat kurz zusammenfallen lassen.',
     'Eier mit Parmesan und Oregano verquirlen und über das Gemüse gießen.',
     'Zugedeckt bei milder Hitze 7 bis 8 Minuten stocken lassen, bis auch die Oberfläche fest ist, dann auf einen Teller gleiten lassen.',
     'Kinderportion in Streifen schneiden, bevor gesalzen wird. Erwachsene mit Salz und Pfeffer würzen, dazu Vollkornbrot.'

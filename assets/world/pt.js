@@ -24,7 +24,7 @@ RECIPES.push(
   ],
   nutri:{p:['Kabeljau','Ei'],f:['Kartoffeln','Zwiebel'],i:['Ei','Kabeljau'],fat:['Olivenöl','Oliven']},
   kidName:'Mini-Brás',
-  kid:'Ei vollständig stocken lassen und den Fisch sorgfältig entgräten. Harte Kartoffelstifte klein brechen, ohne Oliven und Salz.',
+  kid:'Ei vollständig stocken lassen und den Fisch sorgfältig entgräten. Harte Kartoffelstifte klein brechen. Die Kinderportion ohne Oliven und Salz servieren.',
   leftover:'Brás-Brot · 5 Min. – Reste in der Pfanne erwärmen und auf geröstetes Vollkornbrot geben.',
   extras:[], tipp:'Klassisch werden gewässerter Stockfisch und frittiertes Kartoffelstroh verwendet, frischer Kabeljau und Ofenkartoffeln sind leichter und deutlich salzärmer.'
 },
@@ -51,7 +51,7 @@ RECIPES.push(
   ],
   nutri:{p:['Sardinen'],f:['Kartoffeln','Paprika'],i:['Sardinen'],fat:['Sardinen (Omega-3)','Olivenöl']},
   kidName:'Sardinen-Kartoffel-Mus',
-  kid:'Sardinen vollständig von Haut und Gräten befreien, zerpflücken und mit den Kartoffeln zerdrücken. Paprika gehäutet und klein geschnitten, ohne rohe Zwiebel und Salz.',
+  kid:'Sardinen vollständig von Haut und Gräten befreien, zerpflücken und mit den Kartoffeln zerdrücken. Paprika gehäutet und klein geschnitten dazugeben. Die Kinderportion ohne rohe Zwiebel und Salz servieren.',
   leftover:'Sardinen-Aufstrich · 5 Min. – Übrige entgrätete Sardinen mit Joghurt und Zitrone zerdrücken und aufs Brot streichen.',
   extras:[], tipp:'Sardinen liefern viel Omega-3 und Vitamin D und sind meist günstiger als Lachs.'
 },
@@ -80,7 +80,7 @@ RECIPES.push(
   ],
   nutri:{p:['Seelachs oder Kabeljau'],f:['Kartoffeln','Paprika','Tomaten'],i:['Fisch'],fat:['Olivenöl']},
   kidName:'Fisch-Kartoffel-Schichten',
-  kid:'Fisch auf Gräten prüfen und zerpflücken, Kartoffeln und Gemüse mit etwas Sud weich zerdrücken. Tomatenhaut entfernen, ohne Salz.',
+  kid:'Fisch auf Gräten prüfen und zerpflücken, Kartoffeln und Gemüse mit etwas Sud weich zerdrücken. Tomatenhaut entfernen. Die Kinderportion bleibt ohne Salz.',
   leftover:'Caldeirada-Suppe · 10 Min. – Reste mit etwas Brühe aufkochen, grob pürieren und mit Vollkornbrot essen.',
   extras:[], tipp:'Zwei Fischsorten machen den Eintopf aromatischer, feste Filets zerfallen dabei nicht.'
 },
@@ -102,7 +102,7 @@ RECIPES.push(
     {n:'Paprikapulver, edelsüß',q:0.25,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel und Knoblauch fein hacken, Tomaten würfeln. In der Hälfte des Öls 3 Minuten dünsten, dann den Reis zugeben und kurz mitrühren.',
+    'Zwiebel und Knoblauch fein hacken, Tomaten würfeln. Alle drei in der Hälfte des Öls 3 Minuten dünsten, dann den Reis zugeben und kurz mitrühren.',
     'Brühe angießen und zugedeckt 15 Minuten leise köcheln, die letzten 4 Minuten die Erbsen zugeben. Der Reis soll weich und leicht saftig bleiben.',
     'Fisch trocken tupfen, mit Paprikapulver bestäuben und im restlichen Öl je Seite 3 bis 4 Minuten braten, bis er innen weiß ist.',
     'Kinderportion ohne Salz abnehmen, den Fisch auf Gräten prüfen und zerpflücken. Erwachsene mit gehacktem Koriander, Salz und Pfeffer würzen.'
@@ -308,7 +308,7 @@ RECIPES.push(
   ],
   nutri:{p:['Eier','Erbsen'],f:['Erbsen','Vollkornbrot'],i:['Erbsen','Eier'],fat:['Eier','Olivenöl']},
   kidName:'Erbsen mit Ei',
-  kid:'Eigelb vollständig durchgaren, das Ei klein schneiden und die Erbsen mit der Gabel zerdrücken. Brot in weichen Streifen, ohne Salz.',
+  kid:'Eigelb vollständig durchgaren, das Ei klein schneiden und die Erbsen mit der Gabel zerdrücken. Brot in weichen Streifen dazugeben. Die Kinderportion bleibt ohne Salz.',
   leftover:'Erbsen-Ei-Brot · 5 Min. – Reste zerdrücken und warm auf Vollkornbrot streichen.',
   extras:['feta'], tipp:'TK-Erbsen sind schnell gegart, schmecken süßlich und liefern viel pflanzliches Eiweiß.'
 },
@@ -392,7 +392,7 @@ RECIPES.push(
   ],
   nutri:{p:['Kidneybohnen','Vollkornreis'],f:['Kidneybohnen','Vollkornreis','Wirsing'],i:['Kidneybohnen'],fat:['Olivenöl']},
   kidName:'Bohnenreis mild',
-  kid:'Bohnen gründlich zerdrücken, Wirsing sehr weich garen und fein schneiden und alles mit dem saftigen Reis mischen. Ohne Salz.',
+  kid:'Bohnen gründlich zerdrücken. Wirsing sehr weich garen und fein schneiden. Bohnen und Wirsing mit dem saftigen Reis mischen. Ohne Salz.',
   leftover:'Gefüllte Paprika · 25 Min. – Reste in halbierte Paprika füllen und bei 200 °C im Ofen backen.',
   extras:['ei','feta'], tipp:'In Portugal ist Bohnenreis die Beilage zu Fisch, mit Kohl und mehr Bohnen wird er zum Hauptgericht.'
 },
@@ -413,7 +413,7 @@ RECIPES.push(
     {n:'Olivenöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ei 10 Minuten hart kochen. Bohnen abspülen und die letzten 3 Minuten mit ins Kochwasser geben, dann alles abgießen.',
+    'Ei 10 Minuten hart kochen. Bohnen abspülen und die letzten 3 Minuten mit ins Kochwasser geben, dann Ei und Bohnen zusammen abgießen.',
     'Paprika und Tomate klein würfeln, Zwiebel sehr fein hacken, Petersilie hacken. Ei kalt abschrecken, schälen und würfeln.',
     'Die warmen Bohnen mit Paprika, Tomate und Ei mischen.',
     'Kinderportion ohne Zwiebel, Essig und Salz abnehmen, mit etwas Öl mischen und die Bohnen zerdrücken. Erwachsene mit Zwiebel, Petersilie, Öl, Essig, Salz und Pfeffer anmachen, dazu Vollkornbrot.'

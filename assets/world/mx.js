@@ -19,7 +19,7 @@ RECIPES.push(
   ],
   steps:[
     'Hähnchen in leicht siedendem Wasser 15 Minuten gar ziehen lassen und mit zwei Gabeln zerzupfen. Ofen auf 200 °C vorheizen.',
-    'Zwiebel in feine Streifen schneiden, Knoblauch hacken und in der Hälfte des Öls 5 Minuten weich dünsten. Tomaten und Oregano zugeben, 5 Minuten köcheln und das Hähnchen untermischen.',
+    'Zwiebel in feine Streifen schneiden und Knoblauch hacken. Beides in der Hälfte des Öls 5 Minuten weich dünsten. Tomaten und Oregano zugeben, 5 Minuten köcheln und das Hähnchen untermischen.',
     'Tortillas dünn mit dem restlichen Öl bepinseln und auf einem Blech 6 bis 8 Minuten knusprig backen. Bohnen zerdrücken und erwärmen, Salat in Streifen und Avocado in Scheiben schneiden.',
     'Kinderportion abnehmen. Erwachsene Tinga mit Salz und gehackter Chipotle-Chili abschmecken und die Tostadas mit Bohnen, Tinga, Salat und Avocado belegen.'
   ],
@@ -108,7 +108,7 @@ RECIPES.push(
     'Kinderportion abnehmen. Erwachsene mit Salz und Chiliflocken abschmecken und mit dem Reis servieren.'
   ],
   kidName:'Mini-Albóndigas',
-  kid:'Bällchen vierteln oder zerdrücken, Gemüse weich garen und mit Reis und Sauce mischen. Ohne Chili und Salz.',
+  kid:'Bällchen vierteln oder zerdrücken und Gemüse weich garen. Bällchen und Gemüse mit Reis und Sauce mischen. Ohne Chili und Salz.',
   leftover:'Albóndigas-Brötchen · 8 Min. – Bällchen in der Sauce erhitzen und in ein Vollkornbrötchen geben.',
   tipp:'Frische Minze in den Bällchen ist typisch für die mexikanische Hausküche und macht sie besonders frisch.'
 },
@@ -160,7 +160,7 @@ RECIPES.push(
   steps:[
     'Reis in der doppelten Menge Wasser 15 Minuten garen.',
     'Zwiebel, Knoblauch und Paprika in Streifen schneiden und in Öl 5 Minuten dünsten. Tomaten, Oregano und Lorbeer zugeben und 5 Minuten köcheln.',
-    'Fischfilet in die Sauce legen und zugedeckt bei kleiner Hitze 8 bis 10 Minuten garen, bis er sich leicht zerteilen lässt.',
+    'Fischfilet in die Sauce legen und zugedeckt bei kleiner Hitze 8 bis 10 Minuten garen, bis sich der Fisch leicht zerteilen lässt.',
     'Kinderportion abnehmen und den Fisch auf Gräten prüfen. Erwachsene mit halbierten Oliven, Salz und eingelegter Jalapeño servieren.'
   ],
   kidName:'Fisch in milder Tomatensauce',
@@ -187,7 +187,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 220 °C vorheizen. Fisch in fingerbreite Streifen schneiden, mit Öl, Paprikapulver und Kreuzkümmel mischen und auf einem Blech 10 bis 12 Minuten backen, bis er durchgegart ist.',
-    'Weißkohl fein hobeln, Karotte raspeln und mit etwas Limettensaft mischen. Joghurt mit abgeriebener Limettenschale verrühren, Avocado in Scheiben schneiden.',
+    'Weißkohl fein hobeln, Karotte raspeln und beides mit etwas Limettensaft mischen. Joghurt mit abgeriebener Limettenschale verrühren, Avocado in Scheiben schneiden.',
     'Tortillas in Alufolie gewickelt in den letzten 2 Minuten im Ofen erwärmen.',
     'Kinderportion abnehmen und den Fisch auf Gräten prüfen. Erwachsene mit Salz, Chili und Limette würzen und die Tacos mit Kohl, Avocado und Joghurt füllen.'
   ],
@@ -241,7 +241,7 @@ RECIPES.push(
     {n:'Rapsöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 200 °C vorheizen. Süßkartoffel in kleine Würfel schneiden und mit gewürfelter Zwiebel in Öl zugedeckt 8 Minuten weich braten. Bohnen, Spinat und Kreuzkümmel zugeben und grob zerdrücken.',
+    'Ofen auf 200 °C vorheizen. Süßkartoffel in kleine Würfel schneiden und mit gewürfelter Zwiebel in Öl zugedeckt 8 Minuten weich braten. Bohnen, Spinat und Kreuzkümmel zugeben und die ganze Füllung grob zerdrücken.',
     'Tortillas kurz in der trockenen Pfanne erwärmen, damit sie biegsam werden. Füllung darauf verteilen, aufrollen und dicht in eine Auflaufform legen.',
     'Passierte Tomaten darübergießen, mit zerzupftem Mozzarella belegen und 15 Minuten backen, bis der Käse geschmolzen ist.',
     'Kinderportion abnehmen. Erwachsene mit Salz und Chiliflocken würzen und mit einem Klecks Joghurt servieren.'
@@ -295,9 +295,9 @@ RECIPES.push(
     {n:'Rapsöl',q:0.5,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel fein würfeln, Champignons in Scheiben schneiden und in Öl 5 Minuten braten. Spinat und Mais zugeben, bis der Spinat zusammenfällt, dann herausnehmen.',
+    'Zwiebel fein würfeln, Champignons in Scheiben schneiden und beides in Öl 5 Minuten braten. Spinat und Mais zugeben und mitbraten, bis der Spinat zusammenfällt, dann das Gemüse herausnehmen.',
     'Tortillas zur Hälfte mit Gemüse und zerzupftem Mozzarella belegen und zuklappen.',
-    'In der trockenen Pfanne bei mittlerer Hitze je Seite 2 bis 3 Minuten rösten, bis der Käse geschmolzen ist. Tomate würfeln und mit Limettensaft mischen.',
+    'Die Quesadillas in der trockenen Pfanne bei mittlerer Hitze je Seite 2 bis 3 Minuten rösten, bis der Käse geschmolzen ist. Tomate würfeln und mit Limettensaft mischen.',
     'Kinderportion abnehmen. Erwachsene die Tomatensalsa mit Salz, Koriander und Chili würzen und zu den Quesadillas servieren.'
   ],
   kidName:'Käse-Tortilla-Ecken',
@@ -325,11 +325,11 @@ RECIPES.push(
   steps:[
     'Vollkornreis in der doppelten Menge Wasser 30 Minuten garen. Ofen auf 200 °C vorheizen.',
     'Spitzpaprika längs aufschneiden, entkernen, mit Öl bepinseln und 10 Minuten vorbacken.',
-    'Zucchini fein würfeln und mit Mais, Hüttenkäse und der Hälfte des Mozzarellas mischen. Passierte Tomaten mit fein geriebener Zwiebel und Oregano in eine Form geben, gefüllte Paprika daraufsetzen, mit restlichem Käse belegen und 15 Minuten backen.',
+    'Zucchini fein würfeln, mit Mais, Hüttenkäse und der Hälfte des Mozzarellas mischen und in die Paprika füllen. Passierte Tomaten mit fein geriebener Zwiebel und Oregano in eine Form geben, die gefüllten Paprika daraufsetzen, mit restlichem Käse belegen und 15 Minuten backen.',
     'Kinderportion abnehmen. Erwachsene mit Salz und Chili würzen und mit Reis servieren.'
   ],
   kidName:'Paprika-Käse-Schiffchen',
-  kid:'Paprikahaut nach dem Backen abziehen, das weiche Fruchtfleisch mit Füllung klein schneiden und den Mais zerdrücken. Ohne Salz und Chili mit Reis mischen.',
+  kid:'Paprikahaut nach dem Backen abziehen, das weiche Fruchtfleisch mit Füllung klein schneiden und den Mais zerdrücken. Paprika, Füllung und Mais ohne Salz und Chili mit Reis mischen.',
   leftover:'Chile-Reis-Pfanne · 8 Min. – Reste klein schneiden, mit Reis in der Pfanne erhitzen und ein Ei unterrühren.',
   tipp:'Im Original werden Poblano-Chilis im Eimantel frittiert, Spitzpaprika aus dem Ofen sind milder und leichter.'
 },

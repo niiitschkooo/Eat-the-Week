@@ -17,7 +17,7 @@ RECIPES.push(
   ],
   steps:[
     'Spätzle in reichlich Wasser nach Packungsangabe etwa 12 Minuten garen, dabei eine halbe Tasse Kochwasser auffangen.',
-    'Zwiebel in feine Ringe, Lauch in dünne Ringe schneiden und in Öl bei mittlerer Hitze 8 bis 10 Minuten goldbraun schmoren.',
+    'Zwiebel in feine Ringe, Lauch in dünne Ringe schneiden. Beides in Öl bei mittlerer Hitze 8 bis 10 Minuten goldbraun schmoren.',
     'Spätzle abgießen, mit Milch, etwas Kochwasser und dem Käse in die Pfanne geben und rühren, bis der Käse geschmolzen und alles cremig ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Muskat, Pfeffer und wenig Salz würzen und mit dem Salat servieren.'
   ],
@@ -154,7 +154,7 @@ RECIPES.push(
     'Kinderportion ungewürzt abschneiden. Erwachsene mit Muskat, Pfeffer und wenig Salz würzen.'
   ],
   kidName:'Mini-Flammkuchen',
-  kid:'In schmale Streifen schneiden und den harten Rand entfernen. Lauch und Zwiebel für das Kindstück besonders fein schneiden, damit sie weich backen.',
+  kid:'Das Kindstück in schmale Streifen schneiden und den harten Rand entfernen. Lauch und Zwiebel für das Kindstück besonders fein schneiden, damit sie weich backen.',
   leftover:'Flammkuchen-Snack · 5 Min. – Reste in der Pfanne ohne Fett kurz aufknuspern und mit Gurkensticks servieren.',
   tipp:'Den Teig in doppelter Menge kneten und ausgerollt zwischen Backpapier einfrieren.'
 },
@@ -175,7 +175,7 @@ RECIPES.push(
   ],
   steps:[
     'Kleine Kartoffeln waschen und mit Kümmel in Wasser zugedeckt 18 Minuten gar kochen.',
-    'Quark mit Milch glatt rühren. Gurke würfeln, Radieschen fein schneiden, Schnittlauch hacken und alles unterrühren.',
+    'Quark mit Milch glatt rühren und etwas davon für das Kind abnehmen. Gurke würfeln, Radieschen fein schneiden, Schnittlauch hacken und alle drei unter den übrigen Quark rühren.',
     'Kartoffeln abgießen, kurz ausdampfen lassen und nach Wunsch pellen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene den Quark mit Pfeffer und wenig Salz würzen und mit Leinöl beträufeln.'
   ],
@@ -257,7 +257,7 @@ RECIPES.push(
   ],
   steps:[
     'Kartoffeln in der Schale 20 Minuten gar kochen, kurz ausdampfen lassen, pellen und in Scheiben schneiden. Für das Kind einige Scheiben ohne Marinade beiseitelegen.',
-    'Zwiebel fein würfeln und in der heißen Brühe 2 Minuten ziehen lassen. Mit Essig und der Hälfte des Öls über die warmen Kartoffeln geben, Gurke in dünne Scheiben hobeln und mit Dill unterheben.',
+    'Zwiebel fein würfeln und in der heißen Brühe 2 Minuten ziehen lassen. Zwiebelbrühe mit Essig und der Hälfte des Öls über die warmen Kartoffeln geben. Gurke in dünne Scheiben hobeln und mit Dill unterheben.',
     'Schollenfilets in Mehl wenden und im restlichen Öl je Seite 2 bis 3 Minuten braten, bis sie durchgegart sind. Krabben 1 Minute in der Pfanne mitwärmen und über den Fisch geben.',
     'Kinderportion ungesalzen abnehmen. Erwachsene Fisch und Salat mit Pfeffer und wenig Salz würzen.'
   ],
@@ -346,7 +346,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Schmorsoße für die Erwachsenen mit Pfeffer und wenig Salz abschmecken.'
   ],
   kidName:'Mini-Kohlroulade',
-  kid:'Roulade aufschneiden, die Füllung zerdrücken und den weichen Kohl fein hacken. Mit Soße und zerdrückten Kartoffeln mischen.',
+  kid:'Roulade aufschneiden, die Füllung zerdrücken und den weichen Kohl fein hacken. Füllung und Kohl mit Soße und zerdrückten Kartoffeln mischen.',
   leftover:'Kohl-Hack-Pfanne · 10 Min. – Rouladenreste klein schneiden und mit den Kartoffeln in der Pfanne vollständig erhitzen.',
   tipp:'Den ganzen Kohlkopf über Nacht einfrieren und auftauen lassen, dann lösen sich die Blätter ohne Blanchieren.'
 },
@@ -370,7 +370,7 @@ RECIPES.push(
   steps:[
     'Nudeln in reichlich Wasser nach Packungsangabe etwa 10 Minuten garen.',
     'Schnitzel flach klopfen und in Öl je Seite 2 bis 3 Minuten braten, bis sie durchgegart sind, dann herausnehmen und warm halten.',
-    'Zwiebel würfeln, Champignons in Scheiben schneiden und im Bratfett 5 Minuten braten. Tomatenmark kurz mitrösten, Milch mit Stärke verrühren, angießen und 2 Minuten köcheln, bis die Soße bindet.',
+    'Zwiebel würfeln, Champignons in Scheiben schneiden. Beides im Bratfett 5 Minuten braten. Tomatenmark kurz mitrösten, Milch mit Stärke verrühren, angießen und 2 Minuten köcheln, bis die Soße bindet.',
     'Kinderportion ungewürzt abnehmen. Soße für die Erwachsenen mit Paprikapulver, Pfeffer und wenig Salz abschmecken und mit Petersilie über Schnitzel und Nudeln geben.'
   ],
   kidName:'Mini-Jägerschnitzel',

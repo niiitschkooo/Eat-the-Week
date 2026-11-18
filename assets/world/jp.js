@@ -68,7 +68,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 200 °C vorheizen. Reis waschen, mit der 1,25-fachen Menge Wasser aufkochen und zugedeckt bei kleiner Hitze 15 Minuten garen.',
-    'Pak Choi längs halbieren und Karotte in dünne Scheiben schneiden, mit Öl mischen und auf ein Blech legen. Fisch danebenlegen.',
+    'Pak Choi längs halbieren und Karotte in dünne Scheiben schneiden. Pak Choi und Karotte mit Öl mischen und auf ein Blech legen, Fisch danebenlegen.',
     'Alles 10 bis 12 Minuten backen, bis der Fisch gerade durch ist und das Gemüse weich ist.',
     'Kinderportion abnehmen und auf Gräten prüfen. Miso mit Apfelsaft verrühren, die Erwachsenenfilets damit bestreichen und mit der Grillfunktion 3 Minuten goldbraun überbacken.'
   ],

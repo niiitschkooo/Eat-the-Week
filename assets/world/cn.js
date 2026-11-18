@@ -163,7 +163,7 @@ RECIPES.push(
     'Jasminreis mit der 1,5-fachen Menge Wasser aufkochen und zugedeckt 12 Minuten bei kleiner Hitze quellen lassen.',
     'Ingwer in feine Streifen schneiden, Frühlingszwiebel in feine Ringe. Pak Choi längs vierteln.',
     'Fisch auf die Hälfte des Ingwers in eine Pfanne legen, Pak Choi daneben, 100 ml Wasser angießen und zugedeckt bei mittlerer Hitze 8 bis 10 Minuten dämpfen, bis sich der Fisch leicht zerpflücken lässt.',
-    'Kinderportion ungewürzt abnehmen und auf Gräten prüfen. Für die Erwachsenen restlichen Ingwer und Frühlingszwiebel auf den Fisch geben, Raps- und Sesamöl kurz erhitzen, darübergießen und mit Sojasauce beträufeln.'
+    'Kinderportion ungewürzt abnehmen und auf Gräten prüfen. Für die Erwachsenen restlichen Ingwer und Frühlingszwiebel auf den Fisch geben. Raps- und Sesamöl kurz erhitzen und über den Fisch gießen. Den Fisch mit Sojasauce beträufeln.'
   ],
   kidName:'Zarter Dampffisch',
   kid:'Fisch vollständig durchgaren, sorgfältig entgräten und zerpflücken. Pak Choi weich gedämpft fein schneiden und mit Reis mischen.',
@@ -194,7 +194,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und nach Wunsch etwas Chili abschmecken.'
   ],
   kidName:'Tomatenfisch mit Nudeln',
-  kid:'Fisch auf Gräten prüfen und zerpflücken, Nudeln kurz schneiden und mit wenig Sud anbieten. Harte Tomatenschalen herausnehmen.',
+  kid:'Fisch auf Gräten prüfen und zerpflücken. Nudeln kurz schneiden. Fisch und Nudeln mit wenig Sud anbieten, harte Tomatenschalen herausnehmen.',
   leftover:'Tomaten-Fisch-Reis · 8 Min. – Reste mit gekochtem Reis erhitzen, bis alles vollständig heiß ist.',
   tipp:'Reisnudeln erst kurz vor dem Servieren in den Sud geben, sonst saugen sie zu viel Flüssigkeit auf.'
 },
@@ -219,7 +219,7 @@ RECIPES.push(
     'Chinakohl in Streifen, Pilze in Scheiben, Ingwer in feine Scheiben und Frühlingszwiebel in Stücke schneiden.',
     'Lachs in Öl auf der Hautseite 3 Minuten anbraten und herausnehmen. Ingwer, Pilze und Chinakohl in der Pfanne 4 Minuten anbraten.',
     'Sternanis und 120 ml Wasser zugeben, Lachs obenauf legen und zugedeckt 8 Minuten schmoren, bis er gerade durch ist.',
-    'Kinderportion ungewürzt abnehmen. Sternanis entfernen, Sojasauce in den Sud rühren und die Erwachsenen mit Frühlingszwiebel servieren.'
+    'Sternanis entfernen und die Kinderportion ungewürzt abnehmen. Für die Erwachsenen Sojasauce in den Sud rühren und mit Frühlingszwiebel servieren.'
   ],
   kidName:'Weicher Schmorlachs',
   kid:'Lachs ohne Haut sorgfältig entgräten und zerpflücken, Chinakohl weich geschmort klein schneiden. Sternanis vorher herausnehmen.',
@@ -276,7 +276,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit einer Prise Salz und Zucker abschmecken und mit Frühlingszwiebel bestreuen.'
   ],
   kidName:'Tomaten-Ei mit Reis',
-  kid:'Ei vollständig durchgaren und klein zerteilen, Tomaten weich schmoren und harte Schalen entfernen. Mit Reis zu einem saftigen Teller mischen.',
+  kid:'Ei vollständig durchgaren und klein zerteilen, Tomaten weich schmoren und harte Schalen entfernen. Ei und Tomaten mit Reis zu einem saftigen Teller mischen.',
   leftover:'Tomaten-Ei-Nudeln · 8 Min. – Reste mit gekochten Nudeln und etwas Wasser erhitzen.',
   tipp:'Für mehr Gemüse eine Handvoll TK-Erbsen mit den Tomaten schmoren.'
 },
@@ -387,7 +387,7 @@ RECIPES.push(
     'Karotte fein raspeln, Gurke in Stifte, Salat in Streifen und Frühlingszwiebel in Ringe schneiden.',
     'Pfanne mit wenig Öl erhitzen, die Hälfte des Teigs dünn verteilen und 1 Minute backen. Ein verquirltes Ei darauf verstreichen, bei den Erwachsenen Frühlingszwiebel und Sesam aufstreuen.',
     'Fladen wenden und 2 Minuten weiterbacken, bis das Ei vollständig gestockt ist. Mit dem restlichen Teig genauso verfahren.',
-    'Kinderportion ohne Soße mit weichem Gemüse belegen. Erwachsene dünn mit Hoisinsauce bestreichen, mit Gemüse und Koriander füllen und falten.'
+    'Den Kinderfladen ohne Soße mit weichem Gemüse belegen. Die Fladen der Erwachsenen dünn mit Hoisinsauce bestreichen, mit Gemüse und Koriander füllen und falten.'
   ],
   kidName:'Mini-Ei-Crêpe',
   kid:'Ei im Fladen vollständig durchgaren und den Fladen in weiche Streifen schneiden. Karotte kurz mitdünsten, ohne Hoisinsauce und ganzen Sesam.',

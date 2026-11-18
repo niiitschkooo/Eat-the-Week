@@ -21,7 +21,7 @@ RECIPES.push(
     '1 EL Reis in der trockenen Pfanne 4 Minuten goldbraun rösten und im Mörser fein mahlen. Den restlichen Reis in der 1,5-fachen Menge Wasser 12 Minuten garen.',
     'Bohnen in 4 cm lange Stücke schneiden und in der Pfanne mit 3 EL Wasser zugedeckt 5 Minuten dünsten, dann herausnehmen. Gurke in Scheiben schneiden und Salat zupfen.',
     'Hack in der Pfanne mit 3 EL Wasser krümelig garen, bis es vollständig durch ist, und vom Herd nehmen.',
-    'Kinderportion ungewürzt abnehmen. In den Rest Limettensaft, Fischsauce, fein geschnittene rote Zwiebel, Kräuter, Röstreis und nach Wunsch Chiliflocken mischen und mit Salat, Gemüse und Reis essen.'
+    'Kinderportion Hack ungewürzt abnehmen. Unter das restliche Hack Limettensaft, Fischsauce, fein geschnittene rote Zwiebel, Kräuter, Röstreis und nach Wunsch Chiliflocken mischen und mit Salat, Gemüse und Reis essen.'
   ],
   kidName:'Mildes Kräuter-Hack mit Reis',
   kid:'Hack fein zerdrücken und mit Reis und etwas Röstreis mischen, Bohnen weich gedünstet klein schneiden und Gurke geschält dazu. Ohne Fischsauce, Limette und Chili.',
@@ -75,8 +75,8 @@ RECIPES.push(
   ],
   steps:[
     'Vollkornreis in der doppelten Menge Wasser etwa 30 Minuten garen. Ofen auf 220 °C vorheizen (Airfryer 200 °C).',
-    'Zitronengras und die Hälfte des Knoblauchs fein hacken, mit Öl verrühren und das Hähnchen damit einreiben. Mit Tomaten, Zwiebel und dem restlichen Knoblauch auf ein Blech legen.',
-    'Alles 18 bis 22 Minuten backen, bis das Hähnchen durchgegart ist und die Tomaten weich und leicht gebräunt sind.',
+    'Zitronengras und die Hälfte des Knoblauchs fein hacken, mit Öl verrühren und das Hähnchen damit einreiben. Das Hähnchen mit Tomaten, Zwiebel und dem restlichen Knoblauch auf ein Blech legen.',
+    'Hähnchen und Gemüse auf dem Blech 18 bis 22 Minuten backen, bis das Hähnchen durchgegart ist und die Tomaten weich und leicht gebräunt sind.',
     'Tomaten, Zwiebel und Knoblauch mit der Gabel zu einer groben Salsa zerdrücken und den Koriander untermischen.',
     'Kinderportion mit Hähnchen, Reis und etwas Salsa ungesalzen abnehmen. Erwachsene würzen die Salsa mit Fischsauce, Pfeffer und nach Wunsch Chili.'
   ],
@@ -166,7 +166,7 @@ RECIPES.push(
     'Kinderpäckchen ohne Fischsauce öffnen. Erwachsene beträufeln ihren Fisch mit Fischsauce und essen ihn mit Reis und nach Wunsch Chili.'
   ],
   kidName:'Kräuterfisch aus dem Päckchen',
-  kid:'Fisch auf Gräten prüfen und zerpflücken, Zucchini weich und Kirschtomaten geviertelt anbieten. Mit Reis und etwas Garsaft mischen.',
+  kid:'Fisch auf Gräten prüfen, zerpflücken und mit Reis und etwas Garsaft mischen. Zucchini weich und Kirschtomaten geviertelt dazu anbieten.',
   leftover:'Fisch-Reis-Pfanne · 8 Min. – Reste mit dem Reis und Frühlingszwiebel in der Pfanne vollständig erhitzen.',
   tipp:'In Laos wird Mok Pa in Bananenblättern gedämpft, Backpapier hält Saft und Aroma genauso im Päckchen.'
 },
@@ -219,7 +219,7 @@ RECIPES.push(
     'Brühe und Kokosmilch mit dem angedrückten Zitronengras aufkochen. Fisch zugeben, bei kleiner Hitze 8 Minuten gar ziehen lassen, herausnehmen und zerpflücken.',
     'Bohnen in kurzen Stücken und Weißkohl in sehr feinen Streifen 5 Minuten in der Suppe garen und den Fisch zurückgeben. Reisnudeln nach Packung garen.',
     'Zitronengras entfernen und die Nudeln auf Schalen verteilen.',
-    'Kinderschale ohne Currypaste und Fischsauce abnehmen. In den Rest Currypaste und Fischsauce rühren, 2 Minuten köcheln, über die Nudeln geben und mit Minze bestreuen.'
+    'Kinderschale ohne Currypaste und Fischsauce abnehmen. In die restliche Suppe Currypaste und Fischsauce rühren, 2 Minuten köcheln, über die übrigen Nudeln geben und mit Minze bestreuen.'
   ],
   kidName:'Milde Kokos-Fischsuppe mit Nudeln',
   kid:'Fisch auf Gräten prüfen, Nudeln kurz schneiden und Kohl und Bohnen weich gegart klein schneiden. Mit wenig lauwarmer Suppe anbieten.',
@@ -247,7 +247,7 @@ RECIPES.push(
     'Reis in der 1,5-fachen Menge Wasser 12 Minuten garen und etwas abkühlen lassen. Ofen auf 220 °C vorheizen.',
     'Ein Drittel des Reises für das Kind beiseitestellen. Den Rest mit Currypulver und der Hälfte des Öls mischen, dünn auf einem Blech mit Backpapier verteilen und 20 bis 25 Minuten knusprig backen.',
     'Tofu in kleine Würfel schneiden und im restlichen Öl in der Pfanne 6 Minuten goldbraun braten. Salat in Streifen, Gurke in Scheiben und Frühlingszwiebel in Ringe schneiden.',
-    'Knusperreis grob zerbrechen und mit Tofu, Frühlingszwiebel und Minze mischen.',
+    'Etwas Tofu für das Kind beiseitelegen. Knusperreis grob zerbrechen und mit dem übrigen Tofu, Frühlingszwiebel und Minze mischen.',
     'Kinderportion aus weichem Reis, Tofu und Gurke ungesalzen anrichten. Erwachsene würzen den Knusperreis mit Limettensaft, Salz, gehackten Erdnüssen und nach Wunsch Chili und essen ihn in Salatblättern.'
   ],
   kidName:'Weicher Tofu-Reis',
@@ -273,12 +273,12 @@ RECIPES.push(
   ],
   steps:[
     'Klebreis mindestens 4 Stunden einweichen, abtropfen und in einem Sieb über kochendem Wasser zugedeckt 25 Minuten dämpfen. Ofen auf 200 °C vorheizen.',
-    'Pilze in Scheiben schneiden, Zitronengras, Knoblauch und Frühlingszwiebel fein hacken und mit Spinat und Dill mischen.',
+    'Pilze in Scheiben schneiden. Zitronengras, Knoblauch und Frühlingszwiebel fein hacken. Pilze und gehackte Zutaten mit Spinat und Dill mischen.',
     'Eier verquirlen, unter die Pilzmischung rühren und in ofenfeste Förmchen füllen. Mit Backpapier abdecken und 20 bis 25 Minuten backen, bis das Ei vollständig gestockt ist.',
     'Kinderförmchen ohne Sojasauce servieren. Erwachsene beträufeln ihre Förmchen mit Sojasauce und essen sie mit Klebreis und nach Wunsch Chili.'
   ],
   kidName:'Pilz-Ei-Förmchen',
-  kid:'Ei vollständig stocken lassen, Pilze klein schneiden und mit Klebreis in kleinen flachgedrückten Bällchen anbieten. Ohne Sojasauce.',
+  kid:'Ei vollständig stocken lassen und Pilze klein schneiden. Klebreis zu kleinen flachen Bällchen drücken und dazu anbieten. Ohne Sojasauce.',
   leftover:'Pilz-Reis-Pfanne · 8 Min. – Reste mit dem Klebreis in der Pfanne vollständig durchbraten.',
   tipp:'Ohne eingeweichten Klebreis passt Jasminreis, der in 12 Minuten gar ist.'
 },
@@ -299,7 +299,7 @@ RECIPES.push(
     {n:'Sojasauce, salzreduziert',q:1,u:'TL',c:'vorrat',p:true}
   ],
   steps:[
-    'Vollkornreis in der doppelten Menge Wasser etwa 30 Minuten garen. Ofen auf 220 °C vorheizen, Aubergine mehrmals einstechen und mit der ungeschälten Knoblauchzehe 25 Minuten rösten, bis sie ganz weich ist.',
+    'Vollkornreis in der doppelten Menge Wasser etwa 30 Minuten garen. Ofen auf 220 °C vorheizen, Aubergine mehrmals einstechen und mit der ungeschälten Knoblauchzehe 25 Minuten rösten, bis die Aubergine ganz weich ist.',
     'Eier 9 Minuten hart kochen, abschrecken und pellen. Bohnen und Karotte in Stifte schneiden und die letzten 6 Minuten im Eierwasser weich garen.',
     'Auberginenfleisch aus der Schale kratzen und mit dem ausgedrückten Knoblauch, Frühlingszwiebel und Koriander mit der Gabel zu einem groben Dip zerdrücken.',
     'Kinderportion abnehmen. Erwachsene würzen den Dip mit Sojasauce und nach Wunsch gerösteter Chili und tunken Gemüse, Ei und Reis hinein.'
@@ -415,7 +415,7 @@ RECIPES.push(
     'Kinderportion abnehmen. Erwachsene mit Sojasauce und nach Wunsch Chili abschmecken und mit Reis essen.'
   ],
   kidName:'Milder Kürbis-Tofu-Eintopf',
-  kid:'Kürbis zerdrücken, Tofu und Pilze klein schneiden und mit Reis und wenig Sud mischen. Bambusstreifen sehr fein hacken oder weglassen.',
+  kid:'Kürbis zerdrücken, Tofu und Pilze klein schneiden. Alle drei mit Reis und wenig Sud mischen. Bambusstreifen sehr fein hacken oder weglassen.',
   leftover:'Kürbis-Reis-Topf · 8 Min. – Reste mit dem Reis vollständig aufkochen und als dicken Eintopf essen.',
   tipp:'Bambussprossen aus der Dose vorher gut abspülen, dann verlieren sie den Dosengeschmack.'
 }

@@ -46,13 +46,13 @@ RECIPES.push(
   ],
   steps:[
     'Fleisch in 2 cm große Würfel schneiden und in Öl 4 Minuten rundum anbraten. Zwiebel und Pilze klein schneiden, zugeben und 3 Minuten mitbraten.',
-    'Sauerkraut abspülen, ausdrücken und grob hacken, Weißkohl in feine Streifen schneiden. Mit Tomatenmark, klein geschnittenen Pflaumen, Lorbeer und 150 ml Wasser in den Topf geben.',
+    'Sauerkraut abspülen, ausdrücken und grob hacken, Weißkohl in feine Streifen schneiden. Sauerkraut und Weißkohl mit Tomatenmark, klein geschnittenen Pflaumen, Lorbeer und 150 ml Wasser in den Topf geben.',
     'Zugedeckt bei kleiner Hitze 45 Minuten schmoren, gelegentlich umrühren und bei Bedarf Wasser nachgießen. Im Slowcooker 5 Stunden auf niedriger Stufe garen.',
     'Kartoffeln schälen und in den letzten 20 Minuten in Wasser weich kochen. Lorbeerblatt entfernen.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Pfeffer und wenig Salz abschmecken.'
   ],
   kidName:'Mildes Kraut mit Kartoffeln',
-  kid:'Fleisch und Kohl sehr klein schneiden und mit zerdrückten Kartoffeln mischen. Lorbeerblatt sicher entfernen und ohne Salz servieren.',
+  kid:'Fleisch und Kohl sehr klein schneiden und mit zerdrückten Kartoffeln mischen. Lorbeerblatt sicher entfernen. Die Kinderportion ohne Salz servieren.',
   leftover:'Bigos vom Vortag · 10 Min. – Reste im Topf vollständig erhitzen, aufgewärmt schmeckt Bigos noch kräftiger.',
   tipp:'Gleich die doppelte Menge kochen, Bigos lässt sich gut einfrieren.'
 },
@@ -73,7 +73,7 @@ RECIPES.push(
     {n:'Majoran, getrocknet',q:0.5,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Zwiebel und Karotte würfeln, Kartoffeln in 1,5 cm große Würfel schneiden. Mit der Brühe aufkochen und 15 Minuten köcheln, bis die Kartoffeln weich sind.',
+    'Zwiebel und Karotte würfeln, Kartoffeln in 1,5 cm große Würfel schneiden. Das Gemüse mit der Brühe aufkochen und 15 Minuten köcheln, bis die Kartoffeln weich sind.',
     'Eier in einem kleinen Topf 10 Minuten hart kochen, abschrecken, pellen und halbieren.',
     'Sauerteig gut aufschütteln, unter Rühren in die Suppe gießen und mit gehacktem Knoblauch und Majoran 5 Minuten leise köcheln lassen.',
     'Kinderportion abnehmen, bevor Salz und Pfeffer dazukommen. Erwachsene nach Geschmack würzen, die Eier in die Teller legen und mit Brot servieren.'
@@ -134,7 +134,7 @@ RECIPES.push(
     'Kinderportion abnehmen, bevor gesalzen wird. Erwachsene Schnitzel und Mizeria mit Salz und Pfeffer würzen.'
   ],
   kidName:'Schnitzelstreifen mit Gurkenjoghurt',
-  kid:'Schnitzel in schmale Streifen schneiden, die gut in der Hand liegen, und die Gurke fein raspeln statt in Scheiben. Kartoffeln leicht zerdrücken, alles ohne Salz.',
+  kid:'Schnitzel in schmale Streifen schneiden, die gut in der Hand liegen, und die Gurke fein raspeln statt in Scheiben. Kartoffeln leicht zerdrücken. Die Kinderportion bleibt ohne Salz.',
   leftover:'Schnitzelbrot · 5 Min. – Kaltes Schnitzel in Scheiben mit Gurke auf Vollkornbrot legen.',
   tipp:'In einer guten beschichteten Pfanne wird die Panade mit 1 EL Öl knusprig, ohne im Fett zu schwimmen.'
 },
@@ -190,7 +190,7 @@ RECIPES.push(
     'Kinderportion abnehmen und die Bohnen leicht zerdrücken. Erwachsene mit Salz und Pfeffer abschmecken und mit Brot servieren.'
   ],
   kidName:'Bohnen-Tomaten-Mus mit Brotstreifen',
-  kid:'Bohnen mit einer Gabel grob zerdrücken, damit sie nicht im Ganzen verschluckt werden. Brot in schmale Streifen zum Eintunken schneiden, ohne Salz.',
+  kid:'Bohnen mit einer Gabel grob zerdrücken, damit sie nicht im Ganzen verschluckt werden. Brot in schmale Streifen zum Eintunken schneiden. Die Kinderportion bleibt ohne Salz.',
   leftover:'Bohnen-Toast · 6 Min. – Reste erhitzen und auf geröstetes Vollkornbrot geben.',
   tipp:'Geräuchertes Paprikapulver bringt den rauchigen Geschmack der klassischen Wurst ohne zusätzliches Salz.'
 },
@@ -213,11 +213,11 @@ RECIPES.push(
   steps:[
     'Hähnchen mit halbierter Zwiebel, Lorbeer und 500 ml kaltem Wasser aufsetzen, langsam aufkochen und den Schaum abschöpfen.',
     'Karotte, Sellerie, Wurzel und Lauch putzen, in grobe Stücke schneiden, zugeben und alles 35 bis 40 Minuten leise köcheln.',
-    'Nudeln in einem zweiten Topf nach Packung garen. Fleisch herausnehmen, zerzupfen und mit dem in Scheiben geschnittenen Gemüse zurück in die Brühe geben, Zwiebel und Lorbeer entfernen.',
+    'Nudeln in einem zweiten Topf nach Packung garen. Fleisch und Gemüse herausnehmen, Fleisch zerzupfen und Gemüse in Scheiben schneiden. Beides zurück in die Brühe geben, Zwiebel und Lorbeer entfernen.',
     'Kinderportion abnehmen, bevor gesalzen wird. Erwachsene mit Salz, Pfeffer und Petersilie würzen und die Suppe über die Nudeln schöpfen.'
   ],
   kidName:'Hühnersuppe mit Nudeln',
-  kid:'Fleisch fein zerzupfen, das weiche Gemüse klein schneiden und mit wenig Brühe und den Nudeln mischen, damit es gut löffelbar ist. Ohne Salz.',
+  kid:'Fleisch fein zerzupfen und das weiche Gemüse klein schneiden. Beides mit wenig Brühe und den Nudeln mischen, damit die Kinderportion gut löffelbar ist. Ohne Salz.',
   leftover:'Nudeln mit Huhn · 8 Min. – Fleisch, Gemüse und Nudeln mit wenig Brühe in der Pfanne vollständig erhitzen.',
   tipp:'Übrige Brühe einfrieren, sie ist eine gute Grundlage für Soßen und Eintöpfe.'
 },
@@ -246,7 +246,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und Pfeffer abschmecken.'
   ],
   kidName:'Dill-Bällchen mit Buchweizen',
-  kid:'Bällchen vierteln, damit sie gut zu kauen sind, und mit Buchweizen und Soße vermischen. Erbsen leicht zerdrücken, ohne Salz.',
+  kid:'Bällchen vierteln, damit sie gut zu kauen sind, und mit Buchweizen und Soße vermischen. Erbsen leicht zerdrücken. Die Kinderportion bleibt ohne Salz.',
   leftover:'Buchweizen-Pfanne · 8 Min. – Restlichen Buchweizen mit Gemüse und einem Ei in der Pfanne braten.',
   tipp:'Buchweizen vor dem Kochen 2 Minuten in der trockenen Pfanne rösten, dann schmeckt er nussiger.'
 },
@@ -268,12 +268,12 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 200 °C vorheizen. Kartoffeln in Spalten schneiden, mit der Hälfte des Öls mischen und auf dem Blech 10 Minuten vorbacken.',
-    'Karotte und Sellerie grob raspeln, Zwiebel in feine Streifen schneiden und im restlichen Öl 5 Minuten dünsten. Passierte Tomaten, Paprikapulver und Lorbeer zugeben und 5 Minuten köcheln.',
+    'Karotte und Sellerie grob raspeln und Zwiebel in feine Streifen schneiden. Alle drei im restlichen Öl 5 Minuten dünsten. Passierte Tomaten, Paprikapulver und Lorbeer zugeben und 5 Minuten köcheln.',
     'Lorbeerblatt entfernen. Fisch zu den Kartoffeln auf das Blech legen, das Gemüse darauf verteilen und 12 bis 15 Minuten backen, bis der Fisch sich leicht zerteilen lässt.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Fisch unter Möhrendecke',
-  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, dann mit dem weichen Gemüse mischen. Kartoffeln zerdrücken, alles ohne Salz.',
+  kid:'Fisch sorgfältig auf Gräten prüfen und zerpflücken, dann mit dem weichen Gemüse mischen. Kartoffeln zerdrücken. Die Kinderportion bleibt ohne Salz.',
   leftover:'Kalte Ryba po grecku · 5 Min. – Gekühlte Reste mit Vollkornbrot essen, so wird das Gericht in Polen oft serviert.',
   tipp:'In Polen wird das Gericht gern kalt gegessen und lässt sich deshalb gut am Vortag vorbereiten.'
 },
@@ -355,7 +355,7 @@ RECIPES.push(
     'Kinderportion abnehmen, bevor gewürzt wird. Erwachsene mit Salz und Pfeffer abschmecken.'
   ],
   kidName:'Hühnchen-Rahm-Reis',
-  kid:'Hähnchen fein zerzupfen oder klein schneiden und mit Reis, weichen Karotten und Soße mischen. Erbsen leicht zerdrücken, ohne Salz.',
+  kid:'Hähnchen fein zerzupfen oder klein schneiden und mit Reis, weichen Karotten und Soße mischen. Erbsen leicht zerdrücken. Die Kinderportion bleibt ohne Salz.',
   leftover:'Frikassee-Auflauf · 20 Min. – Reste mit Reis in eine Form geben, mit etwas Käse bestreuen und im Ofen vollständig erhitzen.',
   tipp:'Mit Resten von einem Brathähnchen verkürzt sich die Garzeit auf wenige Minuten.'
 },
@@ -406,7 +406,7 @@ RECIPES.push(
   ],
   steps:[
     'Mehl, Milch, Ei und 50 ml Wasser glatt verquirlen und 10 Minuten quellen lassen.',
-    'Zwiebel und Knoblauch fein hacken, in wenig Öl 2 Minuten dünsten, Spinat zugeben und zusammenfallen lassen. Abtropfen lassen und mit dem Quark mischen, etwas Füllung für das Kind beiseitestellen und unter den Rest den zerbröselten Feta heben.',
+    'Zwiebel und Knoblauch fein hacken, in wenig Öl 2 Minuten dünsten, Spinat zugeben und zusammenfallen lassen. Die Spinatmischung abtropfen lassen und mit dem Quark mischen, etwas Füllung für das Kind beiseitestellen und unter den Rest den zerbröselten Feta heben.',
     'Pfanne dünn mit Öl auspinseln und aus dem Teig nacheinander dünne Pfannkuchen backen, je Seite etwa 1 Minute.',
     'Pfannkuchen mit der Füllung bestreichen, zu Dreiecken falten und in der Pfanne je Seite 2 Minuten erwärmen. Tomate in Spalten dazu reichen.',
     'Kinderportion mit der Füllung ohne Feta abnehmen. Erwachsene mit Pfeffer würzen, Salz ist durch den Feta kaum nötig.'

@@ -79,7 +79,7 @@ RECIPES.push(
     'Kinderportion abnehmen, Fleisch fein zerzupfen und Okra in Scheiben schneiden. Erwachsene mit Salz und Chili abschmecken.'
   ],
   kidName:'Weiche Bamia mit Reis',
-  kid:'Fleisch sehr fein zerzupfen, Okra in dünne Scheiben schneiden und mit der Soße unter den Reis mischen. Ohne Salz und Chili.',
+  kid:'Fleisch sehr fein zerzupfen und Okra in dünne Scheiben schneiden. Fleisch und Okra mit der Soße unter den Reis mischen, ohne Salz und Chili.',
   leftover:'Bamia-Reis-Topf · 10 Min. – Reste mit etwas Wasser vollständig erhitzen und mit Petersilie servieren.',
   tipp:'TK-Okra gefroren in die Soße geben, dann bleibt sie in Form und wird weniger schleimig.'
 },
@@ -108,7 +108,7 @@ RECIPES.push(
     'Kinderportion abnehmen, Füllung aus der Hülle lösen und mit dem weichen Gemüse zerdrücken. Erwachsene mit Salz und Chili nachwürzen.'
   ],
   kidName:'Dolma-Füllung mit Gemüse',
-  kid:'Füllung aus dem Gemüse lösen, die Hülle ohne Haut fein schneiden und mit der Soße mischen. Hackfleisch muss durchgegart sein, ohne Salz.',
+  kid:'Füllung aus dem Gemüse lösen und die Hülle ohne Haut fein schneiden. Füllung und Hülle mit der Soße mischen. Hackfleisch muss durchgegart sein, ohne Salz.',
   leftover:'Dolma-Auflauf · 20 Min. – Reste mit der Soße in einer Form bei 180 °C vollständig durcherhitzen.',
   tipp:'Gefüllte Zwiebeln gehören im Irak dazu: kurz gekocht lassen sich die Schichten leicht ablösen und füllen.'
 },
@@ -219,7 +219,7 @@ RECIPES.push(
     'Die Hälfte der Zwiebel sehr fein reiben, mit Hackfleisch, der Hälfte der gehackten Petersilie und Kreuzkümmel verkneten und zu länglichen Röllchen formen.',
     'Röllchen im Öl bei mittlerer Hitze 8 bis 10 Minuten rundum braten, bis sie innen durchgegart sind. Tomaten halbieren und 3 Minuten mitbraten.',
     'Restliche Zwiebel in feine Ringe schneiden und mit Sumach und Petersilie mischen, Gurke in Stifte schneiden.',
-    'Kinderportion abnehmen, Kebab in kleine Stücke schneiden und mit weicher Tomate und Gurkenstiften anbieten. Erwachsene salzen und mit Sumach-Zwiebeln ins Fladenbrot rollen.'
+    'Kinderportion abnehmen, Kebab in kleine Stücke schneiden und mit weicher Tomate und Gurkenstiften anbieten. Erwachsenenportion salzen. Kebab und Tomaten mit den Sumach-Zwiebeln ins Fladenbrot rollen.'
   ],
   kidName:'Kebab-Häppchen',
   kid:'Kebab in kleine Stücke schneiden und prüfen, dass er innen durch ist. Gebratene Tomate ohne Haut, Gurke in Stifte, rohe Zwiebel weglassen und ohne Salz.',
@@ -408,7 +408,7 @@ RECIPES.push(
     'Ofen auf 220 °C vorheizen. Kartoffeln in kleine Würfel schneiden, mit dem Öl mischen und 25 Minuten goldbraun backen, im Airfryer 18 Minuten bei 200 °C.',
     'Eier in 10 Minuten hart kochen, abschrecken und in Scheiben schneiden.',
     'Mango sehr fein würfeln und mit Joghurt und Currypulver verrühren. Tomaten und Gurke würfeln.',
-    'Kinderportion abnehmen: Kartoffeln, Ei und Gurke getrennt und ohne Salz. Erwachsene salzen und alles mit Mango-Joghurt ins Fladenbrot rollen.'
+    'Kinderportion abnehmen: Kartoffeln, Ei und Gurke getrennt und ohne Salz. Erwachsenenportion salzen. Kartoffeln, Ei, Tomaten und Gurke mit Mango-Joghurt ins Fladenbrot rollen.'
   ],
   kidName:'Kartoffel-Ei-Teller',
   kid:'Ei hart kochen und klein schneiden, Kartoffelwürfel weich und lauwarm anbieten. Mango-Joghurt als Dip, ohne Salz.',

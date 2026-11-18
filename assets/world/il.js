@@ -47,12 +47,12 @@ RECIPES.push(
   ],
   steps:[
     'Kichererbsen mit 3 EL Wasser 5 Minuten erhitzen. Die Hälfte mit Tahini, Zitronensaft, Knoblauch und etwas Kochwasser mit der Gabel zu einer cremigen Masse zerdrücken, den Rest ganz lassen.',
-    'Champignons in Scheiben und Zwiebel in Streifen schneiden und in Öl 6 bis 8 Minuten goldbraun braten, mit Kreuzkümmel würzen.',
+    'Champignons in Scheiben und Zwiebel in Streifen schneiden und beides in Öl 6 bis 8 Minuten goldbraun braten, mit Kreuzkümmel würzen.',
     'Warmen Hummus auf Teller streichen, ganze Kichererbsen und Pilze in die Mitte geben, Tomaten in Spalten schneiden und Fladenbrot dazureichen.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz, Kreuzkümmel und einem Spritzer Olivenöl würzen.'
   ],
   kidName:'Hummus zum Tunken',
-  kid:'Für das Kind nur den cremigen Teil nehmen und die ganzen Kichererbsen zerdrücken, Pilze klein schneiden und Brot in Streifen zum Tunken anbieten.',
+  kid:'Für das Kind die ganzen Kichererbsen zerdrücken und mit dem cremigen Teil anbieten. Pilze klein schneiden und Brot in Streifen zum Tunken anbieten.',
   leftover:'Hummus-Toast · 5 Min. – Reste auf Vollkornbrot streichen und mit Tomate belegen.',
   tipp:'Mit dem Pürierstab wird der Hummus glatter, die grobe warme Variante heißt in Israel Masabacha.'
 },
@@ -105,7 +105,7 @@ RECIPES.push(
     'Hähnchen in kleine, dünne Stücke schneiden, Zwiebel und Paprika in Streifen.',
     'Öl in einer großen Pfanne stark erhitzen, Hähnchen 4 Minuten scharf anbraten, dann Zwiebeln und Paprika zugeben und weitere 6 bis 8 Minuten braten, bis das Fleisch durchgegart ist. Kurkuma und Kreuzkümmel in den letzten 2 Minuten zugeben.',
     'Tahini mit 2 bis 3 EL Wasser glatt rühren, Gurke und Tomaten würfeln und das Fladenbrot erwärmen.',
-    'Kinderportion ungesalzen abnehmen. Erwachsene salzen und alles mit Tahini und Salat ins Fladenbrot füllen.'
+    'Kinderportion ungesalzen abnehmen. Erwachsene salzen und Fleisch und Gemüse mit Tahini und Salat ins Fladenbrot füllen.'
   ],
   kidName:'Hähnchen-Zwiebel-Pita',
   kid:'Hähnchen fein schneiden, Zwiebeln und Paprika weich braten und klein schneiden, mit wenig Tahini und weichem Brot anbieten. Ohne Salz.',
@@ -219,7 +219,7 @@ RECIPES.push(
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Pfeffer würzen und mit Joghurt servieren.'
   ],
   kidName:'Gefüllte Paprika-Stücke',
-  kid:'Paprikahaut abziehen, wenn sie sich löst, alles in kleine Stücke schneiden und mit Füllung und Joghurt mischen. Ohne Salz.',
+  kid:'Paprikahaut abziehen, wenn sie sich löst, die Paprika in kleine Stücke schneiden und mit Füllung und Joghurt mischen. Ohne Salz.',
   leftover:'Paprika-Reis-Pfanne · 8 Min. – Reste klein schneiden und mit der Soße vollständig erhitzen.',
   tipp:'In Israel werden auch Zucchini, Zwiebeln und Auberginen so gefüllt, gemischte Formen sind beliebt.'
 },
@@ -242,8 +242,8 @@ RECIPES.push(
   ],
   steps:[
     'Hähnchen im Schmortopf in Öl rundum 5 Minuten anbraten, Kurkuma, Paprikapulver und zerdrückten Knoblauch kurz mitrösten.',
-    'Zwiebel in Spalten, Kartoffeln und Karotten in große Stücke schneiden und zugeben, Zitronensaft und 150 ml Wasser angießen.',
-    'Zugedeckt bei kleiner Hitze 40 Minuten schmoren und zwischendurch wenden, bis Kartoffeln und Hähnchen weich und durchgegart sind.',
+    'Zwiebel in Spalten, Kartoffeln und Karotten in große Stücke schneiden. Alle drei zugeben, Zitronensaft und 150 ml Wasser angießen.',
+    'Zugedeckt bei kleiner Hitze 40 Minuten schmoren, bis Kartoffeln und Hähnchen weich und durchgegart sind. Hähnchen und Gemüse zwischendurch wenden.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und gehackter Petersilie würzen.'
   ],
   kidName:'Gelbes Hähnchen mit Kartoffeln',
@@ -329,7 +329,7 @@ RECIPES.push(
     'Zwiebel würfeln und im Topf in Öl 3 Minuten dünsten, Kurkuma und Zimt kurz mitrösten.',
     'Kürbis, Karotten und Zucchini in große Würfel schneiden, mit Kichererbsen und Brühe zugeben und 18 bis 20 Minuten köcheln, bis das Gemüse weich ist.',
     'Couscous in einer Schüssel mit der gleichen Menge kochender Brühe aus dem Topf übergießen, 5 Minuten zugedeckt quellen lassen und auflockern.',
-    'Kinderportion ungesalzen abnehmen und die Kichererbsen zerdrücken. Erwachsene mit Salz und Pfeffer würzen.'
+    'Kinderportion ungesalzen abnehmen und darin die Kichererbsen zerdrücken. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   kidName:'Couscous mit Gemüse',
   kid:'Gemüse für das Kind sehr weich garen und klein schneiden, Kichererbsen zerdrücken und mit etwas Brühe unter den Couscous mischen. Ohne Salz.',
@@ -355,7 +355,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 220 °C vorheizen. Kartoffeln, Zucchini und Zwiebel grob raspeln und in einem Tuch kräftig ausdrücken.',
-    'Mit Ei und Mehl mischen, kleine flache Häufchen auf ein Blech mit geöltem Backpapier setzen und dünn mit Öl bepinseln.',
+    'Das geraspelte Gemüse mit Ei und Mehl mischen, kleine flache Häufchen auf ein Blech mit geöltem Backpapier setzen und dünn mit Öl bepinseln.',
     'Etwa 25 Minuten backen und nach 15 Minuten wenden, bis die Puffer beidseitig goldbraun und durchgegart sind.',
     'Joghurt mit Dill und geraspelter Gurke verrühren, Apfel in dünne Spalten schneiden. Kinderportion ungesalzen abnehmen, dann Erwachsene salzen.'
   ],

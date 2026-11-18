@@ -157,7 +157,7 @@ RECIPES.push(
     'Hähnchen würfeln und mit 2 EL Joghurt, dem halben Zitronensaft, der Hälfte des Knoblauchs und Paprikapulver mindestens 10 Minuten marinieren. Ofen auf 220 °C vorheizen.',
     'Kartoffeln in Spalten schneiden, mit Öl mischen und 10 Minuten vorbacken.',
     'Hähnchen mit Paprika- und Zwiebelstücken auf Spieße stecken oder lose zu den Kartoffeln legen und 18 bis 20 Minuten mitbacken, bis das Fleisch innen nicht mehr rosa ist.',
-    'Restlichen Joghurt mit fein geriebenem Knoblauch und etwas Zitronensaft verrühren. Kinderportion ungesalzen und mit Naturjoghurt abnehmen, dann Erwachsene salzen und mit Knoblauchdip servieren.'
+    'Etwas Naturjoghurt für das Kind beiseitestellen. Den übrigen Joghurt mit fein geriebenem Knoblauch und etwas Zitronensaft verrühren. Kinderportion ungesalzen mit dem Naturjoghurt abnehmen, dann Erwachsene salzen und mit Knoblauchdip servieren.'
   ],
   kidName:'Hähnchen-Happen',
   kid:'Spieße entfernen, Hähnchen in kleine Stücke schneiden und mit Naturjoghurt ohne Knoblauch servieren. Kartoffelspalten längs halbieren.',
@@ -182,7 +182,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 220 °C vorheizen. Za\'atar mit Olivenöl zu einer Paste verrühren.',
-    'Fladenbrot zur Hälfte mit der Za\'atar-Paste bestreichen, die andere Hälfte mit zerzupftem Mozzarella belegen und 8 bis 10 Minuten backen, im Airfryer 5 bis 6 Minuten bei 190 °C.',
+    'Fladenbrot zur Hälfte mit der Za\'atar-Paste bestreichen, die andere Hälfte mit zerzupftem Mozzarella belegen. Das Fladenbrot 8 bis 10 Minuten backen, im Airfryer 5 bis 6 Minuten bei 190 °C.',
     'Tomaten und Gurke in Spalten schneiden, Oliven halbieren und Minze zupfen.',
     'Kinderportion ungesalzen abnehmen, dann Erwachsene mit Salz, Pfeffer und Minze würzen und alles mit Labneh servieren.'
   ],
@@ -238,7 +238,7 @@ RECIPES.push(
   steps:[
     'Zwiebeln in Halbringe schneiden und in Öl bei mittlerer Hitze 15 Minuten tief goldbraun schmoren.',
     'Die Hälfte der Zwiebeln mit Reis, Kreuzkümmel und Brühe in einen Topf geben, aufkochen und zugedeckt 12 Minuten garen.',
-    'Fisch in Stücke schneiden, auf den Reis legen und zugedeckt weitere 8 bis 10 Minuten garen, bis er durch ist. Tomaten und Gurke zu einem Salat würfeln.',
+    'Fisch in Stücke schneiden, auf den Reis legen und zugedeckt weitere 8 bis 10 Minuten garen, bis der Fisch durch ist. Tomaten und Gurke zu einem Salat würfeln.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und Zitrone würzen und mit den übrigen Zwiebeln und dem Salat servieren.'
   ],
   kidName:'Fischreis',
@@ -266,7 +266,7 @@ RECIPES.push(
     'Reis in der doppelten Menge Wasser aufkochen und zugedeckt 15 Minuten garen.',
     'Zwiebel und Knoblauch fein würfeln und in Öl 3 Minuten dünsten, passierte Tomaten, Baharat und abgespülte Bohnen zugeben und 10 Minuten köcheln.',
     'Koriander hacken und die Hälfte unterrühren, Gurke in Scheiben schneiden.',
-    'Kinderportion ungesalzen abnehmen und die Bohnen leicht zerdrücken. Erwachsene mit Salz, Pfeffer und restlichem Koriander würzen.'
+    'Kinderportion ungesalzen abnehmen und die Bohnen der Kinderportion leicht zerdrücken. Erwachsene mit Salz, Pfeffer und restlichem Koriander würzen.'
   ],
   kidName:'Bohnen-Reis',
   kid:'Bohnen für das Kind mit der Gabel zerdrücken und unter den Reis mischen, Gurke in dünne Stifte schneiden. Ohne Salz.',
@@ -320,7 +320,7 @@ RECIPES.push(
   ],
   steps:[
     'Weinblätter 10 Minuten in warmem Wasser einweichen und abspülen, damit sie weniger salzig sind.',
-    'Reis waschen, Kichererbsen grob zerdrücken und mit einer fein gewürfelten Tomate, gehackten Kräutern, Öl und der Hälfte des Zitronensafts mischen.',
+    'Reis waschen und Kichererbsen grob zerdrücken. Reis und Kichererbsen mit einer fein gewürfelten Tomate, gehackten Kräutern, Öl und der Hälfte des Zitronensafts mischen.',
     'Je einen Teelöffel Füllung auf ein Blatt geben, Seiten einschlagen und fest aufrollen. Den Topfboden mit Kartoffel- und Tomatenscheiben auslegen und die Röllchen dicht daraufschichten.',
     'Mit Wasser knapp bedecken, restlichen Zitronensaft zugeben, einen Teller zum Beschweren auflegen und zugedeckt 40 bis 45 Minuten leise köcheln, bis der Reis weich ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und Joghurt servieren.'
@@ -349,9 +349,9 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 200 °C vorheizen. Mehl, Backpulver, 60 g Joghurt, die Hälfte des Öls und 2 bis 3 EL Wasser zu einem glatten Teig kneten.',
-    'Spinat grob hacken, Zwiebel fein würfeln und mit zerbröseltem Feta, Sumach und Zitronensaft mischen, die Flüssigkeit gut ausdrücken.',
+    'Spinat grob hacken und Zwiebel fein würfeln. Spinat und Zwiebel mit zerbröseltem Feta, Sumach und Zitronensaft mischen und die Flüssigkeit aus der Füllung gut ausdrücken.',
     'Teig dünn ausrollen, Kreise von 10 cm ausstechen, je einen Löffel Füllung daraufgeben und zu Dreiecken zusammendrücken.',
-    'Mit restlichem Öl bestreichen und 15 bis 18 Minuten goldbraun backen. Gurke fein würfeln und unter den restlichen Joghurt rühren.',
+    'Die Taschen mit restlichem Öl bestreichen und 15 bis 18 Minuten goldbraun backen. Gurke fein würfeln und unter den restlichen Joghurt rühren.',
     'Kinderportion abnehmen und mit Gurkenjoghurt servieren. Erwachsene mit Pfeffer und mehr Sumach würzen, Salz ist durch den Feta kaum nötig.'
   ],
   kidName:'Mini-Spinattaschen',

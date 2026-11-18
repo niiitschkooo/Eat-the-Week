@@ -144,7 +144,7 @@ RECIPES.push(
   ],
   nutri:{p:['Rindfleisch'],f:['Vollkorn-Fladenbrot','Karotten'],i:['Rindfleisch'],fat:['Rapsöl']},
   kidName:'Mini-Nihari',
-  kid:'Das butterweiche Fleisch fein zerzupfen, Karotten zerdrücken und mit Soße auf eingeweichtem Fladenbrot servieren. Ohne Salz, Ingwerstreifen und Chili.',
+  kid:'Das butterweiche Fleisch fein zerzupfen und Karotten zerdrücken. Beides mit Soße auf eingeweichtem Fladenbrot servieren. Ohne Salz, Ingwerstreifen und Chili.',
   leftover:'Nihari-Nudeln · 10 Min. – Reste vollständig erhitzen und mit Vollkornnudeln mischen.',
   extras:['joghurt'], tipp:'Nihari ist ein Wochenendgericht: die doppelte Menge schmoren und die Hälfte einfrieren.'
 },
@@ -203,7 +203,7 @@ RECIPES.push(
   ],
   nutri:{p:['Seelachs','Kichererbsenmehl'],f:['Kartoffeln','Karotten'],i:['Kichererbsenmehl'],fat:['Rapsöl']},
   kidName:'Mini-Ofenfisch',
-  kid:'Fisch sorgfältig auf Gräten prüfen und in kleine Stücke zerteilen, Kartoffeln und Karotten weich backen und zerdrücken. Joghurt als milder Dip, ohne Salz.',
+  kid:'Fisch sorgfältig auf Gräten prüfen und in kleine Stücke zerteilen, Kartoffeln und Karotten weich backen und zerdrücken. Joghurt als milden Dip anbieten. Die Kinderportion bleibt ohne Salz.',
   leftover:'Fisch-Wrap · 6 Min. – Fisch und Gemüse vollständig erhitzen und mit Joghurt in ein Fladenbrot rollen.',
   extras:['kichererbsen'], tipp:'Im Original wird der Fisch frittiert, die Kichererbsenmehl-Kruste wird im heißen Ofen ebenfalls knusprig.'
 },
@@ -254,7 +254,7 @@ RECIPES.push(
   ],
   steps:[
     'Reis in der 1,5-fachen Menge Wasser 12 Minuten garen. Linsen waschen und mit Kurkuma und 300 ml Wasser 12 bis 15 Minuten kochen, bis sie zerfallen.',
-    'Für die Tarka Kreuzkümmel in Öl in einer kleinen Pfanne 30 Sekunden rösten, gehackte Zwiebel und Knoblauch 3 Minuten goldbraun braten, eine halbe gewürfelte Tomate 1 Minute mitgaren und alles ins Daal rühren.',
+    'Für die Tarka Kreuzkümmel in Öl in einer kleinen Pfanne 30 Sekunden rösten, gehackte Zwiebel und Knoblauch 3 Minuten goldbraun braten, eine halbe gewürfelte Tomate 1 Minute mitgaren und die fertige Tarka ins Daal rühren.',
     'Restliche Tomate und Gurke fein würfeln und als Salat dazu reichen.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz und nach Wunsch grüner Chili würzen.'
   ],
@@ -347,7 +347,7 @@ RECIPES.push(
   ],
   nutri:{p:['Eier'],f:['Vollkorn-Fladenbrot','Paprika','Tomaten'],i:['Eier','Spinat'],fat:['Eigelb','Rapsöl']},
   kidName:'Mini-Ghotala',
-  kid:'Rührei vollständig durchgaren und mit weichem Fladenbrot in Streifen servieren. Ohne Salz und Chili, Koriander fein gehackt.',
+  kid:'Rührei vollständig durchgaren und mit weichen Fladenbrotstreifen servieren. Ohne Salz und Chili, Koriander fein gehackt.',
   leftover:'Ei-Paratha · 8 Min. – Reste in ein Fladenbrot füllen, zusammenklappen und in der Pfanne knusprig und heiß braten.',
   extras:['kichererbsen','huettenkaese'], tipp:'In Lahore wird ein Teil der Eier vorher hart gekocht und gerieben untergemischt, das macht die Masse besonders saftig.'
 },
@@ -400,7 +400,7 @@ RECIPES.push(
   steps:[
     'Linsen waschen und mit Kurkuma und 400 ml Wasser 25 Minuten weich kochen.',
     'Mehl mit etwa 40 ml lauwarmem Wasser zu einem weichen Teig kneten und abgedeckt ruhen lassen.',
-    'Zwiebel, Knoblauch und Ingwer fein hacken und in Öl 5 Minuten dünsten, gewürfelte Tomaten 4 Minuten mitgaren. Alles mit dem Spinat unter die Linsen rühren und 5 Minuten köcheln.',
+    'Zwiebel, Knoblauch und Ingwer fein hacken und in Öl 5 Minuten dünsten, gewürfelte Tomaten 4 Minuten mitgaren. Die Zwiebel-Tomaten-Mischung mit dem Spinat unter die Linsen rühren und 5 Minuten köcheln.',
     'Teig in Kugeln teilen, dünn ausrollen und in einer heißen Pfanne ohne Fett je Seite etwa 1 Minute backen.',
     'Kinderportion ungesalzen abnehmen und die Linsen zerdrücken. Erwachsene mit Garam Masala, Salz und nach Wunsch Chili würzen.'
   ],
@@ -435,7 +435,7 @@ RECIPES.push(
   ],
   nutri:{p:['Eier','Erbsen'],f:['Kartoffeln','Erbsen','Tomaten'],i:['Eier','Erbsen'],fat:['Rapsöl']},
   kidName:'Mini-Aloo-Anday',
-  kid:'Ei fein hacken, Kartoffeln und Erbsen mit etwas Soße zerdrücken und alles vermengen. Ohne Salz und Chili.',
+  kid:'Ei fein hacken. Kartoffeln und Erbsen mit etwas Soße zerdrücken und mit dem Ei vermengen. Ohne Salz und Chili.',
   leftover:'Aloo-Anday-Wrap · 6 Min. – Reste vollständig erhitzen, grob zerdrücken und in ein Fladenbrot rollen.',
   extras:['kichererbsen','joghurt'], tipp:'Die geschälten Eier vor dem Einlegen mehrmals mit einer Gabel einstechen, dann nehmen sie mehr Geschmack auf.'
 }

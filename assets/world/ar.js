@@ -17,7 +17,7 @@ RECIPES.push(
     {n:'Olivenöl',q:1,u:'EL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 220 °C vorheizen. Kartoffeln in Spalten, Paprika und Zwiebel in Streifen schneiden, mit der Hälfte des Öls mischen und auf dem Blech 30 Minuten rösten.',
+    'Ofen auf 220 °C vorheizen. Kartoffeln in Spalten, Paprika und Zwiebel in Streifen schneiden. Alle drei mit der Hälfte des Öls mischen und auf dem Blech 30 Minuten rösten.',
     'Für das Chimichurri Petersilie und Knoblauch sehr fein hacken und mit Oregano, Essig, dem restlichen Öl und 1 EL Wasser verrühren.',
     'Steak trocken tupfen und in der sehr heißen Pfanne ohne weiteres Fett je Seite 3 bis 4 Minuten braten, 3 Minuten ruhen lassen und in Streifen schneiden.',
     'Kinderportion ungesalzen abnehmen. Erwachsene Fleisch mit grobem Salz bestreuen und mit Chimichurri servieren.'
@@ -46,9 +46,9 @@ RECIPES.push(
   ],
   steps:[
     'Mehl mit der Hälfte des Öls und etwa 40 ml lauwarmem Wasser zu einem glatten Teig kneten und 10 Minuten ruhen lassen. Ei 10 Minuten hart kochen und fein hacken.',
-    'Zwiebel und Paprika fein würfeln und im restlichen Öl 4 Minuten dünsten. Hack zugeben und 6 Minuten krümelig braten, mit Kreuzkümmel und Paprikapulver würzen, Frühlingszwiebel und Ei unterheben und abkühlen lassen.',
+    'Zwiebel und Paprika fein würfeln und im restlichen Öl 4 Minuten dünsten. Hack zugeben und 6 Minuten krümelig braten, mit Kreuzkümmel und Paprikapulver würzen, Frühlingszwiebel und Ei unterheben und die Füllung abkühlen lassen.',
     'Ofen auf 200 °C vorheizen. Teig dünn ausrollen und Kreise von 12 cm ausstechen.',
-    'Kinderportion: zwei Teigkreise mit ungesalzener Füllung belegen und mit einer Gabel markieren, die übrige Füllung für Erwachsene mit Salz und etwas Chili würzen. Alle Kreise füllen, Ränder fest andrücken, 18 bis 20 Minuten goldbraun backen und mit Tomatenscheiben servieren.'
+    'Kinderportion: zwei Teigkreise mit ungesalzener Füllung belegen und mit einer Gabel markieren. Die übrige Füllung für Erwachsene mit Salz und etwas Chili würzen und auf die restlichen Kreise geben. Bei allen Empanadas die Ränder fest andrücken, 18 bis 20 Minuten goldbraun backen und mit Tomatenscheiben servieren.'
   ],
   kidName:'Mini-Empanadas',
   kid:'Empanadas etwas abkühlen lassen und in kleine Stücke schneiden. Die Füllung ist ungesalzen und das Ei hart gekocht.',
@@ -75,7 +75,7 @@ RECIPES.push(
   steps:[
     'Ofen auf 220 °C vorheizen. Kartoffeln und Kürbis würfeln und in Wasser 15 Minuten weich kochen.',
     'Hähnchenbrust waagerecht halbieren und flach klopfen. Erst im verquirlten Ei, dann in den Semmelbröseln mit Oregano wenden, auf ein Blech mit Backpapier legen und mit Öl beträufeln.',
-    'Im Ofen 15 bis 18 Minuten backen und nach der Hälfte wenden, bis die Panade knusprig und das Fleisch innen nicht mehr rosa ist.',
+    'Schnitzel im Ofen 15 bis 18 Minuten backen und nach der Hälfte der Zeit wenden, bis die Panade knusprig und das Fleisch innen nicht mehr rosa ist.',
     'Kartoffeln und Kürbis abgießen und mit warmer Milch zu Püree stampfen. Tomate in Scheiben schneiden.',
     'Kinderportion ungesalzen abnehmen. Erwachsene Püree mit Salz und Pfeffer abschmecken und die Milanesa mit Zitronenspalten servieren.'
   ],
@@ -104,11 +104,11 @@ RECIPES.push(
   steps:[
     'Fleisch in kleine Würfel schneiden und im Topf in Öl rundum kräftig anbraten. Gewürfelte Zwiebel zugeben und 3 Minuten mitbraten.',
     'Tomaten und Brühe zugeben und zugedeckt 35 Minuten leise schmoren.',
-    'Kartoffeln, Süßkartoffel und Kürbis würfeln, den Maiskolben in Scheiben schneiden und mit den klein geschnittenen Aprikosen zugeben. Weitere 25 Minuten garen, bis alles weich ist.',
+    'Kartoffeln, Süßkartoffel und Kürbis würfeln, den Maiskolben in Scheiben schneiden. Alle vier zusammen mit den klein geschnittenen Aprikosen zugeben und weitere 25 Minuten garen, bis alles weich ist.',
     'Kinderportion ungesalzen abnehmen. Erwachsene mit Salz, Pfeffer und etwas Chili abschmecken.'
   ],
   kidName:'Mini-Carbonada',
-  kid:'Fleisch fein zerzupfen, Gemüse zerdrücken und die Maiskörner vom Kolben schneiden. Die Aprikosen sind weich gegart und dürfen klein geschnitten mit.',
+  kid:'Fleisch fein zerzupfen. Die Maiskörner vom Kolben schneiden und mit Kartoffeln, Süßkartoffel und Kürbis zerdrücken. Die Aprikosen sind weich gegart und dürfen klein geschnitten mit.',
   leftover:'Carbonada-Auflauf · 20 Min. – Reste in eine Form geben, mit Kartoffelpüree bedecken und im Ofen überbacken.',
   tipp:'Zum Fest wird die Carbonada in Argentinien im ausgehöhlten Kürbis serviert, im Slow Cooker gart sie 6 Stunden auf niedriger Stufe.'
 },
@@ -137,7 +137,7 @@ RECIPES.push(
     'Kinderportion aus der Ecke ohne Oliven abnehmen und abkühlen lassen. Erwachsene am Tisch mit Salz und Pfeffer würzen.'
   ],
   kidName:'Mini-Pastel',
-  kid:'Aus der Ecke ohne Oliven nehmen, sie sind salzig. Püree und Hack zusammen zerdrücken und lauwarm servieren.',
+  kid:'Die Kinderportion aus der Ecke ohne Oliven nehmen, denn Oliven sind salzig. Püree und Hack zusammen zerdrücken und lauwarm servieren.',
   leftover:'Kartoffel-Hack-Taler · 12 Min. – Reste zu Talern formen und in der Pfanne von beiden Seiten braten.',
   tipp:'Mit etwas Kürbis im Püree wird die Haube orange und milder.'
 },
@@ -184,7 +184,7 @@ RECIPES.push(
   steps:[
     'Kartoffeln in kleine Würfel schneiden und in Wasser 12 bis 14 Minuten weich kochen.',
     'Forellenfilet trocken tupfen und in der Hälfte des Öls auf der Hautseite 4 Minuten braten, wenden und 2 Minuten fertig garen, bis das Fleisch innen nicht mehr glasig ist.',
-    'Salat zupfen, Tomaten halbieren und mit dem restlichen Öl und etwas Zitronensaft mischen. Kartoffeln abgießen und mit Petersilie schwenken.',
+    'Salat zupfen, Tomaten halbieren. Beides mit dem restlichen Öl und etwas Zitronensaft mischen. Kartoffeln abgießen und mit Petersilie schwenken.',
     'Kinderportion ungesalzen abnehmen. Erwachsene Fisch und Kartoffeln mit Salz, Pfeffer und Zitrone würzen.'
   ],
   kidName:'Mini-Forelle',
@@ -320,13 +320,13 @@ RECIPES.push(
   ],
   steps:[
     'Mehl mit der Hälfte des Öls und etwa 30 ml Wasser zu einem glatten Teig kneten, dünn ausrollen und eine kleine geölte Form damit auslegen. Ofen auf 190 °C vorheizen.',
-    'Zwiebel fein würfeln und im restlichen Öl glasig dünsten. Mangoldblätter in Streifen schneiden, Stiele fein würfeln, zugeben und 5 Minuten dünsten, bis die Flüssigkeit verdampft ist.',
+    'Zwiebel fein würfeln und im restlichen Öl glasig dünsten. Mangoldblätter in Streifen schneiden und Stiele fein würfeln. Blätter und Stiele zugeben und 5 Minuten dünsten, bis die Flüssigkeit verdampft ist.',
     'Eier mit Ricotta, Käse und Muskat verquirlen, den etwas abgekühlten Mangold unterheben und auf den Teig füllen.',
     'Im Ofen 30 bis 35 Minuten backen, bis die Füllung fest ist und in der Mitte nicht mehr wackelt. Tomate in Scheiben dazu reichen.',
     'Kinderportion abnehmen und lauwarm abkühlen lassen, die Tarte ist ungesalzen. Erwachsene am Tisch mit Salz und Pfeffer würzen.'
   ],
   kidName:'Mini-Tarta',
-  kid:'Die Füllung muss ganz durchgestockt sein, dann in fingerdicke Streifen schneiden. Tomate ohne Haut klein würfeln.',
+  kid:'Die Füllung muss ganz durchgestockt sein. Dann die Tarte in fingerdicke Streifen schneiden. Tomate ohne Haut klein würfeln.',
   leftover:'Tarta-Brotzeit · 3 Min. – Kalte Reste in Stücke schneiden und als Pausenbrot mitnehmen.',
   tipp:'Mit Spinat statt Mangold heißt sie Tarta de Espinaca und gelingt genauso.'
 },

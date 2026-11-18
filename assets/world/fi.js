@@ -17,13 +17,13 @@ RECIPES.push(
     {n:'Pimentkörner',q:2,u:'Stk.',c:'gewuerz',p:true}
   ],
   steps:[
-    'Kartoffeln und Karotten würfeln, Lauch in Ringe schneiden und mit Brühe und Pimentkörnern im Teesieb 12 Minuten weich köcheln.',
+    'Kartoffeln und Karotten würfeln, Lauch in Ringe schneiden. Pimentkörner in ein Teesieb füllen. Das Gemüse mit Brühe und dem Teesieb 12 Minuten weich köcheln.',
     'Milch zugießen. Lachs würfeln, auf Gräten prüfen und in die nicht mehr kochende Suppe geben.',
     'Bei kleiner Hitze 5 bis 6 Minuten gar ziehen lassen, bis der Lachs vollständig durchgegart ist, dann das Teesieb herausnehmen.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz, Pfeffer und reichlich Dill abschmecken und mit Roggenvollkornbrot servieren.'
   ],
   kidName:'Lachs-Kartoffel-Topf',
-  kid:'Lachs und Gemüse herausnehmen, nochmals auf Gräten prüfen und mit wenig Suppe zu einem dicken Mus zerdrücken. Pimentkörner sicher entfernen, ohne Salz.',
+  kid:'Lachs und Gemüse herausnehmen und den Lachs nochmals auf Gräten prüfen. Beides mit wenig Suppe zu einem dicken Mus zerdrücken. Pimentkörner sicher entfernen, ohne Salz.',
   leftover:'Lachs-Kartoffel-Auflauf · 20 Min. – Lachs und Gemüse mit wenig Suppe in eine Form geben, mit Käse bestreuen und im Ofen überbacken.',
   tipp:'Pimentkörner in ein Teesieb geben, dann lassen sie sich vor dem Servieren leicht entfernen.'
 },
@@ -46,7 +46,7 @@ RECIPES.push(
   steps:[
     'Kartoffeln schälen, würfeln und in 12 bis 14 Minuten weich kochen, dann mit warmer Milch stampfen.',
     'Heringsfilets trocken tupfen, die Hälfte mit der Hautseite nach unten auslegen, mit Dill bestreuen und mit einem zweiten Filet bedecken. Die Päckchen in Roggenmehl wenden.',
-    'In Öl bei mittlerer Hitze von jeder Seite 3 bis 4 Minuten braten, bis der Fisch innen nicht mehr glasig ist.',
+    'Päckchen in Öl bei mittlerer Hitze von jeder Seite 3 bis 4 Minuten braten, bis der Fisch innen nicht mehr glasig ist.',
     'Gurke in Scheiben schneiden und mit Joghurt mischen. Kinderportion ohne Salz abnehmen, Erwachsene mit Salz, Pfeffer und Zitrone servieren.'
   ],
   kidName:'Hering mit Kartoffelstampf',
@@ -153,7 +153,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 180 °C vorheizen. Nudeln 3 Minuten kürzer als angegeben kochen und abgießen.',
-    'Hackfleisch in Öl krümelig braten, Zwiebel, geriebene Karotte und Zucchini zugeben und 5 Minuten mitbraten, bis das Fleisch durchgegart ist.',
+    'Hackfleisch in Öl krümelig braten, Zwiebel, geriebene Karotte und geriebene Zucchini zugeben und 5 Minuten mitbraten, bis das Fleisch durchgegart ist.',
     'Nudeln und Hackmischung in einer Auflaufform mischen. Eier mit Milch verquirlen, darübergießen, mit Käse bestreuen und 40 bis 45 Minuten backen, bis die Eiermilch vollständig gestockt ist.',
     'Kinderportion abnehmen. Erwachsene mit Salz und Pfeffer würzen und Kirschtomaten dazu servieren.'
   ],
@@ -316,13 +316,13 @@ RECIPES.push(
     {n:'Vollkornbrot',q:1,u:'Scheiben',c:'brot'}
   ],
   steps:[
-    'Kartoffeln und Karotten würfeln, Blumenkohl in kleine Röschen teilen und in 300 ml Wasser 12 Minuten weich köcheln.',
+    'Kartoffeln und Karotten würfeln, Blumenkohl in kleine Röschen teilen. Alle drei in 300 ml Wasser 12 Minuten weich köcheln.',
     'Erbsen und Zuckerschoten zugeben und 3 Minuten mitgaren.',
     'Milch mit Speisestärke verrühren, einrühren und vorsichtig erhitzen, bis die Suppe leicht bindet, dann Spinat und Dill unterheben.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und Pfeffer abschmecken und mit Roggenvollkornbrot servieren.'
   ],
   kidName:'Sommersuppe mit Gemüsestückchen',
-  kid:'Gemüse weich garen, mit der Gabel zerdrücken oder grob pürieren und Zuckerschoten klein schneiden. Brot in weiche Streifen, ohne Salz.',
+  kid:'Gemüse weich garen. Kartoffeln, Karotten und Blumenkohl mit der Gabel zerdrücken oder grob pürieren, Zuckerschoten klein schneiden. Brot in weiche Streifen, ohne Salz.',
   leftover:'Gemüse-Nudeln · 10 Min. – Gemüsereste aus der Suppe mit Vollkornnudeln und etwas Käse mischen.',
   tipp:'Kesäkeitto schmeckt am besten im Juni und Juli mit jungem Gemüse, außerhalb der Saison passt TK-Gemüse.'
 },

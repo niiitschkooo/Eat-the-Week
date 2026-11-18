@@ -24,7 +24,7 @@ RECIPES.push(
     'Kinderportion ohne Salz und Chili abnehmen und den Fisch sorgfältig entgräten. Erwachsene Reis, Gemüse und Fisch mit Salz und nach Wunsch Chiliflocken würzen und mit der restlichen Brühe beträufeln.'
   ],
   kidName:'Fisch-Reis mit weichem Gemüse',
-  kid:'Fisch gründlich entgräten und zerpflücken, Karotten und Kohl sehr weich und klein geschnitten zum Reis geben. Ohne Salz und Chili.',
+  kid:'Fisch gründlich entgräten und zerpflücken. Die sehr weichen Karotten und den Kohl klein schneiden. Fisch und Gemüse zum Reis geben. Ohne Salz und Chili.',
   leftover:'Thiéb-Pfanne · 10 Min. – Reis und Gemüse mit etwas Brühe in der Pfanne vollständig durcherhitzen.',
   tipp:'Im Senegal wird Thieboudienne mit Bruchreis gekocht, er nimmt die Tomatenbrühe besonders gut auf.'
 },
@@ -52,7 +52,7 @@ RECIPES.push(
     'Kinderportion ohne Salz und Chili abnehmen und den Fisch entgräten. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen und über den Reis geben.'
   ],
   kidName:'Okra-Fisch-Reis',
-  kid:'Fisch entgräten und zerpflücken, Okra sehr weich kochen und fein schneiden, dann alles unter den Reis mischen. Ohne Salz und Chili.',
+  kid:'Fisch entgräten und zerpflücken, Okra sehr weich kochen und fein schneiden, dann Fisch und Okra unter den Reis mischen. Ohne Salz und Chili.',
   tipp:'Im Original kommen rotes Palmöl und getrockneter Fisch hinein, diese Variante ist milder und leichter.'
 },
 {
@@ -101,7 +101,7 @@ RECIPES.push(
   ],
   steps:[
     'Ofen auf 200 °C vorheizen. Süßkartoffel und Karotte in 2 cm Würfel schneiden, mit der Hälfte des Öls mischen und 12 Minuten backen.',
-    'Lachs mit der Hälfte des Zitronensafts und dem Senf einreiben, aufs Blech legen und alles weitere 12 bis 14 Minuten backen, bis der Fisch gerade durch ist.',
+    'Lachs mit der Hälfte des Zitronensafts und dem Senf einreiben, aufs Blech legen und Lachs und Gemüse zusammen weitere 12 bis 14 Minuten backen, bis der Fisch gerade durch ist.',
     'Inzwischen die Zwiebel in feine Streifen schneiden und im restlichen Öl mit dem Lorbeerblatt 15 Minuten bei mittlerer Hitze weich und goldgelb schmoren, dann mit 3 EL Wasser und dem restlichen Zitronensaft ablöschen.',
     'Kinderportion ohne Salz und Chili abnehmen und den Fisch entgräten. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen und die Zwiebelsoße über den Fisch geben.'
   ],
@@ -133,7 +133,7 @@ RECIPES.push(
     'Kinderportion ohne Salz und Chili abnehmen. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen und mit dem Reis servieren.'
   ],
   kidName:'Zitronen-Hähnchen mit Reis',
-  kid:'Hähnchen fein zerzupfen, die weich geschmorten Zwiebeln klein schneiden und mit der Soße unter den Reis mischen. Ohne Salz und Chili.',
+  kid:'Hähnchen fein zerzupfen und die weich geschmorten Zwiebeln klein schneiden. Beides mit der Soße unter den Reis mischen. Ohne Salz und Chili.',
   leftover:'Yassa-Wrap · 8 Min. – Hähnchen und Zwiebeln vollständig erhitzen und in ein Fladenbrot rollen.',
   tipp:'Die Zwiebeln langsam schmoren, bis sie süß und weich sind, dann braucht die Soße kaum Salz.'
 },
@@ -187,7 +187,7 @@ RECIPES.push(
     'Kinderportion ohne Salz und Chili abnehmen. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen und mit Tomate und Gurke im Fladenbrot servieren.'
   ],
   kidName:'Lamm-Stückchen im Fladenbrot',
-  kid:'Lamm sehr klein schneiden, die weichen Zwiebeln fein hacken und mit Gurke in weichem Fladenbrot anbieten. Ohne Salz und Chili.',
+  kid:'Lamm sehr klein schneiden und die weichen Zwiebeln fein hacken. Beides mit Gurke in weichem Fladenbrot anbieten. Ohne Salz und Chili.',
   tipp:'Im Senegal wird Dibi am Straßengrill über Holzkohle gebraten und auf Papier mit Senfzwiebeln serviert.'
 },
 {
@@ -214,7 +214,7 @@ RECIPES.push(
     'Kinderportion ohne Salz und Chili abnehmen. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen und die Soße über den Couscous geben.'
   ],
   kidName:'Couscous mit Hähnchen-Kürbis',
-  kid:'Hähnchen fein zerzupfen, Kürbis und Karotten weich zerdrücken und mit Couscous und etwas Soße mischen. Ohne Salz und Chili.',
+  kid:'Hähnchen fein zerzupfen, Kürbis und Karotten weich zerdrücken. Hähnchen und Gemüse mit Couscous und etwas Soße mischen. Ohne Salz und Chili.',
   leftover:'Couscous-Pfanne · 8 Min. – Couscous und Soße zusammen in der Pfanne vollständig erhitzen.',
   tipp:'Im Senegal wird Thiéré aus Hirse gedämpft, Vollkorn-Couscous ist der schnelle Ersatz und gart ohne Kochen.'
 },
@@ -269,7 +269,7 @@ RECIPES.push(
     'Lorbeerblatt entfernen. Kinderportion ohne Salz und Chili abnehmen, Erwachsene mit Salz und nach Wunsch Chiliflocken würzen.'
   ],
   kidName:'Fleisch-Reis mit Erbsen',
-  kid:'Rindfleisch sehr fein schneiden, die weichen Zwiebeln klein hacken und mit Reis und angedrückten Erbsen mischen. Ohne Salz und Chili.',
+  kid:'Rindfleisch sehr fein schneiden und die weichen Zwiebeln klein hacken. Beides mit Reis und angedrückten Erbsen mischen. Ohne Salz und Chili.',
   tipp:'Thiébou Yapp ist ein Festessen zu Tabaski, im Original mit Lamm und reichlich Zwiebelsoße.'
 },
 {
@@ -290,7 +290,7 @@ RECIPES.push(
   steps:[
     'Zwiebel und Knoblauch würfeln und in Öl 3 Minuten dünsten. Süßkartoffel in 1 cm Würfel schneiden.',
     'Süßkartoffel, Tomaten, abgespülte Bohnen und 100 ml Wasser zugeben und zugedeckt 10 Minuten köcheln, bis die Würfel weich sind.',
-    'Etwa ein Drittel mit dem Löffel zerdrücken, damit der Eintopf sämig wird.',
+    'Etwa ein Drittel des Eintopfs mit dem Löffel zerdrücken, damit er sämig wird.',
     'Kinderportion ohne Salz und Chili abnehmen. Erwachsene mit Salz und nach Wunsch Chiliflocken würzen und mit Brot servieren.'
   ],
   kidName:'Bohnen-Süßkartoffel-Mus',

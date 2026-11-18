@@ -79,7 +79,7 @@ RECIPES.push(
     'Kinderportion abnehmen und den Fisch auf Gräten prüfen. Erwachsene schmecken das Gemüse mit Sojasauce ab und geben es über den Fisch.'
   ],
   kidName:'Lachs mit weichem Gemüse',
-  kid:'Lachs entgräten und zerpflücken, Paprika und Pilze weich gebraten klein schneiden und mit Reis mischen. Ingwerstifte für das Kind herauslesen.',
+  kid:'Lachs entgräten und zerpflücken, Paprika und Pilze weich gebraten klein schneiden. Ingwerstifte für das Kind herauslesen. Lachs und Gemüse mit Reis mischen.',
   leftover:'Lachs-Reis-Bowl · 8 Min. – Reste vollständig erhitzen und mit Gurke und Kräutern als Bowl anrichten.',
   tipp:'In Kambodscha wird oft ein ganzer Fisch frittiert, gebratenes Filet kommt mit einem Bruchteil des Öls aus.'
 },

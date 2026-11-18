@@ -75,7 +75,7 @@ RECIPES.push(
   steps:[
     'Reis aufsetzen und in 25 Minuten garen. Haferflocken mit 2 EL Wasser quellen lassen und mit Putenhack zu einer glatten Masse verrühren.',
     'Brühe aufkochen, mit zwei Teelöffeln kleine Bällchen abstechen und 8 bis 10 Minuten darin gar ziehen lassen, bis sie innen durchgegart sind, dann herausnehmen.',
-    'Zwiebel und Lauch in Ringe, Apfel in Würfel schneiden und mit Currypulver in der Brühe 6 Minuten weich köcheln. Milch mit Speisestärke verrühren, einrühren und 2 Minuten sämig kochen.',
+    'Zwiebel und Lauch in Ringe, Apfel in Würfel schneiden. Alle drei mit Currypulver in der Brühe 6 Minuten weich köcheln. Milch mit Speisestärke verrühren, einrühren und 2 Minuten sämig kochen.',
     'Bällchen zurück in die Sauce geben. Kinderportion ohne Salz abnehmen, Erwachsene mit Salz abschmecken und mit Reis servieren.'
   ],
   kidName:'Mini-Boller mit Reis',
@@ -130,7 +130,7 @@ RECIPES.push(
   ],
   steps:[
     'Fleisch in 2 cm große Würfel schneiden und in Öl rundum anbraten, Zwiebelwürfel kurz mitbraten.',
-    'Brühe, Lorbeer und Pfefferkörner im Teesieb zugeben und zugedeckt 50 Minuten leise köcheln (Slow Cooker: alles zusammen 6 Stunden auf niedriger Stufe).',
+    'Pfefferkörner in ein Teesieb füllen. Brühe, Lorbeer und Teesieb zugeben und zugedeckt 50 Minuten leise köcheln (Slow Cooker: alles zusammen 6 Stunden auf niedriger Stufe).',
     'Kartoffeln und Karotten würfeln, zugeben und weitere 30 Minuten köcheln, bis die Kartoffeln zerfallen und den Eintopf sämig binden. Dabei gelegentlich umrühren.',
     'Lorbeer und Teesieb entfernen. Kinderportion ohne Salz abnehmen, Erwachsene mit Salz abschmecken und mit Schnittlauch und Rote-Bete-Würfeln servieren.'
   ],
@@ -212,7 +212,7 @@ RECIPES.push(
   steps:[
     'Kartoffeln halbieren und in 15 Minuten weich kochen, Erbsen in den letzten 4 Minuten dazugeben.',
     'Schollenfilets trocken tupfen und dünn in Roggenmehl wenden.',
-    'In Öl bei mittlerer Hitze von jeder Seite 2 bis 3 Minuten goldbraun braten, bis der Fisch weiß und durchgegart ist. Gurke in Scheiben schneiden.',
+    'Schollenfilets in Öl bei mittlerer Hitze von jeder Seite 2 bis 3 Minuten goldbraun braten, bis der Fisch weiß und durchgegart ist. Gurke in Scheiben schneiden.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz, Zitrone und Petersilie servieren.'
   ],
   kidName:'Scholle mit Erbsenkartoffeln',
@@ -243,7 +243,7 @@ RECIPES.push(
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und Pfeffer abschmecken und mit Reis servieren.'
   ],
   kidName:'Fisch-Gemüse-Reis',
-  kid:'Fisch auf Gräten prüfen und zerpflücken, Gemüse weich gegart klein schneiden und mit Reis und Sauce mischen. Ohne Salz.',
+  kid:'Fisch auf Gräten prüfen und zerpflücken, Gemüse weich gegart klein schneiden. Fisch und Gemüse mit Reis und Sauce mischen. Ohne Salz.',
   leftover:'Fisch-Reis-Pfanne · 8 Min. – Reste vorsichtig in der Pfanne erhitzen, bis alles vollständig heiß ist.',
   tipp:'Das Gemüse lässt sich nach Saison tauschen, im Sommer passen Zucchini und Kirschtomaten, im Winter Lauch und Karotten.'
 },
@@ -401,7 +401,7 @@ RECIPES.push(
   ],
   steps:[
     'Erbsen in einem Sieb gründlich spülen, mit Brühe und Thymian aufkochen, abschäumen und zugedeckt 30 Minuten köcheln.',
-    'Kartoffeln, Karotten und Sellerie würfeln, Lauch in Ringe schneiden, zugeben und weitere 30 Minuten köcheln, bis die Erbsen zerfallen (Slow Cooker: alles zusammen 7 Stunden auf niedriger Stufe).',
+    'Kartoffeln, Karotten und Sellerie würfeln, Lauch in Ringe schneiden. Das ganze Gemüse zugeben und weitere 30 Minuten köcheln, bis die Erbsen zerfallen (Slow Cooker: alles zusammen 7 Stunden auf niedriger Stufe).',
     'Suppe kräftig umrühren, damit sie sämig wird, bei Bedarf etwas Wasser nachgießen.',
     'Kinderportion ohne Salz abnehmen. Erwachsene mit Salz und Pfeffer abschmecken und mit Roggenvollkornbrot und Senf servieren.'
   ],

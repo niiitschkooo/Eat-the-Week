@@ -18,7 +18,7 @@ RECIPES.push(
     {n:'Kurkuma',q:0.25,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Hähnchen in Stücke schneiden und in der großen Pfanne in Öl 6 Minuten rundum goldbraun braten. Grüne Bohnen in Stücke und Paprika in Streifen schneiden und 3 Minuten mitbraten.',
+    'Hähnchen in Stücke schneiden und in der großen Pfanne in Öl 6 Minuten rundum goldbraun braten. Grüne Bohnen in Stücke und Paprika in Streifen schneiden, beides 3 Minuten mitbraten.',
     'Tomate reiben oder fein würfeln, mit Paprikapulver und Kurkuma zugeben und 2 Minuten einkochen.',
     'Reis gleichmäßig einstreuen, heiße Brühe angießen und die abgespülten weißen Bohnen verteilen. Ohne Rühren 18 bis 20 Minuten bei mittlerer Hitze garen, bis der Reis weich und die Flüssigkeit aufgesogen ist.',
     'Vom Herd nehmen und 5 Minuten mit einem Tuch bedeckt ruhen lassen.',
@@ -246,7 +246,7 @@ RECIPES.push(
   ],
   steps:[
     'Reis in der doppelten Menge Wasser aufsetzen und zugedeckt 15 Minuten garen.',
-    'Zwiebel, Knoblauch und Paprika klein schneiden und in Öl 10 Minuten bei mittlerer Hitze weich schmoren. Paprikapulver und passierte Tomaten zugeben, 3 Minuten köcheln und fein pürieren.',
+    'Zwiebel, Knoblauch und Paprika klein schneiden und in Öl 10 Minuten bei mittlerer Hitze weich schmoren. Paprikapulver und passierte Tomaten zugeben, 3 Minuten köcheln und die Soße fein pürieren.',
     'Kabeljau in Stücke schneiden, in die Soße legen und zugedeckt 7 bis 8 Minuten gar ziehen lassen, bis er innen weiß ist.',
     'Kinderportion abnehmen, den Fisch auf Gräten prüfen und zerpflücken. Erwachsene mit Salz, Pfeffer und etwas Chili würzen.'
   ],
@@ -273,7 +273,7 @@ RECIPES.push(
     {n:'Paprikapulver, edelsüß',q:0.5,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Eine halbe Brotscheibe würfeln und mit dem Knoblauch in Öl 2 Minuten rösten. Mit Kreuzkümmel, Paprikapulver und 2 EL Wasser fein zerdrücken oder pürieren.',
+    'Eine halbe Brotscheibe würfeln und mit dem Knoblauch in Öl 2 Minuten rösten. Brot und Knoblauch mit Kreuzkümmel, Paprikapulver und 2 EL Wasser fein zerdrücken oder pürieren.',
     'Zwiebel fein würfeln und in der Pfanne 3 Minuten dünsten. Spinat zugeben und zusammenfallen lassen.',
     'Kichererbsen abspülen und mit passierten Tomaten und der Brot-Gewürz-Paste zugeben. 5 Minuten sämig köcheln.',
     'Kinderportion ohne Salz abnehmen und die Kichererbsen zerdrücken. Erwachsene mit Salz und Pfeffer abschmecken, dazu das restliche Brot.'
@@ -360,9 +360,9 @@ RECIPES.push(
     {n:'Kurkuma',q:0.25,u:'TL',c:'gewuerz',p:true}
   ],
   steps:[
-    'Ofen auf 220 °C vorheizen. Kartoffeln in dünne Scheiben und Paprika in Würfel schneiden und in einer ofenfesten Pfanne in Öl 5 Minuten anbraten.',
+    'Ofen auf 220 °C vorheizen. Kartoffeln in dünne Scheiben und Paprika in Würfel schneiden. Beides in einer ofenfesten Pfanne in Öl 5 Minuten anbraten.',
     'Eine Tomate würfeln und mit gehacktem Knoblauch, Paprikapulver und Kurkuma 2 Minuten mitdünsten. Reis und abgespülte Kichererbsen unterrühren und mit heißer Brühe aufgießen.',
-    'Die halbe Tomate mit der Schnittfläche nach oben in die Mitte setzen. Im Ofen 25 bis 30 Minuten backen, bis der Reis weich und die Flüssigkeit aufgesogen ist.',
+    'Die übrige halbe Tomate mit der Schnittfläche nach oben in die Mitte setzen. Im Ofen 25 bis 30 Minuten backen, bis der Reis weich und die Flüssigkeit aufgesogen ist.',
     'Kinderportion ohne Salz abnehmen und die Kichererbsen zerdrücken. Erwachsene mit Salz und Pfeffer würzen.'
   ],
   nutri:{p:['Kichererbsen','Reis'],f:['Kichererbsen','Kartoffeln','Tomaten'],i:['Kichererbsen'],fat:['Olivenöl']},
